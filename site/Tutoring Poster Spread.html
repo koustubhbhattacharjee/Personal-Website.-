@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tutoring Poster — Spread</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:wght@400;700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0d0e12; --bg2:#15161d; --line:#2a2b35; --line-soft:#1f2029;
+    --off:#ece6da; --muted:#938d82; --muted2:#6c665d; --red:#c4422a; --red-soft:#dd7a5c;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:#05060a;}
+  body{min-height:100vh;display:flex;align-items:flex-start;justify-content:center;overflow:hidden;}
+  .scaler{transform-origin:top center;}
+
+  /* A3 landscape = two A4 portraits side by side : 1586 x 1123 px @96dpi */
+  .sheet{position:relative;width:1586px;height:1123px;overflow:hidden;background:var(--bg);
+    font-family:'Hanken Grotesk',system-ui,sans-serif;color:var(--off);-webkit-font-smoothing:antialiased;
+    display:flex;}
+  .caslon{font-family:'Libre Caslon Display','Libre Caslon Text',Georgia,serif;font-weight:400;}
+  .page{width:793px;height:100%;position:relative;display:flex;flex-direction:column;}
+
+  /* centre divider / fold */
+  .divider{position:absolute;left:793px;top:0;bottom:0;width:0;border-left:1px solid var(--line);z-index:5;}
+  .divider::before{content:"";position:absolute;left:-1px;top:50%;transform:translateY(-50%);
+    width:1px;height:120px;background:var(--red);opacity:.7;}
+
+  /* =================== LEFT PAGE : identity =================== */
+  .L{padding:52px 56px 46px;}
+  .mast{display:flex;justify-content:space-between;align-items:flex-end;}
+  .mast .wm{font-size:23px;letter-spacing:.005em;color:var(--off);white-space:nowrap;}
+  .mast .role{font-size:12px;color:var(--muted);margin-top:5px;font-weight:500;}
+  .mast .qual{font-size:12px;color:var(--red-soft);font-weight:500;text-align:right;line-height:1.5;}
+  .grule{height:1px;background:var(--red);opacity:.85;border:0;margin:15px 0 0;}
+
+  .hero{display:flex;gap:36px;align-items:flex-start;margin-top:0;}
+  .hero .ht{flex:1;}
+  .hero h1{font-size:50px;line-height:1.05;letter-spacing:-.005em;margin:0;color:var(--off);font-weight:400;}
+  .hero .sub{font-size:15px;line-height:1.5;color:var(--muted);margin:16px 0 0;max-width:430px;}
+  .hero .sub strong{color:var(--off);font-weight:600;}
+  .portrait{flex:0 0 168px;width:168px;height:220px;overflow:hidden;border:1px solid var(--red);}
+  .portrait img{width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;}
+
+  .mid{flex:1;display:flex;flex-direction:column;justify-content:center;}
+  .creds{margin-top:34px;padding-top:22px;border-top:1px solid var(--line);}
+  /* featured American-classroom credential */
+  .cred-lead{margin-bottom:24px;}
+  .cred-lead .lab{font-size:11px;color:var(--red-soft);font-weight:600;margin-bottom:10px;letter-spacing:.04em;text-transform:uppercase;}
+  .cred-lead .v{font-size:40px;line-height:1.0;color:var(--off);display:block;letter-spacing:-.01em;}
+  .cred-lead .s{font-size:16px;line-height:1.38;color:var(--off);margin-top:12px;display:block;}
+  .cred-lead .s b{color:var(--red-soft);font-weight:600;}
+  .degrees{display:grid;grid-template-columns:1fr 1fr;gap:30px;}
+  .cl .lab{font-size:11px;color:var(--red-soft);font-weight:600;margin-bottom:10px;letter-spacing:.02em;}
+  .cl .v{font-size:24px;line-height:1.1;color:var(--off);display:block;}
+  .cl .v small{font-size:15px;color:var(--muted);font-style:italic;}
+  .cl .s{font-size:12.5px;line-height:1.32;color:var(--muted);margin-top:10px;display:block;}
+
+  .vals{margin-top:48px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:30px;}
+  .v3 h4{font-size:19px;font-weight:400;margin:0 0 7px;color:var(--off);}
+  .v3 p{font-size:13px;line-height:1.5;color:var(--muted);margin:0;}
+
+  /* testimonials */
+  .quotes{margin-top:26px;padding-top:20px;border-top:1px solid var(--line);
+    display:grid;grid-template-columns:1.05fr 1fr;grid-auto-rows:min-content;gap:18px 40px;align-items:start;}
+  .q{display:flex;flex-direction:column;}
+  .q.big{grid-column:1;grid-row:1 / span 2;}
+  .q .stars{font-size:11px;letter-spacing:.16em;color:var(--red);margin-bottom:9px;}
+  .q blockquote{margin:0;font-family:'Libre Caslon Text',Georgia,serif;font-size:12px;line-height:1.44;color:var(--off);}
+  .q.big blockquote{font-size:12.5px;line-height:1.48;}
+  .q .by{margin-top:11px;font-size:9.5px;color:var(--muted2);font-weight:600;letter-spacing:.04em;text-transform:uppercase;line-height:1.4;}
+
+  .lfoot{margin-top:0;}
+  .lfoot .gline{height:1px;background:var(--red);opacity:.85;border:0;margin-bottom:22px;}
+  .botgrid{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;}
+  .subj{max-width:420px;}
+  .subj .lab{font-size:11px;color:var(--red-soft);font-weight:600;margin-bottom:8px;}
+  .subj .txt{font-size:14.5px;line-height:1.5;color:var(--off);}
+  .num{text-align:right;flex:0 0 auto;}
+  .num .lab{font-size:11px;color:var(--red-soft);font-weight:600;margin-bottom:7px;}
+  .num .v{font-size:29px;color:var(--off);letter-spacing:.01em;font-family:'Libre Caslon Text',Georgia,serif;}
+  .num .cta{font-size:12.5px;color:var(--muted);margin-top:8px;font-weight:500;}
+
+  /* =================== RIGHT PAGE : the system =================== */
+  .R{padding:52px 56px 46px;background:var(--bg2);}
+  .figlab{display:inline-flex;align-items:center;gap:8px;
+    font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--red-soft);}
+  .figlab .dot{width:6px;height:6px;background:var(--red);border-radius:50%;}
+  .R h2{font-size:34px;line-height:1.06;letter-spacing:-.005em;margin:13px 0 0;color:var(--off);font-weight:400;}
+  .R .lede{font-size:13.5px;line-height:1.5;color:var(--muted);margin:11px 0 0;max-width:560px;}
+  .R .lede b{color:var(--off);font-weight:600;}
+
+  .figs{flex:1;display:flex;flex-direction:column;justify-content:center;gap:40px;}
+  .fig{display:flex;flex-direction:column;align-items:center;}
+  .fcap{font-size:13.5px;line-height:1.45;color:var(--muted);margin-bottom:16px;display:flex;gap:10px;align-items:baseline;align-self:stretch;}
+  .fcap .n{font-family:'Libre Caslon Text',Georgia,serif;font-size:15px;color:var(--red-soft);flex:0 0 auto;}
+  .fcap b{color:var(--off);font-weight:600;}
+
+  /* flat screen / monitor (no 3D) */
+  .screen{position:relative;background:#08090d;border:1px solid rgba(236,230,218,.22);
+    border-radius:13px;padding:9px;
+    box-shadow:0 16px 34px -16px rgba(0,0,0,.85),0 10px 46px -24px rgba(196,66,42,.26);}
+  .screenframe{position:relative;line-height:0;}
+  .screenframe img{display:block;border-radius:3px;}
+  .neck{width:60px;height:12px;background:linear-gradient(#21222a,#15161d);}
+  .foot{width:148px;height:9px;background:linear-gradient(#26272f,#13141a);
+    border-radius:2px 2px 6px 6px;box-shadow:0 9px 15px -8px rgba(0,0,0,.7);}
+  .ov{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;}
+  .ov path,.ov line{fill:none;stroke:var(--red);}
+  .ov circle{fill:var(--red);}
+  .ov text{font-family:'Hanken Grotesk',sans-serif;font-weight:600;text-transform:uppercase;fill:var(--red-soft);}
+
+  @media print{
+    @page{size:A3 landscape;margin:0;}
+    html,body{background:#fff;}
+    body{display:block;overflow:visible;}
+    .scaler{transform:none !important;}
+    .sheet{box-shadow:none;}
+    *{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  }
+</style>
+</head>
+<body>
+<div class="scaler">
+<div class="sheet">
+
+  <!-- ===================== LEFT : IDENTITY ===================== -->
+  <section class="page L">
+    <div class="mast">
+      <div class="mleft">
+        <div class="wm caslon">Koustubh Bhattacharjee</div>
+        <div class="role">Physics &amp; Mathematics Tutor</div>
+      </div>
+      <div class="qual">One&#8209;to&#8209;one tutoring<br>AP &middot; SAT &middot; Honors</div>
+    </div>
+    <hr class="grule">
+
+    <div class="mid">
+    <div class="hero">
+      <div class="ht">
+        <h1 class="caslon">Classroom rigour.<br>One&#8209;to&#8209;one focus.</h1>
+        <p class="sub">A Physics and Astrophysics postgraduate and US high&#8209;school physics teacher. <strong>Incredibly data&#8209;driven and curriculum&#8209;aligned</strong>: every lesson is paced to your student's course and AP &amp; SAT goals, with a full report after each session.</p>
+      </div>
+      <div class="portrait"><img src="assets/portrait-warm.jpg" alt="Koustubh Bhattacharjee"></div>
+    </div>
+
+    <div class="creds">
+      <div class="cred-lead">
+        <div class="lab">Classroom &middot; United States</div>
+        <span class="v caslon">Lead Physics Teacher</span>
+        <span class="s">Two years teaching at <b>KIPP DC College Prep, Washington DC</b>. Real American classroom experience, now one&#8209;to&#8209;one.</span>
+      </div>
+      <div class="degrees">
+        <div class="cl"><div class="lab">Education</div><span class="v caslon">MS Physics <small>(PhD ABD)</small></span><span class="s">University of Texas at Dallas, TX, USA</span></div>
+        <div class="cl"><div class="lab">Education</div><span class="v caslon">MS Astrophysics</span><span class="s">IIST, affiliated with the Indian Space Research Organisation</span></div>
+      </div>
+    </div>
+
+    <div class="quotes">
+      <div class="q big">
+        <div class="stars" aria-label="5 out of 5">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>&ldquo;I was a little hesitant when we first started classes for my son with Mr. Koustubh, as I wasn't sure how well it would align with his learning pace and style. My son is an independent learner who typically prefers to work through concepts on his own and rarely seeks help from others. However, as the subjects became more complex, Mr. K took the time to understand his strengths, support him through challenges, and provide guidance whenever it was needed. I truly appreciate all of Mr. K's efforts, dedication, and willingness to help. His guidance and support has created a positive impact on my son's studies.&rdquo;</blockquote>
+        <div class="by">Lakshmi &middot; AP Physics C, AP Calc BC &middot; Seattle, WA, US</div>
+      </div>
+      <div class="q">
+        <div class="stars" aria-label="5 out of 5">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>&ldquo;Koustubh has been amazing, great with concepts, deep dives into the subject and nudges the kids in the right direction relentlessly. The remarkable difference I have seen is that she went from fear to love for physics, and that to me is a mark of a great teacher. He made her do tests from time to time and, most importantly, what I liked the most is he taught her what she needed to, way more than what we asked. I would recommend him any day for math and/or physics AP classes.&rdquo;</blockquote>
+        <div class="by">Sree &middot; AP Physics 1 &middot; Atlanta, GA, USA</div>
+      </div>
+      <div class="q">
+        <div class="stars" aria-label="5 out of 5">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>&ldquo;Thank you for being such an incredible physics tutor! My son actually looks forward to Koustubh's sessions. Highly recommended!&rdquo;</blockquote>
+        <div class="by">Kamlesh &middot; AP Physics 1 &middot; Connecticut, US</div>
+      </div>
+    </div>
+    </div><!-- /mid -->
+
+    <div class="lfoot">
+      <hr class="gline">
+      <div class="botgrid">
+        <div class="subj">
+          <div class="lab">Subjects &amp; levels</div>
+          <div class="txt">AP Physics 1, 2 &amp; C · AP Calculus AB/BC · SAT Math · Honors &amp; Regents Physics · Pre&#8209;Calculus.</div>
+        </div>
+        <div class="num">
+          <div class="lab">WhatsApp / Call</div>
+          <div class="v">+1&nbsp;240&nbsp;591&nbsp;2587</div>
+          <div class="cta">Book a free first session</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ===================== RIGHT : THE SYSTEM ===================== -->
+  <section class="page R">
+    <div class="figlab"><span class="dot"></span>Scholar &middot; my tutoring app</div>
+    <h2 class="caslon">The system behind<br>every lesson.</h2>
+    <p class="lede">Built myself and aligned to your course: <b>every question is placed in the curriculum</b>, practiced on a timer, and worked through on a built&#8209;in scratchpad.</p>
+
+    <div class="figs">
+
+      <!-- LEAD : the app overview, in a screen -->
+      <div class="fig">
+        <div class="fcap"><span class="n">01</span><span><b>The student's home screen.</b> Every subject, the day's work, flashcards and weak spots, in one place.</span></div>
+        <div class="screen">
+          <div class="screenframe">
+            <img src="assets/dash-annot.png" width="548" alt="The Scholar dashboard overview">
+          </div>
+        </div>
+        <div class="neck"></div>
+        <div class="foot"></div>
+      </div>
+
+      <!-- FIGURE 1 : dashboard anatomy -->
+
+      <!-- FIGURE 2 : timed assessment -->
+      <div class="fig figlabels">
+        <div class="fcap"><span class="n">02</span><span><b>Timed practice, with a built&#8209;in scratchpad.</b> Diagnostic assessments the student works through by hand, on the clock.</span></div>
+        <div class="screen">
+          <div class="screenframe" style="width:476px;">
+            <img src="assets/assessment.png" width="476" alt="A timed Scholar assessment with a question and a drawing scratchpad">
+            <svg class="ov" viewBox="0 0 1865 927" preserveAspectRatio="none">
+              <g font-size="52" letter-spacing="2.5" stroke-width="5.5">
+                <!-- Timer (points right to 09:21) -->
+                <circle cx="967" cy="40" r="10" stroke="none"></circle>
+                <path d="M1014,40 H1150"></path>
+                <text x="1166" y="52" text-anchor="start">Timer</text>
+                <!-- Question -->
+                <circle cx="300" cy="262" r="10" stroke="none"></circle>
+                <path d="M300,262 H-30"></path>
+                <text x="-46" y="274" text-anchor="end">Question</text>
+                <!-- Drawing area -->
+                <circle cx="1290" cy="520" r="10" stroke="none"></circle>
+                <path d="M1290,520 H1908"></path>
+                <text x="1924" y="512" text-anchor="start">Drawing</text>
+                <text x="1924" y="560" text-anchor="start">area</text>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</div>
+</div>
+
+<script>
+  function fit(){
+    var pad = 24;
+    var sc = Math.min((window.innerWidth - pad)/1586, (window.innerHeight - pad)/1123);
+    document.querySelector('.scaler').style.transform = 'scale(' + sc + ')';
+  }
+  window.addEventListener('resize', fit);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+  window.addEventListener('load', fit);
+  fit();
+</script>
+</body>
+</html>

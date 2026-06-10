@@ -1,0 +1,379 @@
+{
+  "comment": "Bbox manifest for the 31 u2 questions whose stems reference a figure but had no image stored. Bboxes are normalized [x0,y0,x1,y1] of WORKBOOK 1 FULL (1).pdf pages, top-left origin. Estimated from 150-DPI renders.",
+  "subject_slug": "ap-physics-1",
+  "pdf": "data/AP Physics 1/WORKBOOK 1 FULL (1).pdf",
+  "entries": [
+    {
+      "source_id": "q_d6",
+      "page": 42,
+      "bbox": [
+        0.62,
+        0.04,
+        0.86,
+        0.14
+      ],
+      "alt": "Block W on horizontal surface, force F at angle theta above the horizontal",
+      "caption": "Block pulled by F at angle"
+    },
+    {
+      "source_id": "q_d7",
+      "page": 42,
+      "bbox": [
+        0.55,
+        0.3,
+        0.78,
+        0.52
+      ],
+      "alt": "Hook supporting a uniform rope of weight 50 N with a 100 N box hanging from the rope's lower end",
+      "caption": "Rope hanging from hook with box"
+    },
+    {
+      "source_id": "q_d8",
+      "page": 42,
+      "bbox": [
+        0.4,
+        0.55,
+        0.78,
+        0.74
+      ],
+      "alt": "Symmetric massless string supporting weight W from both sides at angle to the horizontal",
+      "caption": "Object W suspended from V-shaped string"
+    },
+    {
+      "source_id": "q_d9",
+      "page": 42,
+      "bbox": [
+        0.4,
+        0.78,
+        0.86,
+        0.96
+      ],
+      "alt": "Block of mass 3m on a frictionless horizontal table connected over a pulley at the table edge to a hanging block of mass m",
+      "caption": "Two-block frictionless table-and-pulley setup"
+    },
+    {
+      "source_id": "q_d10",
+      "page": 43,
+      "bbox": [
+        0.65,
+        0.03,
+        0.95,
+        0.18
+      ],
+      "alt": "Inclined plane 5 m long at 37° with a block of weight 20 N on the surface",
+      "caption": "Block on 37° incline"
+    },
+    {
+      "source_id": "q_d13",
+      "page": 43,
+      "bbox": [
+        0.4,
+        0.5,
+        0.62,
+        0.7
+      ],
+      "alt": "Box of weight 30 N hanging vertically from a rope",
+      "caption": "Block hanging from a rope, Weight = 30 N"
+    },
+    {
+      "source_id": "q_d16",
+      "page": 44,
+      "bbox": [
+        0.5,
+        0.19,
+        0.88,
+        0.34
+      ],
+      "alt": "Cart of mass 10 kg on a level surface with a 30 N force at 60° above horizontal and a separate 10 N horizontal force",
+      "caption": "Cart with 30 N at 60° and 10 N forces"
+    },
+    {
+      "source_id": "q_d18",
+      "page": 44,
+      "bbox": [
+        0.42,
+        0.62,
+        0.66,
+        0.8
+      ],
+      "alt": "Speed-versus-time parabola opening upward from the origin",
+      "caption": "Parabolic v vs t graph"
+    },
+    {
+      "source_id": "q_d19",
+      "page": 45,
+      "bbox": [
+        0.6,
+        0.04,
+        0.85,
+        0.16
+      ],
+      "alt": "Ball moving horizontally with velocity v_i and a smaller vertical velocity v_y after being struck by a stick",
+      "caption": "Ball before-and-after stick strike"
+    },
+    {
+      "source_id": "q_d20",
+      "page": 45,
+      "bbox": [
+        0.4,
+        0.32,
+        0.62,
+        0.5
+      ],
+      "alt": "Two parallel massless springs of constants k1 and k2 hung from a horizontal support with a 12 N block hanging below",
+      "caption": "Two-spring parallel hanging weight"
+    },
+    {
+      "source_id": "q_d21",
+      "page": 45,
+      "bbox": [
+        0.3,
+        0.58,
+        0.72,
+        0.72
+      ],
+      "alt": "Parabolic projectile trajectory with point Q at the highest position",
+      "caption": "Projectile parabolic path with Q at apex"
+    },
+    {
+      "source_id": "q_d22",
+      "page": 45,
+      "bbox": [
+        0.55,
+        0.85,
+        0.85,
+        0.96
+      ],
+      "alt": "Block of mass m on a rough horizontal surface pulled by a force F at an angle above horizontal",
+      "caption": "Block pulled by F at an angle on rough surface"
+    },
+    {
+      "source_id": "q_d23",
+      "page": 46,
+      "bbox": [
+        0.18,
+        0.03,
+        0.86,
+        0.1
+      ],
+      "alt": "Three blocks of masses 3m, 2m, m connected in a row by strings A, B, C and pulled along a horizontal surface",
+      "caption": "Three blocks connected by strings A, B, C"
+    },
+    {
+      "source_id": "q_d24",
+      "page": 46,
+      "bbox": [
+        0.4,
+        0.2,
+        0.85,
+        0.4
+      ],
+      "alt": "Force-vs-time graph for a 3 kg block initially at rest on a frictionless horizontal surface",
+      "caption": "Force-vs-time graph for the block"
+    },
+    {
+      "source_id": "q_d25",
+      "page": 46,
+      "bbox": [
+        0.5,
+        0.46,
+        0.86,
+        0.58
+      ],
+      "alt": "Student pulling a wooden box at constant speed across a rough horizontal floor by a force P inclined above horizontal",
+      "caption": "Student dragging box with force P"
+    },
+    {
+      "source_id": "q_d26",
+      "page": 46,
+      "bbox": [
+        0.5,
+        0.62,
+        0.86,
+        0.74
+      ],
+      "alt": "10.0 kg box sliding right along a floor with a 10 N horizontal force applied",
+      "caption": "10 kg box with 10 N force"
+    },
+    {
+      "source_id": "q_d27",
+      "page": 46,
+      "bbox": [
+        0.18,
+        0.83,
+        0.66,
+        0.96
+      ],
+      "alt": "Four diagrams (A)(B)(C)(D) of strings holding equal masses in different configurations",
+      "caption": "Four string-and-mass configurations"
+    },
+    {
+      "source_id": "q_d31",
+      "page": 47,
+      "bbox": [
+        0.5,
+        0.4,
+        0.85,
+        0.55
+      ],
+      "alt": "Wooden box pulled across a horizontal steel plate; comparison of frictional behaviour on different surfaces",
+      "caption": "Box on steel plate"
+    },
+    {
+      "source_id": "q_d32",
+      "page": 47,
+      "bbox": [
+        0.18,
+        0.55,
+        0.45,
+        0.8
+      ],
+      "alt": "Graph of mass of rubber stoppers versus their resulting weight",
+      "caption": "Mass-vs-weight graph for rubber stoppers"
+    },
+    {
+      "source_id": "q_d33",
+      "page": 47,
+      "bbox": [
+        0.55,
+        0.93,
+        0.85,
+        1
+      ],
+      "alt": "Mass m1 sliding on a frictionless horizontal surface connected by a cord over a pulley to mass m2 on an inclined plane",
+      "caption": "Two masses, one sliding and one on incline"
+    },
+    {
+      "source_id": "q_d35",
+      "page": 48,
+      "bbox": [
+        0.5,
+        0.27,
+        0.78,
+        0.42
+      ],
+      "alt": "Small box of mass m placed on top of a larger box of mass 2m with a horizontal force F applied to the larger box",
+      "caption": "Stacked boxes with applied force F"
+    },
+    {
+      "source_id": "q_d36",
+      "page": 48,
+      "bbox": [
+        0.5,
+        0.56,
+        0.78,
+        0.74
+      ],
+      "alt": "6.0 kg block held against a vertical wall by a 100 N horizontal force",
+      "caption": "Block pushed against wall"
+    },
+    {
+      "source_id": "q_d37",
+      "page": 48,
+      "bbox": [
+        0.5,
+        0.78,
+        0.82,
+        0.94
+      ],
+      "alt": "Homeowner pushing a lawn mower at constant speed over horizontal grass with force P along the handle",
+      "caption": "Pushing a lawn mower"
+    },
+    {
+      "source_id": "q_d42",
+      "page": 49,
+      "bbox": [
+        0.55,
+        0.27,
+        0.8,
+        0.42
+      ],
+      "alt": "Two identical blocks of weight W stacked on top of each other on a horizontal surface",
+      "caption": "Stacked identical blocks"
+    },
+    {
+      "source_id": "q_d43",
+      "page": 49,
+      "bbox": [
+        0.55,
+        0.5,
+        0.86,
+        0.64
+      ],
+      "alt": "Block of mass m held on an inclined plane by a force F directed up the slope",
+      "caption": "Force F holding block on incline"
+    },
+    {
+      "source_id": "q_d45",
+      "page": 49,
+      "bbox": [
+        0.4,
+        0.83,
+        0.8,
+        0.95
+      ],
+      "alt": "Three masses arranged with a large block on a surface and two blocks connected by a string over a pulley",
+      "caption": "Three-mass pulley diagram"
+    },
+    {
+      "source_id": "q_d50",
+      "page": 50,
+      "bbox": [
+        0.1,
+        0.55,
+        0.86,
+        0.78
+      ],
+      "alt": "Four diagrams (A)(B)(C)(D) each showing two weights connected by a massless string over a massless frictionless pulley",
+      "caption": "Four pulley configurations"
+    },
+    {
+      "source_id": "q_d51",
+      "page": 51,
+      "bbox": [
+        0.4,
+        0.04,
+        0.62,
+        0.2
+      ],
+      "alt": "Atwood machine: frictionless pulley with two boxes m and 2m attached to opposite ends of a string",
+      "caption": "Atwood machine with 2m and m"
+    },
+    {
+      "source_id": "q_d53",
+      "page": 51,
+      "bbox": [
+        0.4,
+        0.3,
+        0.65,
+        0.42
+      ],
+      "alt": "Block 1 stacked on top of Block 2; Block 2 connected by a light cord to Block 3 which is pulled along a frictionless surface by force F",
+      "caption": "Stacked blocks pulled by force F"
+    },
+    {
+      "source_id": "q_frq_1991B1",
+      "page": 72,
+      "bbox": [
+        0.18,
+        0.08,
+        0.86,
+        0.3
+      ],
+      "alt": "5.0 kg monkey hanging at rest from two 10 m vines A and B, making 30° and 60° with the horizontal respectively, with a trig values reference table to the right",
+      "caption": "Monkey suspended from two vines, with sin/cos/tan reference"
+    },
+    {
+      "source_id": "q_d54",
+      "page": 51,
+      "bbox": [
+        0.42,
+        0.5,
+        0.78,
+        0.6
+      ],
+      "alt": "Three blocks m3, m2, m1 in a row on a rough horizontal surface, pulled at constant velocity by a force F applied to the rightmost block",
+      "caption": "Three blocks sliding at constant velocity"
+    }
+  ]
+}

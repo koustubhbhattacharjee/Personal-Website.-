@@ -1,0 +1,292 @@
+{
+  "schema_version": "2.0",
+  "source_type": "textbook",
+  "source_label": "Pearson Edexcel Year 2 Pure",
+  "textbook_key": "pearson-9ma0-y2",
+  "overlay_key": "pearson-9ma0-full",
+  "subject": "9MA0",
+  "question_types": [
+    {
+      "title": "Exercise 9E — Standard Quotient Rule Application",
+      "section_ref": "9.5",
+      "unit_label": "Chapter 9 — Differentiation",
+      "primary_slo": "9MA0.P2.4.3.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Differentiate $y = \\frac{5x}{x+1}$ with respect to $x$.",
+          "options": [
+            "$\\frac{5}{(x+1)^2}$",
+            "$\\frac{5x+5-5x}{x+1}$",
+            "$\\frac{5}{x+1}$",
+            "$\\frac{10x+5}{(x+1)^2}$"
+          ],
+          "correct_option": "A",
+          "explanation": "Quotient rule with $u=5x$, $v=x+1$: $\\frac{dy}{dx} = \\frac{5(x+1) - 5x}{(x+1)^2} = \\frac{5}{(x+1)^2}$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 9E — Finding Tangents to Exponential Quotients",
+      "section_ref": "9.5",
+      "unit_label": "Chapter 9 — Differentiation",
+      "primary_slo": "9MA0.P2.4.3.2",
+      "aligned_slos": [
+        "9MA0.P1.6.3.2"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the equation of the tangent to the curve $y = \\frac{e^{\\frac{1}{3}x}}{x}$ at the point $\\left(3, \\frac{1}{3}e\\right)$.",
+          "options": [
+            "$y = \\frac{1}{3}e$",
+            "$y = \\frac{1}{3}ex$",
+            "$y - \\frac{1}{3}e = \\frac{1}{3}e(x-3)$",
+            "$y = 0$"
+          ],
+          "correct_option": "A",
+          "explanation": "Quotient rule gives $\\frac{dy}{dx} = \\frac{\\frac{1}{3}e^{x/3}\\cdot x - e^{x/3}}{x^2}$. At $x=3$: $\\frac{e - e}{9} = 0$. Gradient is zero, so the tangent is the horizontal line $y = \\frac{1}{3}e$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 9E — Simplifying Rational Sums for Differentiation",
+      "section_ref": "9.5",
+      "unit_label": "Chapter 9 — Differentiation",
+      "primary_slo": "9MA0.P2.4.3.2",
+      "aligned_slos": [
+        "9MA0.P1.1.3.3"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Given $f(x) = \\frac{2x}{x+5} + \\frac{6x}{x^2+7x+10}$, find $f'(3)$.",
+          "options": [
+            "0.16",
+            "4",
+            "0.64",
+            "1.5"
+          ],
+          "correct_option": "A",
+          "explanation": "Factorise: $x^2+7x+10=(x+5)(x+2)$. Combining gives $\\frac{2x(x+2)+6x}{(x+5)(x+2)} = \\frac{2x(x+5)}{(x+5)(x+2)} = \\frac{2x}{x+2}$. Then $f'(x) = \\frac{4}{(x+2)^2}$. At $x=3$: $f'(3) = \\frac{4}{25} = 0.16$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 9F — Derivatives of Reciprocal Trig Functions",
+      "section_ref": "9.6",
+      "unit_label": "Chapter 9 — Differentiation",
+      "primary_slo": "9MA0.P2.4.2.2",
+      "aligned_slos": [
+        "9MA0.P2.2.1.1"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Differentiate $y = \\text{cosec } 4x$ with respect to $x$.",
+          "options": [
+            "$-4 \\text{cosec } 4x \\cot 4x$",
+            "$4 \\text{cosec } 4x \\cot 4x$",
+            "$-4 \\text{cosec}^2 4x$",
+            "$-\\cot 4x$"
+          ],
+          "correct_option": "A",
+          "explanation": "$\\frac{d}{dx}(\\text{cosec } kx) = -k \\text{cosec } kx \\cot kx$. With $k=4$: $-4 \\text{cosec } 4x \\cot 4x$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 9F — Locating Stationary Points of Trigonometric Products",
+      "section_ref": "9.6",
+      "unit_label": "Chapter 9 — Differentiation",
+      "primary_slo": "9MA0.P2.4.2.2",
+      "aligned_slos": [
+        "9MA0.P1.6.4.1"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the number of stationary points for the curve $y = \\frac{1}{\\cos x \\sin x}$ in the interval $0 < x < \\pi$.",
+          "options": [
+            "2",
+            "1",
+            "0",
+            "4"
+          ],
+          "correct_option": "A",
+          "explanation": "Setting $\\frac{dy}{dx} = 0$ requires $\\cos^2 x = \\sin^2 x$, so $\\tan^2 x = 1$. In $(0, \\pi)$ this gives $x = \\frac{\\pi}{4}$ and $x = \\frac{3\\pi}{4}$ — 2 stationary points.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 9F — Differentiating Inverse Cosecant Relations",
+      "section_ref": "9.6",
+      "unit_label": "Chapter 9 — Differentiation",
+      "primary_slo": "9MA0.P2.4.2.2",
+      "aligned_slos": [
+        "9MA0.P2.4.4.2"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Given $x = \\text{cosec } 5y$, find an expression for $\\frac{dy}{dx}$ in terms of $x$.",
+          "options": [
+            "$\\frac{-1}{5x\\sqrt{x^2-1}}$",
+            "$\\frac{1}{5x\\sqrt{x^2-1}}$",
+            "$-5x\\sqrt{x^2-1}$",
+            "$\\frac{-1}{5\\text{cosec } 5y \\cot 5y}$"
+          ],
+          "correct_option": "A",
+          "explanation": "$\\frac{dx}{dy} = -5 \\text{cosec } 5y \\cot 5y$, so $\\frac{dy}{dx} = \\frac{-1}{5 \\text{cosec } 5y \\cot 5y}$. Since $\\text{cosec } 5y = x$ and $\\cot 5y = \\sqrt{x^2-1}$, this gives $\\frac{-1}{5x\\sqrt{x^2-1}}$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 9I — Determining Intervals of Concavity",
+      "section_ref": "9.9",
+      "unit_label": "Chapter 9 — Differentiation",
+      "primary_slo": "9MA0.P1.6.2.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the interval on which the function $f(x) = x^3 - 3x^2 + x - 2$ is concave.",
+          "options": [
+            "$x \\le 1$",
+            "$x \\ge 1$",
+            "$x \\le 0$",
+            "$x \\le 3$"
+          ],
+          "correct_option": "A",
+          "explanation": "$f''(x) = 6x - 6$. For concavity, $f''(x) \\le 0 \\implies x \\le 1$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 9I — Analysis of Logarithmic Points of Inflection",
+      "section_ref": "9.9",
+      "unit_label": "Chapter 9 — Differentiation",
+      "primary_slo": "9MA0.P1.6.2.3",
+      "aligned_slos": [
+        "9MA0.P1.5.2.4"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the $x$-coordinate of the point of inflection for the function $f(x) = 2x^2 \\ln x$, for $x > 0$.",
+          "options": [
+            "$e^{-1.5}$",
+            "$e^{-1}$",
+            "$1.5$",
+            "$e^{1.5}$"
+          ],
+          "correct_option": "A",
+          "explanation": "$f'(x) = 4x\\ln x + 2x$, so $f''(x) = 4\\ln x + 4 + 2 = 4\\ln x + 6$. Setting $f''(x)=0$: $\\ln x = -1.5 \\implies x = e^{-1.5}$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 9I — Critiquing Point of Inflection Claims",
+      "section_ref": "9.9",
+      "unit_label": "Chapter 9 — Differentiation",
+      "primary_slo": "9MA0.P1.6.2.3",
+      "aligned_slos": [
+        "9MA0.P1.6.4.1"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A student correctly calculates $f''(5) = 0$ for $f(x) = (x-5)^4$ but is told the point is not a point of inflection. Why?",
+          "options": [
+            "The second derivative does not change sign at $x=5$.",
+            "The first derivative is also zero at $x=5$.",
+            "The function is undefined at $x=5$.",
+            "The function is linear at $x=5$."
+          ],
+          "correct_option": "A",
+          "explanation": "$f''(x) = 12(x-5)^2 \\ge 0$ on both sides of $x=5$, so the concavity does not change. A point of inflection requires a sign change in $f''$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 9J — Connecting Rates for Circles",
+      "section_ref": "9.10",
+      "unit_label": "Chapter 9 — Differentiation",
+      "primary_slo": "9MA0.P2.4.6.1",
+      "aligned_slos": [
+        "9MA0.P1.4.2.4"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Given $A = \\frac{1}{4}\\pi r^2$ and $\\frac{dr}{dt} = 6$, find $\\frac{dA}{dt}$ when $r = 2$.",
+          "options": [
+            "$6\\pi$",
+            "$3\\pi$",
+            "$1.5\\pi$",
+            "$12\\pi$"
+          ],
+          "correct_option": "A",
+          "explanation": "$\\frac{dA}{dr} = \\frac{1}{2}\\pi r$. By the chain rule: $\\frac{dA}{dt} = \\frac{1}{2}\\pi(2) \\times 6 = 6\\pi$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 9J — Formulating Liquid Leakage Models",
+      "section_ref": "9.10",
+      "unit_label": "Chapter 9 — Differentiation",
+      "primary_slo": "9MA0.P2.4.6.1",
+      "aligned_slos": [
+        "9MA0.P2.5.6.3"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Liquid enters a container at $30 \\text{ cm}^3 \\text{ s}^{-1}$ and leaks at $\\frac{2}{15}V \\text{ cm}^3 \\text{ s}^{-1}$. Which equation models this?",
+          "options": [
+            "$-15 \\frac{dV}{dt} = 2V - 450$",
+            "$\\frac{dV}{dt} = \\frac{2}{15}V - 30$",
+            "$15 \\frac{dV}{dt} = 2V - 450$",
+            "$\\frac{dV}{dt} = 30 + \\frac{2}{15}V$"
+          ],
+          "correct_option": "A",
+          "explanation": "$\\frac{dV}{dt} = 30 - \\frac{2}{15}V$. Multiplying both sides by $-15$: $-15\\frac{dV}{dt} = 2V - 450$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 9J — Related Rates in Expanding Solids",
+      "section_ref": "9.10",
+      "unit_label": "Chapter 9 — Differentiation",
+      "primary_slo": "9MA0.P2.4.6.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The surface area $A$ of a cube expands at $2 \\text{ cm}^2 \\text{ s}^{-1}$. Which expression gives $\\frac{dV}{dt}$?",
+          "options": [
+            "$\\frac{1}{2}V^{1/3}$",
+            "$V^{1/3}$",
+            "$2V^{1/3}$",
+            "$\\frac{1}{4}V^{1/3}$"
+          ],
+          "correct_option": "A",
+          "explanation": "$V=x^3$, $A=6x^2=6V^{2/3}$. So $\\frac{dA}{dV} = 4V^{-1/3}$ and $\\frac{dV}{dA} = \\frac{V^{1/3}}{4}$. By chain rule: $\\frac{dV}{dt} = \\frac{V^{1/3}}{4} \\times 2 = \\frac{1}{2}V^{1/3}$.",
+          "diagram_required": "none"
+        }
+      ]
+    }
+  ]
+}

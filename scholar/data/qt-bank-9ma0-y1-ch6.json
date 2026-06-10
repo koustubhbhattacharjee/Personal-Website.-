@@ -1,0 +1,225 @@
+{
+  "schema_version": "2.0",
+  "source_type": "textbook",
+  "source_label": "Pearson Edexcel Year 1 Pure",
+  "textbook_key": "pearson-9ma0-y1",
+  "overlay_key": "pearson-9ma0-full",
+  "subject": "9MA0",
+  "question_types": [
+    {
+      "title": "Midpoints and perpendicular bisectors 6A — Midpoint Calculations",
+      "section_ref": "6.1",
+      "unit_label": "Chapter 6 — Circles",
+      "primary_slo": "9MA0.P1.2.1.5",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the midpoint of the line segment joining (4, 2) and (6, 8).",
+          "explanation": "Midpoint = ((4+6)/2, (2+8)/2) = (5, 5).",
+          "diagram_required": "none",
+          "options": [
+            "(5, 5)",
+            "(10, 10)",
+            "(5, 3)",
+            "(2, 3)"
+          ],
+          "correct_option": "A"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Find the midpoint of the line segment joining (0, 6) and (12, 2).",
+          "explanation": "Midpoint = ((0+12)/2, (6+2)/2) = (6, 4).",
+          "diagram_required": "none",
+          "options": [
+            "(6, 8)",
+            "(6, 4)",
+            "(12, 4)",
+            "(6, 2)"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Midpoints and perpendicular bisectors 6A — Solving for Unknown Endpoints",
+      "section_ref": "6.1",
+      "unit_label": "Chapter 6 — Circles",
+      "primary_slo": "9MA0.P1.2.1.5",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The line segment AB has A(-2, 5) and midpoint M(4, 3). Find B.",
+          "explanation": "(-2+a)/2 = 4 => a = 10. (5+b)/2 = 3 => b = 1.",
+          "diagram_required": "none",
+          "options": [
+            "B = (8, 2)",
+            "B = (6, 1)",
+            "B = (10, 1)",
+            "B = (10, 5)"
+          ],
+          "correct_option": "C"
+        }
+      ]
+    },
+    {
+      "title": "Midpoints and perpendicular bisectors 6B — Perpendicular Bisector Equations",
+      "section_ref": "6.1",
+      "unit_label": "Chapter 6 — Circles",
+      "primary_slo": "9MA0.P1.2.1.5",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the perpendicular bisector of the segment joining A(-5, 8) and B(7, 2).",
+          "explanation": "Midpoint is (1, 5). Gradient of AB = (2-8)/(7-(-5)) = -6/12 = -1/2. Perpendicular gradient = 2. y - 5 = 2(x - 1) => y = 2x + 3.",
+          "diagram_required": "none",
+          "options": [
+            "y = 2x − 3",
+            "y = −1/2 x + 5",
+            "y = 2x + 1",
+            "y = 2x + 3"
+          ],
+          "correct_option": "D"
+        }
+      ]
+    },
+    {
+      "title": "Equation of a circle 6C — Centre and Radius from Expanded Form",
+      "section_ref": "6.2",
+      "unit_label": "Chapter 6 — Circles",
+      "primary_slo": "9MA0.P1.2.2.2",
+      "aligned_slos": [
+        "9MA0.P1.2.2.1"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the centre and radius of the circle: x² + y² - 2x + 8y - 8 = 0.",
+          "explanation": "(x-1)² - 1 + (y+4)² - 16 - 8 = 0 => (x-1)² + (y+4)² = 25. Centre (1, -4), radius 5.",
+          "diagram_required": "none",
+          "options": [
+            "Centre (1, -4), radius 5",
+            "Centre (1, 4), radius 5",
+            "Centre (−1, 4), radius 3",
+            "Centre (1, −4), radius 3"
+          ],
+          "correct_option": "A"
+        }
+      ]
+    },
+    {
+      "title": "Equation of a circle 6C — Circle Equation from Diameter",
+      "section_ref": "6.2",
+      "unit_label": "Chapter 6 — Circles",
+      "primary_slo": "9MA0.P1.2.2.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "PQ is a diameter of a circle where P = (5, 6) and Q = (-2, 2). Find the equation of the circle.",
+          "explanation": "Centre = midpoint of PQ = (1.5, 4). r² = (5-1.5)² + (6-4)² = 12.25 + 4 = 16.25.",
+          "diagram_required": "none",
+          "options": [
+            "(x − 1.5)² + (y − 4)² = 12.25",
+            "(x - 1.5)² + (y - 4)² = 16.25",
+            "(x + 1.5)² + (y − 4)² = 16.25",
+            "(x − 1.5)² + (y + 4)² = 16.25"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Intersections of straight lines and circles 6D — Intersections with Axes",
+      "section_ref": "6.3",
+      "unit_label": "Chapter 6 — Circles",
+      "primary_slo": "9MA0.P1.2.2.6",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the coordinates of the points where (x - 1)² + (y - 3)² = 45 meets the x-axis.",
+          "explanation": "Set y = 0: (x-1)² + 9 = 45 => (x-1)² = 36 => x = 7 or x = -5.",
+          "diagram_required": "none",
+          "options": [
+            "(7, 0) and (5, 0)",
+            "(6, 0) and (−4, 0)",
+            "(7, 0) and (-5, 0)",
+            "(8, 0) and (−6, 0)"
+          ],
+          "correct_option": "C"
+        }
+      ]
+    },
+    {
+      "title": "Intersections of straight lines and circles 6D — Proving Non-Intersection",
+      "section_ref": "6.3",
+      "unit_label": "Chapter 6 — Circles",
+      "primary_slo": "9MA0.P1.2.2.6",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Show that the line x - y - 10 = 0 does not meet the circle x² - 4x + y² = 21.",
+          "options": [
+            "Discriminant is negative",
+            "Discriminant is zero",
+            "Discriminant is positive",
+            "The line is a tangent"
+          ],
+          "correct_option": "A",
+          "explanation": "Substitute y = x - 10: x² - 4x + (x-10)² = 21 => 2x² - 24x + 79 = 0. Discriminant = 576 - 632 = -56 < 0. No intersection.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Use tangent and chord properties 6E — Tangent Equations",
+      "section_ref": "6.4",
+      "unit_label": "Chapter 6 — Circles",
+      "primary_slo": "9MA0.P1.2.2.3",
+      "aligned_slos": [
+        "9MA0.P1.2.2.4"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The point P(1, -2) lies on the circle with centre (4, 6). Find the equation of the tangent to the circle at P.",
+          "explanation": "Gradient of radius = (-2-6)/(1-4) = 8/3. Tangent gradient = -3/8. y - (-2) = -3/8(x - 1) => y = -3/8x + 3/8 - 2 = -3/8x - 13/8.",
+          "diagram_required": "none",
+          "options": [
+            "y = 8/3 x − 14/3",
+            "y = −3/8 x + 13/8",
+            "y = 3/8 x − 19/8",
+            "y = -3/8x - 13/8"
+          ],
+          "correct_option": "D"
+        }
+      ]
+    },
+    {
+      "title": "Circles and triangles 6F — Right-angled Triangles and Diameters",
+      "section_ref": "6.5",
+      "unit_label": "Chapter 6 — Circles",
+      "primary_slo": "9MA0.P1.2.2.5",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Points A(2, 6), B(5, 7) and C(8, -2) lie on a circle. Show that AC is a diameter.",
+          "explanation": "mAB = (7-6)/(5-2) = 1/3. mBC = (-2-7)/(8-5) = -3. (1/3) × (-3) = -1. Angle in semicircle is 90°, so AC is the diameter.",
+          "diagram_required": "geometry",
+          "options": [
+            "mAB × mBC = -1, so angle ABC = 90°, making AC a diameter.",
+            "mAC × mAB = −1, confirming angle BAC = 90°",
+            "All three points are equidistant from the midpoint of BC",
+            "The length AC equals the sum AB + BC"
+          ],
+          "correct_option": "A"
+        }
+      ]
+    }
+  ]
+}

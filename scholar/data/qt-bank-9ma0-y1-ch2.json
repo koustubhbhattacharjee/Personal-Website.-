@@ -1,0 +1,334 @@
+{
+  "schema_version": "2.0",
+  "source_type": "textbook",
+  "source_label": "Pearson Edexcel Year 1 Pure",
+  "textbook_key": "pearson-9ma0-y1",
+  "overlay_key": "pearson-9ma0-full",
+  "subject": "9MA0",
+  "question_types": [
+    {
+      "title": "Solving quadratic equations 2A — Factorisation",
+      "section_ref": "2.1",
+      "unit_label": "Chapter 2 — Quadratics",
+      "primary_slo": "9MA0.P1.1.2.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Solve the following equation using factorisation: x² + 3x + 2 = 0",
+          "explanation": "(x + 1)(x + 2) = 0, so x = -1 or x = -2.",
+          "diagram_required": "none",
+          "options": [
+            "x = -1, x = -2",
+            "x = 1, x = 2",
+            "x = −1, x = 2",
+            "x = 1, x = −3"
+          ],
+          "correct_option": "A"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Solve the following equation using factorisation: x² - 8x + 15 = 0",
+          "explanation": "(x - 3)(x - 5) = 0, so x = 3 or x = 5.",
+          "diagram_required": "none",
+          "options": [
+            "x = −3, x = −5",
+            "x = 3, x = 5",
+            "x = 3, x = −5",
+            "x = −3, x = 5"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Solving quadratic equations 2A — Common Factors",
+      "section_ref": "2.1",
+      "unit_label": "Chapter 2 — Quadratics",
+      "primary_slo": "9MA0.P1.1.2.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Solve the following equation using factorisation: x² = 4x",
+          "explanation": "x² - 4x = 0 => x(x - 4) = 0, so x = 0 or x = 4.",
+          "diagram_required": "none",
+          "options": [
+            "x = 4 only",
+            "x = 0, x = −4",
+            "x = 0, x = 4",
+            "x = 2, x = −2"
+          ],
+          "correct_option": "C"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Solve the following equation using factorisation: 5x² = 30x",
+          "explanation": "5x² - 30x = 0 => 5x(x - 6) = 0, so x = 0 or x = 6.",
+          "diagram_required": "none",
+          "options": [
+            "x = 6 only",
+            "x = 0, x = −6",
+            "x = 5, x = 6",
+            "x = 0, x = 6"
+          ],
+          "correct_option": "D"
+        }
+      ]
+    },
+    {
+      "title": "Solving quadratic equations 2B — Quadratic Formula (Surds)",
+      "section_ref": "2.1",
+      "unit_label": "Chapter 2 — Quadratics",
+      "primary_slo": "9MA0.P1.1.2.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Solve the following equation using the quadratic formula, leaving your answer in surd form: x² + 3x + 1 = 0",
+          "explanation": "a=1, b=3, c=1. x = [-3 ± √(3² - 4(1)(1))] / 2 = (-3 ± √5) / 2.",
+          "diagram_required": "none",
+          "options": [
+            "x = (-3 ± √5) / 2",
+            "x = (−3 ± √13) / 2",
+            "x = (3 ± √5) / 2",
+            "x = (−3 ± √5) / 4"
+          ],
+          "correct_option": "A"
+        }
+      ]
+    },
+    {
+      "title": "Solving quadratic equations 2B — Quadratic Formula (Decimal)",
+      "section_ref": "2.1",
+      "unit_label": "Chapter 2 — Quadratics",
+      "primary_slo": "9MA0.P1.1.2.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Solve the following equation using the quadratic formula, giving your answer to three significant figures: x² + 4x + 2 = 0",
+          "explanation": "a=1, b=4, c=2. x = [-4 ± √(16 - 8)] / 2 = (-4 ± √8) / 2. x ≈ -0.5857... or -3.414...",
+          "diagram_required": "none",
+          "options": [
+            "x = 0.586, x = 3.41",
+            "x = -0.586, x = -3.41",
+            "x = −0.586, x = −2.41",
+            "x = −1.293, x = −2.707"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Completing the square 2D — Solving Equations",
+      "section_ref": "2.2",
+      "unit_label": "Chapter 2 — Quadratics",
+      "primary_slo": "9MA0.P1.1.2.2",
+      "aligned_slos": [
+        "9MA0.P1.1.2.1"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Solve the following quadratic equation by completing the square, leaving your answer in surd form: x² + 6x + 1 = 0",
+          "explanation": "(x + 3)² - 9 + 1 = 0 => (x + 3)² = 8 => x + 3 = ±√8 => x = -3 ± √8.",
+          "diagram_required": "none",
+          "options": [
+            "x = 3 ± √8",
+            "x = −3 ± √4",
+            "x = -3 ± √8",
+            "x = −3 ± √6"
+          ],
+          "correct_option": "C"
+        }
+      ]
+    },
+    {
+      "title": "Completing the square 2D — Non-monic Quadratics",
+      "section_ref": "2.2",
+      "unit_label": "Chapter 2 — Quadratics",
+      "primary_slo": "9MA0.P1.1.2.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Solve the following quadratic equation by completing the square, leaving your answer in surd form: 2x² + 6x - 3 = 0",
+          "explanation": "2[x² + 3x] - 3 = 0 => 2[(x + 1.5)² - 2.25] - 3 = 0 => 2(x + 1.5)² - 4.5 - 3 = 0 => 2(x + 1.5)² = 7.5 => (x + 1.5)² = 3.75 => x = -1.5 ± √3.75.",
+          "diagram_required": "none",
+          "options": [
+            "x = (3 ± √15) / 2",
+            "x = (−3 ± √15) / 4",
+            "x = (−3 ± √21) / 2",
+            "x = (-3 ± √15) / 2"
+          ],
+          "correct_option": "D"
+        }
+      ]
+    },
+    {
+      "title": "Functions 2E — Numerical Evaluation",
+      "section_ref": "2.3",
+      "unit_label": "Chapter 2 — Quadratics",
+      "primary_slo": "9MA0.P1.1.2.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Using the function f(x) = 5x + 3, find the value of f(1).",
+          "options": [
+            "8",
+            "5",
+            "3",
+            "15"
+          ],
+          "correct_option": "A",
+          "explanation": "f(1) = 5(1) + 3 = 8.",
+          "diagram_required": "none"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Using the function g(x) = x² - 2, find the value of g(3).",
+          "options": [
+            "7",
+            "9",
+            "4",
+            "1"
+          ],
+          "correct_option": "A",
+          "explanation": "g(3) = 3² - 2 = 9 - 2 = 7.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Functions 2E — Finding Roots",
+      "section_ref": "2.3",
+      "unit_label": "Chapter 2 — Quadratics",
+      "primary_slo": "9MA0.P1.1.2.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find all of the roots of the function f(x) = 10 - 15x.",
+          "explanation": "10 - 15x = 0 => 10 = 15x => x = 10/15 = 2/3.",
+          "diagram_required": "none",
+          "options": [
+            "x = 2/3",
+            "x = 2/15",
+            "x = −2/3",
+            "x = 10/3"
+          ],
+          "correct_option": "A"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Find all of the roots of the function g(x) = (x + 9)(x - 2).",
+          "explanation": "Set the function to zero: (x + 9)(x - 2) = 0, so x = -9 or x = 2.",
+          "diagram_required": "none",
+          "options": [
+            "x = 9, x = −2",
+            "x = -9, x = 2",
+            "x = −9, x = −2",
+            "x = 9, x = 2"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Quadratic graphs 2F — Sketching Key Features",
+      "section_ref": "2.4",
+      "unit_label": "Chapter 2 — Quadratics",
+      "primary_slo": "9MA0.P1.1.4.1",
+      "aligned_slos": [
+        "9MA0.P1.1.2.2"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Sketch the graph of y = x² - 6x + 8. Show the coordinates of the point(s) where the graph crosses the coordinate axes.",
+          "explanation": "y = (x - 2)(x - 4). x=0 => y=8. y=0 => x=2, 4.",
+          "diagram_required": "graph",
+          "options": [
+            "x-intercepts (2, 0) and (4, 0); y-intercept (0, −8)",
+            "x-intercepts (−2, 0) and (−4, 0); y-intercept (0, 8)",
+            "x-intercepts: (2, 0), (4, 0); y-intercept: (0, 8)",
+            "x-intercepts (2, 0) and (4, 0); y-intercept (0, 4)"
+          ],
+          "correct_option": "C"
+        }
+      ]
+    },
+    {
+      "title": "The discriminant 2G — Root Analysis",
+      "section_ref": "2.5",
+      "unit_label": "Chapter 2 — Quadratics",
+      "primary_slo": "9MA0.P1.1.2.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Calculate the value of the discriminant for f(x) = x² + 8x + 3.",
+          "options": [
+            "52",
+            "64",
+            "12",
+            "76"
+          ],
+          "correct_option": "A",
+          "explanation": "b² - 4ac = 8² - 4(1)(3) = 64 - 12 = 52.",
+          "diagram_required": "none"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Find the values of k for which x² + 6x + k = 0 has two real solutions.",
+          "explanation": "b² - 4ac > 0 => 6² - 4(1)(k) > 0 => 36 - 4k > 0 => 36 > 4k => k < 9.",
+          "diagram_required": "none",
+          "options": [
+            "k > 9",
+            "k ≤ 9",
+            "k < 36",
+            "k < 9"
+          ],
+          "correct_option": "D"
+        }
+      ]
+    },
+    {
+      "title": "Modelling with quadratics 2H — Interpretation",
+      "section_ref": "2.6",
+      "unit_label": "Chapter 2 — Quadratics",
+      "primary_slo": "9MA0.P1.1.2.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The height of the cables above water level in metres can be modelled by the function h(x) = 0.00012x² + 200. Interpret the meaning of the constant term 200 in the model.",
+          "explanation": "When x = 0, h(x) = 200.",
+          "diagram_required": "none",
+          "options": [
+            "The height of the cables above water level at the centre of the bridge (where x = 0).",
+            "The height at the bridge towers",
+            "The maximum height of the cables above road level",
+            "The total horizontal span of the bridge"
+          ],
+          "correct_option": "A"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Using the bridge model h(x) = 0.00012x² + 200, find the two values of x at which the height is 346 m.",
+          "explanation": "346 = 0.00012x² + 200 => 146 = 0.00012x² => x² = 1,216,666.6... => x ≈ ±348.9.",
+          "diagram_required": "none",
+          "options": [
+            "x = ±289.5",
+            "x = 348.9, x = -348.9",
+            "x = ±412.3",
+            "x = ±175.0"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    }
+  ]
+}

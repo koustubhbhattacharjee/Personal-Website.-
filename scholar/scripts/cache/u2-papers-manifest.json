@@ -1,0 +1,1122 @@
+{
+  "buffer_qt_ids": [
+    "d46cf597-b7d0-4b43-bd59-caa15f9b5129",
+    "d99753dc-133b-4cf6-a4e9-f7406ed4bcf0",
+    "2d698944-c5ae-486d-ab3d-fbb4335131ed",
+    "b743c003-5094-41b2-9fc1-9c90e718c9a1",
+    "3c7a84f6-6cb3-4a12-bd32-6a0a7a78c31f",
+    "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "f22af356-e937-49b1-b270-a3ee1411bec3",
+    "973667a0-e055-4dff-b586-92f3389e905d",
+    "bbb55c91-193b-4fdb-a7d0-fd44400515a9",
+    "bb78f05e-de80-495a-a5ea-0541171a0769",
+    "3de57203-070c-41b7-9f45-7ed8e18261bb",
+    "54c6cfca-d95b-4c5f-b789-bdd760a079b8",
+    "665c502a-a8bf-47bb-9ec1-20afb9ca37a3",
+    "f3230b7c-3712-468c-a7a6-43f680750722",
+    "b1dffc3c-32f4-4126-bfaa-45375beec9a6",
+    "909bff58-644c-4423-954f-0eb27dcde525",
+    "41bca3e2-c8ce-409c-a321-c89763c254ac",
+    "08af44c8-7071-4d00-b9e1-0d0d84c144d5",
+    "8c49e5bd-98d3-4fd2-a0f8-6ed7ba0fd0f7"
+  ],
+  "new_qts": [
+    {
+      "tmp_id": "new1",
+      "title": "Newton's law of universal gravitation (g, F, 1/r^2 scaling)",
+      "section_ref": "2.6.A",
+      "primary_slo": "2.6.A.2",
+      "rationale": "None of the 20 buffer QTs cover universal gravitation specifically — calculating surface g from M and R, finding orbital info needed, comparing F at different distances/masses. The 'Source of centripetal force' QT covers some orbital scenarios but not the F = GMm/r^2 magnitude/scaling questions."
+    },
+    {
+      "tmp_id": "new2",
+      "title": "Gravitational vs inertial mass (operational definitions)",
+      "section_ref": "2.1.A",
+      "primary_slo": "2.1.A.1",
+      "rationale": "Identifying procedures that measure gravitational mass (weighing) vs inertial mass (response to known force) — this conceptual distinction is not in any buffer QT."
+    }
+  ],
+  "questions": [
+    {
+      "source_file": "AP Physics 1 2014.pdf",
+      "source_page": 14,
+      "exercise_ref": "1",
+      "qt_target": "d46cf597-b7d0-4b43-bd59-caa15f9b5129",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "An object is moving to the right with speed v_i when a force of magnitude F is exerted on it. In which of the following situations is the object's direction of motion changing and kinetic energy decreasing at the instant shown?",
+      "question_format": "mcq",
+      "options": [
+        "(A) Force F directed straight upward (perpendicular to v_i)",
+        "(B) Force F directed up-and-to-the-left (above-left of v_i, between 90° and 180° from v_i)",
+        "(C) Force F directed straight to the left (antiparallel to v_i)",
+        "(D) Force F directed up-and-to-the-right (above-right of v_i, between 0° and 90° from v_i)"
+      ],
+      "correct_option": "(B) Force F directed up-and-to-the-left (above-left of v_i, between 90° and 180° from v_i)",
+      "image": {
+        "page": 14,
+        "bbox": [
+          0.05,
+          0.2,
+          0.55,
+          0.55
+        ],
+        "alt": "Object moving to the right with arrow v_i; four diagrams labeled (A)-(D) show different directions of force F relative to v_i.",
+        "caption": "Force directions (A)–(D) on object moving right"
+      }
+    },
+    {
+      "source_file": "AP Physics 1 2014.pdf",
+      "source_page": 15,
+      "exercise_ref": "3",
+      "qt_target": "new1",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "A newly discovered planet is found to have density 2/3 rho_E and radius 2 R_E, where rho_E and R_E are the density and radius of Earth, respectively. The surface gravitational field of the planet is most nearly",
+      "question_format": "mcq",
+      "options": [
+        "(A) 1.7 N/kg",
+        "(B) 3.3 N/kg",
+        "(C) 6.7 N/kg",
+        "(D) 13 N/kg"
+      ],
+      "correct_option": "(D) 13 N/kg",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2014.pdf",
+      "source_page": 15,
+      "exercise_ref": "4",
+      "qt_target": "f3230b7c-3712-468c-a7a6-43f680750722",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "A bus is initially traveling north at a constant speed, as shown in the figure above. As the bus starts to make a left turn without changing speed, a passenger notices that a box on the floor starts sliding toward the right side of the bus. Which of the following top views of the box, when correctly labeled, would best represent all of the horizontal forces exerted on the box as it starts sliding?",
+      "question_format": "mcq",
+      "options": [
+        "(A) Single force arrow pointing east (right)",
+        "(B) Two opposing horizontal force arrows (west and east)",
+        "(C) Single force arrow pointing north (forward)",
+        "(D) Two opposing horizontal force arrows with a third force"
+      ],
+      "correct_option": "(B) Two opposing horizontal force arrows (west and east)",
+      "image": {
+        "page": 15,
+        "bbox": [
+          0.55,
+          0.05,
+          0.95,
+          0.55
+        ],
+        "alt": "Top-view options A-D showing arrows on a square box; option B shows opposed left-right arrows representing friction (centripetal) plus the apparent sliding force.",
+        "caption": "Bus turning left; FBD options for the box on the floor"
+      }
+    },
+    {
+      "source_file": "AP Physics 1 2014.pdf",
+      "source_page": 18,
+      "exercise_ref": "9",
+      "qt_target": "3de57203-070c-41b7-9f45-7ed8e18261bb",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "A 50.0 N box is at rest on a horizontal surface. The coefficient of static friction between the box and the surface is 0.50, and the coefficient of kinetic friction is 0.30. A horizontal 20.0 N force is then exerted on the box. The magnitude of the acceleration of the box is most nearly",
+      "question_format": "mcq",
+      "options": [
+        "(A) 0 m/s^2",
+        "(B) 0.5 m/s^2",
+        "(C) 1.0 m/s^2",
+        "(D) 4.0 m/s^2"
+      ],
+      "correct_option": "(A) 0 m/s^2",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2014.pdf",
+      "source_page": 19,
+      "exercise_ref": "11",
+      "qt_target": "new1",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "A spacecraft is placed in a circular orbit around a planet with mass 6.4 × 10^23 kg. The spacecraft orbits at a height of 4.5 × 10^7 m above the planet's surface. What additional information is needed to calculate the speed of the spacecraft in the orbit?",
+      "question_format": "mcq",
+      "options": [
+        "(A) No additional information",
+        "(B) The planet's radius only",
+        "(C) The spacecraft's mass only",
+        "(D) Both the planet's radius and the spacecraft's mass"
+      ],
+      "correct_option": "(B) The planet's radius only",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2014.pdf",
+      "source_page": 21,
+      "exercise_ref": "15",
+      "qt_target": "new1",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "When two charged, massive objects are placed a distance r apart, the gravitational force between them has magnitude F. When the distance between the objects is increased to 2r, the magnitude of the gravitational force between them becomes F/4. Did the electrostatic force between the objects also decrease to one fourth its initial magnitude as a result of the change in position, and why?",
+      "question_format": "mcq",
+      "options": [
+        "(A) No, because the gravitational constant is much smaller than the electrostatic constant.",
+        "(B) No, because the gravitational force is only attractive, and the electrostatic force can also be repulsive.",
+        "(C) Yes, because both forces have the same 1/r^2 dependence.",
+        "(D) Yes, because the gravitational force always equals the electrostatic force at any given distance."
+      ],
+      "correct_option": "(C) Yes, because both forces have the same 1/r^2 dependence.",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2014.pdf",
+      "source_page": 26,
+      "exercise_ref": "25",
+      "qt_target": "54c6cfca-d95b-4c5f-b789-bdd760a079b8",
+      "kind": "shared_stimulus_set_parent",
+      "stem_group_key": "ap14_q25_26_crate",
+      "stem_text": "A crate is on a horizontal frictionless surface. A force of magnitude F is exerted on the crate at an angle θ to the horizontal, as shown in the figure above, causing the crate to slide to the right. The surface exerts a normal force of magnitude F_N on the crate. As the crate slides a distance d, it gains an amount of kinetic energy ΔK. While F is kept constant, the angle θ is now doubled but is still less than 90°. Assume the crate remains in contact with the surface. How does the new normal force exerted on the crate compare to F_N?",
+      "question_format": "mcq",
+      "options": [
+        "(A) The new normal force is greater than F_N.",
+        "(B) The new normal force is less than F_N.",
+        "(C) The new normal force is equal to F_N.",
+        "(D) The new normal force is greater or less than F_N depending on the value of θ."
+      ],
+      "correct_option": "(B) The new normal force is less than F_N.",
+      "image": {
+        "page": 26,
+        "bbox": [
+          0.05,
+          0.07,
+          0.45,
+          0.2
+        ],
+        "alt": "A crate on a horizontal surface; an arrow labeled F at angle θ above horizontal points up and to the right.",
+        "caption": "Crate with applied force at angle θ"
+      }
+    },
+    {
+      "source_file": "AP Physics 1 2014.pdf",
+      "source_page": 26,
+      "exercise_ref": "26",
+      "qt_target": "54c6cfca-d95b-4c5f-b789-bdd760a079b8",
+      "kind": "shared_stimulus_set_child",
+      "stem_group_key": "ap14_q25_26_crate",
+      "stem_text": "(Stimulus continued — same setup as Q25.) As the crate slides a distance d, how does the new gain in kinetic energy compare to ΔK?",
+      "question_format": "mcq",
+      "options": [
+        "(A) The new gain is greater than ΔK.",
+        "(B) The new gain is less than ΔK.",
+        "(C) The new gain is equal to ΔK.",
+        "(D) The new gain is greater or less than ΔK depending on the value of θ."
+      ],
+      "correct_option": "(B) The new gain is less than ΔK.",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2014.pdf",
+      "source_page": 35,
+      "exercise_ref": "40",
+      "qt_target": "d99753dc-133b-4cf6-a4e9-f7406ed4bcf0",
+      "kind": "shared_stimulus_set_parent",
+      "stem_group_key": "ap14_q40_42_elevator_stacks",
+      "stem_text": "The stacks of boxes shown in the figure above are inside an elevator that is moving upward. The masses of the boxes are given in terms of the mass M of the lightest box. How does the magnitude of the force exerted by the top box on the bottom box compare with the magnitude of the force exerted by the bottom box on the top box for each of the stacks?",
+      "question_format": "mcq",
+      "options": [
+        "(A) The two magnitudes are always equal in each of the stacks.",
+        "(B) The two magnitudes are always different in each of the stacks.",
+        "(C) The two magnitudes are equal when the boxes have equal mass and different when the boxes have different masses.",
+        "(D) The two magnitudes are equal when the elevator is moving at constant speed and different when it is accelerating."
+      ],
+      "correct_option": "(A) The two magnitudes are always equal in each of the stacks.",
+      "image": {
+        "page": 35,
+        "bbox": [
+          0.06,
+          0.1,
+          0.42,
+          0.3
+        ],
+        "alt": "Inside-of-elevator illustration showing four stacks of two boxes each, with masses labeled M, 2M, 4M.",
+        "caption": "Stacks of boxes in elevator"
+      }
+    },
+    {
+      "source_file": "AP Physics 1 2014.pdf",
+      "source_page": 35,
+      "exercise_ref": "41",
+      "qt_target": "bbb55c91-193b-4fdb-a7d0-fd44400515a9",
+      "kind": "shared_stimulus_set_child",
+      "stem_group_key": "ap14_q40_42_elevator_stacks",
+      "stem_text": "Assume the elevator is moving at constant speed, and consider the bottom box in the stack that has two boxes of mass 2M. Let F_floor be the force exerted by the floor on the box, F_g be the force exerted by gravity on the box, and F_box be the force exerted by the top box on the bottom box. Which of the following best represents the forces exerted on the bottom box?",
+      "question_format": "mcq",
+      "options": [
+        "(A) Only F_floor up and F_g down (no F_box shown)",
+        "(B) Only F_floor up and F_box down (no F_g shown)",
+        "(C) F_floor up; F_g and F_box both down",
+        "(D) F_box and F_floor both up; F_g down"
+      ],
+      "correct_option": "(C) F_floor up; F_g and F_box both down",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2014.pdf",
+      "source_page": 35,
+      "exercise_ref": "42",
+      "qt_target": "bbb55c91-193b-4fdb-a7d0-fd44400515a9",
+      "kind": "shared_stimulus_set_child",
+      "stem_group_key": "ap14_q40_42_elevator_stacks",
+      "stem_text": "Assume the elevator has upward acceleration a, and consider the stack that has two boxes of mass M. What is the magnitude of the force exerted on the top box by the bottom box?",
+      "question_format": "mcq",
+      "options": [
+        "(A) Mg",
+        "(B) Ma",
+        "(C) M(a − g)",
+        "(D) M(a + g)"
+      ],
+      "correct_option": "(D) M(a + g)",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2014.pdf",
+      "source_page": 38,
+      "exercise_ref": "47",
+      "qt_target": "3c7a84f6-6cb3-4a12-bd32-6a0a7a78c31f",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "A block is held at rest against a wall by a force of magnitude F exerted at an angle θ from the horizontal, as shown in the figure above. Let F_g be the gravitational force exerted by Earth on the block, F_N be the normal force exerted by the wall on the block, and F_f be the frictional force exerted by the wall on the block. Which of the following statements about the magnitudes of the forces on the block must be true? Select two answers.",
+      "question_format": "mcq",
+      "options": [
+        "(A) F = F_g / sin θ",
+        "(B) F cos θ = F_N",
+        "(C) F sin θ = F_g ± F_f",
+        "(D) F = F_g + F_N ± F_f"
+      ],
+      "correct_option": "(B) F cos θ = F_N; (C) F sin θ = F_g ± F_f",
+      "image": {
+        "page": 38,
+        "bbox": [
+          0.4,
+          0.05,
+          0.65,
+          0.18
+        ],
+        "alt": "A small block resting against a vertical wall; an arrow labeled F points from below up and into the wall at angle θ above horizontal.",
+        "caption": "Block held against wall by an angled force"
+      }
+    },
+    {
+      "source_file": "AP Physics 1 2014.pdf",
+      "source_page": 38,
+      "exercise_ref": "48",
+      "qt_target": "new2",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "Some students have determined the gravitational mass of an object and want to compare it to the object's inertial mass. Procedures that would allow them to accomplish this include which of the following? Select two answers.",
+      "question_format": "mcq",
+      "options": [
+        "(A) Hanging the object vertically from a spring scale and recording the scale reading",
+        "(B) Placing the object on one side of a double pan balance, adding objects of known mass to the other side until the masses are balanced, and recording the amount of mass added",
+        "(C) Attaching the object to a spring of known spring constant, allowing it to oscillate horizontally on a nearly frictionless surface, and measuring the period",
+        "(D) Attaching the object to a force sensor, using the sensor to pull the object across a nearly frictionless horizontal surface, and measuring the acceleration"
+      ],
+      "correct_option": "(C); (D)",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2015.pdf",
+      "source_page": 19,
+      "exercise_ref": "4",
+      "qt_target": "d46cf597-b7d0-4b43-bd59-caa15f9b5129",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "A stone of mass m is thrown upward at a 30° angle to the horizontal. At the instant the stone reaches its highest point, why is the stone neither gaining nor losing speed?",
+      "question_format": "mcq",
+      "options": [
+        "(A) Because the acceleration of the stone at that instant is zero",
+        "(B) Because the net force acting upon the stone at that instant has magnitude mg",
+        "(C) Because the angle between the stone's velocity and the net force exerted upon the stone is 90°",
+        "(D) Because the stone follows a parabolic trajectory and the peak of the trajectory is where the parabola has zero slope"
+      ],
+      "correct_option": "(C) Because the angle between the stone's velocity and the net force exerted upon the stone is 90°",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2015.pdf",
+      "source_page": 20,
+      "exercise_ref": "7",
+      "qt_target": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "A box of mass m is on a rough inclined plane that is at an angle θ with the horizontal. A force of magnitude F at an angle φ with the plane is exerted on the block, as shown above. As the block moves up the plane, there is a frictional force between the box and the plane of magnitude f. What is the magnitude of the net force acting on the box?",
+      "question_format": "mcq",
+      "options": [
+        "(A) F sin φ − mg cos θ − f",
+        "(B) F cos(φ + θ) + mg sin θ − f",
+        "(C) F cos φ − mg sin θ − f",
+        "(D) F cos(φ + θ) − mg sin θ − f"
+      ],
+      "correct_option": "(C) F cos φ − mg sin θ − f",
+      "image": {
+        "page": 20,
+        "bbox": [
+          0.55,
+          0.07,
+          0.95,
+          0.3
+        ],
+        "alt": "Block resting on an incline at angle θ; an arrow labeled F at angle φ above the inclined surface points up and to the right.",
+        "caption": "Block on rough incline with force at angle φ to the plane"
+      }
+    },
+    {
+      "source_file": "AP Physics 1 2015.pdf",
+      "source_page": 22,
+      "exercise_ref": "13",
+      "qt_target": "2d698944-c5ae-486d-ab3d-fbb4335131ed",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "A ladder at rest is leaning against a wall at an angle. Which of the following forces must have the same magnitude as the frictional force exerted on the ladder by the floor?",
+      "question_format": "mcq",
+      "options": [
+        "(A) The force of gravity on the ladder",
+        "(B) The normal force exerted on the ladder by the floor",
+        "(C) The frictional force exerted on the ladder by the wall",
+        "(D) The normal force exerted on the ladder by the wall"
+      ],
+      "correct_option": "(D) The normal force exerted on the ladder by the wall",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2015.pdf",
+      "source_page": 23,
+      "exercise_ref": "16",
+      "qt_target": "new1",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "Planet X has twice Earth's mass and three times Earth's radius. The magnitude of the gravitational field near Planet X's surface is most nearly",
+      "question_format": "mcq",
+      "options": [
+        "(A) 2 N/kg",
+        "(B) 7 N/kg",
+        "(C) 10 N/kg",
+        "(D) 20 N/kg"
+      ],
+      "correct_option": "(A) 2 N/kg",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2015.pdf",
+      "source_page": 26,
+      "exercise_ref": "23",
+      "qt_target": "d99753dc-133b-4cf6-a4e9-f7406ed4bcf0",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "Each of the figures above shows a tractor attached to an object. The tractor exerts the same constant force F on each object in every case. Which of the following is a true statement about an object and the relative magnitude of the force exerted by the object on the tractor?",
+      "question_format": "mcq",
+      "options": [
+        "(A) The magnitude of the force exerted by the truck on the tractor is greatest, because the resulting motion is in the direction opposite the tractor's pull.",
+        "(B) The magnitude of the force exerted by the boulder on the tractor is least, because no motion results.",
+        "(C) The magnitude of the force exerted by the wagon on the tractor is least, because the resulting motion is in the direction of the tractor's pull.",
+        "(D) The magnitude of the force exerted by each object on the tractor is equal, because the tractor exerts an equal force on each object."
+      ],
+      "correct_option": "(D) The magnitude of the force exerted by each object on the tractor is equal, because the tractor exerts an equal force on each object.",
+      "image": {
+        "page": 26,
+        "bbox": [
+          0.55,
+          0.06,
+          0.95,
+          0.3
+        ],
+        "alt": "Three small panels: tractor attached to a boulder (no motion), tractor pulling a wagon (acceleration to the left), tractor pulling a truck (acceleration to the right but smaller).",
+        "caption": "Tractor attached to different objects"
+      }
+    },
+    {
+      "source_file": "AP Physics 1 2015.pdf",
+      "source_page": 31,
+      "exercise_ref": "31",
+      "qt_target": "d99753dc-133b-4cf6-a4e9-f7406ed4bcf0",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "A person is running on a track. Which of the following forces propels the runner forward?",
+      "question_format": "mcq",
+      "options": [
+        "(A) The normal force exerted by the ground on the person",
+        "(B) The normal force exerted by the person on the ground",
+        "(C) The force of friction exerted by the ground on the person",
+        "(D) The force of friction exerted by the person on the ground"
+      ],
+      "correct_option": "(C) The force of friction exerted by the ground on the person",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2016.pdf",
+      "source_page": 19,
+      "exercise_ref": "1",
+      "qt_target": "2d698944-c5ae-486d-ab3d-fbb4335131ed",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "A kitten sits in a lightweight basket near the edge of a table. A person accidentally knocks the basket off the table. As the kitten and basket fall, the kitten rolls, turns, kicks, and catches the basket in its claws. The basket lands on the floor with the kitten safely inside. If air resistance is negligible, what is the acceleration of the kitten-basket system while the kitten and basket are in midair?",
+      "question_format": "mcq",
+      "options": [
+        "(A) The acceleration is directed downward with magnitude less than g because the basket is light.",
+        "(B) The acceleration is directed downward with magnitude equal to g because the system is a projectile.",
+        "(C) The acceleration fluctuates because of the rolling, turning, and kicking motion of the kitten.",
+        "(D) The acceleration cannot be determined without knowing how hard the basket is pushed."
+      ],
+      "correct_option": "(B) The acceleration is directed downward with magnitude equal to g because the system is a projectile.",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2016.pdf",
+      "source_page": 22,
+      "exercise_ref": "13",
+      "qt_target": "d99753dc-133b-4cf6-a4e9-f7406ed4bcf0",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "Block A and block B move toward each other on a level frictionless track. Block A has mass m and velocity +v. Block B has mass 2m and velocity −v. The blocks collide, and during the collision the magnitude of the net force exerted on block A is F. What is the magnitude of the net force exerted on block B, and why does it have that value?",
+      "question_format": "mcq",
+      "options": [
+        "(A) 2F, because the mass of block B is twice that of block A and the blocks have the same acceleration during the collision.",
+        "(B) F/2, because the mass of block B is twice that of block A and the blocks have the same acceleration during the collision.",
+        "(C) F, because the blocks have the same speed immediately before the collision.",
+        "(D) F, because the net force is equal to the mutual contact force between the blocks."
+      ],
+      "correct_option": "(D) F, because the net force is equal to the mutual contact force between the blocks.",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2016.pdf",
+      "source_page": 25,
+      "exercise_ref": "19",
+      "qt_target": "new1",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "The magnitude of the gravitational field on the surface of a particular planet is 2g. The planet's mass is half the mass of Earth. What is the planet's radius in terms of the radius R_E of Earth?",
+      "question_format": "mcq",
+      "options": [
+        "(A) R_E / 4",
+        "(B) R_E / 2",
+        "(C) R_E / 2 (i.e., R_E / sqrt(2))",
+        "(D) 2 R_E"
+      ],
+      "correct_option": "(B) R_E / 2",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2016.pdf",
+      "source_page": 31,
+      "exercise_ref": "31",
+      "qt_target": "bbb55c91-193b-4fdb-a7d0-fd44400515a9",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "Box A of mass m sits on the floor of an elevator, with box B of mass 2m on top of it, as shown in the figure above. The elevator is moving upward and slowing down. F_A is the magnitude of the force exerted on box A by box B, F_B is the magnitude of the force exerted on box B by box A, and F_g is the magnitude of the gravitational force exerted on box B. Which of the following ranks the forces in order of increasing magnitude?",
+      "question_format": "mcq",
+      "options": [
+        "(A) F_B = F_A = F_g",
+        "(B) (F_B = F_A) < F_g",
+        "(C) F_B < (F_A = F_g)",
+        "(D) F_g < F_B < F_A"
+      ],
+      "correct_option": "(B) (F_B = F_A) < F_g",
+      "image": {
+        "page": 31,
+        "bbox": [
+          0.55,
+          0.3,
+          0.95,
+          0.55
+        ],
+        "alt": "Elevator interior moving upward with deceleration; inside two boxes are stacked: small B on top, larger A on bottom.",
+        "caption": "Stacked boxes in decelerating elevator"
+      }
+    },
+    {
+      "source_file": "AP Physics 1 2016.pdf",
+      "source_page": 32,
+      "exercise_ref": "32",
+      "qt_target": "b743c003-5094-41b2-9fc1-9c90e718c9a1",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "The figure above shows a uniform beam of length L and mass M that hangs horizontally and is attached to a vertical wall. A block of mass M is suspended from the far end of the beam by a cable. A support cable runs from the wall to the outer edge of the beam. Both cables are of negligible mass. The wall exerts a force F_W on the left end of the beam. For which of the following actions is the magnitude of the vertical component of F_W smallest?",
+      "question_format": "mcq",
+      "options": [
+        "(A) Keeping the support cable and block as shown in the diagram",
+        "(B) Moving the lower end of the support cable to the center of the beam and leaving the block at the outer end of the beam",
+        "(C) Keeping the lower end of the support cable at the outer end of the beam and moving the block to the center of the beam",
+        "(D) Moving both the support cable and the block to the center of the beam"
+      ],
+      "correct_option": "(D) Moving both the support cable and the block to the center of the beam",
+      "image": {
+        "page": 32,
+        "bbox": [
+          0.05,
+          0.07,
+          0.45,
+          0.3
+        ],
+        "alt": "Horizontal beam attached at the left to a wall; an angled support cable goes from the wall down to the right end of the beam; a block of mass M hangs from the far right end.",
+        "caption": "Beam attached to wall with cable and hanging block"
+      }
+    },
+    {
+      "source_file": "AP Physics 1 2016.pdf",
+      "source_page": 32,
+      "exercise_ref": "33",
+      "qt_target": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+      "kind": "shared_stimulus_set_parent",
+      "stem_group_key": "ap16_q33_34_two_section_incline",
+      "stem_text": "The inclined plane in the figure above has two sections of equal length and different roughness. The dashed line shows where section 1 ends and section 2 begins. A block of mass M is placed at different locations on the incline. The coefficients of kinetic and static friction between the block and each section are: section 1 (μ_S1 static, μ_k kinetic), section 2 (μ_S2 > μ_S1 static, 2μ_k kinetic). If the block is at rest on section 1 of the incline, what is the magnitude of the force of static friction exerted on the block by the incline?",
+      "question_format": "mcq",
+      "options": [
+        "(A) μ_S1 M g cos θ",
+        "(B) μ_S1 M g tan θ",
+        "(C) M g sin θ",
+        "(D) M g tan θ"
+      ],
+      "correct_option": "(C) M g sin θ",
+      "image": {
+        "page": 32,
+        "bbox": [
+          0.55,
+          0.05,
+          0.95,
+          0.25
+        ],
+        "alt": "Right-angle inclined plane at angle θ to the horizontal; dashed line splits the inclined surface into a lower section 1 and upper section 2.",
+        "caption": "Inclined plane with two friction sections"
+      }
+    },
+    {
+      "source_file": "AP Physics 1 2016.pdf",
+      "source_page": 32,
+      "exercise_ref": "34",
+      "qt_target": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+      "kind": "shared_stimulus_set_child",
+      "stem_group_key": "ap16_q33_34_two_section_incline",
+      "stem_text": "If the block is sliding up section 2, what is the magnitude of the force of friction that is exerted on the block by the incline?",
+      "question_format": "mcq",
+      "options": [
+        "(A) 2 μ_k M g cos θ",
+        "(B) 2 μ_k M g tan θ",
+        "(C) M g sin θ",
+        "(D) M g tan θ"
+      ],
+      "correct_option": "(A) 2 μ_k M g cos θ",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2016.pdf",
+      "source_page": 33,
+      "exercise_ref": "35",
+      "qt_target": "665c502a-a8bf-47bb-9ec1-20afb9ca37a3",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "An object with mass m is suspended at rest from a spring with a spring constant of 200 N/m. The length of the spring is 5.0 cm longer than its unstretched length L, as shown above. A person then exerts a force on the object and stretches the spring an additional 5.0 cm. What is the total energy stored in the spring at the new stretched length?",
+      "question_format": "mcq",
+      "options": [
+        "(A) 0.25 J",
+        "(B) 1.0 J",
+        "(C) 10 J",
+        "(D) 20 J"
+      ],
+      "correct_option": "(B) 1.0 J",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2016.pdf",
+      "source_page": 35,
+      "exercise_ref": "132",
+      "qt_target": "41bca3e2-c8ce-409c-a321-c89763c254ac",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "A ball attached to a light string swings in a counterclockwise vertical circle, as shown above. Which of the following arrows represent one of the forces exerted on the ball at the moment it passes through point P? Select two answers.",
+      "question_format": "mcq",
+      "options": [
+        "(A) Arrow tangent to circle at P (in direction of motion)",
+        "(B) Arrow opposite to direction of motion",
+        "(C) Arrow toward the center of the circle (along the string)",
+        "(D) Arrow straight downward (gravity)"
+      ],
+      "correct_option": "(C); (D)",
+      "image": {
+        "page": 35,
+        "bbox": [
+          0.05,
+          0.4,
+          0.45,
+          0.65
+        ],
+        "alt": "A ball on a string moving counterclockwise in a vertical circle, with point P labeled at one position on the circle.",
+        "caption": "Ball in vertical circle, point P"
+      }
+    },
+    {
+      "source_file": "AP Physics 1 2017.pdf",
+      "source_page": 20,
+      "exercise_ref": "2",
+      "qt_target": "3de57203-070c-41b7-9f45-7ed8e18261bb",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "A 12 kg box sliding on a horizontal floor has an initial speed of 4.0 m/s. The coefficient of friction between the box and the floor is 0.20. The box moves a distance of 4.0 m in 2.0 s. The magnitude of the change in momentum of the box during this time is most nearly",
+      "question_format": "mcq",
+      "options": [
+        "(A) 12 kg·m/s",
+        "(B) 48 kg·m/s",
+        "(C) 60 kg·m/s",
+        "(D) 96 kg·m/s"
+      ],
+      "correct_option": "(B) 48 kg·m/s",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2017.pdf",
+      "source_page": 23,
+      "exercise_ref": "9",
+      "qt_target": "2d698944-c5ae-486d-ab3d-fbb4335131ed",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "An object is moving to the west at a constant speed. Three forces are exerted on the object. One force is 10 N directed due north, and another is 10 N directed due west. What is the magnitude and direction of the third force if the object is to continue moving to the west at a constant speed?",
+      "question_format": "mcq",
+      "options": [
+        "(A) 10√3 N, directed northwest",
+        "(B) 10√3 N, directed southeast",
+        "(C) 10√2 N, directed northwest",
+        "(D) 10√2 N, directed southeast"
+      ],
+      "correct_option": "(D) 10√2 N, directed southeast",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2017.pdf",
+      "source_page": 25,
+      "exercise_ref": "16",
+      "qt_target": "bbb55c91-193b-4fdb-a7d0-fd44400515a9",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "An elevator carrying a person of mass m is moving upward and slowing down. How does the magnitude F of the force exerted on the person by the elevator floor compare with the magnitude mg of the gravitational force?",
+      "question_format": "mcq",
+      "options": [
+        "(A) F < mg",
+        "(B) F = mg",
+        "(C) F > mg",
+        "(D) F can be greater than or less than mg, depending on the speed of the elevator."
+      ],
+      "correct_option": "(A) F < mg",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2017.pdf",
+      "source_page": 28,
+      "exercise_ref": "22",
+      "qt_target": "d99753dc-133b-4cf6-a4e9-f7406ed4bcf0",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "Two objects, A and B, move toward one another. Object A has twice the mass and half the speed of object B. Which of the following describes the forces the objects exert on each other when they collide and provides the best explanation?",
+      "question_format": "mcq",
+      "options": [
+        "(A) The force exerted by A on B will be twice as great as the force exerted by B on A, because A has twice the mass of B.",
+        "(B) The force exerted by A on B will be half as great as the force exerted by B on A, because A has half the speed of B.",
+        "(C) The forces exerted by each object on the other are the same, because the product of mass and speed is the same for both objects.",
+        "(D) The forces exerted by each object on the other are the same, because interacting objects cannot exert forces of different magnitude on each other."
+      ],
+      "correct_option": "(D) The forces exerted by each object on the other are the same, because interacting objects cannot exert forces of different magnitude on each other.",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2017.pdf",
+      "source_page": 29,
+      "exercise_ref": "23",
+      "qt_target": "new1",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "Three spheres, with masses indicated above, are initially far away from each other, and the gravitational potential energy of the three-sphere system is zero. The spheres are then brought together until each sphere is a distance r from the other two, as shown above. What is the new gravitational potential energy of the three-sphere system? (Spheres have masses m, m, 2m.)",
+      "question_format": "mcq",
+      "options": [
+        "(A) −G m^2 / r",
+        "(B) −2 G m^2 / r",
+        "(C) −4 G m^2 / r",
+        "(D) −5 G m^2 / r"
+      ],
+      "correct_option": "(D) −5 G m^2 / r",
+      "image": {
+        "page": 29,
+        "bbox": [
+          0.06,
+          0.05,
+          0.4,
+          0.2
+        ],
+        "alt": "Equilateral triangle with three spheres at the vertices: two of mass m and one of mass 2m. Each side equals r.",
+        "caption": "Three spheres at vertices of equilateral triangle"
+      }
+    },
+    {
+      "source_file": "AP Physics 1 2017.pdf",
+      "source_page": 31,
+      "exercise_ref": "26",
+      "qt_target": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "Blocks A and B, of masses m_A and m_B, are at rest on a frictionless surface, as shown above, with block A fixed to the table. Block C of mass m_C is suspended by a string that is tied to block B over an ideal pulley. Which of the following gives the magnitude of the force exerted by block A on block B?",
+      "question_format": "mcq",
+      "options": [
+        "(A) m_B g",
+        "(B) m_C g",
+        "(C) m_A m_C g / (m_A + m_B)",
+        "(D) m_B m_C g / (m_A + m_B)"
+      ],
+      "correct_option": "(B) m_C g",
+      "image": {
+        "page": 31,
+        "bbox": [
+          0.05,
+          0.05,
+          0.45,
+          0.3
+        ],
+        "alt": "Block A on a table top with block B sitting on top of A. A string runs from B horizontally over a pulley at the edge of the table down to block C hanging vertically.",
+        "caption": "Blocks A, B on table with C hanging over pulley"
+      }
+    },
+    {
+      "source_file": "AP Physics 1 2017.pdf",
+      "source_page": 34,
+      "exercise_ref": "33",
+      "qt_target": "new1",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "Two satellites are in circular orbits around Earth. Satellite A has speed v_A. Satellite B has an orbital radius nine times that of satellite A. What is the speed of satellite B?",
+      "question_format": "mcq",
+      "options": [
+        "(A) v_A / 9",
+        "(B) v_A / 3",
+        "(C) 3 v_A",
+        "(D) 9 v_A"
+      ],
+      "correct_option": "(B) v_A / 3",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2017.pdf",
+      "source_page": 38,
+      "exercise_ref": "133",
+      "qt_target": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "A block of mass m is at rest on a rough incline, as shown in the figure above. Which of the following forces must have a magnitude equal to mg? Select two answers.",
+      "question_format": "mcq",
+      "options": [
+        "(A) The total force exerted on the block by the incline",
+        "(B) The normal force exerted on the block by the incline",
+        "(C) The force of friction exerted on the block by the incline",
+        "(D) The gravitational force exerted on Earth by the block"
+      ],
+      "correct_option": "(A); (D)",
+      "image": {
+        "page": 38,
+        "bbox": [
+          0.05,
+          0.04,
+          0.45,
+          0.18
+        ],
+        "alt": "A block labeled m at rest on a rough inclined ramp.",
+        "caption": "Block at rest on rough incline"
+      }
+    },
+    {
+      "source_file": "AP Physics 1 2018.pdf",
+      "source_page": 20,
+      "exercise_ref": "1",
+      "qt_target": "54c6cfca-d95b-4c5f-b789-bdd760a079b8",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "The figure above shows a truck pulling three crates across a rough road. Which of the following shows the directions of all the horizontal forces acting on crate 2?",
+      "question_format": "mcq",
+      "options": [
+        "(A) Rope (left) and Cable (right)",
+        "(B) Rope (left), Crate 3 (left), and Cable (right)",
+        "(C) Rope (left), Crate 3 (left), Friction (left), and Cable (right)",
+        "(D) Rope (left), Friction (left), Cable (right), and Crate 3 (right)"
+      ],
+      "correct_option": "(C) Rope (left), Crate 3 (left), Friction (left), and Cable (right)",
+      "image": {
+        "page": 20,
+        "bbox": [
+          0.05,
+          0.3,
+          0.5,
+          0.5
+        ],
+        "alt": "A truck on rough road pulling three crates labeled 1, 2, 3 in series; crate 1 trails behind, then crate 2, then crate 3, connected to the truck by a cable.",
+        "caption": "Truck pulling three crates across rough road"
+      }
+    },
+    {
+      "source_file": "AP Physics 1 2018.pdf",
+      "source_page": 25,
+      "exercise_ref": "16",
+      "qt_target": "41bca3e2-c8ce-409c-a321-c89763c254ac",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "A small block slides without friction along a track toward a circular loop. The block has more than enough speed to remain firmly in contact with the track as it goes around the loop. The magnitude of the block's acceleration at the top of the loop is",
+      "question_format": "mcq",
+      "options": [
+        "(A) zero",
+        "(B) greater than zero but less than g",
+        "(C) equal to g",
+        "(D) greater than g"
+      ],
+      "correct_option": "(D) greater than g",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2018.pdf",
+      "source_page": 34,
+      "exercise_ref": "33",
+      "qt_target": "d46cf597-b7d0-4b43-bd59-caa15f9b5129",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "A hollow plastic ball is projected into the air. There is significant air resistance opposing the ball's motion, so the magnitude of the ball's acceleration is not equal to g. At time t, the ball is moving up and to the right at an angle of 45° to the horizontal, as shown above. Which of the following best shows the magnitude a and the direction of the ball's acceleration at time t?",
+      "question_format": "mcq",
+      "options": [
+        "(A) Acceleration arrow points down-and-to-the-left at 45°; a < g",
+        "(B) Acceleration arrow points down-and-to-the-left at 45°; a > g",
+        "(C) Acceleration arrow points straight down; a < g",
+        "(D) Acceleration arrow points straight down; a > g"
+      ],
+      "correct_option": "(B) Acceleration arrow points down-and-to-the-left at 45°; a > g",
+      "image": {
+        "page": 34,
+        "bbox": [
+          0.05,
+          0.04,
+          0.32,
+          0.16
+        ],
+        "alt": "A small circle representing a ball; an arrow labeled v points up-and-to-the-right at 45° above horizontal.",
+        "caption": "Ball moving up-and-to-the-right at 45°"
+      }
+    },
+    {
+      "source_file": "AP Physics 1 2018.pdf",
+      "source_page": 36,
+      "exercise_ref": "131",
+      "qt_target": "2d698944-c5ae-486d-ab3d-fbb4335131ed",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "A water-skier with weight F_g = mg moves to the right with acceleration a. A horizontal tension force T is exerted on the skier by the rope, and a horizontal drag force F_d is exerted by the water on the ski. The water also exerts a vertical lift force L on the skier. Which of the following are correct relationships between the forces exerted on the skier-ski system? Select two answers.",
+      "question_format": "mcq",
+      "options": [
+        "(A) T − F_d = ma",
+        "(B) L − F_g = ma",
+        "(C) L − F_g = 0",
+        "(D) T − F_d = 0"
+      ],
+      "correct_option": "(A); (C)",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2018.pdf",
+      "source_page": 39,
+      "exercise_ref": "134",
+      "qt_target": "new1",
+      "kind": "single_question",
+      "stem_group_key": "",
+      "stem_text": "A vehicle lands on Mars and explores its surface. The average gravitational field on the surface of Mars is 3.7 N/kg. The weight of the vehicle is defined as the gravitational force exerted on it. Which of the following statements are true about the vehicle's weight? Select two answers.",
+      "question_format": "mcq",
+      "options": [
+        "(A) The vehicle's weight was constant until it reached the surface of Mars.",
+        "(B) The vehicle's weight increased while it was descending to the surface of Mars.",
+        "(C) The vehicle's weight always equals the normal force exerted by Mars on the vehicle while it is landing.",
+        "(D) The vehicle weighs less on the surface of Mars than on the surface of Earth."
+      ],
+      "correct_option": "(B); (D)",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2014.pdf",
+      "source_page": 44,
+      "exercise_ref": "FRQ1.a",
+      "qt_target": "973667a0-e055-4dff-b586-92f3389e905d",
+      "kind": "shared_stimulus_set_parent",
+      "stem_group_key": "ap14_frq1_carts_tilted_track",
+      "stem_text": "The figure above represents two carts, with magnets attached, that make up a system. The mass of one cart and magnet is 1 kg and the mass of the other is 5 kg. The carts are initially at rest on a frictionless track. They are released from rest and exert a repulsive force on each other. The track is not quite horizontal, with the right side slightly lower than the left side. The speeds of the carts are measured over a 10 s interval. The graph below shows the momentum of the two carts as a function of time for this interval as they move along the x-axis. (a) Based on the graph, were the measurements started at the instant the carts were released? Justify your answer.",
+      "question_format": "free_response",
+      "image": {
+        "page": 44,
+        "bbox": [
+          0.2,
+          0.3,
+          0.85,
+          0.85
+        ],
+        "alt": "Two carts on a track (top view) connected to x-axis. Below: momentum-vs-time graph showing the 5 kg cart's momentum increasing from a positive value to ~1.3 kg·m/s, and the 1 kg cart's momentum decreasing from ~−0.2 to ~−0.6 kg·m/s over 10 s.",
+        "caption": "Two carts with magnets on slightly tilted track; momentum-time graph"
+      }
+    },
+    {
+      "source_file": "AP Physics 1 2014.pdf",
+      "source_page": 45,
+      "exercise_ref": "FRQ1.b",
+      "qt_target": "973667a0-e055-4dff-b586-92f3389e905d",
+      "kind": "shared_stimulus_set_child",
+      "stem_group_key": "ap14_frq1_carts_tilted_track",
+      "stem_text": "(b) Calculate the magnitude of the external force exerted on the system.",
+      "question_format": "free_response",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2014.pdf",
+      "source_page": 45,
+      "exercise_ref": "FRQ1.c",
+      "qt_target": "973667a0-e055-4dff-b586-92f3389e905d",
+      "kind": "shared_stimulus_set_child",
+      "stem_group_key": "ap14_frq1_carts_tilted_track",
+      "stem_text": "(c) Suppose the experiment is repeated with different carts, so that the masses of cart plus magnet are 2 kg and 4 kg. Would your answer to part (b) be different with the new masses? Justify your answer.",
+      "question_format": "free_response",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2016.pdf",
+      "source_page": 45,
+      "exercise_ref": "FRQ3",
+      "qt_target": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+      "kind": "shared_stimulus_set_parent",
+      "stem_group_key": "ap16_frq3_fan_block",
+      "stem_text": "A student in a physics lab has a block with a fan attached to it, as shown in the figure above. The fan has a pivot so that the angle θ it makes with the horizontal can be adjusted between 0° and 90°. When the fan is pointed horizontally so that θ = 0°, the block accelerates from rest along a track, even though there is friction between the block and the track. (a) Describe an experimental procedure that the student could use to measure the force F that the air exerts on the fan-block system when the fan is turned on. Assume that the magnitude of this force is the same for all angles θ. i. What quantities would be measured? ii. What equipment would be used for the measurements, and how would that equipment be used? Include a labeled diagram of the experimental setup. iii. Describe the overall procedure to be used. Give enough detail so that another student could replicate the experiment. iv. Describe how the force can be determined from the measurements described in parts (a)i–iii.",
+      "question_format": "free_response",
+      "image": {
+        "page": 45,
+        "bbox": [
+          0.3,
+          0.04,
+          0.7,
+          0.22
+        ],
+        "alt": "A rectangular block with a fan mounted on a pivot on top; the fan tilts between 0° (horizontal) and 90° (straight up). The block sits on a horizontal track.",
+        "caption": "Fan-block system"
+      }
+    },
+    {
+      "source_file": "AP Physics 1 2016.pdf",
+      "source_page": 46,
+      "exercise_ref": "FRQ3.b",
+      "qt_target": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+      "kind": "shared_stimulus_set_child",
+      "stem_group_key": "ap16_frq3_fan_block",
+      "stem_text": "(b) Describe an experimental procedure that would allow the student to use the fan-block system, with the fan turned on, to find the coefficient of kinetic friction between the block and the track. i. What quantities would be measured? ii. What equipment would be used for the measurements, and how would that equipment be used? Include a labeled diagram of the experimental setup. iii. Describe the overall procedure to be used. iv. On the dot to the right, which represents the fan-block system, draw and label the forces (not components) that are exerted on the system during the experiment described in parts (b)i–iii.",
+      "question_format": "free_response",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2016.pdf",
+      "source_page": 46,
+      "exercise_ref": "FRQ3.c",
+      "qt_target": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+      "kind": "shared_stimulus_set_child",
+      "stem_group_key": "ap16_frq3_fan_block",
+      "stem_text": "(c) Describe how to analyze the data from the experiment described in parts (b)i–iii in order to determine the coefficient of kinetic friction between the block and the track. Your analysis may include the force F exerted by the air on the fan-block system. Do not add to the free-body diagram in part (b)iv.",
+      "question_format": "free_response",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2018.pdf",
+      "source_page": 45,
+      "exercise_ref": "FRQ1.a",
+      "qt_target": "909bff58-644c-4423-954f-0eb27dcde525",
+      "kind": "shared_stimulus_set_parent",
+      "stem_group_key": "ap18_frq1_two_spheres_vert_circle",
+      "stem_text": "A toy consists of two identical solid spheres connected by a string with negligible mass. The toy is thrown at an angle above the horizontal (not straight up) such that the string remains taut and both spheres are revolving counterclockwise in a vertical plane around the center of the string, as shown above. (a) Sketch graphs of the horizontal and vertical components of the velocity of the center of the string as a function of time, from the instant the spheres are released at time t = 0 until the instant the system returns to its initial height at time t_f. Take the positive direction to be toward the right for the horizontal component and the positive direction to be upward for the vertical component.",
+      "question_format": "free_response",
+      "image": {
+        "page": 45,
+        "bbox": [
+          0.4,
+          0.05,
+          0.95,
+          0.22
+        ],
+        "alt": "Stick figure throwing a toy that consists of two spheres connected by a string. The toy is shown in the air revolving counterclockwise.",
+        "caption": "Two-sphere toy thrown at angle, revolving in vertical plane"
+      }
+    },
+    {
+      "source_file": "AP Physics 1 2018.pdf",
+      "source_page": 46,
+      "exercise_ref": "FRQ1.b.i",
+      "qt_target": "41bca3e2-c8ce-409c-a321-c89763c254ac",
+      "kind": "shared_stimulus_set_child",
+      "stem_group_key": "ap18_frq1_two_spheres_vert_circle",
+      "stem_text": "(b)i. The figure above shows the toy at the instant the center of the string reaches the top of its trajectory. This is a side view: the sphere on the left is higher than the sphere on the right. On the dot below, which represents the left sphere only, draw and label the forces (not components) exerted on the left sphere at this instant. Represent each force by a distinct arrow starting on, and pointing away from, the dot. The dashed line is drawn at the same angle as the string.",
+      "question_format": "free_response",
+      "image": {
+        "page": 46,
+        "bbox": [
+          0.3,
+          0.04,
+          0.7,
+          0.22
+        ],
+        "alt": "The toy at the apex of trajectory: one sphere upper-left, one sphere lower-right, connected by string at angle.",
+        "caption": "Toy at top of trajectory (side view)"
+      }
+    },
+    {
+      "source_file": "AP Physics 1 2018.pdf",
+      "source_page": 46,
+      "exercise_ref": "FRQ1.b.ii",
+      "qt_target": "41bca3e2-c8ce-409c-a321-c89763c254ac",
+      "kind": "shared_stimulus_set_child",
+      "stem_group_key": "ap18_frq1_two_spheres_vert_circle",
+      "stem_text": "(b)ii. On the dot below, which represents the whole toy (the spheres-string system), draw and label the forces (not components) that act on the system at this instant. Represent each force by a distinct arrow starting on, and pointing away from, the dot. The dashed line is drawn at the same angle as the string.",
+      "question_format": "free_response",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2018.pdf",
+      "source_page": 46,
+      "exercise_ref": "FRQ1.b.iii",
+      "qt_target": "909bff58-644c-4423-954f-0eb27dcde525",
+      "kind": "shared_stimulus_set_child",
+      "stem_group_key": "ap18_frq1_two_spheres_vert_circle",
+      "stem_text": "(b)iii. When the toy was released, the center of the string was moving with an initial speed of 15 m/s at a 60° angle above the horizontal. Calculate the speed of the center of the string at the instant shown above, when the center of the string reaches the top of its trajectory.",
+      "question_format": "free_response",
+      "image": null
+    },
+    {
+      "source_file": "AP Physics 1 2018.pdf",
+      "source_page": 52,
+      "exercise_ref": "FRQ4.a",
+      "qt_target": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+      "kind": "shared_stimulus_set_parent",
+      "stem_group_key": "ap18_frq4_block_up_down_ramp",
+      "stem_text": "A student strikes a block at the bottom of a ramp, giving it an initial speed v_0 up the ramp, as shown at right. There is friction between the ramp and the block as it slides a distance x up the ramp and then slides back down. (a) On the dots below, which represent the block as it is sliding up the ramp and down the ramp, draw and label the forces (not components) exerted on the block. Represent each force by a distinct arrow starting on, and pointing away from, the dot. The dashed lines are drawn at the same angle as the surface of the ramp.",
+      "question_format": "free_response",
+      "image": {
+        "page": 52,
+        "bbox": [
+          0.55,
+          0.06,
+          0.95,
+          0.22
+        ],
+        "alt": "Block at the bottom of an incline, given initial speed v0 up the ramp.",
+        "caption": "Block on ramp with friction, going up then down"
+      }
+    },
+    {
+      "source_file": "AP Physics 1 2018.pdf",
+      "source_page": 52,
+      "exercise_ref": "FRQ4.b",
+      "qt_target": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+      "kind": "shared_stimulus_set_child",
+      "stem_group_key": "ap18_frq4_block_up_down_ramp",
+      "stem_text": "(b) The block takes time t_up to slide up the ramp a distance x. The block then takes time t_down to slide back down to the bottom of the ramp, where it has speed v_f. Is t_down greater than, equal to, or less than t_up? In a clear, coherent paragraph-length response that may also contain figures and/or equations, explain your reasoning. (Choices: t_down > t_up, t_down = t_up, t_down < t_up.)",
+      "question_format": "free_response",
+      "image": null
+    }
+  ]
+}

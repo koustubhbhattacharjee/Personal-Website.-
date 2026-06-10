@@ -1,0 +1,1995 @@
+{
+  "version": 2,
+  "source_label": "AP Physics 1 \u2014 Unit 3 Work, Energy, Power (workbook MCQ, vision-extracted)",
+  "source_type": "external",
+  "textbook_key": "tutor_ap1_workbook_book1_2014",
+  "content_bank_id": "19522376-4b71-48a0-aa5c-845df3d6037d",
+  "_notes": "Hand-curated from workbook MCQ pages 117-122 + answer key pages 152-154 via Claude vision read. 39 source MCQs minus Q27 (pure dynamics \u2014 vector addition of impulses) and Q36 (constant-velocity net force, pure Unit 2) = 37 imports across 14 new Unit-3 QTs.",
+  "units": [
+    {
+      "id": "u3",
+      "label": "Unit 3: Work, Energy, and Power",
+      "question_types": [
+        {
+          "id": "u3_qt01",
+          "label": "Work done by a constant force at an angle (W = Fd cos \u03b8)",
+          "primary_slo": "3.2.A.3",
+          "slo_weights": [
+            {
+              "slo": "3.2.A.3",
+              "weight": 0.55
+            },
+            {
+              "slo": "3.2.A.1",
+              "weight": 0.3
+            },
+            {
+              "slo": "3.2.A.2",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "wb_u3_q3",
+              "label": "3",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 117,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "3"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A 2 kg ball is attached to a 0.80 m string and whirled in a horizontal circle at a constant speed of 6 m/s. The work done on the ball during each revolution is:"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 90 J\n(B) 72 J\n(C) 16 J\n(D) zero"
+                }
+              ],
+              "options": [
+                "(A) 90 J",
+                "(B) 72 J",
+                "(C) 16 J",
+                "(D) zero"
+              ],
+              "correct_option": "(D) zero"
+            },
+            {
+              "id": "barrons_u3_q9",
+              "label": "9",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 108,
+                "section": "Ch 4 Energy",
+                "exercise_ref": "9"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A box is pulled along a smooth floor by a force F, making an angle \u03b8 with the horizontal. As \u03b8 increases, the amount of work done to pull the box the same distance, d,"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) increases\n(B) increases and then decreases\n(C) remains the same\n(D) decreases"
+                }
+              ],
+              "options": [
+                "(A) increases",
+                "(B) increases and then decreases",
+                "(C) remains the same",
+                "(D) decreases"
+              ],
+              "correct_option": "(D) decreases"
+            },
+            {
+              "id": "barrons_u3_frq5",
+              "label": "5",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 110,
+                "section": "Ch 4 Energy",
+                "exercise_ref": "FRQ-5"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "When you hold up a 10-kg mass with your arms outstretched, you get tired. However, according to physics, you have not done any work! Explain how this is possible."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u3_qt02",
+          "label": "Work done by friction (sign and magnitude)",
+          "primary_slo": "3.4.C.3",
+          "slo_weights": [
+            {
+              "slo": "3.4.C.3",
+              "weight": 0.5
+            },
+            {
+              "slo": "3.2.A.1",
+              "weight": 0.3
+            },
+            {
+              "slo": "3.4.B.4",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "wb_u3_q2",
+              "label": "2",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 117,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "2"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A force F at an angle \u03b8 above the horizontal is used to pull a heavy suitcase of weight mg a distance d along a level floor at constant velocity. The coefficient of friction between the floor and the suitcase is \u03bc. The work done by the frictional force is:"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) \u2013Fd cos \u03b8\n(B) \u2013\u03bcFd cos \u03b8\n(C) \u2013\u03bcmgd\n(D) \u2013\u03bcmgd cos \u03b8"
+                }
+              ],
+              "options": [
+                "(A) \u2013Fd cos \u03b8",
+                "(B) \u2013\u03bcFd cos \u03b8",
+                "(C) \u2013\u03bcmgd",
+                "(D) \u2013\u03bcmgd cos \u03b8"
+              ],
+              "correct_option": "(A) \u2013Fd cos \u03b8"
+            }
+          ]
+        },
+        {
+          "id": "u3_qt03",
+          "label": "Work done by a varying force (area under F-x graph)",
+          "primary_slo": "3.2.A.5",
+          "slo_weights": [
+            {
+              "slo": "3.2.A.5",
+              "weight": 0.65
+            },
+            {
+              "slo": "3.2.A.4",
+              "weight": 0.35
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "wb_u3_q30",
+              "label": "30",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 121,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "30"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The following graphs, all drawn to the same scale, represent the net force F as a function of displacement x for an object that moves along a straight line. Which graph represents the force that will cause the greatest change in the kinetic energy of the object from x = 0 to x = x\u2081?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) graph A\n(B) graph B\n(C) graph C\n(D) graph D"
+                }
+              ],
+              "options": [
+                "(A) graph A",
+                "(B) graph B",
+                "(C) graph C",
+                "(D) graph D"
+              ],
+              "correct_option": "(D) graph D"
+            }
+          ]
+        },
+        {
+          "id": "u3_qt04",
+          "label": "Work-energy theorem (W_net = \u0394KE)",
+          "primary_slo": "3.2.A.4",
+          "slo_weights": [
+            {
+              "slo": "3.2.A.4",
+              "weight": 0.55
+            },
+            {
+              "slo": "3.1.A.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "3.2.A.3",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "wb_u3_q5",
+              "label": "5",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 117,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "5"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A softball player catches a ball of mass m, which is moving towards her with horizontal speed V. While bringing the ball to rest, her hand moved back a distance d. Assuming constant deceleration, the horizontal force exerted on the ball by the hand is"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) mV\u00b2/(2d)\n(B) mV\u00b2/d\n(C) 2mV/d\n(D) mV/d"
+                }
+              ],
+              "options": [
+                "(A) mV\u00b2/(2d)",
+                "(B) mV\u00b2/d",
+                "(C) 2mV/d",
+                "(D) mV/d"
+              ],
+              "correct_option": "(A) mV\u00b2/(2d)"
+            },
+            {
+              "id": "wb_u3_q32",
+              "label": "32",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 121,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "32"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A rock is lifted for a certain time by a force F that is greater in magnitude than the rock's weight W. The change in kinetic energy of the rock during this time is equal to the"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) work done by the net force (F \u2212 W)\n(B) work done by F alone\n(C) work done by W alone\n(D) difference in the potential energy of the rock before and after this time."
+                }
+              ],
+              "options": [
+                "(A) work done by the net force (F \u2212 W)",
+                "(B) work done by F alone",
+                "(C) work done by W alone",
+                "(D) difference in the potential energy of the rock before and after this time."
+              ],
+              "correct_option": "(A) work done by the net force (F \u2212 W)"
+            }
+          ]
+        },
+        {
+          "id": "u3_qt05",
+          "label": "Kinetic energy and speed (KE = \u00bdmv\u00b2, ratios and scaling)",
+          "primary_slo": "3.1.A.1",
+          "slo_weights": [
+            {
+              "slo": "3.1.A.1",
+              "weight": 0.65
+            },
+            {
+              "slo": "3.2.A.4",
+              "weight": 0.25
+            },
+            {
+              "slo": "1.3.A.2",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "wb_u3_q13",
+              "label": "13",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 118,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "13"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A rock is dropped from the top of a tall tower. Half a second later another rock, twice as massive as the first, is dropped. Ignoring air resistance,"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) the distance between the rocks increases while both are falling.\n(B) the acceleration is greater for the more massive rock.\n(C) they strike the ground more than half a second apart.\n(D) they strike the ground with the same kinetic energy."
+                }
+              ],
+              "options": [
+                "(A) the distance between the rocks increases while both are falling.",
+                "(B) the acceleration is greater for the more massive rock.",
+                "(C) they strike the ground more than half a second apart.",
+                "(D) they strike the ground with the same kinetic energy."
+              ],
+              "correct_option": "(A) the distance between the rocks increases while both are falling."
+            },
+            {
+              "id": "wb_u3_q24",
+              "label": "24",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 120,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "24"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "What is the kinetic energy of a satellite of mass m that orbits the Earth, of mass M, in a circular orbit of radius R?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) \u00bd GMm/R\n(B) \u00bc GMm/R\n(C) \u00bd GMm/R\u00b2\n(D) GMm/R\u00b2"
+                }
+              ],
+              "options": [
+                "(A) \u00bd GMm/R",
+                "(B) \u00bc GMm/R",
+                "(C) \u00bd GMm/R\u00b2",
+                "(D) GMm/R\u00b2"
+              ],
+              "correct_option": "(A) \u00bd GMm/R"
+            },
+            {
+              "id": "wb_u3_q28",
+              "label": "28",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 121,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "28"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "An object initially at rest is acted on by a constant force in the +x direction for 1 s, then no force for 1 s, then a constant force of the same magnitude in the +y direction for 1 s. Which of the following graphs best represents the kinetic energy K of the object as a function of time?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) graph A\n(B) graph B\n(C) graph C\n(D) graph D"
+                }
+              ],
+              "options": [
+                "(A) graph A",
+                "(B) graph B",
+                "(C) graph C",
+                "(D) graph D"
+              ],
+              "correct_option": "(B) graph B"
+            },
+            {
+              "id": "wb_u3_q38",
+              "label": "38",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 122,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "38"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "An object is dropped from rest from a certain height. Air resistance is negligible. After falling a distance d, the object's kinetic energy is proportional to which of the following?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 1/d\u00b2\n(B) 1/d\n(C) \u221ad\n(D) d"
+                }
+              ],
+              "options": [
+                "(A) 1/d\u00b2",
+                "(B) 1/d",
+                "(C) \u221ad",
+                "(D) d"
+              ],
+              "correct_option": "(D) d"
+            },
+            {
+              "id": "barrons_u3_q6",
+              "label": "6",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 108,
+                "section": "Ch 4 Energy",
+                "exercise_ref": "6"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Two unequal masses are dropped simultaneously from the same height. The two masses will experience the same change in"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) acceleration\n(B) kinetic energy\n(C) potential energy\n(D) velocity"
+                }
+              ],
+              "options": [
+                "(A) acceleration",
+                "(B) kinetic energy",
+                "(C) potential energy",
+                "(D) velocity"
+              ],
+              "correct_option": "(D) velocity"
+            },
+            {
+              "id": "barrons_u3_frq4",
+              "label": "4",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 110,
+                "section": "Ch 4 Energy",
+                "exercise_ref": "FRQ-4"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Explain how it might be possible for a moving object to possess, and simultaneously not possess, kinetic energy?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u3_qt06",
+          "label": "Gravitational potential energy near Earth (\u0394U = mgh)",
+          "primary_slo": "3.3.A.4",
+          "slo_weights": [
+            {
+              "slo": "3.3.A.4",
+              "weight": 0.55
+            },
+            {
+              "slo": "3.4.B.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "3.4.C.2",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "wb_u3_q4",
+              "label": "4",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 117,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "4"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A pendulum bob of mass m on a cord of length L is pulled sideways until the cord makes an angle \u03b8 with the vertical. The change in (gravitational) potential energy of the bob during the displacement is:"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) mgL(1 \u2212 cos \u03b8)\n(B) mgL(1 \u2212 sin \u03b8)\n(C) mgL sin \u03b8\n(D) mgL cos \u03b8"
+                }
+              ],
+              "options": [
+                "(A) mgL(1 \u2212 cos \u03b8)",
+                "(B) mgL(1 \u2212 sin \u03b8)",
+                "(C) mgL sin \u03b8",
+                "(D) mgL cos \u03b8"
+              ],
+              "correct_option": "(A) mgL(1 \u2212 cos \u03b8)"
+            },
+            {
+              "id": "wb_u3_q29",
+              "label": "29",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 121,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "29"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A system consists of two objects having masses m\u2081 and m\u2082 (m\u2081 < m\u2082). The objects are connected by a massless string, hung over a pulley as shown, and then released. When the object of mass m\u2082 has descended a distance h, the potential energy of the system has decreased by"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) (m\u2082 \u2212 m\u2081)gh\n(B) m\u2082gh\n(C) (m\u2081 + m\u2082)gh\n(D) \u00bd(m\u2081 + m\u2082)gh"
+                }
+              ],
+              "options": [
+                "(A) (m\u2082 \u2212 m\u2081)gh",
+                "(B) m\u2082gh",
+                "(C) (m\u2081 + m\u2082)gh",
+                "(D) \u00bd(m\u2081 + m\u2082)gh"
+              ],
+              "correct_option": "(A) (m\u2082 \u2212 m\u2081)gh"
+            }
+          ]
+        },
+        {
+          "id": "u3_qt07",
+          "label": "Spring potential energy (U_s = \u00bdkx\u00b2)",
+          "primary_slo": "3.3.A.1",
+          "slo_weights": [
+            {
+              "slo": "3.3.A.1",
+              "weight": 0.45
+            },
+            {
+              "slo": "3.4.B.1",
+              "weight": 0.3
+            },
+            {
+              "slo": "2.8.A.1",
+              "weight": 0.25
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "wb_u3_q23",
+              "label": "23",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 120,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "23"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A block of mass 3.0 kg is hung from a spring, causing it to stretch 12 cm at equilibrium. The 3.0 kg block is then replaced by a 4.0 kg block, and the new block is released from the position shown, at which the spring is unstretched. How far will the 4.0 kg block fall before its direction is reversed?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 18 cm\n(B) 24 cm\n(C) 32 cm\n(D) 48 cm"
+                }
+              ],
+              "options": [
+                "(A) 18 cm",
+                "(B) 24 cm",
+                "(C) 32 cm",
+                "(D) 48 cm"
+              ],
+              "correct_option": "(C) 32 cm"
+            },
+            {
+              "id": "barrons_u3_q1",
+              "label": "1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 107,
+                "section": "Ch 4 Energy",
+                "exercise_ref": "1"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Which of the following are the units for the spring constant, k?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) kg \u00b7 m\u00b2/s\u00b2\n(B) kg \u00b7 s\u00b2\n(C) kg \u00b7 m/s\n(D) kg/s\u00b2"
+                }
+              ],
+              "options": [
+                "(A) kg \u00b7 m\u00b2/s\u00b2",
+                "(B) kg \u00b7 s\u00b2",
+                "(C) kg \u00b7 m/s",
+                "(D) kg/s\u00b2"
+              ],
+              "correct_option": "(D) kg/s\u00b2"
+            },
+            {
+              "id": "barrons_u3_q8",
+              "label": "8",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 108,
+                "section": "Ch 4 Energy",
+                "exercise_ref": "8"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A 0.3-kg mass rests on top of a spring that has been compressed by 0.04 m. Neglect any frictional effects, and consider the spring to be massless. Then, if the spring has a constant k equal to 2,000 N/m, to what height will the mass rise when the system is released?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 1.24 m\n(B) 0.75 m\n(C) 0.54 m\n(D) 1.04 m"
+                }
+              ],
+              "options": [
+                "(A) 1.24 m",
+                "(B) 0.75 m",
+                "(C) 0.54 m",
+                "(D) 1.04 m"
+              ],
+              "correct_option": "(C) 0.54 m"
+            },
+            {
+              "id": "pyq_2014_frq2",
+              "label": "FRQ-2",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 2014 Released Exam",
+                "textbook_key": "ap_phys1_released_2014",
+                "page": 46,
+                "section": "FRQ FRQ2",
+                "exercise_ref": "FRQ2"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "(12 points, suggested 25 min) A student hangs a 0.125-kg object on a spring, sets it into oscillation, and obtains data for the position and velocity of the object as a function of time (graphs given). (a) On the grid below, sketch the potential energy of the object-spring-Earth system as a function of time. Explicitly label any intercepts, asymptotes, maxima, or minima with numerical values, as appropriate. (b) On the axes below, sketch the acceleration of the object as a function of time. Explicitly label any intercepts, asymptotes, maxima, or minima with numerical values, as appropriate. Next the student is given a rubber band and asked to determine whether the relationship between the restoring force exerted by the rubber band and the amount it is stretched is the same as that of an ideal spring. (c) Describe an experimental procedure that the student could use to collect the necessary data, including all the equipment the student would need. (d) How should the student analyze the data to determine whether the relationship between the restoring force exerted by the rubber band and the amount it is stretched is the same as that of an ideal spring? What evidence from the analysis would be used to make the determination?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u3_qt08",
+          "label": "Conservation of mechanical energy (KE + PE = const, no friction)",
+          "primary_slo": "3.4.C.2",
+          "slo_weights": [
+            {
+              "slo": "3.4.C.2",
+              "weight": 0.55
+            },
+            {
+              "slo": "3.4.B.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "3.1.A.1",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "wb_u3_q6",
+              "label": "6",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 117,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "6"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A pendulum is pulled to one side and released. It swings freely to the opposite side and stops. Which of the following might best represent graphs of kinetic energy (E_k), potential energy (E_p), and total mechanical energy (E_T)?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) graph A\n(B) graph B\n(C) graph C\n(D) graph D"
+                }
+              ],
+              "options": [
+                "(A) graph A",
+                "(B) graph B",
+                "(C) graph C",
+                "(D) graph D"
+              ],
+              "correct_option": "(C) graph C"
+            },
+            {
+              "id": "wb_u3_q25",
+              "label": "25",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 120,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "25"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A rock of mass m is thrown horizontally off a building from a height h. The speed of the rock as it leaves the thrower's hand at the edge of the building is v\u2080. What is the kinetic energy of the rock just before it hits the ground?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) mgh\n(B) \u00bdmv\u2080\u00b2\n(C) \u00bdmv\u2080\u00b2 \u00b7 mgh\n(D) \u00bdmv\u2080\u00b2 + mgh"
+                }
+              ],
+              "options": [
+                "(A) mgh",
+                "(B) \u00bdmv\u2080\u00b2",
+                "(C) \u00bdmv\u2080\u00b2 \u00b7 mgh",
+                "(D) \u00bdmv\u2080\u00b2 + mgh"
+              ],
+              "correct_option": "(D) \u00bdmv\u2080\u00b2 + mgh"
+            },
+            {
+              "id": "pyq_2016_frq1",
+              "label": "FRQ-1",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 2016 Released Exam",
+                "textbook_key": "ap_phys1_released_2016",
+                "page": 41,
+                "section": "FRQ FRQ1",
+                "exercise_ref": "FRQ1"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "(7 points, suggested 13 min) Two blocks A and B of equal mass are on a frictionless track. Block A, initially moving with speed v_1, has a perfectly elastic collision with block B. Block B has a speed v_1 immediately after the collision, and then it travels around a vertical loop of radius R, where R is much larger than the size of the blocks. The speed of block B at the top of the loop is v_top. Block B then slides up a ramp until it comes momentarily to rest at a height h above the floor. (a) Derive an equation for the height h in terms of m, R, v_top, and g, as appropriate."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u3_qt09",
+          "label": "Energy with friction / non-conservative forces",
+          "primary_slo": "3.4.C.3",
+          "slo_weights": [
+            {
+              "slo": "3.4.C.3",
+              "weight": 0.55
+            },
+            {
+              "slo": "3.4.B.4",
+              "weight": 0.25
+            },
+            {
+              "slo": "3.2.A.1",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "wb_u3_q7",
+              "label": "7",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 117,
+                "section": "Ch 4 Work-Energy \u2014 stem-group: Q7-8",
+                "exercise_ref": "7"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A car of mass m slides across a patch of ice at a speed v with its brakes locked. It then hits dry pavement and skids to a stop in a distance d. The coefficient of kinetic friction between the tires and the dry road is \u03bc. If the car has a mass of 2m, it would have skidded a distance of"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 0.5 d\n(B) d\n(C) 1.41 d\n(D) 2 d"
+                }
+              ],
+              "options": [
+                "(A) 0.5 d",
+                "(B) d",
+                "(C) 1.41 d",
+                "(D) 2 d"
+              ],
+              "correct_option": "(B) d"
+            },
+            {
+              "id": "wb_u3_q8",
+              "label": "8",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 117,
+                "section": "Ch 4 Work-Energy \u2014 stem-group: Q7-8",
+                "exercise_ref": "8"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A car of mass m slides across a patch of ice at a speed v with its brakes locked. It then hits dry pavement and skids to a stop in a distance d. The coefficient of kinetic friction between the tires and the dry road is \u03bc. If the car has a speed of 2v, it would have skidded a distance of"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) d\n(B) 1.41 d\n(C) 2 d\n(D) 4 d"
+                }
+              ],
+              "options": [
+                "(A) d",
+                "(B) 1.41 d",
+                "(C) 2 d",
+                "(D) 4 d"
+              ],
+              "correct_option": "(D) 4 d"
+            },
+            {
+              "id": "wb_u3_q12",
+              "label": "12",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 118,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "12"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A fan blows the air and gives it kinetic energy. An hour after the fan has been turned off, what has happened to the kinetic energy of the air?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) it disappears\n(B) it turns into potential energy\n(C) it turns into thermal energy\n(D) it turns into sound energy"
+                }
+              ],
+              "options": [
+                "(A) it disappears",
+                "(B) it turns into potential energy",
+                "(C) it turns into thermal energy",
+                "(D) it turns into sound energy"
+              ],
+              "correct_option": "(C) it turns into thermal energy"
+            },
+            {
+              "id": "wb_u3_q20",
+              "label": "20",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 119,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "20"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A rough semicircular track has its ends at a vertical height h. A block placed at point P at one end of the track is released from rest and slides past the bottom of the track. Which of the following is true of the height to which the block rises on the other side of the track?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) It is equal to h/4\n(B) It is equal to h/2\n(C) It is equal to h\n(D) It is between zero and h; the exact height depends on how much energy is lost to friction."
+                }
+              ],
+              "options": [
+                "(A) It is equal to h/4",
+                "(B) It is equal to h/2",
+                "(C) It is equal to h",
+                "(D) It is between zero and h; the exact height depends on how much energy is lost to friction."
+              ],
+              "correct_option": "(D) It is between zero and h; the exact height depends on how much energy is lost to friction."
+            },
+            {
+              "id": "wb_u3_q37",
+              "label": "37",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 122,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "37"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A block of mass M on a horizontal surface is connected to the end of a massless spring of spring constant k. The block is pulled a distance x from equilibrium and rests there. The block is then released and moves toward equilibrium. What coefficient of kinetic friction between the surface and the block would allow the block to return to equilibrium and stop?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) kx\u00b2/(2Mg)\n(B) kx/(Mg)\n(C) kx/(2Mg)\n(D) Mg/(2kx)"
+                }
+              ],
+              "options": [
+                "(A) kx\u00b2/(2Mg)",
+                "(B) kx/(Mg)",
+                "(C) kx/(2Mg)",
+                "(D) Mg/(2kx)"
+              ],
+              "correct_option": "(C) kx/(2Mg)"
+            },
+            {
+              "id": "barrons_u3_q5",
+              "label": "5",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 108,
+                "section": "Ch 4 Energy",
+                "exercise_ref": "5"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A mass m is moving horizontally along a nearly frictionless floor with velocity v. The mass now encounters a part of the floor that has a coefficient of kinetic friction given by \u00b5. The total distance traveled by the mass before it is slowed by friction to a stop is given by"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 2v\u00b2/(\u00b5g)\n(B) v\u00b2/(2\u00b5g)\n(C) 2mgv\u00b2\n(D) mv\u00b2/(2g)"
+                }
+              ],
+              "options": [
+                "(A) 2v\u00b2/(\u00b5g)",
+                "(B) v\u00b2/(2\u00b5g)",
+                "(C) 2mgv\u00b2",
+                "(D) mv\u00b2/(2g)"
+              ],
+              "correct_option": "(B) v\u00b2/(2\u00b5g)"
+            },
+            {
+              "id": "barrons_u3_frq1",
+              "label": "1",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 109,
+                "section": "Ch 4 Energy",
+                "exercise_ref": "FRQ-1"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A 0.75-kg sphere is dropped through a tall column of liquid. When the sphere has fallen a distance of 2.0 m, it is observed to have a velocity of 5 m/s. (a) How much work was done by the frictional 'viscosity' of the liquid? (b) What is the average force of friction during the displacement of 2.0 m?"
+                }
+              ]
+            },
+            {
+              "id": "pyq_2015_frq1",
+              "label": "FRQ-1",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 2015 Released Exam",
+                "textbook_key": "ap_phys1_released_2015",
+                "page": 43,
+                "section": "FRQ FRQ1",
+                "exercise_ref": "FRQ1"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "(7 points, suggested 13 min) Cart A has mass M and is released from rest at a height 2H on a ramp making angle 2\u03b8 with the horizontal. Cart B has mass 2M and is released from rest at a height H on a ramp making angle \u03b8 with the horizontal. The carts roll toward each other, have a head-on collision on the horizontal portion of the ramp, and stick together. The masses of the carts' wheels are negligible, as are any frictional or drag forces. (a) Indicate whether the carts remain at rest, move to the left, or move to the right after the collision (Remain at rest / Move to the left / Move to the right). Explain how you arrived at your answer. (b) Consider the time interval from when the two carts are released until just after they collide.   (i) For the system consisting of the two carts and Earth, indicate whether the total mechanical energy increases, decreases, or remains the same. Justify your answer.   (ii) For the system consisting of only the two carts, indicate whether the total mechanical energy increases, decreases, or remains the same. Justify your answer."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u3_qt10",
+          "label": "Spring-mass energy interconversion (\u00bdkA\u00b2 \u2194 \u00bdmv\u00b2)",
+          "primary_slo": "3.4.C.2",
+          "slo_weights": [
+            {
+              "slo": "3.4.C.2",
+              "weight": 0.5
+            },
+            {
+              "slo": "3.4.B.1",
+              "weight": 0.3
+            },
+            {
+              "slo": "3.3.A.1",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "wb_u3_q1",
+              "label": "1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 117,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "1"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A mass m attached to a horizontal massless spring with spring constant k is set into simple harmonic motion. Its maximum displacement from its equilibrium position is A. What is the mass's speed as it passes through its equilibrium position?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 0\n(B) A\u221a(k/m)\n(C) A\u221a(m/k)\n(D) (1/A)\u221a(k/m)"
+                }
+              ],
+              "options": [
+                "(A) 0",
+                "(B) A\u221a(k/m)",
+                "(C) A\u221a(m/k)",
+                "(D) (1/A)\u221a(k/m)"
+              ],
+              "correct_option": "(B) A\u221a(k/m)"
+            },
+            {
+              "id": "wb_u3_q11",
+              "label": "11",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 118,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "11"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A mass m is attached to a spring with a spring constant k. If the mass is set into motion by a displacement d from its equilibrium position, what would be the speed v of the mass when it returns to the equilibrium position?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) v = \u221a(kd/m)\n(B) v = d\u221a(k/m)\n(C) v = \u221a(kd/(mg))\n(D) v\u00b2 = mgd/k"
+                }
+              ],
+              "options": [
+                "(A) v = \u221a(kd/m)",
+                "(B) v = d\u221a(k/m)",
+                "(C) v = \u221a(kd/(mg))",
+                "(D) v\u00b2 = mgd/k"
+              ],
+              "correct_option": "(B) v = d\u221a(k/m)"
+            },
+            {
+              "id": "wb_u3_q14",
+              "label": "14",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 118,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "14"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Which of the following is true for a system consisting of a mass oscillating on the end of an ideal spring?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) The kinetic and potential energies are equal to each other at all times.\n(B) The maximum potential energy is achieved when the mass passes through its equilibrium position.\n(C) The maximum kinetic energy and maximum potential energy are equal, but occur at different times.\n(D) The maximum kinetic energy occurs at maximum displacement of the mass from its equilibrium position."
+                }
+              ],
+              "options": [
+                "(A) The kinetic and potential energies are equal to each other at all times.",
+                "(B) The maximum potential energy is achieved when the mass passes through its equilibrium position.",
+                "(C) The maximum kinetic energy and maximum potential energy are equal, but occur at different times.",
+                "(D) The maximum kinetic energy occurs at maximum displacement of the mass from its equilibrium position."
+              ],
+              "correct_option": "(C) The maximum kinetic energy and maximum potential energy are equal, but occur at different times."
+            },
+            {
+              "id": "wb_u3_q26",
+              "label": "26",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 120,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "26"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A sphere of mass m\u2081, attached to a spring, is displaced downward from equilibrium and released from rest. A sphere of mass m\u2082, suspended from a string of length L, is displaced to the right and released from rest so that it swings as a pendulum with small amplitude. Assume both spheres undergo simple harmonic motion. Which of the following is true for both spheres?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) The maximum kinetic energy is attained as the sphere passes through its equilibrium position.\n(B) The maximum gravitational potential energy is attained as the sphere passes through its equilibrium position.\n(C) The maximum gravitational potential energy is attained when the sphere reaches its point of release.\n(D) The maximum total energy is attained only as the sphere passes through its equilibrium position."
+                }
+              ],
+              "options": [
+                "(A) The maximum kinetic energy is attained as the sphere passes through its equilibrium position.",
+                "(B) The maximum gravitational potential energy is attained as the sphere passes through its equilibrium position.",
+                "(C) The maximum gravitational potential energy is attained when the sphere reaches its point of release.",
+                "(D) The maximum total energy is attained only as the sphere passes through its equilibrium position."
+              ],
+              "correct_option": "(A) The maximum kinetic energy is attained as the sphere passes through its equilibrium position."
+            },
+            {
+              "id": "wb_u3_q33",
+              "label": "33",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 121,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "33"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A block on a horizontal frictionless plane is attached to a spring. The block oscillates along the x-axis with amplitude A. Which of the following statements about energy is correct?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) The potential energy of the spring is at a minimum at x = 0.\n(B) The potential energy of the spring is at a minimum at x = A.\n(C) The kinetic energy of the block is at a minimum at x = 0.\n(D) The kinetic energy of the block is at a maximum at x = A."
+                }
+              ],
+              "options": [
+                "(A) The potential energy of the spring is at a minimum at x = 0.",
+                "(B) The potential energy of the spring is at a minimum at x = A.",
+                "(C) The kinetic energy of the block is at a minimum at x = 0.",
+                "(D) The kinetic energy of the block is at a maximum at x = A."
+              ],
+              "correct_option": "(A) The potential energy of the spring is at a minimum at x = 0."
+            },
+            {
+              "id": "wb_u3_q35",
+              "label": "35",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 122,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "35"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "An ideal massless spring is fixed to the wall at one end. A block of mass M attached to the other end of the spring oscillates with amplitude A on a frictionless horizontal surface. The maximum speed of the block is v_m. The force constant of the spring is"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Mgv_m/(2A)\n(B) Mv_m\u00b2/(2A)\n(C) Mv_m\u00b2/A\u00b2\n(D) Mv_m\u00b2/(2A\u00b2)"
+                }
+              ],
+              "options": [
+                "(A) Mgv_m/(2A)",
+                "(B) Mv_m\u00b2/(2A)",
+                "(C) Mv_m\u00b2/A\u00b2",
+                "(D) Mv_m\u00b2/(2A\u00b2)"
+              ],
+              "correct_option": "(C) Mv_m\u00b2/A\u00b2"
+            },
+            {
+              "id": "barrons_u3_frq2",
+              "label": "2",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 109,
+                "section": "Ch 4 Energy",
+                "exercise_ref": "FRQ-2"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A 15-kg mass is attached to a massless spring by a light string that passes over a frictionless pulley. The spring has a force constant of 500 N/m and is unstretched when the mass is released. What is the velocity of the mass when it has fallen a distance of 0.3 m?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u3_qt11",
+          "label": "Pendulum energy (height vs speed at low/high points)",
+          "primary_slo": "3.4.C.2",
+          "slo_weights": [
+            {
+              "slo": "3.4.C.2",
+              "weight": 0.5
+            },
+            {
+              "slo": "3.3.A.4",
+              "weight": 0.3
+            },
+            {
+              "slo": "3.1.A.1",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "wb_u3_q18",
+              "label": "18",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 119,
+                "section": "Ch 4 Work-Energy \u2014 stem-group: Q18-19",
+                "exercise_ref": "18"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A ball swings freely back and forth in an arc from point I to point IV. Point II is the lowest point in the path, III is located 0.5 m above II, and IV is 1 m above II. Air resistance is negligible. If the potential energy is zero at point II, where will the kinetic and potential energies of the ball be equal?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) At point II\n(B) At some point between II and III\n(C) At point III\n(D) At some point between III and IV"
+                }
+              ],
+              "options": [
+                "(A) At point II",
+                "(B) At some point between II and III",
+                "(C) At point III",
+                "(D) At some point between III and IV"
+              ],
+              "correct_option": "(C) At point III"
+            },
+            {
+              "id": "wb_u3_q19",
+              "label": "19",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 119,
+                "section": "Ch 4 Work-Energy \u2014 stem-group: Q18-19",
+                "exercise_ref": "19"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A ball swings freely back and forth in an arc from point I to point IV. Point II is the lowest point in the path, III is located 0.5 m above II, and IV is 1 m above II. Air resistance is negligible. The speed of the ball at point II is most nearly"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 3.0 m/s\n(B) 4.5 m/s\n(C) 9.8 m/s\n(D) 14 m/s"
+                }
+              ],
+              "options": [
+                "(A) 3.0 m/s",
+                "(B) 4.5 m/s",
+                "(C) 9.8 m/s",
+                "(D) 14 m/s"
+              ],
+              "correct_option": "(B) 4.5 m/s"
+            },
+            {
+              "id": "wb_u3_q31",
+              "label": "31",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 121,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "31"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A pendulum consists of a ball of mass m suspended at the end of a massless cord of length L. The pendulum is drawn aside through an angle of 60\u00b0 with the vertical and released. At the low point of its swing, the speed of the pendulum ball is"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) \u221a(gL)\n(B) \u221a(2gL)\n(C) \u00bdgL\n(D) gL"
+                }
+              ],
+              "options": [
+                "(A) \u221a(gL)",
+                "(B) \u221a(2gL)",
+                "(C) \u00bdgL",
+                "(D) gL"
+              ],
+              "correct_option": "(A) \u221a(gL)"
+            },
+            {
+              "id": "barrons_u3_q3",
+              "label": "3",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 108,
+                "section": "Ch 4 Energy",
+                "exercise_ref": "3"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A pendulum consisting of a mass m attached to a light string of length \u2113 is displaced from its rest position, making an angle \u03b8 with the vertical. It is then released and allowed to swing freely. Which of the following expressions represents the velocity of the mass when it reaches its lowest position?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) \u221a(2g\u2113(1 \u2212 cos \u03b8))\n(B) \u221a(2g\u2113 cos \u03b8)\n(C) \u221a(2g\u2113 sin \u03b8)\n(D) 2g\u2113(1 \u2212 cos \u03b8)"
+                }
+              ],
+              "options": [
+                "(A) \u221a(2g\u2113(1 \u2212 cos \u03b8))",
+                "(B) \u221a(2g\u2113 cos \u03b8)",
+                "(C) \u221a(2g\u2113 sin \u03b8)",
+                "(D) 2g\u2113(1 \u2212 cos \u03b8)"
+              ],
+              "correct_option": "(A) \u221a(2g\u2113(1 \u2212 cos \u03b8))"
+            },
+            {
+              "id": "barrons_u3_q7",
+              "label": "7",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 108,
+                "section": "Ch 4 Energy",
+                "exercise_ref": "7"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A pendulum that consists of a 2-kg mass swings to a maximum vertical displacement of 17 cm above its rest position. At its lowest point, the kinetic energy of the mass is equal to"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 0.33 J\n(B) 3.33 J\n(C) 33.3 J\n(D) 333 J"
+                }
+              ],
+              "options": [
+                "(A) 0.33 J",
+                "(B) 3.33 J",
+                "(C) 33.3 J",
+                "(D) 333 J"
+              ],
+              "correct_option": "(B) 3.33 J"
+            }
+          ]
+        },
+        {
+          "id": "u3_qt12",
+          "label": "Power: P = W/t and P = Fv",
+          "primary_slo": "3.5.A.3",
+          "slo_weights": [
+            {
+              "slo": "3.5.A.3",
+              "weight": 0.5
+            },
+            {
+              "slo": "3.5.A.4",
+              "weight": 0.3
+            },
+            {
+              "slo": "3.5.A.1",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "wb_u3_q22",
+              "label": "22",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 119,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "22"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A child pushes horizontally on a box of mass m which moves with constant speed v across a horizontal floor. The coefficient of friction between the box and floor is \u03bc. At what rate does the child do work on the box?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) \u03bcmgv\n(B) mgv\n(C) \u03bcmg/v\n(D) mg/v"
+                }
+              ],
+              "options": [
+                "(A) \u03bcmgv",
+                "(B) mgv",
+                "(C) \u03bcmg/v",
+                "(D) mg/v"
+              ],
+              "correct_option": "(A) \u03bcmgv"
+            },
+            {
+              "id": "barrons_u3_q2",
+              "label": "2",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 107,
+                "section": "Ch 4 Energy",
+                "exercise_ref": "2"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Which of the following is an expression for mechanical power?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Ft/m\n(B) F\u00b2m/a\n(C) Fm\u00b2/t\n(D) F\u00b2t/m"
+                }
+              ],
+              "options": [
+                "(A) Ft/m",
+                "(B) F\u00b2m/a",
+                "(C) Fm\u00b2/t",
+                "(D) F\u00b2t/m"
+              ],
+              "correct_option": "(D) F\u00b2t/m"
+            },
+            {
+              "id": "barrons_u3_q4",
+              "label": "4",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 108,
+                "section": "Ch 4 Energy",
+                "exercise_ref": "4"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "An engine maintains constant power on a conveyor belt machine. If the belt's velocity is doubled, the magnitude of its average acceleration"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) is doubled\n(B) is quartered\n(C) is halved\n(D) is quadrupled"
+                }
+              ],
+              "options": [
+                "(A) is doubled",
+                "(B) is quartered",
+                "(C) is halved",
+                "(D) is quadrupled"
+              ],
+              "correct_option": "(C) is halved"
+            },
+            {
+              "id": "barrons_u3_q10",
+              "label": "10",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 108,
+                "section": "Ch 4 Energy",
+                "exercise_ref": "10"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "As the time needed to run up a flight of stairs decreases, the amount of work done against gravity"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) increases\n(B) decreases\n(C) remains the same\n(D) increases and then decreases"
+                }
+              ],
+              "options": [
+                "(A) increases",
+                "(B) decreases",
+                "(C) remains the same",
+                "(D) increases and then decreases"
+              ],
+              "correct_option": "(C) remains the same"
+            },
+            {
+              "id": "barrons_u3_frq6",
+              "label": "6",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 110,
+                "section": "Ch 4 Energy",
+                "exercise_ref": "FRQ-6"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A car (1200 kg) is traveling up a steep incline (35\u00b0 with the horizontal) at a speed of 25 MPH. How much power is required?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u3_qt13",
+          "label": "PE vs position graphs (turning points, equilibrium, force from \u2212dU/dx)",
+          "primary_slo": "3.4.C.2",
+          "slo_weights": [
+            {
+              "slo": "3.4.C.2",
+              "weight": 0.5
+            },
+            {
+              "slo": "3.4.B.1",
+              "weight": 0.3
+            },
+            {
+              "slo": "3.3.A.2",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "wb_u3_q16",
+              "label": "16",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 118,
+                "section": "Ch 4 Work-Energy \u2014 stem-group: Q16-17",
+                "exercise_ref": "16"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A block oscillates without friction on the end of a spring. The minimum and maximum lengths of the spring as it oscillates are x_min and x_max. Which graph can represent the total mechanical energy of the block-spring system as a function of x?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) graph A\n(B) graph B\n(C) graph C\n(D) graph D"
+                }
+              ],
+              "options": [
+                "(A) graph A",
+                "(B) graph B",
+                "(C) graph C",
+                "(D) graph D"
+              ],
+              "correct_option": "(D) graph D"
+            },
+            {
+              "id": "wb_u3_q17",
+              "label": "17",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 119,
+                "section": "Ch 4 Work-Energy \u2014 stem-group: Q16-17",
+                "exercise_ref": "17"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A block oscillates without friction on the end of a spring. The minimum and maximum lengths of the spring as it oscillates are x_min and x_max. Which graph can represent the kinetic energy of the block as a function of x?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) graph A\n(B) graph B\n(C) graph C\n(D) graph D"
+                }
+              ],
+              "options": [
+                "(A) graph A",
+                "(B) graph B",
+                "(C) graph C",
+                "(D) graph D"
+              ],
+              "correct_option": "(C) graph C"
+            },
+            {
+              "id": "wb_u3_q21",
+              "label": "21",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 119,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "21"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The graph shown represents the potential energy U as a function of displacement x for an object on the end of a spring moving back and forth with amplitude x\u2080. Which of the following graphs represents the kinetic energy K of the object as a function of displacement x?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) graph A\n(B) graph B\n(C) graph C\n(D) graph D"
+                }
+              ],
+              "options": [
+                "(A) graph A",
+                "(B) graph B",
+                "(C) graph C",
+                "(D) graph D"
+              ],
+              "correct_option": "(D) graph D"
+            }
+          ]
+        },
+        {
+          "id": "u3_qt14",
+          "label": "Projectile / vertical motion energy (KE/PE at apex, halfway, on landing)",
+          "primary_slo": "3.4.C.2",
+          "slo_weights": [
+            {
+              "slo": "3.4.C.2",
+              "weight": 0.55
+            },
+            {
+              "slo": "1.5.B.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "3.1.A.1",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "wb_u3_q9",
+              "label": "9",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 117,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "9"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A ball is thrown vertically upwards with a velocity v and an initial kinetic energy E_k. When halfway to the top of its flight, it has a velocity and kinetic energy respectively of"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) v/2, E_k/2\n(B) v/\u221a2, E_k/2\n(C) v/2, E_k/\u221a2\n(D) v/\u221a2, E_k/\u221a2"
+                }
+              ],
+              "options": [
+                "(A) v/2, E_k/2",
+                "(B) v/\u221a2, E_k/2",
+                "(C) v/2, E_k/\u221a2",
+                "(D) v/\u221a2, E_k/\u221a2"
+              ],
+              "correct_option": "(B) v/\u221a2, E_k/2"
+            },
+            {
+              "id": "wb_u3_q10",
+              "label": "10",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 118,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "10"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A football is kicked off the ground a distance of 50 yards downfield. Neglecting air resistance, which of the following statements would be INCORRECT when the football reaches the highest point?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) all of the ball's original kinetic energy has been changed into potential energy\n(B) the ball's horizontal velocity is the same as when it left the kicker's foot\n(C) the ball will have been in the air one-half of its total flight time\n(D) the vertical component of the velocity is equal to zero"
+                }
+              ],
+              "options": [
+                "(A) all of the ball's original kinetic energy has been changed into potential energy",
+                "(B) the ball's horizontal velocity is the same as when it left the kicker's foot",
+                "(C) the ball will have been in the air one-half of its total flight time",
+                "(D) the vertical component of the velocity is equal to zero"
+              ],
+              "correct_option": "(A) all of the ball's original kinetic energy has been changed into potential energy"
+            },
+            {
+              "id": "wb_u3_q15",
+              "label": "15",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 118,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "15"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "From the top of a high cliff, a ball is thrown horizontally with initial speed v\u2080. Which of the following graphs best represents the ball's kinetic energy K as a function of time t?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) graph A\n(B) graph B\n(C) graph C\n(D) graph D"
+                }
+              ],
+              "options": [
+                "(A) graph A",
+                "(B) graph B",
+                "(C) graph C",
+                "(D) graph D"
+              ],
+              "correct_option": "(D) graph D"
+            },
+            {
+              "id": "wb_u3_q34",
+              "label": "34",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 122,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "34"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A spring-loaded gun can fire a projectile to a height h if it is fired straight up. If the same gun is pointed at an angle of 45\u00b0 from the vertical, what maximum height can now be reached by the projectile?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) h/4\n(B) h/(2\u221a2)\n(C) h/2\n(D) h/\u221a2"
+                }
+              ],
+              "options": [
+                "(A) h/4",
+                "(B) h/(2\u221a2)",
+                "(C) h/2",
+                "(D) h/\u221a2"
+              ],
+              "correct_option": "(C) h/2"
+            },
+            {
+              "id": "wb_u3_q39",
+              "label": "39",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 Practice Workbook \u2014 Book 1 (Mechanics, Waves, Electrostatics) \u2014 2014 compilation",
+                "textbook_key": "tutor_ap1_workbook_book1_2014",
+                "page": 122,
+                "section": "Ch 4 Work-Energy",
+                "exercise_ref": "39"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "An object is projected vertically upward from ground level. It rises to a maximum height H. If air resistance is negligible, which of the following must be true for the object when it is at a height H/2?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Its speed is half of its initial speed.\n(B) Its kinetic energy is half of its initial kinetic energy.\n(C) Its potential energy is half of its initial potential energy.\n(D) Its total mechanical energy is half of its initial value."
+                }
+              ],
+              "options": [
+                "(A) Its speed is half of its initial speed.",
+                "(B) Its kinetic energy is half of its initial kinetic energy.",
+                "(C) Its potential energy is half of its initial potential energy.",
+                "(D) Its total mechanical energy is half of its initial value."
+              ],
+              "correct_option": "(B) Its kinetic energy is half of its initial kinetic energy."
+            },
+            {
+              "id": "pyq_2015_frq5",
+              "label": "FRQ-5",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 2015 Released Exam",
+                "textbook_key": "ap_phys1_released_2015",
+                "page": 50,
+                "section": "FRQ FRQ5",
+                "exercise_ref": "FRQ5"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "(7 points, suggested 13 min) A toy car coasts along the curved track shown above. The car has initial speed v_A when it is at point A at the top of the track, and the car leaves the track at point B with speed v_B at an angle \u03b8 above the horizontal. Assume that the rotational kinetic energy of the car's wheels and energy losses due to friction are both negligible. (a) Suppose the toy car is released from rest at point A (v_A = 0).   (i) After the car leaves the track and reaches the highest point in its trajectory it will be at a different height than it was at point A. Briefly explain why this is so.   (ii) Determine the speed of the car when it is at the highest point in its trajectory after leaving the track, in terms of v_B and \u03b8. Briefly explain how you arrived at your answer. (b) Suppose the toy car is given an initial push so that it has nonzero speed at point A. Determine the speed v_A of the car at point A such that the highest point in its trajectory after leaving the track is the same as its height at point A. Express your answer in terms of v_B and \u03b8. Explain how you arrived at your answer."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "u3_qt15",
+          "label": "Energy on inclined plane (with/without friction)",
+          "primary_slo": "3.4.C.2",
+          "slo_weights": [
+            {
+              "slo": "3.4.C.2",
+              "weight": 0.4
+            },
+            {
+              "slo": "3.3.A.4",
+              "weight": 0.25
+            },
+            {
+              "slo": "3.4.C.3",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.7.A.1",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "barrons_u3_frq3",
+              "label": "3",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 109,
+                "section": "Ch 4 Energy",
+                "exercise_ref": "FRQ-3"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A 1.5-kg block is placed on an incline. The mass is connected to a massless spring by means of a light string passed over a frictionless pulley. The spring has a force constant k equal to 100 N/m. The block is released from rest, and the spring is initially unstretched. The block moves down a distance of 16 cm before coming to rest. What is the coefficient of kinetic friction between the block and the surface of the incline?"
+                }
+              ]
+            },
+            {
+              "id": "pyq_2014_frq5",
+              "label": "FRQ-5",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "AP Physics 1 2014 Released Exam",
+                "textbook_key": "ap_phys1_released_2014",
+                "page": 51,
+                "section": "FRQ FRQ5",
+                "exercise_ref": "FRQ5"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "(7 points, suggested 13 min) The figure above shows part of a system consisting of a block at the top of an inclined plane that rests on a table, which is located on Earth. The block and plane are at rest when the block is released. In trial 1 there is no friction between the block and the plane or between the plane and the table. In trial 2 the plane is fixed to the table so it cannot move, but there is still no friction between the block and the plane. Indicate whether the speed of the block relative to the table when the block reaches the bottom of the plane is greater in trial 1 or trial 2. Justify your answer in a clear, coherent, paragraph-length explanation."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

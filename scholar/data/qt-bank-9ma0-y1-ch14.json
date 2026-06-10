@@ -1,0 +1,554 @@
+{
+  "schema_version": "2.0",
+  "source_type": "textbook",
+  "source_label": "Pearson Edexcel Year 1 Pure",
+  "textbook_key": "pearson-9ma0-y1",
+  "overlay_key": "pearson-9ma0-full",
+  "subject": "9MA0",
+  "question_types": [
+    {
+      "title": "Exercise 14A — Recognising Core Properties of Exponential Graphs",
+      "section_ref": "14.1",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.1.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Which statement about y = a^x for a > 0 is always true?",
+          "options": [
+            "The graph passes through (0, 1).",
+            "The graph is always increasing.",
+            "The graph crosses the x-axis once.",
+            "The graph has gradient 1 at x = 0."
+          ],
+          "correct_option": "A",
+          "explanation": "For any positive base a, a^0 = 1, so the graph passes through (0,1). It is only increasing when a > 1, never crosses the x-axis, and its gradient at x = 0 depends on a.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14A — Identifying Transformations and Intercepts",
+      "section_ref": "14.1",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.1.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "For f(x) = 3^x, which graph has y-intercept 2 and horizontal asymptote y = 0?",
+          "options": [
+            "y = 2f(x)",
+            "y = f(x) - 2",
+            "y = f(\u00bdx)",
+            "y = 3^{x+2}"
+          ],
+          "correct_option": "A",
+          "explanation": "At x = 0, 2f(0) = 2\u00d71 = 2, and multiplying by 2 does not change the horizontal asymptote y = 0. Subtracting 2 changes the asymptote to y = -2.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14A — Finding Parameters in an Exponential Model",
+      "section_ref": "14.1",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.1.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The graph y = ka^x passes through (1, 6) and (4, 48). What is the value of a?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "8"
+          ],
+          "correct_option": "A",
+          "explanation": "Using the two points: ka = 6 and ka^4 = 48. Dividing gives a^3 = 8, so a = 2.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14B — Evaluating and Differentiating e^x",
+      "section_ref": "14.2",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.1.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "What is \\(\\dfrac{d}{dx}(7e^{2x})\\)?",
+          "options": [
+            "14e^{2x}",
+            "7e^x",
+            "2e^{2x}",
+            "14e^x"
+          ],
+          "correct_option": "A",
+          "explanation": "Differentiate e^{2x} using the chain rule: d/dx(e^{2x}) = 2e^{2x}. Then multiply by 7 to get 14e^{2x}.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14B — Reading Transformations, Intercepts and Asymptotes",
+      "section_ref": "14.2",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.1.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "For y = 2e^x - 3, which statement is correct?",
+          "options": [
+            "The y-intercept is -1 and the horizontal asymptote is y = -3.",
+            "The y-intercept is 2 and the horizontal asymptote is y = 0.",
+            "The y-intercept is -3 and the horizontal asymptote is y = 2.",
+            "The y-intercept is 1 and the horizontal asymptote is y = -1."
+          ],
+          "correct_option": "A",
+          "explanation": "At x = 0, y = 2e^0 - 3 = 2 - 3 = -1. As x \u2192 -\u221e, e^x \u2192 0, so y \u2192 -3.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14B — Using Tangent Information on Exponential Curves",
+      "section_ref": "14.2",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.1.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Given f(x) = e^{0.2x}, what is the gradient of the curve at x = 5?",
+          "options": [
+            "\\(\\dfrac{e}{5}\\)",
+            "e",
+            "0.2",
+            "5e"
+          ],
+          "correct_option": "A",
+          "explanation": "f'(x) = 0.2e^{0.2x}. At x = 5, f'(5) = 0.2e = e/5.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14C — Evaluating Exponential Models from Context",
+      "section_ref": "14.3",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.1.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A car's value is modelled by \\(V = 20000e^{-t/12}\\), where t is in years. What is the value when the car is new?",
+          "options": [
+            "\u00a320000",
+            "\u00a318395",
+            "\u00a30",
+            "\u00a312000"
+          ],
+          "correct_option": "A",
+          "explanation": "When the car is new, t = 0. Then V = 20000e^0 = 20000.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14C — Interpreting Long-Term Behaviour in Models",
+      "section_ref": "14.3",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.1.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The model \\(N = 300 - 100e^{-0.5t}\\) gives the number of infected people t years after detection. What is the long-term prediction as t becomes very large?",
+          "options": [
+            "N approaches 300.",
+            "N approaches 200.",
+            "N approaches 0.",
+            "N increases without bound."
+          ],
+          "correct_option": "A",
+          "explanation": "As t becomes large, e^{-0.5t} \u2192 0, so N \u2192 300 - 0 = 300.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14C — Comparing Competing Exponential Models",
+      "section_ref": "14.3",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.1.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Nigel models the value T of a tractor using either \\(T = 20000e^{-0.24t}\\) or \\(T = 19000e^{-0.255t} + 1000\\). Which statement best explains why the second model may be more realistic for large t?",
+          "options": [
+            "It levels off towards \u00a31000 instead of tending to \u00a30.",
+            "It depreciates faster at first, so it must always be better.",
+            "It has a larger initial value.",
+            "It is linear for large t."
+          ],
+          "correct_option": "A",
+          "explanation": "The second model tends to 1000 as t increases, which can represent a residual or scrap value. The first tends to 0.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14D — Converting Between Powers and Logarithms",
+      "section_ref": "14.4",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.2.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Which logarithmic statement is equivalent to \\(10^6 = 1000000\\)?",
+          "options": [
+            "\\(\\log_{10}1000000 = 6\\)",
+            "\\(\\log_{6}1000000 = 10\\)",
+            "\\(\\log_{10}6 = 1000000\\)",
+            "\\(\\log_{1000000}10 = 6\\)"
+          ],
+          "correct_option": "A",
+          "explanation": "The statement a^x = n is equivalent to log_a(n) = x. Here 10^6 = 1000000, so log_{10}(1000000) = 6.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14D — Solving Logarithmic Equations Without a Calculator",
+      "section_ref": "14.4",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.2.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find x if \\(\\log_3(4x + 1) = 4\\).",
+          "options": [
+            "20",
+            "19",
+            "81",
+            "5"
+          ],
+          "correct_option": "A",
+          "explanation": "Rewrite in exponential form: 4x + 1 = 3^4 = 81. So 4x = 80 and x = 20.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14D — Reasoning with General Logarithm Facts",
+      "section_ref": "14.4",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.2.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "For any base a > 0, a \u2260 1, what is the value of \\(\\log_a 1\\)?",
+          "options": [
+            "0",
+            "1",
+            "a",
+            "-1"
+          ],
+          "correct_option": "A",
+          "explanation": "Since a^0 = 1 for any valid base a, it follows that log_a(1) = 0.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14E — Simplifying expressions using log laws",
+      "section_ref": "14.5",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.2.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Express $\\log_p 12 - (\\frac{1}{2}\\log_p 9 + \\frac{1}{3}\\log_p 8)$ as a single logarithm to base $p$.",
+          "options": [
+            "$\\log_p 2$",
+            "$\\log_p 3.5$",
+            "$\\log_p 7$",
+            "$\\log_p 1$"
+          ],
+          "correct_option": "A",
+          "explanation": "Apply power laws: $\\frac{1}{2}\\log_p 9 = \\log_p 3$ and $\\frac{1}{3}\\log_p 8 = \\log_p 2$. Then use multiplication/division laws: $\\log_p 12 - (\\log_p 3 + \\log_p 2) = \\log_p 12 - \\log_p 6 = \\log_p 2$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14E — Translating log equations to quadratics",
+      "section_ref": "14.5",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.2.2",
+      "aligned_slos": [
+        "9MA0.P1.1.2.1"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Identify the quadratic equation that results from eliminating logarithms in the equation: $\\log_3(x+1) = 1 + 2\\log_3(x-1)$.",
+          "options": [
+            "$3x^2 - 7x + 2 = 0$",
+            "$3x^2 - 5x + 4 = 0$",
+            "$x^2 - 5x + 2 = 0$",
+            "$x^2 - 2x + 1 = 3$"
+          ],
+          "correct_option": "A",
+          "explanation": "Rewrite 1 as $\\log_3 3$ and use power law: $\\log_3(x+1) = \\log_3 3 + \\log_3(x-1)^2$. This implies $x+1 = 3(x-1)^2$. Expanding and rearranging: $x+1 = 3(x^2 - 2x + 1) \\implies 3x^2 - 6x + 3 = x + 1 \\implies 3x^2 - 7x + 2 = 0$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14E — Simultaneous Logarithmic Equations",
+      "section_ref": "14.5",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.2.2",
+      "aligned_slos": [
+        "9MA0.P1.1.2.5"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Solve the simultaneous equations $a + b = 13$ and $\\log_6 a + \\log_6 b = 2$, given that $a > b$.",
+          "options": [
+            "$a = 9, b = 4$",
+            "$a = 12, b = 1$",
+            "$a = 10, b = 3$",
+            "$a = 8, b = 5$"
+          ],
+          "correct_option": "A",
+          "explanation": "From the second equation, $\\log_6(ab) = 2$, so $ab = 6^2 = 36$. We need two numbers that add to 13 and multiply to 36. These are the roots of $t^2 - 13t + 36 = 0$, which are 9 and 4. Since $a > b$, $a = 9$ and $b = 4$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14F — Solving equations of the form $a^{f(x)} = b$",
+      "section_ref": "14.6",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.2.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the solution to $3^{x+1} = 2000$, giving your answer to 3 significant figures.",
+          "options": [
+            "5.92",
+            "6.92",
+            "3.30",
+            "4.81"
+          ],
+          "correct_option": "A",
+          "explanation": "Taking logarithms of both sides: $(x+1) \\log 3 = \\log 2000$. Thus $x+1 = \\log 2000 / \\log 3 \\approx 6.9186$. Subtracting 1 gives $x \\approx 5.9186$, which is 5.92 to 3 s.f.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14F — Basic Logarithmic Equations",
+      "section_ref": "14.6",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.2.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Solve the equation $\\log_5(x - 3) = -1$.",
+          "options": [
+            "3.2",
+            "2.8",
+            "0.2",
+            "-2"
+          ],
+          "correct_option": "A",
+          "explanation": "Convert the logarithmic equation to exponential form: $x - 3 = 5^{-1}$. This means $x - 3 = 0.2$, so $x = 3.2$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14F — Hidden Quadratics in Exponentials",
+      "section_ref": "14.6",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.2.3",
+      "aligned_slos": [
+        "9MA0.P1.1.3.4"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the two possible values of $x$ for which $4^{2x} - 10(4^x) + 16 = 0$.",
+          "options": [
+            "$0.5$ and $1.5$",
+            "$1$ and $4$",
+            "$2$ and $8$",
+            "$0.5$ and $1$"
+          ],
+          "correct_option": "A",
+          "explanation": "Let $u = 4^x$. The equation becomes $u^2 - 10u + 16 = 0$. Factorising gives $(u - 2)(u - 8) = 0$. So $4^x = 2 \\implies x = 0.5$, and $4^x = 8 \\implies (2^2)^x = 2^3 \\implies 2x = 3 \\implies x = 1.5$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14G — Solving equations with $e^x$ and $e^{-x}$",
+      "section_ref": "14.7",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.2.4",
+      "aligned_slos": [
+        "9MA0.P1.1.3.4"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the exact solutions to the equation $e^x + 12e^{-x} = 7$.",
+          "options": [
+            "$x = \\ln 3, x = \\ln 4$",
+            "$x = 3, x = 4$",
+            "$x = \\ln 1, x = \\ln 12$",
+            "$x = 1.10, x = 1.39$"
+          ],
+          "correct_option": "A",
+          "explanation": "Multiply the entire equation by $e^x$: $e^{2x} - 7e^x + 12 = 0$. Factorising the quadratic in $e^x$ gives $(e^x - 3)(e^x - 4) = 0$. Thus $e^x = 3 \\implies x = \\ln 3$, and $e^x = 4 \\implies x = \\ln 4$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14G — Mixed base exponential equations",
+      "section_ref": "14.7",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.2.4",
+      "aligned_slos": [
+        "9MA0.P1.5.2.3"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Solve the equation $3^x e^{4x-1} = 5$, giving your answer in terms of natural logarithms.",
+          "options": [
+            "$x = \\frac{1 + \\ln 5}{4 + \\ln 3}$",
+            "$x = \\frac{\\ln 5 - 1}{\\ln 3 + 4}$",
+            "$x = \\frac{1 - \\ln 5}{4 - \\ln 3}$",
+            "$x = \\frac{1 + \\ln 3}{4 + \\ln 5}$"
+          ],
+          "correct_option": "A",
+          "explanation": "Take natural logs of both sides: $\\ln(3^x e^{4x-1}) = \\ln 5$. Applying log laws: $x \\ln 3 + (4x - 1) = \\ln 5$. Rearrange: $x(\\ln 3 + 4) = 1 + \\ln 5$, so $x = \\frac{1 + \\ln 5}{4 + \\ln 3}$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14G — Modelling with natural logarithms",
+      "section_ref": "14.7",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.2.4",
+      "aligned_slos": [
+        "9MA0.P1.5.1.3"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The concentration of a drug in a bloodstream is modelled by $D = 6e^{-\\frac{t}{10}}$. Find the exact time $t$ in hours at which the concentration is exactly 3 mg/l.",
+          "options": [
+            "$10 \\ln 2$",
+            "$5 \\ln 2$",
+            "$\\ln 20$",
+            "$10 \\ln 0.5$"
+          ],
+          "correct_option": "A",
+          "explanation": "Set $D = 3$: $3 = 6e^{-t/10} \\implies 0.5 = e^{-t/10}$. Take natural logs: $\\ln 0.5 = -t/10$. Rearranging gives $t = -10 \\ln(1/2) = -10(\\ln 1 - \\ln 2) = 10 \\ln 2$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14H — Linearising Power Models",
+      "section_ref": "14.8",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.3.1",
+      "aligned_slos": [
+        "9MA0.P1.5.3.3"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Kleiber's law $R = am^b$ is linearised as $\\log R = \\log a + b \\log m$. If the line of best fit for $\\log R$ against $\\log m$ has a vertical intercept of 1.95, find the value of $a$ to 2 significant figures.",
+          "options": [
+            "89",
+            "1.95",
+            "0.75",
+            "5.8"
+          ],
+          "correct_option": "A",
+          "explanation": "The intercept of the linearised graph is $\\log a$. Thus $\\log_{10} a = 1.95$. Calculating $10^{1.95} = 89.125...$, which is 89 to 2 s.f.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14H — Linearising Exponential Models",
+      "section_ref": "14.8",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.3.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A scientist models data using $N = ab^t$. Which of the following correctly represents the linear relationship used to plot a straight line graph?",
+          "options": [
+            "$\\log N = t \\log b + \\log a$",
+            "$\\log N = \\log t + \\log ab$",
+            "$N = \\log a + t \\log b$",
+            "$\\log N = \\log a + \\log b^t$"
+          ],
+          "correct_option": "A",
+          "explanation": "Starting with $N = ab^t$ and taking logs of both sides: $\\log N = \\log(ab^t) = \\log a + \\log b^t = \\log a + t \\log b$. This fits the linear form $Y = mX + C$ with $Y = \\log N$ and $X = t$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 14H — Determining constants from linear graphs",
+      "section_ref": "14.8",
+      "unit_label": "Chapter 14 — Exponentials and logarithms",
+      "primary_slo": "9MA0.P1.5.3.3",
+      "aligned_slos": [
+        "9MA0.P1.5.3.1"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A relationship of the form $A = pw^q$ is investigated by plotting $\\log A$ against $\\log w$. If the resulting straight line has a gradient of 2 and passes through $-0.1049$ on the vertical axis, find the value of $q$.",
+          "options": [
+            "2",
+            "-0.1049",
+            "0.7854",
+            "10"
+          ],
+          "correct_option": "A",
+          "explanation": "Linearising $A = pw^q$ gives $\\log A = q \\log w + \\log p$. In this form, the gradient of the graph ($m$) is equal to the constant $q$. Therefore $q = 2$.",
+          "diagram_required": "none"
+        }
+      ]
+    }
+  ]
+}

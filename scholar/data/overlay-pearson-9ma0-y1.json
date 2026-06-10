@@ -1,0 +1,1097 @@
+{
+  "content_bank_key": "9ma0-main",
+  "overlay_key": "pearson-9ma0-y1",
+  "source_label": "Pearson Year 1 Pure",
+  "source_kind": "textbook",
+  "create_external_mirror": true,
+  "units": [
+    {
+      "unit_key": "y1-ch1",
+      "unit_name": "Chapter 1 — Algebraic Expressions",
+      "sequence_index": 1,
+      "sections": [
+        {
+          "section_key": "1.1",
+          "section_label": "Index laws",
+          "sequence_index": 1,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.1.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "1.2",
+          "section_label": "Expanding brackets",
+          "sequence_index": 2,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.1.4",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "1.3",
+          "section_label": "Factorising",
+          "sequence_index": 3,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.2.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "1.4",
+          "section_label": "Negative and fractional indices",
+          "sequence_index": 4,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.1.2",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "1.5",
+          "section_label": "Surds",
+          "sequence_index": 5,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.1.3",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "1.6",
+          "section_label": "Rationalising denominators",
+          "sequence_index": 6,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.1.3",
+              "weight": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "y1-ch2",
+      "unit_name": "Chapter 2 — Quadratics",
+      "sequence_index": 2,
+      "sections": [
+        {
+          "section_key": "2.1",
+          "section_label": "Solving quadratic equations",
+          "sequence_index": 1,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.2.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "2.2",
+          "section_label": "Completing the square",
+          "sequence_index": 2,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.2.2",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "2.3",
+          "section_label": "Functions",
+          "sequence_index": 3,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.2.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "2.4",
+          "section_label": "Quadratic graphs",
+          "sequence_index": 4,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.4.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "2.5",
+          "section_label": "The discriminant",
+          "sequence_index": 5,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.2.3",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "2.6",
+          "section_label": "Modelling with quadratics",
+          "sequence_index": 6,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.2.3",
+              "weight": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "y1-ch3",
+      "unit_name": "Chapter 3 — Equations and inequalities",
+      "sequence_index": 3,
+      "sections": [
+        {
+          "section_key": "3.1",
+          "section_label": "Linear simultaneous equations",
+          "sequence_index": 1,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.2.5",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "3.2",
+          "section_label": "Quadratic simultaneous equations",
+          "sequence_index": 2,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.2.5",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "3.3",
+          "section_label": "Simultaneous equations on graphs",
+          "sequence_index": 3,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.2.6",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "3.4",
+          "section_label": "Linear inequalities",
+          "sequence_index": 4,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.3.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "3.5",
+          "section_label": "Quadratic inequalities",
+          "sequence_index": 5,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.2.4",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "3.6",
+          "section_label": "Inequalities on graphs",
+          "sequence_index": 6,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.3.2",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "3.7",
+          "section_label": "Regions",
+          "sequence_index": 7,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.3.2",
+              "weight": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "y1-ch4",
+      "unit_name": "Chapter 4 — Graphs and transformations",
+      "sequence_index": 4,
+      "sections": [
+        {
+          "section_key": "4.1",
+          "section_label": "Cubic graphs",
+          "sequence_index": 1,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.4.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "4.2",
+          "section_label": "Quartic graphs",
+          "sequence_index": 2,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.4.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "4.3",
+          "section_label": "Reciprocal graphs",
+          "sequence_index": 3,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.4.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "4.4",
+          "section_label": "Points of intersection",
+          "sequence_index": 4,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.2.6",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "4.5",
+          "section_label": "Translating graphs",
+          "sequence_index": 5,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.4.2",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "4.6",
+          "section_label": "Stretching graphs",
+          "sequence_index": 6,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.4.3",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "4.7",
+          "section_label": "Transforming functions",
+          "sequence_index": 7,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.4.5",
+              "weight": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "y1-ch5",
+      "unit_name": "Chapter 5 — Straight line graphs",
+      "sequence_index": 5,
+      "sections": [
+        {
+          "section_key": "5.1",
+          "section_label": "y = mx + c",
+          "sequence_index": 1,
+          "slos": [
+            {
+              "slo": "9MA0.P1.2.1.2",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "5.2",
+          "section_label": "Equations of straight lines",
+          "sequence_index": 2,
+          "slos": [
+            {
+              "slo": "9MA0.P1.2.1.2",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "5.3",
+          "section_label": "Parallel and perpendicular lines",
+          "sequence_index": 3,
+          "slos": [
+            {
+              "slo": "9MA0.P1.2.1.4",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "5.4",
+          "section_label": "Length and area",
+          "sequence_index": 4,
+          "slos": [
+            {
+              "slo": "9MA0.P1.2.1.3",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "5.5",
+          "section_label": "Modelling with straight lines",
+          "sequence_index": 5,
+          "slos": [
+            {
+              "slo": "9MA0.P1.2.1.2",
+              "weight": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "y1-ch6",
+      "unit_name": "Chapter 6 — Circles",
+      "sequence_index": 6,
+      "sections": [
+        {
+          "section_key": "6.1",
+          "section_label": "Midpoints and perpendicular bisectors",
+          "sequence_index": 1,
+          "slos": [
+            {
+              "slo": "9MA0.P1.2.1.5",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "6.2",
+          "section_label": "Equation of a circle",
+          "sequence_index": 2,
+          "slos": [
+            {
+              "slo": "9MA0.P1.2.2.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "6.3",
+          "section_label": "Intersections of straight lines and circles",
+          "sequence_index": 3,
+          "slos": [
+            {
+              "slo": "9MA0.P1.2.2.6",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "6.4",
+          "section_label": "Use tangent and chord properties",
+          "sequence_index": 4,
+          "slos": [
+            {
+              "slo": "9MA0.P1.2.2.4",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "6.5",
+          "section_label": "Circles and triangles",
+          "sequence_index": 5,
+          "slos": [
+            {
+              "slo": "9MA0.P1.2.2.5",
+              "weight": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "y1-ch7",
+      "unit_name": "Chapter 7 — Algebraic methods",
+      "sequence_index": 7,
+      "sections": [
+        {
+          "section_key": "7.1",
+          "section_label": "Algebraic fractions",
+          "sequence_index": 1,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.3.3",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "7.2",
+          "section_label": "Dividing polynomials",
+          "sequence_index": 2,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.5.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "7.3",
+          "section_label": "The factor theorem",
+          "sequence_index": 3,
+          "slos": [
+            {
+              "slo": "9MA0.P1.1.5.2",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "7.4",
+          "section_label": "Mathematical proof",
+          "sequence_index": 4,
+          "slos": [
+            {
+              "slo": "9MA0.P3.1.1.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "7.5",
+          "section_label": "Methods of proof",
+          "sequence_index": 5,
+          "slos": [
+            {
+              "slo": "9MA0.P3.1.1.1",
+              "weight": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "y1-ch8",
+      "unit_name": "Chapter 8 — The binomial expansion",
+      "sequence_index": 8,
+      "sections": [
+        {
+          "section_key": "8.1",
+          "section_label": "Pascal's triangle",
+          "sequence_index": 1,
+          "slos": [
+            {
+              "slo": "9MA0.P1.3.1.2",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "8.2",
+          "section_label": "Factorial notation",
+          "sequence_index": 2,
+          "slos": [
+            {
+              "slo": "9MA0.P1.3.1.2",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "8.3",
+          "section_label": "The binomial expansion",
+          "sequence_index": 3,
+          "slos": [
+            {
+              "slo": "9MA0.P1.3.1.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "8.4",
+          "section_label": "Solving binomial problems",
+          "sequence_index": 4,
+          "slos": [
+            {
+              "slo": "9MA0.P1.3.1.3",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "8.5",
+          "section_label": "Binomial estimation",
+          "sequence_index": 5,
+          "slos": [
+            {
+              "slo": "9MA0.P1.3.1.4",
+              "weight": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "y1-ch9",
+      "unit_name": "Chapter 9 — Trigonometric ratios",
+      "sequence_index": 9,
+      "sections": [
+        {
+          "section_key": "9.1",
+          "section_label": "The cosine rule",
+          "sequence_index": 1,
+          "slos": [
+            {
+              "slo": "9MA0.P1.4.1.2",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "9.2",
+          "section_label": "The sine rule",
+          "sequence_index": 2,
+          "slos": [
+            {
+              "slo": "9MA0.P1.4.1.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "9.3",
+          "section_label": "Areas of triangles",
+          "sequence_index": 3,
+          "slos": [
+            {
+              "slo": "9MA0.P1.4.1.3",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "9.4",
+          "section_label": "Solving triangle problems",
+          "sequence_index": 4,
+          "slos": [
+            {
+              "slo": "9MA0.P1.4.1.5",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "9.5",
+          "section_label": "Graphs of sine, cosine and tangent",
+          "sequence_index": 5,
+          "slos": [
+            {
+              "slo": "9MA0.P1.4.3.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "9.6",
+          "section_label": "Transforming trigonometric graphs",
+          "sequence_index": 6,
+          "slos": [
+            {
+              "slo": "9MA0.P1.4.3.1",
+              "weight": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "y1-ch10",
+      "unit_name": "Chapter 10 — Trigonometric identities and equations",
+      "sequence_index": 10,
+      "sections": [
+        {
+          "section_key": "10.1",
+          "section_label": "Angles in all four quadrants",
+          "sequence_index": 1,
+          "slos": [
+            {
+              "slo": "9MA0.P1.4.3.2",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "10.2",
+          "section_label": "Exact values of trigonometric ratios",
+          "sequence_index": 2,
+          "slos": [
+            {
+              "slo": "9MA0.P1.4.3.2",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "10.3",
+          "section_label": "Trigonometric identities",
+          "sequence_index": 3,
+          "slos": [
+            {
+              "slo": "9MA0.P1.4.3.4",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "10.4",
+          "section_label": "Simple trigonometric equations",
+          "sequence_index": 4,
+          "slos": [
+            {
+              "slo": "9MA0.P1.4.3.3",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "10.5",
+          "section_label": "Harder trigonometric equations",
+          "sequence_index": 5,
+          "slos": [
+            {
+              "slo": "9MA0.P1.4.3.3",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "10.6",
+          "section_label": "Equations and identities",
+          "sequence_index": 6,
+          "slos": [
+            {
+              "slo": "9MA0.P1.4.3.5",
+              "weight": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "y1-ch11",
+      "unit_name": "Chapter 11 — Vectors",
+      "sequence_index": 11,
+      "sections": [
+        {
+          "section_key": "11.1",
+          "section_label": "Vectors",
+          "sequence_index": 1,
+          "slos": [
+            {
+              "slo": "9MA0.P2.7.1.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "11.2",
+          "section_label": "Representing vectors",
+          "sequence_index": 2,
+          "slos": [
+            {
+              "slo": "9MA0.P2.7.1.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "11.3",
+          "sequence_index": 3,
+          "section_label": "Magnitude and direction",
+          "slos": [
+            {
+              "slo": "9MA0.P2.7.1.2",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "11.4",
+          "section_label": "Position vectors",
+          "sequence_index": 4,
+          "slos": [
+            {
+              "slo": "9MA0.P2.7.1.3",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "11.5",
+          "section_label": "Solving geometric problems",
+          "sequence_index": 5,
+          "slos": [
+            {
+              "slo": "9MA0.P2.7.1.4",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "11.6",
+          "section_label": "Modelling with vectors",
+          "sequence_index": 6,
+          "slos": [
+            {
+              "slo": "9MA0.P2.7.1.4",
+              "weight": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "y1-ch12",
+      "unit_name": "Chapter 12 — Differentiation",
+      "sequence_index": 12,
+      "sections": [
+        {
+          "section_key": "12.1",
+          "section_label": "Gradients of curves",
+          "sequence_index": 1,
+          "slos": [
+            {
+              "slo": "9MA0.P1.6.1.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "12.2",
+          "section_label": "Finding the derivative",
+          "sequence_index": 2,
+          "slos": [
+            {
+              "slo": "9MA0.P1.6.1.2",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "12.3",
+          "section_label": "Differentiating x^n",
+          "sequence_index": 3,
+          "slos": [
+            {
+              "slo": "9MA0.P1.6.2.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "12.4",
+          "section_label": "Differentiating quadratics",
+          "sequence_index": 4,
+          "slos": [
+            {
+              "slo": "9MA0.P1.6.2.2",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "12.5",
+          "section_label": "Differentiating functions with two or more terms",
+          "sequence_index": 5,
+          "slos": [
+            {
+              "slo": "9MA0.P1.6.2.2",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "12.6",
+          "section_label": "Gradients, tangents and normal",
+          "sequence_index": 6,
+          "slos": [
+            {
+              "slo": "9MA0.P1.6.3.2",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "12.7",
+          "section_label": "Increasing and decreasing functions",
+          "sequence_index": 7,
+          "slos": [
+            {
+              "slo": "9MA0.P1.6.4.3",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "12.8",
+          "section_label": "Second order derivatives",
+          "sequence_index": 8,
+          "slos": [
+            {
+              "slo": "9MA0.P1.6.2.3",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "12.9",
+          "section_label": "Stationary points",
+          "sequence_index": 9,
+          "slos": [
+            {
+              "slo": "9MA0.P1.6.4.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "12.10",
+          "section_label": "Sketching gradient functions",
+          "sequence_index": 10,
+          "slos": [
+            {
+              "slo": "9MA0.P1.6.4.4",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "12.11",
+          "section_label": "Modelling with differentiation",
+          "sequence_index": 11,
+          "slos": [
+            {
+              "slo": "9MA0.P1.6.5.1",
+              "weight": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "y1-ch13",
+      "unit_name": "Chapter 13 — Integration",
+      "sequence_index": 13,
+      "sections": [
+        {
+          "section_key": "13.1",
+          "section_label": "Integrating x^n",
+          "sequence_index": 1,
+          "slos": [
+            {
+              "slo": "9MA0.P1.7.1.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "13.2",
+          "section_label": "Indefinite integrals",
+          "sequence_index": 2,
+          "slos": [
+            {
+              "slo": "9MA0.P1.7.1.2",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "13.3",
+          "section_label": "Finding functions",
+          "sequence_index": 3,
+          "slos": [
+            {
+              "slo": "9MA0.P1.7.1.3",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "13.4",
+          "section_label": "Definite integrals",
+          "sequence_index": 4,
+          "slos": [
+            {
+              "slo": "9MA0.P1.7.2.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "13.5",
+          "section_label": "Areas under curves",
+          "sequence_index": 5,
+          "slos": [
+            {
+              "slo": "9MA0.P1.7.2.2",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "13.6",
+          "section_label": "Areas under the x-axis",
+          "sequence_index": 6,
+          "slos": [
+            {
+              "slo": "9MA0.P1.7.2.4",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "13.7",
+          "section_label": "Areas between curves and lines",
+          "sequence_index": 7,
+          "slos": [
+            {
+              "slo": "9MA0.P1.7.2.3",
+              "weight": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "unit_key": "y1-ch14",
+      "unit_name": "Chapter 14 — Exponentials and logarithms",
+      "sequence_index": 14,
+      "sections": [
+        {
+          "section_key": "14.1",
+          "section_label": "Exponential functions",
+          "sequence_index": 1,
+          "slos": [
+            {
+              "slo": "9MA0.P1.5.1.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "14.2",
+          "section_label": "y = e^x",
+          "sequence_index": 2,
+          "slos": [
+            {
+              "slo": "9MA0.P1.5.1.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "14.3",
+          "section_label": "Exponential modelling",
+          "sequence_index": 3,
+          "slos": [
+            {
+              "slo": "9MA0.P1.5.1.3",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "14.4",
+          "section_label": "Logarithms",
+          "sequence_index": 4,
+          "slos": [
+            {
+              "slo": "9MA0.P1.5.2.1",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "14.5",
+          "section_label": "Laws of logarithms",
+          "sequence_index": 5,
+          "slos": [
+            {
+              "slo": "9MA0.P1.5.2.2",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "14.6",
+          "section_label": "Solving equations using logarithms",
+          "sequence_index": 6,
+          "slos": [
+            {
+              "slo": "9MA0.P1.5.2.3",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "14.7",
+          "section_label": "Working with natural logarithms",
+          "sequence_index": 7,
+          "slos": [
+            {
+              "slo": "9MA0.P1.5.2.4",
+              "weight": 1.0
+            }
+          ]
+        },
+        {
+          "section_key": "14.8",
+          "section_label": "Logarithms and non-linear data",
+          "sequence_index": 8,
+          "slos": [
+            {
+              "slo": "9MA0.P1.5.3.1",
+              "weight": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

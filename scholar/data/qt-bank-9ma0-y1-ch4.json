@@ -1,0 +1,354 @@
+{
+  "schema_version": "2.0",
+  "source_type": "textbook",
+  "source_label": "Pearson Edexcel Year 1 Pure",
+  "textbook_key": "pearson-9ma0-y1",
+  "overlay_key": "pearson-9ma0-full",
+  "subject": "9MA0",
+  "question_types": [
+    {
+      "title": "Cubic graphs 4A — Sketching with Linear Factors",
+      "section_ref": "4.1",
+      "unit_label": "Chapter 4 — Graphs and transformations",
+      "primary_slo": "9MA0.P1.1.4.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Sketch the following curve and indicate clearly the points of intersection with the axes: y = (x - 3)(x - 2)(x + 1)",
+          "explanation": "To find x-intercepts, set y=0. y-intercept: y = (-3)(-2)(1) = 6.",
+          "diagram_required": "graph",
+          "options": [
+            "Intersects x-axis at (3, 0), (2, 0), (-1, 0). Intersects y-axis at (0, 6).",
+            "Intersects y-axis at (0, −6)",
+            "Intersects x-axis at (3, 0), (2, 0), (1, 0)",
+            "Does not cross the x-axis"
+          ],
+          "correct_option": "A"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Sketch the following curve and indicate clearly the points of intersection with the axes: y = x(x + 1)(x - 1)",
+          "explanation": "Roots are x=0, x=-1, x=1. Passes through the origin.",
+          "diagram_required": "graph",
+          "options": [
+            "x-intercepts at (0, 0), (1, 0), (2, 0)",
+            "Intersects x-axis at (0, 0), (-1, 0), (1, 0). Intersects y-axis at (0, 0).",
+            "y-intercept at (0, 1)",
+            "x-intercepts at (−1, 0) and (1, 0) only"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Cubic graphs 4A — Factored Forms and Coefficients",
+      "section_ref": "4.1",
+      "unit_label": "Chapter 4 — Graphs and transformations",
+      "primary_slo": "9MA0.P1.1.4.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Sketch the following curve and indicate clearly the points of intersection with the axes: y = (x - 2)(2x - 1)(2x + 1)",
+          "explanation": "Roots are x=2, x=0.5, x=-0.5. y-intercept: (-2)(-1)(1) = 2.",
+          "diagram_required": "graph",
+          "options": [
+            "y-intercept at (0, −2)",
+            "x-intercepts at (1, 0), (2, 0), (−1, 0)",
+            "Intersects x-axis at (2, 0), (0.5, 0), (-0.5, 0). Intersects y-axis at (0, 2).",
+            "y-intercept at (0, 1)"
+          ],
+          "correct_option": "C"
+        }
+      ]
+    },
+    {
+      "title": "Quartic graphs 4B — Multiple Linear Factors",
+      "section_ref": "4.2",
+      "unit_label": "Chapter 4 — Graphs and transformations",
+      "primary_slo": "9MA0.P1.1.4.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Sketch the following curve and indicate clearly the points of intersection with the axes: y = (x + 1)(x + 2)(x + 3)(x + 4)",
+          "explanation": "Roots are -1, -2, -3, -4. y-intercept: (1)(2)(3)(4) = 24.",
+          "diagram_required": "graph",
+          "options": [
+            "y-intercept at (0, −24)",
+            "x-intercepts at (1, 0), (2, 0), (3, 0), (4, 0)",
+            "y-intercept at (0, 12)",
+            "Intersects x-axis at (-1, 0), (-2, 0), (-3, 0), (-4, 0). Intersects y-axis at (0, 24)."
+          ],
+          "correct_option": "D"
+        }
+      ]
+    },
+    {
+      "title": "Quartic graphs 4B — Repeated Roots",
+      "section_ref": "4.2",
+      "unit_label": "Chapter 4 — Graphs and transformations",
+      "primary_slo": "9MA0.P1.1.4.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Sketch the following curve and indicate clearly the points of intersection with the axes: y = x²(4x + 1)(4x - 1)",
+          "explanation": "x=0 is a repeated root so the graph touches the axis there. Other roots are ±0.25.",
+          "diagram_required": "graph",
+          "options": [
+            "Intersects x-axis at (0, 0), (-0.25, 0), (0.25, 0). Touches x-axis at (0, 0) — repeated root.",
+            "x-intercepts at (0, 0), (0.5, 0), (−0.5, 0) with no repeated root",
+            "Only one x-intercept at origin",
+            "x-intercepts at (0, 0), (1, 0), (−1, 0)"
+          ],
+          "correct_option": "A"
+        }
+      ]
+    },
+    {
+      "title": "Reciprocal graphs 4C — Simple Reciprocals",
+      "section_ref": "4.3",
+      "unit_label": "Chapter 4 — Graphs and transformations",
+      "primary_slo": "9MA0.P1.1.4.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Sketch y = 4/x and y = 12/x on separate diagrams.",
+          "explanation": "Both are y=k/x with k>0. Larger k stretches the curve further from the axes.",
+          "diagram_required": "graph",
+          "options": [
+            "y = 12/x is closer to the origin than y = 4/x",
+            "Both curves in 1st and 3rd quadrants. y=12/x is further from the origin than y=4/x.",
+            "Both curves appear in all four quadrants",
+            "The two curves are identical in shape but reflected"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Reciprocal graphs 4C — Squared Reciprocals",
+      "section_ref": "4.3",
+      "unit_label": "Chapter 4 — Graphs and transformations",
+      "primary_slo": "9MA0.P1.1.4.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Sketch y = 4/x² and y = 10/x² on separate diagrams.",
+          "explanation": "y=k/x² is always positive for k>0. Larger k gives curves further from origin.",
+          "diagram_required": "graph",
+          "options": [
+            "y = 4/x² is further from the origin than y = 10/x²",
+            "Both curves appear in all four quadrants",
+            "Both curves in 1st and 2nd quadrants only (always positive). y=10/x² is further from the origin.",
+            "Both curves cross the x-axis at two points"
+          ],
+          "correct_option": "C"
+        }
+      ]
+    },
+    {
+      "title": "Points of intersection 4D — Curve-Line Intersection",
+      "section_ref": "4.4",
+      "unit_label": "Chapter 4 — Graphs and transformations",
+      "primary_slo": "9MA0.P1.1.2.6",
+      "aligned_slos": [
+        "9MA0.P1.1.1.1"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Sketch y = x² and y = x(x² - 1) on the same axes and state the number of points of intersection.",
+          "explanation": "x² = x³ - x => x³ - x² - x = 0 => x(x² - x - 1) = 0. Three real solutions: x=0 and x=(1±√5)/2.",
+          "diagram_required": "graph",
+          "options": [
+            "1 point of intersection",
+            "2 points of intersection",
+            "4 points of intersection",
+            "3 points of intersection at x = 0, x = (1+√5)/2, x = (1-√5)/2."
+          ],
+          "correct_option": "D"
+        }
+      ]
+    },
+    {
+      "title": "Points of intersection 4D — Graphical Interpretation",
+      "section_ref": "4.4",
+      "unit_label": "Chapter 4 — Graphs and transformations",
+      "primary_slo": "9MA0.P1.1.2.6",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Explain why there are no real solutions to 2x² - x + 3 = 0 using the graphs of y = x² + 1 and 2y = x - 1.",
+          "explanation": "Substituting y = (x-1)/2 into y = x²+1 gives x²-0.5x+1.5=0. Discriminant = 0.25-6 < 0.",
+          "diagram_required": "graph",
+          "options": [
+            "The line 2y = x - 1 and the curve y = x² + 1 do not intersect, so the equation has no real solutions.",
+            "The discriminant equals zero, so there is one repeated root",
+            "The line is tangent to the curve at one point",
+            "The curves intersect only in the complex plane"
+          ],
+          "correct_option": "A"
+        }
+      ]
+    },
+    {
+      "title": "Translating graphs 4E — Vertical and Horizontal Shifts",
+      "section_ref": "4.5",
+      "unit_label": "Chapter 4 — Graphs and transformations",
+      "primary_slo": "9MA0.P1.1.4.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Apply f(x + 2) to y = f(x) where f(x) = x². State the coordinates of the axis intercepts.",
+          "explanation": "f(x+2) = (x+2)². Zero at x=-2. y-intercept: (0+2)² = 4.",
+          "diagram_required": "none",
+          "options": [
+            "x-intercept (2, 0); y-intercept (0, 4)",
+            "x-intercept: (-2, 0); y-intercept: (0, 4).",
+            "x-intercept (−2, 0); y-intercept (0, −4)",
+            "x-intercept (0, 0); y-intercept (0, 4)"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Translating graphs 4E — Transforming Asymptotes",
+      "section_ref": "4.5",
+      "unit_label": "Chapter 4 — Graphs and transformations",
+      "primary_slo": "9MA0.P1.1.4.2",
+      "aligned_slos": [
+        "9MA0.P1.1.4.1"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The graph y = 1/x is translated so that the vertical asymptote is at x = 4. Write the equation of the transformed function.",
+          "explanation": "Vertical asymptote at x=4 means denominator is zero at x=4: replace x with (x-4).",
+          "diagram_required": "none",
+          "options": [
+            "y = 1/x + 4",
+            "y = 1/(x + 4)",
+            "y = 1 / (x - 4)",
+            "y = 4/x"
+          ],
+          "correct_option": "C"
+        }
+      ]
+    },
+    {
+      "title": "Stretching graphs 4F — Vertical and Horizontal Stretches",
+      "section_ref": "4.6",
+      "unit_label": "Chapter 4 — Graphs and transformations",
+      "primary_slo": "9MA0.P1.1.4.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Apply f(2x) to y = f(x) where f(x) = x². Describe the transformation.",
+          "explanation": "Replacing x with 2x gives a horizontal stretch of scale factor 1/2.",
+          "diagram_required": "graph",
+          "options": [
+            "f(2x) = 2x²; vertical stretch by scale factor 2",
+            "f(2x) = 4x²; horizontal stretch by scale factor 2",
+            "f(2x) = x²/4; horizontal stretch by scale factor 2",
+            "f(2x) = 4x². Horizontal stretch by scale factor 1/2."
+          ],
+          "correct_option": "D"
+        }
+      ]
+    },
+    {
+      "title": "Stretching graphs 4F — Composition with Reciprocals",
+      "section_ref": "4.6",
+      "unit_label": "Chapter 4 — Graphs and transformations",
+      "primary_slo": "9MA0.P1.1.4.3",
+      "aligned_slos": [
+        "9MA0.P1.1.4.1"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Apply 0.5f(x) to y = f(x) where f(x) = 1/x. Describe the transformation and write the new equation.",
+          "explanation": "Multiplying f(x) by 0.5 gives a vertical stretch of scale factor 0.5.",
+          "diagram_required": "graph",
+          "options": [
+            "0.5f(x) = 1/(2x). Vertical stretch by scale factor 0.5.",
+            "0.5f(x) = 2/x; vertical stretch by scale factor 2",
+            "0.5f(x) = 1/(2x); horizontal stretch by scale factor 0.5",
+            "0.5f(x) = x/2; reflection in the x-axis"
+          ],
+          "correct_option": "A"
+        }
+      ]
+    },
+    {
+      "title": "Transforming functions 4G — Effect on Coordinates",
+      "section_ref": "4.7",
+      "unit_label": "Chapter 4 — Graphs and transformations",
+      "primary_slo": "9MA0.P1.1.4.5",
+      "aligned_slos": [
+        "9MA0.P1.1.4.2"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The curve y = f(x) has point C(4, 4). Give the coordinates of C after the transformation f(x + 1).",
+          "explanation": "f(x+1) is a horizontal translation by -1. (4-1, 4) = (3, 4).",
+          "diagram_required": "none",
+          "options": [
+            "(5, 4)",
+            "C' = (3, 4)",
+            "(4, 5)",
+            "(3, 3)"
+          ],
+          "correct_option": "B"
+        },
+        {
+          "question_format": "mcq",
+          "question": "The curve y = f(x) has point C(4, 4). Give the coordinates of C after the transformation f(x) - 4.",
+          "explanation": "f(x)-4 is a vertical translation by -4. (4, 4-4) = (4, 0).",
+          "diagram_required": "none",
+          "options": [
+            "(4, 8)",
+            "(0, 4)",
+            "C' = (4, 0)",
+            "(4, 4)"
+          ],
+          "correct_option": "C"
+        }
+      ]
+    },
+    {
+      "title": "Transforming functions 4G — Asymptote Transformation",
+      "section_ref": "4.7",
+      "unit_label": "Chapter 4 — Graphs and transformations",
+      "primary_slo": "9MA0.P1.1.4.5",
+      "aligned_slos": [
+        "9MA0.P1.1.4.2"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The curve y = f(x) has horizontal asymptote y = 2 and vertical asymptote x = 1. State the asymptotes after the transformation f(x) + 2.",
+          "explanation": "f(x)+2 shifts all y-values up by 2. y=2 becomes y=4. Vertical asymptote is unaffected.",
+          "diagram_required": "none",
+          "options": [
+            "Vertical asymptote: x = 1 (unchanged); Horizontal asymptote: y = 2",
+            "Vertical asymptote: x = 0; Horizontal asymptote: y = 4",
+            "Vertical asymptote: x = −1; Horizontal asymptote: y = 4",
+            "Vertical asymptote: x = 1 (unchanged); Horizontal asymptote: y = 4."
+          ],
+          "correct_option": "D"
+        }
+      ]
+    }
+  ]
+}

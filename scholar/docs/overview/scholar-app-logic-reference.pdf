@@ -1,0 +1,6080 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 5017
+>>
+stream
+0.200025 w
+0 G
+BT
+/F2 21 Tf
+24.1499999999999986 TL
+0.102 0.141 0.227 rg
+48. 781.8899999999999864 Td
+(Scholar App Logic and Risk Reference) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 741.8899999999999864 Td
+(Date: 2026-03-15) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 715.8899999999999864 Td
+(Purpose:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 699.8899999999999864 Td
+(• explain the current app logic end to end) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 683.8899999999999864 Td
+(• identify architectural and workflow vulnerabilities) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 667.8899999999999864 Td
+(• identify stochastic vs deterministic failure modes) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 651.8899999999999864 Td
+(• identify likely latency and concurrency bottlenecks) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 635.8899999999999864 Td
+(• give a reference point before migrating away from Notion as the runtime store) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 609.8899999999999864 Td
+(This document intentionally treats Notion migration as a separate known step. The focus here is:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 593.8899999999999864 Td
+(• how the app behaves today) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 577.8899999999999864 Td
+(• where it is brittle) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 561.8899999999999864 Td
+(• what should be measured if multiple concurrent users need acceptable latency) Tj
+ET
+0.82 0.84 0.87 RG
+48. 535.8899999999999864 m
+547.2799999999999727 535.8899999999999864 l
+S
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.149 0.212 0.329 rg
+48. 501.8899999999999864 Td
+(1. What the App Actually Is) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 467.8899999999999864 Td
+(Scholar is not just a tutoring dashboard. It is a combined:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 441.8899999999999864 Td
+(• student-facing learning portal) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 425.8899999999999864 Td
+(• tutor operations tool) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 409.8899999999999864 Td
+(• assessment engine) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 393.8899999999999864 Td
+(• scheduling engine) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 377.8899999999999864 Td
+(• shared question-bank system) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 361.8899999999999864 Td
+(• AI-assisted import pipeline) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 345.8899999999999864 Td
+(• AI-assisted MCQ-generation system) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 329.8899999999999864 Td
+(• progress visualization system) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 303.8899999999999864 Td
+(The complexity comes from the fact that these layers are coupled through shared runtime data.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 277.8899999999999864 Td
+(Core surfaces:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 261.8899999999999864 Td
+(• student dashboard) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 245.8899999999999864 Td
+(• practice room) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 229.8899999999999864 Td
+(• pre-class assessment) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 213.8899999999999864 Td
+(• exit ticket) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 197.8899999999999864 Td
+(• homework) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 181.8899999999999864 Td
+(• flashcards) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 165.8899999999999864 Td
+(• admin dashboard) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 149.8899999999999864 Td
+(• import / review / end-class operations) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 123.8899999999999864 Td
+(Main runtime code:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 107.8899999999999864 Td
+(• [pages/dashboard.js]\(/home/koustubh/Downloads/website/scholar/pages/dashboard.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 91.8899999999999864 Td
+(• [pages/api/student/dashboard.js]\(/home/koustubh/Downloads/website/scholar/pages/api/student/dashboard.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 75.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+48. 20. Td
+(Scholar logic reference) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+519.2799999999999727 20. Td
+(1 / 21) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 5480
+>>
+stream
+0.200025 w
+0.82 0.84 0.87 RG
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 789.8899999999999864 Td
+([pages/api/student/assessment.js]\(/home/koustubh/Downloads/website/scholar/pages/api/student/assessment.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 773.8899999999999864 Td
+(• [pages/api/student/submit.js]\(/home/koustubh/Downloads/website/scholar/pages/api/student/submit.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 757.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 741.8899999999999864 Td
+([pages/api/student/homework.js]\(/home/koustubh/Downloads/website/scholar/pages/api/student/homework.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 725.8899999999999864 Td
+(• [pages/api/student/progress-graph.js]\(/home/koustubh/Downloads/website/scholar/pages/api/student/progress) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 709.8899999999999864 Td
+(-graph.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 693.8899999999999864 Td
+(• [pages/api/admin/import.js]\(/home/koustubh/Downloads/website/scholar/pages/api/admin/import.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 677.8899999999999864 Td
+(• [pages/api/admin/end-class.js]\(/home/koustubh/Downloads/website/scholar/pages/api/admin/end-class.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 661.8899999999999864 Td
+(• [lib/notion.js]\(/home/koustubh/Downloads/website/scholar/lib/notion.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 645.8899999999999864 Td
+(• [lib/logic.js]\(/home/koustubh/Downloads/website/scholar/lib/logic.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 629.8899999999999864 Td
+(• [lib/tutor-calendar.js]\(/home/koustubh/Downloads/website/scholar/lib/tutor-calendar.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 613.8899999999999864 Td
+(• [lib/claude.js]\(/home/koustubh/Downloads/website/scholar/lib/claude.js\)) Tj
+ET
+0.82 0.84 0.87 RG
+48. 587.8899999999999864 m
+547.2799999999999727 587.8899999999999864 l
+S
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.149 0.212 0.329 rg
+48. 553.8899999999999864 Td
+(2. High-Level System Model) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 519.8899999999999864 Td
+(At a conceptual level:) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 489.8899999999999864 Td
+(Google Login) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 476.8899999999999864 Td
+(      !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 463.8899999999999864 Td
+(Student identity / admin impersonation) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 450.8899999999999864 Td
+(      !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 437.8899999999999864 Td
+(Student + subject context) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 424.8899999999999864 Td
+(      !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 411.8899999999999864 Td
+(Scores rows determine session, weakness, and scheduling) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 398.8899999999999864 Td
+(      !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 385.8899999999999864 Td
+(Question-type pages provide the actual question content) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 372.8899999999999864 Td
+(      !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 359.8899999999999864 Td
+(Claude fills gaps when MCQ cache is missing) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 346.8899999999999864 Td
+(      !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 333.8899999999999864 Td
+(Student answers update weakness, status, and scheduling) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 306.8899999999999864 Td
+(The most important thing to understand is:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 280.8899999999999864 Td
+(• `Scores DB` is the operational backbone) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 264.8899999999999864 Td
+(• subject question pages are the content backbone) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 248.8899999999999864 Td
+(• calendar data is the timing/backfill backbone) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 232.8899999999999864 Td
+(• Claude fills semantic gaps) Tj
+ET
+0.82 0.84 0.87 RG
+48. 206.8899999999999864 m
+547.2799999999999727 206.8899999999999864 l
+S
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.149 0.212 0.329 rg
+48. 172.8899999999999864 Td
+(3. Data Model As Used By The App) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 132.8899999999999864 Td
+(3.1 Runtime entities) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 104.8899999999999864 Td
+(The current app behaves as if the system contains these logical entities:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 78.8899999999999864 Td
+(• `Student`) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+48. 20. Td
+(Scholar logic reference) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+519.2799999999999727 20. Td
+(2 / 21) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 4678
+>>
+stream
+0.200025 w
+0.82 0.84 0.87 RG
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 789.8899999999999864 Td
+(• `Subject`) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 773.8899999999999864 Td
+(• `Enrollment`) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 757.8899999999999864 Td
+(• `Question Type`) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 741.8899999999999864 Td
+(• `Question Page Context Block`) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 725.8899999999999864 Td
+(• `Question`) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 709.8899999999999864 Td
+(• `Score Row`) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 693.8899999999999864 Td
+(• `Session`) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 677.8899999999999864 Td
+(• `Homework Assignment`) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 661.8899999999999864 Td
+(• `MCQ Cache`) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 645.8899999999999864 Td
+(• `Report`) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 619.8899999999999864 Td
+(The problem is that some of these exist as explicit database rows, and some exist only as structure inside Notion) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 603.8899999999999864 Td
+(page bodies.) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 571.8899999999999864 Td
+(3.2 Where data really lives) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 539.8899999999999864 Td
+(Students DB) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 526.8899999999999864 Td
+(  student identity, timezone, subject relations) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 505.8899999999999864 Td
+(Subjects DB) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 492.8899999999999864 Td
+(  subject label, question data source pointer) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 471.8899999999999864 Td
+(Enrollments DB) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 458.8899999999999864 Td
+(  duration + class-day metadata \(sparse, partially legacy\)) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 437.8899999999999864 Td
+(Scores DB) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 424.8899999999999864 Td
+(  per-student x per-question-type operational state) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 403.8899999999999864 Td
+(Subject Question-Type Tables) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 390.8899999999999864 Td
+(  question-type rows) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 369.8899999999999864 Td
+(Question Page Bodies) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 356.8899999999999864 Td
+(  context blocks, LO labels, Q/A content, images, qhash, cache lines) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 323.8899999999999864 Td
+(3.3 Important hidden truth) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 295.8899999999999864 Td
+(The actual academic structure is split across:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 269.8899999999999864 Td
+(• Scores rows) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 253.8899999999999864 Td
+(• question-type table properties) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 237.8899999999999864 Td
+(• question page callouts) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 211.8899999999999864 Td
+(That split is one of the biggest sources of complexity and drift.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 185.8899999999999864 Td
+(See also:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 169.8899999999999864 Td
+(• [docs/notion-schema-mismatch-audit.md]\(/home/koustubh/Downloads/website/scholar/docs/notion-schema-) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 153.8899999999999864 Td
+(mismatch-audit.md\)) Tj
+ET
+0.82 0.84 0.87 RG
+48. 127.8899999999999864 m
+547.2799999999999727 127.8899999999999864 l
+S
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.149 0.212 0.329 rg
+48. 93.8899999999999864 Td
+(4. Authentication and Identity Flow) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+48. 20. Td
+(Scholar logic reference) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+519.2799999999999727 20. Td
+(3 / 21) Tj
+ET
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 10 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 5218
+>>
+stream
+0.200025 w
+0.82 0.84 0.87 RG
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 789.8899999999999864 Td
+(Main auth code:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 773.8899999999999864 Td
+(• [pages/api/auth/[...nextauth].js]\(/home/koustubh/Downloads/website/scholar/pages/api/auth/[...nextauth].js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 747.8899999999999864 Td
+(Flow:) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 717.8899999999999864 Td
+(Google OAuth) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 704.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 691.8899999999999864 Td
+(signIn callback) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 678.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 665.8899999999999864 Td
+( i f   a d m i n   e m a i l  !’   a l l o w) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 652.8899999999999864 Td
+(else check if email exists in Students DB) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 639.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 626.8899999999999864 Td
+(jwt callback) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 613.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 600.8899999999999864 Td
+(store notionStudentId / accessToken / refreshToken) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 587.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 574.8899999999999864 Td
+(session callback) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 561.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 548.8899999999999864 Td
+(session.notionStudentId used by all student APIs) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 521.8899999999999864 Td
+(Important details:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 505.8899999999999864 Td
+(• admin bypass is hardcoded by email) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 489.8899999999999864 Td
+(• preview/admin impersonation works by passing `?as=<studentId>`) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 473.8899999999999864 Td
+(• many APIs allow impersonation only if admin) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 441.8899999999999864 Td
+(Auth vulnerabilities / issues) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 413.8899999999999864 Td
+(1. Email-based authorization is simple but brittle.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 397.8899999999999864 Td
+(• Admin identity is one hardcoded email.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 381.8899999999999864 Td
+(• Student access depends on email matching a Notion student row.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 355.8899999999999864 Td
+(2. Preview and demo bypass paths add complexity.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 339.8899999999999864 Td
+(• There are now multiple modes:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 323.8899999999999864 Td
+(  - real student) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 307.8899999999999864 Td
+(  - admin impersonation) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 291.8899999999999864 Td
+(  - local demo mode) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 275.8899999999999864 Td
+(• These are useful, but increase mental and security surface area.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 249.8899999999999864 Td
+(3. Session stability in dev is fragile.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 233.8899999999999864 Td
+(• Not necessarily an app-logic bug, but `.next` corruption has repeatedly broken auth/session.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 207.8899999999999864 Td
+(Metrics to track:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 191.8899999999999864 Td
+(• auth success rate) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 175.8899999999999864 Td
+(• sign-in rejection rate) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 159.8899999999999864 Td
+(• `/api/auth/session` error rate) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 143.8899999999999864 Td
+(• preview-mode usage rate) Tj
+ET
+0.82 0.84 0.87 RG
+48. 117.8899999999999864 m
+547.2799999999999727 117.8899999999999864 l
+S
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.149 0.212 0.329 rg
+48. 83.8899999999999864 Td
+(5. Dashboard Logic) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+48. 20. Td
+(Scholar logic reference) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+519.2799999999999727 20. Td
+(4 / 21) Tj
+ET
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 12 0 R
+>>
+endobj
+12 0 obj
+<<
+/Length 5150
+>>
+stream
+0.200025 w
+0.82 0.84 0.87 RG
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 789.8899999999999864 Td
+(Main dashboard API:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 773.8899999999999864 Td
+(• [pages/api/student/dashboard.js]\(/home/koustubh/Downloads/website/scholar/pages/api/student/dashboard.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 747.8899999999999864 Td
+(Dashboard flow:) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 717.8899999999999864 Td
+(studentId) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 704.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 691.8899999999999864 Td
+(load student) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 678.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 665.8899999999999864 Td
+(load subjects from student's subjectIds) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 652.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 639.8899999999999864 Td
+(for each subject:) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 626.8899999999999864 Td
+(    fetch upcoming classes from Google Calendar) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 613.8899999999999864 Td
+(    infer todayClass / nextClass) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 600.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 587.8899999999999864 Td
+(return student + subjectsWithCalendar) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 560.8899999999999864 Td
+(Key behavior:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 544.8899999999999864 Td
+(• student identity drives subject list) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 528.8899999999999864 Td
+(• calendar matching is fuzzy by subject and student name) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 512.8899999999999864 Td
+(• dashboard uses student timezone for "today") Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 480.8899999999999864 Td
+(Risks) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 452.8899999999999864 Td
+(1. Calendar matching is fuzzy, not deterministic.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 436.8899999999999864 Td
+(• Implemented in [lib/tutor-calendar.js]\(/home/koustubh/Downloads/website/scholar/lib/tutor-calendar.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 420.8899999999999864 Td
+(• Risks:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 404.8899999999999864 Td
+(  - wrong event selected) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 388.8899999999999864 Td
+(  - no event selected) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 372.8899999999999864 Td
+(  - duplicate classes in same horizon) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 346.8899999999999864 Td
+(2. Each subject triggers calendar fetch logic.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 330.8899999999999864 Td
+(• This can become expensive with more subjects.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 304.8899999999999864 Td
+(Metrics:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 288.8899999999999864 Td
+(• calendar match rate) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 272.8899999999999864 Td
+(• number of matched events per subject) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 256.8899999999999864 Td
+(• dashboard API p50 / p95 latency) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 240.8899999999999864 Td
+(• downstream calendar API latency) Tj
+ET
+0.82 0.84 0.87 RG
+48. 214.8899999999999864 m
+547.2799999999999727 214.8899999999999864 l
+S
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.149 0.212 0.329 rg
+48. 180.8899999999999864 Td
+(6. Assessment Logic) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 146.8899999999999864 Td
+(Primary code:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 130.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 114.8899999999999864 Td
+([pages/api/student/assessment.js]\(/home/koustubh/Downloads/website/scholar/pages/api/student/assessment.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 98.8899999999999864 Td
+(• [pages/api/student/submit.js]\(/home/koustubh/Downloads/website/scholar/pages/api/student/submit.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 72.8899999999999864 Td
+(There are two modes:) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+48. 20. Td
+(Scholar logic reference) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+519.2799999999999727 20. Td
+(5 / 21) Tj
+ET
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 14 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 5439
+>>
+stream
+0.200025 w
+0.82 0.84 0.87 RG
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 789.8899999999999864 Td
+(• `pre`) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 773.8899999999999864 Td
+(• `exit`) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 741.8899999999999864 Td
+(6.1 Pre-class assessment) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 713.8899999999999864 Td
+(Algorithm:) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 683.8899999999999864 Td
+(subjectId + sessionDate) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 670.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 657.8899999999999864 Td
+(find previous session's score rows) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 644.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 631.8899999999999864 Td
+(hydrate score rows into question types) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 618.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 605.8899999999999864 Td
+(for each selected question type:) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 592.8899999999999864 Td
+(    fetch student-context question pool from page) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 579.8899999999999864 Td
+(         i f   n o n e  !’   f u l l - p a g e   f a l l b a c k) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 566.8899999999999864 Td
+(         i f   M C Q   c a c h e   e x i s t s  !’   u s e   c a c h e d   M C Q) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 553.8899999999999864 Td
+(         e l s e  !’   a s k   C l a u d e   t o   g e n e r a t e   M C Q   f r o m   s t o r e d   Q / A) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 540.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 527.8899999999999864 Td
+(return assessment questions) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 500.8899999999999864 Td
+(Important details:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 484.8899999999999864 Td
+(• previous-session lookup is date-sensitive) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 468.8899999999999864 Td
+(• if exact date lookup fails, code falls back to older heuristic) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 452.8899999999999864 Td
+(• cache miss invokes Claude at runtime) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 420.8899999999999864 Td
+(6.2 Exit ticket) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 392.8899999999999864 Td
+(Algorithm:) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 362.8899999999999864 Td
+(subjectId + optional sessionDate) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 349.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 336.8899999999999864 Td
+(load latest session rows \(or rows for exact sessionDate\)) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 323.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 310.8899999999999864 Td
+(check for "Approved for Exit" status) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 297.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 284.8899999999999864 Td
+( i f   n o t   a p p r o v e d  !’   l o c k e d) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 271.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 258.8899999999999864 Td
+(load today's question types) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 245.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 232.8899999999999864 Td
+(same question hydration / cache / Claude pipeline as pre-class) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 199.8899999999999864 Td
+(6.3 Submission) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 171.8899999999999864 Td
+(Submission flow:) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 141.8899999999999864 Td
+(answers[]) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 128.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 115.8899999999999864 Td
+(for each wrong answer:) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 102.8899999999999864 Td
+(    increment weakness score) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 89.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 76.8899999999999864 Td
+(if pre-class:) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 63.8899999999999864 Td
+(    maybe apply FIFO swap) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+48. 20. Td
+(Scholar logic reference) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+519.2799999999999727 20. Td
+(6 / 21) Tj
+ET
+endstream
+endobj
+15 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 16 0 R
+>>
+endobj
+16 0 obj
+<<
+/Length 4844
+>>
+stream
+0.200025 w
+0.82 0.84 0.87 RG
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 789.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 776.8899999999999864 Td
+(if exit:) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 763.8899999999999864 Td
+(    mark question status Done / To be reviewed) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 750.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 737.8899999999999864 Td
+(recompute weakness / trends) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 704.8899999999999864 Td
+(Risks) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 676.8899999999999864 Td
+(1. Claude runtime generation is on the request path.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 660.8899999999999864 Td
+(• If cache is missing, assessment latency spikes.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 634.8899999999999864 Td
+(2. Previous-session selection is subtle.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 618.8899999999999864 Td
+(• A small date bug can make pre-class return zero questions.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 592.8899999999999864 Td
+(3. Exit ticket depends on status gating.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 576.8899999999999864 Td
+(• Mis-set status can lock/unlock wrong sessions.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 550.8899999999999864 Td
+(Metrics:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 534.8899999999999864 Td
+(• assessment generation p50 / p95 / p99) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 518.8899999999999864 Td
+(• cache hit rate) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 502.8899999999999864 Td
+(• Claude runtime generation count per assessment) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 486.8899999999999864 Td
+(• no-data assessment rate) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 470.8899999999999864 Td
+(• exit locked rate) Tj
+ET
+0.82 0.84 0.87 RG
+48. 444.8899999999999864 m
+547.2799999999999727 444.8899999999999864 l
+S
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.149 0.212 0.329 rg
+48. 410.8899999999999864 Td
+(7. FIFO / SWAP Logic) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 376.8899999999999864 Td
+(Code:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 360.8899999999999864 Td
+(• [lib/logic.js]\(/home/koustubh/Downloads/website/scholar/lib/logic.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 334.8899999999999864 Td
+(This is one of the most important behavior engines in the app.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 308.8899999999999864 Td
+(Algorithm:) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 278.8899999999999864 Td
+(wrong pre-class questions) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 265.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 252.8899999999999864 Td
+(dedupe wrong questions) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 239.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 226.8899999999999864 Td
+(determine today's scheduled questions) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 213.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 200.8899999999999864 Td
+(prefer wrong questions not already in today's plan) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 187.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 174.8899999999999864 Td
+(swap them into today's session) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 161.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 148.8899999999999864 Td
+(push displaced questions to next class date) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 121.8899999999999864 Td
+(The most important invariant:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 105.8899999999999864 Td
+(• swaps are anchored to `sessionDate`) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 89.8899999999999864 Td
+(• not to server clock) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+48. 20. Td
+(Scholar logic reference) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+519.2799999999999727 20. Td
+(7 / 21) Tj
+ET
+endstream
+endobj
+17 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 18 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 5280
+>>
+stream
+0.200025 w
+0.82 0.84 0.87 RG
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 789.8899999999999864 Td
+(Risks) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 761.8899999999999864 Td
+(1. Date anchoring is correct in intent, but fragile in implementation.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 745.8899999999999864 Td
+(• Any accidental reintroduction of server-time logic breaks FIFO.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 719.8899999999999864 Td
+(2. The app assumes question-level uniqueness on score rows.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 703.8899999999999864 Td
+(• If score rows are duplicated or stale, swaps can become inconsistent.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 677.8899999999999864 Td
+(3. `applySwap\(\)` writes multiple `pushQuestionToDate\(\)` operations.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 661.8899999999999864 Td
+(• This is operationally expensive and can become slow under volume.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 635.8899999999999864 Td
+(Metrics:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 619.8899999999999864 Td
+(• swap trigger rate) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 603.8899999999999864 Td
+(• average number of displaced topics per swap) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 587.8899999999999864 Td
+(• swap write latency) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 571.8899999999999864 Td
+(• post-swap correctness rate \(topics actually moved as expected\)) Tj
+ET
+0.82 0.84 0.87 RG
+48. 545.8899999999999864 m
+547.2799999999999727 545.8899999999999864 l
+S
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.149 0.212 0.329 rg
+48. 511.8899999999999864 Td
+(8. Homework Logic) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 477.8899999999999864 Td
+(Code:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 461.8899999999999864 Td
+(•) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 445.8899999999999864 Td
+([pages/api/student/homework.js]\(/home/koustubh/Downloads/website/scholar/pages/api/student/homework.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 419.8899999999999864 Td
+(Homework is derived, not purely assigned.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 393.8899999999999864 Td
+(Current stack:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 377.8899999999999864 Td
+(• latest session questions) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 361.8899999999999864 Td
+(• weakness questions \(`score > 2`\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 345.8899999999999864 Td
+(• admin-uploaded homework \(`hw_source = "admin_hw"`\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 319.8899999999999864 Td
+(Algorithm:) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 289.8899999999999864 Td
+(load all question types with scores) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 276.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 263.8899999999999864 Td
+(find last session date <= today) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 250.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 237.8899999999999864 Td
+( i f   e x i t   t i c k e t   f o r   t h a t   s e s s i o n   n o t   d o n e  !’   l o c k   h o m e w o r k) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 224.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 211.8899999999999864 Td
+(union\(session questions, weak questions, admin homework\)) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 198.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 185.8899999999999864 Td
+(sort by priority) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 172.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 159.8899999999999864 Td
+(for each selected type:) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 146.8899999999999864 Td
+(    fetch cached MCQ only) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 133.8899999999999864 Td
+(         i f   n o   c a c h e  !’   s k i p) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 106.8899999999999864 Td
+(Important detail:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 90.8899999999999864 Td
+(• homework is cache-dependent) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 74.8899999999999864 Td
+(• unlike assessment, it does not currently generate runtime MCQs when cache is missing) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+48. 20. Td
+(Scholar logic reference) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+519.2799999999999727 20. Td
+(8 / 21) Tj
+ET
+endstream
+endobj
+19 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 20 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 5237
+>>
+stream
+0.200025 w
+0.82 0.84 0.87 RG
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 789.8899999999999864 Td
+(Risks) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 761.8899999999999864 Td
+(1. Homework can silently under-deliver if cache coverage is poor.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 745.8899999999999864 Td
+(2. Union logic may overgrow with lots of weak topics.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 729.8899999999999864 Td
+(3. The route does repeated per-question-type retrieval, which is latency-heavy.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 703.8899999999999864 Td
+(Metrics:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 687.8899999999999864 Td
+(• homework question count returned) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 671.8899999999999864 Td
+(• cache miss skip count) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 655.8899999999999864 Td
+(• homework lock rate) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 639.8899999999999864 Td
+(• per-request number of question types scanned) Tj
+ET
+0.82 0.84 0.87 RG
+48. 613.8899999999999864 m
+547.2799999999999727 613.8899999999999864 l
+S
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.149 0.212 0.329 rg
+48. 579.8899999999999864 Td
+(9. Practice Room / Progress Graph Logic) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 545.8899999999999864 Td
+(Code:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 529.8899999999999864 Td
+(• [pages/api/student/progress-graph.js]\(/home/koustubh/Downloads/website/scholar/pages/api/student/progress) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 513.8899999999999864 Td
+(-graph.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 497.8899999999999864 Td
+(• [pages/api/student/progress-graph-attempt.js]\(/home/koustubh/Downloads/website/scholar/pages/api/student/) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 481.8899999999999864 Td
+(progress-graph-attempt.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 465.8899999999999864 Td
+(• [components/SubjectCylinder3D.js]\(/home/koustubh/Downloads/website/scholar/components/SubjectCylinde) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 449.8899999999999864 Td
+(r3D.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 423.8899999999999864 Td
+(Algorithm:) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 393.8899999999999864 Td
+(load all question types with scores) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 380.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 367.8899999999999864 Td
+(for each question type:) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 354.8899999999999864 Td
+(    fetch stored questions by student context) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 341.8899999999999864 Td
+(    compute count + available daily question) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 328.8899999999999864 Td
+(    derive lock state) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 315.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 302.8899999999999864 Td
+(group into units / LOs / arcs on client) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 289.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 276.8899999999999864 Td
+(student attempts one daily question) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 263.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 250.8899999999999864 Td
+(persist attempt state) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 237.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 224.8899999999999864 Td
+(rerender 3D progress) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 197.8899999999999864 Td
+(Important hidden issue:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 181.8899999999999864 Td
+(• this path depends heavily on `attempted_qhashes`-style state) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 165.8899999999999864 Td
+(• that field is not a stable mirrored Notion truth today) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 133.8899999999999864 Td
+(Risks) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 105.8899999999999864 Td
+(1. This is one of the most expensive APIs in the app.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 89.8899999999999864 Td
+(• It does `getQuestionsForStudentContext\(...\)` for many question types.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+48. 20. Td
+(Scholar logic reference) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+519.2799999999999727 20. Td
+(9 / 21) Tj
+ET
+endstream
+endobj
+21 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 22 0 R
+>>
+endobj
+22 0 obj
+<<
+/Length 5106
+>>
+stream
+0.200025 w
+0.82 0.84 0.87 RG
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 789.8899999999999864 Td
+(2. It assumes a stable attempt-state store.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 773.8899999999999864 Td
+(• That assumption is weaker than the rest of the app.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 747.8899999999999864 Td
+(3. UI cost is high.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 731.8899999999999864 Td
+(• 3D rendering + data hydration + re-render after each answer) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 705.8899999999999864 Td
+(Metrics:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 689.8899999999999864 Td
+(• progress graph API latency) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 673.8899999999999864 Td
+(• number of question types scanned) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 657.8899999999999864 Td
+(• number of underlying page fetches) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 641.8899999999999864 Td
+(• 3D render frame rate on client) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 625.8899999999999864 Td
+(• interaction latency after answer submit) Tj
+ET
+0.82 0.84 0.87 RG
+48. 599.8899999999999864 m
+547.2799999999999727 599.8899999999999864 l
+S
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.149 0.212 0.329 rg
+48. 565.8899999999999864 Td
+(10. Admin Import Logic) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 531.8899999999999864 Td
+(Code:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 515.8899999999999864 Td
+(• [pages/api/admin/import.js]\(/home/koustubh/Downloads/website/scholar/pages/api/admin/import.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 489.8899999999999864 Td
+(Import is one of the densest logic paths in the product.) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 457.8899999999999864 Td
+(10.1 Import pipeline) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 425.8899999999999864 Td
+(PDF/DOCX upload) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 412.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 399.8899999999999864 Td
+(Claude extracts question types + questions + answers + taxonomy codes) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 386.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 373.8899999999999864 Td
+(readable names generated) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 360.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 347.8899999999999864 Td
+(existing subject question pages loaded) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 334.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 321.8899999999999864 Td
+(question type matched to existing page or new page created) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 308.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 295.8899999999999864 Td
+(page callout blocks written:) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 282.8899999999999864 Td
+(    Country / State / LO) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 269.8899999999999864 Td
+(    Q / A) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 256.8899999999999864 Td
+(    qhash) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 243.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 230.8899999999999864 Td
+(score row created for student + subject + date) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 217.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 204.8899999999999864 Td
+(MCQ cache pre-generation attempted) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 171.8899999999999864 Td
+(10.2 What import is really doing) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 143.8899999999999864 Td
+(It is performing all of these at once:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 127.8899999999999864 Td
+(• OCR-like worksheet understanding) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 111.8899999999999864 Td
+(• question-type extraction) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 95.8899999999999864 Td
+(• taxonomy mapping) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 79.8899999999999864 Td
+(• naming) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+48. 20. Td
+(Scholar logic reference) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+519.2799999999999727 20. Td
+(10 / 21) Tj
+ET
+endstream
+endobj
+23 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 24 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 5022
+>>
+stream
+0.200025 w
+0.82 0.84 0.87 RG
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 789.8899999999999864 Td
+(• deduplication) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 773.8899999999999864 Td
+(• question bank authoring) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 757.8899999999999864 Td
+(• score-row scheduling) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 741.8899999999999864 Td
+(• MCQ pre-generation) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 715.8899999999999864 Td
+(That is why it is both powerful and fragile.) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 683.8899999999999864 Td
+(Import-specific vulnerabilities) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 655.8899999999999864 Td
+(1. Taxonomy mapping is stochastic.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 639.8899999999999864 Td
+(• Claude chooses `standard_codes`.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 623.8899999999999864 Td
+(• This is not deterministic.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 597.8899999999999864 Td
+(2. Question-type identity is fuzzy.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 581.8899999999999864 Td
+(• `original_type` in real data behaves like a content hash, mainly useful for re-imports.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 565.8899999999999864 Td
+(• if not a re-import, append/create logic falls back to fuzzy page-name matching) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 539.8899999999999864 Td
+(3. Import is computationally heavy.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 523.8899999999999864 Td
+(• PDF parse) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 507.8899999999999864 Td
+(• Claude extraction) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 491.8899999999999864 Td
+(• Notion writes) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 475.8899999999999864 Td
+(• MCQ generation) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 449.8899999999999864 Td
+(4. It performs multi-step writes without a true transaction boundary.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 433.8899999999999864 Td
+(• Partial success is possible.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 407.8899999999999864 Td
+(Metrics:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 391.8899999999999864 Td
+(• import total duration) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 375.8899999999999864 Td
+(• Claude extraction duration) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 359.8899999999999864 Td
+(• number of question types extracted) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 343.8899999999999864 Td
+(• number of pages created vs appended) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 327.8899999999999864 Td
+(• post-import cache coverage) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 311.8899999999999864 Td
+(• import failure rate by stage) Tj
+ET
+0.82 0.84 0.87 RG
+48. 285.8899999999999864 m
+547.2799999999999727 285.8899999999999864 l
+S
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.149 0.212 0.329 rg
+48. 251.8899999999999864 Td
+(11. End-Class Logic) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 217.8899999999999864 Td
+(Code:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 201.8899999999999864 Td
+(• [pages/api/admin/end-class.js]\(/home/koustubh/Downloads/website/scholar/pages/api/admin/end-class.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 175.8899999999999864 Td
+(End class flow:) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 145.8899999999999864 Td
+(admin selects taught topics) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 132.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 119.8899999999999864 Td
+(latest session rows loaded) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 106.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 93.8899999999999864 Td
+( t a u g h t   r o w s  !’   A p p r o v e d   f o r   E x i t) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 80.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 67.8899999999999864 Td
+( u n t a u g h t   r o w s  !’   m o v e d   t o   n e x t   e s t i m a t e d   s e s s i o n   d a t e) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+48. 20. Td
+(Scholar logic reference) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+519.2799999999999727 20. Td
+(11 / 21) Tj
+ET
+endstream
+endobj
+25 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 26 0 R
+>>
+endobj
+26 0 obj
+<<
+/Length 4617
+>>
+stream
+0.200025 w
+0.82 0.84 0.87 RG
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 789.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 776.8899999999999864 Td
+(future rows may be pushed one slot forward) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 749.8899999999999864 Td
+(This is not just a status flip. It mutates schedule state.) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 717.8899999999999864 Td
+(Risks) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 689.8899999999999864 Td
+(1. Calendar-estimated future session dates are fuzzy.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 673.8899999999999864 Td
+(2. Pushing future rows can cascade unexpectedly if schedule state is already messy.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 657.8899999999999864 Td
+(3. This path is write-heavy and hard to reason about without explicit session entities.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 631.8899999999999864 Td
+(Metrics:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 615.8899999999999864 Td
+(• end-class duration) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 599.8899999999999864 Td
+(• number of rows moved) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 583.8899999999999864 Td
+(• number of rows approved) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 567.8899999999999864 Td
+(• mismatch rate between planned and taught topics) Tj
+ET
+0.82 0.84 0.87 RG
+48. 541.8899999999999864 m
+547.2799999999999727 541.8899999999999864 l
+S
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.149 0.212 0.329 rg
+48. 507.8899999999999864 Td
+(12. Calendar Matching) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 473.8899999999999864 Td
+(Code:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 457.8899999999999864 Td
+(• [lib/tutor-calendar.js]\(/home/koustubh/Downloads/website/scholar/lib/tutor-calendar.js\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 431.8899999999999864 Td
+(Calendar matching is heuristic:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 415.8899999999999864 Td
+(• normalize title) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 399.8899999999999864 Td
+(• derive first few subject words) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 383.8899999999999864 Td
+(• fuzzy match student name) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 357.8899999999999864 Td
+(This is an operational helper, not a guaranteed identifier.) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 325.8899999999999864 Td
+(Vulnerability: fuzzy matching) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 297.8899999999999864 Td
+(This is the single most important fuzzy subsystem outside Claude.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 271.8899999999999864 Td
+(Possible failure modes:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 255.8899999999999864 Td
+(• false positive event match) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 239.8899999999999864 Td
+(• false negative event match) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 223.8899999999999864 Td
+(• duplicate match ambiguity) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 207.8899999999999864 Td
+(• similar student names) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 191.8899999999999864 Td
+(• similar subject names) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 165.8899999999999864 Td
+(This affects:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 149.8899999999999864 Td
+(• dashboard timing) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 133.8899999999999864 Td
+(• Zoom links) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 117.8899999999999864 Td
+(• pre-class visibility assumptions) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 101.8899999999999864 Td
+(• end-class future-date estimates) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 75.8899999999999864 Td
+(Metrics:) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+48. 20. Td
+(Scholar logic reference) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+519.2799999999999727 20. Td
+(12 / 21) Tj
+ET
+endstream
+endobj
+27 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 28 0 R
+>>
+endobj
+28 0 obj
+<<
+/Length 4172
+>>
+stream
+0.200025 w
+0.82 0.84 0.87 RG
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 789.8899999999999864 Td
+(• event match confidence \(should be added\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 773.8899999999999864 Td
+(• ambiguous event count) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 757.8899999999999864 Td
+(• unmatched class count) Tj
+ET
+0.82 0.84 0.87 RG
+48. 731.8899999999999864 m
+547.2799999999999727 731.8899999999999864 l
+S
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.149 0.212 0.329 rg
+48. 697.8899999999999864 Td
+(13. Deterministic vs Stochastic Subsystems) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 657.8899999999999864 Td
+(Deterministic-ish parts) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 629.8899999999999864 Td
+(• date filtering on score rows) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 613.8899999999999864 Td
+(• status changes) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 597.8899999999999864 Td
+(• FIFO swap mechanics) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 581.8899999999999864 Td
+(• weakness score increments) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 565.8899999999999864 Td
+(• question count from duration) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 549.8899999999999864 Td
+(• auth gating by email / session) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 517.8899999999999864 Td
+(Stochastic or fuzzy parts) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 489.8899999999999864 Td
+(• Claude taxonomy mapping) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 473.8899999999999864 Td
+(• Claude question-type extraction) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 457.8899999999999864 Td
+(• Claude MCQ generation) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 441.8899999999999864 Td
+(• import readable-name generation) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 425.8899999999999864 Td
+(• calendar event matching) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 409.8899999999999864 Td
+(• append/create matching in import) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 393.8899999999999864 Td
+(• context retrieval when page structure is inconsistent) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 361.8899999999999864 Td
+(Why this matters) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 333.8899999999999864 Td
+(The app mixes:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 317.8899999999999864 Td
+(• hard state mutation) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 301.8899999999999864 Td
+(• fuzzy semantic interpretation) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 275.8899999999999864 Td
+(This is dangerous when fuzzy outputs are later treated as authoritative database state.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 249.8899999999999864 Td
+(Recommendation:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 233.8899999999999864 Td
+(• fuzzy systems should produce candidates + confidence) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 217.8899999999999864 Td
+(• deterministic systems should own final mutation when possible) Tj
+ET
+0.82 0.84 0.87 RG
+48. 191.8899999999999864 m
+547.2799999999999727 191.8899999999999864 l
+S
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.149 0.212 0.329 rg
+48. 157.8899999999999864 Td
+(14. Key Vulnerability Classes) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 117.8899999999999864 Td
+(14.1 Fuzzy matching vulnerabilities) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 89.8899999999999864 Td
+(Highest importance.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+48. 20. Td
+(Scholar logic reference) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+519.2799999999999727 20. Td
+(13 / 21) Tj
+ET
+endstream
+endobj
+29 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 30 0 R
+>>
+endobj
+30 0 obj
+<<
+/Length 4654
+>>
+stream
+0.200025 w
+0.82 0.84 0.87 RG
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 789.8899999999999864 Td
+(Examples:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 773.8899999999999864 Td
+(• calendar event title matching) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 757.8899999999999864 Td
+(• import page similarity matching) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 741.8899999999999864 Td
+(• taxonomy mapping by Claude) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 725.8899999999999864 Td
+(• question-type naming equivalence) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 709.8899999999999864 Td
+(• LO/page-callout drift) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 683.8899999999999864 Td
+(Failure pattern:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 667.8899999999999864 Td
+(• semantic ambiguity becomes persistent state) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 635.8899999999999864 Td
+(14.2 Schema drift vulnerabilities) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 607.8899999999999864 Td
+(Examples:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 591.8899999999999864 Td
+(• page-body LO vs score-row standard_code) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 575.8899999999999864 Td
+(• cache format drift) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 559.8899999999999864 Td
+(• legacy pages without qhash) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 543.8899999999999864 Td
+(• app-native fields assumed to exist in Notion) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 517.8899999999999864 Td
+(Failure pattern:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 501.8899999999999864 Td
+(• code silently interprets incomplete or inconsistent data) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 469.8899999999999864 Td
+(14.3 Auth / mode vulnerabilities) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 441.8899999999999864 Td
+(Examples:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 425.8899999999999864 Td
+(• multiple auth modes: real, admin preview, local demo) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 409.8899999999999864 Td
+(• hardcoded admin email) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 393.8899999999999864 Td
+(• impersonation logic spread across routes) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 367.8899999999999864 Td
+(Failure pattern:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 351.8899999999999864 Td
+(• access logic becomes hard to reason about) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 319.8899999999999864 Td
+(14.4 API rate and dependency vulnerabilities) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 291.8899999999999864 Td
+(External dependencies:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 275.8899999999999864 Td
+(• Google OAuth) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 259.8899999999999864 Td
+(• Google Calendar API) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 243.8899999999999864 Td
+(• Anthropic API) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 227.8899999999999864 Td
+(• Notion API) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 201.8899999999999864 Td
+(Failure pattern:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 185.8899999999999864 Td
+(• one slow or rate-limited dependency stalls the request path) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 153.8899999999999864 Td
+(14.5 Computational inefficiency) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 125.8899999999999864 Td
+(Main pattern:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 109.8899999999999864 Td
+(• many endpoints perform repeated page fetches and repeated per-question-type operations) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 83.8899999999999864 Td
+(This is not always formally `O\(n^2\)`, but there are many `N x remote-call` patterns that behave badly in practice.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+48. 20. Td
+(Scholar logic reference) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+519.2799999999999727 20. Td
+(14 / 21) Tj
+ET
+endstream
+endobj
+31 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 32 0 R
+>>
+endobj
+32 0 obj
+<<
+/Length 4160
+>>
+stream
+0.200025 w
+0.82 0.84 0.87 RG
+0.82 0.84 0.87 RG
+48. 789.8899999999999864 m
+547.2799999999999727 789.8899999999999864 l
+S
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.149 0.212 0.329 rg
+48. 755.8899999999999864 Td
+(15. Where Compute / Latency Is Likely Worst) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 715.8899999999999864 Td
+(15.1 Progress graph) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 687.8899999999999864 Td
+(Pattern:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 671.8899999999999864 Td
+(• load question types) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 655.8899999999999864 Td
+(• for each type, fetch question content) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 629.8899999999999864 Td
+(This is effectively:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 613.8899999999999864 Td
+(• `O\(n\)` logical loop) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 597.8899999999999864 Td
+(• but with expensive remote calls inside) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 581.8899999999999864 Td
+(• so practical latency scales badly with more question types) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 549.8899999999999864 Td
+(15.2 Homework) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 521.8899999999999864 Td
+(Pattern:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 505.8899999999999864 Td
+(• scan all subject question types) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 489.8899999999999864 Td
+(• derive union stack) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 473.8899999999999864 Td
+(• for each capped type, fetch context question pool) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 447.8899999999999864 Td
+(Again:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 431.8899999999999864 Td
+(• logically moderate) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 415.8899999999999864 Td
+(• operationally expensive due to remote fetch cost) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 383.8899999999999864 Td
+(15.3 Import) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 355.8899999999999864 Td
+(Pattern:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 339.8899999999999864 Td
+(• long-running multi-stage pipeline) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 323.8899999999999864 Td
+(• multiple sequential external operations) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 297.8899999999999864 Td
+(This is the most expensive end-to-end route in the app.) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 265.8899999999999864 Td
+(15.4 Assessment on cache miss) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 237.8899999999999864 Td
+(Pattern:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 221.8899999999999864 Td
+(• fetch content) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 205.8899999999999864 Td
+(• call Claude synchronously) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 179.8899999999999864 Td
+(This creates high tail latency.) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 147.8899999999999864 Td
+(15.5 Admin review queue) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 119.8899999999999864 Td
+(Pattern:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 103.8899999999999864 Td
+(• load score rows) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 87.8899999999999864 Td
+(• fetch related question pages) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 71.8899999999999864 Td
+(• parse sections and problems) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+48. 20. Td
+(Scholar logic reference) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+519.2799999999999727 20. Td
+(15 / 21) Tj
+ET
+endstream
+endobj
+33 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 34 0 R
+>>
+endobj
+34 0 obj
+<<
+/Length 3870
+>>
+stream
+0.200025 w
+0.82 0.84 0.87 RG
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 789.8899999999999864 Td
+(This can get very slow for content-heavy subjects.) Tj
+ET
+0.82 0.84 0.87 RG
+48. 763.8899999999999864 m
+547.2799999999999727 763.8899999999999864 l
+S
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.149 0.212 0.329 rg
+48. 729.8899999999999864 Td
+(16. Complexity Notes) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 695.8899999999999864 Td
+(Examples of inefficient or risky patterns:) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 663.8899999999999864 Td
+(N+1 page fetches) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 635.8899999999999864 Td
+(Many flows do:) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 605.8899999999999864 Td
+(get all score rows) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 592.8899999999999864 Td
+(for each score row:) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 579.8899999999999864 Td
+(    fetch associated question page) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 552.8899999999999864 Td
+(This appears in various forms across:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 536.8899999999999864 Td
+(• hydration) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 520.8899999999999864 Td
+(• progress graph) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 504.8899999999999864 Td
+(• review) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 488.8899999999999864 Td
+(• homework) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 456.8899999999999864 Td
+(Sequential external calls) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 428.8899999999999864 Td
+(Many flows await network calls in loops instead of batching aggressively.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 402.8899999999999864 Td
+(Example risk:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 386.8899999999999864 Td
+(• 20 question types) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 370.8899999999999864 Td
+(• 20 page reads) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 354.8899999999999864 Td
+(• 10 Claude calls) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 338.8899999999999864 Td
+(• 10 Notion writes) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 312.8899999999999864 Td
+(Even if formally linear, that can feel unusably slow.) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 280.8899999999999864 Td
+(Hidden cost of fallback logic) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 252.8899999999999864 Td
+(Fallbacks are good for robustness, but they add layers:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 236.8899999999999864 Td
+(• exact context lookup) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 220.8899999999999864 Td
+(• full page fallback) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 204.8899999999999864 Td
+(• cache fallback) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 188.8899999999999864 Td
+(• runtime Claude fallback) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 162.8899999999999864 Td
+(This compounds latency.) Tj
+ET
+0.82 0.84 0.87 RG
+48. 136.8899999999999864 m
+547.2799999999999727 136.8899999999999864 l
+S
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.149 0.212 0.329 rg
+48. 102.8899999999999864 Td
+(17. Flow Diagrams) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+48. 20. Td
+(Scholar logic reference) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+519.2799999999999727 20. Td
+(16 / 21) Tj
+ET
+endstream
+endobj
+35 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 36 0 R
+>>
+endobj
+36 0 obj
+<<
+/Length 5411
+>>
+stream
+0.200025 w
+0.82 0.84 0.87 RG
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 789.8899999999999864 Td
+(17.1 Student dashboard / assessment) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 757.8899999999999864 Td
+(Login) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 744.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 731.8899999999999864 Td
+(Dashboard API) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 718.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 705.8899999999999864 Td
+(Student + Subjects + Calendar) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 692.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 679.8899999999999864 Td
+(Choose mode) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 666.8899999999999864 Td
+(    %%    P r a c t i c e   R o o m) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 653.8899999999999864 Td
+(    %%    P r e - C l a s s) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 640.8899999999999864 Td
+(    %%    E x i t   T i c k e t) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 627.8899999999999864 Td
+(    %%    H o m e w o r k) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 594.8899999999999864 Td
+(17.2 Import) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 562.8899999999999864 Td
+(Admin uploads PDF/DOCX) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 549.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 536.8899999999999864 Td
+(Claude extracts question types) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 523.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 510.8899999999999864 Td
+(Taxonomy codes assigned) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 497.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 484.8899999999999864 Td
+(Question page matched or created) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 471.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 458.8899999999999864 Td
+(Q/A blocks + callouts written) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 445.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 432.8899999999999864 Td
+(Score row created) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 419.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 406.8899999999999864 Td
+(MCQ cache pre-generated) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 373.8899999999999864 Td
+(17.3 Practice Room) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 341.8899999999999864 Td
+(Load progress graph) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 328.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 315.8899999999999864 Td
+(Fetch question types + context questions) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 302.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 289.8899999999999864 Td
+(Build unit / LO / arc model) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 276.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 263.8899999999999864 Td
+(Student attempts one daily question) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 250.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 237.8899999999999864 Td
+(Persist attempt state) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 224.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 211.8899999999999864 Td
+(Rerender shapes) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 178.8899999999999864 Td
+(17.4 End class) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 146.8899999999999864 Td
+(Tutor selects taught topics) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 133.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 120.8899999999999864 Td
+(Mark taught rows "Approved for Exit") Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 107.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 94.8899999999999864 Td
+(Move untaught rows to next session) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 81.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 68.8899999999999864 Td
+(Potentially push later rows forward) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+48. 20. Td
+(Scholar logic reference) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+519.2799999999999727 20. Td
+(17 / 21) Tj
+ET
+endstream
+endobj
+37 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 38 0 R
+>>
+endobj
+38 0 obj
+<<
+/Length 4907
+>>
+stream
+0.200025 w
+0.82 0.84 0.87 RG
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 789.8899999999999864 Td
+(    !“) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 776.8899999999999864 Td
+(Student exit ticket unlocks) Tj
+ET
+0.82 0.84 0.87 RG
+48. 749.8899999999999864 m
+547.2799999999999727 749.8899999999999864 l
+S
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.149 0.212 0.329 rg
+48. 715.8899999999999864 Td
+(18. Example Code Snippets That Matter) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 675.8899999999999864 Td
+(18.1 Auth gate) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 647.8899999999999864 Td
+(From) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 631.8899999999999864 Td
+([pages/api/auth/[...nextauth].js]\(/home/koustubh/Downloads/website/scholar/pages/api/auth/[...nextauth].js\):) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 601.8899999999999864 Td
+(if \(\(user.email || ""\).toLowerCase\(\) === "kbohuastt@gmail.com"\) return true) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 588.8899999999999864 Td
+(const student = await getStudentByEmail\(user.email\)) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 575.8899999999999864 Td
+(return !!student) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 548.8899999999999864 Td
+(This is simple and effective, but strongly tied to email matching.) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 516.8899999999999864 Td
+(18.2 FIFO anchoring) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 488.8899999999999864 Td
+(From [lib/logic.js]\(/home/koustubh/Downloads/website/scholar/lib/logic.js\):) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 458.8899999999999864 Td
+(const sessionDate = todayQuestions[0]?.dateIntroduced || null) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 445.8899999999999864 Td
+(const targetDate = sessionDate) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 432.8899999999999864 Td
+(  ? getNextClassDateFrom\(sessionDate, enrollmentDays || []\)) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 419.8899999999999864 Td
+(  : \(nextClassDate || getNextClassDateFrom\(getTodayIST\(\), []\)\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 392.8899999999999864 Td
+(This is an important correctness invariant.) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 360.8899999999999864 Td
+(18.3 Import writes LO to both page and score row) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 332.8899999999999864 Td
+(From [pages/api/admin/import.js]\(/home/koustubh/Downloads/website/scholar/pages/api/admin/import.js\):) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 302.8899999999999864 Td
+(const loCode = Array.isArray\(qt.standard_codes\) ? qt.standard_codes.join\(", "\) :) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 289.8899999999999864 Td
+(\(qt.standard_code || ""\)) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 276.8899999999999864 Td
+(const blocks = buildQuestionBlocks\(qt, loCode, loName\)) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 263.8899999999999864 Td
+(...) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 250.8899999999999864 Td
+(const scoreRow = await createScoreRow\(studentId, subjectId, {) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 237.8899999999999864 Td
+(  id: questionPageId,) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 224.8899999999999864 Td
+(  title: pageTitle,) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 211.8899999999999864 Td
+(  standardCode: loCode,) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 198.8899999999999864 Td
+(  unit: qt.unit || "",) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 185.8899999999999864 Td
+(}, dateIntroduced, hwSource\)) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 158.8899999999999864 Td
+(This matters because later backfills do not keep both in sync.) Tj
+ET
+0.82 0.84 0.87 RG
+48. 132.8899999999999864 m
+547.2799999999999727 132.8899999999999864 l
+S
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.149 0.212 0.329 rg
+48. 98.8899999999999864 Td
+(19. Metrics to Track for Concurrency and Latency) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 64.8899999999999864 Td
+(If multiple concurrent users should use this without insane latency, these metrics are essential.) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+48. 20. Td
+(Scholar logic reference) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+519.2799999999999727 20. Td
+(18 / 21) Tj
+ET
+endstream
+endobj
+39 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 40 0 R
+>>
+endobj
+40 0 obj
+<<
+/Length 4519
+>>
+stream
+0.200025 w
+0.82 0.84 0.87 RG
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 789.8899999999999864 Td
+(Core API latency) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 761.8899999999999864 Td
+(Track per route:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 745.8899999999999864 Td
+(• p50) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 729.8899999999999864 Td
+(• p95) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 713.8899999999999864 Td
+(• p99) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 697.8899999999999864 Td
+(• timeout rate) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 671.8899999999999864 Td
+(Highest-priority routes:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 655.8899999999999864 Td
+(• `/api/student/dashboard`) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 639.8899999999999864 Td
+(• `/api/student/assessment`) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 623.8899999999999864 Td
+(• `/api/student/homework`) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 607.8899999999999864 Td
+(• `/api/student/progress-graph`) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 591.8899999999999864 Td
+(• `/api/admin/import`) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 575.8899999999999864 Td
+(• `/api/admin/review-queue`) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 559.8899999999999864 Td
+(• `/api/admin/end-class`) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 527.8899999999999864 Td
+(External dependency metrics) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 499.8899999999999864 Td
+(Track separately:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 483.8899999999999864 Td
+(• Notion API latency) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 467.8899999999999864 Td
+(• Anthropic API latency) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 451.8899999999999864 Td
+(• Google Calendar API latency) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 435.8899999999999864 Td
+(• auth/session latency) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 403.8899999999999864 Td
+(Cache health) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 375.8899999999999864 Td
+(Track:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 359.8899999999999864 Td
+(• MCQ cache hit rate) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 343.8899999999999864 Td
+(• runtime Claude generation rate) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 327.8899999999999864 Td
+(• cache backfill success rate) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 311.8899999999999864 Td
+(• image-only skipped count) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 279.8899999999999864 Td
+(Workload shape) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 251.8899999999999864 Td
+(Track:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 235.8899999999999864 Td
+(• question types scanned per request) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 219.8899999999999864 Td
+(• question pages fetched per request) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 203.8899999999999864 Td
+(• Claude calls per request) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 187.8899999999999864 Td
+(• Notion writes per request) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 171.8899999999999864 Td
+(• imported question types per document) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 139.8899999999999864 Td
+(Correctness / drift metrics) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 111.8899999999999864 Td
+(Track:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 95.8899999999999864 Td
+(• score rows with blank `standard_code`) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 79.8899999999999864 Td
+(• question pages with missing `qhash`) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+48. 20. Td
+(Scholar logic reference) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+519.2799999999999727 20. Td
+(19 / 21) Tj
+ET
+endstream
+endobj
+41 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 42 0 R
+>>
+endobj
+42 0 obj
+<<
+/Length 4625
+>>
+stream
+0.200025 w
+0.82 0.84 0.87 RG
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 789.8899999999999864 Td
+(• pages with no callout sections) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 773.8899999999999864 Td
+(• rows whose `standard_code` does not appear in any page callout for the linked question type) Tj
+ET
+BT
+/F2 13 Tf
+14.9499999999999993 TL
+0.227 0.294 0.42 rg
+48. 741.8899999999999864 Td
+(User experience metrics) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 713.8899999999999864 Td
+(Track:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 697.8899999999999864 Td
+(• assessment no-data rate) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 681.8899999999999864 Td
+(• homework no-data rate) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 665.8899999999999864 Td
+(• progress graph no-data rate) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 649.8899999999999864 Td
+(• calendar unmatched-subject rate) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 633.8899999999999864 Td
+(• auth/session refresh failure rate) Tj
+ET
+0.82 0.84 0.87 RG
+48. 607.8899999999999864 m
+547.2799999999999727 607.8899999999999864 l
+S
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.149 0.212 0.329 rg
+48. 573.8899999999999864 Td
+(20. Operational Recommendations Before Full Migration) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 539.8899999999999864 Td
+(Even before moving to a new DB, the following would reduce risk.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 513.8899999999999864 Td
+(1. Instrument route latency and external call counts.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 497.8899999999999864 Td
+(2. Add structured logs around:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 481.8899999999999864 Td
+(   - page fetch counts) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 465.8899999999999864 Td
+(   - cache hits/misses) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 449.8899999999999864 Td
+(   - Claude fallback counts) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 433.8899999999999864 Td
+(3. Add confidence or diagnostics to fuzzy matchers.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 417.8899999999999864 Td
+(4. Move more generation work off the student request path.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+52. 401.8899999999999864 Td
+(5. Reduce reliance on schema assumptions that are not actually true in Notion.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 375.8899999999999864 Td
+(Most importantly:) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 345.8899999999999864 Td
+(Do not let fuzzy interpretation become silent permanent state) Tj
+ET
+BT
+/F5 9.5 Tf
+10.9249999999999989 TL
+0.275 0.176 0.137 rg
+58. 332.8899999999999864 Td
+(without logging, confidence, or auditability.) Tj
+ET
+0.82 0.84 0.87 RG
+48. 305.8899999999999864 m
+547.2799999999999727 305.8899999999999864 l
+S
+BT
+/F2 16 Tf
+18.3999999999999986 TL
+0.149 0.212 0.329 rg
+48. 271.8899999999999864 Td
+(21. Final Judgment) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 237.8899999999999864 Td
+(The app is ambitious and genuinely complex.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 211.8899999999999864 Td
+(Its complexity comes from:) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 195.8899999999999864 Td
+(• real product breadth) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 179.8899999999999864 Td
+(• layered workflows) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 163.8899999999999864 Td
+(• mixed sources of truth) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 147.8899999999999864 Td
+(• semantic AI in operational paths) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 131.8899999999999864 Td
+(• a data substrate doing more than it should) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 105.8899999999999864 Td
+(This is not a toy project and not a basic dashboard.) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+48. 79.8899999999999864 Td
+(It is also exactly the kind of app that needs:) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+48. 20. Td
+(Scholar logic reference) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+519.2799999999999727 20. Td
+(20 / 21) Tj
+ET
+endstream
+endobj
+43 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 44 0 R
+>>
+endobj
+44 0 obj
+<<
+/Length 734
+>>
+stream
+0.200025 w
+0.82 0.84 0.87 RG
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 789.8899999999999864 Td
+(• sharper system documentation) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 773.8899999999999864 Td
+(• explicit metrics) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 757.8899999999999864 Td
+(• clearer ownership of state) Tj
+ET
+BT
+/F9 11 Tf
+12.6499999999999986 TL
+0.078 0.094 0.129 rg
+56. 741.8899999999999864 Td
+(• eventual migration to a more structured runtime store) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+48. 20. Td
+(Scholar logic reference) Tj
+ET
+BT
+/F1 9 Tf
+10.3499999999999996 TL
+0.471 0.502 0.557 rg
+519.2799999999999727 20. Td
+(21 / 21) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R 43 0 R ]
+/Count 21
+>>
+endobj
+45 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+46 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+47 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+48 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+49 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+50 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+51 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+52 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+53 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+54 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+55 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+56 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+57 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+58 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 45 0 R
+/F2 46 0 R
+/F3 47 0 R
+/F4 48 0 R
+/F5 49 0 R
+/F6 50 0 R
+/F7 51 0 R
+/F8 52 0 R
+/F9 53 0 R
+/F10 54 0 R
+/F11 55 0 R
+/F12 56 0 R
+/F13 57 0 R
+/F14 58 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+59 0 obj
+<<
+/Producer (jsPDF 4.2.0)
+/CreationDate (D:20260315023449+05'30')
+>>
+endobj
+60 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 61
+0000000000 65535 f 
+0000102176 00000 n 
+0000104136 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000005221 00000 n 
+0000005358 00000 n 
+0000010890 00000 n 
+0000011027 00000 n 
+0000015757 00000 n 
+0000015895 00000 n 
+0000021166 00000 n 
+0000021305 00000 n 
+0000026508 00000 n 
+0000026647 00000 n 
+0000032139 00000 n 
+0000032278 00000 n 
+0000037175 00000 n 
+0000037314 00000 n 
+0000042647 00000 n 
+0000042786 00000 n 
+0000048076 00000 n 
+0000048215 00000 n 
+0000053374 00000 n 
+0000053513 00000 n 
+0000058588 00000 n 
+0000058727 00000 n 
+0000063397 00000 n 
+0000063536 00000 n 
+0000067761 00000 n 
+0000067900 00000 n 
+0000072607 00000 n 
+0000072746 00000 n 
+0000076959 00000 n 
+0000077098 00000 n 
+0000081021 00000 n 
+0000081160 00000 n 
+0000086624 00000 n 
+0000086763 00000 n 
+0000091723 00000 n 
+0000091862 00000 n 
+0000096434 00000 n 
+0000096573 00000 n 
+0000101251 00000 n 
+0000101390 00000 n 
+0000102371 00000 n 
+0000102497 00000 n 
+0000102628 00000 n 
+0000102762 00000 n 
+0000102900 00000 n 
+0000103024 00000 n 
+0000103153 00000 n 
+0000103285 00000 n 
+0000103421 00000 n 
+0000103549 00000 n 
+0000103676 00000 n 
+0000103805 00000 n 
+0000103938 00000 n 
+0000104040 00000 n 
+0000104389 00000 n 
+0000104475 00000 n 
+trailer
+<<
+/Size 61
+/Root 60 0 R
+/Info 59 0 R
+/ID [ <0D0635DABA11878D3F9FCAB1A3787DD9> <0D0635DABA11878D3F9FCAB1A3787DD9> ]
+>>
+startxref
+104579
+%%EOF

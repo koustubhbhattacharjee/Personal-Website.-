@@ -1,0 +1,1723 @@
+{
+  "title": "South Carolina Pre-Calculus LO Mapping",
+  "source_file": "/home/koustubh/Downloads/sc_lo_mapping.md",
+  "subject": "PreCalculus",
+  "state": "south_carolina",
+  "method": "Mathematical content alignment — each section's actual taught operations, structures,",
+  "units": [
+    {
+      "id": "unit_1_radicals_rationals_appendix_a",
+      "label": "UNIT 1 — RADICALS & RATIONALS (Appendix A)",
+      "sections": [
+        {
+          "section": "A.2",
+          "title": "Exponents & Radicals",
+          "textbook_content": "Properties of integer/rational exponents · nth roots · simplifying radicals ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Rewriting Rational Expressions",
+              "code": "PC.AAPR.6",
+              "justification": "Rational exponent expressions are a subclass of rational expressions; simplifying aᵐ/ⁿ = (ⁿ√a)ᵐ is precisely the rewriting operation this LO targets"
+            }
+          ],
+          "supporting_alignments": [
+            {
+              "kind": "supporting",
+              "lo_name": "(Interpreting Algebraic Structure)",
+              "code": "PC.ASE.1",
+              "justification": "Students must interpret the structure of exponential and radical expressions to determine equivalence"
+            },
+            {
+              "kind": "supporting",
+              "lo_name": "(Seeing Structure in Polynomial Expressions)",
+              "code": "PC.ASE.2",
+              "justification": "Factoring out common radical/exponential factors requires recognizing structural patterns"
+            }
+          ]
+        },
+        {
+          "section": "A.4",
+          "title": "Rational Expressions",
+          "textbook_content": "Domain of algebraic expressions · simplifying rational expressions (cancel common",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Rational Expressions",
+              "code": "PC.AAPR.7",
+              "justification": "Direct match: the LO is the closed system of rational expressions under arithmetic operations — exactly what A.4 teaches (add, subtract, multiply, divide, simplify)"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Rewriting Rational Expressions",
+              "code": "PC.AAPR.6",
+              "justification": "Simplifying rational expressions by factoring and canceling common polynomial factors is the rewriting operation PC.AAPR.6 defines"
+            }
+          ],
+          "supporting_alignments": [
+            {
+              "kind": "supporting",
+              "lo_name": "(Interpreting Algebraic Structure)",
+              "code": "PC.ASE.1",
+              "justification": "Finding domain requires interpreting the structure of the denominator expression"
+            }
+          ]
+        },
+        {
+          "section": "A.5",
+          "title": "Solving Equations",
+          "textbook_content": "Linear equations · rational equations · quadratic equations (factoring, extracting",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Linear-Quadratic Systems",
+              "code": "PC.AREI.7",
+              "justification": "The quadratic-solving techniques here (all four methods) are the same algebraic tools used when solving the quadratic component of linear-quadratic systems"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Graphical Solutions to f(x) = g(x)",
+              "code": "PC.AREI.11",
+              "justification": "Solving equations of the form f(x) = g(x) algebraically is the algebraic complement to the graphical approach PC.AREI.11 formalizes"
+            }
+          ],
+          "supporting_alignments": [
+            {
+              "kind": "supporting",
+              "lo_name": "(Logarithms as Exponential Solutions)",
+              "code": "PC.FLQE.4",
+              "justification": "The equation-solving framework (isolate, apply inverse operation) taught here is the same structure used in PC.FLQE.4 when solving aˣ = b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_2_graphing_functions_key_features_chapter_1",
+      "label": "UNIT 2 — GRAPHING FUNCTIONS & KEY FEATURES (Chapter 1)",
+      "sections": [
+        {
+          "section": "1.4",
+          "title": "Functions",
+          "textbook_content": "Definition of function · function notation f(x) · domain and range · implied domain",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Domain and Range",
+              "code": "PC.FIF.5",
+              "justification": "The section's explicit objectives include \"find the domains of functions\" — direct domain/range determination from algebraic expressions"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Key Features of Functions",
+              "code": "PC.FIF.4",
+              "justification": "Function notation, identifying inputs/outputs, and evaluating f(x) are foundational key-feature skills"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Combining Functions",
+              "code": "PC.FBF.1",
+              "justification": "The difference quotient [f(x+h)−f(x)]/h is a function-building operation; evaluating it requires constructing and simplifying a new function expression"
+            }
+          ],
+          "supporting_alignments": [
+            {
+              "kind": "supporting",
+              "lo_name": "(Average Rate of Change)",
+              "code": "PC.FIF.6",
+              "justification": "The difference quotient is mathematically equivalent to the average rate of change formula; the algebraic setup is established here"
+            }
+          ]
+        },
+        {
+          "section": "1.5",
+          "title": "Analyzing Graphs of Functions",
+          "textbook_content": "Vertical Line Test · zeros of functions algebraically · increasing/decreasing intervals",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Key Features of Functions",
+              "code": "PC.FIF.4",
+              "justification": "Identifying zeros, intervals of increase/decrease, relative extrema, and symmetry (even/odd) are all explicitly named key features"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Average Rate of Change",
+              "code": "PC.FIF.6",
+              "justification": "The section directly defines and computes average rate of change as [f(x₂)−f(x₁)]/(x₂−x₁), the slope of the secant line"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Graphing from Symbolic Representations",
+              "code": "PC.FIF.7",
+              "justification": "Using zeros, monotonicity intervals, and extrema derived from the formula to inform the graph is the core skill of PC.FIF.7"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Domain and Range",
+              "code": "PC.FIF.5",
+              "justification": "Reading domain and range from graphs is a stated objective"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "1.6",
+          "title": "A Library of Parent Functions",
+          "textbook_content": "Linear, squaring, cubic, square root, reciprocal, absolute value, greatest integer,",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Graphing from Symbolic Representations",
+              "code": "PC.FIF.7",
+              "justification": "Graphing each parent function from its formula — identifying domain, range, intercepts, and shape — is exactly what PC.FIF.7 requires"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Key Features of Functions",
+              "code": "PC.FIF.4",
+              "justification": "Domain, range, continuity, inc/dec behavior, and end behavior are the key features catalogued for each parent function"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Domain and Range",
+              "code": "PC.FIF.5",
+              "justification": "Explicit domain and range identification for every parent function type"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "1.7",
+          "title": "Transformations of Functions",
+          "textbook_content": "Vertical/horizontal shifts (h, k in f(x−h)+k) · reflections over x- and y-axis ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Transformations of Functions",
+              "code": "PC.FBF.3",
+              "justification": "This is the defining content of PC.FBF.3: the section teaches every transformation type (shift, reflect, stretch/shrink) as operations on a parent function f(x)"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Graphing from Symbolic Representations",
+              "code": "PC.FIF.7",
+              "justification": "Reading a transformed equation and producing the correct graph is the output skill"
+            }
+          ],
+          "supporting_alignments": [
+            {
+              "kind": "supporting",
+              "lo_name": "(Key Features of Functions)",
+              "code": "PC.FIF.4",
+              "justification": "Transformations systematically alter key features (domain, range, intercepts, extrema); tracking those changes is part of the analysis"
+            }
+          ]
+        },
+        {
+          "section": "1.8",
+          "title": "Combinations & Composite Functions",
+          "textbook_content": "(f+g)(x), (f−g)(x), (fg)(x), (f/g)(x) · domain of arithmetic combinations ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Combining Functions",
+              "code": "PC.FBF.1",
+              "justification": "The section is the direct instructional content for PC.FBF.1: building new functions through arithmetic operations and composition"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Domain and Range",
+              "code": "PC.FIF.5",
+              "justification": "Finding the domain of f/g (exclude zeros of g) and f∘g (g(x) must be in domain of f) is a major focus"
+            }
+          ],
+          "supporting_alignments": [
+            {
+              "kind": "supporting",
+              "lo_name": "(Interpreting Algebraic Structure)",
+              "code": "PC.ASE.1",
+              "justification": "Decomposing h(x) into f∘g requires interpreting the nested algebraic structure"
+            }
+          ]
+        },
+        {
+          "section": "1.9",
+          "title": "Inverse Functions",
+          "textbook_content": "Informal inverses · Horizontal Line Test (one-to-one functions) · algebraic procedure",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Inverse Functions",
+              "code": "PC.FBF.4",
+              "justification": "Direct content match: the section teaches exactly what PC.FBF.4 requires — finding, verifying, interpreting, and graphing inverse functions"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Exponential and Logarithmic Inverses",
+              "code": "PC.FBF.5",
+              "justification": "The algebraic and graphical inverse framework established here is the same framework applied to aˣ ↔ log_a(x) in PC.FBF.5"
+            }
+          ],
+          "supporting_alignments": [
+            {
+              "kind": "supporting",
+              "lo_name": "(Domain and Range)",
+              "code": "PC.FIF.5",
+              "justification": "The domain of f equals the range of f⁻¹ and vice versa — a key consequence analyzed here"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_3_exponential_log_functions_chapters_2_3",
+      "label": "UNIT 3 — EXPONENTIAL & LOG FUNCTIONS (Chapters 2–3)",
+      "sections": [
+        {
+          "section": "2.3",
+          "title": "Polynomial & Synthetic Division",
+          "textbook_content": "Long division of polynomials · synthetic division (divisor x−k only) · Remainder",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Division and Remainder Theorems",
+              "code": "PC.AAPR.2",
+              "justification": "The section's three stated objectives map precisely to PC.AAPR.2: long division, synthetic division, Remainder Theorem, and Factor Theorem"
+            }
+          ],
+          "supporting_alignments": [
+            {
+              "kind": "supporting",
+              "lo_name": "(Graphing Polynomial Functions)",
+              "code": "PC.AAPR.3",
+              "justification": "The Factor Theorem establishes the connection between zeros (roots) and factors — the foundation for finding x-intercepts when graphing"
+            },
+            {
+              "kind": "supporting",
+              "lo_name": "(Polynomial Identities)",
+              "code": "PC.AAPR.4",
+              "justification": "Verifying that f(x) = (x−k)q(x) + r is a polynomial identity is an application of PC.AAPR.4"
+            }
+          ]
+        },
+        {
+          "section": "2.6",
+          "title": "Rational Functions",
+          "textbook_content": "Domain of rational functions · vertical asymptotes (zeros of denominator) ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Rational Expressions",
+              "code": "PC.AAPR.7",
+              "justification": "The section uses rational expression operations (factoring, cancellation) to analyze holes and asymptotes — the graphical behavior of rational expression quotients"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Rewriting Rational Expressions",
+              "code": "PC.AAPR.6",
+              "justification": "Factoring numerator and denominator to simplify f(x) = (x²−9)/((x−3)(x+1)) is precisely the rewriting operation in PC.AAPR.6"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Key Features of Functions",
+              "code": "PC.FIF.4",
+              "justification": "Vertical asymptotes, horizontal asymptotes, holes, intercepts, and end behavior are all key features of rational functions"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Graphing from Symbolic Representations",
+              "code": "PC.FIF.7",
+              "justification": "Producing the graph from the rational formula by analyzing all features is the culminating skill"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "2.7",
+          "title": "Nonlinear Inequalities",
+          "textbook_content": "Polynomial inequalities (sign analysis with test intervals, key numbers) · rational",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Graphical Solutions to f(x) = g(x)",
+              "code": "PC.AREI.11",
+              "justification": "Sign analysis for f(x) > 0 or f(x) < g(x) uses the same graphical/algebraic intersection framework as PC.AREI.11"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Domain and Range",
+              "code": "PC.FIF.5",
+              "justification": "Finding the domain of √(64−4x²) requires solving a polynomial inequality — the direct application taught at section's end"
+            }
+          ],
+          "supporting_alignments": [
+            {
+              "kind": "supporting",
+              "lo_name": "(Rational Expressions)",
+              "code": "PC.AAPR.7",
+              "justification": "Rational inequalities require the same sign-analysis technique applied to rational expressions"
+            }
+          ]
+        },
+        {
+          "section": "3.1",
+          "title": "Exponential Functions & Their Graphs",
+          "textbook_content": "f(x) = aˣ with properties · natural base e · compound interest A=P(1+r/n)^(nt) ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Linear vs Exponential Models",
+              "code": "PC.FLQE.1",
+              "justification": "The section explicitly distinguishes exponential growth from linear growth and establishes the mathematical structure (constant ratio vs. constant difference)"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Creating Linear and Exponential Functions",
+              "code": "PC.FLQE.2",
+              "justification": "Constructing A = Pert and A = P(1+r/n)^(nt) from contextual parameters is the function-building task PC.FLQE.2 requires"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Comparing Growth Rates",
+              "code": "PC.FLQE.3",
+              "justification": "Comparing quarterly vs. monthly vs. continuous compounding is a direct comparison of exponential growth rates"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Interpreting Parameters",
+              "code": "PC.FLQE.5",
+              "justification": "P = principal, r = rate, t = time in A=Pert — each parameter has a specific mathematical role students must interpret"
+            }
+          ],
+          "supporting_alignments": [
+            {
+              "kind": "supporting",
+              "lo_name": "(Graphing from Symbolic Representations)",
+              "code": "PC.FIF.7",
+              "justification": "Graphing f(x)=aˣ and its transformations from the formula"
+            }
+          ]
+        },
+        {
+          "section": "3.2",
+          "title": "Logarithmic Functions & Their Graphs",
+          "textbook_content": "log_a(x) as inverse of aˣ · common log (base 10) · natural log ln x (base e) ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Exponential and Logarithmic Inverses",
+              "code": "PC.FBF.5",
+              "justification": "The section's core mathematical content is precisely PC.FBF.5: log_a(x) is defined as the inverse of aˣ, with graphical verification (reflection over y=x)"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Logarithms as Exponential Solutions",
+              "code": "PC.FLQE.4",
+              "justification": "log_a(x) = y ↔ aʸ = x is the defining equivalence that makes logarithms the solution mechanism for exponential equations"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Domain and Range",
+              "code": "PC.FIF.5",
+              "justification": "Finding domain of ln(x−2), ln(2−x), ln(x²) requires the inequality-based domain analysis taught here"
+            }
+          ],
+          "supporting_alignments": [
+            {
+              "kind": "supporting",
+              "lo_name": "(Interpreting Parameters)",
+              "code": "PC.FLQE.5",
+              "justification": "In f(t)=75−6ln(t+1), the coefficient −6 and argument (t+1) have specific mathematical roles students interpret"
+            }
+          ]
+        },
+        {
+          "section": "3.3",
+          "title": "Properties of Logarithms",
+          "textbook_content": "Change-of-base formula log_a(x) = log(x)/log(a) · Product Property log_a(mn) =",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Logarithms as Exponential Solutions",
+              "code": "PC.FLQE.4",
+              "justification": "The properties of logarithms are the algebraic tools that make it possible to isolate the exponent in aˣ = b — the manipulations PC.FLQE.4 requires"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Interpreting Parameters",
+              "code": "PC.FLQE.5",
+              "justification": "Using ln y = (3/2)ln x to derive y = x^(3/2) — interpreting logarithmic parameters to recover functional structure (planetary model)"
+            }
+          ],
+          "supporting_alignments": [
+            {
+              "kind": "supporting",
+              "lo_name": "(Rewriting Rational Expressions)",
+              "code": "PC.AAPR.6",
+              "justification": "Expanding/condensing log expressions parallels simplifying rational expressions — both involve rewriting equivalent forms"
+            }
+          ]
+        },
+        {
+          "section": "3.4",
+          "title": "Exponential & Logarithmic Equations",
+          "textbook_content": "One-to-one property (aˣ=aʸ iff x=y) · solving by exponentiating both sides ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Logarithms as Exponential Solutions",
+              "code": "PC.FLQE.4",
+              "justification": "The entire section is the computational execution of PC.FLQE.4: using logarithms to solve equations of the form aˣ = b, both with and without context"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Interpreting Parameters",
+              "code": "PC.FLQE.5",
+              "justification": "Solving −614+342.2 ln t = 240 to find when sales reach $240B requires interpreting what each parameter represents"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Graphical Solutions to f(x) = g(x)",
+              "code": "PC.AREI.11",
+              "justification": "The graphical verification (finding zeros of y = log 5x + log(x−1) − 2) is an instance of PC.AREI.11"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "3.5",
+          "title": "Exponential & Logarithmic Models",
+          "textbook_content": "Five model types — exponential growth (y=ae^(bx), b>0) · exponential decay",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Creating Linear and Exponential Functions",
+              "code": "PC.FLQE.2",
+              "justification": "Building exponential and logarithmic models from real data (finding a and b) is the function-creation task in PC.FLQE.2"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Interpreting Parameters",
+              "code": "PC.FLQE.5",
+              "justification": "Each parameter in y=0.0033e^(−(x−511)²/28800) has a specific meaning (mean, spread) — the interpretation task of PC.FLQE.5"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Linear vs Exponential Models",
+              "code": "PC.FLQE.1",
+              "justification": "Selecting among growth, decay, logistic, and Gaussian models requires understanding when each structure is appropriate"
+            }
+          ],
+          "supporting_alignments": []
+        }
+      ]
+    },
+    {
+      "id": "unit_4_unit_circle_trig_functions_chapter_4",
+      "label": "UNIT 4 — UNIT CIRCLE & TRIG FUNCTIONS (Chapter 4)",
+      "sections": [
+        {
+          "section": "4.1",
+          "title": "Radian & Degree Measure (+ Unit Circle intro)",
+          "textbook_content": "Radian measure definition · converting radians ↔ degrees · coterminal angles ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Radian Measure",
+              "code": "PC.FT.1",
+              "justification": "The section is the definitional foundation for PC.FT.1: radian as ratio s/r, conversions, coterminal angles, and arc-length/sector-area applications"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Arc Length and Sector Area",
+              "code": "PC.GCI.5",
+              "justification": "s=rθ and A=(1/2)r²θ are explicitly the formulas PC.GCI.5 requires students to apply in context"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "4.2",
+          "title": "Trig Functions: The Unit Circle",
+          "textbook_content": "Unit circle definition of sin t and cos t as (x,y) coordinates · all six trig functions",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Defining Trigonometric Functions",
+              "code": "PC.FT.2",
+              "justification": "The section is the primary definitional source for PC.FT.2: sin and cos defined as coordinates on the unit circle for any real number t"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Special Angles and the Unit Circle",
+              "code": "PC.FT.3",
+              "justification": "Evaluating all six trig functions at multiples of π/6, π/4, π/3 is the exact computational task of PC.FT.3"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Symmetry and Periodicity",
+              "code": "PC.FT.4",
+              "justification": "Period=2π, the even property of cos, and the odd property of sin are the symmetry/periodicity properties PC.FT.4 formalizes"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "4.4",
+          "title": "Trig Functions of Any Angle",
+          "textbook_content": "Extension of trig definitions beyond the unit circle using (x,y,r) · reference angles ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Defining Trigonometric Functions",
+              "code": "PC.FT.2",
+              "justification": "Extends the PC.FT.2 definition from the unit circle (r=1) to any angle with r=√(x²+y²) — a generalization of the same definition"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Special Angles and the Unit Circle",
+              "code": "PC.FT.3",
+              "justification": "Reference angle technique connects back to unit circle values at special angles"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Core Trigonometric Identities",
+              "code": "PC.FT.8",
+              "justification": "Using sin²θ+cos²θ=1 to find remaining trig functions from one given value — applying the Pythagorean identity algebraically"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "4.5",
+          "title": "Graphs of Sine & Cosine Functions",
+          "textbook_content": "Basic sine/cosine curves (5 key points per period) · amplitude |a| · period 2π/|b| ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Modeling Periodic Phenomena",
+              "code": "PC.FT.5",
+              "justification": "Writing y=a sin(bx−c)+d to model tidal data — fitting amplitude, period, phase shift, and vertical shift to real data — is the core task of PC.FT.5"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Symmetry and Periodicity",
+              "code": "PC.FT.4",
+              "justification": "The period formula 2π/b is a quantification of the periodicity property; amplitude and symmetry of the waveform are analyzed here"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Graphing from Symbolic Representations",
+              "code": "PC.FIF.7",
+              "justification": "Producing the graph of a transformed sine/cosine from the equation using key-point analysis"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "4.6",
+          "title": "Graphs of Other Trig Functions",
+          "textbook_content": "Graph of tan x (period π, vertical asymptotes at π/2+nπ) · graph of cot x ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Graphing from Symbolic Representations",
+              "code": "PC.FIF.7",
+              "justification": "Graphing tan, cot, sec, csc from their symbolic definitions — including asymptotes, period, range — is the PC.FIF.7 skill applied to these functions"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Symmetry and Periodicity",
+              "code": "PC.FT.4",
+              "justification": "Period π for tangent and cotangent, period 2π for secant and cosecant — periodicity analysis for the remaining four functions"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Modeling Periodic Phenomena",
+              "code": "PC.FT.5",
+              "justification": "Damped oscillation models g(x)·sin(x) extend periodic modeling to amplitude-varying phenomena"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "4.7",
+          "title": "Inverse Trig Functions",
+          "textbook_content": "Restricted domains for arcsin (−π/2,π/2), arccos (0,π), arctan (−π/2,π/2) ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Inverse Trigonometric Functions",
+              "code": "PC.FT.6",
+              "justification": "The section defines the three principal inverse trig functions with their restricted domains and ranges — the exact content of PC.FT.6"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Solving with Inverse Trigonometric Functions",
+              "code": "PC.FT.7",
+              "justification": "Using arcsin, arccos, arctan as computational tools to evaluate compositions (cos[arcsin(3/5)]) builds toward using them in equation-solving"
+            }
+          ],
+          "supporting_alignments": [
+            {
+              "kind": "supporting",
+              "lo_name": "(Exponential and Logarithmic Inverses)",
+              "code": "PC.FBF.5",
+              "justification": "The domain-restriction strategy for creating invertible trig functions parallels the log/exp inverse relationship in PC.FBF.5"
+            }
+          ]
+        },
+        {
+          "section": "4.8",
+          "title": "Applications & Modeling",
+          "textbook_content": "Right-triangle applications (angle of elevation/depression, distance problems) ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Modeling Periodic Phenomena",
+              "code": "PC.FT.5",
+              "justification": "Simple harmonic motion d=a sin(ωt) is a periodic model with physical parameters (amplitude, period, frequency) — the applied modeling task of PC.FT.5"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Solving with Inverse Trigonometric Functions",
+              "code": "PC.FT.7",
+              "justification": "Solving for the angle of elevation (θ = arctan(height/distance)) uses inverse trig as the solution mechanism"
+            }
+          ],
+          "supporting_alignments": [
+            {
+              "kind": "supporting",
+              "lo_name": "(Arc Length and Sector Area)",
+              "code": "PC.GCI.5",
+              "justification": "Right-triangle and bearing problems use the same geometric angle relationships as arc-length contexts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unit_5_analytic_trigonometry_chapter_5",
+      "label": "UNIT 5 — ANALYTIC TRIGONOMETRY (Chapter 5)",
+      "sections": [
+        {
+          "section": "5.1",
+          "title": "Using Fundamental Identities",
+          "textbook_content": "Reciprocal identities (csc=1/sin, etc.) · quotient identities (tan=sin/cos) ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Core Trigonometric Identities",
+              "code": "PC.FT.8",
+              "justification": "The section is the primary instruction for PC.FT.8: establishing all fundamental identity families and training students to apply them algebraically to simplify and rewrite expressions"
+            }
+          ],
+          "supporting_alignments": [
+            {
+              "kind": "supporting",
+              "lo_name": "(Solving with Inverse Trigonometric Functions)",
+              "code": "PC.FT.7",
+              "justification": "Using identities to reduce trig equations to solvable forms is a prerequisite for PC.FT.7"
+            }
+          ]
+        },
+        {
+          "section": "5.2",
+          "title": "Verifying Trig Identities",
+          "textbook_content": "Strategy: work with one side only · algebraic techniques: factoring, combining",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Core Trigonometric Identities",
+              "code": "PC.FT.8",
+              "justification": "Verification is the proof-level engagement with PC.FT.8: students must demonstrate that two trig expressions are algebraically equivalent using identity chains"
+            }
+          ],
+          "supporting_alignments": [
+            {
+              "kind": "supporting",
+              "lo_name": "(Polynomial Identities)",
+              "code": "PC.AAPR.4",
+              "justification": "The structure of verifying trig identities parallels verifying polynomial identities — both require algebraic manipulation to show equivalence"
+            }
+          ]
+        },
+        {
+          "section": "5.3",
+          "title": "Solving Trig Equations",
+          "textbook_content": "Collecting like terms (2sin x=1 → sin x=1/2) · factoring (2cos x(cos x+1)=0) ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Solving with Inverse Trigonometric Functions",
+              "code": "PC.FT.7",
+              "justification": "Solving trig equations requires applying inverse trig functions to isolate the angle — PC.FT.7 is the culminating LO this section builds toward"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Core Trigonometric Identities",
+              "code": "PC.FT.8",
+              "justification": "Squaring and converting to quadratic type requires substituting Pythagorean identities (sin²x = 1−cos²x) mid-solution"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Graphical Solutions to f(x) = g(x)",
+              "code": "PC.AREI.11",
+              "justification": "Graphical verification of solutions (intersection of y=sin x and y=1/2) is used to confirm algebraic solutions"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "5.4",
+          "title": "Sum & Difference Formulas",
+          "textbook_content": "sin(u±v)=sin u cos v ± cos u sin v · cos(u±v)=cos u cos v ∓ sin u sin v ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Sum and Difference Formulas",
+              "code": "PC.FT.9",
+              "justification": "The section is the direct instructional content for PC.FT.9: deriving, establishing, and applying all three sum/difference formula pairs"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Core Trigonometric Identities",
+              "code": "PC.FT.8",
+              "justification": "The cofunction identities (cos(π/2−x)=sin x) and reduction formulas derived here are instances of PC.FT.8 identities"
+            }
+          ],
+          "supporting_alignments": [
+            {
+              "kind": "supporting",
+              "lo_name": "(Solving with Inverse Trigonometric Functions)",
+              "code": "PC.FT.7",
+              "justification": "Sum/difference formulas are used to solve equations like sin[x+π/4]+sin[x−π/4]=−1"
+            }
+          ]
+        },
+        {
+          "section": "5.5",
+          "title": "Double & Half Angle Formulas",
+          "textbook_content": "Double-angle: sin(2u)=2sin u cos u; cos(2u)=cos²u−sin²u=1−2sin²u=2cos²u−1;",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Sum and Difference Formulas",
+              "code": "PC.FT.9",
+              "justification": "Double-angle formulas are direct corollaries of the sum formulas (sin(2u)=sin(u+u)) — they are derived from PC.FT.9 content and extended here"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Core Trigonometric Identities",
+              "code": "PC.FT.8",
+              "justification": "Power-reducing and half-angle formulas are further identities in the PC.FT.8 family; the section expands the identity toolkit"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Modeling Periodic Phenomena",
+              "code": "PC.FT.5",
+              "justification": "The projectile model r=(v₀²/32)sin(2θ) is a periodic function of launch angle — an applied modeling instance of PC.FT.5"
+            }
+          ],
+          "supporting_alignments": []
+        }
+      ]
+    },
+    {
+      "id": "unit_6_vectors_chapters_6_7",
+      "label": "UNIT 6 — VECTORS (Chapters 6 & 7)",
+      "sections": [
+        {
+          "section": "6.1",
+          "title": "Law of Sines",
+          "textbook_content": "Oblique triangles (no right angle) · Law of Sines: (sin A)/a=(sin B)/b=(sin C)/c ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Laws of Sines and Cosines",
+              "code": "PC.GSRT.10",
+              "justification": "The Law of Sines is one of the two laws named in PC.GSRT.10; the section provides full derivation and application"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Solving Triangles",
+              "code": "PC.GSRT.11",
+              "justification": "Using Law of Sines to find unknown sides and angles in oblique triangles is the direct application of PC.GSRT.11"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Area Formula for Triangles",
+              "code": "PC.GSRT.9",
+              "justification": "A=(1/2)bc sin A is the non-right-triangle area formula explicitly targeted by PC.GSRT.9"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "6.2",
+          "title": "Law of Cosines",
+          "textbook_content": "Law of Cosines: a²=b²+c²−2bc cos A · solving SSS and SAS cases ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Laws of Sines and Cosines",
+              "code": "PC.GSRT.10",
+              "justification": "The Law of Cosines is the second law in PC.GSRT.10; together with 6.1 this section completes the standard"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Solving Triangles",
+              "code": "PC.GSRT.11",
+              "justification": "SSS and SAS cases — determining all missing measurements of an oblique triangle — is the application PC.GSRT.11 requires"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Area Formula for Triangles",
+              "code": "PC.GSRT.9",
+              "justification": "Heron's Formula is an alternative area formula for triangles given three sides; both PC.GSRT.9 formulas are taught in 6.1 and 6.2"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "6.3",
+          "title": "Vectors in the Plane",
+          "textbook_content": "Vectors as directed line segments · component form ⟨a,b⟩ · magnitude |v|=√(a²+b²) ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Recognizing Vector Quantities",
+              "code": "PC.NVMQ.1",
+              "justification": "Distinguishing vector (magnitude+direction) from scalar quantities is the entry-level conceptual task of PC.NVMQ.1"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Vector Components",
+              "code": "PC.NVMQ.2",
+              "justification": "Writing vectors in component form ⟨a,b⟩ and converting from magnitude-direction form is the direct content of PC.NVMQ.2"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Operations on Vectors",
+              "code": "PC.NVMQ.4",
+              "justification": "Vector addition, subtraction, and scalar multiplication are the operations PC.NVMQ.4 requires"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Scalar Multiplication",
+              "code": "PC.NVMQ.5",
+              "justification": "The section explicitly teaches scalar multiplication cv=c⟨a,b⟩=⟨ca,cb⟩"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Modeling with Vectors",
+              "code": "PC.NVMQ.3",
+              "justification": "Force decomposition and velocity resultant problems are the modeling applications of PC.NVMQ.3"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "6.4",
+          "title": "Vectors & Dot Products",
+          "textbook_content": "Dot product u·v=a₁a₂+b₁b₂ · properties of dot product · angle between vectors:",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Operations on Vectors",
+              "code": "PC.NVMQ.4",
+              "justification": "The dot product is a vector operation; the section extends the operation set from 6.3 to include this inner product"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Modeling with Vectors",
+              "code": "PC.NVMQ.3",
+              "justification": "Work as a dot product W=F·d is a direct physical modeling application of vector quantities"
+            }
+          ],
+          "supporting_alignments": [
+            {
+              "kind": "supporting",
+              "lo_name": "(Recognizing Vector Quantities)",
+              "code": "PC.NVMQ.1",
+              "justification": "Determining orthogonality (u·v=0) requires conceptual understanding of vector relationships"
+            }
+          ]
+        },
+        {
+          "section": "6.5",
+          "title": "The Complex Plane",
+          "textbook_content": "Plotting complex numbers a+bi as points (a,b) · absolute value |z|=√(a²+b²) ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Graphing Complex Numbers",
+              "code": "PC.NCNS.4",
+              "justification": "The section is the direct content for PC.NCNS.4: plotting complex numbers and their conjugates in the complex plane"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Modulus and Distance",
+              "code": "PC.NCNS.6",
+              "justification": ""
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Conjugates, Moduli, and Quotients",
+              "code": "PC.NCNS.3",
+              "justification": "Computing the complex conjugate and modulus are two of the three operations named in PC.NCNS.3"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Geometric Interpretation of Complex Operations",
+              "code": "PC.NCNS.5",
+              "justification": "Addition of complex numbers interpreted as vector addition in the complex plane is the geometric content of PC.NCNS.5"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "6.6",
+          "title": "Trig Form of a Complex Number",
+          "textbook_content": "Modulus r=|z|=√(a²+b²) · argument θ · trigonometric form z=r(cos θ+i sin θ) ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Geometric Interpretation of Complex Operations",
+              "code": "PC.NCNS.5",
+              "justification": "Multiplying complex numbers in trig form (multiply moduli, add angles) has a direct geometric interpretation (rotation+scaling) — the content of PC.NCNS.5"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Operations with Complex Numbers",
+              "code": "PC.NCNS.2",
+              "justification": "Multiplying and dividing complex numbers in trig form extends the arithmetic operations of PC.NCNS.2 to polar form"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Conjugates, Moduli, and Quotients",
+              "code": "PC.NCNS.3",
+              "justification": "Division in trig form (divide moduli, subtract arguments) is the quotient operation of PC.NCNS.3 in polar representation"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Polynomial Identities in the Complex Numbers",
+              "code": "PC.NCNS.8",
+              "justification": "DeMoivre's Theorem zⁿ=rⁿ(cos nθ+i sin nθ) is a polynomial identity extended to complex numbers"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "7.1",
+          "title": "Linear & Nonlinear Systems",
+          "textbook_content": "Solving systems by substitution · solving systems by graphing · solving linear-quadratic",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Linear-Quadratic Systems",
+              "code": "PC.AREI.7",
+              "justification": "The section explicitly covers solving systems where one equation is linear and one is quadratic — the exact content of PC.AREI.7"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Graphical Solutions to f(x) = g(x)",
+              "code": "PC.AREI.11",
+              "justification": "Using graphs to find and verify intersection points of any two functions f and g is the graphical method of PC.AREI.11"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "7.2",
+          "title": "Two-Variable Linear Systems",
+          "textbook_content": "Method of elimination (multiply + add to eliminate one variable) · consistent/dependent/",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Matrix Equation Representation",
+              "code": "PC.AREI.8",
+              "justification": "The 2×2 linear system solved here is precisely the type represented as AX=B in PC.AREI.8; the elimination method is the algebraic precursor"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Graphical Solutions to f(x) = g(x)",
+              "code": "PC.AREI.11",
+              "justification": "Graphical interpretation of consistent/inconsistent/dependent systems uses the f(x)=g(x) intersection framework"
+            }
+          ],
+          "supporting_alignments": []
+        }
+      ]
+    },
+    {
+      "id": "unit_7_matrices_chapter_8",
+      "label": "UNIT 7 — MATRICES (Chapter 8)",
+      "sections": [
+        {
+          "section": "8.1",
+          "title": "Matrices & Systems of Equations",
+          "textbook_content": "Matrix notation · augmented matrix [A|b] · three elementary row operations ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Matrix Equation Representation",
+              "code": "PC.AREI.8",
+              "justification": "Writing a system of equations as an augmented matrix [A"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Using Matrices for Data",
+              "code": "PC.NVMQ.6",
+              "justification": "Using matrices to organize and solve systems of equations (including data-fitting to find a quadratic model) is the application content of PC.NVMQ.6"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Inverse Matrices",
+              "code": "PC.AREI.9",
+              "justification": "Gauss-Jordan elimination on [A"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "8.2",
+          "title": "Operations with Matrices",
+          "textbook_content": "Matrix equality · matrix addition and subtraction · scalar multiplication · matrix",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Operations with Matrices",
+              "code": "PC.NVMQ.7",
+              "justification": "Addition, subtraction, scalar multiplication, and matrix multiplication are all named in PC.NVMQ.7"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Properties of Matrix Multiplication",
+              "code": "PC.NVMQ.8",
+              "justification": "Demonstrating that AB≠BA (non-commutativity) while (AB)C=A(BC) (associativity) holds — the specific properties PC.NVMQ.8 targets"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Matrices as Vector Transformations",
+              "code": "PC.NVMQ.10",
+              "justification": "Using matrix multiplication to transform a vector v: the section explicitly teaches Av as a vector transformation"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "2×2 Matrix Transformations of the Plane",
+              "code": "PC.NVMQ.11",
+              "justification": "The transformation examples (using specific 2×2 matrices to transform geometric vectors) are instances of PC.NVMQ.11"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Using Matrices for Data",
+              "code": "PC.NVMQ.6",
+              "justification": "Matrix representation of AX=B links the data-organization function of matrices to their algebraic role"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "8.3",
+          "title": "Inverse of a Square Matrix",
+          "textbook_content": "Definition of inverse: AA⁻¹=A⁻¹A=I · Gauss-Jordan method to find A⁻¹ (row-reduce [A|I]→[I|A⁻¹]) ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Inverse Matrices",
+              "code": "PC.AREI.9",
+              "justification": "The section is the direct instructional content for PC.AREI.9: finding inverse matrices and using them to solve linear systems"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Zero, Identity, and Inverses",
+              "code": "PC.NVMQ.9",
+              "justification": "The identity matrix I, the zero matrix O, the definition of A⁻¹, and the singular (non-invertible) matrix are the three entities of PC.NVMQ.9"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "8.4",
+          "title": "Determinant of a Square Matrix",
+          "textbook_content": "det([a b; c d])=ad−bc · minors M_ij · cofactors C_ij=(−1)^(i+j)M_ij ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Zero, Identity, and Inverses",
+              "code": "PC.NVMQ.9",
+              "justification": "The invertibility condition det(A)≠0 directly links the determinant to the existence of A⁻¹ — a core relationship in PC.NVMQ.9"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Operations with Matrices",
+              "code": "PC.NVMQ.7",
+              "justification": "Computing the determinant is an operation on a matrix; cofactor expansion is a structured computational procedure"
+            }
+          ],
+          "supporting_alignments": [
+            {
+              "kind": "supporting",
+              "lo_name": "(Polynomial Identities)",
+              "code": "PC.AAPR.4",
+              "justification": "det([a b; c d])=ad−bc is an algebraic identity; cofactor expansion expresses the determinant as a polynomial identity in the matrix entries"
+            }
+          ]
+        },
+        {
+          "section": "8.5",
+          "title": "Applications of Matrices & Determinants",
+          "textbook_content": "Cramer's Rule: x=det(Aₓ)/det(A) · area of triangle using determinant ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Inverse Matrices",
+              "code": "PC.AREI.9",
+              "justification": "Cramer's Rule is an alternative determinant-based method to solve AX=B — a direct application of PC.AREI.9's goal (solving systems via matrix methods)"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "2×2 Matrix Transformations of the Plane",
+              "code": "PC.NVMQ.11",
+              "justification": "Using 2×2 matrices to transform geometric regions and compute areas of parallelograms is precisely the content of PC.NVMQ.11"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Matrices as Vector Transformations",
+              "code": "PC.NVMQ.10",
+              "justification": "The encoding/decoding cryptography application (multiply row vectors by matrix A and A⁻¹) is a vector transformation in the sense of PC.NVMQ.10"
+            }
+          ],
+          "supporting_alignments": []
+        }
+      ]
+    },
+    {
+      "id": "unit_8_conics_polars_chapter_10",
+      "label": "UNIT 8 — CONICS & POLARS (Chapter 10)",
+      "sections": [
+        {
+          "section": "10.2",
+          "title": "Parabolas",
+          "textbook_content": "Conic sections as plane-cone intersections · standard form of parabola x²=4py",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Parabolas from Focus and Directrix",
+              "code": "PC.GGPE.2",
+              "justification": "The section's mathematical content is exactly PC.GGPE.2: deriving the standard form x²=4py from the geometric locus definition (equidistance from focus and directrix)"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "10.3",
+          "title": "Ellipses",
+          "textbook_content": "Ellipse defined as locus where sum of distances from two foci is constant ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Ellipses and Hyperbolas from Definitions",
+              "code": "PC.GGPE.3",
+              "justification": "The section derives the standard ellipse equation from the geometric locus definition (constant sum of focal distances) — exactly what PC.GGPE.3 requires for ellipses"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "10.4",
+          "title": "Hyperbolas",
+          "textbook_content": "Hyperbola defined as locus where difference of distances from two foci is constant ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Ellipses and Hyperbolas from Definitions",
+              "code": "PC.GGPE.3",
+              "justification": "The section derives the standard hyperbola equation from the geometric locus definition (constant difference of focal distances) — the hyperbola component of PC.GGPE.3"
+            }
+          ],
+          "supporting_alignments": []
+        },
+        {
+          "section": "10.7",
+          "title": "Polar Coordinates",
+          "textbook_content": "Polar coordinate system (r,θ) — pole and polar axis · plotting polar points ·",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Defining Trigonometric Functions",
+              "code": "PC.FT.2",
+              "justification": "The conversions x=r cos θ and y=r sin θ apply the unit-circle definitions of cosine and sine — polar coordinates are a direct application of PC.FT.2"
+            }
+          ],
+          "supporting_alignments": [
+            {
+              "kind": "supporting",
+              "lo_name": "(Radian Measure)",
+              "code": "PC.FT.1",
+              "justification": "The polar angle θ is measured in radians; the coordinate system requires fluency with PC.FT.1"
+            }
+          ]
+        },
+        {
+          "section": "10.8",
+          "title": "Graphs of Polar Equations",
+          "textbook_content": "Symmetry tests for polar graphs (about polar axis, θ=π/2, and pole) · graphing by",
+          "primary_alignments": [
+            {
+              "kind": "primary",
+              "lo_name": "Graphing from Symbolic Representations",
+              "code": "PC.FIF.7",
+              "justification": "Producing the graph of a polar equation by analyzing symmetry, zeros, and maximum r-values from the symbolic form is the graphing skill of PC.FIF.7 applied in polar coordinates"
+            },
+            {
+              "kind": "primary",
+              "lo_name": "Symmetry and Periodicity",
+              "code": "PC.FT.4",
+              "justification": "Rose curves r=a sin(nθ) are periodic in θ; symmetry tests (polar axis, θ=π/2, pole) are applications of the symmetry concepts in PC.FT.4"
+            }
+          ],
+          "supporting_alignments": []
+        }
+      ]
+    }
+  ],
+  "cross_reference": [
+    {
+      "section": "A.2",
+      "topic": "Exponents & Radicals",
+      "primary_lo_codes": [
+        "PC.AAPR.6",
+        "PC.ASE.1"
+      ]
+    },
+    {
+      "section": "A.4",
+      "topic": "Rational Expressions",
+      "primary_lo_codes": [
+        "PC.AAPR.7",
+        "PC.AAPR.6"
+      ]
+    },
+    {
+      "section": "A.5",
+      "topic": "Solving Equations",
+      "primary_lo_codes": [
+        "PC.AREI.7",
+        "PC.AREI.11"
+      ]
+    },
+    {
+      "section": "1.4",
+      "topic": "Functions",
+      "primary_lo_codes": [
+        "PC.FIF.5",
+        "PC.FIF.4",
+        "PC.FBF.1"
+      ]
+    },
+    {
+      "section": "1.5",
+      "topic": "Analyzing Graphs",
+      "primary_lo_codes": [
+        "PC.FIF.4",
+        "PC.FIF.6",
+        "PC.FIF.7",
+        "PC.FIF.5"
+      ]
+    },
+    {
+      "section": "1.6",
+      "topic": "Parent Functions",
+      "primary_lo_codes": [
+        "PC.FIF.7",
+        "PC.FIF.4",
+        "PC.FIF.5"
+      ]
+    },
+    {
+      "section": "1.7",
+      "topic": "Transformations",
+      "primary_lo_codes": [
+        "PC.FBF.3",
+        "PC.FIF.7"
+      ]
+    },
+    {
+      "section": "1.8",
+      "topic": "Combinations & Composition",
+      "primary_lo_codes": [
+        "PC.FBF.1",
+        "PC.FIF.5"
+      ]
+    },
+    {
+      "section": "1.9",
+      "topic": "Inverse Functions",
+      "primary_lo_codes": [
+        "PC.FBF.4",
+        "PC.FBF.5"
+      ]
+    },
+    {
+      "section": "2.3",
+      "topic": "Polynomial & Synthetic Division",
+      "primary_lo_codes": [
+        "PC.AAPR.2",
+        "PC.AAPR.3"
+      ]
+    },
+    {
+      "section": "2.6",
+      "topic": "Rational Functions",
+      "primary_lo_codes": [
+        "PC.AAPR.7",
+        "PC.AAPR.6",
+        "PC.FIF.4",
+        "PC.FIF.7"
+      ]
+    },
+    {
+      "section": "2.7",
+      "topic": "Nonlinear Inequalities",
+      "primary_lo_codes": [
+        "PC.AREI.11",
+        "PC.FIF.5"
+      ]
+    },
+    {
+      "section": "3.1",
+      "topic": "Exponential Functions",
+      "primary_lo_codes": [
+        "PC.FLQE.1",
+        "PC.FLQE.2",
+        "PC.FLQE.3",
+        "PC.FLQE.5"
+      ]
+    },
+    {
+      "section": "3.2",
+      "topic": "Logarithmic Functions",
+      "primary_lo_codes": [
+        "PC.FBF.5",
+        "PC.FLQE.4",
+        "PC.FIF.5"
+      ]
+    },
+    {
+      "section": "3.3",
+      "topic": "Properties of Logarithms",
+      "primary_lo_codes": [
+        "PC.FLQE.4",
+        "PC.FLQE.5"
+      ]
+    },
+    {
+      "section": "3.4",
+      "topic": "Exp & Log Equations",
+      "primary_lo_codes": [
+        "PC.FLQE.4",
+        "PC.FLQE.5",
+        "PC.AREI.11"
+      ]
+    },
+    {
+      "section": "3.5",
+      "topic": "Exp & Log Models",
+      "primary_lo_codes": [
+        "PC.FLQE.2",
+        "PC.FLQE.5",
+        "PC.FLQE.1"
+      ]
+    },
+    {
+      "section": "4.1",
+      "topic": "Radian & Degree Measure",
+      "primary_lo_codes": [
+        "PC.FT.1",
+        "PC.GCI.5"
+      ]
+    },
+    {
+      "section": "4.2",
+      "topic": "Unit Circle",
+      "primary_lo_codes": [
+        "PC.FT.2",
+        "PC.FT.3",
+        "PC.FT.4"
+      ]
+    },
+    {
+      "section": "4.4",
+      "topic": "Trig of Any Angle",
+      "primary_lo_codes": [
+        "PC.FT.2",
+        "PC.FT.3",
+        "PC.FT.8"
+      ]
+    },
+    {
+      "section": "4.5",
+      "topic": "Graphs of Sin & Cos",
+      "primary_lo_codes": [
+        "PC.FT.5",
+        "PC.FT.4",
+        "PC.FIF.7"
+      ]
+    },
+    {
+      "section": "4.6",
+      "topic": "Other Trig Graphs",
+      "primary_lo_codes": [
+        "PC.FIF.7",
+        "PC.FT.4",
+        "PC.FT.5"
+      ]
+    },
+    {
+      "section": "4.7",
+      "topic": "Inverse Trig Functions",
+      "primary_lo_codes": [
+        "PC.FT.6",
+        "PC.FT.7"
+      ]
+    },
+    {
+      "section": "4.8",
+      "topic": "Applications & Modeling",
+      "primary_lo_codes": [
+        "PC.FT.5",
+        "PC.FT.7"
+      ]
+    },
+    {
+      "section": "5.1",
+      "topic": "Fundamental Identities",
+      "primary_lo_codes": [
+        "PC.FT.8"
+      ]
+    },
+    {
+      "section": "5.2",
+      "topic": "Verifying Identities",
+      "primary_lo_codes": [
+        "PC.FT.8"
+      ]
+    },
+    {
+      "section": "5.3",
+      "topic": "Solving Trig Equations",
+      "primary_lo_codes": [
+        "PC.FT.7",
+        "PC.FT.8",
+        "PC.AREI.11"
+      ]
+    },
+    {
+      "section": "5.4",
+      "topic": "Sum & Difference Formulas",
+      "primary_lo_codes": [
+        "PC.FT.9",
+        "PC.FT.8"
+      ]
+    },
+    {
+      "section": "5.5",
+      "topic": "Double & Half Angle Formulas",
+      "primary_lo_codes": [
+        "PC.FT.9",
+        "PC.FT.8",
+        "PC.FT.5"
+      ]
+    },
+    {
+      "section": "6.1",
+      "topic": "Law of Sines",
+      "primary_lo_codes": [
+        "PC.GSRT.10",
+        "PC.GSRT.11",
+        "PC.GSRT.9"
+      ]
+    },
+    {
+      "section": "6.2",
+      "topic": "Law of Cosines",
+      "primary_lo_codes": [
+        "PC.GSRT.10",
+        "PC.GSRT.11",
+        "PC.GSRT.9"
+      ]
+    },
+    {
+      "section": "6.3",
+      "topic": "Vectors in the Plane",
+      "primary_lo_codes": [
+        "PC.NVMQ.1",
+        "PC.NVMQ.2",
+        "PC.NVMQ.4",
+        "PC.NVMQ.5",
+        "PC.NVMQ.3"
+      ]
+    },
+    {
+      "section": "6.4",
+      "topic": "Vectors & Dot Products",
+      "primary_lo_codes": [
+        "PC.NVMQ.4",
+        "PC.NVMQ.3"
+      ]
+    },
+    {
+      "section": "6.5",
+      "topic": "The Complex Plane",
+      "primary_lo_codes": [
+        "PC.NCNS.4",
+        "PC.NCNS.6",
+        "PC.NCNS.3",
+        "PC.NCNS.5"
+      ]
+    },
+    {
+      "section": "6.6",
+      "topic": "Trig Form of Complex Numbers",
+      "primary_lo_codes": [
+        "PC.NCNS.5",
+        "PC.NCNS.2",
+        "PC.NCNS.3",
+        "PC.NCNS.8"
+      ]
+    },
+    {
+      "section": "7.1",
+      "topic": "Linear & Nonlinear Systems",
+      "primary_lo_codes": [
+        "PC.AREI.7",
+        "PC.AREI.11"
+      ]
+    },
+    {
+      "section": "7.2",
+      "topic": "Two-Variable Linear Systems",
+      "primary_lo_codes": [
+        "PC.AREI.8",
+        "PC.AREI.11"
+      ]
+    },
+    {
+      "section": "8.1",
+      "topic": "Matrices & Systems",
+      "primary_lo_codes": [
+        "PC.AREI.8",
+        "PC.NVMQ.6",
+        "PC.AREI.9"
+      ]
+    },
+    {
+      "section": "8.2",
+      "topic": "Operations with Matrices",
+      "primary_lo_codes": [
+        "PC.NVMQ.7",
+        "PC.NVMQ.8",
+        "PC.NVMQ.10",
+        "PC.NVMQ.11",
+        "PC.NVMQ.6"
+      ]
+    },
+    {
+      "section": "8.3",
+      "topic": "Inverse of a Square Matrix",
+      "primary_lo_codes": [
+        "PC.AREI.9",
+        "PC.NVMQ.9"
+      ]
+    },
+    {
+      "section": "8.4",
+      "topic": "Determinant of a Square Matrix",
+      "primary_lo_codes": [
+        "PC.NVMQ.9",
+        "PC.NVMQ.7"
+      ]
+    },
+    {
+      "section": "8.5",
+      "topic": "Applications of Matrices",
+      "primary_lo_codes": [
+        "PC.AREI.9",
+        "PC.NVMQ.11",
+        "PC.NVMQ.10"
+      ]
+    },
+    {
+      "section": "10.2",
+      "topic": "Parabolas",
+      "primary_lo_codes": [
+        "PC.GGPE.2"
+      ]
+    },
+    {
+      "section": "10.3",
+      "topic": "Ellipses",
+      "primary_lo_codes": [
+        "PC.GGPE.3"
+      ]
+    },
+    {
+      "section": "10.4",
+      "topic": "Hyperbolas",
+      "primary_lo_codes": [
+        "PC.GGPE.3"
+      ]
+    },
+    {
+      "section": "10.7",
+      "topic": "Polar Coordinates",
+      "primary_lo_codes": [
+        "PC.FT.2",
+        "PC.FT.1"
+      ]
+    },
+    {
+      "section": "10.8",
+      "topic": "Graphs of Polar Equations",
+      "primary_lo_codes": [
+        "PC.FIF.7",
+        "PC.FT.4"
+      ]
+    }
+  ],
+  "uncovered_los": [
+    {
+      "name": "Graphing Polynomial Functions",
+      "code": "PC.AAPR.3",
+      "reason": "Sections 2.1–2.2 (not in pacing guide) cover polynomial graphs; only 2.3 is included"
+    },
+    {
+      "name": "Polynomial Identities",
+      "code": "PC.AAPR.4",
+      "reason": "No section is dedicated to proving polynomial identities (e.g., sum of cubes, difference of squares as identity)"
+    },
+    {
+      "name": "Binomial Theorem",
+      "code": "PC.AAPR.5",
+      "reason": "Section 9.5 is not in the pacing guide"
+    },
+    {
+      "name": "Finite Geometric Series",
+      "code": "PC.ASE.4",
+      "reason": "Chapter 9 not in pacing guide"
+    },
+    {
+      "name": "Quadratics with Complex Solutions",
+      "code": "PC.NCNS.7",
+      "reason": "Covered in Section 2.4 (not in pacing guide)"
+    },
+    {
+      "name": "Fundamental Theorem of Algebra",
+      "code": "PC.NCNS.9",
+      "reason": "Section 2.5 not in pacing guide"
+    }
+  ]
+}

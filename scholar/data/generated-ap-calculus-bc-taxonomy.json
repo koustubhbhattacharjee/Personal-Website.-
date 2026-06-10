@@ -1,0 +1,1276 @@
+{
+  "ap_calculus": {
+    "ap calc": {
+      "standards": [
+        {
+          "code": "APCBC.1",
+          "name": "Limits and Continuity",
+          "objectives": [
+            {
+              "code": "CHA-1.A",
+              "name": "Interpret the rate of change at an instant in terms of average rates of change over intervals containing that instant.",
+              "subtopics": [
+                {
+                  "id": "CHA-1.A.1",
+                  "text": "Calculus uses limits to understand and model dynamic change."
+                },
+                {
+                  "id": "CHA-1.A.2",
+                  "text": "Because an average rate of change divides the change in one variable by the change in another, the average rate of change is undefined at a point where the change in the independent variable would be zero."
+                },
+                {
+                  "id": "CHA-1.A.3",
+                  "text": "The limit concept allows us to define instantaneous rate of change in terms of average rates of change."
+                }
+              ]
+            },
+            {
+              "code": "FUN-1.A",
+              "name": "Explain the behavior of a function on an interval using the Intermediate Value Theorem.",
+              "subtopics": [
+                {
+                  "id": "FUN-1.A.1",
+                  "text": "If f is a continuous function on the closed interval [a, b] and d is a number between f(a) and f(b), then the Intermediate Value Theorem guarantees that there is at least one number c between a and b, such that f(c) = d."
+                }
+              ]
+            },
+            {
+              "code": "LIM-1.A",
+              "name": "Represent limits analytically using correct notation.",
+              "subtopics": [
+                {
+                  "id": "LIM-1.A.1",
+                  "text": "Given a function f, the limit of f(x) as x approaches c is a real number R if f(x) can be made arbitrarily close to R by taking x sufficiently close to c (but not equal to c). If the limit exists and is a real number, then the common notation is $\\lim_{x \\to a} f(x) = R$ ."
+                }
+              ]
+            },
+            {
+              "code": "LIM-1.B",
+              "name": "Interpret limits expressed in analytic notation.",
+              "subtopics": [
+                {
+                  "id": "LIM-1.B.1",
+                  "text": "A limit can be expressed in multiple ways, including graphically, numerically, and analytically."
+                }
+              ]
+            },
+            {
+              "code": "LIM-1.C",
+              "name": "Estimate limits of functions.",
+              "subtopics": [
+                {
+                  "id": "LIM-1.C.1",
+                  "text": "The concept of a limit includes one sided limits."
+                },
+                {
+                  "id": "LIM-1.C.2",
+                  "text": "Graphical information about a function can be used to estimate limits."
+                },
+                {
+                  "id": "LIM-1.C.3",
+                  "text": "Because of issues of scale, graphical representations of functions may miss important function behavior."
+                },
+                {
+                  "id": "LIM-1.C.4",
+                  "text": "A limit might not exist for some functions at particular values of x. Some ways that the limit might not exist are if the function is unbounded, if the function is oscillating near this value, or if the limit from the left does not equal the limit from the right."
+                },
+                {
+                  "id": "LIM-1.C.5",
+                  "text": "Numerical information can be used to estimate limits."
+                }
+              ]
+            },
+            {
+              "code": "LIM-1.D",
+              "name": "Determine the limits of functions using limit theorems.",
+              "subtopics": [
+                {
+                  "id": "LIM-1.D.1",
+                  "text": "One-sided limits can be determined analytically or graphically."
+                },
+                {
+                  "id": "LIM-1.D.2",
+                  "text": "Limits of sums, differences, products, quotients, and composite functions can be found using limit theorems."
+                }
+              ]
+            },
+            {
+              "code": "LIM-1.E",
+              "name": "Determine the limits of functions using equivalent expressions for the function or the squeeze theorem.",
+              "subtopics": [
+                {
+                  "id": "LIM-1.E.1",
+                  "text": "It may be necessary or helpful to rearrange expressions into equivalent forms before evaluating limits."
+                },
+                {
+                  "id": "LIM-1.E.2",
+                  "text": "The limit of a function may be found by using the squeeze theorem."
+                }
+              ]
+            },
+            {
+              "code": "LIM-2.A",
+              "name": "Justify conclusions about continuity at a point using the definition.",
+              "subtopics": [
+                {
+                  "id": "LIM-2.A.1",
+                  "text": "Types of discontinuities include removable discontinuities, jump discontinuities, and discontinuities due to vertical asymptotes."
+                },
+                {
+                  "id": "LIM-2.A.2",
+                  "text": "A function f is continuous at x = c provided that f(c) exists, lim f x( ) x c exists, and lim f x( )= f c( ) x c ."
+                }
+              ]
+            },
+            {
+              "code": "LIM-2.B",
+              "name": "Determine intervals over which a function is continuous.",
+              "subtopics": [
+                {
+                  "id": "LIM-2.B.1",
+                  "text": "A function is continuous on an interval if the function is continuous at each point in the interval."
+                },
+                {
+                  "id": "LIM-2.B.2",
+                  "text": "Polynomial, rational, power, exponential, logarithmic, and trigonometric functions are continuous on all points in their domains."
+                }
+              ]
+            },
+            {
+              "code": "LIM-2.C",
+              "name": "Determine values of x or solve for parameters that make discontinuous functions continuous, if possible.",
+              "subtopics": [
+                {
+                  "id": "LIM-2.C.1",
+                  "text": "If the limit of a function exists at a discontinuity in its graph, then it is possible to remove the discontinuity by defining or redefining the value of the function at that point, so it equals the value of the limit of the function as x approaches that point."
+                },
+                {
+                  "id": "LIM-2.C.2",
+                  "text": "In order for a piecewise-defined function to be continuous at a boundary to the partition of its domain, the value of the expression defining the function on one side of the boundary must equal the value of the expression defining the other side of the boundary, as well as the value of the function at the boundary."
+                }
+              ]
+            },
+            {
+              "code": "LIM-2.D",
+              "name": "Interpret the behavior of functions using limits involving infinity.",
+              "subtopics": [
+                {
+                  "id": "LIM-2.D.1",
+                  "text": "The concept of a limit can be extended to include infinite limits."
+                },
+                {
+                  "id": "LIM-2.D.2",
+                  "text": "Asymptotic and unbounded behavior of functions can be described and explained using limits."
+                },
+                {
+                  "id": "LIM-2.D.3",
+                  "text": "The concept of a limit can be extended to include limits at infinity."
+                },
+                {
+                  "id": "LIM-2.D.4",
+                  "text": "Limits at infinity describe end behavior."
+                },
+                {
+                  "id": "LIM-2.D.5",
+                  "text": "Relative magnitudes of functions and their rates of change can be compared using limits."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "APCBC.2",
+          "name": "Differentiation: Definition and Fundamental Properties",
+          "objectives": [
+            {
+              "code": "CHA-2.B",
+              "name": "Represent the derivative of a function as the limit of a difference quotient.",
+              "subtopics": [
+                {
+                  "id": "CHA-2.B.1",
+                  "text": "The difference quotients $\\frac{f(a+h)-f(a)}{h}$ and f(x) - f(a) express the average rate of change of a function over an interval."
+                },
+                {
+                  "id": "CHA-2.B.3",
+                  "text": "For y = f(x), notations for the derivative include $\\frac{dy}{dx}$ , f'(x), and y'. The derivative can be represented graphically, numerically, analytically, and verbally."
+                }
+              ]
+            },
+            {
+              "code": "CHA-2.C",
+              "name": "Determine the equation of a line tangent to a curve at a given point.",
+              "subtopics": [
+                {
+                  "id": "CHA-2.C.1",
+                  "text": "The derivative of a function at a point is the slope of the line tangent to a graph of the function at that point."
+                }
+              ]
+            },
+            {
+              "code": "CHA-2.D",
+              "name": "Estimate derivatives.",
+              "subtopics": [
+                {
+                  "id": "CHA-2.D.1",
+                  "text": "The derivative at a point can be estimated from information given in tables or graphs."
+                },
+                {
+                  "id": "CHA-2.D.2",
+                  "text": "Technology can be used to calculate or estimate the value of a derivative of a function at a point."
+                }
+              ]
+            },
+            {
+              "code": "FUN-2.A",
+              "name": "Connecting Differentiability and Continuity: Determining When Derivatives Do and Do Not Exist",
+              "subtopics": [
+                {
+                  "id": "FUN-2.A.1",
+                  "text": "If a function is differentiable at a point, then it is continuous at that point. In particular, if a point is not in the domain of f, then it is not in the domain of f'."
+                },
+                {
+                  "id": "FUN-2.A.2",
+                  "text": "A continuous function may fail to be differentiable at a point in its domain."
+                }
+              ]
+            },
+            {
+              "code": "FUN-3.A",
+              "name": "Calculate derivatives of familiar functions.",
+              "subtopics": [
+                {
+                  "id": "FUN-3.A.1",
+                  "text": "Direct application of the definition of the derivative and specific rules can be used to calculate the derivative for functions of the form fx x ( ) = r ."
+                },
+                {
+                  "id": "FUN-3.A.2",
+                  "text": "Sums, differences, and constant multiples of functions can be differentiated using derivative rules."
+                },
+                {
+                  "id": "FUN-3.A.3",
+                  "text": "The power rule combined with sum, difference, and constant multiple properties can be used to find the derivatives for polynomial functions."
+                },
+                {
+                  "id": "FUN-3.A.4",
+                  "text": "Specific rules can be used to find the derivatives for sine, cosine, exponential, and logarithmic functions. ENDURING UNDERSTANDING Reasoning with definitions, theorems, and properties can be used to determine"
+                }
+              ]
+            },
+            {
+              "code": "FUN-3.B",
+              "name": "Calculate derivatives of products and quotients of differentiable functions.",
+              "subtopics": [
+                {
+                  "id": "FUN-3.B.1",
+                  "text": "Derivatives of products of differentiable functions can be found using the product rule."
+                },
+                {
+                  "id": "FUN-3.B.2",
+                  "text": "Derivatives of quotients of differentiable functions can be found using the quotient rule."
+                },
+                {
+                  "id": "FUN-3.B.3",
+                  "text": "Rearranging tangent, cotangent, secant, and cosecant functions using identities allows differentiation using derivative rules."
+                }
+              ]
+            },
+            {
+              "code": "LIM-3.A",
+              "name": "Interpret a limit as a definition of a derivative.",
+              "subtopics": [
+                {
+                  "id": "LIM-3.A.1",
+                  "text": "In some cases, recognizing an expression for the definition of the derivative of a function whose derivative is known offers a strategy for determining a limit. Differentiation: Definition and Fundamental Properties"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "APCBC.3",
+          "name": "Differentiation: Composite, Implicit, and Inverse Functions",
+          "objectives": [
+            {
+              "code": "FUN-3.C",
+              "name": "Calculate derivatives of compositions of differentiable functions.",
+              "subtopics": [
+                {
+                  "id": "FUN-3.C.1",
+                  "text": "The chain rule provides a way to differentiate composite functions."
+                }
+              ]
+            },
+            {
+              "code": "FUN-3.D",
+              "name": "Calculate derivatives of implicitly defined functions.",
+              "subtopics": [
+                {
+                  "id": "FUN-3.D.1",
+                  "text": "The chain rule is the basis for implicit differentiation."
+                }
+              ]
+            },
+            {
+              "code": "FUN-3.E",
+              "name": "Calculate derivatives of inverse and inverse trigonometric functions.",
+              "subtopics": [
+                {
+                  "id": "FUN-3.E.1",
+                  "text": "The chain rule and definition of an inverse function can be used to find the derivative of an inverse function, provided the derivative exists."
+                },
+                {
+                  "id": "FUN-3.E.2",
+                  "text": "The chain rule applied with the definition of an inverse function, or the formula for the derivative of an inverse function, can be used to find the derivatives of inverse trigonometric functions."
+                }
+              ]
+            },
+            {
+              "code": "FUN-3.F",
+              "name": "Determine higher order derivatives of a function.",
+              "subtopics": [
+                {
+                  "id": "FUN-3.F.1",
+                  "text": "Differentiating f' produces the second derivative f'', provided the derivative of f'exists; repeating this process produces higherorder derivatives of f."
+                },
+                {
+                  "id": "FUN-3.F.2",
+                  "text": "Higher-order derivatives are represented with a variety of notations. For y = f(x), notations for the second derivative include $\\frac{d^2y}{dx^2}$ , f''(x), and y''. Higher-order derivatives can be denoted $\\frac{d^n y}{dx^n}$ or $f^{(n)}(x)$ ."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "APCBC.4",
+          "name": "Contextual Applications of Differentiation",
+          "objectives": [
+            {
+              "code": "CHA-3.A",
+              "name": "Interpret the meaning of a derivative in context.",
+              "subtopics": [
+                {
+                  "id": "CHA-3.A.1",
+                  "text": "The derivative of a function can be interpreted as the instantaneous rate of change with respect to its independent variable."
+                },
+                {
+                  "id": "CHA-3.A.2",
+                  "text": "The derivative can be used to express information about rates of change in applied contexts."
+                },
+                {
+                  "id": "CHA-3.A.3",
+                  "text": "The unit for f'(x) is the unit for f divided by the unit for x."
+                }
+              ]
+            },
+            {
+              "code": "CHA-3.B",
+              "name": "Calculate rates of change in applied contexts.",
+              "subtopics": [
+                {
+                  "id": "CHA-3.B.1",
+                  "text": "The derivative can be used to solve rectilinear motion problems involving position, speed, velocity, and acceleration."
+                }
+              ]
+            },
+            {
+              "code": "CHA-3.C",
+              "name": "Interpret rates of change in applied contexts.",
+              "subtopics": [
+                {
+                  "id": "CHA-3.C.1",
+                  "text": "The derivative can be used to solve problems involving rates of change in applied contexts."
+                }
+              ]
+            },
+            {
+              "code": "CHA-3.D",
+              "name": "Calculate related rates in applied contexts.",
+              "subtopics": [
+                {
+                  "id": "CHA-3.D.1",
+                  "text": "The chain rule is the basis for differentiating variables in a related rates problem with respect to the same independent variable."
+                },
+                {
+                  "id": "CHA-3.D.2",
+                  "text": "Other differentiation rules, such as the product rule and the quotient rule, may also be necessary to differentiate all variables with respect to the same independent variable."
+                }
+              ]
+            },
+            {
+              "code": "CHA-3.E",
+              "name": "Interpret related rates in applied contexts.",
+              "subtopics": [
+                {
+                  "id": "CHA-3.E.1",
+                  "text": "The derivative can be used to solve related rates problems; that is, finding a rate at which one quantity is changing by relating it to other quantities whose rates of change are known."
+                }
+              ]
+            },
+            {
+              "code": "CHA-3.F",
+              "name": "Approximate a value on a curve using the equation of a tangent line.",
+              "subtopics": [
+                {
+                  "id": "CHA-3.F.1",
+                  "text": "The tangent line is the graph of a locally linear approximation of the function near the point of tangency."
+                },
+                {
+                  "id": "CHA-3.F.2",
+                  "text": "For a tangent line approximation, the function's behavior near the point of tangency may determine whether a tangent line value is an underestimate or an overestimate of the corresponding function value."
+                }
+              ]
+            },
+            {
+              "code": "LIM-4.A",
+              "name": "Determine limits of functions that result in indeterminate forms.",
+              "subtopics": [
+                {
+                  "id": "LIM-4.A.1",
+                  "text": "When the ratio of two functions tends to $\\frac{0}{0}$ or $\\frac{\\infty}{\\infty}$ in the limit, such forms are said to be indeterminate."
+                },
+                {
+                  "id": "LIM-4.A.2",
+                  "text": "Limits of the indeterminate forms $\\frac{0}{0}$ or $\\frac{\\infty}{\\infty}$ may be evaluated using L'Hospital's Rule."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "APCBC.5",
+          "name": "Analytical Applications of Differentiation",
+          "objectives": [
+            {
+              "code": "FUN-1.B",
+              "name": "Justify conclusions about functions by applying the Mean Value Theorem over an interval.",
+              "subtopics": [
+                {
+                  "id": "FUN-1.B.1",
+                  "text": "If a function f is continuous over the interval [a, b] and differentiable over the interval (a, b), then the Mean Value Theorem guarantees a point within that open interval where the instantaneous rate of change equals the average rate of change over the interval."
+                }
+              ]
+            },
+            {
+              "code": "FUN-1.C",
+              "name": "Extreme Value Theorem, Global Versus Local Extrema, and Critical Points",
+              "subtopics": [
+                {
+                  "id": "FUN-1.C.1",
+                  "text": "If a function f is continuous over the interval (a, b), then the Extreme Value Theorem guarantees that f has at least one minimum value and at least one maximum value on [a, b]. A point on a function where the first derivative equals zero or fails to exist is a critical point of the function."
+                },
+                {
+                  "id": "FUN-1.C.3",
+                  "text": "All local (relative) extrema occur at critical points of a function, though not all critical points are local extrema."
+                }
+              ]
+            },
+            {
+              "code": "FUN-4.A",
+              "name": "Justify conclusions about the behavior of a function based on the behavior of its derivatives.",
+              "subtopics": [
+                {
+                  "id": "FUN-4.A.1",
+                  "text": "The first derivative of a function can provide information about the function and its graph, including intervals where the function is increasing or decreasing."
+                },
+                {
+                  "id": "FUN-4.A.2",
+                  "text": "The first derivative of a function can determine the location of relative (local) extrema of the function."
+                },
+                {
+                  "id": "FUN-4.A.3",
+                  "text": "Absolute (global) extrema of a function on a closed interval can only occur at critical points or at endpoints."
+                },
+                {
+                  "id": "FUN-4.A.4",
+                  "text": "The graph of a function is concave up (down) on an open interval if the function's derivative is increasing (decreasing) on that interval."
+                },
+                {
+                  "id": "FUN-4.A.5",
+                  "text": "The second derivative of a function provides information about the function and its graph, including intervals of upward or downward concavity."
+                },
+                {
+                  "id": "FUN-4.A.6",
+                  "text": "The second derivative of a function may be used to locate points of inflection for the graph of the original function."
+                },
+                {
+                  "id": "FUN-4.A.7",
+                  "text": "The second derivative of a function may determine whether a critical point is the location of a relative (local) maximum or minimum."
+                },
+                {
+                  "id": "FUN-4.A.8",
+                  "text": "When a continuous function has only one critical point on an interval on its domain and the critical point corresponds to a relative (local) extremum of the function on the interval, then that critical point also corresponds to the absolute (global) extremum of the function on the interval."
+                },
+                {
+                  "id": "FUN-4.A.9",
+                  "text": "Key features of functions and their derivatives can be identified and related to their graphical, numerical, and analytical representations. Graphical, numerical, and analytical information from f' and f'' can be used to predict and explain the behavior of f."
+                },
+                {
+                  "id": "FUN-4.A.11",
+                  "text": "Key features of the graphs of f, f', and f\" are related to one another."
+                }
+              ]
+            },
+            {
+              "code": "FUN-4.B",
+              "name": "Calculate minimum and maximum values in applied contexts or analysis of functions.",
+              "subtopics": [
+                {
+                  "id": "FUN-4.B.1",
+                  "text": "The derivative can be used to solve optimization problems; that is, finding a minimum or maximum value of a function on a given interval."
+                }
+              ]
+            },
+            {
+              "code": "FUN-4.C",
+              "name": "Interpret minimum and maximum values calculated in applied contexts.",
+              "subtopics": [
+                {
+                  "id": "FUN-4.C.1",
+                  "text": "Minimum and maximum values of a function take on specific meanings in applied contexts."
+                }
+              ]
+            },
+            {
+              "code": "FUN-4.D",
+              "name": "Determine critical points of implicit relations.",
+              "subtopics": [
+                {
+                  "id": "FUN-4.D.1",
+                  "text": "A point on an implicit relation where the first derivative equals zero or does not exist is a critical point of the function."
+                }
+              ]
+            },
+            {
+              "code": "FUN-4.E",
+              "name": "Justify conclusions about the behavior of an implicitly defined function based on evidence from its derivatives.",
+              "subtopics": [
+                {
+                  "id": "FUN-4.E.1",
+                  "text": "Applications of derivatives can be extended to implicitly defined functions."
+                },
+                {
+                  "id": "FUN-4.E.2",
+                  "text": "Second derivatives involving implicit differentiation may be relations of x, y, and $\\frac{dy}{dx}$ ."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "APCBC.6",
+          "name": "Integration and Accumulation of Change",
+          "objectives": [
+            {
+              "code": "CHA-4.A",
+              "name": "Interpret the meaning of areas associated with the graph of a rate of change in context.",
+              "subtopics": [
+                {
+                  "id": "CHA-4.A.1",
+                  "text": "The area of the region between the graph of a rate of change function and the x axis gives the accumulation of change."
+                },
+                {
+                  "id": "CHA-4.A.2",
+                  "text": "In some cases, accumulation of change can be evaluated by using geometry."
+                },
+                {
+                  "id": "CHA-4.A.3",
+                  "text": "If a rate of change is positive (negative) over an interval, then the accumulated change is positive (negative)."
+                },
+                {
+                  "id": "CHA-4.A.4",
+                  "text": "The unit for the area of a region defined by rate of change is the unit for the rate of change multiplied by the unit for the independent variable. Integration and Accumulation of Change"
+                }
+              ]
+            },
+            {
+              "code": "FUN-5.A",
+              "name": "Represent accumulation functions using definite integrals.",
+              "subtopics": [
+                {
+                  "id": "FUN-5.A.1",
+                  "text": "The definite integral can be used to define new functions."
+                },
+                {
+                  "id": "FUN-5.A.2",
+                  "text": "If f is a continuous function on an interval containing $$a$$ , then $\\frac{d}{dx} \\left( \\int_{a}^{x} f(t) dt \\right) = f(x)$ , where x is in the interval."
+                },
+                {
+                  "id": "FUN-5.A.3",
+                  "text": "Graphical, numerical, analytical, and verbal representations of a function f provide information about the function g defined as $$g(x) = \\int_{a}^{x} f(t) dt.$$"
+                }
+              ]
+            },
+            {
+              "code": "FUN-6.A",
+              "name": "Calculate a definite integral using areas and properties of definite integrals.",
+              "subtopics": [
+                {
+                  "id": "FUN-6.A.1",
+                  "text": "In some cases, a definite integral can be evaluated by using geometry and the connection between the definite integral and area."
+                },
+                {
+                  "id": "FUN-6.A.2",
+                  "text": "Properties of definite integrals include the integral of a constant times a function, the integral of the sum of two functions, reversal of limits of integration, and the integral of a function over adjacent intervals."
+                },
+                {
+                  "id": "FUN-6.A.3",
+                  "text": "The definition of the definite integral may be extended to functions with removable or jump discontinuities."
+                }
+              ]
+            },
+            {
+              "code": "FUN-6.B",
+              "name": "Evaluate definite integrals analytically using the Fundamental Theorem of Calculus.",
+              "subtopics": [
+                {
+                  "id": "FUN-6.B.1",
+                  "text": "An antiderivative of a function f is a function g whose derivative is f."
+                },
+                {
+                  "id": "FUN-6.B.2",
+                  "text": "If a function f is continuous on an interval containing a, the function defined by F x( )= ∫ x f t( )dt a is an antiderivative of f for x in the interval."
+                },
+                {
+                  "id": "FUN-6.B.3",
+                  "text": "If f is continuous on the interval [a, b] and F is an antiderivative of f, then ∫ b f x( )dx = a F b( )− F a( )."
+                }
+              ]
+            },
+            {
+              "code": "FUN-6.C",
+              "name": "Determine antiderivatives of functions and indefinite integrals, using knowledge of derivatives.",
+              "subtopics": [
+                {
+                  "id": "FUN-6.C.1",
+                  "text": "f x( )dx is an indefinite integral of the function f and can be expressed as f x() () dx = + F x C, where () () f x and C is any constant."
+                },
+                {
+                  "id": "FUN-6.C.2",
+                  "text": "Differentiation rules provide the foundation for finding antiderivatives."
+                },
+                {
+                  "id": "FUN-6.C.3",
+                  "text": "Many functions do not have closed-form antiderivatives."
+                }
+              ]
+            },
+            {
+              "code": "FUN-6.D",
+              "name": "For integrands requiring substitution or rearrangements into equivalent forms: - (a) Determine indefinite integrals. - (b) Evaluate definite integrals.",
+              "subtopics": [
+                {
+                  "id": "FUN-6.D.1",
+                  "text": "Substitution of variables is a technique for finding antiderivatives."
+                },
+                {
+                  "id": "FUN-6.D.2",
+                  "text": "For a definite integral, substitution of variables requires corresponding changes to the limits of integration."
+                },
+                {
+                  "id": "FUN-6.D.3",
+                  "text": "Techniques for finding antiderivatives include rearrangements into equivalent forms, such as long division and completing the square."
+                }
+              ]
+            },
+            {
+              "code": "FUN-6.E",
+              "name": "For integrands requiring integration by parts: - (a) Determine indefinite integrals. bc only - (b) Evaluate definite integrals. bc only",
+              "subtopics": [
+                {
+                  "id": "FUN-6.E.1",
+                  "text": "Integration by parts is a technique for finding antiderivatives. bc only"
+                }
+              ]
+            },
+            {
+              "code": "FUN-6.F",
+              "name": "For integrands requiring integration by linear partial fractions: - (a) Determine indefinite integrals. bc only - (b) Evaluate definite integrals. bc only",
+              "subtopics": [
+                {
+                  "id": "FUN-6.F.1",
+                  "text": "Some rational functions can be decomposed into sums of ratios of linear, nonrepeating factors to which basic integration techniques can be applied. bc only"
+                }
+              ]
+            },
+            {
+              "code": "LIM-5.A",
+              "name": "Approximate a definite integral using geometric and numerical methods.",
+              "subtopics": [
+                {
+                  "id": "LIM-5.A.1",
+                  "text": "Definite integrals can be approximated for functions that are represented graphically, numerically, analytically, and verbally."
+                },
+                {
+                  "id": "LIM-5.A.2",
+                  "text": "Definite integrals can be approximated using a left Riemann sum, a right Riemann sum, a midpoint Riemann sum, or a trapezoidal sum; approximations can be computed using either uniform or nonuniform partitions."
+                },
+                {
+                  "id": "LIM-5.A.3",
+                  "text": "Definite integrals can be approximated using numerical methods, with or without technology."
+                },
+                {
+                  "id": "LIM-5.A.4",
+                  "text": "Depending on the behavior of a function, it may be possible to determine whether an approximation for a definite integral is an underestimate or overestimate for the value of the definite integral."
+                }
+              ]
+            },
+            {
+              "code": "LIM-5.B",
+              "name": "Interpret the limiting case of the Riemann sum as a definite integral.",
+              "subtopics": [
+                {
+                  "id": "LIM-5.B.1",
+                  "text": "The limit of an approximating Riemann sum can be interpreted as a definite integral."
+                },
+                {
+                  "id": "LIM-5.B.2",
+                  "text": "A Riemann sum, which requires a partition of an interval I, is the sum of products, each of which is the value of the function at a point in a subinterval multiplied by the length of that subinterval of the partition."
+                }
+              ]
+            },
+            {
+              "code": "LIM-5.C",
+              "name": "Represent the limiting case of the Riemann sum as a definite integral.",
+              "subtopics": [
+                {
+                  "id": "LIM-5.C.1",
+                  "text": "The definite integral of a continuous function f over the interval [a, b], denoted by $\\int_{a}^{b} f(x)dx$ , is the limit of Riemann sums as the widths of the subintervals approach 0. That is, $$\\int_a^b f(x)dx = \\lim_{\\max \\Delta x_i \\to 0} \\sum_{i=1}^n f(x_i^) \\Delta x_i, \\text{ where } n \\text{ is}$$ the number of subintervals, $\\Delta x_i$ is the width of the ith subinterval, and $x_i^$ is a value in the ith subinterval."
+                },
+                {
+                  "id": "LIM-5.C.2",
+                  "text": "A definite integral can be translated into the limit of a related Riemann sum, and the limit of a Riemann sum can be written as a definite integral."
+                }
+              ]
+            },
+            {
+              "code": "LIM-6.A",
+              "name": "Evaluate an improper integral or determine that the integral diverges. BC ONLY",
+              "subtopics": [
+                {
+                  "id": "LIM-6.A.1",
+                  "text": "An improper integral is an integral that has one or both limits infinite or has an integrand that is unbounded in the interval of integration. BC ONLY"
+                },
+                {
+                  "id": "LIM-6.A.2",
+                  "text": "Improper integrals can be determined using limits of definite integrals. BC ONLY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "APCBC.7",
+          "name": "Differential Equations",
+          "objectives": [
+            {
+              "code": "FUN-7.A",
+              "name": "Interpret verbal statements of problems as differential equations involving a derivative expression.",
+              "subtopics": [
+                {
+                  "id": "FUN-7.A.1",
+                  "text": "Differential equations relate a function of an independent variable and the function's derivatives."
+                }
+              ]
+            },
+            {
+              "code": "FUN-7.B",
+              "name": "Verify solutions to differential equations.",
+              "subtopics": [
+                {
+                  "id": "FUN-7.B.1",
+                  "text": "Derivatives can be used to verify that a function is a solution to a given differential equation."
+                },
+                {
+                  "id": "FUN-7.B.2",
+                  "text": "There may be infinitely many general solutions to a differential equation."
+                }
+              ]
+            },
+            {
+              "code": "FUN-7.C",
+              "name": "Estimate solutions to differential equations.",
+              "subtopics": [
+                {
+                  "id": "FUN-7.C.1",
+                  "text": "A slope field is a graphical representation of a differential equation on a finite set of points in the plane."
+                },
+                {
+                  "id": "FUN-7.C.2",
+                  "text": "Slope fields provide information about the behavior of solutions to first-order differential equations."
+                },
+                {
+                  "id": "FUN-7.C.3",
+                  "text": "Solutions to differential equations are functions or families of functions."
+                },
+                {
+                  "id": "FUN-7.C.4",
+                  "text": "Euler's method provides a procedure for approximating a solution to a differential equation or a point on a solution curve. bc only"
+                }
+              ]
+            },
+            {
+              "code": "FUN-7.D",
+              "name": "Determine general solutions to differential equations.",
+              "subtopics": [
+                {
+                  "id": "FUN-7.D.1",
+                  "text": "Some differential equations can be solved by separation of variables."
+                },
+                {
+                  "id": "FUN-7.D.2",
+                  "text": "Antidifferentiation can be used to find general solutions to differential equations."
+                }
+              ]
+            },
+            {
+              "code": "FUN-7.E",
+              "name": "Determine particular solutions to differential equations.",
+              "subtopics": [
+                {
+                  "id": "FUN-7.E.1",
+                  "text": "A general solution may describe infinitely many solutions to a differential equation. There is only one particular solution passing through a given point."
+                },
+                {
+                  "id": "FUN-7.E.2",
+                  "text": "The function F defined by $F(x) = y_0 + \\int_a^x f(t) dt$ is a particular solution to the differential equation $$\\frac{dy}{dx} = f(x)$$ , satisfying $F(a) = y_0$ ."
+                },
+                {
+                  "id": "FUN-7.E.3",
+                  "text": "Solutions to differential equations may be subject to domain restrictions."
+                }
+              ]
+            },
+            {
+              "code": "FUN-7.F",
+              "name": "Interpret the meaning of a differential equation and its variables in context",
+              "subtopics": [
+                {
+                  "id": "FUN-7.F.1",
+                  "text": "Specific applications of finding general and particular solutions to differential equations include motion along a line and exponential growth and decay."
+                },
+                {
+                  "id": "FUN-7.F.2",
+                  "text": "The model for exponential growth and decay that arises from the statement \"The rate of change of a quantity is proportional to the size of the quantity\" is $\\frac{dy}{dt} = ky$ ."
+                }
+              ]
+            },
+            {
+              "code": "FUN-7.G",
+              "name": "Determine general and particular solutions for problems involving differential equations in context.",
+              "subtopics": [
+                {
+                  "id": "FUN-7.G.1",
+                  "text": "The exponential growth and decay model, $\\frac{dy}{dt} = ky$ , with initial condition $y = y_0$ when t = 0, has solutions of the form $y = y_0 e^{kt}$ . Differential Equations"
+                }
+              ]
+            },
+            {
+              "code": "FUN-7.H",
+              "name": "Interpret the meaning of the logistic growth model in context. bc only",
+              "subtopics": [
+                {
+                  "id": "FUN-7.H.1",
+                  "text": "The model for logistic growth that arises from the statement \"The rate of change of a quantity is jointly proportional to the size of the quantity and the difference between the quantity and the carrying capacity\" is $$\\frac{dy}{dt} = ky(a-y)$$ . BC ONLY"
+                },
+                {
+                  "id": "FUN-7.H.2",
+                  "text": "The logistic differential equation and initial conditions can be interpreted without solving the differential equation. bc only"
+                },
+                {
+                  "id": "FUN-7.H.3",
+                  "text": "The limiting value (carrying capacity) of a logistic differential equation as the independent variable approaches infinity can be determined using the logistic growth model and initial conditions. bc only"
+                },
+                {
+                  "id": "FUN-7.H.4",
+                  "text": "The value of the dependent variable in a logistic differential equation at the point when it is changing fastest can be determined using the logistic growth model and initial conditions. bc only"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "APCBC.8",
+          "name": "Applications of Integration",
+          "objectives": [
+            {
+              "code": "CHA-4.B",
+              "name": "Determine the average value of a function using definite integrals.",
+              "subtopics": [
+                {
+                  "id": "CHA-4.B.1",
+                  "text": "The average value of a continuous function f over an interval [a, b] is $\\frac{1}{b-a} \\int_a^b f(x) dx$ ."
+                }
+              ]
+            },
+            {
+              "code": "CHA-4.C",
+              "name": "Determine values for positions and rates of change using definite integrals in problems involving rectilinear motion.",
+              "subtopics": [
+                {
+                  "id": "CHA-4.C.1",
+                  "text": "For a particle in rectilinear motion over an interval of time, the definite integral of velocity represents the particle's displacement over the interval of time, and the definite integral of speed represents the particle's total distance traveled over the interval of time."
+                }
+              ]
+            },
+            {
+              "code": "CHA-4.D",
+              "name": "Interpret the meaning of a definite integral in accumulation problems.",
+              "subtopics": [
+                {
+                  "id": "CHA-4.D.1",
+                  "text": "A function defined as an integral represents an accumulation of a rate of change."
+                },
+                {
+                  "id": "CHA-4.D.2",
+                  "text": "The definite integral of the rate of change of a quantity over an interval gives the net change of that quantity over that interval."
+                }
+              ]
+            },
+            {
+              "code": "CHA-4.E",
+              "name": "Determine net change using definite integrals in applied contexts.",
+              "subtopics": [
+                {
+                  "id": "CHA-4.E.1",
+                  "text": "The definite integral can be used to express information about accumulation and net change in many applied contexts."
+                }
+              ]
+            },
+            {
+              "code": "CHA-5.A",
+              "name": "Calculate areas in the plane using the definite integral.",
+              "subtopics": [
+                {
+                  "id": "CHA-5.A.1",
+                  "text": "Areas of regions in the plane can be calculated with definite integrals."
+                },
+                {
+                  "id": "CHA-5.A.2",
+                  "text": "Areas of regions in the plane can be calculated using functions of either x or y."
+                },
+                {
+                  "id": "CHA-5.A.3",
+                  "text": "Areas of certain regions in the plane may be calculated using a sum of two or more definite integrals or by evaluating a definite integral of the absolute value of the difference of two functions."
+                }
+              ]
+            },
+            {
+              "code": "CHA-5.B",
+              "name": "Calculate volumes of solids with known cross sections using definite integrals.",
+              "subtopics": [
+                {
+                  "id": "CHA-5.B.1",
+                  "text": "Volumes of solids with square and rectangular cross sections can be found using definite integrals and the area formulas for these shapes."
+                },
+                {
+                  "id": "CHA-5.B.2",
+                  "text": "Volumes of solids with triangular cross sections can be found using definite integrals and the area formulas for these shapes."
+                },
+                {
+                  "id": "CHA-5.B.3",
+                  "text": "Volumes of solids with semicircular and other geometrically defined cross sections can be found using definite integrals and the area formulas for these shapes."
+                }
+              ]
+            },
+            {
+              "code": "CHA-5.C",
+              "name": "Calculate volumes of solids of revolution using definite integrals.",
+              "subtopics": [
+                {
+                  "id": "CHA-5.C.1",
+                  "text": "Volumes of solids of revolution around the x- or y-axis may be found by using definite integrals with the disc method."
+                },
+                {
+                  "id": "CHA-5.C.2",
+                  "text": "Volumes of solids of revolution around any horizontal or vertical line in the plane may be found by using definite integrals with the disc method."
+                },
+                {
+                  "id": "CHA-5.C.3",
+                  "text": "Volumes of solids of revolution around the x- or y-axis whose cross sections are ring shaped may be found using definite integrals with the washer method."
+                },
+                {
+                  "id": "CHA-5.C.4",
+                  "text": "Volumes of solids of revolution around any horizontal or vertical line whose cross sections are ring shaped may be found using definite integrals with the washer method."
+                }
+              ]
+            },
+            {
+              "code": "CHA-6.A",
+              "name": "Determine the length of a curve in the plane defined by a function, using a definite integral. BC ONLY",
+              "subtopics": [
+                {
+                  "id": "CHA-6.A.1",
+                  "text": "The length of a planar curve defined by a function can be calculated using a definite integral. BC ONLY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "APCBC.9",
+          "name": "Parametric Equations, Polar Coordinates, and Vector-Valued Functions (BC)",
+          "objectives": [
+            {
+              "code": "CHA-3.G",
+              "name": "Calculate derivatives of parametric functions. BC ONLY",
+              "subtopics": [
+                {
+                  "id": "CHA-3.G.1",
+                  "text": "Methods for calculating derivatives of real-valued functions can be extended to parametric functions. BC ONLY For a curve defined parametrically, the value of $\\frac{dy}{dt}$ at a point on the curve is the slope of the line tangent to the curve at that point. $\\frac{dy}{dx}$ the slope of the line tangent to a curve defined using parametric equations, can be determined by dividing $\\frac{dy}{dt}$ by $\\frac{dx}{dt}$ , provided $\\frac{dx}{dt}$ does not"
+                },
+                {
+                  "id": "CHA-3.G.3",
+                  "text": "$\\frac{d^2y}{dx^2}$ can be calculated by dividing $\\frac{d}{dt}\\left(\\frac{dy}{dx}\\right)$"
+                }
+              ]
+            },
+            {
+              "code": "CHA-3.H",
+              "name": "Calculate derivatives of vector-valued functions. bc only",
+              "subtopics": [
+                {
+                  "id": "CHA-3.H.1",
+                  "text": "Methods for calculating derivatives of realvalued functions can be extended to vectorvalued functions. bc only"
+                }
+              ]
+            },
+            {
+              "code": "CHA-5.D",
+              "name": "Calculate areas of regions defined by polar curves using definite integrals. bc only",
+              "subtopics": [
+                {
+                  "id": "CHA-5.D.1",
+                  "text": "The concept of calculating areas in rectangular coordinates can be extended to polar coordinates. bc only"
+                },
+                {
+                  "id": "CHA-5.D.2",
+                  "text": "Areas of regions bounded by polar curves can be calculated with definite integrals. bc only"
+                }
+              ]
+            },
+            {
+              "code": "CHA-6.B",
+              "name": "Determine the length of a curve in the plane defined by parametric functions, using a definite integral. bc only",
+              "subtopics": [
+                {
+                  "id": "CHA-6.B.1",
+                  "text": "The length of a parametrically defined curve can be calculated using a definite integral."
+                }
+              ]
+            },
+            {
+              "code": "FUN-3.G",
+              "name": "Calculate derivatives of functions written in polar coordinates. BC ONLY",
+              "subtopics": [
+                {
+                  "id": "FUN-3.G.1",
+                  "text": "Methods for calculating derivatives of realvalued functions can be extended to functions in polar coordinates. BC ONLY"
+                },
+                {
+                  "id": "FUN-3.G.2",
+                  "text": "For a curve given by a polar equation $r=f(\\theta)$ , derivatives of r, x, and y with respect to $\\theta$ , and first and second derivatives of y with respect to x can provide information about the curve."
+                }
+              ]
+            },
+            {
+              "code": "FUN-8.A",
+              "name": "Determine a particular solution given a rate vector and initial conditions. bc only",
+              "subtopics": [
+                {
+                  "id": "FUN-8.A.1",
+                  "text": "Methods for calculating integrals of real-valued functions can be extended to parametric or vector-valued functions. bc only"
+                }
+              ]
+            },
+            {
+              "code": "FUN-8.B",
+              "name": "Determine values for positions and rates of change in problems involving planar motion. bc only",
+              "subtopics": [
+                {
+                  "id": "FUN-8.B.1",
+                  "text": "Derivatives can be used to determine velocity, speed, and acceleration for a particle moving along a curve in the plane defined using parametric or vector-valued functions."
+                },
+                {
+                  "id": "FUN-8.B.2",
+                  "text": "For a particle in planar motion over an interval of time, the definite integral of the velocity vector represents the particle's displacement (net change in position) over the interval of time, from which we might determine its position. The definite integral of speed represents the particle's total distance traveled over the interval of time. bc only"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "APCBC.10",
+          "name": "Infinite Sequences and Series (BC)",
+          "objectives": [
+            {
+              "code": "LIM-7.A",
+              "name": "Determine whether a series converges or diverges. bc only",
+              "subtopics": [
+                {
+                  "id": "LIM-7.A.1",
+                  "text": "The nth partial sum is defined as the sum of the first n terms of a series. bc only"
+                },
+                {
+                  "id": "LIM-7.A.2",
+                  "text": "An infinite series of numbers converges to a real number S (or has sum S), if and only if the limit of its sequence of partial sums exists and equals S. bc only"
+                },
+                {
+                  "id": "LIM-7.A.3",
+                  "text": "A geometric series is a series with a constant ratio between successive terms. BC ONLY"
+                },
+                {
+                  "id": "LIM-7.A.4",
+                  "text": "If a is a real number and r is a real number such that |r| < 1, then the geometric series $$\\sum_{n=0}^{\\infty} ar^n = \\frac{a}{1-r}$$ . BC ONLY"
+                },
+                {
+                  "id": "LIM-7.A.5",
+                  "text": "The nth term test is a test for divergence of a series. bc only"
+                },
+                {
+                  "id": "LIM-7.A.6",
+                  "text": "The integral test is a method to determine whether a series converges or diverges. bc only"
+                },
+                {
+                  "id": "LIM-7.A.7",
+                  "text": "In addition to geometric series, common series of numbers include the harmonic series, the alternating harmonic series, and p-series. bc only"
+                },
+                {
+                  "id": "LIM-7.A.8",
+                  "text": "The comparison test is a method to determine whether a series converges or diverges. bc only"
+                },
+                {
+                  "id": "LIM-7.A.9",
+                  "text": "The limit comparison test is a method to determine whether a series converges or diverges. bc only"
+                },
+                {
+                  "id": "LIM-7.A.10",
+                  "text": "The alternating series test is a method to determine whether an alternating series converges. bc only"
+                },
+                {
+                  "id": "LIM-7.A.11",
+                  "text": "The ratio test is a method to determine whether a series of numbers converges or diverges. bc only X EXCLUSION STATEMENT The nth term test for divergence, and the integral test, comparison test, limit comparison test, alternating series test, and ratio test for convergence are assessed on the AP Calculus BC Exam. Other methods are not assessed on the exam. However, teachers may include additional methods in the course, if time permits."
+                },
+                {
+                  "id": "LIM-7.A.12",
+                  "text": "A series may be absolutely convergent, conditionally convergent, or divergent. bc only"
+                },
+                {
+                  "id": "LIM-7.A.13",
+                  "text": "If a series converges absolutely, then it converges. bc only"
+                },
+                {
+                  "id": "LIM-7.A.14",
+                  "text": "If a series converges absolutely, then any series obtained from it by regrouping or rearranging the terms has the same value. bc only"
+                }
+              ]
+            },
+            {
+              "code": "LIM-7.B",
+              "name": "Approximate the sum of a series. bc only",
+              "subtopics": [
+                {
+                  "id": "LIM-7.B.1",
+                  "text": "If an alternating series converges by the alternating series test, then the alternating series error bound can be used to bound how far a partial sum is from the value of the infinite series. bc only"
+                }
+              ]
+            },
+            {
+              "code": "LIM-8.A",
+              "name": "Represent a function at a point as a Taylor polynomial. BC ONLY",
+              "subtopics": [
+                {
+                  "id": "LIM-8.A.1",
+                  "text": "The coefficient of the nth degree term in a Taylor polynomial for a function f centered at $$x = a$$ is $\\frac{f^{(n)}(a)}{n!}$ . BC ONLY In many cases, as the degree of a Taylor polynomial increases, the nth degree polynomial will approach the original function over some interval. BC ONLY"
+                }
+              ]
+            },
+            {
+              "code": "LIM-8.B",
+              "name": "Approximate function values using a Taylor polynomial. BC ONLY",
+              "subtopics": [
+                {
+                  "id": "LIM-8.B.1",
+                  "text": "Taylor polynomials for a function f centered at x = a can be used to approximate function values of f near x = a. BC ONLY"
+                }
+              ]
+            },
+            {
+              "code": "LIM-8.C",
+              "name": "Determine the error bound associated with a Taylor polynomial approximation. bc only",
+              "subtopics": [
+                {
+                  "id": "LIM-8.C.1",
+                  "text": "The Lagrange error bound can be used to determine a maximum interval for the error of a Taylor polynomial approximation to a function. bc only"
+                },
+                {
+                  "id": "LIM-8.C.2",
+                  "text": "In some situations, the alternating series error bound can be used to bound the error of a Taylor polynomial approximation to the value of a function. bc only"
+                }
+              ]
+            },
+            {
+              "code": "LIM-8.D",
+              "name": "Determine the radius of convergence and interval of convergence for a power series. bc only",
+              "subtopics": [
+                {
+                  "id": "LIM-8.D.1",
+                  "text": "A power series is a series of the form r n n n 0 − = , where n is a non-negative integer, a{ }n is a sequence of real numbers, and r is a real number. bc only"
+                },
+                {
+                  "id": "LIM-8.D.2",
+                  "text": "If a power series converges, it either converges at a single point or has an interval of convergence. bc only"
+                },
+                {
+                  "id": "LIM-8.D.3",
+                  "text": "The ratio test can be used to determine the radius of convergence of a power series. bc only"
+                },
+                {
+                  "id": "LIM-8.D.4",
+                  "text": "The radius of convergence of a power series can be used to identify an open interval on which the series converges, but it is necessary to test both endpoints of the interval to determine the interval of convergence. bc only"
+                },
+                {
+                  "id": "LIM-8.D.5",
+                  "text": "If a power series has a positive radius of convergence, then the power series is the Taylor series of the function to which it converges over the open interval. bc only"
+                },
+                {
+                  "id": "LIM-8.D.6",
+                  "text": "The radius of convergence of a power series obtained by term-by-term differentiation or termby-term integration is the same as the radius of convergence of the original power series. bc only"
+                }
+              ]
+            },
+            {
+              "code": "LIM-8.E",
+              "name": "Represent a function as a Taylor series or a Maclaurin series. BC ONLY",
+              "subtopics": [
+                {
+                  "id": "LIM-8.E.1",
+                  "text": "A Taylor polynomial for f(x) is a partial sum of the Taylor series for f(x). BC ONLY The Maclaurin series for $\\frac{1}{1-x}$ is a geometric series. BC ONLY"
+                }
+              ]
+            },
+            {
+              "code": "LIM-8.F",
+              "name": "Interpret Taylor series and Maclaurin series. BC ONLY",
+              "subtopics": [
+                {
+                  "id": "LIM-8.F.2",
+                  "text": "The Maclaurin series for $\\sin x$ , $\\cos x$ , and $e^x$ provides the foundation for constructing the Maclaurin series for other functions. BC ONLY"
+                }
+              ]
+            },
+            {
+              "code": "LIM-8.G",
+              "name": "Represent a given function as a power series. bc only",
+              "subtopics": [
+                {
+                  "id": "LIM-8.G.1",
+                  "text": "Using a known series, a power series for a given function can be derived using operations such as term-by-term differentiation or term-byterm integration, and by various methods (e.g., algebraic processes, substitutions, or using properties of geometric series). bc only"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

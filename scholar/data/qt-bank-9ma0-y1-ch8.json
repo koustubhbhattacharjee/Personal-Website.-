@@ -1,0 +1,286 @@
+{
+  "schema_version": "2.0",
+  "source_type": "textbook",
+  "source_label": "Pearson Edexcel Year 1 Pure",
+  "textbook_key": "pearson-9ma0-y1",
+  "overlay_key": "pearson-9ma0-full",
+  "subject": "9MA0",
+  "question_types": [
+    {
+      "title": "Pascal's triangle 8A — Row Identification",
+      "section_ref": "8.1",
+      "unit_label": "Chapter 8 — The binomial expansion",
+      "primary_slo": "9MA0.P1.3.1.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "State the row of Pascal's triangle that would give the coefficients of the expansion: (x + y)³",
+          "options": [
+            "Row 4",
+            "Row 3",
+            "Row 2",
+            "Row 5"
+          ],
+          "correct_option": "A",
+          "explanation": "The coefficients for an expansion of power n are found in the (n + 1)th row of Pascal's triangle. For n = 3, this is Row 4.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Pascal's triangle 8A — Binomial Expansion",
+      "section_ref": "8.1",
+      "unit_label": "Chapter 8 — The binomial expansion",
+      "primary_slo": "9MA0.P1.3.1.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Write down the expansion of: (x + y)⁴",
+          "explanation": "Using Row 5 of Pascal's triangle (1, 4, 6, 4, 1) as coefficients for the terms of the expansion.",
+          "diagram_required": "none",
+          "options": [
+            "x⁴ + 4x³y + 6x²y² + 4xy³ + y⁴",
+            "x⁴ + 3x³y + 6x²y² + 3xy³ + y⁴",
+            "x⁴ + 4x³y + 4x²y² + 4xy³ + y⁴",
+            "x⁴ + 4x³y + 6x²y² + 4xy³ + 4y⁴"
+          ],
+          "correct_option": "A"
+        }
+      ]
+    },
+    {
+      "title": "Pascal's triangle 8A — Finding Unknown Constants",
+      "section_ref": "8.1",
+      "unit_label": "Chapter 8 — The binomial expansion",
+      "primary_slo": "9MA0.P1.3.1.2",
+      "aligned_slos": [
+        "9MA0.P1.3.1.3"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The coefficient of x² in the expansion of (2 + ax)³ is 54. Find the possible values of the constant a.",
+          "explanation": "The x² term is C(3,2)(2)¹(ax)² = 3 × 2 × a²x² = 6a²x². Set 6a² = 54 → a² = 9 → a = ±3.",
+          "diagram_required": "none",
+          "options": [
+            "a = ±1.5",
+            "a = ±3",
+            "a = ±9",
+            "a = ±1"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Factorial notation 8B — Numerical Evaluation",
+      "section_ref": "8.2",
+      "unit_label": "Chapter 8 — The binomial expansion",
+      "primary_slo": "9MA0.P1.3.1.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Work out 4!",
+          "explanation": "4! = 4 × 3 × 2 × 1 = 24.",
+          "diagram_required": "none",
+          "options": [
+            "12",
+            "48",
+            "24",
+            "16"
+          ],
+          "correct_option": "C"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Without using a calculator, work out: (4 2)",
+          "explanation": "(4 2) = 4! / (2! 2!) = 24 / 4 = 6.",
+          "diagram_required": "none",
+          "options": [
+            "4",
+            "12",
+            "3",
+            "6"
+          ],
+          "correct_option": "D"
+        }
+      ]
+    },
+    {
+      "title": "Factorial notation 8B — Algebraic Relationships",
+      "section_ref": "8.2",
+      "unit_label": "Chapter 8 — The binomial expansion",
+      "primary_slo": "9MA0.P1.3.1.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Given that (50 13) = 50! / (13! a!), write down the value of a.",
+          "options": [
+            "37",
+            "13",
+            "50",
+            "1"
+          ],
+          "correct_option": "A",
+          "explanation": "Using the formula nCr = n! / (r!(n-r)!), where n=50 and r=13, a = 50 - 13 = 37.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "The binomial expansion 8C — Full Algebraic Expansion",
+      "section_ref": "8.3",
+      "unit_label": "Chapter 8 — The binomial expansion",
+      "primary_slo": "9MA0.P1.3.1.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Write down the expansion of the following: (1 + x)⁴",
+          "explanation": "Applying the binomial theorem for (a + b)ⁿ where a=1, b=x, and n=4.",
+          "diagram_required": "none",
+          "options": [
+            "1 + 4x + 6x² + 4x³ + x⁴",
+            "1 + 4x + 4x² + 4x³ + x⁴",
+            "1 + 4x + 6x² + 4x³ + 4",
+            "1 + 4x + 8x² + 4x³ + x⁴"
+          ],
+          "correct_option": "A"
+        }
+      ]
+    },
+    {
+      "title": "The binomial expansion 8C — Partial Term Extraction",
+      "section_ref": "8.3",
+      "unit_label": "Chapter 8 — The binomial expansion",
+      "primary_slo": "9MA0.P1.3.1.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the first four terms in the expansion of: (1 + x)¹⁰",
+          "explanation": "The first four terms are (10 0), (10 1)x, (10 2)x², and (10 3)x³.",
+          "diagram_required": "none",
+          "options": [
+            "1 + 10x + 45x² + 240x³",
+            "1 + 10x + 45x² + 120x³",
+            "1 + 10x + 90x² + 120x³",
+            "1 + 10x + 45x² + 210x³"
+          ],
+          "correct_option": "B"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Find the first 3 terms, in ascending powers of x, of the binomial expansion of (2 − x)⁶ and simplify each term.",
+          "explanation": "Terms are (6 0)2⁶, (6 1)2⁵(-x), and (6 2)2⁴(-x)².",
+          "diagram_required": "none",
+          "options": [
+            "64 − 192x + 120x²",
+            "64 + 192x + 240x²",
+            "64 - 192x + 240x²",
+            "64 − 192x + 480x²"
+          ],
+          "correct_option": "C"
+        }
+      ]
+    },
+    {
+      "title": "Solving binomial problems 8D — Coefficient Analysis",
+      "section_ref": "8.4",
+      "unit_label": "Chapter 8 — The binomial expansion",
+      "primary_slo": "9MA0.P1.3.1.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the coefficient of x³ in the binomial expansion of: (3 + x)⁵",
+          "options": [
+            "90",
+            "10",
+            "270",
+            "81"
+          ],
+          "correct_option": "A",
+          "explanation": "The x³ term is (5 3)(3)²(x)³ = 10 × 9 × x³ = 90x³.",
+          "diagram_required": "none"
+        },
+        {
+          "question_format": "mcq",
+          "question": "The coefficient of x² in the expansion of (2 + ax)⁶ is 60. Find two possible values of the constant a.",
+          "explanation": "The x² term is (6 2)(2)⁴(ax)² = 15 × 16 × a²x² = 240a²x². Set 240a² = 60 → a² = 0.25 → a = ±0.5.",
+          "diagram_required": "none",
+          "options": [
+            "a = ±2",
+            "a = ±0.25",
+            "a = ±1",
+            "a = ±0.5"
+          ],
+          "correct_option": "D"
+        }
+      ]
+    },
+    {
+      "title": "Solving binomial problems 8D — Expansions with Unknown Parameters",
+      "section_ref": "8.4",
+      "unit_label": "Chapter 8 — The binomial expansion",
+      "primary_slo": "9MA0.P1.3.1.3",
+      "aligned_slos": [
+        "9MA0.P1.3.1.1"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the first four terms, in ascending powers of x, of the binomial expansion of (1 + qx)¹⁰, where q is a non-zero constant.",
+          "explanation": "Applying the expansion formula to (1 + qx)¹⁰ term by term.",
+          "diagram_required": "none",
+          "options": [
+            "1 + 10qx + 45q²x² + 120q³x³",
+            "1 + 10qx + 90q²x² + 120q³x³",
+            "1 + 10qx + 45q²x² + 210q³x³",
+            "1 + qx + 45q²x² + 120q³x³"
+          ],
+          "correct_option": "A"
+        }
+      ]
+    },
+    {
+      "title": "Binomial estimation 8E — Numerical Approximations",
+      "section_ref": "8.5",
+      "unit_label": "Chapter 8 — The binomial expansion",
+      "primary_slo": "9MA0.P1.3.1.4",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the first four terms, in ascending powers of x, in the binomial expansion of f(x) = (1 − 5x)³⁰.",
+          "explanation": "Expanding (1 + (-5x))³⁰ using the binomial theorem.",
+          "diagram_required": "none",
+          "options": [
+            "1 − 150x + 10875x² − 253750x³",
+            "1 - 150x + 10875x² - 507500x³",
+            "1 − 30x + 10875x² − 507500x³",
+            "1 − 150x + 5437x² − 507500x³"
+          ],
+          "correct_option": "B"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Find the first 4 terms, in ascending powers of x, of the binomial expansion of (1 − 3x)⁵.",
+          "explanation": "Terms are (5 0), (5 1)(-3x), (5 2)(-3x)², and (5 3)(-3x)³.",
+          "diagram_required": "none",
+          "options": [
+            "1 − 15x + 90x² − 540x³",
+            "1 − 15x + 45x² − 270x³",
+            "1 - 15x + 90x² - 270x³",
+            "1 + 15x + 90x² − 270x³"
+          ],
+          "correct_option": "C"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,688 @@
+{
+  "subject": "AP Physics 1",
+  "source": "NotebookLM",
+  "source_label": "Official CED + 5 Steps + Reference Synthesis",
+  "custom_notes": "Reviewed Unit 2 Force and Translational Dynamics bank with answer-only formatting for import.",
+  "questionTypes": [
+    {
+      "type": "Identify properties of systems and calculate center of mass",
+      "unit": "Unit 2: Force and Translational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Which of the following properties is ignored when treating a complex system as a single point mass using the object model?",
+          "options": ["Total mass", "Internal structure and configuration", "Net charge", "Velocity of the center of mass"],
+          "correct_option": "Internal structure and configuration",
+          "answer": "B. Internal structure and configuration"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "For a system with a symmetrical mass distribution, where is the center of mass located?",
+          "options": ["At the heaviest part", "On lines of symmetry", "At the edge of the system", "It cannot be determined without calculation"],
+          "correct_option": "On lines of symmetry",
+          "answer": "B. On lines of symmetry"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A system consists of two 1 kg masses located at x = 0 m and x = 2 m. Where is the center of mass of this system?",
+          "options": ["x = 0 m", "x = 0.5 m", "x = 1.0 m", "x = 1.5 m"],
+          "correct_option": "x = 1.0 m",
+          "answer": "C. x = 1.0 m"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "What happens to the analysis of a system if the interactions between constituent objects are not important for modeling macroscopic behavior?",
+          "options": ["The system must be discarded", "The system can be treated as a single object", "Newton's laws no longer apply", "Only internal energy is conserved"],
+          "correct_option": "The system can be treated as a single object",
+          "answer": "B. The system can be treated as a single object"
+        }
+      ]
+    },
+    {
+      "type": "Construct and interpret free-body diagrams (FBDs)",
+      "unit": "Unit 2: Force and Translational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "An object hangs by a string from a car's rearview mirror. If the car is speeding up and moving to the right, which forces should appear on the FBD of the object?",
+          "options": ["Gravity, Tension, and Engine Force", "Gravity and Tension only", "Gravity, Tension, and Friction", "Gravity, Tension, and a forward 'Force of Motion'"],
+          "correct_option": "Gravity and Tension only",
+          "answer": "B. Gravity and Tension only"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Where should the arrows originate when drawing individual forces on a free-body diagram on the AP Physics exam?",
+          "options": ["From the surface of the object", "From a single dot representing the object", "From the center of the Earth", "From the tip of the previous arrow"],
+          "correct_option": "From a single dot representing the object",
+          "answer": "B. From a single dot representing the object"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A block is at rest on a rough incline. Which force points exactly opposite to the normal force in the FBD?",
+          "options": ["The weight of the block", "The component of gravity perpendicular to the surface", "The component of gravity parallel to the surface", "The force of static friction"],
+          "correct_option": "The component of gravity perpendicular to the surface",
+          "answer": "B. The component of gravity perpendicular to the surface"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "When an object is in free fall, what force(s) should be shown on its free-body diagram if air resistance is negligible?",
+          "options": ["Gravity and Air Resistance", "Gravity only", "Gravity and Normal Force", "No forces are acting"],
+          "correct_option": "Gravity only",
+          "answer": "B. Gravity only"
+        }
+      ]
+    },
+    {
+      "type": "Identify Newton's Third Law interaction pairs",
+      "unit": "Unit 2: Force and Translational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A string pulls on a block with a tension force T. According to Newton's third law, what is the reaction force?",
+          "options": ["The weight of the block", "The block pulls on the string with force T", "Friction pulls on the block", "The normal force on the block"],
+          "correct_option": "The block pulls on the string with force T",
+          "answer": "B. The block pulls on the string with force T"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which of the following is a necessary condition for two forces to be a Newton's third law interaction pair?",
+          "options": ["They must act on the same object", "They must have different magnitudes", "They must act on two different objects", "One must be a contact force and one must be a field force"],
+          "correct_option": "They must act on two different objects",
+          "answer": "C. They must act on two different objects"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A student pushes down on a table. The interaction pair to this push is the:",
+          "options": ["Weight of the student", "Table pushing up on the student", "Gravity pulling down on the table", "Normal force from the floor on the student"],
+          "correct_option": "Table pushing up on the student",
+          "answer": "B. Table pushing up on the student"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In a collision between a heavy truck and a light car, how do the magnitudes of the forces they exert on each other compare?",
+          "options": ["The truck exerts a greater force", "The car exerts a greater force", "They exert equal forces on each other", "It depends on which vehicle is moving faster"],
+          "correct_option": "They exert equal forces on each other",
+          "answer": "C. They exert equal forces on each other"
+        }
+      ]
+    },
+    {
+      "type": "Apply Newton's First Law to translational equilibrium",
+      "unit": "Unit 2: Force and Translational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "If an object is moving at a constant velocity, what can be concluded about the net force acting on it?",
+          "options": ["It is increasing", "It is constant and non-zero", "It is zero", "It is equal to the object's mass"],
+          "correct_option": "It is zero",
+          "answer": "C. It is zero"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A traffic light is suspended by two symmetric cables. If the net force on the light is zero, what must be true about the vertical components of the tensions?",
+          "options": ["They are each equal to the weight", "Their sum equals the weight of the light", "They are zero", "They are larger than the horizontal components"],
+          "correct_option": "Their sum equals the weight of the light",
+          "answer": "B. Their sum equals the weight of the light"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In which type of reference frame would an observer verify Newton's first law of motion?",
+          "options": ["Accelerating frame", "Rotating frame", "Inertial frame", "Non-inertial frame"],
+          "correct_option": "Inertial frame",
+          "answer": "C. Inertial frame"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An object experiences balanced forces in the y-direction but unbalanced forces in the x-direction. Describe its motion.",
+          "options": ["Constant velocity in both directions", "Constant velocity in y; acceleration in x", "Acceleration in both directions", "The object must be at rest"],
+          "correct_option": "Constant velocity in y; acceleration in x",
+          "answer": "B. Constant velocity in y; acceleration in x"
+        }
+      ]
+    },
+    {
+      "type": "Solve for acceleration using Newton's Second Law",
+      "unit": "Unit 2: Force and Translational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A net force of 10 N acts on a 2 kg object. What is the acceleration of the object?",
+          "options": ["0.2 m/s^2", "5 m/s^2", "12 m/s^2", "20 m/s^2"],
+          "correct_option": "5 m/s^2",
+          "answer": "B. 5 m/s^2"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the net force on an object is directed to the right, what is the direction of the object's acceleration?",
+          "options": ["Left", "Right", "Up", "It depends on the velocity direction"],
+          "correct_option": "Right",
+          "answer": "B. Right"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A drag racer speeds up from rest to 22 m/s in 2 s. If the racer's mass is 800 kg, what is the net force acting on the racer?",
+          "options": ["400 N", "1100 N", "8800 N", "17600 N"],
+          "correct_option": "8800 N",
+          "answer": "C. 8800 N"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If you double the net force acting on an object while keeping its mass constant, how does the acceleration change?",
+          "options": ["It is halved", "It remains the same", "It doubles", "It quadruples"],
+          "correct_option": "It doubles",
+          "answer": "C. It doubles"
+        }
+      ]
+    },
+    {
+      "type": "Analyze multi-body system dynamics and connected objects",
+      "unit": "Unit 2: Force and Translational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Two blocks (2 kg and 3 kg) are connected by a string and pulled across a frictionless surface by a 10 N force. What is the acceleration of the system?",
+          "options": ["2 m/s^2", "3.3 m/s^2", "5 m/s^2", "10 m/s^2"],
+          "correct_option": "2 m/s^2",
+          "answer": "A. 2 m/s^2"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In the system from the previous question, what is the tension in the string connecting the two blocks (if the force pulls the 3 kg block)?",
+          "options": ["2 N", "4 N", "6 N", "10 N"],
+          "correct_option": "4 N",
+          "answer": "B. 4 N"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A 0.5 kg cart on a frictionless table is connected to a 0.1 kg hanging mass via a pulley. What is the net force on this two-object system?",
+          "options": ["0.1 N", "0.5 N", "1.0 N", "6.0 N"],
+          "correct_option": "1.0 N",
+          "answer": "C. 1.0 N"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "As a hanging object in a two-body system falls and speeds up, how does the tension in the rope compare to the object's weight (mg)?",
+          "options": ["T > mg", "T < mg", "T = mg", "T = 0"],
+          "correct_option": "T < mg",
+          "answer": "B. T < mg"
+        }
+      ]
+    },
+    {
+      "type": "Compare inertial and gravitational mass",
+      "unit": "Unit 2: Force and Translational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Which type of mass determines an object's resistance to changes in its motion?",
+          "options": ["Gravitational mass", "Inertial mass", "Relativistic mass", "Center of mass"],
+          "correct_option": "Inertial mass",
+          "answer": "B. Inertial mass"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In an experiment, a student uses a steady 0.2 N force to accelerate a cart and uses a motion detector to find acceleration. What type of mass are they measuring?",
+          "options": ["Gravitational mass", "Inertial mass", "Both", "Volume mass"],
+          "correct_option": "Inertial mass",
+          "answer": "B. Inertial mass"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which of the following is related to the force of attraction between two systems with mass?",
+          "options": ["Inertial mass", "Gravitational mass", "Moment of inertia", "Angular momentum"],
+          "correct_option": "Gravitational mass",
+          "answer": "B. Gravitational mass"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "According to the principle of equivalence, how do inertial and gravitational mass compare?",
+          "options": ["Inertial is always larger", "Gravitational is always larger", "They have been experimentally verified to be equivalent", "They are unrelated properties"],
+          "correct_option": "They have been experimentally verified to be equivalent",
+          "answer": "C. They have been experimentally verified to be equivalent"
+        }
+      ]
+    },
+    {
+      "type": "Calculate gravitational force using the Universal Law",
+      "unit": "Unit 2: Force and Translational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "If the distance between two masses is doubled, the gravitational force between them:",
+          "options": ["Doubles", "Is halved", "Quadruples", "Is reduced to one-fourth"],
+          "correct_option": "Is reduced to one-fourth",
+          "answer": "D. Is reduced to one-fourth"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The gravitational force between two objects is F. If one mass is tripled and the other is doubled, what is the new force?",
+          "options": ["2F", "3F", "5F", "6F"],
+          "correct_option": "6F",
+          "answer": "D. 6F"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Newton's law of universal gravitation describes the force as being inversely proportional to the square of:",
+          "options": ["The sum of the masses", "The distance between the centers of mass", "The planetary radii", "The orbital period"],
+          "correct_option": "The distance between the centers of mass",
+          "answer": "B. The distance between the centers of mass"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which direction does the gravitational field point for a spherically symmetric mass?",
+          "options": ["Tangentially", "Radially outward", "Radially inward", "In a circular loop"],
+          "correct_option": "Radially inward",
+          "answer": "C. Radially inward"
+        }
+      ]
+    },
+    {
+      "type": "Determine gravitational field strength 'g' in varying scenarios",
+      "unit": "Unit 2: Force and Translational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Planet Z has twice the mass of Earth and twice the diameter of Earth. How does the 'g' on Planet Z compare to Earth's 'g'?",
+          "options": ["g_z = 0.5 g_earth", "g_z = g_earth", "g_z = 2 g_earth", "g_z = 4 g_earth"],
+          "correct_option": "g_z = 0.5 g_earth",
+          "answer": "A. g_z = 0.5 g_earth"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The magnitude of the gravitational field on a planet's surface is 2g. If the planet's mass is half of Earth's mass, its radius is:",
+          "options": ["R_earth / 2", "R_earth / sqrt(2)", "R_earth", "2 R_earth"],
+          "correct_option": "R_earth / 2",
+          "answer": "A. R_earth / 2"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "What happens to the gravitational field strength as you move twice as far from the center of a planet?",
+          "options": ["It is halved", "It remains the same", "It is reduced to one-fourth", "It doubles"],
+          "correct_option": "It is reduced to one-fourth",
+          "answer": "C. It is reduced to one-fourth"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An astronaut is on a planet with 3 times Earth's mass and 3 times Earth's radius. Their weight there is:",
+          "options": ["One-ninth their Earth weight", "One-third their Earth weight", "The same as Earth weight", "3 times their Earth weight"],
+          "correct_option": "One-third their Earth weight",
+          "answer": "B. One-third their Earth weight"
+        }
+      ]
+    },
+    {
+      "type": "Calculate static friction and the threshold of motion",
+      "unit": "Unit 2: Force and Translational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "The maximum force of static friction for a box is 25 N. If a horizontal force of 20 N is applied to the box at rest, what is the static friction force?",
+          "options": ["0 N", "5 N", "20 N", "25 N"],
+          "correct_option": "20 N",
+          "answer": "C. 20 N"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which of the following determines the maximum value of static friction between two surfaces?",
+          "options": ["Applied force", "Normal force and coefficient of static friction", "The object's velocity", "The area of contact"],
+          "correct_option": "Normal force and coefficient of static friction",
+          "answer": "B. Normal force and coefficient of static friction"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A block is on a surface where mu_s = 0.5 and mu_k = 0.3. If the block is at rest and a force equal to the maximum static friction is applied, what happens?",
+          "options": ["It stays at rest", "It begins to accelerate", "It moves at constant velocity", "The normal force increases"],
+          "correct_option": "It begins to accelerate",
+          "answer": "B. It begins to accelerate"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In which direction is the static friction force exerted?",
+          "options": ["Always downward", "Parallel to the normal force", "In the direction required to prevent slipping", "In the direction of motion"],
+          "correct_option": "In the direction required to prevent slipping",
+          "answer": "C. In the direction required to prevent slipping"
+        }
+      ]
+    },
+    {
+      "type": "Calculate kinetic friction in translational motion",
+      "unit": "Unit 2: Force and Translational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "The force of kinetic friction between two surfaces does NOT depend on which of the following?",
+          "options": ["The coefficient of kinetic friction", "The normal force", "The surface area of contact", "The nature of the materials"],
+          "correct_option": "The surface area of contact",
+          "answer": "C. The surface area of contact"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A puck slides across a table. The kinetic friction force is exerted in which direction?",
+          "options": ["Opposite to the velocity relative to the table", "In the direction of motion", "Perpendicular to the table", "Toward the center of the table"],
+          "correct_option": "Opposite to the velocity relative to the table",
+          "answer": "A. Opposite to the velocity relative to the table"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If you double the mass of a sliding block, the kinetic friction force:",
+          "options": ["Is halved", "Remains the same", "Doubles", "Quadruples"],
+          "correct_option": "Doubles",
+          "answer": "C. Doubles"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "What is the primary macroscopic cause of contact forces like friction?",
+          "options": ["Gravity", "Interatomic electric forces", "Magnetic fields", "Nuclear forces"],
+          "correct_option": "Interatomic electric forces",
+          "answer": "B. Interatomic electric forces"
+        }
+      ]
+    },
+    {
+      "type": "Analyze forces and motion on inclined planes",
+      "unit": "Unit 2: Force and Translational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "For a block on a frictionless incline of angle theta, what is the acceleration down the ramp?",
+          "options": ["g", "g sin(theta)", "g cos(theta)", "g tan(theta)"],
+          "correct_option": "g sin(theta)",
+          "answer": "B. g sin(theta)"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "How does the normal force on a block change as the angle of an incline increases from 0 to 90 degrees?",
+          "options": ["It increases", "It decreases", "It remains the same", "It fluctuates"],
+          "correct_option": "It decreases",
+          "answer": "B. It decreases"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A block of mass m is at rest on a rough incline. Which force has a magnitude equal to mg sin(theta)?",
+          "options": ["Normal force", "Static friction", "Kinetic friction", "Weight"],
+          "correct_option": "Static friction",
+          "answer": "B. Static friction"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Two ramps have the same height but different angles. Which is true for a block sliding down either frictionless ramp from rest?",
+          "options": ["Ramp with larger angle gives higher final speed", "Ramp with smaller angle gives higher final speed", "They result in the same final speed", "Acceleration is the same for both"],
+          "correct_option": "They result in the same final speed",
+          "answer": "C. They result in the same final speed"
+        }
+      ]
+    },
+    {
+      "type": "Apply Hooke's Law to calculate spring force",
+      "unit": "Unit 2: Force and Translational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A force of 4 N compresses a spring by 0.05 m. What is the spring constant k?",
+          "options": ["0.2 N/m", "20 N/m", "80 N/m", "200 N/m"],
+          "correct_option": "80 N/m",
+          "answer": "C. 80 N/m"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The magnitude of the force exerted by an ideal spring is proportional to:",
+          "options": ["The square of the displacement", "The change in its length from relaxed length", "The mass attached to it", "The time it has been stretched"],
+          "correct_option": "The change in its length from relaxed length",
+          "answer": "B. The change in its length from relaxed length"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In which direction is the spring force always directed?",
+          "options": ["Toward the equilibrium position", "Away from the equilibrium position", "Downward", "In the direction of displacement"],
+          "correct_option": "Toward the equilibrium position",
+          "answer": "A. Toward the equilibrium position"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If you double the stretch of a spring, the restoring force:",
+          "options": ["Is halved", "Stays the same", "Doubles", "Quadruples"],
+          "correct_option": "Doubles",
+          "answer": "C. Doubles"
+        }
+      ]
+    },
+    {
+      "type": "Analyze circular motion and centripetal acceleration",
+      "unit": "Unit 2: Force and Translational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "In uniform circular motion, which way does the centripetal acceleration vector point?",
+          "options": ["Tangent to the path", "Away from the center", "Toward the center", "Opposite the velocity"],
+          "correct_option": "Toward the center",
+          "answer": "C. Toward the center"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If an object's speed in a circular path is doubled while the radius is kept constant, the centripetal acceleration:",
+          "options": ["Is halved", "Doubles", "Quadruples", "Remains the same"],
+          "correct_option": "Quadruples",
+          "answer": "C. Quadruples"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which component of an object's acceleration is responsible for changing its direction of motion?",
+          "options": ["Tangential acceleration", "Centripetal acceleration", "Angular acceleration", "Vertical acceleration"],
+          "correct_option": "Centripetal acceleration",
+          "answer": "B. Centripetal acceleration"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "For an object traveling at constant speed in a circle, the period T is proportional to:",
+          "options": ["The radius R", "The square of the radius", "The speed v", "The centripetal acceleration"],
+          "correct_option": "The radius R",
+          "answer": "A. The radius R"
+        }
+      ]
+    },
+    {
+      "type": "Analyze net force in circular motion (Centripetal Force)",
+      "unit": "Unit 2: Force and Translational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A ball is twirled in a vertical circle. At the very bottom, which force equation correctly represents the centripetal force?",
+          "options": ["T + mg = mv^2/r", "T - mg = mv^2/r", "mg - T = mv^2/r", "T = mv^2/r"],
+          "correct_option": "T - mg = mv^2/r",
+          "answer": "B. T - mg = mv^2/r"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A car travels over a circular hill. At the crest, the normal force on the car is:",
+          "options": ["Greater than mg", "Less than mg", "Equal to mg", "Zero"],
+          "correct_option": "Less than mg",
+          "answer": "B. Less than mg"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "What provides the centripetal force for a car turning on a level, unbanked road?",
+          "options": ["Normal force", "Gravity", "Static friction", "Kinetic friction"],
+          "correct_option": "Static friction",
+          "answer": "C. Static friction"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A pendulum bob is swinging. At the bottom of its 180-degree arc, it is neither speeding up nor slowing down. The force registered by a sensor there is:",
+          "options": ["Equal to its weight", "Greater than its weight", "Less than its weight", "Zero"],
+          "correct_option": "Greater than its weight",
+          "answer": "B. Greater than its weight"
+        }
+      ]
+    },
+    {
+      "type": "Analyze non-inertial frames and apparent weight",
+      "unit": "Unit 2: Force and Translational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A man stands on a scale in an elevator accelerating upward. The scale reading will be:",
+          "options": ["Equal to his weight", "Greater than his weight", "Less than his weight", "Zero"],
+          "correct_option": "Greater than his weight",
+          "answer": "B. Greater than his weight"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A weightlifter lifting a barbell at constant speed suddenly slows to a stop. During this slowing interval, the scale reading will:",
+          "options": ["Increase", "Decrease", "Remain the same", "Become zero"],
+          "correct_option": "Decrease",
+          "answer": "B. Decrease"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In a free-falling elevator, the apparent weight of an object is:",
+          "options": ["Zero", "mg", "2mg", "mg/2"],
+          "correct_option": "Zero",
+          "answer": "A. Zero"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An object accelerates upward. From Newton's second law, the normal force must satisfy:",
+          "options": ["Fn = Mg", "Fn = M(g+a)", "Fn = M(g-a)", "Fn = Ma"],
+          "correct_option": "Fn = M(g+a)",
+          "answer": "B. Fn = M(g+a)"
+        }
+      ]
+    },
+    {
+      "type": "Analyze circular orbits and Kepler's Third Law",
+      "unit": "Unit 2: Force and Translational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "For a satellite in circular orbit, which force provides the centripetal acceleration?",
+          "options": ["Tension", "Normal force", "Gravitational attraction", "Air resistance"],
+          "correct_option": "Gravitational attraction",
+          "answer": "C. Gravitational attraction"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "What happens to the speed of a satellite if it is moved to an orbit with a larger radius?",
+          "options": ["It increases", "It decreases", "It stays the same", "It becomes zero"],
+          "correct_option": "It decreases",
+          "answer": "B. It decreases"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "According to the derived orbital period equation, T^2 is proportional to:",
+          "options": ["The mass of the satellite", "The radius R", "The cube of the radius R^3", "The square root of R"],
+          "correct_option": "The cube of the radius R^3",
+          "answer": "C. The cube of the radius R^3"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "To calculate the speed of a satellite in orbit, one must know the mass of:",
+          "options": ["The satellite only", "The central body only", "Both the satellite and the central body", "Neither, speed is independent of mass"],
+          "correct_option": "The central body only",
+          "answer": "B. The central body only"
+        }
+      ]
+    },
+    {
+      "type": "Linearize dynamics data to determine physical constants",
+      "unit": "Unit 2: Force and Translational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "To determine 'g' from a graph of height h versus time t for an object starting at rest, one should plot:",
+          "options": ["h vs t", "h vs sqrt(t)", "h vs t^2", "h vs 1/t"],
+          "correct_option": "h vs t^2",
+          "answer": "C. h vs t^2"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The slope of a graph of Force vs. Elongation for a spring represents:",
+          "options": ["Mass", "Spring constant k", "Acceleration", "Potential energy"],
+          "correct_option": "Spring constant k",
+          "answer": "B. Spring constant k"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A student plots weight (N) on the y-axis and mass (kg) on the x-axis. The slope of this graph is:",
+          "options": ["g", "G", "1/g", "Density"],
+          "correct_option": "g",
+          "answer": "A. g"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "To find the coefficient of kinetic friction, a student should plot friction force vs:",
+          "options": ["Speed", "Time", "Normal force", "Mass"],
+          "correct_option": "Normal force",
+          "answer": "C. Normal force"
+        }
+      ]
+    },
+    {
+      "type": "Design experiments for translational dynamics",
+      "unit": "Unit 2: Force and Translational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Which tool is best for measuring the instantaneous acceleration of a cart in a dynamics lab?",
+          "options": ["Meterstick and stopwatch", "Motion detector", "Spring scale", "Protractor"],
+          "correct_option": "Motion detector",
+          "answer": "B. Motion detector"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "To experimentally determine the coefficient of static friction, a student should find:",
+          "options": ["The speed of the object", "The maximum angle of an incline before slipping", "The time to slide down a ramp", "The mass of the ramp"],
+          "correct_option": "The maximum angle of an incline before slipping",
+          "answer": "B. The maximum angle of an incline before slipping"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "When measuring the period of a rotating device, why should multiple trials be performed?",
+          "options": ["To increase the mass", "To reduce random error and uncertainty", "To change the radius", "To satisfy the AP Course Audit"],
+          "correct_option": "To reduce random error and uncertainty",
+          "answer": "B. To reduce random error and uncertainty"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In a lab to determine spring constant k, which setup allows for the most direct measurement?",
+          "options": ["Hanging various known masses and measuring stretch", "Timing oscillations of an unknown mass", "Dropping the spring from a height", "Measuring the spring's temperature"],
+          "correct_option": "Hanging various known masses and measuring stretch",
+          "answer": "A. Hanging various known masses and measuring stretch"
+        }
+      ]
+    },
+    {
+      "type": "Predictive scaling and functional dependence in dynamics",
+      "unit": "Unit 2: Force and Translational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "If you double the mass of a cart but apply the same net force, the acceleration will:",
+          "options": ["Double", "Be halved", "Quadruple", "Stay the same"],
+          "correct_option": "Be halved",
+          "answer": "B. Be halved"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "To quadruple the gravitational force between two objects, the distance between them must be:",
+          "options": ["Doubled", "Quadrupled", "Halved", "Divided by 4"],
+          "correct_option": "Halved",
+          "answer": "C. Halved"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A spring is stretched a distance x, producing restoring force F. To produce force 3F, the stretch must be:",
+          "options": ["sqrt(3)x", "1.5x", "3x", "9x"],
+          "correct_option": "3x",
+          "answer": "C. 3x"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If an object's speed in a circle is tripled, the required centripetal force increases by factor:",
+          "options": ["3", "6", "9", "27"],
+          "correct_option": "9",
+          "answer": "C. 9"
+        }
+      ]
+    }
+  ]
+}

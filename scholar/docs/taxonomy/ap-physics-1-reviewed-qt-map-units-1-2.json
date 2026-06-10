@@ -1,0 +1,525 @@
+{
+  "subject": "AP Physics 1",
+  "units": [
+    {
+      "unit": "Unit 1: Kinematics",
+      "target_qt_count": 20,
+      "actual_qt_count": 20,
+      "question_types": [
+        {
+          "type": "Determine instantaneous velocity from position-time slope",
+          "unit": "Unit 1: Kinematics",
+          "primary_lo": "APPhy1.1.3",
+          "primary_slo": "APPhy1.1.3.4",
+          "standard_codes": ["APPhy1.1.3"],
+          "reinforcement": [
+            { "code": "APPhy1.1.2", "weight": 0.2 }
+          ],
+          "reinforcement_slos": [
+            { "slo_id": "APPhy1.1.2.7", "weight": 0.2 }
+          ],
+          "qt_distinctness_reason": "Focuses on the derivative relationship between position and velocity on a graph.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Calculate displacement from velocity-time area",
+          "unit": "Unit 1: Kinematics",
+          "primary_lo": "APPhy1.1.3",
+          "primary_slo": "APPhy1.1.3.4",
+          "standard_codes": ["APPhy1.1.3"],
+          "reinforcement": [
+            { "code": "APPhy1.1.2", "weight": 0.2 }
+          ],
+          "reinforcement_slos": [
+            { "slo_id": "APPhy1.1.2.2", "weight": 0.2 }
+          ],
+          "qt_distinctness_reason": "Requires integral analysis of velocity data over time intervals.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Determine instantaneous acceleration from velocity-time slope",
+          "unit": "Unit 1: Kinematics",
+          "primary_lo": "APPhy1.1.3",
+          "primary_slo": "APPhy1.1.3.4",
+          "standard_codes": ["APPhy1.1.3"],
+          "reinforcement": [
+            { "code": "APPhy1.1.2", "weight": 0.2 }
+          ],
+          "reinforcement_slos": [
+            { "slo_id": "APPhy1.1.2.7", "weight": 0.2 }
+          ],
+          "qt_distinctness_reason": "Focuses on the rate of change of velocity at specific time points.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Solve for linear motion variables using kinematic equations",
+          "unit": "Unit 1: Kinematics",
+          "primary_lo": "APPhy1.1.3",
+          "primary_slo": "APPhy1.1.3.2",
+          "standard_codes": ["APPhy1.1.3"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "Uses algebraic routines to solve for unknown motion variables under constant acceleration.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Apply constant gravitational acceleration to vertical free-fall",
+          "unit": "Unit 1: Kinematics",
+          "primary_lo": "APPhy1.1.3",
+          "primary_slo": "APPhy1.1.3.3",
+          "standard_codes": ["APPhy1.1.3"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "Specifically deals with gravity as a constant acceleration downward near Earth.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Analyze vectors as resultants of perpendicular components",
+          "unit": "Unit 1: Kinematics",
+          "primary_lo": "APPhy1.1.5",
+          "primary_slo": "APPhy1.1.5.1",
+          "standard_codes": ["APPhy1.1.5"],
+          "reinforcement": [
+            { "code": "APPhy1.1.1", "weight": 0.3 }
+          ],
+          "reinforcement_slos": [
+            { "slo_id": "APPhy1.1.1.4", "weight": 0.2 }
+          ],
+          "qt_distinctness_reason": "Focuses on the mathematical model of vector addition and resultants.",
+          "source_priority_basis": "reference_book"
+        },
+        {
+          "type": "Resolve vectors into perpendicular components using trigonometry",
+          "unit": "Unit 1: Kinematics",
+          "primary_lo": "APPhy1.1.5",
+          "primary_slo": "APPhy1.1.5.3",
+          "standard_codes": ["APPhy1.1.5"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "Requires specific trig functions to decouple vector directions.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Separate 2D motion into independent components for analysis",
+          "unit": "Unit 1: Kinematics",
+          "primary_lo": "APPhy1.1.5",
+          "primary_slo": "APPhy1.1.5.4",
+          "standard_codes": ["APPhy1.1.5"],
+          "reinforcement": [
+            { "code": "APPhy1.1.3", "weight": 0.4 }
+          ],
+          "reinforcement_slos": [
+            { "slo_id": "APPhy1.1.3.2", "weight": 0.3 }
+          ],
+          "qt_distinctness_reason": "The procedural core is analyzing x and y dimensions separately for the same object.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Predict flight time and range for horizontal projectiles",
+          "unit": "Unit 1: Kinematics",
+          "primary_lo": "APPhy1.1.5",
+          "primary_slo": "APPhy1.1.5.5",
+          "standard_codes": ["APPhy1.1.5"],
+          "reinforcement": [],
+          "reinforcement_slos": [
+            { "slo_id": "APPhy1.1.5.4", "weight": 0.4 }
+          ],
+          "qt_distinctness_reason": "Specific subclass of 2D motion with zero initial vertical velocity.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Predict target clearance for projectiles launched at angles",
+          "unit": "Unit 1: Kinematics",
+          "primary_lo": "APPhy1.1.5",
+          "primary_slo": "APPhy1.1.5.5",
+          "standard_codes": ["APPhy1.1.5"],
+          "reinforcement": [
+            { "code": "APPhy1.1.3", "weight": 0.2 }
+          ],
+          "reinforcement_slos": [
+            { "slo_id": "APPhy1.1.3.2", "weight": 0.3 }
+          ],
+          "qt_distinctness_reason": "Requires finding vertical position at a specific horizontal displacement.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Convert motion measurements between different inertial reference frames",
+          "unit": "Unit 1: Kinematics",
+          "primary_lo": "APPhy1.1.4",
+          "primary_slo": "APPhy1.1.4.2",
+          "standard_codes": ["APPhy1.1.4"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "Focuses on the transformation of quantities based on the choice of observer.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Combine motion vectors to find relative velocity in 1D",
+          "unit": "Unit 1: Kinematics",
+          "primary_lo": "APPhy1.1.4",
+          "primary_slo": "APPhy1.1.4.3",
+          "standard_codes": ["APPhy1.1.4"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "Specifically uses vector addition/subtraction to calculate observed speed.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Identify reference frame effects on observed motion direction",
+          "unit": "Unit 1: Kinematics",
+          "primary_lo": "APPhy1.1.4",
+          "primary_slo": "APPhy1.1.4.1",
+          "standard_codes": ["APPhy1.1.4"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "Focuses on directional changes in displacement and velocity due to observer frame choice.",
+          "source_priority_basis": "reference_book"
+        },
+        {
+          "type": "Represent motion qualitatively through narrative descriptions",
+          "unit": "Unit 1: Kinematics",
+          "primary_lo": "APPhy1.1.3",
+          "primary_slo": "APPhy1.1.3.1",
+          "standard_codes": ["APPhy1.1.3"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "Translation task from physical scenarios to coherent verbal explanations.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Create motion diagrams to represent physical situations",
+          "unit": "Unit 1: Kinematics",
+          "primary_lo": "APPhy1.1.3",
+          "primary_slo": "APPhy1.1.3.1",
+          "standard_codes": ["APPhy1.1.3"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "Focuses on discrete visual representations of objects at regular time intervals.",
+          "source_priority_basis": "reference_book"
+        },
+        {
+          "type": "Distinguish between distance and displacement in complex paths",
+          "unit": "Unit 1: Kinematics",
+          "primary_lo": "APPhy1.1.2",
+          "primary_slo": "APPhy1.1.2.2",
+          "standard_codes": ["APPhy1.1.2"],
+          "reinforcement": [
+            { "code": "APPhy1.1.1", "weight": 0.2 }
+          ],
+          "reinforcement_slos": [
+            { "slo_id": "APPhy1.1.1.3", "weight": 0.2 }
+          ],
+          "qt_distinctness_reason": "Tests the fundamental scalar-versus-vector nature of position changes.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Calculate average velocity using displacement and time intervals",
+          "unit": "Unit 1: Kinematics",
+          "primary_lo": "APPhy1.1.2",
+          "primary_slo": "APPhy1.1.2.4",
+          "standard_codes": ["APPhy1.1.2"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "Focuses on the state-based ratio definition of velocity.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Calculate average acceleration from velocity change over time",
+          "unit": "Unit 1: Kinematics",
+          "primary_lo": "APPhy1.1.2",
+          "primary_slo": "APPhy1.1.2.5",
+          "standard_codes": ["APPhy1.1.2"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "Focuses on the state-based ratio definition of acceleration.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Linearize kinematics data sets to determine physical constants",
+          "unit": "Unit 1: Kinematics",
+          "primary_lo": "APPhy1.1.3",
+          "primary_slo": "APPhy1.1.3.4",
+          "standard_codes": ["APPhy1.1.3"],
+          "reinforcement": [
+            { "code": "APPhy1.1.1", "weight": 0.2 }
+          ],
+          "reinforcement_slos": [
+            { "slo_id": "APPhy1.1.1.2", "weight": 0.2 }
+          ],
+          "qt_distinctness_reason": "Lab-centric task of transforming non-linear data into straight-line graphs to extract slope meaning.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Design an experiment to verify uniform acceleration",
+          "unit": "Unit 1: Kinematics",
+          "primary_lo": "APPhy1.1.3",
+          "primary_slo": "APPhy1.1.3.1",
+          "standard_codes": ["APPhy1.1.3"],
+          "reinforcement": [
+            { "code": "APPhy1.1.2", "weight": 0.4 }
+          ],
+          "reinforcement_slos": [
+            { "slo_id": "APPhy1.1.2.7", "weight": 0.3 }
+          ],
+          "qt_distinctness_reason": "Requires choosing representations and measurements that can reveal whether acceleration stays constant.",
+          "source_priority_basis": "official_pyq"
+        }
+      ]
+    },
+    {
+      "unit": "Unit 2: Force and Translational Dynamics",
+      "target_qt_count": 20,
+      "actual_qt_count": 20,
+      "question_types": [
+        {
+          "type": "Locate center of mass for symmetrical mass distributions",
+          "unit": "Unit 2: Force and Translational Dynamics",
+          "primary_lo": "APPhy1.2.1",
+          "primary_slo": "APPhy1.2.1.7",
+          "standard_codes": ["APPhy1.2.1"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "Focuses on identifying lines of symmetry to find a system's balance point.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Model a system as a single point at the center of mass",
+          "unit": "Unit 2: Force and Translational Dynamics",
+          "primary_lo": "APPhy1.2.1",
+          "primary_slo": "APPhy1.2.1.9",
+          "standard_codes": ["APPhy1.2.1"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "Procedural shift where internal structure is ignored and the system is treated as a single object at its center of mass.",
+          "source_priority_basis": "reference_book"
+        },
+        {
+          "type": "Draw and label free-body diagrams for interacting objects",
+          "unit": "Unit 2: Force and Translational Dynamics",
+          "primary_lo": "APPhy1.2.2",
+          "primary_slo": "APPhy1.2.2.4",
+          "standard_codes": ["APPhy1.2.2"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "The essential representation task for identifying all forces exerted on the chosen object by the environment.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Construct Newton's Third Law force pairs for interacting bodies",
+          "unit": "Unit 2: Force and Translational Dynamics",
+          "primary_lo": "APPhy1.2.3",
+          "primary_slo": "APPhy1.2.3.1",
+          "standard_codes": ["APPhy1.2.3"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "Focuses on identifying equal and opposite forces on different interacting objects.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Analyze net force for systems in translational equilibrium",
+          "unit": "Unit 2: Force and Translational Dynamics",
+          "primary_lo": "APPhy1.2.4",
+          "primary_slo": "APPhy1.2.4.2",
+          "standard_codes": ["APPhy1.2.4"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "Specifically applies translational equilibrium where the vector sum of forces is zero.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Solve for object acceleration using net force and mass",
+          "unit": "Unit 2: Force and Translational Dynamics",
+          "primary_lo": "APPhy1.2.5",
+          "primary_slo": "APPhy1.2.5.2",
+          "standard_codes": ["APPhy1.2.5"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "Standard numerical and symbolic application of Newton's Second Law.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Determine tension magnitudes in connected systems",
+          "unit": "Unit 2: Force and Translational Dynamics",
+          "primary_lo": "APPhy1.2.3",
+          "primary_slo": "APPhy1.2.3.3",
+          "standard_codes": ["APPhy1.2.3"],
+          "reinforcement": [
+            { "code": "APPhy1.2.5", "weight": 0.3 }
+          ],
+          "reinforcement_slos": [
+            { "slo_id": "APPhy1.2.5.2", "weight": 0.2 }
+          ],
+          "qt_distinctness_reason": "Analyzes how force is transmitted through ideal or nonideal strings in connected systems.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Resolve weight into perpendicular components on inclined planes",
+          "unit": "Unit 2: Force and Translational Dynamics",
+          "primary_lo": "APPhy1.2.2",
+          "primary_slo": "APPhy1.2.2.6",
+          "standard_codes": ["APPhy1.2.2"],
+          "reinforcement": [
+            { "code": "APPhy1.1.5", "weight": 0.3 }
+          ],
+          "reinforcement_slos": [
+            { "slo_id": "APPhy1.1.5.3", "weight": 0.2 }
+          ],
+          "qt_distinctness_reason": "Procedurally distinct due to the tilted coordinate system used to translate an incline diagram into equations.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Analyze normal force variation in accelerating elevators",
+          "unit": "Unit 2: Force and Translational Dynamics",
+          "primary_lo": "APPhy1.2.6",
+          "primary_slo": "APPhy1.2.6.7",
+          "standard_codes": ["APPhy1.2.6"],
+          "reinforcement": [
+            { "code": "APPhy1.2.5", "weight": 0.3 }
+          ],
+          "reinforcement_slos": [
+            { "slo_id": "APPhy1.2.5.2", "weight": 0.2 }
+          ],
+          "qt_distinctness_reason": "Addresses the misconception that normal force must equal weight even when the system accelerates vertically.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Differentiate between static and kinetic friction thresholds",
+          "unit": "Unit 2: Force and Translational Dynamics",
+          "primary_lo": "APPhy1.2.7",
+          "primary_slo": "APPhy1.2.7.4",
+          "standard_codes": ["APPhy1.2.7"],
+          "reinforcement": [
+            { "code": "APPhy1.2.7", "weight": 0.2 }
+          ],
+          "reinforcement_slos": [
+            { "slo_id": "APPhy1.2.7.2", "weight": 0.2 }
+          ],
+          "qt_distinctness_reason": "Tests the transition from static friction adjusting to prevent slipping to kinetic friction during sliding.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Calculate kinetic friction using normal force and coefficient",
+          "unit": "Unit 2: Force and Translational Dynamics",
+          "primary_lo": "APPhy1.2.7",
+          "primary_slo": "APPhy1.2.7.2",
+          "standard_codes": ["APPhy1.2.7"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "Focuses on the constant dissipative force during sliding motion.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Predict acceleration changes when net force is doubled",
+          "unit": "Unit 2: Force and Translational Dynamics",
+          "primary_lo": "APPhy1.2.5",
+          "primary_slo": "APPhy1.2.5.2",
+          "standard_codes": ["APPhy1.2.5"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "Proportional reasoning task for scaling force and mass parameters under Newton's Second Law.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Determine gravitational force between two massive objects",
+          "unit": "Unit 2: Force and Translational Dynamics",
+          "primary_lo": "APPhy1.2.6",
+          "primary_slo": "APPhy1.2.6.1",
+          "standard_codes": ["APPhy1.2.6"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "Specifically uses Newton's Law of Universal Gravitation to relate force, mass, and separation.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Apply the equivalence of gravitational and inertial mass",
+          "unit": "Unit 2: Force and Translational Dynamics",
+          "primary_lo": "APPhy1.2.6",
+          "primary_slo": "APPhy1.2.6.12",
+          "standard_codes": ["APPhy1.2.6"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "A conceptual bridge testing why inertial mass and gravitational mass are treated as experimentally equivalent.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Predict gravitational field strength scaling with planet radius",
+          "unit": "Unit 2: Force and Translational Dynamics",
+          "primary_lo": "APPhy1.2.6",
+          "primary_slo": "APPhy1.2.6.2",
+          "standard_codes": ["APPhy1.2.6"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "Scaling task based on gravitational field strength as a position-dependent noncontact interaction.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Calculate restoring force in springs using displacement",
+          "unit": "Unit 2: Force and Translational Dynamics",
+          "primary_lo": "APPhy1.2.8",
+          "primary_slo": "APPhy1.2.8.2",
+          "standard_codes": ["APPhy1.2.8"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "Specifically applies Hooke's Law for position-dependent forces.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Determine centripetal acceleration magnitude for circular motion",
+          "unit": "Unit 2: Force and Translational Dynamics",
+          "primary_lo": "APPhy1.2.9",
+          "primary_slo": "APPhy1.2.9.1",
+          "standard_codes": ["APPhy1.2.9"],
+          "reinforcement": [],
+          "reinforcement_slos": [],
+          "qt_distinctness_reason": "Focuses on the inward acceleration required for circular motion and its v^2/r magnitude relationship.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Analyze centripetal force requirements to maintain circular paths",
+          "unit": "Unit 2: Force and Translational Dynamics",
+          "primary_lo": "APPhy1.2.9",
+          "primary_slo": "APPhy1.2.9.2",
+          "standard_codes": ["APPhy1.2.9"],
+          "reinforcement": [
+            { "code": "APPhy1.2.5", "weight": 0.2 }
+          ],
+          "reinforcement_slos": [
+            { "slo_id": "APPhy1.2.5.2", "weight": 0.2 }
+          ],
+          "qt_distinctness_reason": "Requires matching real external forces such as tension or gravity to the centripetal acceleration requirement.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Design an experiment to measure kinetic friction coefficient",
+          "unit": "Unit 2: Force and Translational Dynamics",
+          "primary_lo": "APPhy1.2.7",
+          "primary_slo": "APPhy1.2.7.2",
+          "standard_codes": ["APPhy1.2.7"],
+          "reinforcement": [
+            { "code": "APPhy1.2.2", "weight": 0.2 }
+          ],
+          "reinforcement_slos": [
+            { "slo_id": "APPhy1.2.2.6", "weight": 0.2 }
+          ],
+          "qt_distinctness_reason": "Lab design task focused on measuring the kinetic-friction relationship through force and motion data.",
+          "source_priority_basis": "official_pyq"
+        },
+        {
+          "type": "Translate free-body diagrams into systems of equations",
+          "unit": "Unit 2: Force and Translational Dynamics",
+          "primary_lo": "APPhy1.2.2",
+          "primary_slo": "APPhy1.2.2.6",
+          "standard_codes": ["APPhy1.2.2"],
+          "reinforcement": [
+            { "code": "APPhy1.2.5", "weight": 0.4 }
+          ],
+          "reinforcement_slos": [
+            { "slo_id": "APPhy1.2.5.2", "weight": 0.3 }
+          ],
+          "qt_distinctness_reason": "Tests the specific bridge between a free-body diagram, a convenient coordinate system, and the resulting algebraic equations.",
+          "source_priority_basis": "official_pyq"
+        }
+      ]
+    }
+  ]
+}

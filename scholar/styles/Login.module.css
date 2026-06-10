@@ -1,0 +1,268 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  padding: 24px;
+  cursor: pointer;
+  background:
+    radial-gradient(circle at top left, rgba(255,255,255,0.42) 0%, transparent 28%),
+    linear-gradient(180deg, var(--login-sky-top) 0%, var(--login-sky-mid) 52%, var(--login-sky-bottom) 100%);
+}
+
+.container::before,
+.container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.container::before {
+  background:
+    radial-gradient(circle at 18% 20%, rgba(255,255,255,0.28) 0%, transparent 16%),
+    radial-gradient(circle at 82% 14%, rgba(255,255,255,0.16) 0%, transparent 18%),
+    linear-gradient(180deg, transparent 0%, rgba(255,255,255,0.1) 100%);
+  opacity: 0.7;
+}
+
+.nightSky::after {
+  background-image:
+    radial-gradient(circle at 14% 18%, rgba(255,255,255,0.95) 0 1.6px, transparent 2px),
+    radial-gradient(circle at 29% 11%, rgba(255,255,255,0.85) 0 1.2px, transparent 2px),
+    radial-gradient(circle at 41% 22%, rgba(255,255,255,0.92) 0 1.4px, transparent 2px),
+    radial-gradient(circle at 58% 10%, rgba(255,255,255,0.8) 0 1.2px, transparent 2px),
+    radial-gradient(circle at 74% 19%, rgba(255,255,255,0.95) 0 1.6px, transparent 2px),
+    radial-gradient(circle at 89% 13%, rgba(255,255,255,0.78) 0 1.2px, transparent 2px);
+}
+
+.sceneGlow {
+  position: absolute;
+  inset: auto auto 18% 50%;
+  transform: translateX(-50%);
+  width: min(78vw, 780px);
+  height: min(40vh, 320px);
+  border-radius: 50%;
+  filter: blur(22px);
+  opacity: 0.48;
+  background: radial-gradient(circle, var(--login-glow) 0%, transparent 68%);
+  pointer-events: none;
+}
+
+.markerWrap {
+  position: absolute;
+  top: 9vh;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  pointer-events: none;
+}
+
+.marker {
+  width: 112px;
+  height: 112px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow:
+    0 24px 50px rgba(38, 27, 10, 0.16),
+    inset 0 0 0 1px rgba(255,255,255,0.35);
+  background: var(--marker-fill);
+  color: var(--marker-color);
+  position: relative;
+}
+
+.markerSun {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: currentColor;
+  box-shadow: 0 0 36px currentColor;
+}
+
+.markerMoon {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: #f3f6ff;
+  position: relative;
+  box-shadow: 0 0 28px rgba(243,246,255,0.72);
+}
+
+.markerMoon::after {
+  content: "";
+  position: absolute;
+  inset: 7px 0 0 16px;
+  border-radius: 50%;
+  background: var(--login-sky-top);
+}
+
+.center {
+  position: relative;
+  z-index: 1;
+  width: min(760px, 100%);
+  text-align: center;
+  animation: easeOut 0.8s ease-out both;
+}
+
+.eyebrow {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--eyebrow-color);
+  margin-bottom: 18px;
+}
+
+.greeting {
+  font-family: "Cormorant Garamond", "Playfair Display", serif;
+  font-size: clamp(56px, 9vw, 112px);
+  line-height: 0.96;
+  letter-spacing: -0.03em;
+  color: var(--headline-color);
+  font-weight: 500;
+  text-wrap: balance;
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 24px;
+  padding: 12px 20px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.3);
+  background: rgba(255,255,255,0.12);
+  color: var(--headline-color);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  backdrop-filter: blur(10px);
+}
+
+.ctaArrow {
+  font-size: 15px;
+  line-height: 1;
+}
+
+.error {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(126, 25, 25, 0.16);
+  border: 1px solid rgba(255, 189, 189, 0.28);
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-size: 13px;
+  color: #fff0f0;
+  backdrop-filter: blur(8px);
+}
+
+.codeForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.codeInput {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  padding: 16px 20px;
+  font-size: 28px;
+  letter-spacing: 0.28em;
+  color: var(--headline-color);
+  text-align: center;
+  width: min(260px, 80vw);
+  backdrop-filter: blur(10px);
+  outline: none;
+  font-family: ui-monospace, monospace;
+}
+
+.codeInput::placeholder {
+  color: var(--eyebrow-color);
+  letter-spacing: 0.2em;
+}
+
+.codeInput:focus {
+  border-color: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.22);
+}
+
+.nameInput {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  padding: 14px 20px;
+  font-size: 18px;
+  color: var(--headline-color);
+  text-align: center;
+  width: min(320px, 84vw);
+  backdrop-filter: blur(10px);
+  outline: none;
+}
+
+.nameInput::placeholder {
+  color: var(--eyebrow-color);
+}
+
+.nameInput:focus {
+  border-color: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.22);
+}
+
+.ctaButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--headline-color);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.ctaButton:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+@keyframes easeOut {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 720px) {
+  .marker {
+    width: 92px;
+    height: 92px;
+  }
+
+  .markerSun,
+  .markerMoon {
+    width: 42px;
+    height: 42px;
+  }
+
+  .cta {
+    margin-top: 24px;
+    padding: 11px 16px;
+  }
+}

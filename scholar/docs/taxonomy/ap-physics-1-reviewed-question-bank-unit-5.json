@@ -1,0 +1,598 @@
+{
+  "subject": "AP Physics 1",
+  "source": "NotebookLM",
+  "source_label": "Official PYQ + reference synthesis",
+  "custom_notes": "Reviewed Unit 5 Torque and Rotational Dynamics bank with answer-only formatting for import.",
+  "questionTypes": [
+    {
+      "type": "Calculate angular displacement, velocity, and acceleration",
+      "unit": "Unit 5: Torque and Rotational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A disk rotates from rest to an angular velocity of 10 rad/s in 2 seconds. What is its angular acceleration?",
+          "options": ["5 rad/s²", "10 rad/s²", "20 rad/s²", "2.5 rad/s²"],
+          "correct_option": "5 rad/s²",
+          "answer": "A. 5 rad/s²",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 5",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "How many radians are in 2.5 full revolutions?",
+          "options": ["2.5π", "5π", "10π", "1.25π"],
+          "correct_option": "5π",
+          "answer": "B. 5π",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Rotational Motion",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A wheel spinning at 4 rad/s slows down at a constant rate of 0.5 rad/s². How long does it take to stop?",
+          "options": ["2 s", "4 s", "8 s", "16 s"],
+          "correct_option": "8 s",
+          "answer": "C. 8 s",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Rotational Motion",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If an object rotates through an angle of 12 radians in 3 seconds at constant angular velocity, its angular speed is:",
+          "options": ["4 rad/s", "36 rad/s", "0.25 rad/s", "9 rad/s"],
+          "correct_option": "4 rad/s",
+          "answer": "A. 4 rad/s",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 5",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Relate linear and rotational kinematic variables",
+      "unit": "Unit 5: Torque and Rotational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A point on the rim of a wheel with radius 0.5 m has a linear speed of 2 m/s. What is the angular velocity of the wheel?",
+          "options": ["1 rad/s", "2 rad/s", "4 rad/s", "0.25 rad/s"],
+          "correct_option": "4 rad/s",
+          "answer": "C. 4 rad/s",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 5",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a wheel's radius is doubled while its angular velocity remains constant, the tangential speed of a point on the rim:",
+          "options": ["Is halved", "Stays the same", "Doubles", "Quadruples"],
+          "correct_option": "Doubles",
+          "answer": "C. Doubles",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 15",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A car's tires rotate without slipping. The linear distance traveled by the car is equal to:",
+          "options": ["The wheel radius", "The angular displacement times radius", "The angular velocity", "The centripetal acceleration"],
+          "correct_option": "The angular displacement times radius",
+          "answer": "B. The angular displacement times radius",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2018",
+            "chapter": "Unit 5",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Two points are on a rotating disk. Point A is 10 cm from the center, and Point B is 20 cm from the center. Which statement is true?",
+          "options": [
+            "A has a larger angular velocity",
+            "B has a larger angular velocity",
+            "A and B have the same angular velocity",
+            "A and B have the same tangential speed"
+          ],
+          "correct_option": "A and B have the same angular velocity",
+          "answer": "C. A and B have the same angular velocity",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Rotational Motion",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Calculate torque from force and lever arm",
+      "unit": "Unit 5: Torque and Rotational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A force of 10 N is applied perpendicular to a wrench at a distance of 0.2 m from the bolt. What is the torque?",
+          "options": ["2 N·m", "50 N·m", "0.02 N·m", "10.2 N·m"],
+          "correct_option": "2 N·m",
+          "answer": "A. 2 N·m",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 15",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "To maximize torque with a fixed force, one should apply the force at an angle of ____ to the lever arm.",
+          "options": ["0°", "45°", "90°", "180°"],
+          "correct_option": "90°",
+          "answer": "C. 90°",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 5",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A force is applied to a door at the hinges. The resulting torque is:",
+          "options": ["Maximum", "Infinite", "Zero", "Negative"],
+          "correct_option": "Zero",
+          "answer": "C. Zero",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Rotational Motion",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which of the following describes the lever arm (r-perpendicular)?",
+          "options": [
+            "The total length of the object",
+            "The distance from the pivot to the line of action of the force",
+            "The angle of the force",
+            "The mass of the object"
+          ],
+          "correct_option": "The distance from the pivot to the line of action of the force",
+          "answer": "B. The distance from the pivot to the line of action of the force",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 5",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Solve for rotational equilibrium (Net Torque = 0)",
+      "unit": "Unit 5: Torque and Rotational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A balanced seesaw has a 20 kg child 2 m from the pivot. Where must a 40 kg child sit to maintain equilibrium?",
+          "options": ["1 m from pivot", "2 m from pivot", "4 m from pivot", "0.5 m from pivot"],
+          "correct_option": "1 m from pivot",
+          "answer": "A. 1 m from pivot",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Rotational Motion",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a rigid rod is in rotational equilibrium, the sum of all torques about ANY pivot point is:",
+          "options": ["Equal to the mass", "Positive", "Zero", "Equal to the net force"],
+          "correct_option": "Zero",
+          "answer": "C. Zero",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 5",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A mobile consists of two masses. Mass A is twice mass B. If Mass B is 30 cm from the support, how far is Mass A?",
+          "options": ["15 cm", "30 cm", "60 cm", "10 cm"],
+          "correct_option": "15 cm",
+          "answer": "A. 15 cm",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 15",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A bridge is supported by two pillars at its ends. A heavy truck drives across. As the truck gets closer to the right pillar, the upward force from the left pillar:",
+          "options": ["Increases", "Decreases", "Stays the same", "Becomes zero"],
+          "correct_option": "Decreases",
+          "answer": "B. Decreases",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2014",
+            "chapter": "Unit 5",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Calculate rotational inertia for discrete systems",
+      "unit": "Unit 5: Torque and Rotational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A 2 kg point mass is located 3 m from the axis of rotation. What is its rotational inertia?",
+          "options": ["6 kg·m²", "12 kg·m²", "18 kg·m²", "36 kg·m²"],
+          "correct_option": "18 kg·m²",
+          "answer": "C. 18 kg·m²",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2014",
+            "chapter": "Unit 5",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Four identical masses are arranged at the corners of a square of side L. What is the total rotational inertia about an axis through the center perpendicular to the plane?",
+          "options": ["ML²", "2ML²", "4ML²", "0.5ML²"],
+          "correct_option": "2ML²",
+          "answer": "B. 2ML²",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Rotational Motion",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If you double the distance of a point mass from the rotation axis, its rotational inertia increases by factor:",
+          "options": ["2", "4", "8", "1.4"],
+          "correct_option": "4",
+          "answer": "B. 4",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 5",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Rotational inertia is the rotational analog of:",
+          "options": ["Velocity", "Force", "Inertial mass", "Momentum"],
+          "correct_option": "Inertial mass",
+          "answer": "C. Inertial mass",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 5",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Predict changes in angular acceleration using Newton's Second Law",
+      "unit": "Unit 5: Torque and Rotational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "If the net torque on a wheel is tripled and its rotational inertia is constant, the angular acceleration:",
+          "options": ["Triples", "Stays the same", "Is halved", "Increases by factor 9"],
+          "correct_option": "Triples",
+          "answer": "A. Triples",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 5",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A torque is applied to a disk. If the mass of the disk is doubled (keeping radius same), the angular acceleration will:",
+          "options": ["Double", "Be halved", "Remain the same", "Be one-fourth"],
+          "correct_option": "Be halved",
+          "answer": "B. Be halved",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 15",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Two wheels have the same mass and radius. One is a hoop, the other a solid disk. If the same torque is applied, which has a higher angular acceleration?",
+          "options": ["The hoop", "The solid disk", "Both the same", "Hoop, because it is hollow"],
+          "correct_option": "The solid disk",
+          "answer": "B. The solid disk",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2016",
+            "chapter": "Unit 5",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A yoyo falls and unwinds. The net torque on the yoyo is provided by:",
+          "options": ["Gravity", "Tension", "Air resistance", "Normal force"],
+          "correct_option": "Tension",
+          "answer": "B. Tension",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 5",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Interpret rotational kinematics graphs",
+      "unit": "Unit 5: Torque and Rotational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "The slope of an angular velocity vs. time graph represents:",
+          "options": ["Angular displacement", "Angular acceleration", "Torque", "Rotational inertia"],
+          "correct_option": "Angular acceleration",
+          "answer": "B. Angular acceleration",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2014",
+            "chapter": "Unit 5",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The area under an angular acceleration vs. time graph represents:",
+          "options": ["Angular displacement", "Change in angular velocity", "Net torque", "Final angular position"],
+          "correct_option": "Change in angular velocity",
+          "answer": "B. Change in angular velocity",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 5",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "On an angular position vs. time graph, a horizontal line means the object is:",
+          "options": ["At rest", "Moving at constant speed", "Accelerating", "Slowing down"],
+          "correct_option": "At rest",
+          "answer": "A. At rest",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Rotational Motion",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A constant net torque is applied to a disk. The angular velocity vs. time graph will be a:",
+          "options": ["Horizontal line", "Straight line with non-zero slope", "Parabola", "Cubic curve"],
+          "correct_option": "Straight line with non-zero slope",
+          "answer": "B. Straight line with non-zero slope",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2018",
+            "chapter": "Unit 5",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Analyze static systems with multiple torque sources",
+      "unit": "Unit 5: Torque and Rotational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A uniform 10 m beam of mass 50 kg is supported by a pivot at its center. A 100 kg weight is placed 2 m from the center. What torque does it provide?",
+          "options": ["200 N·m", "1000 N·m", "2000 N·m", "500 N·m"],
+          "correct_option": "2000 N·m",
+          "answer": "C. 2000 N·m",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Rotational Motion",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "For the beam in the previous question, why does the beam's own weight provide zero torque?",
+          "options": ["It is weightless", "It acts at the pivot", "It is balanced by the supports", "It is too light"],
+          "correct_option": "It acts at the pivot",
+          "answer": "B. It acts at the pivot",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 5",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A sign hangs from a horizontal rod. The rod is attached to a wall by a hinge and supported by a cable. The torque from the hinge is zero because:",
+          "options": ["The hinge is frictionless", "The force acts at the pivot", "The rod is horizontal", "The sign is too heavy"],
+          "correct_option": "The force acts at the pivot",
+          "answer": "B. The force acts at the pivot",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 15",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A ladder leans against a wall. The axis for torque analysis is usually chosen at the floor because:",
+          "options": ["Torque is maximum there", "It eliminates the friction/normal forces at the floor from the torque equation", "Gravity doesn't act at the floor", "The wall is too high"],
+          "correct_option": "It eliminates the friction/normal forces at the floor from the torque equation",
+          "answer": "B. It eliminates the friction/normal forces at the floor from the torque equation",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2014",
+            "chapter": "Unit 5",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Design experiments for rotational dynamics",
+      "unit": "Unit 5: Torque and Rotational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Which tool is best for measuring the angular acceleration of a rotating disk in a lab?",
+          "options": ["Meterstick", "Force probe", "Rotary motion sensor", "Triple beam balance"],
+          "correct_option": "Rotary motion sensor",
+          "answer": "C. Rotary motion sensor",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 5",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "To determine the rotational inertia of a wheel experimentally, a student should measure net torque and:",
+          "options": ["Angular velocity", "Angular acceleration", "Total time", "Rim speed"],
+          "correct_option": "Angular acceleration",
+          "answer": "B. Angular acceleration",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Rotational Motion",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A student graphs torque vs. angular acceleration. The slope of this graph is:",
+          "options": ["Angular velocity", "Rotational inertia", "Mass", "Radius"],
+          "correct_option": "Rotational inertia",
+          "answer": "B. Rotational inertia",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2016",
+            "chapter": "Unit 5",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Why should multiple trials with different masses be used in a rotational inertia experiment?",
+          "options": ["To check for air resistance", "To reduce random error and verify the relationship is linear", "To use all available equipment", "To satisfy College Board requirements"],
+          "correct_option": "To reduce random error and verify the relationship is linear",
+          "answer": "B. To reduce random error and verify the relationship is linear",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2018",
+            "chapter": "Unit 5",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Predict scaling of angular properties (Functional dependence)",
+      "unit": "Unit 5: Torque and Rotational Dynamics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "If you double the radius of a solid disk while keeping mass constant, its rotational inertia increases by factor:",
+          "options": ["2", "4", "8", "1.4"],
+          "correct_option": "4",
+          "answer": "B. 4",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 5",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "To quadruple the torque while keeping the force magnitude the same, the distance from the pivot must be:",
+          "options": ["Doubled", "Quadrupled", "Halved", "Increased by factor 16"],
+          "correct_option": "Quadrupled",
+          "answer": "B. Quadrupled",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 15",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If angular acceleration is halved for the same net torque, the rotational inertia must have:",
+          "options": ["Halved", "Doubled", "Quadrupled", "Stayed same"],
+          "correct_option": "Doubled",
+          "answer": "B. Doubled",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 5",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a wheel's rotation rate (omega) doubles, the time required to complete one revolution:",
+          "options": ["Doubles", "Is halved", "Quadruples", "Is reduced to 1/4"],
+          "correct_option": "Is halved",
+          "answer": "B. Is halved",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Rotational Motion",
+            "generated": true
+          }
+        }
+      ]
+    }
+  ]
+}

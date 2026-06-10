@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Koustubh Bhattacharjee · Physics &amp; Math Tutor (AP · SAT · Honors)</title>
+<meta name="description" content="One-to-one AP Physics, AP Calculus, SAT and Honors tutoring from a former KIPP DC physics teacher and physics/astrophysics postgraduate. Data-driven, curriculum-aligned, with reports after every session.">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Zilla+Slab:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#ffffff; --bg2:#f5f3ef; --bg3:#ffffff;
+    --line:#e3ddd2; --line-soft:#eee9e0;
+    --off:#1c1813; --muted:#5f584c; --muted2:#938a78;
+    --red:#b1442a; --red-soft:#a23c22; --red-deep:#8c331c;
+    --maxw:1120px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;background:var(--bg);color:var(--off);
+    font-family:'Newsreader',Georgia,serif;-webkit-font-smoothing:antialiased;
+    line-height:1.6;overflow-x:hidden;}
+  .caslon{font-family:'Zilla Slab',Georgia,serif;font-weight:700;}
+  .caslont{font-family:'Zilla Slab',Georgia,serif;font-weight:600;}
+  a{color:inherit;text-decoration:none;}
+  img{max-width:100%;display:block;}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px;}
+  .eyebrow{font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--red-soft);font-family:'Zilla Slab',serif;}
+  .reveal{animation:rise .85s cubic-bezier(.2,.6,.2,1);}
+  @keyframes rise{from{transform:translateY(20px);}to{transform:none;}}
+  .edu .cr:nth-child(2),.reviews .rev:nth-child(2),.subjects .subj:nth-child(2){animation-delay:.08s;}
+  .edu .cr:nth-child(3),.reviews .rev:nth-child(3),.subjects .subj:nth-child(3){animation-delay:.16s;}
+  .subjects .subj:nth-child(4){animation-delay:.10s;}
+  .subjects .subj:nth-child(5){animation-delay:.18s;}
+  .subjects .subj:nth-child(6){animation-delay:.26s;}
+  @media (prefers-reduced-motion:reduce){.reveal{animation:none;}}
+
+  /* ---------- nav ---------- */
+  .nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.85);
+    backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .3s;}
+  .nav.scrolled{border-bottom-color:var(--line);}
+  .nav .row{display:flex;align-items:center;justify-content:space-between;height:68px;}
+  .brand{font-family:'Zilla Slab',serif;font-weight:700;font-size:18px;letter-spacing:.01em;}
+  .brand .dot{color:var(--red);}
+  .navlinks{display:flex;align-items:center;gap:30px;}
+  .navlinks a{font-size:14px;color:var(--muted);transition:color .2s;}
+  .navlinks a:hover{color:var(--off);}
+  .btn{display:inline-flex;align-items:center;gap:9px;font-size:14px;font-weight:600;
+    padding:11px 20px;border-radius:100px;background:var(--red);color:#fff;
+    border:1px solid var(--red);transition:background .2s,transform .2s;white-space:nowrap;}
+  .btn:hover{background:var(--red-deep);transform:translateY(-1px);}
+  .btn.ghost{background:transparent;color:var(--off);border-color:var(--line);}
+  .btn.ghost:hover{background:var(--bg3);border-color:var(--muted2);}
+  .navlinks .btn{padding:9px 18px;}
+  @media(max-width:760px){.navlinks a:not(.btn){display:none;}}
+
+  /* ---------- section heading ---------- */
+  .sec{padding:90px 0;}
+  .sec.alt{background:var(--bg2);}
+  .sechead{max-width:680px;}
+  .sechead h2{font-size:clamp(32px,4vw,52px);line-height:1.04;letter-spacing:-.012em;margin:14px 0 0;font-weight:400;}
+  .sechead h2 .it{font-style:italic;color:var(--red);font-family:'Newsreader',serif;font-weight:500;}
+  .sechead p{font-size:clamp(15px,1.6vw,18px);line-height:1.6;color:var(--muted);margin:20px 0 0;}
+  .sechead p b{color:var(--off);font-weight:600;}
+
+  /* ---------- credentials ---------- */
+  .creds{padding:30px 0 60px;}
+  .creds .inner{border-top:1px solid var(--line);padding-top:42px;}
+  .cred-feature{margin-bottom:40px;}
+  .cred-feature .lab{font-size:11.5px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--red-soft);margin-bottom:12px;}
+  .cred-feature h3{font-size:clamp(30px,4.4vw,48px);line-height:1.0;margin:0;font-weight:400;letter-spacing:-.012em;}
+  .cred-feature p{font-size:clamp(15px,1.7vw,18px);line-height:1.5;color:var(--off);margin:14px 0 0;max-width:600px;}
+  .cred-feature p b{color:var(--red-soft);font-weight:600;}
+  .edu{display:grid;grid-template-columns:1fr 1fr 1fr;gap:34px;}
+  .cr .lab{font-size:11.5px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--red-soft);margin-bottom:12px;}
+  .cr h3{font-size:clamp(22px,2.4vw,27px);line-height:1.06;margin:0;font-weight:400;letter-spacing:-.01em;}
+  .cr h3 small{font-size:.56em;color:var(--muted);font-style:italic;}
+  .cr p{font-size:14px;line-height:1.5;color:var(--muted);margin:11px 0 0;}
+  .cr p b{color:var(--red-soft);font-weight:600;}
+  @media(max-width:820px){.edu{grid-template-columns:1fr;gap:26px;}}
+
+  /* ---------- reviews ---------- */
+  .reviews{display:grid;grid-template-columns:1.1fr 1fr;gap:26px;margin-top:56px;align-items:start;}
+  .rev{border:1px solid var(--line);border-radius:14px;padding:30px 30px 26px;background:var(--bg);box-shadow:0 14px 34px -26px rgba(40,30,18,.34);}
+  .sec.alt .rev{background:#fff;}
+  .rev.big{grid-row:1 / span 2;}
+  .rev .star{color:var(--red);letter-spacing:.16em;font-size:13px;margin-bottom:16px;}
+  .rev blockquote{margin:0;font-family:'Newsreader',serif;font-size:16px;line-height:1.5;color:var(--off);}
+  .rev.big blockquote{font-size:17px;line-height:1.55;}
+  .rev .by{margin-top:18px;padding-top:16px;border-top:1px solid var(--line-soft);font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted2);line-height:1.5;}
+  .rev .by b{color:var(--off);}
+  @media(max-width:820px){
+    .reviews{grid-template-columns:1fr;}
+    .rev.big{grid-row:auto;}
+  }
+
+  /* ---------- subjects ---------- */
+  .subjects{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:48px;}
+  .subj{display:flex;align-items:baseline;justify-content:space-between;gap:16px;
+    padding:20px 24px;border:1px solid var(--line);border-radius:12px;background:var(--bg3);}
+  .subj .nm{font-family:'Zilla Slab',serif;font-weight:600;font-size:21px;}
+  .subj .lv{font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--muted2);text-align:right;}
+  @media(max-width:680px){.subjects{grid-template-columns:1fr;}}
+
+  /* ---------- contact ---------- */
+  .contact{padding:96px 0;text-align:center;}
+  .contact h2{font-size:clamp(34px,5vw,60px);line-height:1.04;letter-spacing:-.015em;margin:16px auto 0;font-weight:400;max-width:760px;}
+  .contact h2 .it{font-style:italic;color:var(--red);font-family:'Newsreader',serif;font-weight:500;}
+  .contact p{font-size:17px;color:var(--muted);margin:22px auto 0;max-width:520px;}
+  .contact .phone{font-family:'Zilla Slab',serif;font-weight:700;font-size:clamp(30px,4.5vw,46px);margin:30px 0 0;letter-spacing:.01em;}
+  .contact .phone a:hover{color:var(--red-soft);}
+  .contact .cta{display:flex;gap:14px;justify-content:center;margin-top:30px;flex-wrap:wrap;}
+  .contact .small{margin-top:20px;font-size:13px;color:var(--muted2);}
+
+  /* ---------- footer ---------- */
+  footer{border-top:1px solid var(--line);padding:34px 0;}
+  footer .row{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;}
+  footer .brand{font-size:16px;}
+  footer .fm{font-size:13px;color:var(--muted2);}
+</style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="wrap row">
+    <div class="brand">Koustubh Bhattacharjee<span class="dot">.</span></div>
+    <div class="navlinks">
+      <a href="#reviews">Reviews</a>
+      <a href="#credentials">Background</a>
+      <a href="#subjects">Subjects</a>
+      <a href="#contact" class="btn">Book a free session</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO + SCROLL WALKTHROUGH (React mounts here) ============ -->
+<div id="tour-root"></div>
+
+<!-- ================= REVIEWS ================= -->
+<section class="sec" id="reviews">
+  <div class="wrap">
+    <div class="sechead reveal">
+      <span class="eyebrow">From AP parents</span>
+      <h2 class="caslon">Fear to <span class="it">love for physics.</span></h2>
+      <p>Real words from parents in Connecticut, Seattle and Atlanta. Every review a five-star rating.</p>
+    </div>
+    <div class="reviews">
+      <div class="rev big reveal">
+        <div class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>&ldquo;I was a little hesitant when we first started classes for my son with Mr. Koustubh, as I wasn't sure how well it would align with his learning pace and style. My son is an independent learner who typically prefers to work through concepts on his own and rarely seeks help from others. However, as the subjects became more complex, Mr. K took the time to understand his strengths, support him through challenges, and provide guidance whenever it was needed. I truly appreciate all of Mr. K's efforts, dedication, and willingness to help. His guidance and support has created a positive impact on my son's studies.&rdquo;</blockquote>
+        <div class="by"><b>Lakshmi</b> · AP Physics C, AP Calc BC · Seattle, WA</div>
+      </div>
+      <div class="rev reveal">
+        <div class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>&ldquo;Koustubh has been amazing, great with concepts, deep dives into the subject and nudges the kids in the right direction relentlessly. The remarkable difference I have seen is that she went from fear to love for physics, and that to me is a mark of a great teacher. He made her do tests from time to time and, most importantly, what I liked the most is he taught her what she needed to, way more than what we asked. I would recommend him any day for math and/or physics AP classes.&rdquo;</blockquote>
+        <div class="by"><b>Sree</b> · AP Physics 1 · Atlanta, GA</div>
+      </div>
+      <div class="rev reveal">
+        <div class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>&ldquo;Thank you for being such an incredible physics tutor! My son actually looks forward to Koustubh's sessions. Highly recommended!&rdquo;</blockquote>
+        <div class="by"><b>Kamlesh</b> · AP Physics 1 · Connecticut</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CREDENTIALS ================= -->
+<section class="creds wrap" id="credentials">
+  <div class="inner">
+    <div class="cred-feature reveal">
+      <div class="lab">Classroom &middot; United States</div>
+      <h3 class="caslon">Lead Physics Teacher</h3>
+      <p>Two years teaching at <b>KIPP DC College Prep, Washington DC</b>. Real American classroom experience, now one&#8209;to&#8209;one.</p>
+    </div>
+    <div class="edu">
+      <div class="cr reveal">
+        <div class="lab">Education</div>
+        <h3 class="caslon">MS Physics <small>(PhD ABD)</small></h3>
+        <p>University of Texas at Dallas, TX, USA. Graduate teaching in Mechanics and E&amp;M.</p>
+      </div>
+      <div class="cr reveal">
+        <div class="lab">Education</div>
+        <h3 class="caslon">MS Astrophysics</h3>
+        <p>IIST, affiliated with the Indian Space Research Organisation.</p>
+      </div>
+      <div class="cr reveal">
+        <div class="lab">Education</div>
+        <h3 class="caslon">B.Tech</h3>
+        <p>Electronics &amp; Communication Engineering, National Institute of Technology (NIT) Silchar, India.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SUBJECTS ================= -->
+<section class="sec alt" id="subjects">
+  <div class="wrap">
+    <div class="sechead reveal">
+      <span class="eyebrow">Subjects &amp; levels</span>
+      <h2 class="caslon">Physics and Math, <span class="it">specialist only.</span></h2>
+      <p>Two subjects, taught to the top of high school. Not a tutor spread thin across ten.</p>
+    </div>
+    <div class="subjects reveal">
+      <div class="subj"><span class="nm">AP Physics 1 &amp; 2</span><span class="lv">Algebra-based</span></div>
+      <div class="subj"><span class="nm">AP Physics C</span><span class="lv">Mechanics · E&amp;M</span></div>
+      <div class="subj"><span class="nm">AP Calculus AB / BC</span><span class="lv">Full sequence</span></div>
+      <div class="subj"><span class="nm">SAT Math</span><span class="lv">Diagnostic-led</span></div>
+      <div class="subj"><span class="nm">Honors &amp; Regents Physics</span><span class="lv">School-aligned</span></div>
+      <div class="subj"><span class="nm">Pre-Calculus</span><span class="lv">Foundations</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <span class="eyebrow reveal">Book a free first session</span>
+    <h2 class="caslon reveal">See the difference in <span class="it">one session.</span></h2>
+    <p class="reveal">Tell me your student's course and goals. The first session is free, no obligation, just a real diagnostic of where they stand.</p>
+    <div class="phone reveal"><a href="tel:+12405912587">+1&nbsp;240&nbsp;591&nbsp;2587</a></div>
+    <div class="cta reveal">
+      <a href="https://wa.me/12405912587" class="btn">WhatsApp Koustubh</a>
+      <a href="tel:+12405912587" class="btn ghost">Call now</a>
+    </div>
+    <p class="small reveal">Physics &amp; Math · AP, SAT and Honors · one-to-one, online</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap row">
+    <div class="brand caslont">Koustubh Bhattacharjee<span style="color:var(--red)">.</span></div>
+    <div class="fm">Physics &amp; Mathematics Tutor · AP · SAT · Honors</div>
+  </div>
+</footer>
+
+<script>
+  var nav=document.getElementById('nav');
+  function onScroll(){ nav.classList.toggle('scrolled', window.scrollY>8); }
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+</script>
+<script type="module" src="/src/main.jsx"></script>
+
+</body>
+</html>

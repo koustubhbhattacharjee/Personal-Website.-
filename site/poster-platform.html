@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=794">
+<title>Poster — Platform</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:wght@400;700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0d0e12;
+    --bg2:#15161d;
+    --line:#2a2b35;
+    --line-soft:#1f2029;
+    --off:#ece6da;
+    --muted:#938d82;
+    --muted2:#6c665d;
+    --red:#c4422a;
+    --red-soft:#dd7a5c;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:#05060a;}
+  .sheet{position:relative;width:794px;height:1123px;overflow:hidden;background:var(--bg);
+    font-family:'Hanken Grotesk',system-ui,sans-serif;color:var(--off);-webkit-font-smoothing:antialiased;
+    display:flex;flex-direction:column;}
+  .caslon{font-family:'Libre Caslon Display','Libre Caslon Text',Georgia,serif;font-weight:400;}
+
+  /* ---- section A : credentials hero ---- */
+  .za{padding:26px 56px 12px;}
+  .mast{display:flex;justify-content:space-between;align-items:flex-end;}
+  .mast .mleft{flex:0 0 auto;}
+  .mast .wm{font-size:21px;letter-spacing:.005em;color:var(--off);white-space:nowrap;}
+  .mast .role{font-size:11.5px;color:var(--muted);margin-top:4px;font-weight:500;}
+  .mast .qual{font-size:11.5px;color:var(--red-soft);font-weight:500;text-align:right;}
+  .grule{height:1px;background:var(--red);opacity:.85;border:0;margin:13px 0 0;}
+
+  .hero{display:flex;gap:34px;align-items:flex-start;margin-top:24px;}
+  .hero .ht{flex:1;}
+  .hero h1{font-size:44px;line-height:1.05;letter-spacing:-.005em;margin:0;color:var(--off);font-weight:400;}
+  .hero .sub{font-size:14.5px;line-height:1.5;color:var(--muted);margin:13px 0 0;max-width:430px;}
+  .hero .sub strong{color:var(--off);font-weight:600;}
+  .portrait{flex:0 0 152px;width:152px;height:198px;overflow:hidden;border:1px solid var(--red);}
+  .portrait img{width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;}
+
+  .creds{margin-top:16px;padding-top:16px;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr 1fr;gap:28px;}
+  .cl .lab{font-size:11px;color:var(--red-soft);font-weight:600;margin-bottom:7px;}
+  .cl .v{font-size:22px;line-height:1.04;color:var(--off);display:block;}
+  .cl .s{font-size:12px;line-height:1.3;color:var(--muted);margin-top:5px;display:block;}
+
+  /* ---- section B : the app showcase (two devices) ---- */
+  /* ---- section B : the app showcase (two devices, side by side) ---- */
+  .showcase{flex:1;display:flex;flex-direction:column;justify-content:center;padding:10px 56px;}
+  .figlab{display:inline-flex;align-items:center;gap:8px;margin-bottom:22px;white-space:nowrap;
+    font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--red-soft);}
+  .figlab .dot{width:6px;height:6px;background:var(--red);border-radius:50%;}
+  .scenes{display:flex;align-items:flex-end;justify-content:center;gap:20px;}
+  .device{display:flex;flex-direction:column;align-items:center;}
+  .device .cap{margin-top:14px;font-size:9.5px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;color:var(--muted2);text-align:center;}
+  .device .cap b{color:var(--red-soft);font-weight:600;}
+
+  /* browser window (dashboard) */
+  .window{width:312px;border:1px solid rgba(236,230,218,.16);border-radius:9px;overflow:hidden;
+    background:#15161d;box-shadow:0 20px 42px -14px rgba(0,0,0,.85),0 12px 52px -22px rgba(196,66,42,.30);}
+  .winbar{height:28px;background:#1b1c24;border-bottom:1px solid rgba(236,230,218,.08);
+    display:flex;align-items:center;padding:0 12px;gap:6px;}
+  .winbar .d{width:8px;height:8px;border-radius:50%;background:#3a3b45;}
+  .winbar .d.r{background:#c4422a;}
+  .winbar .wt{font-family:'Libre Caslon Text',Georgia,serif;font-size:10px;color:var(--muted);margin-left:9px;letter-spacing:.02em;}
+  .window img{display:block;width:312px;height:149px;}
+
+  /* laptop (scratchpad) */
+  .laptop{display:flex;flex-direction:column;align-items:center;}
+  .lid{position:relative;width:318px;padding:7px 7px 8px;background:#0a0b0e;
+    border:1px solid rgba(236,230,218,.16);border-radius:10px 10px 2px 2px;
+    box-shadow:0 18px 40px -14px rgba(0,0,0,.85),0 10px 52px -22px rgba(196,66,42,.30);}
+  .lid::before{content:'';position:absolute;top:3px;left:50%;transform:translateX(-50%);
+    width:5px;height:1.5px;background:#33343c;border-radius:1px;}
+  .lid img{display:block;width:304px;height:190px;object-fit:cover;border-radius:2px;}
+  .base{width:346px;height:12px;background:linear-gradient(#262730,#15161d 72%);
+    border-radius:0 0 11px 11px;position:relative;box-shadow:0 14px 22px -12px rgba(0,0,0,.8);}
+  .base::before{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);
+    width:80px;height:6px;background:#0b0c10;border-radius:0 0 7px 7px;}
+
+  /* ---- section C : value points + contact ---- */
+  .zc{background:var(--bg2);padding:18px 56px 22px;display:flex;flex-direction:column;}
+  .vals3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:28px;padding-top:16px;border-top:1px solid var(--line);}
+  .v3 h4{font-size:16px;font-weight:400;margin:0 0 5px;color:var(--off);}
+  .v3 p{font-size:11.5px;line-height:1.45;color:var(--muted);margin:0;}
+
+  .foot{margin-top:auto;}
+  .foot .gline{height:1px;background:var(--red);opacity:.85;border:0;margin-bottom:16px;}
+  .botgrid{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;}
+  .subj{max-width:392px;}
+  .subj .lab{font-size:11px;color:var(--red-soft);font-weight:600;margin-bottom:7px;}
+  .subj .txt{font-size:14px;line-height:1.5;color:var(--off);}
+  .num{text-align:right;flex:0 0 auto;}
+  .num .lab{font-size:11px;color:var(--red-soft);font-weight:600;margin-bottom:6px;}
+  .num .v{font-size:26px;color:var(--off);letter-spacing:.01em;font-family:'Libre Caslon Text',Georgia,serif;}
+  .num .cta{font-size:12px;color:var(--muted);margin-top:7px;font-weight:500;}
+
+  @media print{@page{size:A4 portrait;margin:0;}html,body{background:#fff;}.sheet{box-shadow:none;}}
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <section class="za">
+    <div class="mast">
+      <div class="mleft">
+        <div class="wm caslon">Koustubh Bhattacharjee</div>
+        <div class="role">Physics &amp; Mathematics Tutor</div>
+      </div>
+      <div class="qual">One&#8209;to&#8209;one tuition<br>A&#8209;Level &amp; GCSE</div>
+    </div>
+    <hr class="grule">
+
+    <div class="hero">
+      <div class="ht">
+        <h1 class="caslon">Classroom rigour.<br>One&#8209;to&#8209;one focus.</h1>
+        <p class="sub">A Physics and Astrophysics postgraduate and US high&#8209;school physics teacher. <strong>Incredibly data&#8209;driven and curriculum&#8209;aligned</strong>: I run dynamic assessments, homework and flashcards on my own platform, Scholar (below), with a full report after every session.</p>
+      </div>
+      <div class="portrait"><img src="assets/portrait-warm.jpg" alt="Koustubh Bhattacharjee"></div>
+    </div>
+
+    <div class="creds">
+      <div class="cl"><div class="lab">Classroom</div><span class="v caslon">2 years teaching</span><span class="s">US high&#8209;school Physics Teacher, Washington&nbsp;DC, USA</span></div>
+      <div class="cl"><div class="lab">Education</div><span class="v caslon">MS Physics</span><span class="s">University of Texas at Dallas, TX, USA</span></div>
+      <div class="cl"><div class="lab">Education</div><span class="v caslon">MS Astrophysics</span><span class="s">IIST, affiliated with the Indian Space Research Organisation</span></div>
+    </div>
+  </section>
+
+  <section class="showcase">
+    <div class="figlab"><span class="dot"></span>Scholar &middot; my tutoring app</div>
+    <div class="scenes">
+      <div class="device">
+        <div class="window">
+          <div class="winbar"><span class="d r"></span><span class="d"></span><span class="d"></span><span class="wt">Scholar &mdash; Overview</span></div>
+          <img src="assets/dash-annot.png" alt="The Scholar dashboard: a student's syllabus tracked topic by topic">
+        </div>
+        <div class="cap"><b>The dashboard</b> &middot; every topic tracked by mastery</div>
+      </div>
+
+      <div class="device">
+        <div class="laptop">
+          <div class="lid"><img src="assets/lap-scratch.png" alt="A live question with the student's handwritten working on the scratchpad"></div>
+          <div class="base"></div>
+        </div>
+        <div class="cap"><b>The scratchpad</b> &middot; every question worked by hand</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="zc">
+    <div class="vals3">
+      <div class="v3"><h4 class="caslon">A specialist, not a generalist.</h4><p>Physics and Maths only, taught to A&#8209;Level. Not a tutor spread thin across ten subjects.</p></div>
+      <div class="v3"><h4 class="caslon">Paced to your exam board.</h4><p>Every lesson follows your child's exact specification, with nothing wasted.</p></div>
+      <div class="v3"><h4 class="caslon">Never left guessing.</h4><p>A clear written report after every session, so you see real progress.</p></div>
+    </div>
+
+    <div class="foot">
+      <hr class="gline">
+      <div class="botgrid">
+        <div class="subj">
+          <div class="lab">Subjects &amp; levels</div>
+          <div class="txt">A&#8209;Level Physics · A&#8209;Level Maths (Pure · Mechanics · Statistics) · GCSE Physics · GCSE Maths. Also AP, SAT and Pre&#8209;Calculus.</div>
+        </div>
+        <div class="num">
+          <div class="lab">WhatsApp / Call</div>
+          <div class="v">+1&nbsp;240&nbsp;591&nbsp;2587</div>
+          <div class="cta">Book a free first session</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,488 @@
+[
+  {
+    "qid": "a2431b31-d59d-4073-9c35-5495479f84e4",
+    "label": "PSI-5",
+    "source_id": "q_psi5",
+    "qt_section_ref": "8.2.B",
+    "stem": "What is the difference between the pressure on the bottom of a pool and the pressure on the water surface?",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 1,
+      "hits": 8,
+      "sample": "what is the difference between the pressure on the bottom"
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 57,
+        "hits": 1
+      }
+    ]
+  },
+  {
+    "qid": "a0eefae3-b0ed-48ad-be06-1c6cf47bdd69",
+    "label": "PSI-15",
+    "source_id": "q_psi15",
+    "qt_section_ref": "8.3.B",
+    "stem": "An object has a weight of 9 N when it is in air and 7.2 N when it is submerged into water. What is the specific gravity of the object's mate",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 5,
+      "hits": 13,
+      "sample": "weight of 9 n when it is in air and"
+    },
+    "runners_up": [
+      {
+        "slug": "fluids_practice_problems_2009_05_13",
+        "page": 4,
+        "hits": 2
+      }
+    ]
+  },
+  {
+    "qid": "ac5e87c9-d005-4acf-9927-7cb1cc2ca210",
+    "label": "PSI-12",
+    "source_id": "q_psi12",
+    "qt_section_ref": "8.3.B",
+    "stem": "A piece of iron has a weight of 3.5 N when it is in air and 2.0 N when it is submerged into water. What is the buoyant force on the piece of",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 4,
+      "hits": 16,
+      "sample": "has a weight of 3 5 n when it is"
+    },
+    "runners_up": [
+      {
+        "slug": "fluids_practice_problems_2009_05_13",
+        "page": 5,
+        "hits": 1
+      }
+    ]
+  },
+  {
+    "qid": "f638c0a2-f107-447c-8d3b-b86035a4ffe4",
+    "label": "PSI-18",
+    "source_id": "q_psi18",
+    "qt_section_ref": "8.4.A",
+    "stem": "Water flows at a constant speed of 16 m/s through a narrow section of a pipe. What is the speed of water in the section of the pipe where it",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 5,
+      "hits": 10,
+      "sample": "water flows at a constant speed of 16 m s"
+    },
+    "runners_up": []
+  },
+  {
+    "qid": "97583cc7-eeb0-49d0-a039-e8af93faab27",
+    "label": "PSI-1",
+    "source_id": "q_psi1",
+    "qt_section_ref": "8.1.A",
+    "stem": "Two substances, mercury with a density 13600 kg/m³ and alcohol with a density 0.8 kg/m³ (as printed in the source), are selected for an expe",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 1,
+      "hits": 15,
+      "sample": "selected for an experiment if the experiment requires equal masses"
+    },
+    "runners_up": []
+  },
+  {
+    "qid": "150b58a4-062f-447c-a608-a862fb5c4971",
+    "label": "PSI-14",
+    "source_id": "q_psi14",
+    "qt_section_ref": "8.3.B",
+    "stem": "A solid cylinder of mass 5 kg is completely submerged into water and hangs from a string. What is the tension in the string supporting the c",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 4,
+      "hits": 5,
+      "sample": "a solid cylinder of mass 5 kg is completely submerged"
+    },
+    "runners_up": [
+      {
+        "slug": "5stepsapphysics",
+        "page": 438,
+        "hits": 1
+      }
+    ]
+  },
+  {
+    "qid": "fe17930f-6cc2-4ed9-b756-59b8f71f983d",
+    "label": "PSI-11",
+    "source_id": "q_psi11",
+    "qt_section_ref": "8.3.B",
+    "stem": "Three blocks of equal volume are completely submerged in water. The blocks are made of different materials: aluminum, iron, and lead (ρ_Al =",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 3,
+      "hits": 7,
+      "sample": "following is the correct statement about the buoyant force on"
+    },
+    "runners_up": []
+  },
+  {
+    "qid": "6a626c08-830e-44af-a797-16d3e5759ab0",
+    "label": "PSI-13",
+    "source_id": "q_psi13",
+    "qt_section_ref": "8.3.B",
+    "stem": "Physics students use a spring scale to measure the weight of a piece of lead. The experiment was performed two times, once in air and the ot",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 4,
+      "hits": 11,
+      "sample": "physics students use a spring scale to measure the weight"
+    },
+    "runners_up": []
+  },
+  {
+    "qid": "5710038e-32c2-468b-acb1-96b1dfe2f401",
+    "label": "PSI-19",
+    "source_id": "q_psi19",
+    "qt_section_ref": "8.4.B",
+    "stem": "A Venturi-like tube has three sections of different radii: section 1 has medium radius, section 2 is the narrowest, and section 3 is the wid",
+    "best": {
+      "slug": "5stepsapphysics",
+      "file": "5stepsAPPhysics.pdf",
+      "page": 268,
+      "hits": 1,
+      "sample": "of the following best describes the"
+    },
+    "runners_up": [
+      {
+        "slug": "ap_physics_1_premium_2024_4_practice_tests_comprehensive_kenneth_rideout_jonathan_wolf_2022_barrons_",
+        "page": 11,
+        "hits": 1
+      },
+      {
+        "slug": "ap_physics_1_premium_2024_4_practice_tests_comprehensive_kenneth_rideout_jonathan_wolf_2022_barrons_",
+        "page": 45,
+        "hits": 1
+      },
+      {
+        "slug": "ap_physics_2_for_fluids_ap_physics_2_2015",
+        "page": 28,
+        "hits": 1
+      }
+    ]
+  },
+  {
+    "qid": "7ffb28d2-5931-42b6-877e-63f0d535a936",
+    "label": "PSI-FRQ1-d",
+    "source_id": "q_psi_frq1_d",
+    "qt_section_ref": "8.1.A",
+    "stem": "A small sphere of mass m and density D is suspended from an elastic spring and stretches the spring by a distance x₁ in air. When the sphere",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 6,
+      "hits": 7,
+      "sample": "a small sphere of mass m and density d is"
+    },
+    "runners_up": [
+      {
+        "slug": "ap_physics_2_for_fluids_ap_physics_2_2018",
+        "page": 30,
+        "hits": 1
+      }
+    ]
+  },
+  {
+    "qid": "f9253e7f-97f4-4f05-b216-6cc422e100a6",
+    "label": "PSI-3",
+    "source_id": "q_psi3",
+    "qt_section_ref": "8.2.A",
+    "stem": "There are two round tables in the physics classroom: one with a radius of 50 cm, the other with a radius of 150 cm. What is the relationship",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 1,
+      "hits": 16,
+      "sample": "there are two round tables in the physics classroom one"
+    },
+    "runners_up": [
+      {
+        "slug": "ap_physics_1_algebra_based_ap_physics_1_2014",
+        "page": 20,
+        "hits": 1
+      }
+    ]
+  },
+  {
+    "qid": "91d6d151-207a-4501-b182-c70fe97126a8",
+    "label": "PSI-8",
+    "source_id": "q_psi8",
+    "qt_section_ref": "8.2.A",
+    "stem": "A car driver measures a tire pressure of 220 kPa. What is the absolute pressure in the tire?",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 2,
+      "hits": 6,
+      "sample": "a tire pressure of 220 kpa what is the absolute"
+    },
+    "runners_up": []
+  },
+  {
+    "qid": "09ed385d-049e-455d-a856-ce97bdc71337",
+    "label": "PSI-9",
+    "source_id": "q_psi9",
+    "qt_section_ref": "8.2.A",
+    "stem": "In a hydraulic lift the small piston has an area of 2 cm² and the large piston has an area of 80 cm². What is the mechanical advantage of th",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 2,
+      "hits": 6,
+      "sample": "in a hydraulic lift the small piston has an area"
+    },
+    "runners_up": [
+      {
+        "slug": "fluids_practice_problems_2009_05_13",
+        "page": 3,
+        "hits": 1
+      }
+    ]
+  },
+  {
+    "qid": "f017f9bb-da47-405f-a3af-1ed65cc10f09",
+    "label": "PSI-20",
+    "source_id": "q_psi20",
+    "qt_section_ref": "8.4.B",
+    "stem": "An open bottle is filled with a liquid which flows out through a spigot located a distance h below the surface of the liquid. What is the ve",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 5,
+      "hits": 9,
+      "sample": "distance h below the surface of the liquid what is"
+    },
+    "runners_up": [
+      {
+        "slug": "ap_physics_2_for_fluids_ap_physics_2_2015",
+        "page": 21,
+        "hits": 1
+      },
+      {
+        "slug": "ap_physics_1_algebra_based_ap_physics_1_2014",
+        "page": 32,
+        "hits": 1
+      },
+      {
+        "slug": "ap_physics_1_premium_2024_4_practice_tests_comprehensive_kenneth_rideout_jonathan_wolf_2022_barrons_",
+        "page": 24,
+        "hits": 1
+      }
+    ]
+  },
+  {
+    "qid": "06502e56-8c55-4978-8554-bbb0d9a24636",
+    "label": "PSI-FRQ4-e",
+    "source_id": "q_psi_frq4_e",
+    "qt_section_ref": "8.3.B",
+    "stem": "Continuing from the previous problem: the same ice slab (V = 20 m³, top area 14 m², ρ_ice = 900 kg/m³, ρ_sea = 1030 kg/m³, with 0.15 m of it",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 9,
+      "hits": 5,
+      "sample": "kg calculate the maximum number of bears that can sit"
+    },
+    "runners_up": []
+  },
+  {
+    "qid": "c236fbf8-a487-440c-b55a-c13bcb43d8d0",
+    "label": "PSI-17",
+    "source_id": "q_psi17",
+    "qt_section_ref": "8.3.B",
+    "stem": "A wooden block with a weight of 9 N is placed on water. When the block floats on the surface of water it is partially submerged in water. Wh",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 5,
+      "hits": 16,
+      "sample": "a weight of 9 n is placed on water when"
+    },
+    "runners_up": []
+  },
+  {
+    "qid": "807721b1-6634-412b-8588-1f3773a0cac5",
+    "label": "PSI-FRQ2-d",
+    "source_id": "q_psi_frq2_d",
+    "qt_section_ref": "8.4.B",
+    "stem": "A pool is being emptied by a pump. The pump produces a pressure P₁ = 9 × 10⁵ Pa in the submerged pipe (radius 4 cm) with the water speed the",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 7,
+      "hits": 4,
+      "sample": "the water flow in the second section of the pipe"
+    },
+    "runners_up": [
+      {
+        "slug": "fluids_practice_problems_2009_05_13",
+        "page": 5,
+        "hits": 1
+      }
+    ]
+  },
+  {
+    "qid": "2bf3a184-6160-4df5-bb48-ea1435928b17",
+    "label": "PSI-2",
+    "source_id": "q_psi2",
+    "qt_section_ref": "8.2.A",
+    "stem": "A perpendicular force is applied to a certain area and produces a pressure P. If the same force is applied to a twice bigger area, the new p",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 1,
+      "hits": 15,
+      "sample": "a perpendicular force is applied to a certain area and"
+    },
+    "runners_up": []
+  },
+  {
+    "qid": "4680d625-f64d-4f3c-ad05-67a7fcac1d53",
+    "label": "PSI-4",
+    "source_id": "q_psi4",
+    "qt_section_ref": "8.2.B",
+    "stem": "Three containers are used in a chemistry lab. All containers have the same bottom area and the same height. A chemistry student fills each o",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 1,
+      "hits": 26,
+      "sample": "three containers are used in a chemistry lab all containers"
+    },
+    "runners_up": [
+      {
+        "slug": "ap_physics_1_algebra_based_ap_physics_1_2014",
+        "page": 32,
+        "hits": 1
+      },
+      {
+        "slug": "ap_physics_1_algebra_based_ap_physics_1_2018",
+        "page": 31,
+        "hits": 1
+      },
+      {
+        "slug": "ap_physics_1_premium_2024_4_practice_tests_comprehensive_kenneth_rideout_jonathan_wolf_2022_barrons_",
+        "page": 39,
+        "hits": 1
+      }
+    ]
+  },
+  {
+    "qid": "ea726ae1-b46f-46cb-86a2-13bab1621a8a",
+    "label": "PSI-6",
+    "source_id": "q_psi6",
+    "qt_section_ref": "8.2.B",
+    "stem": "A boy swims in a lake and initially dives 0.5 m beneath the surface. When he dives 1 m beneath the surface, how does the absolute pressure c",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 2,
+      "hits": 10,
+      "sample": "a lake and initially dives 0 5 m beneath the"
+    },
+    "runners_up": []
+  },
+  {
+    "qid": "9c87304e-3712-4b3f-9220-24f30286530d",
+    "label": "PSI-16",
+    "source_id": "q_psi16",
+    "qt_section_ref": "8.3.B",
+    "stem": "A wooden block with a weight of 7.5 N is placed on water. When the block floats on the surface of water it is partially submerged in water. ",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 5,
+      "hits": 16,
+      "sample": "a weight of 7 5 n is placed on water"
+    },
+    "runners_up": []
+  },
+  {
+    "qid": "02cacf0a-f958-456e-beb7-464450c7dbc5",
+    "label": "PSI-7",
+    "source_id": "q_psi7",
+    "qt_section_ref": "8.2.A",
+    "stem": "Which of the following scientists invented the mercury barometer?",
+    "best": null,
+    "runners_up": []
+  },
+  {
+    "qid": "35af1122-7b82-4b6e-8170-203220725c22",
+    "label": "PSI-10",
+    "source_id": "q_psi10",
+    "qt_section_ref": "8.2.A",
+    "stem": "A hydraulic lift is used to lift a car. The small piston has a radius of 5 cm and the large piston has a radius of 50 cm. If a driver applie",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 3,
+      "hits": 27,
+      "sample": "a hydraulic lift is used to lift a car the"
+    },
+    "runners_up": [
+      {
+        "slug": "5stepsapphysics",
+        "page": 191,
+        "hits": 1
+      }
+    ]
+  },
+  {
+    "qid": "48638539-929e-4c1e-a19d-951fcd4e8b22",
+    "label": "PSI-FRQ4-b/c",
+    "source_id": "q_psi_frq4_bc",
+    "qt_section_ref": "8.3.B",
+    "stem": "A rectangular slab of ice floats on sea water with a large portion submerged. The volume of the slab is 20 m³ and the top surface area is 14",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 9,
+      "hits": 6,
+      "sample": "a rectangular slab of ice floats"
+    },
+    "runners_up": []
+  },
+  {
+    "qid": "1f1551ac-35b3-4ce1-b12d-64dfef2d171e",
+    "label": "PSI-FRQ3-b/c",
+    "source_id": "q_psi_frq3_bc",
+    "qt_section_ref": "8.2.B",
+    "stem": "A submarine descends to a depth of 100 m beneath the surface of an ocean. The density of salt water is 1030 kg/m³. Using g = 10 m/s² and atm",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 8,
+      "hits": 3,
+      "sample": "beneath the surface of an ocean"
+    },
+    "runners_up": []
+  },
+  {
+    "qid": "a28582da-77d7-4008-9626-fd2621ca2474",
+    "label": "PSI-FRQ3-d",
+    "source_id": "q_psi_frq3_d",
+    "qt_section_ref": "8.2.B",
+    "stem": "The submarine at depth 100 m has a hatch of area 2 m² located on the top of its body. The interior is maintained at atmospheric pressure. Us",
+    "best": {
+      "slug": "fluids_practice_problems_2009_05_13",
+      "file": "fluids-practice-problems-2009-05-13.pdf",
+      "page": 8,
+      "hits": 1,
+      "sample": "open the hatch from the inside"
+    },
+    "runners_up": []
+  }
+]

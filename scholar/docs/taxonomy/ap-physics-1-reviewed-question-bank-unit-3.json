@@ -1,0 +1,1168 @@
+{
+  "subject": "AP Physics 1",
+  "source": "NotebookLM",
+  "source_label": "Official PYQ + reference synthesis",
+  "custom_notes": "Reviewed Unit 3 Work, Energy, and Power bank extracted from combined Unit 3-4 source.",
+  "questionTypes": [
+    {
+      "type": "Calculate translational kinetic energy from mass and velocity",
+      "unit": "Unit 3: Work, Energy, and Power",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A 4.0 kg cart travels at a constant speed of 5.0 m/s. What is the translational kinetic energy of the cart?",
+          "options": ["10 J", "20 J", "50 J", "100 J"],
+          "correct_option": "50 J",
+          "answer": "C. 50 J",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which of the following is the correct expression for the kinetic energy of an object of mass M moving with speed V?",
+          "options": ["MV", "MV^2", "1/2 MV", "1/2 MV^2"],
+          "correct_option": "1/2 MV^2",
+          "answer": "D. 1/2 MV^2",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An object with mass 0.5 kg has a kinetic energy of 16 J. What is the speed of the object?",
+          "options": ["4 m/s", "8 m/s", "32 m/s", "64 m/s"],
+          "correct_option": "8 m/s",
+          "answer": "B. 8 m/s",
+          "source_reference": {
+            "source_tier": "generated_fill",
+            "source_name": "NotebookLM Internal",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If two objects have the same mass but object A is moving three times as fast as object B, how does the kinetic energy of A compare to B?",
+          "options": ["K_A = 3 K_B", "K_A = 6 K_B", "K_A = 9 K_B", "K_A = 1/3 K_B"],
+          "correct_option": "K_A = 9 K_B",
+          "answer": "C. K_A = 9 K_B",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Predict change in kinetic energy from velocity scaling",
+      "unit": "Unit 3: Work, Energy, and Power",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "If the speed of an object is doubled while its mass is kept constant, its kinetic energy increases by a factor of:",
+          "options": ["2", "4", "8", "1.4"],
+          "correct_option": "4",
+          "answer": "B. 4",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Chapter 2: Strategies",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An object's speed is reduced to one-third of its original value. By what factor does its kinetic energy change?",
+          "options": ["1/3", "1/6", "1/9", "3"],
+          "correct_option": "1/9",
+          "answer": "C. 1/9",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A student doubles the mass of a cart but reduces its speed by half. The new kinetic energy is what fraction of the original?",
+          "options": ["1/4", "1/2", "The same", "2"],
+          "correct_option": "1/2",
+          "answer": "B. 1/2",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Chapter 13: Work and Energy",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "To quadruple the kinetic energy of an object without changing its mass, the speed must be increased by a factor of:",
+          "options": ["2", "4", "16", "sqrt(2)"],
+          "correct_option": "2",
+          "answer": "A. 2",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Calculate work done by a constant force at an angle",
+      "unit": "Unit 3: Work, Energy, and Power",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A 50 N force is applied at an angle of 60 degrees to the horizontal to pull a crate 10 m across a floor. How much work is done by the force?",
+          "options": ["250 J", "433 J", "500 J", "1000 J"],
+          "correct_option": "250 J",
+          "answer": "A. 250 J",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A block is pulled 5 m horizontally by a 20 N force acting at 37 degrees above the horizontal. Given cos(37) = 0.8, what is the work done?",
+          "options": ["60 J", "80 J", "100 J", "120 J"],
+          "correct_option": "80 J",
+          "answer": "B. 80 J",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Work is defined as the product of displacement and which component of the applied force?",
+          "options": ["Parallel component", "Perpendicular component", "The total magnitude", "The vertical component"],
+          "correct_option": "Parallel component",
+          "answer": "A. Parallel component",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A box is pushed 4 m across a floor by a constant force F applied at an angle theta. If the work done is F*d, what is the angle theta?",
+          "options": ["0 degrees", "45 degrees", "90 degrees", "180 degrees"],
+          "correct_option": "0 degrees",
+          "answer": "A. 0 degrees",
+          "source_reference": {
+            "source_tier": "generated_fill",
+            "source_name": "NotebookLM Internal",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Distinguish between zero and non-zero work",
+      "unit": "Unit 3: Work, Energy, and Power",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "In which of the following cases is the net work done on an object equal to zero?",
+          "options": ["A ball falling freely", "A car accelerating from rest", "A block sliding at constant velocity", "A spring being compressed"],
+          "correct_option": "A block sliding at constant velocity",
+          "answer": "C. A block sliding at constant velocity",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A person holds a heavy box at arm's length for 60 seconds without moving it. How much work is done on the box by the person?",
+          "options": ["0 J", "Mass * g * 60", "Force * 60", "Cannot be determined"],
+          "correct_option": "0 J",
+          "answer": "A. 0 J",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which of the following forces does ZERO work on a block being pulled horizontally along a table?",
+          "options": ["Applied force", "Friction", "Normal force", "Tension"],
+          "correct_option": "Normal force",
+          "answer": "C. Normal force",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An object moves in a circular path at constant speed. The work done by the centripetal force is:",
+          "options": ["Positive", "Negative", "Zero", "Constant and non-zero"],
+          "correct_option": "Zero",
+          "answer": "C. Zero",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Calculate gravitational potential energy for vertical lifts",
+      "unit": "Unit 3: Work, Energy, and Power",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A student lifts a 5 kg box vertically 0.40 m. How much work is done by the student?",
+          "options": ["2.0 J", "20 J", "50 J", "200 J"],
+          "correct_option": "20 J",
+          "answer": "B. 20 J",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If an object is lifted to three times its original height, its gravitational potential energy relative to the ground increases by a factor of:",
+          "options": ["sqrt(3)", "3", "6", "9"],
+          "correct_option": "3",
+          "answer": "B. 3",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A 2 kg book is moved from a shelf 1 m high to a shelf 2.5 m high. What is the change in its gravitational potential energy?",
+          "options": ["3 J", "15 J", "30 J", "50 J"],
+          "correct_option": "30 J",
+          "answer": "C. 30 J",
+          "source_reference": {
+            "source_tier": "generated_fill",
+            "source_name": "NotebookLM Internal",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The choice of the 'zero point' for gravitational potential energy is:",
+          "options": ["Always the center of the Earth", "Always the lowest point in the problem", "Arbitrary and depends on the observer", "Fixed by international standards"],
+          "correct_option": "Arbitrary and depends on the observer",
+          "answer": "C. Arbitrary and depends on the observer",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Predict speed from conservation of mechanical energy",
+      "unit": "Unit 3: Work, Energy, and Power",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A cart rolls from rest down a frictionless incline from a height H. What is its speed at the bottom?",
+          "options": ["gH", "sqrt(gH)", "sqrt(2gH)", "2gH"],
+          "correct_option": "sqrt(2gH)",
+          "answer": "C. sqrt(2gH)",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a cart is released from height H and reaches speed V at the bottom, from what height must it be released to reach speed 2V?",
+          "options": ["1.41 H", "2 H", "4 H", "8 H"],
+          "correct_option": "4 H",
+          "answer": "C. 4 H",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "When a cart rolls halfway down a frictionless incline (height H/2), its speed is what fraction of its speed at the bottom (height 0)?",
+          "options": ["1/4", "1/2", "1/sqrt(2)", "sqrt(2)"],
+          "correct_option": "1/sqrt(2)",
+          "answer": "C. 1/sqrt(2)",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An object is thrown upward with kinetic energy K. At the highest point of its flight, its kinetic energy is zero. What happened to that energy?",
+          "options": ["It was destroyed", "It turned into potential energy", "It turned into momentum", "It turned into heat"],
+          "correct_option": "It turned into potential energy",
+          "answer": "B. It turned into potential energy",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Determine work done from area under force-displacement graph",
+      "unit": "Unit 3: Work, Energy, and Power",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A force vs. position graph shows a triangle with a base of 0.03 m and a peak force of 50 N. What is the work done?",
+          "options": ["0.75 J", "1.50 J", "16.7 J", "1500 J"],
+          "correct_option": "0.75 J",
+          "answer": "A. 0.75 J",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The area under a force-displacement graph represents which physical quantity?",
+          "options": ["Impulse", "Momentum", "Power", "Work"],
+          "correct_option": "Work",
+          "answer": "D. Work",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A graph of force vs. position for a non-linear spring is given. To find the change in kinetic energy of a mass attached to it, a student should:",
+          "options": ["Calculate the slope", "Find the area under the curve", "Multiply final force by displacement", "Take the average of the endpoints"],
+          "correct_option": "Find the area under the curve",
+          "answer": "B. Find the area under the curve",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "On an AP Physics graph of force vs. position, if the units of force are Newtons and position are centimeters, what must be done to the area to get Joules?",
+          "options": ["Nothing", "Divide by 100", "Multiply by 100", "Divide by 10"],
+          "correct_option": "Divide by 100",
+          "answer": "B. Divide by 100",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Solve for spring potential energy using displacement",
+      "unit": "Unit 3: Work, Energy, and Power",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A spring with force constant 4 N/m is stretched 0.10 m. What is the elastic potential energy stored in the spring?",
+          "options": ["0.02 J", "0.04 J", "0.20 J", "0.40 J"],
+          "correct_option": "0.02 J",
+          "answer": "A. 0.02 J",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the compression of a spring is tripled, the elastic potential energy stored in it increases by a factor of:",
+          "options": ["1.5", "3", "6", "9"],
+          "correct_option": "9",
+          "answer": "D. 9",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A 100 N/m spring is compressed 0.2 m. How much kinetic energy will a 1 kg block have when released at the equilibrium position?",
+          "options": ["2 J", "4 J", "20 J", "40 J"],
+          "correct_option": "2 J",
+          "answer": "A. 2 J",
+          "source_reference": {
+            "source_tier": "generated_fill",
+            "source_name": "NotebookLM Internal",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The potential energy of an ideal spring is proportional to:",
+          "options": ["The displacement x", "The square of the displacement x^2", "The square root of the displacement", "The mass attached to it"],
+          "correct_option": "The square of the displacement x^2",
+          "answer": "B. The square of the displacement x^2",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Distinguish between conservative and nonconservative forces",
+      "unit": "Unit 3: Work, Energy, and Power",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Which of the following is an example of a conservative force?",
+          "options": ["Kinetic friction", "Air resistance", "Gravitational force", "Tension"],
+          "correct_option": "Gravitational force",
+          "answer": "C. Gravitational force",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The work done by which type of force is path-dependent?",
+          "options": ["Conservative", "Nonconservative", "Centripetal", "Restoring"],
+          "correct_option": "Nonconservative",
+          "answer": "B. Nonconservative",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a system returns to its original configuration and the net work done by a force is zero, that force is:",
+          "options": ["Conservative", "Nonconservative", "Frictional", "External"],
+          "correct_option": "Conservative",
+          "answer": "A. Conservative",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Thermal energy is typically produced by the work of which type of force?",
+          "options": ["Conservative", "Nonconservative", "Gravitational", "Elastic"],
+          "correct_option": "Nonconservative",
+          "answer": "B. Nonconservative",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Calculate power delivered by a constant force",
+      "unit": "Unit 3: Work, Energy, and Power",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A motor pulls a block with a constant force of 100 N at a constant speed of 2 m/s. What is the power delivered by the motor?",
+          "options": ["50 W", "100 W", "200 W", "400 W"],
+          "correct_option": "200 W",
+          "answer": "C. 200 W",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Power is defined as:",
+          "options": ["Force times distance", "Work divided by time", "Energy times time", "Force divided by area"],
+          "correct_option": "Work divided by time",
+          "answer": "B. Work divided by time",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Student A does 20 J of work in 2 s. Student B does 20 J of work in 1 s. Which student develops more power?",
+          "options": ["Student A", "Student B", "They are equal", "Cannot be determined"],
+          "correct_option": "Student B",
+          "answer": "B. Student B",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A constant force F moves an object a distance D in time T. If the time is doubled for the same force and distance, the power is:",
+          "options": ["Doubled", "Halved", "Quadrupled", "The same"],
+          "correct_option": "Halved",
+          "answer": "B. Halved",
+          "source_reference": {
+            "source_tier": "generated_fill",
+            "source_name": "NotebookLM Internal",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Analyze energy transformation with nonconservative forces",
+      "unit": "Unit 3: Work, Energy, and Power",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A block slides down a rough incline. Which of the following is true about the mechanical energy of the block-Earth system?",
+          "options": ["It is conserved", "It increases", "It decreases", "It is zero"],
+          "correct_option": "It decreases",
+          "answer": "C. It decreases",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The total energy of a system is always conserved. If mechanical energy decreases, where did the energy go?",
+          "options": ["It was destroyed", "It turned into internal/thermal energy", "It turned into potential energy", "It turned into mass"],
+          "correct_option": "It turned into internal/thermal energy",
+          "answer": "B. It turned into internal/thermal energy",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A student finds that the work done by friction on a block is equal to 10 J. This means the mechanical energy of the system:",
+          "options": ["Increased by 10 J", "Decreased by 10 J", "Stayed constant", "Became zero"],
+          "correct_option": "Decreased by 10 J",
+          "answer": "B. Decreased by 10 J",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In the presence of air resistance, a falling ball's kinetic energy at the bottom is:",
+          "options": ["Greater than mgh", "Less than mgh", "Equal to mgh", "Zero"],
+          "correct_option": "Less than mgh",
+          "answer": "B. Less than mgh",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Determine total mechanical energy for mass-spring systems",
+      "unit": "Unit 3: Work, Energy, and Power",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "In a horizontal mass-spring oscillator with no friction, the total mechanical energy is:",
+          "options": ["Constantly changing", "Zero at equilibrium", "Constant at all positions", "Maximum at equilibrium"],
+          "correct_option": "Constant at all positions",
+          "answer": "C. Constant at all positions",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "At maximum displacement, the mechanical energy of a spring system is entirely:",
+          "options": ["Kinetic", "Gravitational potential", "Elastic potential", "Thermal"],
+          "correct_option": "Elastic potential",
+          "answer": "C. Elastic potential",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a mass-spring system has total energy E, its kinetic energy at equilibrium is:",
+          "options": ["Zero", "E/2", "E", "2E"],
+          "correct_option": "E",
+          "answer": "C. E",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Doubling the amplitude of a spring oscillator changes the total mechanical energy by what factor?",
+          "options": ["2", "4", "8", "1.4"],
+          "correct_option": "4",
+          "answer": "B. 4",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Predict changes in height using conservation of energy scaling",
+      "unit": "Unit 3: Work, Energy, and Power",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A ball thrown upward with speed v reaches height H. If it is thrown with speed 3v, it will reach height:",
+          "options": ["3H", "6H", "9H", "sqrt(3)H"],
+          "correct_option": "9H",
+          "answer": "C. 9H",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "To double the maximum height of a projectile, the initial launch speed must be increased by a factor of:",
+          "options": ["2", "4", "sqrt(2)", "1.41"],
+          "correct_option": "sqrt(2)",
+          "answer": "C. sqrt(2)",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Chapter 2: Strategies",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A roller coaster starts from height H and reaches speed V at the bottom. To reach speed 1.5V, it must start from height:",
+          "options": ["1.5 H", "2.25 H", "3 H", "4.5 H"],
+          "correct_option": "2.25 H",
+          "answer": "B. 2.25 H",
+          "source_reference": {
+            "source_tier": "generated_fill",
+            "source_name": "NotebookLM Internal",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the mass of a projectile is doubled but its launch speed is the same, the maximum height reached will:",
+          "options": ["Double", "Halve", "Stay the same", "Quadruple"],
+          "correct_option": "Stay the same",
+          "answer": "C. Stay the same",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Analyze energy bar charts for closed systems",
+      "unit": "Unit 3: Work, Energy, and Power",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "In an energy bar chart for a ball falling through the air, which bar must decrease as the ball falls?",
+          "options": ["Kinetic Energy (K)", "Gravitational Potential Energy (Ug)", "Thermal Energy (Eth)", "Total Energy (Etot)"],
+          "correct_option": "Gravitational Potential Energy (Ug)",
+          "answer": "B. Gravitational Potential Energy (Ug)",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "For a system where friction is present, the final 'total energy' bar must be _____ the initial 'total energy' bar.",
+          "options": ["Smaller than", "Larger than", "Equal to", "Zero"],
+          "correct_option": "Equal to",
+          "answer": "C. Equal to",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the kinetic energy bar (K) increases from 2 units to 10 units and potential energy (U) decreases from 10 units to 2 units, the net work by nonconservative forces was:",
+          "options": ["+8 units", "-8 units", "Zero", "12 units"],
+          "correct_option": "Zero",
+          "answer": "C. Zero",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which bar chart represents an object at rest at the top of a hill?",
+          "options": ["K=10, Ug=0", "K=0, Ug=10", "K=5, Ug=5", "K=10, Ug=10"],
+          "correct_option": "K=0, Ug=10",
+          "answer": "B. K=0, Ug=10",
+          "source_reference": {
+            "source_tier": "generated_fill",
+            "source_name": "NotebookLM Internal",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Calculate potential energy in gravitational fields (inverse distance)",
+      "unit": "Unit 3: Work, Energy, and Power",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "The general equation for gravitational potential energy between two planets is Ug = -G*M1*M2/d. If the distance d is doubled, the potential energy:",
+          "options": ["Doubles", "Halves", "Increases (becomes less negative)", "Decreases (becomes more negative)"],
+          "correct_option": "Increases (becomes less negative)",
+          "answer": "C. Increases (becomes less negative)",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the distance between two masses is doubled, the MAGNITUDE of the gravitational potential energy:",
+          "options": ["Doubles", "Halves", "Quadruples", "Is reduced to 1/4"],
+          "correct_option": "Halves",
+          "answer": "B. Halves",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Gravitational potential energy between two large objects is zero when the distance d is:",
+          "options": ["Zero", "Equal to the radius", "Infinite", "Equal to 1 meter"],
+          "correct_option": "Infinite",
+          "answer": "C. Infinite",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If both masses are doubled and the distance between them is doubled, how does the potential energy change?",
+          "options": ["It is halved", "It remains the same", "It doubles", "It quadruples"],
+          "correct_option": "It doubles",
+          "answer": "C. It doubles",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Design experiments to determine spring constant from energy",
+      "unit": "Unit 3: Work, Energy, and Power",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "To determine the spring constant k using energy conservation, a student should measure the compression distance and:",
+          "options": ["The final speed of a launched mass", "The mass of the spring", "The time of flight", "The total length of the spring"],
+          "correct_option": "The final speed of a launched mass",
+          "answer": "A. The final speed of a launched mass",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2014",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which graph will allow a student to determine 'k' as the slope if they measure elastic potential energy (U) and displacement (x)?",
+          "options": ["U vs x", "U vs x^2", "U^2 vs x", "sqrt(U) vs x"],
+          "correct_option": "U vs x^2",
+          "answer": "B. U vs x^2",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In an experiment where a spring launches a ball vertically, which of the following is sufficient to find 'k'?",
+          "options": ["Mass and max height reached", "Mass, max height, and spring compression", "Spring compression only", "Launch speed only"],
+          "correct_option": "Mass, max height, and spring compression",
+          "answer": "B. Mass, max height, and spring compression",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "To reduce uncertainty in a work-energy lab, a student should:",
+          "options": ["Perform only one trial", "Use a spring with a very small k", "Perform multiple trials and average the data", "Use a stopwatch instead of a motion detector"],
+          "correct_option": "Perform multiple trials and average the data",
+          "answer": "C. Perform multiple trials and average the data",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Relate mechanical energy change to external work",
+      "unit": "Unit 3: Work, Energy, and Power",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "The total mechanical energy of a system changes if and only if:",
+          "options": ["Conservative forces do work", "External work is done on the system", "Internal momentum is conserved", "The object is at rest"],
+          "correct_option": "External work is done on the system",
+          "answer": "B. External work is done on the system",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If 50 J of positive work is done on a system and its potential energy increases by 30 J, how does the kinetic energy change?",
+          "options": ["Increases by 80 J", "Decreases by 20 J", "Increases by 20 J", "Remains same"],
+          "correct_option": "Increases by 20 J",
+          "answer": "C. Increases by 20 J",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Work done BY a system on its surroundings results in mechanical energy that:",
+          "options": ["Increases", "Decreases", "Stays same", "Is zero"],
+          "correct_option": "Decreases",
+          "answer": "B. Decreases",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A student pushes a box across a floor at constant speed. The work done by the student:",
+          "options": ["Is zero", "Equals the increase in internal energy due to friction", "Equals the increase in kinetic energy", "Equals the increase in potential energy"],
+          "correct_option": "Equals the increase in internal energy due to friction",
+          "answer": "B. Equals the increase in internal energy due to friction",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Solve for instantaneous speed at points of interest using energy",
+      "unit": "Unit 3: Work, Energy, and Power",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A mass m on a spring with constant k is released from rest at displacement A. What is its speed when it is at the equilibrium position?",
+          "options": ["sqrt(k/m) * A", "sqrt(m/k) * A", "1/2 k A^2", "m * g * A"],
+          "correct_option": "sqrt(k/m) * A",
+          "answer": "A. sqrt(k/m) * A",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A pendulum is released from height H. At what height is its kinetic energy equal to its potential energy (relative to the bottom)?",
+          "options": ["H/4", "H/2", "H/sqrt(2)", "Zero"],
+          "correct_option": "H/2",
+          "answer": "B. H/2",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A cart moving at speed v hits a spring and compresses it a distance x. If it moves at 2v, the compression will be:",
+          "options": ["x", "1.41 x", "2 x", "4 x"],
+          "correct_option": "2 x",
+          "answer": "C. 2 x",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In a frictionless system, the speed of an object at any height y is determined by its initial speed v0 and initial height y0 by:",
+          "options": ["v = v0 + gt", "v^2 = v0^2 + 2g(y0-y)", "v = sqrt(2gy)", "v = v0^2 / 2gy"],
+          "correct_option": "v^2 = v0^2 + 2g(y0-y)",
+          "answer": "B. v^2 = v0^2 + 2g(y0-y)",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Determine net work from change in kinetic energy",
+      "unit": "Unit 3: Work, Energy, and Power",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A block initially at rest is subjected to a net work of 50 J. What is the final kinetic energy of the block?",
+          "options": ["0 J", "25 J", "50 J", "100 J"],
+          "correct_option": "50 J",
+          "answer": "C. 50 J",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the kinetic energy of a cart increases from 10 J to 30 J, the net work done on it is:",
+          "options": ["10 J", "20 J", "30 J", "40 J"],
+          "correct_option": "20 J",
+          "answer": "B. 20 J",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A car's kinetic energy changes from K to K/4 as it brakes. The net work done by the brakes is:",
+          "options": ["K/4", "-K/4", "-3K/4", "3K/4"],
+          "correct_option": "-3K/4",
+          "answer": "C. -3K/4",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The Work-Energy Theorem states that net work equals the change in:",
+          "options": ["Potential energy", "Total energy", "Kinetic energy", "Momentum"],
+          "correct_option": "Kinetic energy",
+          "answer": "C. Kinetic energy",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Compare power developed by different agents performing same work",
+      "unit": "Unit 3: Work, Energy, and Power",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Student A lifts a 50-N box 40 cm in 2 s. Student B lifts a 40-N box 50 cm in 1 s. Which student does more work?",
+          "options": ["Student A", "Student B", "They do the same work", "Cannot be determined"],
+          "correct_option": "They do the same work",
+          "answer": "C. They do the same work",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In the scenario from the previous question, which student develops more power?",
+          "options": ["Student A", "Student B", "They develop the same power", "Student A because the force is larger"],
+          "correct_option": "Student B",
+          "answer": "B. Student B",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A machine does work W in time T. A second machine does work 2W in time 2T. How do their power ratings compare?",
+          "options": ["Machine 1 is higher", "Machine 2 is higher", "They are equal", "Machine 2 is twice Machine 1"],
+          "correct_option": "They are equal",
+          "answer": "C. They are equal",
+          "source_reference": {
+            "source_tier": "generated_fill",
+            "source_name": "NotebookLM Internal",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If you climb a flight of stairs in half the time it took your friend, but you both have the same mass, your power was:",
+          "options": ["Half of theirs", "The same", "Twice theirs", "Four times theirs"],
+          "correct_option": "Twice theirs",
+          "answer": "C. Twice theirs",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 3: Work, Energy, and Power",
+            "generated": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+node_modules/
+.next/
+.vercel/
+.env*
+.calendar-cache.json
+data/showcase-codes.json
+data/AP Physics 1/
+data/AP Calc BC/
+data/AP Physics C/
+data/PreCal/
+lib/.env.local
+*.md
+.claude*
+_Log.md
+
+# Claude Code memory system — local state, never commit
+.claude/logs/
+.claude/state/
+.claude/settings.local.json
+
+# Canonical-prompt source corpus — large copyrighted PDFs/EPUBs, local-only
+canonicalprompts/sources/
+
+# College Board Course & Exam Description PDFs — local reference, not for repo
+CED/

@@ -1,0 +1,2015 @@
+{
+  "version": 2,
+  "units": [
+    {
+      "id": "u1",
+      "label": "Unit 1: Kinematics",
+      "question_types": [
+        {
+          "id": "qt1",
+          "label": "Solve 1-D constant-acceleration kinematics using the five motion variables",
+          "section_ref": "",
+          "primary_slo": "1.3.A.2",
+          "notes": "Both questions plug known initial velocity, acceleration, and either time or displacement into a constant-a kinematic equation; Q1 additionally invokes g ≈ 10 m/s² for the firework, and both rely on sign conventions.",
+          "slo_weights": [
+            {
+              "slo": "1.3.A.2",
+              "weight": 0.55
+            },
+            {
+              "slo": "1.3.A.3",
+              "weight": 0.25
+            },
+            {
+              "slo": "1.1.A.5",
+              "weight": 0.1
+            },
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [
+            "1.3.A.3"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.1.A.5",
+              "weight": 0.1
+            },
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q1",
+              "label": "1",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) $125$ m",
+                "(B) $25$ m",
+                "(C) $250$ m",
+                "(D) $1250$ m"
+              ],
+              "correct_option": "(A) $125$ m",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A firework is shot straight up in the air with an initial speed of $50$ m/s. What is the maximum height it reaches?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $125$ m\n(B) $25$ m\n(C) $250$ m\n(D) $1250$ m"
+                }
+              ]
+            },
+            {
+              "id": "q2",
+              "label": "2",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) $2$ m/s$^2$",
+                "(B) $4$ m/s$^2$",
+                "(C) $8$ m/s$^2$",
+                "(D) $10$ m/s$^2$"
+              ],
+              "correct_option": "(B) $4$ m/s$^2$",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "On a strange, airless planet, a ball is thrown downward from a height of $17$ m. The ball initially travels at $15$ m/s. If the ball hits the ground in $1$ s, what is this planet's gravitational acceleration?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $2$ m/s$^2$\n(B) $4$ m/s$^2$\n(C) $8$ m/s$^2$\n(D) $10$ m/s$^2$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt2",
+          "label": "Use calculus to extract velocity from a position function and interpret direction of motion",
+          "section_ref": "",
+          "primary_slo": "1.2.C.1.i",
+          "notes": "Requires differentiating $x(t)$ to produce $v(t) = dx/dt$, then comparing signs of $v$ at $t=0$ and $t=6$ to conclude the object has reversed direction; that is the instantaneous-velocity-as-derivative SLO, with 1.2.C.2 supporting the broader differentiation-of-motion-functions skill.",
+          "slo_weights": [
+            {
+              "slo": "1.2.C.1.i",
+              "weight": 0.6
+            },
+            {
+              "slo": "1.2.C.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "1.1.A.5",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "1.2.C.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "1.1.A.5",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q3",
+              "label": "3",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.9,
+              "notes": "Distractor (A) = forgot to check initial direction and reports magnitude; (B) and (C) are miscalculations of v(6) from the derivative; (D) is sign-flip of the correct answer.",
+              "question_format": "mcq",
+              "options": [
+                "(A) $32$ m/s in the original direction of motion",
+                "(B) $16$ m/s in the original direction of motion",
+                "(C) $0$ m/s",
+                "(D) $32$ m/s opposite the original direction of motion"
+              ],
+              "correct_option": "(D) $32$ m/s opposite the original direction of motion",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "An object moves such that its position is given by the function $x(t) = 3t^2 - 4t + 1$. The units of $t$ are seconds, and the units of $x$ are meters. After $6$ s, how fast and in what direction is this object moving?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $32$ m/s in the original direction of motion\n(B) $16$ m/s in the original direction of motion\n(C) $0$ m/s\n(D) $32$ m/s opposite the original direction of motion"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt3",
+          "label": "Analyze 2-D projectile motion by decomposing velocity and linking horizontal and vertical charts via shared time",
+          "section_ref": "",
+          "primary_slo": "1.5.A.4",
+          "notes": "Canonical projectile-motion workflow: resolve launch velocity into components, exploit zero horizontal acceleration and constant vertical g, solve the 1-D vertical kinematic equation for time, then use horizontal range vs. drop height for geometry.",
+          "slo_weights": [
+            {
+              "slo": "1.5.A.4",
+              "weight": 0.45
+            },
+            {
+              "slo": "1.5.A.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.5.A.2",
+              "weight": 0.1
+            },
+            {
+              "slo": "1.3.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.1.A.4",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [
+            "1.5.A.1",
+            "1.5.A.2"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.3.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.1.A.4",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q4",
+              "label": "4",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "fig_airplane",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "An airplane attempts to drop a bomb on a target. When the bomb is released, the plane is flying upward at an angle of $30°$ above the horizontal at a speed of $200$ m/s, as shown below. At the point of release, the plane's altitude is $2.0$ km. The bomb hits the target."
+                },
+                {
+                  "type": "image",
+                  "page": 164,
+                  "bbox": [
+                    0.28,
+                    0.26,
+                    0.82,
+                    0.47
+                  ],
+                  "caption": "Figure for Question 4",
+                  "alt": "Airplane flying upward at 30° above horizontal with velocity vector labeled v = 200 m/s"
+                }
+              ],
+              "children": [
+                {
+                  "id": "q4a",
+                  "label": "4(a)",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "Distractor (A) uses cos instead of sin; (C) uses the full speed without resolving; (D) is sign-flip (downward instead of upward at release).",
+                  "options": [
+                    "(A) $100$ m/s, upward",
+                    "(B) $170$ m/s, upward",
+                    "(C) $200$ m/s, upward",
+                    "(D) $100$ m/s, downward"
+                  ],
+                  "correct_option": "(A) $100$ m/s, upward",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(a) Determine the magnitude and direction of the vertical component of the bomb's velocity at the point of release."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) $100$ m/s, upward\n(B) $170$ m/s, upward\n(C) $200$ m/s, upward\n(D) $100$ m/s, downward"
+                    }
+                  ]
+                },
+                {
+                  "id": "q4b",
+                  "label": "4(b)",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "Distractor (A) uses sin instead of cos; (B) is zero from the misconception that horizontal velocity decays; (D) uses the full speed.",
+                  "options": [
+                    "(A) $100$ m/s, to the right",
+                    "(B) $0$ m/s",
+                    "(C) $170$ m/s, to the right",
+                    "(D) $200$ m/s, to the right"
+                  ],
+                  "correct_option": "(C) $170$ m/s, to the right",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(b) Determine the magnitude and direction of the horizontal component of the bomb's velocity at the point when the bomb contacts the target."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) $100$ m/s, to the right\n(B) $0$ m/s\n(C) $170$ m/s, to the right\n(D) $200$ m/s, to the right"
+                    }
+                  ]
+                },
+                {
+                  "id": "q4c",
+                  "label": "4(c)",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "Correct approach uses $v_f^2 = v_0^2 + 2a\\Delta y$ with $\\Delta y = -2000$ m and $v_{0y} = +100$ m/s to get $v_{fy} \\approx -220$ m/s, then $v_f = v_0 + at$ gives $t \\approx 32$ s. Distractor (A) $10$ s = time to apex only ($v_{0y}/g$), forgets the descent. (B) $14$ s = free-fall from rest $\\sqrt{2h/g}$, ignores initial upward velocity. (C) $20$ s = divides altitude by initial vertical speed, treats motion as uniform.",
+                  "options": [
+                    "(A) $10$ s",
+                    "(B) $14$ s",
+                    "(C) $20$ s",
+                    "(D) $32$ s"
+                  ],
+                  "correct_option": "(D) $32$ s",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(c) Determine how much time it takes for the bomb to hit the target after it is released."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) $10$ s\n(B) $14$ s\n(C) $20$ s\n(D) $32$ s"
+                    }
+                  ]
+                },
+                {
+                  "id": "q4d",
+                  "label": "4(d)",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "Horizontal range = (170 m/s)(32 s) ≈ 5400 m; tan θ = 2000/5400 gives θ ≈ 20°. Distractor (A) swaps opp/adj (tan = 5400/2000 → ≈70°); (C) uses altitude with initial slant range; (D) is the launch angle restated.",
+                  "options": [
+                    "(A) $70°$",
+                    "(B) $20°$",
+                    "(C) $45°$",
+                    "(D) $30°$"
+                  ],
+                  "correct_option": "(B) $20°$",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(d) At the point of release, what angle below the horizontal does the pilot have to look in order to see the target?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) $70°$\n(B) $20°$\n(C) $45°$\n(D) $30°$"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "label": "Unit 2: Force and Translational Dynamics",
+      "question_types": [
+        {
+          "id": "qt11",
+          "label": "Apply Newton's law of gravitation and the centripetal-acceleration formula to a binary-star system, distinguishing separation distance from orbital radius",
+          "section_ref": "",
+          "primary_slo": "2.6.A.1",
+          "notes": "The shared trap across both questions is the center-to-center distance ($2R$) used in gravitation versus the orbital radius ($R$) used in $a_c = v^2/r$. Q1 requires Newton's universal gravitation with the correct separation; Q2 requires the centripetal-acceleration formula with the correct orbit radius. Star radius $r$ is a distractor in both.",
+          "slo_weights": [
+            {
+              "slo": "2.6.A.1",
+              "weight": 0.45
+            },
+            {
+              "slo": "2.10.A.1.i",
+              "weight": 0.35
+            },
+            {
+              "slo": "2.10.A.1.ii",
+              "weight": 0.1
+            },
+            {
+              "slo": "1.1.A.4",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "2.10.A.1.i",
+              "weight": 0.35
+            },
+            {
+              "slo": "2.10.A.1.ii",
+              "weight": 0.1
+            },
+            {
+              "slo": "1.1.A.4",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q13",
+              "label": "1",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "binary_star",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "Questions 1 and 2:"
+                },
+                {
+                  "type": "image",
+                  "page": 232,
+                  "bbox": [
+                    0.12,
+                    0.63,
+                    0.88,
+                    0.78
+                  ],
+                  "caption": "Figure for Questions 1 and 2",
+                  "alt": "Two circles of radius r representing stars separated such that each center is distance R from the midpoint; the total center-to-center separation is 2R"
+                },
+                {
+                  "type": "text",
+                  "value": "Two stars, each of mass $M$, form a binary system. The stars orbit about a point a distance $R$ from the center of each star, as shown in the diagram above. The stars themselves each have radius $r$."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q13a",
+                  "label": "1",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "Center-to-center distance is $2R$, so $F = GM^2/(2R)^2 = GM^2/(4R^2)$. Distractor (A) $GM^2/(R+r)^2$ uses orbital radius plus stellar radius (common misreading). (C) $GM^2/R^2$ forgets to double for full separation. (D) $GM^2/(2R^2)$ forgets to square the 2.",
+                  "options": [
+                    "(A) $G\\dfrac{M^2}{(R+r)^2}$",
+                    "(B) $G\\dfrac{M^2}{4R^2}$",
+                    "(C) $G\\dfrac{M^2}{R^2}$",
+                    "(D) $G\\dfrac{M^2}{2R^2}$"
+                  ],
+                  "correct_option": "(B) $G\\dfrac{M^2}{4R^2}$",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "What is the force each star exerts on the other?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) $G\\dfrac{M^2}{(R+r)^2}$\n(B) $G\\dfrac{M^2}{4R^2}$\n(C) $G\\dfrac{M^2}{R^2}$\n(D) $G\\dfrac{M^2}{2R^2}$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q13b",
+                  "label": "2",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "Each star orbits about a point distance $R$ from its center, so the radius of circular motion is $R$, giving $a_c = v^2/R$. Distractor (A) $v^2/(2R)$ uses center-to-center separation as the radius (a classic confusion with the gravitation denominator). (C) $v^2/(2(r+R))$ mis-includes stellar radius and doubles. (D) $v^2/(2r)$ uses stellar radius as orbit radius.",
+                  "options": [
+                    "(A) $\\dfrac{v^2}{2R}$",
+                    "(B) $\\dfrac{v^2}{R}$",
+                    "(C) $\\dfrac{v^2}{2(r+R)}$",
+                    "(D) $\\dfrac{v^2}{2r}$"
+                  ],
+                  "correct_option": "(B) $\\dfrac{v^2}{R}$",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "In terms of each star's tangential speed $v$, what is the centripetal acceleration of each star?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) $\\dfrac{v^2}{2R}$\n(B) $\\dfrac{v^2}{R}$\n(C) $\\dfrac{v^2}{2(r+R)}$\n(D) $\\dfrac{v^2}{2r}$"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt12",
+          "label": "Identify which force (or force component) supplies centripetal acceleration in a conical-pendulum scenario and apply Newton's 1st law to predict post-release motion",
+          "section_ref": "",
+          "primary_slo": "2.10.A.2",
+          "notes": "Q3 requires recognizing that for a rock whirled in a horizontal circle, the string tension has both a vertical component (supporting weight) and a horizontal component (providing centripetal force). Q4 then applies Newton's 1st law: once released, the rock continues tangent to the circle in a straight line, falling only due to gravity.",
+          "slo_weights": [
+            {
+              "slo": "2.10.A.2",
+              "weight": 0.4
+            },
+            {
+              "slo": "2.10.A.2.iii",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.4.A.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.10.A.1.ii",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "2.10.A.2.iii",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.4.A.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.10.A.1.ii",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q14",
+              "label": "3",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "ewok",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "Questions 3 and 4: In the movie Return of the Jedi, the Ewoks throw rocks using a circular-motion device. A rock is attached to a string. An Ewok whirls the rock in a horizontal circle above his head, then lets go, sending the rock careening into the head of an unsuspecting stormtrooper."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q14a",
+                  "label": "3",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "The string makes an angle below horizontal (conical pendulum). Vertical tension component cancels gravity; horizontal tension component provides the centripetal force. Distractor (A) vertical component = confuses which component points toward center. (C) entire tension = forgets that tension is at an angle, not horizontal. (D) gravity = ignores the string entirely; gravity is vertical, centripetal must be horizontal.",
+                  "options": [
+                    "(A) The vertical component of the string's tension",
+                    "(B) The entire tension of the string",
+                    "(C) The horizontal component of the string's tension",
+                    "(D) The gravitational force on the rock"
+                  ],
+                  "correct_option": "(C) The horizontal component of the string's tension",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "What force provides the rock's centripetal acceleration?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) The vertical component of the string's tension\n(B) The entire tension of the string\n(C) The horizontal component of the string's tension\n(D) The gravitational force on the rock"
+                    }
+                  ]
+                },
+                {
+                  "id": "q14b",
+                  "label": "4",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "Once the string is released, only gravity acts on the rock. Newton's 1st law: the rock continues in a straight line (the tangent direction at the moment of release, which is 'straight forward' per the stem) while falling due to gravity. Distractor (B) 'curve to the right' = treats the rock as still feeling a centripetal pull. (C) 'curve to the left' = wrong-direction curvature. (D) 'fall straight down' = treats horizontal velocity as lost on release.",
+                  "options": [
+                    "(A) It will continue in a straight line forward, while falling due to gravity.",
+                    "(B) It will continue forward but curve to the right, while falling due to gravity.",
+                    "(C) It will continue forward but curve to the left, while falling due to gravity.",
+                    "(D) It will fall straight down to the ground."
+                  ],
+                  "correct_option": "(A) It will continue in a straight line forward, while falling due to gravity.",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "The Ewok whirls the rock and releases it from a point above his head and to his right. The rock initially goes straight forward. Which of the following describes the subsequent motion of the rock?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) It will continue in a straight line forward, while falling due to gravity.\n(B) It will continue forward but curve to the right, while falling due to gravity.\n(C) It will continue forward but curve to the left, while falling due to gravity.\n(D) It will fall straight down to the ground."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt13",
+          "label": "Explain qualitatively why very low-altitude circular orbits around Earth are not maintainable",
+          "section_ref": "",
+          "primary_slo": "2.10.B.1",
+          "notes": "Physically, a circular orbit can exist at any radius where gravitational force supplies the required centripetal force ($T^2 = 4\\pi^2 R^3 / GM$ holds at any $R$). The disqualifying factor at low altitude is atmospheric drag, which dissipates kinetic energy. The question is a conceptual probe of what does and does not depend on altitude.",
+          "slo_weights": [
+            {
+              "slo": "2.10.B.1",
+              "weight": 0.55
+            },
+            {
+              "slo": "2.6.A.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "3.2.A.1.v",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "2.6.A.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "3.2.A.1.v",
+              "weight": 0.2
+            }
+          ],
+          "lo_confidence": "medium",
+          "questions": [
+            {
+              "id": "q15",
+              "label": "5",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.85,
+              "notes": "Correct answer: atmospheric drag dissipates energy at low altitudes. Distractor (A) is physically false — the required orbital speed is actually slightly higher at lower altitudes, not unreachable. (B) Kepler's laws permit any orbital radius; they don't forbid low orbits. (C) conflates 'stronger force' with 'orbit impossible' — stronger gravity just means a faster required speed, not no orbit.",
+              "question_format": "mcq",
+              "options": [
+                "(A) The Space Shuttle cannot go fast enough to maintain such an orbit.",
+                "(B) Kepler's laws forbid an orbit so close to the surface of the Earth.",
+                "(C) Because $r$ appears in the denominator of Newton's law of gravitation, the force of gravity is much larger closer to the Earth; this force is too strong to allow such an orbit.",
+                "(D) Much of the Shuttle's kinetic energy would be dissipated as heat in the atmosphere, degrading the orbit."
+              ],
+              "correct_option": "(D) Much of the Shuttle's kinetic energy would be dissipated as heat in the atmosphere, degrading the orbit.",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A Space Shuttle orbits Earth $300$ km above the surface. Why can't the Shuttle orbit $10$ km above Earth?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) The Space Shuttle cannot go fast enough to maintain such an orbit.\n(B) Kepler's laws forbid an orbit so close to the surface of the Earth.\n(C) Because $r$ appears in the denominator of Newton's law of gravitation, the force of gravity is much larger closer to the Earth; this force is too strong to allow such an orbit.\n(D) Much of the Shuttle's kinetic energy would be dissipated as heat in the atmosphere, degrading the orbit."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt14",
+          "label": "Use static friction as the centripetal force source to find the maximum speed of a rotating object, and compare tangential speeds and centripetal-force requirements at different radii",
+          "section_ref": "",
+          "primary_slo": "2.10.A.2.ii",
+          "notes": "For two points on the same turntable: both have the same period $T$, so $v = 2\\pi r/T$ scales with $r$ (B faster than A). Centripetal force $F_c = m\\omega^2 r$ also scales with $r$ (B requires more). For (c), the maximum static friction $\\mu mg$ must equal $mv^2/r$, so $v_{\\max} = \\sqrt{\\mu g r} = \\sqrt{(0.30)(10)(0.25)} \\approx 0.87$ m/s.",
+          "slo_weights": [
+            {
+              "slo": "2.10.A.2.ii",
+              "weight": 0.35
+            },
+            {
+              "slo": "2.10.A.1.i",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.10.A.5.iii",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.7.B.2.ii",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "2.10.A.1.i",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.10.A.5.iii",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.7.B.2.ii",
+              "weight": 0.2
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q16",
+              "label": "6",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "turntable",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 234,
+                  "bbox": [
+                    0.14,
+                    0.5,
+                    0.8,
+                    0.76
+                  ],
+                  "caption": "Figure for Question 6",
+                  "alt": "Top-down view of a circular turntable with the 'Center of Rotation' labeled and a radius line drawn outward; Point A is marked near the center, Point B is marked on the outer rim"
+                },
+                {
+                  "type": "text",
+                  "value": "Consider two points on a rotating turntable: Point $A$ is very close to the center of rotation, while point $B$ is on the outer rim of the turntable. Both points are shown above. A penny could be placed on the turntable at either point $A$ or point $B$."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q16a",
+                  "label": "6(a)",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "Both points share period $T$, so $v = 2\\pi r/T$ is proportional to $r$. Point B has larger $r$, so it is moving faster. Distractor (A) 'A' reverses the relationship. (C) 'same' fixates on equal period without translating to speed. (D) 'depends on mass' brings in an irrelevant quantity.",
+                  "options": [
+                    "(A) Point A, because inner points complete rotations more quickly.",
+                    "(B) The speeds are the same, because both points complete one rotation in the same time.",
+                    "(C) It depends on the mass of the penny.",
+                    "(D) Point B, because both points share the same period but B covers a larger circumference per rotation."
+                  ],
+                  "correct_option": "(D) Point B, because both points share the same period but B covers a larger circumference per rotation.",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(a) In which case would the speed of the penny be greater, if it were placed at point $A$, or if it were placed at point $B$? Explain."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) Point A, because inner points complete rotations more quickly.\n(B) The speeds are the same, because both points complete one rotation in the same time.\n(C) It depends on the mass of the penny.\n(D) Point B, because both points share the same period but B covers a larger circumference per rotation."
+                    }
+                  ]
+                },
+                {
+                  "id": "q16b",
+                  "label": "6(b)",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "After substituting $v = 2\\pi r/T$ into $F_c = mv^2/r$, one gets $F_c = 4\\pi^2 m r / T^2$ — force scales linearly with $r$ for fixed $T$. Point B (larger $r$) requires more centripetal force. Distractor (A) reads only $v^2/r$ and thinks larger $r$ reduces force (ignores that $v$ also grows with $r$). (B) ignores the radius dependence. (D) invokes a wrong cause.",
+                  "options": [
+                    "(A) Point A, because $F_c = mv^2/r$ grows as $r$ shrinks.",
+                    "(B) The force needed is the same at both points.",
+                    "(C) Point B, because $F_c = 4\\pi^2 m r / T^2$ scales linearly with $r$ when $T$ is fixed.",
+                    "(D) Point A, because inner points have larger angular velocity."
+                  ],
+                  "correct_option": "(C) Point B, because $F_c = 4\\pi^2 m r / T^2$ scales linearly with $r$ when $T$ is fixed.",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(b) At which point would the penny require the larger centripetal force to remain in place? Justify your answer."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) Point A, because $F_c = mv^2/r$ grows as $r$ shrinks.\n(B) The force needed is the same at both points.\n(C) Point B, because $F_c = 4\\pi^2 m r / T^2$ scales linearly with $r$ when $T$ is fixed.\n(D) Point A, because inner points have larger angular velocity."
+                    }
+                  ]
+                },
+                {
+                  "id": "q16c",
+                  "label": "6(c)",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "Set $\\mu_s mg = mv^2/r$; solve: $v_{\\max} = \\sqrt{\\mu_s g r} = \\sqrt{(0.30)(10)(0.25)} = \\sqrt{0.75} \\approx 0.87$ m/s. Distractor (B) $0.75$ m/s = forgets the square root. (C) $1.5$ m/s = uses $\\mu g + r$ or similar addition error. (D) $2.7$ m/s = uses $g = 9.8$ without the $\\mu$ factor.",
+                  "options": [
+                    "(A) $0.87$ m/s",
+                    "(B) $0.75$ m/s",
+                    "(C) $1.5$ m/s",
+                    "(D) $2.7$ m/s"
+                  ],
+                  "correct_option": "(A) $0.87$ m/s",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(c) Point $B$ is $0.25$ m from the center of rotation. If the coefficient of friction between the penny and the turntable is $\\mu = 0.30$, calculate the maximum linear speed the penny can have there and still remain in circular motion."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) $0.87$ m/s\n(B) $0.75$ m/s\n(C) $1.5$ m/s\n(D) $2.7$ m/s"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "label": "Unit 3: Work, Energy, and Power",
+      "question_types": [
+        {
+          "id": "qt7",
+          "label": "Compute work done by constant forces on a block sliding down an inclined plane using W = Fd cos θ",
+          "section_ref": "",
+          "primary_slo": "3.2.A.3.iii",
+          "notes": "Both questions use $W = Fd\\cos\\theta$ on the same incline: Q1 uses the vertical drop ($mg$ dotted with displacement resolves to $mg \\cdot h$), Q2 uses friction along the plane with force antiparallel to displacement. The formula plus sign convention is the shared core skill.",
+          "slo_weights": [
+            {
+              "slo": "3.2.A.3.iii",
+              "weight": 0.45
+            },
+            {
+              "slo": "3.2.A.3.ii",
+              "weight": 0.25
+            },
+            {
+              "slo": "3.2.A.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "3.2.A.1.v",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [
+            "3.2.A.3.ii"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "3.2.A.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "3.2.A.1.v",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q9",
+              "label": "1",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "incline",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "Questions 1 and 2:"
+                },
+                {
+                  "type": "image",
+                  "page": 216,
+                  "bbox": [
+                    0.15,
+                    0.12,
+                    0.7,
+                    0.38
+                  ],
+                  "caption": "Figure for Questions 1 and 2",
+                  "alt": "Right triangle incline with vertical leg labeled 2.5 m, horizontal leg labeled 4.3 m, and hypotenuse labeled 5.0 m; angle θ at the base; a block of mass m rests on the hypotenuse"
+                },
+                {
+                  "type": "text",
+                  "value": "A block of weight $mg = 100$ N slides a distance of $5.0$ m down a $30$-degree incline, as shown above."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q9a",
+                  "label": "1",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "Work by gravity = $mgh$ = $(100)(2.5)$ = $250$ J. Distractor (A) $500$ J = uses the 5.0 m slant distance directly with full weight (ignores angle factor). (B) $100$ J = uses horizontal leg 4.3 m somehow or confuses units. (D) $50$ J = halves twice or drops a factor.",
+                  "options": [
+                    "(A) $500$ J",
+                    "(B) $250$ J",
+                    "(C) $100$ J",
+                    "(D) $50$ J"
+                  ],
+                  "correct_option": "(B) $250$ J",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "How much work is done on the block by gravity?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) $500$ J\n(B) $250$ J\n(C) $100$ J\n(D) $50$ J"
+                    }
+                  ]
+                },
+                {
+                  "id": "q9b",
+                  "label": "2",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "Friction is antiparallel to displacement along the incline: $W_f = -F_f d = -(10)(5.0) = -50$ J. Distractor (A) $-43$ J = uses horizontal leg 4.3 m instead of slant length. (B) $-25$ J = uses vertical drop 2.5 m (confuses which distance to use). (C) $-100$ J = doubles the force or distance; matches the weight magnitude (hint: classic 'wrong quantity' distractor).",
+                  "options": [
+                    "(A) $-43$ J",
+                    "(B) $-25$ J",
+                    "(C) $-100$ J",
+                    "(D) $-50$ J"
+                  ],
+                  "correct_option": "(D) $-50$ J",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "If the block experiences a constant friction force of $10$ N, how much work is done by the friction force?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) $-43$ J\n(B) $-25$ J\n(C) $-100$ J\n(D) $-50$ J"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt8",
+          "label": "Read a U(x) graph to determine turning points and describe long-term oscillatory motion from mechanical-energy conservation",
+          "section_ref": "",
+          "primary_slo": "3.3.A.6",
+          "notes": "Requires interpreting a potential-energy well graph: the mass's turning points are where $U(x) = E_{\\rm total}$. Given KE at $x=0$ is 10 J and the graph shows $U = 10$ J at $x = \\pm 5$ cm, the mass oscillates between those turning points. Conservation of mechanical energy and the U–F relationship support the interpretation.",
+          "slo_weights": [
+            {
+              "slo": "3.3.A.6",
+              "weight": 0.5
+            },
+            {
+              "slo": "3.3.A.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "3.4.B.1",
+              "weight": 0.15
+            },
+            {
+              "slo": "3.4.C.2",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [
+            "3.3.A.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "3.4.B.1",
+              "weight": 0.15
+            },
+            {
+              "slo": "3.4.C.2",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q10",
+              "label": "3",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "Total mechanical energy = 10 J; the graph shows $U = 10$ J at $x = \\pm 5$ cm, so the mass cannot exceed those positions. Because the system is conservative, KE converts back to PE — the mass oscillates. Distractor (A) = treats motion as damped (no dissipation is shown). (B) 'constant acceleration' = reads the parabolic U as implying constant F, but slope changes so F = −dU/dx varies. (C) 'speeds up' = misreads direction of motion.",
+              "question_format": "mcq",
+              "options": [
+                "(A) The mass eventually comes to rest at $x = 0$.",
+                "(B) The mass slows down with constant acceleration, stopping at $x = 5$ cm.",
+                "(C) The mass speeds up with constant acceleration.",
+                "(D) The mass oscillates, never getting farther than $5$ cm from $x = 0$."
+              ],
+              "correct_option": "(D) The mass oscillates, never getting farther than $5$ cm from $x = 0$.",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 217,
+                  "bbox": [
+                    0.18,
+                    0.05,
+                    0.78,
+                    0.33
+                  ],
+                  "caption": "Figure for Question 3",
+                  "alt": "Potential energy U versus position x graph: a parabolic well centered at x = 0 with a horizontal dashed line at U = 10 J intersecting the curve at x = -5 cm and x = +5 cm"
+                },
+                {
+                  "type": "text",
+                  "value": "A mass experiences a potential energy $U$ that varies with distance $x$ as shown in the graph above. The mass is released from position $x = 0$ with $10$ J of kinetic energy. Which of the following describes the long-term motion of the mass?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) The mass eventually comes to rest at $x = 0$.\n(B) The mass slows down with constant acceleration, stopping at $x = 5$ cm.\n(C) The mass speeds up with constant acceleration.\n(D) The mass oscillates, never getting farther than $5$ cm from $x = 0$."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt9",
+          "label": "Compute total kinetic energy of a two-object system by recognizing KE as a scalar that adds regardless of direction",
+          "section_ref": "",
+          "primary_slo": "3.1.A.1",
+          "notes": "Each ball contributes $\\frac{1}{2}(1.0)(6)^2 = 18$ J regardless of direction; total $= 36$ J. The trap is thinking opposite velocities cancel — they don't, because KE is a scalar.",
+          "slo_weights": [
+            {
+              "slo": "3.1.A.1",
+              "weight": 0.65
+            },
+            {
+              "slo": "3.1.A.2",
+              "weight": 0.35
+            }
+          ],
+          "aligned_slos": [
+            "3.1.A.2"
+          ],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q11",
+              "label": "4",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "$K_{\\rm total} = \\frac{1}{2}(1)(6)^2 + \\frac{1}{2}(1)(6)^2 = 36$ J. Distractor (A) $0$ = treats KE as vector that cancels (classic conceptual error). (B) $12$ J = forgets the $\\frac{1}{2}$ factor for both balls and then halves again. (D) $18$ J = only counts one ball.",
+              "question_format": "mcq",
+              "options": [
+                "(A) $0$ joules",
+                "(B) $12$ joules",
+                "(C) $36$ joules",
+                "(D) $18$ joules"
+              ],
+              "correct_option": "(C) $36$ joules",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 217,
+                  "bbox": [
+                    0.22,
+                    0.62,
+                    0.7,
+                    0.75
+                  ],
+                  "caption": "Figure for Question 4",
+                  "alt": "Two balls each labeled m with horizontal arrows of 6 m/s pointing toward each other (left ball moving right, right ball moving left)"
+                },
+                {
+                  "type": "text",
+                  "value": "Two identical balls of mass $m = 1.0$ kg are moving toward each other, as shown above. What is the initial kinetic energy of the system consisting of the two balls?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $0$ joules\n(B) $12$ joules\n(C) $36$ joules\n(D) $18$ joules"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt10",
+          "label": "Apply the work–energy theorem, graphical kinematics, and average power to a non-constant-acceleration v(t) car problem",
+          "section_ref": "",
+          "primary_slo": "3.2.A.4",
+          "notes": "The multi-part problem chains: (a) $\\Delta K = \\frac{1}{2}m v_f^2$; (b) conceptual recognition that curved v-t means nonconstant a, disqualifying constant-a kinematic equations; (c) distance as area under v(t); (d) work–energy theorem $W_{\\rm net} = \\Delta K$ directly; (e) $P_{\\rm avg} = W/\\Delta t$. The work–energy theorem is the connecting thread.",
+          "slo_weights": [
+            {
+              "slo": "3.2.A.4",
+              "weight": 0.4
+            },
+            {
+              "slo": "3.1.A.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "3.5.A.3",
+              "weight": 0.2
+            },
+            {
+              "slo": "3.2.A.5",
+              "weight": 0.1
+            },
+            {
+              "slo": "1.3.A.4",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [
+            "3.2.A.5"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "3.1.A.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "3.5.A.3",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.3.A.4",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "medium",
+          "questions": [
+            {
+              "id": "q12",
+              "label": "5",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "car_vt",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 218,
+                  "bbox": [
+                    0.18,
+                    0.13,
+                    0.78,
+                    0.48
+                  ],
+                  "caption": "Figure for Question 5",
+                  "alt": "Velocity versus time graph for the car: v starts at 0 at t=0, rises steeply, and approaches a horizontal asymptote at v = 40 m/s by t = 7 s; curve is concave down, not linear"
+                },
+                {
+                  "type": "text",
+                  "value": "A $1500$-kg car moves north according to the velocity–time graph shown."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q12a",
+                  "label": "5(a)",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "$\\Delta K = \\frac{1}{2}(1500)(40)^2 - 0 = 1.2 \\times 10^6$ J. Distractor (A) $6.0 \\times 10^4$ J = forgets the square (uses $mv$). (C) $2.4 \\times 10^6$ J = forgets the $\\frac{1}{2}$. (D) $3.0 \\times 10^4$ J = uses $\\frac{1}{2}mv$ without squaring.",
+                  "options": [
+                    "(A) $6.0 \\times 10^4$ J",
+                    "(B) $1.2 \\times 10^6$ J",
+                    "(C) $2.4 \\times 10^6$ J",
+                    "(D) $3.0 \\times 10^4$ J"
+                  ],
+                  "correct_option": "(B) $1.2 \\times 10^6$ J",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(a) Determine the change in the car's kinetic energy during the first $7$ s."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) $6.0 \\times 10^4$ J\n(B) $1.2 \\times 10^6$ J\n(C) $2.4 \\times 10^6$ J\n(D) $3.0 \\times 10^4$ J"
+                    }
+                  ]
+                },
+                {
+                  "id": "q12b",
+                  "label": "5(b)",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "The three constant-acceleration kinematics equations (e.g., $v = v_0 + at$) assume constant $a$. The v–t graph is curved, so acceleration is not constant. Distractor (A) misidentifies what's constant (velocity isn't, but that's not why the equations fail here — they fail because $a$ isn't constant). (C) confuses direction with reason. (D) invokes the wrong variable.",
+                  "options": [
+                    "(A) The velocity is not constant over the interval.",
+                    "(B) The three basic kinematic equations require constant acceleration, but the curved v–t graph shows acceleration is not constant.",
+                    "(C) The car changes direction during the interval, which invalidates the equations.",
+                    "(D) The initial velocity is zero, which is not allowed by the kinematic equations."
+                  ],
+                  "correct_option": "(B) The three basic kinematic equations require constant acceleration, but the curved v–t graph shows acceleration is not constant.",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(b) To determine how far the car traveled in these $7$ s, the three basic kinematics equations cannot be used. Explain why not."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) The velocity is not constant over the interval.\n(B) The three basic kinematic equations require constant acceleration, but the curved v–t graph shows acceleration is not constant.\n(C) The car changes direction during the interval, which invalidates the equations.\n(D) The initial velocity is zero, which is not allowed by the kinematic equations."
+                    }
+                  ]
+                },
+                {
+                  "id": "q12c",
+                  "label": "5(c)",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "Distance = area under v(t). Counting grid boxes (each 1 s × 10 m/s = 10 m) gives approximately 19 boxes → ~190 m. Distractor (A) $140$ m = treats the graph as a triangle $\\frac{1}{2}(7)(40)$. (B) $280$ m = treats it as a rectangle $(7)(40)$. (D) $80$ m = uses average of initial/final over short time.",
+                  "options": [
+                    "(A) $140$ m",
+                    "(B) $280$ m",
+                    "(C) $190$ m",
+                    "(D) $80$ m"
+                  ],
+                  "correct_option": "(C) $190$ m",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(c) Use the velocity–time graph to estimate the distance the car traveled in $7$ s."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) $140$ m\n(B) $280$ m\n(C) $190$ m\n(D) $80$ m"
+                    }
+                  ]
+                },
+                {
+                  "id": "q12d",
+                  "label": "5(d)",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "Work–energy theorem: $W_{\\rm net} = \\Delta K = 1.2 \\times 10^6$ J. Using $W = Fd$ would require constant force, but force is changing. Distractor (B) $0$ J = misapplies 'net force is complicated, so net work is zero'. (C) $2.28 \\times 10^5$ J = multiplies a plausible average force by distance 190 m without invoking the theorem. (D) halves the correct value.",
+                  "options": [
+                    "(A) $1.2 \\times 10^6$ J",
+                    "(B) $0$ J",
+                    "(C) $2.3 \\times 10^5$ J",
+                    "(D) $6.0 \\times 10^5$ J"
+                  ],
+                  "correct_option": "(A) $1.2 \\times 10^6$ J",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(d) What was the net work done on the car in these $7$ s?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) $1.2 \\times 10^6$ J\n(B) $0$ J\n(C) $2.3 \\times 10^5$ J\n(D) $6.0 \\times 10^5$ J"
+                    }
+                  ]
+                },
+                {
+                  "id": "q12e",
+                  "label": "5(e)",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "$P_{\\rm avg} = W/\\Delta t = (1.2 \\times 10^6)/7 \\approx 170$ kW. Distractor (B) $24$ kW = uses $P = Fv$ with average v = 16 m/s and some partial force. (C) $1.2 \\times 10^6$ W = forgets to divide by time. (D) $85$ kW = halves the correct answer (factor-of-2 slip).",
+                  "options": [
+                    "(A) $170$ kW",
+                    "(B) $24$ kW",
+                    "(C) $1.2 \\times 10^6$ W",
+                    "(D) $85$ kW"
+                  ],
+                  "correct_option": "(A) $170$ kW",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(e) Determine the average power necessary for the car to perform this motion."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) $170$ kW\n(B) $24$ kW\n(C) $1.2 \\times 10^6$ W\n(D) $85$ kW"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "label": "Unit 4: Linear Momentum",
+      "question_types": [
+        {
+          "id": "qt4",
+          "label": "Apply the impulse–momentum theorem with constant mass to reason about how force scales with collision time and velocity",
+          "section_ref": "",
+          "primary_slo": "4.2.B.2.i",
+          "notes": "Both questions share the setup $F = \\Delta p / \\Delta t$ for a ball brought to rest; Q1 varies the denominator (time), Q2 varies the numerator (initial velocity). The proportional-reasoning move is the core of the impulse–momentum theorem.",
+          "slo_weights": [
+            {
+              "slo": "4.2.B.2.i",
+              "weight": 0.55
+            },
+            {
+              "slo": "4.2.B.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "4.1.A.1",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "4.2.B.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "4.1.A.1",
+              "weight": 0.2
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q5",
+              "label": "1",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "catch",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "First two questions: A ball of mass $M$ is caught by someone wearing a baseball glove. The ball is in contact with the glove for a time $t$; the initial velocity of the ball (just before the catcher touches it) is $v_0$."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q5a",
+                  "label": "1",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "Correct answer halves the force because $\\Delta t$ doubles in the denominator while $\\Delta p = M v_0$ is unchanged. Distractor (A) 'doesn't change' = treats force as independent of collision time. (B) 'doubles' = inverts the relationship. (C) 'cut to one-fourth' = applies the factor-of-2 change twice (e.g., thinks force goes as $1/t^2$).",
+                  "options": [
+                    "(A) It doesn't change.",
+                    "(B) It doubles.",
+                    "(C) It is cut to one-fourth of the original force.",
+                    "(D) It is cut in half."
+                  ],
+                  "correct_option": "(D) It is cut in half.",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "If the time of the ball's collision with the glove is doubled, what happens to the force necessary to catch the ball?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) It doesn't change.\n(B) It doubles.\n(C) It is cut to one-fourth of the original force.\n(D) It is cut in half."
+                    }
+                  ]
+                },
+                {
+                  "id": "q5b",
+                  "label": "2",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "Correct answer doubles the force because doubling $v_0$ doubles $\\Delta p$ while $\\Delta t$ is unchanged. Distractor (A) 'doesn't change' = doesn't update momentum when velocity changes. (B) 'quadruples' = confuses with kinetic energy which scales as $v^2$. (C) 'cut in half' = inverts the relationship.",
+                  "options": [
+                    "(A) It doesn't change.",
+                    "(B) It quadruples.",
+                    "(C) It is cut in half.",
+                    "(D) It doubles."
+                  ],
+                  "correct_option": "(D) It doubles.",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "If the time of collision remains $t$, but the initial velocity is doubled, what happens to the force necessary to catch the ball?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) It doesn't change.\n(B) It quadruples.\n(C) It is cut in half.\n(D) It doubles."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt5",
+          "label": "Apply conservation of linear momentum to perfectly inelastic 1-D collisions with signed velocities",
+          "section_ref": "",
+          "primary_slo": "4.3.B.1",
+          "notes": "Both questions use $\\sum m_i v_i$ before = $\\sum m_i v_i$ after, with the 'stick together' condition collapsing all post-collision velocities into a single $v'$. Sign conventions on left/right are essential.",
+          "slo_weights": [
+            {
+              "slo": "4.3.B.1",
+              "weight": 0.45
+            },
+            {
+              "slo": "4.3.A.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "4.4.A.5",
+              "weight": 0.15
+            },
+            {
+              "slo": "4.1.A.2",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "4.3.A.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "4.4.A.5",
+              "weight": 0.15
+            },
+            {
+              "slo": "4.1.A.2",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q6",
+              "label": "3",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "Total momentum after = 0 (stuck together, at rest), so $m(5) + (2m)v_2 = 0 \\Rightarrow v_2 = -2.5$ m/s. Distractor (A) = correct magnitude but sign error (right instead of left). (C) = treats masses symmetrically ignoring the factor of 2. (D) = both sign error and magnitude error.",
+              "question_format": "mcq",
+              "options": [
+                "(A) $2.5$ m/s to the left",
+                "(B) $2.5$ m/s to the right",
+                "(C) $10$ m/s to the right",
+                "(D) $10$ m/s to the left"
+              ],
+              "correct_option": "(A) $2.5$ m/s to the left",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Two balls, of mass $m$ and $2m$, collide and stick together. The combined balls are at rest after the collision. If the ball of mass $m$ was moving $5$ m/s to the right before the collision, what was the velocity of the ball of mass $2m$ before the collision?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $2.5$ m/s to the left\n(B) $2.5$ m/s to the right\n(C) $10$ m/s to the right\n(D) $10$ m/s to the left"
+                }
+              ]
+            },
+            {
+              "id": "q7",
+              "label": "4",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.9,
+              "notes": "Letting each ball have unit mass: $m(4) + m(-3) = 2m \\cdot v' \\Rightarrow v' = 0.5$ m/s to the right. Distractors rewritten (source's fractional options were illegible in the PDF). (A) $7$ m/s = summed speeds without the factor of 2 in denominator or the sign. (B) $1$ m/s = forgot one of the masses on the right side. (C) $0.5$ m/s correct. (D) $3.5$ m/s = simple average of speeds ignoring direction.",
+              "question_format": "mcq",
+              "options": [
+                "(A) $7$ m/s to the right",
+                "(B) $1$ m/s to the right",
+                "(C) $0.5$ m/s to the right",
+                "(D) $3.5$ m/s to the right"
+              ],
+              "correct_option": "(C) $0.5$ m/s to the right",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Two identical balls have initial velocities $v_1 = 4$ m/s to the right and $v_2 = 3$ m/s to the left, respectively. The balls collide head-on and stick together. What is the velocity of the combined balls after the collision?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $7$ m/s to the right\n(B) $1$ m/s to the right\n(C) $0.5$ m/s to the right\n(D) $3.5$ m/s to the right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt6",
+          "label": "Chain Newton's 2nd law on an incline, momentum conservation in a perfectly inelastic collision, and the impulse–momentum theorem to analyze a multi-stage problem",
+          "section_ref": "",
+          "primary_slo": "4.3.B.1",
+          "notes": "The skier problem links three skills across its parts: (a) uses Newton's 2nd law on a frictionless 45° incline plus constant-a kinematics to find the bottom-of-hill speed; (b) applies conservation of momentum to the perfectly inelastic collision; (c) applies the impulse–momentum theorem to get the collision force. Momentum conservation is the connecting concept, so it is primary.",
+          "slo_weights": [
+            {
+              "slo": "4.3.B.1",
+              "weight": 0.4
+            },
+            {
+              "slo": "4.4.A.5",
+              "weight": 0.15
+            },
+            {
+              "slo": "4.2.B.2.i",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.2.B.4",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "4.4.A.5",
+              "weight": 0.15
+            },
+            {
+              "slo": "4.2.B.2.i",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.2.B.4",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "medium",
+          "questions": [
+            {
+              "id": "q8",
+              "label": "5",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "skier_hill",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 201,
+                  "bbox": [
+                    0.24,
+                    0.33,
+                    0.78,
+                    0.58
+                  ],
+                  "caption": "Figure for Question 5",
+                  "alt": "Cross-section showing two 45° triangular hills back-to-back labeled hill A and hill B; a 75-kg skier at the top of hill A's 100-m-long slope and a 40-kg child at rest on the flat base between the two hills"
+                },
+                {
+                  "type": "text",
+                  "value": "A $75$-kg skier skis down a hill. The skier collides with a $40$-kg child who is at rest on the flat surface near the base of the hill, $100$ m from the skier's starting point, as shown above. The skier and the child become entangled. Assume all surfaces are frictionless."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q8a",
+                  "label": "5(a)",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "Net force along incline = $mg\\sin 45°$, so $a = g\\sin 45° \\approx 7.1$ m/s². Then $v^2 = 2a(100) \\Rightarrow v \\approx 38$ m/s. Distractor (A) $10$ m/s = used $g$ directly as velocity (confuses units). (B) $14$ m/s = $v = \\sqrt{2g \\cdot 10}$, mis-reads the 100 m as 10 m. (D) $45$ m/s = used the angle's value $(45)$ directly as a speed or used $g = 10$ m/s² over the full 100 m without the sine factor: $v=\\sqrt{2(10)(100)}\\approx 45$ m/s (forgot the incline).",
+                  "options": [
+                    "(A) $38$ m/s",
+                    "(B) $14$ m/s",
+                    "(C) $10$ m/s",
+                    "(D) $45$ m/s"
+                  ],
+                  "correct_option": "(A) $38$ m/s",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(a) How fast will the skier be moving when he reaches the bottom of the hill? Assume the skier is at rest when he begins his descent."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) $38$ m/s\n(B) $14$ m/s\n(C) $10$ m/s\n(D) $45$ m/s"
+                    }
+                  ]
+                },
+                {
+                  "id": "q8b",
+                  "label": "5(b)",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "$p$ before = $(75)(38) = 2850$ kg·m/s; combined mass = $115$ kg; $v' = 2850/115 \\approx 25$ m/s. Distractor (A) $13$ m/s = divided by child's mass only (40). (C) $38$ m/s = forgets to redistribute momentum across combined mass. (D) $19$ m/s = halves the skier's speed (simple average thinking).",
+                  "options": [
+                    "(A) $13$ m/s",
+                    "(B) $25$ m/s",
+                    "(C) $38$ m/s",
+                    "(D) $19$ m/s"
+                  ],
+                  "correct_option": "(B) $25$ m/s",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(b) What will be the speed of the skier and child just after they collide?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) $13$ m/s\n(B) $25$ m/s\n(C) $38$ m/s\n(D) $19$ m/s"
+                    }
+                  ]
+                },
+                {
+                  "id": "q8c",
+                  "label": "5(c)",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "Force on child: $F = \\Delta p / \\Delta t = (40)(25) / 0.5 = 2000$ N. (Newton's third law: skier experiences equal magnitude.) Distractor (A) $1000$ N = forgets to divide by 0.5 s (uses $\\Delta p$ as force). (C) $4000$ N = uses combined mass 115 × 25 / 0.5 in a way that doubles. (D) $400$ N = used child's weight $mg$ at rest instead of impulse.",
+                  "options": [
+                    "(A) $1000$ N",
+                    "(B) $4000$ N",
+                    "(C) $2000$ N",
+                    "(D) $400$ N"
+                  ],
+                  "correct_option": "(C) $2000$ N",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(c) If the collision occurs in half a second, how much force will be experienced by each person?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) $1000$ N\n(B) $4000$ N\n(C) $2000$ N\n(D) $400$ N"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u5",
+      "label": "Unit 5: Torque and Rotational Dynamics",
+      "question_types": [
+        {
+          "id": "qt15",
+          "label": "Compare the rotational inertia of different same-mass, same-length systems by reasoning about mass distribution relative to the axis",
+          "section_ref": "",
+          "primary_slo": "5.4.A.1",
+          "notes": "The qualitative rule is that $I$ grows as mass is placed farther from the axis. With total mass and length fixed, the configuration with point masses at the extreme ends has the largest $I$; the one with mass concentrated near the axis has the smallest.",
+          "slo_weights": [
+            {
+              "slo": "5.4.A.1",
+              "weight": 0.55
+            },
+            {
+              "slo": "5.4.A.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "5.4.A.3",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [
+            "5.4.A.2",
+            "5.4.A.3"
+          ],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q17",
+              "label": "1",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "Correct: heavy balls at the ends maximize $\\sum m_i r_i^2$. Distractor (B) uniform rod gives $I = \\frac{1}{12}ML^2$, smaller than point masses at the ends ($\\frac{1}{4}ML^2$). (C) nonuniform with density increasing from one end to the other shifts the CM away from midpoint, but keeps mass spread along the rod rather than concentrated at extremes. (D) density increasing from middle to ends is closer to option (A) but still continuous, so slightly less extreme than point masses.",
+              "question_format": "mcq",
+              "options": [
+                "(A) a very light rod with heavy balls attached at either end",
+                "(B) a uniform rod",
+                "(C) a nonuniform rod, with the linear density increasing from one end to the other",
+                "(D) a nonuniform rod, with the linear density increasing from the middle to the ends"
+              ],
+              "correct_option": "(A) a very light rod with heavy balls attached at either end",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "All of the objects mentioned in the choices below have the same total mass and length. Which has the greatest rotational inertia about its midpoint?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) a very light rod with heavy balls attached at either end\n(B) a uniform rod\n(C) a nonuniform rod, with the linear density increasing from one end to the other\n(D) a nonuniform rod, with the linear density increasing from the middle to the ends"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt16",
+          "label": "Evaluate the angular momentum of a particle traveling in a straight line about a fixed reference point and recognize it as constant",
+          "section_ref": "",
+          "primary_slo": "6.3.A.2.ii",
+          "notes": "For a particle moving in a straight line, $L = mvr_\\perp$ where $r_\\perp$ is the perpendicular distance from the reference point to the line of motion. Since $r_\\perp$ is constant along a straight path, $L$ is constant throughout the motion.",
+          "slo_weights": [
+            {
+              "slo": "6.3.A.2.ii",
+              "weight": 0.5
+            },
+            {
+              "slo": "6.3.A.2",
+              "weight": 0.3
+            },
+            {
+              "slo": "6.3.A.2.i",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [
+            "6.3.A.2.i"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "6.3.A.2",
+              "weight": 0.3
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q18",
+              "label": "2",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.9,
+              "notes": "For any point on the straight-line trajectory, $L = mv \\cdot r_\\perp$, and $r_\\perp$ (distance of closest approach — the table's midpoint) is the same regardless of where the ball is along its path. $L$ is constant. Distractor (A) = thinks $L$ is largest when the object is moving 'more quickly toward/away from' the reference (but the radial component is zero throughout). (B) midpoint: a very common wrong guess because the ball is closest to the camera there; but $r$ in the formula is the perpendicular distance to the line, not the instantaneous distance. (D) 'far end' = same misconception but opposite answer.",
+              "question_format": "mcq",
+              "options": [
+                "(A) when the ball was first struck",
+                "(B) at the midpoint of the table",
+                "(C) the angular momentum is the same throughout the motion",
+                "(D) at the far end of the table"
+              ],
+              "correct_option": "(C) the angular momentum is the same throughout the motion",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A pool ball is struck at one end of the table; it moves at constant speed to the far end of the table. A camera is mounted at the side pocket at the table's midpoint, as shown. From the camera's point of view, the pool ball travels from right to left. At which point in its motion does the ball have the greatest angular momentum about the camera's position?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) when the ball was first struck\n(B) at the midpoint of the table\n(C) the angular momentum is the same throughout the motion\n(D) at the far end of the table"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt17",
+          "label": "Compute the torque of a force about a chosen pivot by identifying the perpendicular lever arm",
+          "section_ref": "",
+          "primary_slo": "5.3.A.2",
+          "notes": "Torque about the rod's CM: the normal force acts vertically at the base of the ladder, a distance $L/2$ along the rod from the CM. The lever arm is the perpendicular distance from the CM to the line of action of $F_N$. Since the line of action is vertical and the rod makes angle $\\theta$ with the horizontal, the horizontal separation from CM to base is $(L/2)\\cos\\theta$.",
+          "slo_weights": [
+            {
+              "slo": "5.3.A.2",
+              "weight": 0.45
+            },
+            {
+              "slo": "5.3.A.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "5.3.B.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "5.3.B.2.i",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [
+            "5.3.A.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "5.3.B.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "5.3.B.2.i",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q19",
+              "label": "3",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.9,
+              "notes": "Lever arm for the vertical $F_N$ acting at the base, about the CM, is horizontal distance $(L/2)\\cos\\theta$. Distractor (A) $F_N (L/2)$ = ignores the angle entirely (treats ladder as horizontal). (B) $F_N L\\cos\\theta$ = uses full length $L$ instead of half-length to CM. (C) $F_N L\\sin\\theta$ = uses vertical height from base to wall, which would be correct about the base as pivot but not about the CM, and also uses full $L$.",
+              "question_format": "mcq",
+              "options": [
+                "(A) $F_N \\cdot (L/2)$",
+                "(B) $F_N \\cdot L\\cos\\theta$",
+                "(C) $F_N \\cdot L\\sin\\theta$",
+                "(D) $F_N \\cdot (L/2)\\cos\\theta$"
+              ],
+              "correct_option": "(D) $F_N \\cdot (L/2)\\cos\\theta$",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 255,
+                  "bbox": [
+                    0.3,
+                    0.42,
+                    0.7,
+                    0.66
+                  ],
+                  "caption": "Figure for Question 3",
+                  "alt": "A ladder of length L leaning against a wall at angle θ from the horizontal; the center of mass 'cm' is marked on the ladder"
+                },
+                {
+                  "type": "text",
+                  "value": "A ladder of length $L$ leans against a wall at an angle of $\\theta$ from the horizontal, as shown earlier. The normal force $F_N$ applied from the ground on the ladder applies what torque about the ladder's center of mass?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $F_N \\cdot (L/2)$\n(B) $F_N \\cdot L\\cos\\theta$\n(C) $F_N \\cdot L\\sin\\theta$\n(D) $F_N \\cdot (L/2)\\cos\\theta$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt18",
+          "label": "Integrate a time-dependent angular velocity to find angular displacement, then convert to linear arc length using s = rθ",
+          "section_ref": "",
+          "primary_slo": "5.2.A.1",
+          "notes": "Angular displacement $\\Delta\\theta = \\int_2^3 (2 + 4t^2) dt = [2t + \\frac{4}{3}t^3]_2^3 = (6 + 36) - (4 + \\frac{32}{3}) = 42 - 14.67 \\approx 27$ rad. Arc length $s = r\\Delta\\theta = 0.5 \\times 27 \\approx 13.5 \\approx 14$ m.",
+          "slo_weights": [
+            {
+              "slo": "5.2.A.1",
+              "weight": 0.4
+            },
+            {
+              "slo": "5.2.A.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "1.2.C.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "5.1.A.1",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [
+            "5.2.A.2"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.2.C.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "5.1.A.1",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q20",
+              "label": "4",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.9,
+              "notes": "Distractor (A) $36$ m = evaluates at $t=3$ only without subtracting lower limit, gets $\\theta = 42$ and multiplies by wheel radius differently. (B) $27$ m = reports the angular displacement in radians as meters (forgets to multiply by $r = 0.5$). (C) $21$ m = uses $\\omega(3) - \\omega(2) = 38 - 18 = 20$ and rounds, or averages ω over the interval without integrating properly.",
+              "question_format": "mcq",
+              "options": [
+                "(A) $14$ m",
+                "(B) $27$ m",
+                "(C) $21$ m",
+                "(D) $36$ m"
+              ],
+              "correct_option": "(A) $14$ m",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The front wheel on an ancient bicycle has a radius of $0.5$ m. It moves with angular velocity given by the function $\\omega(t) = 2 + 4t^2$, where $t$ is in seconds. About how far does the bicycle move between $t = 2$ and $t = 3$ seconds?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $14$ m\n(B) $27$ m\n(C) $21$ m\n(D) $36$ m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt19",
+          "label": "Analyze a pivoted rod + point mass using rotational inertia addition, rotational energy conservation, and the v = rω relationship",
+          "section_ref": "",
+          "primary_slo": "6.1.A.1",
+          "notes": "Multi-part: (a) $I_{\\rm total} = \\frac{1}{3}ML^2 + mL^2$ by adding individual rotational inertias; (b) energy conservation: rod's CM drops $L/2$, mass drops $L$, so $\\frac{1}{2}I\\omega^2 = Mg(L/2) + mgL$; (c) $v = L\\omega$ for the mass at the tip; (d) at the bottom, motion is purely circular (tangential speed momentarily max), so net force on CM has centripetal and tangential components.",
+          "slo_weights": [
+            {
+              "slo": "6.1.A.1",
+              "weight": 0.3
+            },
+            {
+              "slo": "5.4.A.3",
+              "weight": 0.25
+            },
+            {
+              "slo": "3.4.C.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "5.2.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "5.6.A.2",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "5.4.A.3",
+              "weight": 0.25
+            },
+            {
+              "slo": "3.4.C.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "5.2.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "5.6.A.2",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "medium",
+          "questions": [
+            {
+              "id": "q21",
+              "label": "5",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "stick_mass",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 256,
+                  "bbox": [
+                    0.22,
+                    0.42,
+                    0.68,
+                    0.58
+                  ],
+                  "caption": "Figure for Question 5 (initial position)",
+                  "alt": "A horizontal stick of mass M and length L with an arrow labeled 'pivot' pointing to the left end; a small mass m is attached at the right-hand end"
+                },
+                {
+                  "type": "text",
+                  "value": "A stick of mass $M$ and length $L$ is pivoted at one end. A small mass $m \\ll M$ is attached to the right-hand end of the stick. The stick is held horizontally and released from rest."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q21a",
+                  "label": "5(a)",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "$I_{\\rm rod} = \\frac{1}{3}ML^2$ (given). Point mass at distance $L$ from pivot contributes $mL^2$. Total: $\\frac{1}{3}ML^2 + mL^2$. Distractor (A) $\\frac{1}{3}ML^2 + \\frac{1}{3}mL^2$ = incorrectly treats the point mass with the uniform-rod formula. (C) $\\frac{1}{3}(M+m)L^2$ = just adds the masses and applies the rod formula. (D) $\\frac{1}{12}ML^2 + mL^2$ = uses the center-pivoted rod formula by mistake.",
+                  "options": [
+                    "(A) $\\frac{1}{3}ML^2 + \\frac{1}{3}mL^2$",
+                    "(B) $\\frac{1}{3}ML^2 + mL^2$",
+                    "(C) $\\frac{1}{3}(M+m)L^2$",
+                    "(D) $\\frac{1}{12}ML^2 + mL^2$"
+                  ],
+                  "correct_option": "(B) $\\frac{1}{3}ML^2 + mL^2$",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(a) Given that the rotational inertia of a uniform rod pivoted around one end is $(1/3)ML^2$, determine the rotational inertia of the described contraption."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) $\\frac{1}{3}ML^2 + \\frac{1}{3}mL^2$\n(B) $\\frac{1}{3}ML^2 + mL^2$\n(C) $\\frac{1}{3}(M+m)L^2$\n(D) $\\frac{1}{12}ML^2 + mL^2$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q21b",
+                  "label": "5(b)",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "Energy conservation: rod's CM drops $L/2$; mass drops $L$. Energy lost to PE = $Mg(L/2) + mgL = \\frac{(M+2m)gL}{2}$. Setting equal to $\\frac{1}{2}I\\omega^2 = \\frac{1}{2}(\\frac{1}{3}ML^2 + mL^2)\\omega^2$ and solving: $\\omega = \\sqrt{\\frac{3g(M+2m)}{(M+3m)L}}$. Distractor (A) uses only the rod's PE drop (forgets the point mass). (C) $\\sqrt{2g/L}$ = oversimplified single-particle pendulum. (D) $\\sqrt{3g/L}$ = uses only the rod's $I$ and drop without $m$.",
+                  "options": [
+                    "(A) $\\sqrt{\\dfrac{3gM}{(M+3m)L}}$",
+                    "(B) $\\sqrt{\\dfrac{3g(M+2m)}{(M+3m)L}}$",
+                    "(C) $\\sqrt{\\dfrac{2g}{L}}$",
+                    "(D) $\\sqrt{\\dfrac{3g}{L}}$"
+                  ],
+                  "correct_option": "(B) $\\sqrt{\\dfrac{3g(M+2m)}{(M+3m)L}}$",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(b) Calculate the angular velocity of the contraption when it reaches a vertical position."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) $\\sqrt{\\dfrac{3gM}{(M+3m)L}}$\n(B) $\\sqrt{\\dfrac{3g(M+2m)}{(M+3m)L}}$\n(C) $\\sqrt{\\dfrac{2g}{L}}$\n(D) $\\sqrt{\\dfrac{3g}{L}}$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q21c",
+                  "label": "5(c)",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "notes": "The mass is at distance $L$ from the pivot, so its linear speed is $v = L\\omega$. Distractor (A) $(L/2)\\omega$ = uses the rod's CM distance instead of the mass's distance. (C) $2L\\omega$ = doubles incorrectly. (D) $L^2\\omega$ = squares $L$ confusing it with $I$.",
+                  "options": [
+                    "(A) $v = (L/2)\\omega$",
+                    "(B) $v = L^2\\omega$",
+                    "(C) $v = 2L\\omega$",
+                    "(D) $v = L\\omega$"
+                  ],
+                  "correct_option": "(D) $v = L\\omega$",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(c) Calculate the linear velocity of the small mass $m$ when it is at its lowest position."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) $v = (L/2)\\omega$\n(B) $v = L^2\\omega$\n(C) $v = 2L\\omega$\n(D) $v = L\\omega$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q21d",
+                  "label": "5(d)",
+                  "is_stem_child": true,
+                  "question_format": "free_response",
+                  "notes": "Genuine 'draw a vector' task on a provided figure; the artifact is the diagram itself, not a finite choice. At the lowest position, the CM moves in a circular arc, so the net force has a centripetal component pointing up (toward the pivot). Since the rod is momentarily at its lowest point, tangential acceleration is zero, so the net force is purely upward.",
+                  "ordered_content": [
+                    {
+                      "type": "image",
+                      "page": 257,
+                      "bbox": [
+                        0.42,
+                        0.06,
+                        0.55,
+                        0.42
+                      ],
+                      "caption": "Figure for Question 5(d)",
+                      "alt": "The stick at its lowest position, shown hanging vertically from the pivot (at top) with the small mass m at the bottom end"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(d) The figure above represents the stick at its lowest position. On this figure, draw a vector to represent the net force on the rod's center of mass at this point. Justify your answer."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

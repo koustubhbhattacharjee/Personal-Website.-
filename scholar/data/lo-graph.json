@@ -1,0 +1,2096 @@
+{
+  "nodes": {
+    "APPhy1.1.1": {
+      "code": "APPhy1.1.1",
+      "name": "Position, Velocity, and Acceleration",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "APPhy1.1.2": {
+      "code": "APPhy1.1.2",
+      "name": "Uniformly Accelerated Motion (Kinematics Equations)",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "APPhy1.1.3": {
+      "code": "APPhy1.1.3",
+      "name": "Projectile Motion",
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    "APPhy1.1.4": {
+      "code": "APPhy1.1.4",
+      "name": "Relative Motion and Reference Frames",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "APPhy1.2.1": {
+      "code": "APPhy1.2.1",
+      "name": "Newton's First Law and Inertia",
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    "APPhy1.2.2": {
+      "code": "APPhy1.2.2",
+      "name": "Newton's Second Law",
+      "inDegree": 0,
+      "outDegree": 1
+    },
+    "APPhy1.2.3": {
+      "code": "APPhy1.2.3",
+      "name": "Newton's Third Law",
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    "APPhy1.2.4": {
+      "code": "APPhy1.2.4",
+      "name": "Gravitational Force and Weight",
+      "inDegree": 4,
+      "outDegree": 0
+    },
+    "APPhy1.2.5": {
+      "code": "APPhy1.2.5",
+      "name": "Normal Force and Friction",
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    "APPhy1.2.6": {
+      "code": "APPhy1.2.6",
+      "name": "Tension and Connected Objects",
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    "APPhy1.2.7": {
+      "code": "APPhy1.2.7",
+      "name": "Uniform Circular Motion Dynamics",
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    "APPhy1.3.1": {
+      "code": "APPhy1.3.1",
+      "name": "Work",
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    "APPhy1.3.2": {
+      "code": "APPhy1.3.2",
+      "name": "Kinetic and Potential Energy",
+      "inDegree": 2,
+      "outDegree": 0
+    },
+    "APPhy1.3.3": {
+      "code": "APPhy1.3.3",
+      "name": "Conservation of Energy",
+      "inDegree": 2,
+      "outDegree": 3
+    },
+    "APPhy1.3.4": {
+      "code": "APPhy1.3.4",
+      "name": "Power",
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    "APPhy1.4.1": {
+      "code": "APPhy1.4.1",
+      "name": "Linear Momentum and Impulse",
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    "APPhy1.4.2": {
+      "code": "APPhy1.4.2",
+      "name": "Conservation of Linear Momentum",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "APPhy1.4.3": {
+      "code": "APPhy1.4.3",
+      "name": "Elastic and Inelastic Collisions",
+      "inDegree": 0,
+      "outDegree": 4
+    },
+    "APPhy1.4.4": {
+      "code": "APPhy1.4.4",
+      "name": "Center of Mass",
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    "APPhy1.5.1": {
+      "code": "APPhy1.5.1",
+      "name": "Rotational Kinematics",
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    "APPhy1.5.2": {
+      "code": "APPhy1.5.2",
+      "name": "Torque",
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    "APPhy1.5.3": {
+      "code": "APPhy1.5.3",
+      "name": "Rotational Inertia and Newton's Second Law for Rotation",
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    "APPhy1.5.4": {
+      "code": "APPhy1.5.4",
+      "name": "Angular Momentum and Its Conservation",
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    "APPhy1.5.5": {
+      "code": "APPhy1.5.5",
+      "name": "Rotational Kinetic Energy and Rolling Motion",
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    "APPhy1.6.1": {
+      "code": "APPhy1.6.1",
+      "name": "Simple Harmonic Motion (SHM) — Characteristics",
+      "inDegree": 3,
+      "outDegree": 1
+    },
+    "APPhy1.6.2": {
+      "code": "APPhy1.6.2",
+      "name": "Mass-Spring System",
+      "inDegree": 4,
+      "outDegree": 3
+    },
+    "APPhy1.6.3": {
+      "code": "APPhy1.6.3",
+      "name": "Simple Pendulum",
+      "inDegree": 1,
+      "outDegree": 4
+    },
+    "APPhy1.6.4": {
+      "code": "APPhy1.6.4",
+      "name": "Energy in SHM",
+      "inDegree": 0,
+      "outDegree": 5
+    },
+    "APPhy1.7.1": {
+      "code": "APPhy1.7.1",
+      "name": "Newton's Law of Universal Gravitation",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "APPhy1.7.2": {
+      "code": "APPhy1.7.2",
+      "name": "Gravitational Field",
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    "APPhy1.7.3": {
+      "code": "APPhy1.7.3",
+      "name": "Circular Orbits and Kepler's Laws",
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    "APPhy1.7.4": {
+      "code": "APPhy1.7.4",
+      "name": "Gravitational Potential Energy",
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    "APCBC.7.3": {
+      "code": "APCBC.7.3",
+      "name": "Separable Differential Equations",
+      "inDegree": 2,
+      "outDegree": 0
+    },
+    "APCBC.10.3": {
+      "code": "APCBC.10.3",
+      "name": "Power Series",
+      "inDegree": 0,
+      "outDegree": 7
+    },
+    "APCBC.10.4": {
+      "code": "APCBC.10.4",
+      "name": "Taylor and Maclaurin Series",
+      "inDegree": 3,
+      "outDegree": 6
+    },
+    "APCBC.10.2": {
+      "code": "APCBC.10.2",
+      "name": "Convergence Tests",
+      "inDegree": 1,
+      "outDegree": 3
+    },
+    "APCBC.10.1": {
+      "code": "APCBC.10.1",
+      "name": "Convergence of Sequences and Series",
+      "inDegree": 4,
+      "outDegree": 0
+    },
+    "APCBC.5.2": {
+      "code": "APCBC.5.2",
+      "name": "Increasing/Decreasing Functions and Local Extrema",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    "APCBC.4.3": {
+      "code": "APCBC.4.3",
+      "name": "Linear Approximation and Differentials",
+      "inDegree": 0,
+      "outDegree": 1
+    },
+    "APCBC.7.4": {
+      "code": "APCBC.7.4",
+      "name": "Exponential and Logistic Growth Models",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "APCBC.2.3": {
+      "code": "APCBC.2.3",
+      "name": "Basic Differentiation Rules",
+      "inDegree": 4,
+      "outDegree": 0
+    },
+    "APCBC.3.4": {
+      "code": "APCBC.3.4",
+      "name": "Higher-Order Derivatives",
+      "inDegree": 3,
+      "outDegree": 0
+    },
+    "APCBC.6.3": {
+      "code": "APCBC.6.3",
+      "name": "Antiderivatives and Indefinite Integration",
+      "inDegree": 2,
+      "outDegree": 0
+    },
+    "APCBC.6.7": {
+      "code": "APCBC.6.7",
+      "name": "Improper Integrals (BC)",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    "APCBC.9.2": {
+      "code": "APCBC.9.2",
+      "name": "Polar Coordinates and Curves",
+      "inDegree": 0,
+      "outDegree": 2
+    },
+    "APCBC.9.1": {
+      "code": "APCBC.9.1",
+      "name": "Parametric Equations",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    "APCBC.9.3": {
+      "code": "APCBC.9.3",
+      "name": "Vector-Valued Functions",
+      "inDegree": 0,
+      "outDegree": 5
+    },
+    "APCBC.4.1": {
+      "code": "APCBC.4.1",
+      "name": "Interpreting the Derivative in Context",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "APCBC.3.1": {
+      "code": "APCBC.3.1",
+      "name": "Chain Rule",
+      "inDegree": 2,
+      "outDegree": 0
+    },
+    "APCBC.6.4": {
+      "code": "APCBC.6.4",
+      "name": "Integration by Substitution",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "": {
+      "code": "",
+      "name": "",
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    "3.2.A": {
+      "code": "3.2.A",
+      "name": "Describe the work done on an object or system by a given force or collection of forces.",
+      "inDegree": 5,
+      "outDegree": 4
+    },
+    "3.3.A": {
+      "code": "3.3.A",
+      "name": "Describe the potential energy of a system.",
+      "inDegree": 0,
+      "outDegree": 0
+    },
+    "2.6.D": {
+      "code": "2.6.D",
+      "name": "Describe inertial and gravitational mass.",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "2.2.B": {
+      "code": "2.2.B",
+      "name": "Describe the forces exerted on an object or system using a free-body diagram.",
+      "inDegree": 4,
+      "outDegree": 3
+    },
+    "3.4.B": {
+      "code": "3.4.B",
+      "name": "Describe the behavior of a system using conservation of mechanical energy principles.",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    "1.3.A": {
+      "code": "1.3.A",
+      "name": "Describe the position, velocity, and acceleration of an object using representations of that object's motion.",
+      "inDegree": 7,
+      "outDegree": 4
+    },
+    "2.6.A": {
+      "code": "2.6.A",
+      "name": "Describe the gravitational interaction between two objects or systems with mass.",
+      "inDegree": 11,
+      "outDegree": 2
+    },
+    "5.1.A": {
+      "code": "5.1.A",
+      "name": "Describe the rotation of a system with respect to time using angular displacement, angular velocity, and angular acceleration.",
+      "inDegree": 2,
+      "outDegree": 0
+    },
+    "5.1.A.4": {
+      "code": "5.1.A.4",
+      "name": "5.1.A.4",
+      "inDegree": 0,
+      "outDegree": 1
+    },
+    "8.2.B": {
+      "code": "8.2.B",
+      "name": "Describe the pressure exerted by a fluid.",
+      "inDegree": 3,
+      "outDegree": 7
+    },
+    "8.1.A": {
+      "code": "8.1.A",
+      "name": "Describe the properties of a fluid.",
+      "inDegree": 4,
+      "outDegree": 0
+    },
+    "2.3.A": {
+      "code": "2.3.A",
+      "name": "Describe the interaction of two objects using Newton's third law and a representation of paired forces exerted on each object.",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    "4.3.A.3": {
+      "code": "4.3.A.3",
+      "name": "4.3.A.3",
+      "inDegree": 3,
+      "outDegree": 0
+    },
+    "2.5.A": {
+      "code": "2.5.A",
+      "name": "Describe the conditions under which a system's velocity changes.",
+      "inDegree": 9,
+      "outDegree": 6
+    },
+    "4.3.A": {
+      "code": "4.3.A",
+      "name": "Describe the behavior of a system using conservation of linear momentum.",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    "4.2.B": {
+      "code": "4.2.B",
+      "name": "Describe the relationship between the impulse exerted on an object or a system and the change in momentum of the object or system.",
+      "inDegree": 3,
+      "outDegree": 1
+    },
+    "1.5.A": {
+      "code": "1.5.A",
+      "name": "Describe the perpendicular components of a vector.",
+      "inDegree": 7,
+      "outDegree": 0
+    },
+    "4.3.B": {
+      "code": "4.3.B",
+      "name": "Describe how the selection of a system determines whether the momentum of that system changes.",
+      "inDegree": 3,
+      "outDegree": 7
+    },
+    "7.4.A": {
+      "code": "7.4.A",
+      "name": "Describe the mechanical energy of a system exhibiting SHM",
+      "inDegree": 3,
+      "outDegree": 4
+    },
+    "7.4.A.4": {
+      "code": "7.4.A.4",
+      "name": "7.4.A.4",
+      "inDegree": 1,
+      "outDegree": 4
+    },
+    "2.8.A": {
+      "code": "2.8.A",
+      "name": "Describe the force exerted on an object by an ideal spring",
+      "inDegree": 4,
+      "outDegree": 6
+    },
+    "7.1.A": {
+      "code": "7.1.A",
+      "name": "Describe simple harmonic motion.",
+      "inDegree": 3,
+      "outDegree": 5
+    },
+    "2.9.A.5": {
+      "code": "2.9.A.5",
+      "name": "2.9.A.5",
+      "inDegree": 3,
+      "outDegree": 2
+    },
+    "7.3.A.1": {
+      "code": "7.3.A.1",
+      "name": "7.3.A.1",
+      "inDegree": 0,
+      "outDegree": 3
+    },
+    "7.3.A": {
+      "code": "7.3.A",
+      "name": "Describe the displacement, velocity, and acceleration of an object exhibiting SHM.",
+      "inDegree": 1,
+      "outDegree": 5
+    },
+    "3.4.C": {
+      "code": "3.4.C",
+      "name": "Describe how the selection of a system determines whether the energy of that system changes.",
+      "inDegree": 7,
+      "outDegree": 8
+    },
+    "1.2.A": {
+      "code": "1.2.A",
+      "name": "Describe a change in an object's position.",
+      "inDegree": 4,
+      "outDegree": 1
+    },
+    "4.2.A": {
+      "code": "4.2.A",
+      "name": "Describe the impulse delivered to an object or system.",
+      "inDegree": 0,
+      "outDegree": 4
+    },
+    "2.4.A": {
+      "code": "2.4.A",
+      "name": "Describe the conditions under which a system's velocity remains constant.",
+      "inDegree": 14,
+      "outDegree": 4
+    },
+    "2.7.B": {
+      "code": "2.7.B",
+      "name": "Describe static friction between two surfaces.",
+      "inDegree": 2,
+      "outDegree": 7
+    },
+    "3.3.A.4": {
+      "code": "3.3.A.4",
+      "name": "3.3.A.4",
+      "inDegree": 4,
+      "outDegree": 0
+    },
+    "3.1.A": {
+      "code": "3.1.A",
+      "name": "Describe the translational kinetic energy of an object in terms of the object's mass and velocity.",
+      "inDegree": 7,
+      "outDegree": 0
+    },
+    "3.2.A.1": {
+      "code": "3.2.A.1",
+      "name": "3.2.A.1",
+      "inDegree": 3,
+      "outDegree": 0
+    },
+    "4.3.A.1": {
+      "code": "4.3.A.1",
+      "name": "4.3.A.1",
+      "inDegree": 0,
+      "outDegree": 6
+    },
+    "4.1.A": {
+      "code": "4.1.A",
+      "name": "Describe the linear momentum of an object or system.",
+      "inDegree": 6,
+      "outDegree": 1
+    },
+    "2.1.B": {
+      "code": "2.1.B",
+      "name": "Describe the location of a system's center of mass with respect to the system's constituent parts.",
+      "inDegree": 1,
+      "outDegree": 3
+    },
+    "3.2.A.3": {
+      "code": "3.2.A.3",
+      "name": "3.2.A.3",
+      "inDegree": 0,
+      "outDegree": 4
+    },
+    "2.6.A.1": {
+      "code": "2.6.A.1",
+      "name": "2.6.A.1",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "1.5.B": {
+      "code": "1.5.B",
+      "name": "Describe the motion of an object moving in two dimensions.",
+      "inDegree": 2,
+      "outDegree": 3
+    },
+    "8.2.A": {
+      "code": "8.2.A",
+      "name": "Describe the pressure exerted on a surface by a given force.",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    "1.1.A": {
+      "code": "1.1.A",
+      "name": "Describe a scalar or vector quantity using magnitude and direction, as appropriate.",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    "2.9.B": {
+      "code": "2.9.B",
+      "name": "Describe circular orbits using Kepler's third law.",
+      "inDegree": 1,
+      "outDegree": 3
+    },
+    "2.9.A.1": {
+      "code": "2.9.A.1",
+      "name": "2.9.A.1",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    "6.6.A.2": {
+      "code": "6.6.A.2",
+      "name": "6.6.A.2",
+      "inDegree": 0,
+      "outDegree": 6
+    },
+    "6.6.A": {
+      "code": "6.6.A",
+      "name": "Describe the motions of a system consisting of two objects interacting only via gravitational forces.",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    "6.3.A": {
+      "code": "6.3.A",
+      "name": "Describe the angular momentum of an object or rigid system.",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    "6.4.B": {
+      "code": "6.4.B",
+      "name": "Describe how the selection of a system determines whether the angular momentum of that system changes.",
+      "inDegree": 2,
+      "outDegree": 0
+    },
+    "4.1.A.3": {
+      "code": "4.1.A.3",
+      "name": "4.1.A.3",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "4.4.A": {
+      "code": "4.4.A",
+      "name": "Describe whether an interaction between objects is elastic or inelastic.",
+      "inDegree": 0,
+      "outDegree": 5
+    },
+    "8.3.A": {
+      "code": "8.3.A",
+      "name": "Describe the conditions under which a fluid's velocity changes.",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "8.3.B": {
+      "code": "8.3.B",
+      "name": "Describe the buoyant force exerted on an object interacting with a fluid.",
+      "inDegree": 0,
+      "outDegree": 5
+    },
+    "2.6.C": {
+      "code": "2.6.C",
+      "name": "Describe the conditions under which the magnitude of a system's apparent weight is different from the magnitude of the gravitational force exerted on that system.",
+      "inDegree": 2,
+      "outDegree": 8
+    },
+    "1.4.B": {
+      "code": "1.4.B",
+      "name": "Describe the motion of objects as measured by observers in different inertial reference frames.",
+      "inDegree": 1,
+      "outDegree": 3
+    },
+    "1.4.B.2": {
+      "code": "1.4.B.2",
+      "name": "1.4.B.2",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "1.1.B": {
+      "code": "1.1.B",
+      "name": "Describe a vector sum in one dimension.",
+      "inDegree": 6,
+      "outDegree": 0
+    },
+    "1.4.A": {
+      "code": "1.4.A",
+      "name": "Describe the reference frame of a given observer.",
+      "inDegree": 0,
+      "outDegree": 1
+    },
+    "3.2.A.4": {
+      "code": "3.2.A.4",
+      "name": "3.2.A.4",
+      "inDegree": 0,
+      "outDegree": 2
+    },
+    "2.1.A": {
+      "code": "2.1.A",
+      "name": "Describe the properties and interactions of a system.",
+      "inDegree": 2,
+      "outDegree": 0
+    },
+    "1.2.B": {
+      "code": "1.2.B",
+      "name": "Describe the average velocity and acceleration of an object.",
+      "inDegree": 7,
+      "outDegree": 1
+    },
+    "2.7.A.2": {
+      "code": "2.7.A.2",
+      "name": "2.7.A.2",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "2.9.A": {
+      "code": "2.9.A",
+      "name": "Describe the motion of an object traveling in a circular path.",
+      "inDegree": 2,
+      "outDegree": 5
+    },
+    "1.1.A.3": {
+      "code": "1.1.A.3",
+      "name": "1.1.A.3",
+      "inDegree": 0,
+      "outDegree": 1
+    },
+    "7.1.A.2": {
+      "code": "7.1.A.2",
+      "name": "7.1.A.2",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    "6.6.A.3": {
+      "code": "6.6.A.3",
+      "name": "6.6.A.3",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "2.7.B.2": {
+      "code": "2.7.B.2",
+      "name": "2.7.B.2",
+      "inDegree": 0,
+      "outDegree": 2
+    },
+    "2.7.A": {
+      "code": "2.7.A",
+      "name": "Describe kinetic friction between two surfaces",
+      "inDegree": 5,
+      "outDegree": 0
+    },
+    "2.2.A": {
+      "code": "2.2.A",
+      "name": "Describe a force as an interaction between two objects or systems.",
+      "inDegree": 3,
+      "outDegree": 0
+    },
+    "5.5.A.1": {
+      "code": "5.5.A.1",
+      "name": "5.5.A.1",
+      "inDegree": 0,
+      "outDegree": 2
+    },
+    "5.3.B": {
+      "code": "5.3.B",
+      "name": "Describe the torques exerted on a rigid system.",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "1.3.A.4": {
+      "code": "1.3.A.4",
+      "name": "1.3.A.4",
+      "inDegree": 1,
+      "outDegree": 3
+    },
+    "2.6.B": {
+      "code": "2.6.B",
+      "name": "Describe situations in which the gravitational force can be considered constant.",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "8.4.B": {
+      "code": "8.4.B",
+      "name": "Describe the flow of a fluid as a result of a difference in energy between two locations within the fluid– Earth system.",
+      "inDegree": 2,
+      "outDegree": 2
+    },
+    "8.4.A": {
+      "code": "8.4.A",
+      "name": "Describe the flow of an incompressible fluid through a cross-sectional area by using mass conservation.",
+      "inDegree": 1,
+      "outDegree": 2
+    },
+    "8.4.R": {
+      "code": "8.4.R",
+      "name": "8.4.R",
+      "inDegree": 0,
+      "outDegree": 2
+    },
+    "6.5.B": {
+      "code": "6.5.B",
+      "name": "Describe the motion of a system that is rolling without slipping.",
+      "inDegree": 0,
+      "outDegree": 6
+    },
+    "6.1.A": {
+      "code": "6.1.A",
+      "name": "Describe the rotational kinetic energy of a rigid system in terms of the rotational inertia and angular velocity of that rigid system.",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    "5.4.A": {
+      "code": "5.4.A",
+      "name": "Describe the rotational inertia of a rigid system relative to a given axis of rotation.",
+      "inDegree": 2,
+      "outDegree": 1
+    },
+    "6.3.C.2": {
+      "code": "6.3.C.2",
+      "name": "6.3.C.2",
+      "inDegree": 0,
+      "outDegree": 2
+    },
+    "6.3.B": {
+      "code": "6.3.B",
+      "name": "Describe the angular impulse delivered to an object or rigid system by a torque.",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "6.3.C": {
+      "code": "6.3.C",
+      "name": "Relate the change in angular momentum of an object or rigid system to the angular impulse given to that object or rigid system.",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "2.7.A.1": {
+      "code": "2.7.A.1",
+      "name": "2.7.A.1",
+      "inDegree": 0,
+      "outDegree": 2
+    },
+    "8.4.A.1": {
+      "code": "8.4.A.1",
+      "name": "8.4.A.1",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "3.5.A": {
+      "code": "3.5.A",
+      "name": "Describe the transfer of energy into, out of, or within a system in terms of power.",
+      "inDegree": 0,
+      "outDegree": 1
+    },
+    "5.2.A": {
+      "code": "5.2.A",
+      "name": "Describe the linear motion of a point on a rotating rigid system that corresponds to the rotational motion of that point, and vice versa.",
+      "inDegree": 1,
+      "outDegree": 1
+    },
+    "9MA0.P1.3.3": {
+      "code": "9MA0.P1.3.3",
+      "name": "Geometric Sequences and Series",
+      "inDegree": 0,
+      "outDegree": 3
+    },
+    "9MA0.P1.1.2": {
+      "code": "9MA0.P1.1.2",
+      "name": "Quadratics",
+      "inDegree": 2,
+      "outDegree": 0
+    },
+    "9MA0.P1.1.1": {
+      "code": "9MA0.P1.1.1",
+      "name": "Index Laws and Surds",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "9MA0.P1.5.2": {
+      "code": "9MA0.P1.5.2",
+      "name": "Logarithms",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "9MA0.P1.3.2": {
+      "code": "9MA0.P1.3.2",
+      "name": "Arithmetic Sequences and Series",
+      "inDegree": 0,
+      "outDegree": 1
+    },
+    "9MA0.P1.6.2": {
+      "code": "9MA0.P1.6.2",
+      "name": "Differentiating Polynomials and Power Functions",
+      "inDegree": 0,
+      "outDegree": 1
+    },
+    "9MA0.P1.6.3": {
+      "code": "9MA0.P1.6.3",
+      "name": "Tangents and Normals",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "9MA0.P1.6.5": {
+      "code": "9MA0.P1.6.5",
+      "name": "Optimisation",
+      "inDegree": 0,
+      "outDegree": 2
+    },
+    "9MA0.P1.6.4": {
+      "code": "9MA0.P1.6.4",
+      "name": "Stationary Points and Curve Sketching",
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    "9MA0.P1.4.2": {
+      "code": "9MA0.P1.4.2",
+      "name": "Radians and Circular Measure",
+      "inDegree": 1,
+      "outDegree": 0
+    }
+  },
+  "edges": [
+    {
+      "from": "APPhy1.6.4",
+      "to": "APPhy1.3.2",
+      "weight": 0.5
+    },
+    {
+      "from": "APPhy1.6.4",
+      "to": "APPhy1.3.3",
+      "weight": 0.6341463414634146
+    },
+    {
+      "from": "APPhy1.6.4",
+      "to": "APPhy1.6.2",
+      "weight": 0.22245738566986303
+    },
+    {
+      "from": "APPhy1.6.4",
+      "to": "APPhy1.2.4",
+      "weight": 0.08466898659689942
+    },
+    {
+      "from": "APPhy1.6.4",
+      "to": "APPhy1.6.1",
+      "weight": 0.0773754255648406
+    },
+    {
+      "from": "APPhy1.3.3",
+      "to": "APPhy1.3.2",
+      "weight": 0.45454545454545453
+    },
+    {
+      "from": "APPhy1.3.3",
+      "to": "APPhy1.6.2",
+      "weight": 0.23072790322843229
+    },
+    {
+      "from": "APPhy1.3.3",
+      "to": "APPhy1.2.4",
+      "weight": 0.08466898659689942
+    },
+    {
+      "from": "APPhy1.4.3",
+      "to": "APPhy1.6.2",
+      "weight": 0.4400143268808101
+    },
+    {
+      "from": "APPhy1.4.3",
+      "to": "APPhy1.3.3",
+      "weight": 0.3658536585365854
+    },
+    {
+      "from": "APPhy1.4.3",
+      "to": "APPhy1.4.2",
+      "weight": 0.8
+    },
+    {
+      "from": "APPhy1.4.3",
+      "to": "APPhy1.1.2",
+      "weight": 0.5
+    },
+    {
+      "from": "APPhy1.2.2",
+      "to": "APPhy1.6.2",
+      "weight": 0.10680038422089444
+    },
+    {
+      "from": "APPhy1.6.2",
+      "to": "APPhy1.2.4",
+      "weight": 0.24562473011760522
+    },
+    {
+      "from": "APPhy1.6.2",
+      "to": "APPhy1.6.1",
+      "weight": 0.4447539461467038
+    },
+    {
+      "from": "APPhy1.6.3",
+      "to": "APPhy1.6.1",
+      "weight": 0.4778706282884556
+    },
+    {
+      "from": "APPhy1.6.3",
+      "to": "APPhy1.2.4",
+      "weight": 0.5850372966885959
+    },
+    {
+      "from": "APPhy1.6.3",
+      "to": "APPhy1.1.4",
+      "weight": 0.7
+    },
+    {
+      "from": "APPhy1.6.2",
+      "to": "APPhy1.6.3",
+      "weight": 0.5
+    },
+    {
+      "from": "APPhy1.6.3",
+      "to": "APPhy1.7.1",
+      "weight": 0.8
+    },
+    {
+      "from": "APPhy1.6.1",
+      "to": "APPhy1.1.1",
+      "weight": 0.8
+    },
+    {
+      "from": "APCBC.10.4",
+      "to": "APCBC.7.3",
+      "weight": 0.3
+    },
+    {
+      "from": "APCBC.10.4",
+      "to": "APCBC.7.4",
+      "weight": 0.4
+    },
+    {
+      "from": "APCBC.10.4",
+      "to": "APCBC.10.1",
+      "weight": 0.27272727272727276
+    },
+    {
+      "from": "APCBC.10.3",
+      "to": "APCBC.10.4",
+      "weight": 0.2890651366857914
+    },
+    {
+      "from": "APCBC.10.3",
+      "to": "APCBC.2.3",
+      "weight": 0.16488277247084254
+    },
+    {
+      "from": "APCBC.10.3",
+      "to": "APCBC.3.4",
+      "weight": 0.2
+    },
+    {
+      "from": "APCBC.10.3",
+      "to": "APCBC.10.1",
+      "weight": 0.27272727272727276
+    },
+    {
+      "from": "APCBC.10.4",
+      "to": "APCBC.5.2",
+      "weight": 0.3
+    },
+    {
+      "from": "APCBC.5.2",
+      "to": "APCBC.3.4",
+      "weight": 0.2
+    },
+    {
+      "from": "APCBC.10.4",
+      "to": "APCBC.3.4",
+      "weight": 0.4
+    },
+    {
+      "from": "APCBC.10.4",
+      "to": "APCBC.6.3",
+      "weight": 0.3
+    },
+    {
+      "from": "APCBC.10.2",
+      "to": "APCBC.6.7",
+      "weight": 0.4
+    },
+    {
+      "from": "APCBC.10.2",
+      "to": "APCBC.10.1",
+      "weight": 0.27272727272727276
+    },
+    {
+      "from": "APCBC.10.2",
+      "to": "APCBC.10.4",
+      "weight": 0.3
+    },
+    {
+      "from": "APCBC.9.2",
+      "to": "APCBC.9.1",
+      "weight": 0.4
+    },
+    {
+      "from": "APCBC.9.3",
+      "to": "APCBC.9.1",
+      "weight": 0.5
+    },
+    {
+      "from": "APCBC.9.3",
+      "to": "APCBC.4.1",
+      "weight": 0.3
+    },
+    {
+      "from": "APCBC.9.3",
+      "to": "APCBC.3.1",
+      "weight": 0.3
+    },
+    {
+      "from": "APCBC.9.3",
+      "to": "APCBC.6.4",
+      "weight": 0.4
+    },
+    {
+      "from": "APCBC.10.3",
+      "to": "APCBC.7.3",
+      "weight": 0.3
+    },
+    {
+      "from": "APCBC.10.3",
+      "to": "APCBC.6.3",
+      "weight": 0.3
+    },
+    {
+      "from": "APCBC.10.3",
+      "to": "APCBC.10.2",
+      "weight": 0.4
+    },
+    {
+      "from": "APCBC.4.3",
+      "to": "APCBC.10.4",
+      "weight": 0.2890651366857914
+    },
+    {
+      "from": "APCBC.6.7",
+      "to": "APCBC.10.1",
+      "weight": 0.18181818181818185
+    },
+    {
+      "from": "APCBC.9.3",
+      "to": "APCBC.2.3",
+      "weight": 0.2986711272952712
+    },
+    {
+      "from": "APCBC.9.1",
+      "to": "APCBC.2.3",
+      "weight": 0.2473241587062638
+    },
+    {
+      "from": "APCBC.9.1",
+      "to": "APCBC.3.1",
+      "weight": 0.2
+    },
+    {
+      "from": "APCBC.9.2",
+      "to": "APCBC.2.3",
+      "weight": 0.2891219415276224
+    },
+    {
+      "from": "5.1.A.4",
+      "to": "5.1.A",
+      "weight": 0.3
+    },
+    {
+      "from": "8.2.B",
+      "to": "8.1.A",
+      "weight": 0.4
+    },
+    {
+      "from": "2.3.A",
+      "to": "4.3.A.3",
+      "weight": 0.3
+    },
+    {
+      "from": "2.3.A",
+      "to": "2.5.A",
+      "weight": 0.03720799036535136
+    },
+    {
+      "from": "2.5.A",
+      "to": "4.3.A.3",
+      "weight": 0.2
+    },
+    {
+      "from": "4.3.B",
+      "to": "4.3.A.3",
+      "weight": 0.15
+    },
+    {
+      "from": "4.3.B",
+      "to": "4.3.A",
+      "weight": 0.15
+    },
+    {
+      "from": "7.4.A.4",
+      "to": "2.8.A",
+      "weight": 0.25
+    },
+    {
+      "from": "7.4.A.4",
+      "to": "7.4.A",
+      "weight": 0.3
+    },
+    {
+      "from": "7.1.A",
+      "to": "2.9.A.5",
+      "weight": 0.5454545454545455
+    },
+    {
+      "from": "7.3.A.1",
+      "to": "7.4.A",
+      "weight": 0.44999999999999996
+    },
+    {
+      "from": "7.3.A.1",
+      "to": "7.3.A",
+      "weight": 0.2
+    },
+    {
+      "from": "7.3.A",
+      "to": "7.4.A.4",
+      "weight": 0.2
+    },
+    {
+      "from": "7.3.A",
+      "to": "2.9.A.5",
+      "weight": 0.27272727272727276
+    },
+    {
+      "from": "7.3.A",
+      "to": "7.1.A",
+      "weight": 0.3
+    },
+    {
+      "from": "7.4.A",
+      "to": "3.4.C",
+      "weight": 0.22062748354190143
+    },
+    {
+      "from": "2.8.A",
+      "to": "2.6.A",
+      "weight": 0.20027769590521602
+    },
+    {
+      "from": "2.8.A",
+      "to": "1.2.A",
+      "weight": 0.1211876388608362
+    },
+    {
+      "from": "2.8.A",
+      "to": "1.3.A",
+      "weight": 0.08219028836371982
+    },
+    {
+      "from": "2.8.A",
+      "to": "3.2.A",
+      "weight": 0.15
+    },
+    {
+      "from": "4.2.A",
+      "to": "2.5.A",
+      "weight": 0.06511398313936485
+    },
+    {
+      "from": "4.2.A",
+      "to": "4.2.B",
+      "weight": 0.2
+    },
+    {
+      "from": "4.2.A",
+      "to": "4.3.B",
+      "weight": 0.3271028037383178
+    },
+    {
+      "from": "4.2.A",
+      "to": "2.4.A",
+      "weight": 0.022184337078528855
+    },
+    {
+      "from": "2.5.A",
+      "to": "2.2.B",
+      "weight": 0.3
+    },
+    {
+      "from": "2.5.A",
+      "to": "1.5.A",
+      "weight": 0.10684918216567475
+    },
+    {
+      "from": "2.5.A",
+      "to": "2.6.A",
+      "weight": 0.044059868234810604
+    },
+    {
+      "from": "2.2.B",
+      "to": "1.5.A",
+      "weight": 0.14958885503194463
+    },
+    {
+      "from": "2.2.B",
+      "to": "2.6.A",
+      "weight": 0.03337868805667469
+    },
+    {
+      "from": "2.2.B",
+      "to": "2.4.A",
+      "weight": 0.016638252808896636
+    },
+    {
+      "from": "2.7.B",
+      "to": "2.2.B",
+      "weight": 0.3
+    },
+    {
+      "from": "2.7.B",
+      "to": "1.5.A",
+      "weight": 0.10684918216567475
+    },
+    {
+      "from": "2.7.B",
+      "to": "2.4.A",
+      "weight": 0.04159563202224159
+    },
+    {
+      "from": "3.4.C",
+      "to": "3.3.A.4",
+      "weight": 0.23076923076923078
+    },
+    {
+      "from": "3.4.C",
+      "to": "3.1.A",
+      "weight": 0.16537649542575653
+    },
+    {
+      "from": "3.4.C",
+      "to": "2.5.A",
+      "weight": 0.027905992774013507
+    },
+    {
+      "from": "7.4.A",
+      "to": "2.8.A",
+      "weight": 0.2
+    },
+    {
+      "from": "7.4.A",
+      "to": "3.1.A",
+      "weight": 0.08866995073891626
+    },
+    {
+      "from": "3.4.C",
+      "to": "3.2.A.1",
+      "weight": 0.3
+    },
+    {
+      "from": "4.3.A.1",
+      "to": "4.1.A",
+      "weight": 0.14842300556586271
+    },
+    {
+      "from": "4.3.A.1",
+      "to": "2.1.B",
+      "weight": 0.2
+    },
+    {
+      "from": "4.3.A.1",
+      "to": "4.3.A",
+      "weight": 0.25
+    },
+    {
+      "from": "4.3.A.1",
+      "to": "4.3.B",
+      "weight": 0.25
+    },
+    {
+      "from": "4.3.B",
+      "to": "2.4.A",
+      "weight": 0.022184337078528855
+    },
+    {
+      "from": "3.2.A.3",
+      "to": "1.5.A",
+      "weight": 0.10214781815038511
+    },
+    {
+      "from": "3.2.A.3",
+      "to": "3.2.A",
+      "weight": 0.15
+    },
+    {
+      "from": "2.6.A",
+      "to": "2.6.A.1",
+      "weight": 0.3
+    },
+    {
+      "from": "1.5.B",
+      "to": "1.3.A",
+      "weight": 0.37058890094731506
+    },
+    {
+      "from": "8.2.A",
+      "to": "1.1.A",
+      "weight": 0.4
+    },
+    {
+      "from": "2.9.B",
+      "to": "2.6.A",
+      "weight": 0.07179755800990727
+    },
+    {
+      "from": "2.9.B",
+      "to": "2.9.A.1",
+      "weight": 0.25
+    },
+    {
+      "from": "2.9.B",
+      "to": "2.9.A.5",
+      "weight": 0.18181818181818185
+    },
+    {
+      "from": "6.6.A.2",
+      "to": "3.3.A.4",
+      "weight": 0.30769230769230776
+    },
+    {
+      "from": "6.6.A.2",
+      "to": "6.6.A",
+      "weight": 0.2
+    },
+    {
+      "from": "6.3.A",
+      "to": "6.4.B",
+      "weight": 0.3
+    },
+    {
+      "from": "6.3.A",
+      "to": "4.1.A",
+      "weight": 0.14842300556586271
+    },
+    {
+      "from": "4.3.B",
+      "to": "4.1.A.3",
+      "weight": 0.25
+    },
+    {
+      "from": "4.3.B",
+      "to": "4.1.A",
+      "weight": 0.2816326530612245
+    },
+    {
+      "from": "4.3.B",
+      "to": "2.3.A",
+      "weight": 0.2
+    },
+    {
+      "from": "4.4.A",
+      "to": "4.3.B",
+      "weight": 0.2
+    },
+    {
+      "from": "8.2.B",
+      "to": "8.2.A",
+      "weight": 0.3
+    },
+    {
+      "from": "8.2.B",
+      "to": "8.3.A",
+      "weight": 0.2
+    },
+    {
+      "from": "4.4.A",
+      "to": "8.2.B",
+      "weight": 0.3
+    },
+    {
+      "from": "4.4.A",
+      "to": "8.1.A",
+      "weight": 0.2
+    },
+    {
+      "from": "8.3.B",
+      "to": "2.6.C",
+      "weight": 0.35
+    },
+    {
+      "from": "8.3.B",
+      "to": "2.6.A",
+      "weight": 0.15
+    },
+    {
+      "from": "4.4.A",
+      "to": "4.1.A",
+      "weight": 0.11131725417439702
+    },
+    {
+      "from": "2.6.C",
+      "to": "2.5.A",
+      "weight": 0.28867761187472896
+    },
+    {
+      "from": "2.6.C",
+      "to": "1.5.A",
+      "weight": 0.12768477268798137
+    },
+    {
+      "from": "2.6.C",
+      "to": "2.2.B",
+      "weight": 0.1
+    },
+    {
+      "from": "2.6.C",
+      "to": "7.1.A",
+      "weight": 0.35
+    },
+    {
+      "from": "2.6.C",
+      "to": "2.6.A",
+      "weight": 0.03671655686234217
+    },
+    {
+      "from": "1.4.B",
+      "to": "1.4.B.2",
+      "weight": 0.25
+    },
+    {
+      "from": "1.4.B",
+      "to": "1.1.B",
+      "weight": 0.0772320049428483
+    },
+    {
+      "from": "1.4.A",
+      "to": "1.4.B",
+      "weight": 0.3
+    },
+    {
+      "from": "3.2.A",
+      "to": "3.2.A.1",
+      "weight": 0.3
+    },
+    {
+      "from": "3.4.C",
+      "to": "3.4.B",
+      "weight": 0.35
+    },
+    {
+      "from": "3.2.A.4",
+      "to": "3.4.C",
+      "weight": 0.14827115829428855
+    },
+    {
+      "from": "3.2.A.4",
+      "to": "3.2.A.1",
+      "weight": 0.2
+    },
+    {
+      "from": "2.5.A",
+      "to": "2.1.A",
+      "weight": 0.25
+    },
+    {
+      "from": "2.5.A",
+      "to": "1.3.A",
+      "weight": 0.11683054493776807
+    },
+    {
+      "from": "1.2.A",
+      "to": "2.1.A",
+      "weight": 0.4
+    },
+    {
+      "from": "2.1.B",
+      "to": "1.5.B",
+      "weight": 0.3
+    },
+    {
+      "from": "2.1.B",
+      "to": "2.5.A",
+      "weight": 0.04650998795668918
+    },
+    {
+      "from": "2.1.B",
+      "to": "1.3.A",
+      "weight": 0.09346443595021446
+    },
+    {
+      "from": "1.3.A",
+      "to": "1.2.B",
+      "weight": 0.10604903707474334
+    },
+    {
+      "from": "1.3.A",
+      "to": "2.4.A",
+      "weight": 0.022184337078528855
+    },
+    {
+      "from": "1.3.A",
+      "to": "1.1.B",
+      "weight": 0.12872000823808052
+    },
+    {
+      "from": "1.2.B",
+      "to": "1.2.A",
+      "weight": 0.3011512825691779
+    },
+    {
+      "from": "3.4.C",
+      "to": "1.3.A",
+      "weight": 0.10002897632635928
+    },
+    {
+      "from": "3.2.A",
+      "to": "2.4.A",
+      "weight": 0.03327650561779327
+    },
+    {
+      "from": "3.2.A.3",
+      "to": "2.7.A.2",
+      "weight": 0.15
+    },
+    {
+      "from": "3.2.A.3",
+      "to": "2.9.A",
+      "weight": 0.25
+    },
+    {
+      "from": "3.4.C",
+      "to": "3.2.A",
+      "weight": 0.2
+    },
+    {
+      "from": "3.4.B",
+      "to": "3.2.A",
+      "weight": 0.25
+    },
+    {
+      "from": "3.4.B",
+      "to": "3.1.A",
+      "weight": 0.0844475721323012
+    },
+    {
+      "from": "3.4.C",
+      "to": "2.4.A",
+      "weight": 0.03327650561779327
+    },
+    {
+      "from": "1.1.A",
+      "to": "1.2.A",
+      "weight": 0.3231670369622298
+    },
+    {
+      "from": "1.1.A",
+      "to": "1.2.B",
+      "weight": 0.159073555612115
+    },
+    {
+      "from": "1.1.A.3",
+      "to": "1.1.B",
+      "weight": 0.25744001647616105
+    },
+    {
+      "from": "1.4.B",
+      "to": "1.5.B",
+      "weight": 0.2
+    },
+    {
+      "from": "7.1.A",
+      "to": "2.8.A",
+      "weight": 0.3
+    },
+    {
+      "from": "7.1.A",
+      "to": "7.1.A.2",
+      "weight": 0.2
+    },
+    {
+      "from": "7.1.A.2",
+      "to": "2.8.A",
+      "weight": 0.22727272727272727
+    },
+    {
+      "from": "6.6.A.2",
+      "to": "2.9.B",
+      "weight": 0.25
+    },
+    {
+      "from": "6.6.A.2",
+      "to": "6.3.A",
+      "weight": 0.2
+    },
+    {
+      "from": "6.6.A.2",
+      "to": "3.4.C",
+      "weight": 0.09884743886285907
+    },
+    {
+      "from": "6.6.A.2",
+      "to": "6.4.B",
+      "weight": 0.3
+    },
+    {
+      "from": "6.6.A",
+      "to": "6.6.A.3",
+      "weight": 0.3
+    },
+    {
+      "from": "6.6.A",
+      "to": "3.4.C",
+      "weight": 0.09884743886285907
+    },
+    {
+      "from": "2.7.B.2",
+      "to": "2.7.A",
+      "weight": 0.20512820512820512
+    },
+    {
+      "from": "2.7.B.2",
+      "to": "2.7.B",
+      "weight": 0.2
+    },
+    {
+      "from": "2.7.B",
+      "to": "2.5.A",
+      "weight": 0.05813748494586149
+    },
+    {
+      "from": "2.7.B",
+      "to": "2.7.A",
+      "weight": 0.10256410256410256
+    },
+    {
+      "from": "2.7.B",
+      "to": "2.2.A",
+      "weight": 0.15
+    },
+    {
+      "from": "2.9.A.5",
+      "to": "1.2.B",
+      "weight": 0.159073555612115
+    },
+    {
+      "from": "3.2.A",
+      "to": "3.1.A",
+      "weight": 0.1688951442646024
+    },
+    {
+      "from": "5.5.A.1",
+      "to": "5.3.B",
+      "weight": 0.4
+    },
+    {
+      "from": "5.5.A.1",
+      "to": "2.4.A",
+      "weight": 0.0474522970109732
+    },
+    {
+      "from": "1.3.A",
+      "to": "1.3.A.4",
+      "weight": 0.4
+    },
+    {
+      "from": "1.3.A.4",
+      "to": "1.2.B",
+      "weight": 0.19317892593535246
+    },
+    {
+      "from": "1.3.A.4",
+      "to": "1.1.B",
+      "weight": 0.2131603336422613
+    },
+    {
+      "from": "2.6.A",
+      "to": "2.6.B",
+      "weight": 0.3
+    },
+    {
+      "from": "8.4.B",
+      "to": "8.4.A",
+      "weight": 0.3
+    },
+    {
+      "from": "8.4.B",
+      "to": "3.4.C",
+      "weight": 0.09884743886285907
+    },
+    {
+      "from": "8.4.R",
+      "to": "8.4.B",
+      "weight": 0.3
+    },
+    {
+      "from": "8.4.R",
+      "to": "8.2.B",
+      "weight": 0.15
+    },
+    {
+      "from": "2.7.B",
+      "to": "2.6.A",
+      "weight": 0.027774406331959017
+    },
+    {
+      "from": "1.5.B",
+      "to": "1.5.A",
+      "weight": 0.24412811387900352
+    },
+    {
+      "from": "2.8.A",
+      "to": "3.4.C",
+      "weight": 0.10378981080600198
+    },
+    {
+      "from": "2.9.A.1",
+      "to": "2.9.A",
+      "weight": 0.4
+    },
+    {
+      "from": "2.9.A.1",
+      "to": "1.2.B",
+      "weight": 0.11665394078221769
+    },
+    {
+      "from": "2.9.A.5",
+      "to": "2.9.A.1",
+      "weight": 0.2
+    },
+    {
+      "from": "6.5.B",
+      "to": "6.1.A",
+      "weight": 0.35
+    },
+    {
+      "from": "6.5.B",
+      "to": "3.1.A",
+      "weight": 0.08866995073891626
+    },
+    {
+      "from": "6.5.B",
+      "to": "5.4.A",
+      "weight": 0.2
+    },
+    {
+      "from": "6.5.B",
+      "to": "2.7.A",
+      "weight": 0.13675213675213677
+    },
+    {
+      "from": "6.5.B",
+      "to": "3.2.A",
+      "weight": 0.2
+    },
+    {
+      "from": "4.3.A",
+      "to": "4.1.A",
+      "weight": 0.12244897959183672
+    },
+    {
+      "from": "4.3.A",
+      "to": "4.2.B",
+      "weight": 0.1
+    },
+    {
+      "from": "2.4.A",
+      "to": "1.2.B",
+      "weight": 0.10498854670399589
+    },
+    {
+      "from": "2.4.A",
+      "to": "1.5.A",
+      "weight": 0.1627520759193357
+    },
+    {
+      "from": "2.4.A",
+      "to": "1.1.B",
+      "weight": 0.09267840593141796
+    },
+    {
+      "from": "5.4.A",
+      "to": "2.6.D",
+      "weight": 0.4
+    },
+    {
+      "from": "6.3.C.2",
+      "to": "6.3.B",
+      "weight": 0.3
+    },
+    {
+      "from": "6.3.C.2",
+      "to": "6.3.C",
+      "weight": 0.3
+    },
+    {
+      "from": "7.3.A",
+      "to": "7.4.A",
+      "weight": 0.15
+    },
+    {
+      "from": "7.3.A",
+      "to": "1.3.A",
+      "weight": 0.09964170497561774
+    },
+    {
+      "from": "7.3.A.1",
+      "to": "7.1.A",
+      "weight": 0.25
+    },
+    {
+      "from": "8.2.B",
+      "to": "2.5.A",
+      "weight": 0.08720622741879222
+    },
+    {
+      "from": "8.2.B",
+      "to": "2.6.A",
+      "weight": 0.04977450824691365
+    },
+    {
+      "from": "8.2.B",
+      "to": "2.6.C",
+      "weight": 0.3
+    },
+    {
+      "from": "8.3.B",
+      "to": "8.2.B",
+      "weight": 0.25
+    },
+    {
+      "from": "8.2.B",
+      "to": "8.4.B",
+      "weight": 0.35
+    },
+    {
+      "from": "2.9.A",
+      "to": "2.5.A",
+      "weight": 0.13273514531702
+    },
+    {
+      "from": "2.9.A",
+      "to": "2.6.A",
+      "weight": 0.07155085560493836
+    },
+    {
+      "from": "2.9.A",
+      "to": "2.2.B",
+      "weight": 0.15
+    },
+    {
+      "from": "2.9.A",
+      "to": "2.7.B",
+      "weight": 0.35
+    },
+    {
+      "from": "2.9.A",
+      "to": "2.2.A",
+      "weight": 0.1
+    },
+    {
+      "from": "7.4.A",
+      "to": "3.3.A.4",
+      "weight": 0.15384615384615388
+    },
+    {
+      "from": "7.4.A.4",
+      "to": "3.4.C",
+      "weight": 0.23076923076923075
+    },
+    {
+      "from": "7.4.A.4",
+      "to": "3.1.A",
+      "weight": 0.11822660098522168
+    },
+    {
+      "from": "2.7.A.1",
+      "to": "2.7.A",
+      "weight": 0.29914529914529914
+    },
+    {
+      "from": "2.7.A.1",
+      "to": "2.2.A",
+      "weight": 0.2
+    },
+    {
+      "from": "4.3.B",
+      "to": "4.2.B",
+      "weight": 0.2
+    },
+    {
+      "from": "4.4.A",
+      "to": "3.1.A",
+      "weight": 0.28571428571428575
+    },
+    {
+      "from": "4.2.B",
+      "to": "4.1.A",
+      "weight": 0.18775510204081633
+    },
+    {
+      "from": "8.3.B",
+      "to": "8.1.A",
+      "weight": 0.15
+    },
+    {
+      "from": "2.6.C",
+      "to": "1.2.B",
+      "weight": 0.1609824382794604
+    },
+    {
+      "from": "2.6.C",
+      "to": "1.3.A",
+      "weight": 0.1372551484990056
+    },
+    {
+      "from": "2.6.C",
+      "to": "2.4.A",
+      "weight": 0.04775844086265691
+    },
+    {
+      "from": "1.3.A.4",
+      "to": "1.2.A",
+      "weight": 0.254494041607756
+    },
+    {
+      "from": "6.1.A",
+      "to": "5.4.A",
+      "weight": 0.4
+    },
+    {
+      "from": "3.2.A",
+      "to": "3.3.A.4",
+      "weight": 0.30769230769230776
+    },
+    {
+      "from": "4.1.A",
+      "to": "1.1.B",
+      "weight": 0.23076923076923073
+    },
+    {
+      "from": "4.3.A.1",
+      "to": "2.5.A",
+      "weight": 0.25650557620817843
+    },
+    {
+      "from": "4.3.A.1",
+      "to": "2.4.A",
+      "weight": 0.3476608655921305
+    },
+    {
+      "from": "7.1.A",
+      "to": "2.6.A",
+      "weight": 0.15829807963527645
+    },
+    {
+      "from": "2.4.A",
+      "to": "2.6.A",
+      "weight": 0.11126538661400891
+    },
+    {
+      "from": "2.8.A",
+      "to": "2.4.A",
+      "weight": 0.06590664839046655
+    },
+    {
+      "from": "7.1.A",
+      "to": "2.4.A",
+      "weight": 0.05931598355141987
+    },
+    {
+      "from": "1.5.B",
+      "to": "2.7.A",
+      "weight": 0.25641025641025644
+    },
+    {
+      "from": "8.3.B",
+      "to": "2.4.A",
+      "weight": 0.1773547908187454
+    },
+    {
+      "from": "8.4.A",
+      "to": "8.4.A.1",
+      "weight": 0.25
+    },
+    {
+      "from": "8.4.A",
+      "to": "8.1.A",
+      "weight": 0.1
+    },
+    {
+      "from": "3.5.A",
+      "to": "2.4.A",
+      "weight": 0.06321106647129644
+    },
+    {
+      "from": "5.2.A",
+      "to": "5.1.A",
+      "weight": 0.4
+    },
+    {
+      "from": "6.5.B",
+      "to": "5.2.A",
+      "weight": 0.6000000000000001
+    },
+    {
+      "from": "9MA0.P1.3.3",
+      "to": "9MA0.P1.1.2",
+      "weight": 0.2
+    },
+    {
+      "from": "9MA0.P1.3.3",
+      "to": "9MA0.P1.1.1",
+      "weight": 0.4
+    },
+    {
+      "from": "9MA0.P1.3.3",
+      "to": "9MA0.P1.5.2",
+      "weight": 0.6
+    },
+    {
+      "from": "9MA0.P1.3.2",
+      "to": "9MA0.P1.1.2",
+      "weight": 0.4
+    },
+    {
+      "from": "9MA0.P1.6.2",
+      "to": "9MA0.P1.6.3",
+      "weight": 0.3
+    },
+    {
+      "from": "9MA0.P1.6.5",
+      "to": "9MA0.P1.6.4",
+      "weight": 0.15
+    },
+    {
+      "from": "9MA0.P1.6.5",
+      "to": "9MA0.P1.4.2",
+      "weight": 0.2
+    }
+  ]
+}

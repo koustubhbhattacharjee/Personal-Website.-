@@ -1,0 +1,1533 @@
+{
+  "ap_physics_1": {
+    "ap physics 1": {
+      "standards": [
+        {
+          "code": "APP1.U1",
+          "name": "Unit 1: Kinematics",
+          "objectives": [
+            {
+              "code": "1.1.A",
+              "name": "Describe a scalar or vector quantity using magnitude and direction, as appropriate.",
+              "subtopics": [
+                {
+                  "id": "1.1.A.1",
+                  "text": "Scalars are quantities described by magnitude only; vectors are quantities described by both magnitude and direction."
+                },
+                {
+                  "id": "1.1.A.2",
+                  "text": "Vectors can be visually modeled as arrows with appropriate direction and lengths proportional to their magnitude."
+                },
+                {
+                  "id": "1.1.A.3",
+                  "text": "Distance and speed are examples of scalar quantities, while position, displacement, velocity, and acceleration are examples of vector quantities."
+                },
+                {
+                  "id": "1.1.A.3.i",
+                  "text": "Vectors are notated with an arrow above the symbol for that quantity. Relevant equation: $$\\vec{v} = \\vec{v}_0 + \\vec{a}t$$"
+                },
+                {
+                  "id": "1.1.A.3.ii",
+                  "text": "Vector notation is not required for vector components along an axis. In one dimension, the sign of the component completely describes the direction of that component. Derived equation: $$v_x = v_{x0} + a_x t$$"
+                }
+              ]
+            },
+            {
+              "code": "1.1.B",
+              "name": "Describe a vector sum in one dimension.",
+              "subtopics": [
+                {
+                  "id": "1.1.B.1",
+                  "text": "When determining a vector sum in a given one-dimensional coordinate system, opposite directions are denoted by opposite signs."
+                }
+              ]
+            },
+            {
+              "code": "1.2.A",
+              "name": "Describe a change in an object's position.",
+              "subtopics": [
+                {
+                  "id": "1.2.A.1",
+                  "text": "When using the object model, the size, shape, and internal configuration are ignored. The object may be treated as a single point with extensive properties such as mass and charge."
+                },
+                {
+                  "id": "1.2.A.2",
+                  "text": "Displacement is the change in an object's position. Relevant equation: $$\\Delta x = x - x_0$$"
+                }
+              ]
+            },
+            {
+              "code": "1.2.B",
+              "name": "Describe the average velocity and acceleration of an object.",
+              "subtopics": [
+                {
+                  "id": "1.2.B.1",
+                  "text": "Averages of velocity and acceleration are calculated considering the initial and final states of an object over an interval of time."
+                },
+                {
+                  "id": "1.2.B.2",
+                  "text": "Average velocity is the displacement of an object divided by the interval of time in which that displacement occurs. Relevant equation: $$\\vec{v}_{avg} = \\frac{\\Delta \\vec{x}}{\\Delta t}$$"
+                },
+                {
+                  "id": "1.2.B.3",
+                  "text": "Average acceleration is the change in velocity divided by the interval of time in which that change in velocity occurs. Relevant equation: $$\\vec{a}_{avg} = \\frac{\\Delta \\vec{v}}{\\Delta t}$$"
+                },
+                {
+                  "id": "1.2.B.4",
+                  "text": "An object is accelerating if the magnitude and/or direction of the object's velocity are changing."
+                },
+                {
+                  "id": "1.2.B.5",
+                  "text": "Calculating average velocity or average acceleration over a very small time interval yields a value that is very close to the instantaneous velocity or instantaneous acceleration."
+                }
+              ]
+            },
+            {
+              "code": "1.3.A",
+              "name": "Describe the position, velocity, and acceleration of an object using representations of that object's motion.",
+              "subtopics": [
+                {
+                  "id": "1.3.A.1",
+                  "text": "Motion can be represented by motion diagrams, figures, graphs, equations, and narrative descriptions."
+                },
+                {
+                  "id": "1.3.A.2",
+                  "text": "For constant acceleration, three kinematic equations can be used to describe instantaneous linear motion in one dimension: $$v_x = v_{x0} + a_x t$$ $$x = x_0 + v_{x0} t + \\frac{1}{2} a_x t^2$$ $$v_x^2 = v_{x0}^2 + 2a_x (x - x_0)$$ Note: The equations above are written to indicate motion in the x-direction, but these equations can be used in any single dimension as appropriate."
+                },
+                {
+                  "id": "1.3.A.3",
+                  "text": "Near the surface of Earth, the vertical acceleration caused by the force of gravity is downward, constant, and has a measured value approximately equal to $$a_g = g \\approx 10 \\ m/s^2.$$"
+                },
+                {
+                  "id": "1.3.A.4",
+                  "text": "Graphs of position, velocity, and acceleration as functions of time can be used to find the relationships between those quantities."
+                },
+                {
+                  "id": "1.3.A.4.i",
+                  "text": "An object's instantaneous velocity is the rate of change of the object's position, which is equal to the slope of a line tangent to a point on a graph of the object's position as a function of time."
+                },
+                {
+                  "id": "1.3.A.4.ii",
+                  "text": "An object's instantaneous acceleration is the rate of change of the object's velocity, which is equal to the slope of a line tangent to a point on a graph of the object's velocity as a function of time."
+                },
+                {
+                  "id": "1.3.A.4.iii",
+                  "text": "The displacement of an object during a time interval is equal to the area under the curve of a graph of the object's velocity as a function of time (i.e., the area bounded by the function and the horizontal axis for the appropriate interval)."
+                },
+                {
+                  "id": "1.3.A.4.iv",
+                  "text": "The change in velocity of an object during a time interval is equal to the area under the curve of a graph of the acceleration of the object as a function of time."
+                }
+              ]
+            },
+            {
+              "code": "1.4.A",
+              "name": "Describe the reference frame of a given observer.",
+              "subtopics": []
+            },
+            {
+              "code": "1.4.B",
+              "name": "Describe the motion of objects as measured by observers in different inertial reference frames.",
+              "subtopics": [
+                {
+                  "id": "1.4.A.1",
+                  "text": "The choice of reference frame will determine the direction and magnitude of quantities measured by an observer in that reference frame."
+                },
+                {
+                  "id": "1.4.B.1",
+                  "text": "Measurements from a given reference frame may be converted to measurements from another reference frame."
+                },
+                {
+                  "id": "1.4.B.2",
+                  "text": "The observed velocity of an object results from the combination of the object's velocity and the velocity of the observer's reference frame."
+                },
+                {
+                  "id": "1.4.B.2.i",
+                  "text": "Combining the motion of an object and the motion of an observer in a given reference frame involves the addition or subtraction of vectors."
+                },
+                {
+                  "id": "1.4.B.2.ii",
+                  "text": "The acceleration of any object is the same as measured from all inertial reference frames"
+                }
+              ]
+            },
+            {
+              "code": "1.5.A",
+              "name": "Describe the perpendicular components of a vector.",
+              "subtopics": [
+                {
+                  "id": "1.5.A.1",
+                  "text": "Vectors can be mathematically modeled as the resultant of two perpendicular components."
+                },
+                {
+                  "id": "1.5.A.2",
+                  "text": "Vectors can be resolved into components using a chosen coordinate system."
+                },
+                {
+                  "id": "1.5.A.3",
+                  "text": "Vectors can be resolved into perpendicular components using trigonometric functions and relationships. Relevant equations: $$\\sin\\theta = \\frac{a}{c}$$ $$\\cos \\theta = \\frac{b}{c}$$ $$\\tan \\theta = \\frac{a}{b}$$ $$a^2 + b^2 = c^2$$ continued on next page"
+                }
+              ]
+            },
+            {
+              "code": "1.5.B",
+              "name": "Describe the motion of an object moving in two dimensions.",
+              "subtopics": [
+                {
+                  "id": "1.5.B.1",
+                  "text": "Motion in two dimensions can be analyzed using one-dimensional kinematic relationships if the motion is separated into components."
+                },
+                {
+                  "id": "1.5.B.2",
+                  "text": "Projectile motion is a special case of twodimensional motion that has zero acceleration in one dimension and constant, nonzero acceleration in the second dimension. AP PHYSICS 1 UNIT 2 Force and Translational Dynamics 18-23% AP EXAM WEIGHTING ~22–27CLASS PERIODS Remember to go to AP Classroom to assign students the online Progress Check for this unit. Whether assigned as homework or completed in class, the Progress Check provides each student with immediate feedback related to this unit's topics and science practices. Progress Check 2 Multiple-choice: ~30 questions Free-response: 4 questions - Mathematical Routines - Translation Between Representations - Experimental Design and Analysis - Qualitative/Quantitative Translation Force and Translational Dynamics ←→ Developing Understanding ESSENTIAL QUESTIONS - Why do we feel pulled toward Earth but not toward a pencil? - Why is it more difficult to stop a fully loaded dump truck than a small passenger car? - Why is it difficult to walk on ice? - Why will a delivery truck filled with birds sitting on its floor be the same weight as a truck with the same birds flying around inside? In Unit 2, students are introduced to the concept of force, which is an interaction between two objects or systems of objects. Part of the larger study of dynamics, forces provide the context in which students analyze and come to understand a variety of physical phenomena. This understanding is accomplished by revisiting and building upon the models and representations presented in Unit 1—specifically through the introduction of the freebody diagram. Students will further analyze the effect of forces on systems when they encounter Newton's second law in rotational form in Unit 5. Building the Science Practices 2.A 2.D 3.B 3.C Translation between models and representations is key in this unit. Students will continue to use models and representations that will help them further analyze systems, the interactions between systems, and how these interactions result in change. Alongside gaining proficiency in the use of specific force equations, Unit 2 also encourages students to derive new expressions from fundamental principles (2.A) to help them make predictions using functional dependence between variables (2.D). The skills of making claims (3.B) and supporting those claims using evidence (3.C) can be developed throughout the unit by providing students with opportunities such as having them make predictions about the acceleration of a system based on the forces exerted on that system, and then justifying those predictions with appropriate physics principles. Preparing for the AP Exam The AP Physics 1 Exam requires students to re-express key elements of physical phenomena across multiple representations in the domain. This skill appears in the fourth question of the free-response section, the Qualitative/Quantitative Translation (QQT) question. In this question, students demonstrate translation between words and mathematics by describing and analyzing a scenario. Using content from any unit, the QQT first requires students to make a claim and provide evidence and reasoning to support their claim without reference to equations. Students are then asked to derive an equation or set of equations to mathematically represent the scenario. Lastly, students are required to make a connection between the claim made in the first part of the question and the equation(s) derived in the second part. Students exposed primarily to numerical problem solving often struggle with the QQT because it requires them to express a conceptual understanding of course content and representations. Opportunities to translate between different representations, including equations, diagrams, graphs, and verbal descriptions, can help students prepare for the QQT question. Force and Translational Dynamics UNIT AT A GLANCE | Topic | Suggested Skills | |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------| | 2.1 Systems and Center | 1.B Create quantitative graphs with appropriate scales and units, including plotting data. | | of Mass | Calculate or estimate an unknown quantity with units from known quantities, by selecting and following a logical computational pathway. | | | Compare physical quantities between two or more scenarios or at different times and locations in a single scenario. | | | 3.B Apply an appropriate law, definition, theoretical relationship, or model to make a claim. | | 2.2 Forces and | 1.A Create diagrams, tables, charts, or schematics to represent physical situations. | | Free-Body Diagrams | Calculate or estimate an unknown quantity with units from known quantities, by selecting and following a logical computational pathway. | | | Compare physical quantities between two or more scenarios or at different times and locations in a single scenario. | | | Justify or support a claim using evidence from experimental data, physical representations, or physical principles or laws. | | 2.3 Newton's Third Law | 1.A Create diagrams, tables, charts, or schematics to represent physical situations. | | | Predict new values or factors of change of physical quantities using functional dependence between variables. | | | Apply an appropriate law, definition, theoretical relationship, or model to make a claim. | | | Justify or support a claim using evidence from experimental data, physical representations, or physical principles or laws. | | 2.4 Newton's First Law | 1.C Create qualitative sketches of graphs that represent features of a model or the behavior of a physical system. | | | <b>ZA</b> Derive a symbolic expression from known quantities by selecting and following a logical mathematical pathway. | | | 3.B Apply an appropriate law, definition, theoretical relationship, or model to make a claim. | | | 3.C Justify or support a claim using evidence from experimental data, physical representations, or physical principles or laws. | UNIT AT A GLANCE (cont'd) | Торіс | Suggested Skills | |----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------| | 2.5 Newton's Second | 1.A Create diagrams, tables, charts, or schematics to represent physical situations. | | Law | <b>2.A</b> Derive a symbolic expression from known quantities by selecting and following a logical mathematical pathway. | | | 2.D Predict new values or factors of change of physical quantities using functional dependence between variables. | | | 3.5 Apply an appropriate law, definition, theoretical relationship, or model to make a claim. | | 2.6 Gravitational Force | 1.A Create diagrams, tables, charts, or schematics to represent physical situations. | | | <b>2.A</b> Derive a symbolic expression from known quantities by selecting and following a logical mathematical pathway. | | | Predict new values or factors of change of physical quantities using functional dependence between variables. | | | 3.C Justify or support a claim using evidence from experimental data, physical representations, or physical principles or laws. | | <b>2.7</b> Kinetic and Static Friction | 1.C Create qualitative sketches of graphs that represent features of a model or the behavior of a physical system. | | | 2.3 Calculate or estimate an unknown quantity with units from known quantities, by selecting and following a logical computational pathway. | | | Compare physical quantities between two or more scenarios or at different times and locations in a single scenario. | | | 3.3 Apply an appropriate law, definition, theoretical relationship, or model to make a claim. | Force and Translational Dynamics UNIT AT A GLANCE (cont'd) | Topic | Suggested Skills | |---------------------|----------------------------------------------------------------------------------------------------------------------------------------| | 2.8 Spring Forces | 1.B Create quantitative graphs with appropriate scales and units, including plotting data. | | | 2.A Derive a symbolic expression from known quantities by selecting and following a logical<br>mathematical pathway. | | | Compare physical quantities between two or more scenarios or at different times and locations in a single scenario. | | | 3.A Create experimental procedures that are appropriate for a given scientific question. | | | 3.B Apply an appropriate law, definition, theoretical relationship, or model to make a claim. | | 2.9 Circular Motion | 1.B Create quantitative graphs with appropriate scales and units, including plotting data. | | | <b>2.A</b> Derive a symbolic expression from known quantities by selecting and following a logical mathematical pathway. | | | 2.D Predict new values or factors of change of physical quantities using functional<br>dependence between variables. | | | 3.A Create experimental procedures that are appropriate for a given scientific question. | | | <b>3.C</b> Justify or support a claim using evidence from experimental data, physical representations, or physical principles or laws. | Go to AP Classroom to assign the Progress Check for Unit 2. Review the results in class to identify and address any student misunderstandings. SAMPLE INSTRUCTIONAL ACTIVITIES The sample activities on this page are optional and are offered to provide possible ways to incorporate various instructional approaches in the classroom. Teachers do not need to use these activities or instructional approaches and are free to alter or edit them. The examples below were developed in partnership with teachers from the AP community to share ways that they approach teaching some of the topics in this unit. Please refer to the Instructional Approaches section beginning on p. 153 for more examples of activities and strategies. | Activity | Topic | Sample Activity | |----------|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | 1 | 2.2 | Changing Representations Have students consider an accelerating two-object system from everyday life (e.g., person pushes a shopping cart, car pulls a trailer). Have them draw the forces on one object, then on the other, and then the external forces exerted on the two-object system. | | 2 | 2.5 | Working Backward Put students in pairs. Have student A write a Newton's second law equation either with symbols or plugged-in numbers including units. Then, have student B describe a situation that the equation applies to, including the object's velocity direction and how velocity is changing, a diagram, and a free-body diagram. | | 3 | 2.5 | What, If Anything, Is Wrong? Have students identify some force-related problem from their homework or textbook (that requires setting up Newton's second law and maybe more). Ask students to write out a detailed solution that has exactly one mistake in it (not a calculation error). Post everyone's problems/solutions, and then ask students to identify everyone else's errors. The last student to have their error found wins. | | 4 | 2.7 | Desktop Experiment Task Have students measure the coefficient of static friction of their shoe on a wood plank or metal track. Level 1: Use a spring scale. Level 2: Use a pulley, a spring, a toy bucket, and an electronic balance. Level 3: Use a protractor. | | 5 | 2.6/2.9 | <b>Desktop Experiment Task</b> Have students use the \"My Solar System\" PhET applet to create circular orbits of varying radii around the central star and record radius, period, and planet mass for various trials. Next, have them calculate the speed using $v = 2\\pi r/T$ and force using $F = mv^2/r$ . Using the data, have students show that gravitational force is directly proportional to the mass of each object and inversely proportional to the square of the radius. | | 6 | 2.9 | Construct an Argument Ask students to consider two identical objects moving in circles (or parts of circles) of different radii. Then, ask them to think of a situation where the object with the smaller radius has a greater net force and another situation where the object with the larger radius has a greater net force. | | 7 | 2.9 | Changing Representations Describe something a driver could be doing in a car (e.g., \"turning the steering wheel to the right while pressing the brake\"). Have students walk out the motion while holding out one arm representing the velocity vector and the other arm representing the acceleration vector. | | 8 | 2.9 | Predict and Explain Attach an object of known weight (say, 2 N) to a force sensor and cause the object to swing in a 180-degree arc. Ask students, \"At the bottom, the object is neither speeding up nor slowing down, so what force is registered at the bottom?\" Expect students to (incorrectly) answer, \"2 N\" and discuss, as a class, why this answer is incorrect. |"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "APP1.U2",
+          "name": "Unit 2: Force and Translational Dynamics",
+          "objectives": [
+            {
+              "code": "2.1.A",
+              "name": "Describe the properties and interactions of a system.",
+              "subtopics": [
+                {
+                  "id": "2.1.A.1",
+                  "text": "System properties are determined by the interactions between objects within the system."
+                },
+                {
+                  "id": "2.1.A.2",
+                  "text": "If the properties or interactions of the constituent objects within a system are not important in modeling the behavior of the macroscopic system, the system can itself be treated as a single object."
+                },
+                {
+                  "id": "2.1.A.3",
+                  "text": "Systems may allow interactions between constituent parts of the system and the environment, which may result in the transfer of energy or mass."
+                },
+                {
+                  "id": "2.1.A.4",
+                  "text": "Individual objects within a chosen system may behave differently from each other as well as from the system as a whole."
+                },
+                {
+                  "id": "2.1.A.5",
+                  "text": "The internal structure of a system affects the analysis of that system."
+                },
+                {
+                  "id": "2.1.A.6",
+                  "text": "As variables external to a system are changed, the system's substructure may change."
+                }
+              ]
+            },
+            {
+              "code": "2.1.B",
+              "name": "Describe the location of a system's center of mass with respect to the system's constituent parts.",
+              "subtopics": [
+                {
+                  "id": "2.1.B.1",
+                  "text": "For systems with symmetrical mass distributions, the center of mass is located on lines of symmetry."
+                },
+                {
+                  "id": "2.1.B.2",
+                  "text": "The location of a system's center of mass along a given axis can be calculated using the equation $$\\vec{x}_{cm} = \\frac{\\sum m_i \\vec{x}_i}{\\sum m_i}$$"
+                },
+                {
+                  "id": "2.1.B.3",
+                  "text": "A system can be modeled as a singular object that is located at the system's center of mass."
+                }
+              ]
+            },
+            {
+              "code": "2.2.A",
+              "name": "Describe a force as an interaction between two objects or systems.",
+              "subtopics": [
+                {
+                  "id": "2.2.A.1",
+                  "text": "Forces are vector quantities that describe the interactions between objects or systems."
+                },
+                {
+                  "id": "2.2.A.1.i",
+                  "text": "A force exerted on an object or system is always due to the interaction of that object with another object or system."
+                },
+                {
+                  "id": "2.2.A.1.ii",
+                  "text": "An object or system cannot exert a net force on itself."
+                },
+                {
+                  "id": "2.2.A.2",
+                  "text": "Contact forces describe the interaction of an object or system touching another object or system and are macroscopic effects of interatomic electric forces."
+                }
+              ]
+            },
+            {
+              "code": "2.2.B",
+              "name": "Describe the forces exerted on an object or system using a free-body diagram.",
+              "subtopics": [
+                {
+                  "id": "2.2.B.1",
+                  "text": "Free-body diagrams are useful tools for visualizing forces being exerted on a single object or system and for determining the equations that represent a physical situation."
+                },
+                {
+                  "id": "2.2.B.2",
+                  "text": "The free-body diagram of an object or system shows each of the forces exerted on the object by the environment."
+                },
+                {
+                  "id": "2.2.B.3",
+                  "text": "Forces exerted on an object or system are represented as vectors originating from the representation of the center of mass, such as a dot. A system is treated as though all of its mass is located at the center of mass."
+                },
+                {
+                  "id": "2.2.B.4",
+                  "text": "A coordinate system with one axis parallel to the direction of acceleration of the object or system simplifies the translation from freebody diagram to algebraic representation. For example, in a free-body diagram of an object on an inclined plane, it is useful to set one axis parallel to the surface of the incline."
+                }
+              ]
+            },
+            {
+              "code": "2.3.A",
+              "name": "Describe the interaction of two objects using Newton's third law and a representation of paired forces exerted on each object.",
+              "subtopics": [
+                {
+                  "id": "2.3.A.1",
+                  "text": "2.3.Δ.1 Newton's third law describes the interaction of two objects in terms of the paired forces that each exerts on the other. $$\\vec{F}_{A \\text{ on B}} = -\\vec{F}_{B \\text{ on A}}$$"
+                },
+                {
+                  "id": "2.3.A.2",
+                  "text": "Interactions between objects within a system (internal forces) do not influence the motion of a system's center of mass."
+                },
+                {
+                  "id": "2.3.A.3",
+                  "text": "Tension is the macroscopic net result of forces that segments of a string, cable, chain, or similar system exert on each other in response to an external force."
+                },
+                {
+                  "id": "2.3.A.3.i",
+                  "text": "An ideal string has negligible mass and does not stretch when under tension."
+                },
+                {
+                  "id": "2.3.A.3.ii",
+                  "text": "The tension in an ideal string is the same at all points within the string."
+                },
+                {
+                  "id": "2.3.A.3.iii",
+                  "text": "In a string with nonnegligible mass, tension may not be the same at all points within the string."
+                },
+                {
+                  "id": "2.3.A.3.iv",
+                  "text": "An ideal pulley is a pulley that has negligible mass and rotates about an axle through its center of mass with negligible friction."
+                }
+              ]
+            },
+            {
+              "code": "2.4.A",
+              "name": "Describe the conditions under which a system's velocity remains constant.",
+              "subtopics": [
+                {
+                  "id": "2.4.A.1",
+                  "text": "2.4.Δ.1 The net force on a system is the vector sum of all forces exerted on the system."
+                },
+                {
+                  "id": "2.4.A.2",
+                  "text": "Translational equilibrium is a configuration of forces such that the net force exerted on a system is zero. Derived equation: $$\\sum_{i} \\vec{F}_{i} = 0$$"
+                },
+                {
+                  "id": "2.4.A.3",
+                  "text": "Newton's first law states that if the net force exerted on a system is zero, the velocity of that system will remain constant."
+                },
+                {
+                  "id": "2.4.A.4",
+                  "text": "Forces may be balanced in one dimension but unbalanced in another. The system's velocity will change only in the direction of the unbalanced force."
+                },
+                {
+                  "id": "2.4.A.5",
+                  "text": "An inertial reference frame is one from which an observer would verify Newton's first law of motion."
+                }
+              ]
+            },
+            {
+              "code": "2.5.A",
+              "name": "Describe the conditions under which a system's velocity changes.",
+              "subtopics": [
+                {
+                  "id": "2.5.A.1",
+                  "text": "Unbalanced forces are a configuration of forces such that the net force exerted on a system is not equal to zero."
+                },
+                {
+                  "id": "2.5.A.2",
+                  "text": "Newton's second law of motion states that the acceleration of a system's center of mass has a magnitude proportional to the magnitude of the net force exerted on the system and is in the same direction as that net force. Relevant equation: $$\\vec{a}_{\\rm sys} = \\frac{\\sum \\vec{F}}{m_{\\rm sys}} = \\frac{\\vec{F}_{\\rm net}}{m_{\\rm sys}}$$"
+                },
+                {
+                  "id": "2.5.A.3",
+                  "text": "The velocity of a system's center of mass will only change if a nonzero net external force is exerted on that system."
+                }
+              ]
+            },
+            {
+              "code": "2.6.A",
+              "name": "Describe the gravitational interaction between two objects or systems with mass.",
+              "subtopics": [
+                {
+                  "id": "2.6.A.1",
+                  "text": "Newton's law of universal gravitation describes the gravitational force between two objects or systems as directly proportional to each of their masses and inversely proportional to the square of the distance between the systems' centers of mass. Relevant equation: $$\\left| \\vec{F}_g \\right| = G \\frac{m_1 m_2}{r^2}$$"
+                },
+                {
+                  "id": "2.6.A.1.i",
+                  "text": "The gravitational force is attractive."
+                },
+                {
+                  "id": "2.6.A.1.ii",
+                  "text": "The gravitational force is always exerted along the line connecting the centers of mass of the two interacting systems."
+                },
+                {
+                  "id": "2.6.A.1.iii",
+                  "text": "The gravitational force on a system can be considered to be exerted on the system's center of mass."
+                },
+                {
+                  "id": "2.6.A.2",
+                  "text": "A field models the effects of a noncontact force exerted on an object at various positions in space."
+                },
+                {
+                  "id": "2.6.A.2.i",
+                  "text": "The magnitude of the gravitational field created by a system of mass M at a point in space is equal to the ratio of the gravitational force exerted by the system on a test object of mass m to the mass of the test object."
+                },
+                {
+                  "id": "2.6.A.3",
+                  "text": "The gravitational force exerted by an astronomical body on a relatively small nearby object is called weight. Derived Equation: Weight = $$F_g = mg$$"
+                }
+              ]
+            },
+            {
+              "code": "2.6.B",
+              "name": "Describe situations in which the gravitational force can be considered constant.",
+              "subtopics": [
+                {
+                  "id": "2.6.B.1",
+                  "text": "If the gravitational force between two systems' centers of mass has a negligible change as the relative position of the two systems changes, the gravitational force can be considered constant at all points between the initial and final positions of the systems."
+                },
+                {
+                  "id": "2.6.B.2",
+                  "text": "Near the surface of Earth, the strength of the gravitational field is $g \\approx 10 \\text{ N/kg}$"
+                }
+              ]
+            },
+            {
+              "code": "2.6.C",
+              "name": "Describe the conditions under which the magnitude of a system's apparent weight is different from the magnitude of the gravitational force exerted on that system.",
+              "subtopics": [
+                {
+                  "id": "2.6.C.1",
+                  "text": "The magnitude of the apparent weight of a system is the magnitude of the normal force exerted on the system. If the system is accelerating, the apparent weight of the system is not equal to the magnitude of the gravitational force exerted on the system."
+                },
+                {
+                  "id": "2.6.C.3",
+                  "text": "A system appears weightless when there are no forces exerted on the system or when the force of gravity is the only force exerted on the system."
+                },
+                {
+                  "id": "2.6.C.4",
+                  "text": "The equivalence principle states that an observer in a noninertial reference frame is unable to distinguish between an object's apparent weight and the gravitational force exerted on the object by a gravitational field."
+                }
+              ]
+            },
+            {
+              "code": "2.6.D",
+              "name": "Describe inertial and gravitational mass.",
+              "subtopics": [
+                {
+                  "id": "2.6.D.1",
+                  "text": "Objects have inertial mass, or inertia, a property that determines how much an object's motion resists changes when interacting with another object."
+                },
+                {
+                  "id": "2.6.D.2",
+                  "text": "Gravitational mass is related to the force of attraction between two systems with mass."
+                },
+                {
+                  "id": "2.6.D.3",
+                  "text": "Inertial mass and gravitational mass have been experimentally verified to be equivalent."
+                }
+              ]
+            },
+            {
+              "code": "2.7.A",
+              "name": "Describe kinetic friction between two surfaces",
+              "subtopics": [
+                {
+                  "id": "2.7.A.1",
+                  "text": "Kinetic friction occurs when two surfaces in contact move relative to each other."
+                },
+                {
+                  "id": "2.7.A.1.i",
+                  "text": "The kinetic friction force is exerted in a direction opposite to the motion of each surface relative to the other surface."
+                },
+                {
+                  "id": "2.7.A.1.ii",
+                  "text": "The force of friction between two surfaces does not depend on the size of the surface area of contact."
+                },
+                {
+                  "id": "2.7.A.2",
+                  "text": "The magnitude of the kinetic friction force exerted on an object is the product of the normal force the surface exerts on the object and the coefficient of kinetic friction. Relevant equation: $$\\left| \\vec{F}_{f,k} \\right| = \\left| \\mu_k \\vec{F}_n \\right|$$ The coefficient of kinetic friction depends on the material properties of the surfaces that are in contact."
+                },
+                {
+                  "id": "2.7.A.2.ii",
+                  "text": "Normal force is the perpendicular component of the force exerted on an object by the surface with which it is in contact; it is directed away from the surface. continued on next page"
+                }
+              ]
+            },
+            {
+              "code": "2.7.B",
+              "name": "Describe static friction between two surfaces.",
+              "subtopics": [
+                {
+                  "id": "2.7.B.1",
+                  "text": "Static friction may occur between the contacting surfaces of two objects that are not moving relative to each other."
+                },
+                {
+                  "id": "2.7.B.2",
+                  "text": "Static friction adopts the value and direction required to prevent an object from slipping or sliding on a surface. Relevant equation: $$\\left| \\overrightarrow{F}_{f,s} \\right| \\leq \\left| \\mu_s \\overrightarrow{F}_n \\right|$$"
+                },
+                {
+                  "id": "2.7.B.2.i",
+                  "text": "Slipping and sliding refer to situations in which two surfaces are moving relative to each other."
+                },
+                {
+                  "id": "2.7.B.2.ii",
+                  "text": "There exists a maximum value for which static friction will prevent an object from slipping on a given surface. Derived equation: $$F_{f,s,\\max} = \\mu_s F_n$$"
+                },
+                {
+                  "id": "2.7.B.3",
+                  "text": "The coefficient of static friction is typically greater than the coefficient of kinetic friction for a given pair of surfaces."
+                }
+              ]
+            },
+            {
+              "code": "2.8.A",
+              "name": "Describe the force exerted on an object by an ideal spring",
+              "subtopics": [
+                {
+                  "id": "2.8.A.1",
+                  "text": "An ideal spring has negligible mass and exerts a force that is proportional to the change in its length as measured from its relaxed length. The magnitude of the force exerted by an ideal spring on an object is given by Hooke's law: $$\\vec{F}_s = -k\\Delta \\vec{x}$$"
+                },
+                {
+                  "id": "2.8.A.3",
+                  "text": "The force exerted on an object by a spring is always directed toward the equilibrium position of the object-spring system."
+                }
+              ]
+            },
+            {
+              "code": "2.9.A",
+              "name": "Describe the motion of an object traveling in a circular path.",
+              "subtopics": [
+                {
+                  "id": "2.9.A.1",
+                  "text": "Centripetal acceleration is the component of an object's acceleration directed toward the center of the object's circular path."
+                },
+                {
+                  "id": "2.9.A.1.i",
+                  "text": "The magnitude of centripetal acceleration for an object moving in a circular path is the ratio of the object's tangential speed squared to the radius of the circular path. Relevant equation: $$a_c = \\frac{v^2}{r}$$"
+                },
+                {
+                  "id": "2.9.A.1.ii",
+                  "text": "Centripetal acceleration is directed toward the center of an object's circular path."
+                },
+                {
+                  "id": "2.9.A.2",
+                  "text": "Centripetal acceleration can result from a single force, more than one force, or components of forces exerted on an object in circular motion."
+                },
+                {
+                  "id": "2.9.A.2.i",
+                  "text": "At the top of a vertical, circular loop, an object requires a minimum speed to maintain circular motion. At this point, and with this minimum speed, the gravitational force is the only force that causes the centripetal acceleration. Derived equation: $$v = \\sqrt{gr}$$"
+                },
+                {
+                  "id": "2.9.A.2.ii",
+                  "text": "Components of the static friction force and the normal force can contribute to the net force producing centripetal acceleration of an object traveling in a circle on a banked surface."
+                },
+                {
+                  "id": "2.9.A.2.iii",
+                  "text": "A component of tension contributes to the net force producing centripetal acceleration experienced by a conical pendulum."
+                },
+                {
+                  "id": "2.9.A.3",
+                  "text": "Tangential acceleration is the rate at which an object's speed changes and is directed tangent to the object's circular path."
+                },
+                {
+                  "id": "2.9.A.4",
+                  "text": "The net acceleration of an object moving in a circle is the vector sum of the centripetal acceleration and tangential acceleration. The revolution of an object traveling in a circular path at a constant speed (uniform circular motion) can be described using period and frequency."
+                },
+                {
+                  "id": "2.9.A.5.i",
+                  "text": "The time to complete one full circular path, one full rotation, or a full cycle of oscillatory motion is defined as period, T."
+                },
+                {
+                  "id": "2.9.A.5.ii",
+                  "text": "The rate at which an object is completing revolutions is defined as frequency, f. Relevant equation: $$T = \\frac{1}{f}$$"
+                },
+                {
+                  "id": "2.9.A.5.iii",
+                  "text": "For an object traveling at a constant speed in a circular path, the period is given by the derived equation $$T = \\frac{2\\pi r}{v}.$$ continued on next page"
+                }
+              ]
+            },
+            {
+              "code": "2.9.B",
+              "name": "Describe circular orbits using Kepler's third law.",
+              "subtopics": [
+                {
+                  "id": "2.9.B.1",
+                  "text": "For a satellite in circular orbit around a central body, the satellite's centripetal acceleration is caused only by gravitational attraction. The period and radius of the circular orbit are related to the mass of the central body. Derived equation: $$T^2 = \\frac{4\\pi^2}{GM}R^3$$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "APP1.U3",
+          "name": "Unit 3: Work, Energy, and Power",
+          "objectives": [
+            {
+              "code": "3.1.A",
+              "name": "Describe the translational kinetic energy of an object in terms of the object's mass and velocity.",
+              "subtopics": [
+                {
+                  "id": "3.1.A.1",
+                  "text": "An object's translational kinetic energy is given by the equation $$K = \\frac{1}{2}mv^2$$"
+                },
+                {
+                  "id": "3.1.A.2",
+                  "text": "Translational kinetic energy is a scalar quantity. Different observers may measure different values of the translational kinetic energy of an object, depending on the observer's frame of reference."
+                }
+              ]
+            },
+            {
+              "code": "3.2.A",
+              "name": "Describe the work done on an object or system by a given force or collection of forces.",
+              "subtopics": [
+                {
+                  "id": "3.2.A.1",
+                  "text": "Work is the amount of energy transferred into or out of a system by a force exerted on that system over a distance."
+                },
+                {
+                  "id": "3.2.A.1.i",
+                  "text": "The work done by a conservative force exerted on a system is path-independent and only depends on the initial and final configurations of that system."
+                },
+                {
+                  "id": "3.2.A.1.ii",
+                  "text": "The work done by a conservative force on a system—or the change in the potential energy of the system—will be zero if the system returns to its initial configuration."
+                },
+                {
+                  "id": "3.2.A.1.iii",
+                  "text": "Potential energies are associated only with conservative forces."
+                },
+                {
+                  "id": "3.2.A.1.iv",
+                  "text": "The work done by a nonconservative force is path-dependent."
+                },
+                {
+                  "id": "3.2.A.1.v",
+                  "text": "Examples of nonconservative forces are friction and air resistance."
+                },
+                {
+                  "id": "3.2.A.2",
+                  "text": "Work is a scalar quantity that may be positive, negative, or zero."
+                },
+                {
+                  "id": "3.2.A.3",
+                  "text": "The amount of work done on a system by a constant force is related to the components of that force and the displacement of the point at which that force is exerted."
+                },
+                {
+                  "id": "3.2.A.3.i",
+                  "text": "Only the component of the force exerted on a system that is parallel to the displacement of the point of application of the force will change the system's total energy. Relevant equation: $$W = F_{||}d = Fd \\cos\\theta$$"
+                },
+                {
+                  "id": "3.2.A.3.ii",
+                  "text": "The component of the force exerted on a system perpendicular to the direction of the displacement of the system's center of mass can change the direction of the system's motion without changing the system's kinetic energy."
+                },
+                {
+                  "id": "3.2.A.4",
+                  "text": "The work-energy theorem states that the change in an object's kinetic energy is equal to the sum of the work (net work) being done by all forces exerted on the object. Relevant equation: $$\\Delta K = \\sum_{i} W_{i} = \\sum_{i} F_{||,i} d$$"
+                },
+                {
+                  "id": "3.2.A.4.i",
+                  "text": "An external force may change the configuration of a system. The component of the external force parallel to the displacement times the displacement of the point of application of the force gives the change in kinetic energy of the system."
+                },
+                {
+                  "id": "3.2.A.4.ii",
+                  "text": "If the system's center of mass and the point of application of the force move the same distance when a force is exerted on a system, then the system may be modeled as an object, and only the system's kinetic energy can change."
+                },
+                {
+                  "id": "3.2.A.4.iii",
+                  "text": "The energy dissipated by friction is typically equated to the force of friction times the length of the path over which the force is exerted $$\\Delta E_{\\rm mech} = F_f d \\cos \\theta$$"
+                },
+                {
+                  "id": "3.2.A.5",
+                  "text": "Work is equal to the area under the curve of a graph of $F_{\\parallel}$ as a function of displacement."
+                }
+              ]
+            },
+            {
+              "code": "3.3.A",
+              "name": "Describe the potential energy of a system.",
+              "subtopics": [
+                {
+                  "id": "3.3.A.4.ii",
+                  "text": "The general form for the gravitational potential energy of a system consisting of two approximately spherical distributions of mass (e.g., moons, planets or stars) is given by the equation $$U_g = -G \\frac{m_1 m_2}{r}$$"
+                },
+                {
+                  "id": "3.3.A.4.iii",
+                  "text": "Because the gravitational field near the surface of a planet is nearly constant, the change in gravitational potential energy in a system consisting of an object with mass m and a planet with gravitational field of magnitude g when the object is near the surface of the planet may be approximated by the equation $$\\Delta U_g = mg\\Delta y$$ ."
+                },
+                {
+                  "id": "3.3.A.5",
+                  "text": "The total potential energy of a system containing more than two objects is the sum of the potential energy of each pair of objects within the system."
+                }
+              ]
+            },
+            {
+              "code": "3.4.A",
+              "name": "Describe the energies present in a system.",
+              "subtopics": []
+            },
+            {
+              "code": "3.4.B",
+              "name": "Describe the behavior of a system using conservation of mechanical energy principles.",
+              "subtopics": [
+                {
+                  "id": "3.4.B.1",
+                  "text": "A system composed of only a single object can only have kinetic energy. A system that contains objects that interact via conservative forces or that can change its shape reversibly may have both kinetic and potential energies. Mechanical energy is the sum of a system's kinetic and potential energies. Any change to a type of energy within a system must be balanced by an equivalent change of other types of energies within the system or by a transfer of energy between the system and its surroundings. A system may be selected so that the total energy of that system is constant."
+                },
+                {
+                  "id": "3.4.B.4",
+                  "text": "If the total energy of a system changes, that change will be equivalent to the energy transferred into or out of the system. continued on next page"
+                }
+              ]
+            },
+            {
+              "code": "3.4.C",
+              "name": "Describe how the selection of a system determines whether the energy of that system changes.",
+              "subtopics": [
+                {
+                  "id": "3.4.C.1",
+                  "text": "Energy is conserved in all interactions."
+                },
+                {
+                  "id": "3.4.C.2",
+                  "text": "If the work done on a selected system is zero and there are no nonconservative interactions within the system, the total mechanical energy of the system is constant."
+                },
+                {
+                  "id": "3.4.C.3",
+                  "text": "If the work done on a selected system is nonzero, energy is transferred between the system and the environment."
+                }
+              ]
+            },
+            {
+              "code": "3.5.A",
+              "name": "Describe the transfer of energy into, out of, or within a system in terms of power.",
+              "subtopics": [
+                {
+                  "id": "3.5.A.1",
+                  "text": "Power is the rate at which energy changes with respect to time, either by transfer into or out of a system or by conversion from one type to another within a system."
+                },
+                {
+                  "id": "3.5.A.2",
+                  "text": "Average power is the amount of energy being transferred or converted, divided by the time it took for that transfer or conversion to occur. Relevant equation: $$P_{\\text{avg}} = \\frac{\\Delta E}{\\Delta t}$$"
+                },
+                {
+                  "id": "3.5.A.3",
+                  "text": "Because work is the change in energy of an object or system due to a force, average power is the total work done, divided by the time during which that work was done. Relevant equation: $$P_{\\text{avg}} = \\frac{W}{\\Delta t}$$"
+                },
+                {
+                  "id": "3.5.A.4",
+                  "text": "The instantaneous power delivered to an object by the component of a constant force parallel to the object's velocity can be described with the derived equation. $$P_{\\text{inst}} = F_{\\parallel} v = Fv \\cos \\theta.$$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "APP1.U4",
+          "name": "Unit 4: Linear Momentum",
+          "objectives": [
+            {
+              "code": "4.1.A",
+              "name": "Describe the linear momentum of an object or system.",
+              "subtopics": [
+                {
+                  "id": "4.1.A.1",
+                  "text": "Linear momentum is defined by the equation $\\overline{p} = m\\overline{v}$ ."
+                },
+                {
+                  "id": "4.1.A.2",
+                  "text": "Momentum is a vector quantity and has the same direction as the velocity."
+                },
+                {
+                  "id": "4.1.A.3",
+                  "text": "Momentum can be used to analyze collisions and explosions."
+                },
+                {
+                  "id": "4.1.A.3.i",
+                  "text": "A collision is a model for an interaction where the forces exerted between the involved objects in the system are much larger than the net external force exerted on those objects during the interaction."
+                },
+                {
+                  "id": "4.1.A.3.ii",
+                  "text": "As only the initial and final states of a collision are analyzed, the object model may be used to analyze collisions."
+                },
+                {
+                  "id": "4.1.A.3.iii",
+                  "text": "An explosion is a model for an interaction in which forces internal to the system move objects within that system apart."
+                }
+              ]
+            },
+            {
+              "code": "4.2.A",
+              "name": "Describe the impulse delivered to an object or system.",
+              "subtopics": [
+                {
+                  "id": "4.2.A.1",
+                  "text": "4.2.Δ.1 The rate of change of momentum is equal to the net external force exerted on an object or system. Relevant equation: $$\\vec{F}_{\\text{net}} = \\frac{\\Delta \\vec{p}}{\\Delta t}$$"
+                },
+                {
+                  "id": "4.2.A.2",
+                  "text": "Impulse is defined as the product of the average force exerted on a system and the time interval during which that force is exerted on the system. Relevant equation: $$\\vec{J} = \\vec{F}_{\\text{avg}} \\Delta t$$"
+                },
+                {
+                  "id": "4.2.A.3",
+                  "text": "Impulse is a vector quantity and has the same direction as the net force exerted on the system."
+                },
+                {
+                  "id": "4.2.A.4",
+                  "text": "The impulse delivered to a system by a net external force is equal to the area under the curve of a graph of the net external force exerted on the system as a function of time."
+                },
+                {
+                  "id": "4.2.A.5",
+                  "text": "The net external force exerted on a system is equal to the slope of a graph of the momentum of the system as a function of time. continued on next page"
+                }
+              ]
+            },
+            {
+              "code": "4.2.B",
+              "name": "Describe the relationship between the impulse exerted on an object or a system and the change in momentum of the object or system.",
+              "subtopics": [
+                {
+                  "id": "4.2.B.1",
+                  "text": "Change in momentum is the difference between a system's final momentum and its initial momentum. Relevant equation: $$\\Delta \\vec{p} = \\vec{p} - \\vec{p}_0$$"
+                },
+                {
+                  "id": "4.2.B.2",
+                  "text": "The impulse–momentum theorem relates the impulse exerted on a system and the system's change in momentum. Relevant equation: $$\\vec{J} = \\vec{F}_{\\text{avg}} \\Delta t = \\Delta \\vec{p}$$"
+                },
+                {
+                  "id": "4.2.B.3",
+                  "text": "Newton's second law of motion is a direct result of the impulse–momentum theorem applied to systems with constant mass. Relevant equation $$\\overline{F}_{\\text{net}} = \\frac{\\Delta \\overline{p}}{\\Delta t} = m \\frac{\\Delta \\vec{v}}{\\Delta t} = m \\vec{a}$$"
+                }
+              ]
+            },
+            {
+              "code": "4.3.A",
+              "name": "Describe the behavior of a system using conservation of linear momentum.",
+              "subtopics": [
+                {
+                  "id": "4.3.A.1",
+                  "text": "A collection of objects with individual momenta can be described as one system with one center-of-mass velocity."
+                },
+                {
+                  "id": "4.3.A.1.i",
+                  "text": "For a collection of objects, the velocity of a system's center of mass can be calculated using the equation $$\\vec{v}_{\\rm cm} = \\frac{\\sum \\vec{p}_i}{\\sum m_i} = \\frac{\\sum m_i \\vec{v}_i}{\\sum m_i}.$$"
+                },
+                {
+                  "id": "4.3.A.1.ii",
+                  "text": "The velocity of a system's center of mass is constant in the absence of a net external force"
+                },
+                {
+                  "id": "4.3.A.2",
+                  "text": "The total momentum of a system is the sum of the momenta of the system's constituent parts."
+                },
+                {
+                  "id": "4.3.A.3",
+                  "text": "In the absence of net external forces, any change to the momentum of an object within a system must be balanced by an equivalent and opposite change of momentum elsewhere within the system. Any change to the momentum of a system is due to a transfer of momentum between the system and its surroundings. continued on next page"
+                },
+                {
+                  "id": "4.3.A.3.i",
+                  "text": "The impulse exerted by one object on a second object is equal and opposite to the impulse exerted by the second object on the first. This is a direct result of Newton's third law."
+                },
+                {
+                  "id": "4.3.A.3.ii",
+                  "text": "A system may be selected so that the total momentum of that system is constant."
+                },
+                {
+                  "id": "4.3.A.3.iii",
+                  "text": "If the total momentum of a system changes, that change will be equivalent to the impulse exerted on the system. Relevant equation: $$\\vec{J} = \\Delta \\vec{p}$$"
+                },
+                {
+                  "id": "4.3.A.4",
+                  "text": "Correct application of conservation of momentum can be used to determine the velocity of a system immediately before and immediately after collisions or explosions."
+                }
+              ]
+            },
+            {
+              "code": "4.3.B",
+              "name": "Describe how the selection of a system determines whether the momentum of that system changes.",
+              "subtopics": [
+                {
+                  "id": "4.3.B.1",
+                  "text": "Momentum is conserved in all interactions."
+                },
+                {
+                  "id": "4.3.B.2",
+                  "text": "If the net external force on the selected system is zero, the total momentum of the system is constant."
+                },
+                {
+                  "id": "4.3.B.3",
+                  "text": "If the net external force on the selected system is nonzero, momentum is transferred between the system and the environment."
+                }
+              ]
+            },
+            {
+              "code": "4.4.A",
+              "name": "Describe whether an interaction between objects is elastic or inelastic.",
+              "subtopics": [
+                {
+                  "id": "4.4.A.1",
+                  "text": "An elastic collision between objects is one in which the initial kinetic energy of the system is equal to the final kinetic energy of the system."
+                },
+                {
+                  "id": "4.4.A.2",
+                  "text": "In an elastic collision, the final kinetic energies of each of the objects within the system may be different from their initial kinetic energies. An inelastic collision between objects is one in which the total kinetic energy of the system decreases."
+                },
+                {
+                  "id": "4.4.A.4",
+                  "text": "In an inelastic collision, some of the initial kinetic energy is not restored to kinetic energy but is transformed by nonconservative forces into other forms of energy."
+                },
+                {
+                  "id": "4.4.A.5",
+                  "text": "In a perfectly inelastic collision, the objects stick together and move with the same velocity after the collision."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "APP1.U5",
+          "name": "Unit 5: Torque and Rotational Dynamics",
+          "objectives": [
+            {
+              "code": "5.1.A",
+              "name": "Describe the rotation of a system with respect to time using angular displacement, angular velocity, and angular acceleration.",
+              "subtopics": [
+                {
+                  "id": "5.1.A.1",
+                  "text": "Angular displacement is the measurement of the angle, in radians, through which a point on a rigid system rotates about a specified axis. Relevant equation: $$\\Delta\\theta = \\theta - \\theta_0$$"
+                },
+                {
+                  "id": "5.1.A.1.i",
+                  "text": "A rigid system is one that holds its shape but in which different points on the system move in different directions during rotation. A rigid system cannot be modeled as an object."
+                },
+                {
+                  "id": "5.1.A.1.ii",
+                  "text": "One direction of angular displacement about an axis of rotation—clockwise or counterclockwise—is typically indicated as mathematically positive, with the other direction becoming mathematically negative."
+                },
+                {
+                  "id": "5.1.A.1.iii",
+                  "text": "If the rotation of a system about an axis may be well described using the motion of the system's center of mass, the system may be treated as a single object. For example, the rotation of Earth about its axis may be considered negligible when considering the revolution of Earth about the center of mass of the Earth-Sun svstem. continued on next page"
+                },
+                {
+                  "id": "5.1.A.2",
+                  "text": "Average angular velocity is the average rate at which angular position changes with respect to time. Relevant equation: $$\\omega_{\\rm avg} = \\frac{\\Delta \\theta}{\\Delta t}$$"
+                },
+                {
+                  "id": "5.1.A.3",
+                  "text": "Average angular acceleration is the average rate at which the angular velocity changes with respect to time. Relevant equation: $$\\alpha_{\\text{avg}} = \\frac{\\Delta \\omega}{\\Delta t}$$"
+                },
+                {
+                  "id": "5.1.A.4",
+                  "text": "Angular displacement, angular velocity, and angular acceleration around one axis are analogous to linear displacement, velocity, and acceleration in one dimension and demonstrate the same mathematical relationships."
+                },
+                {
+                  "id": "5.1.A.4.i",
+                  "text": "For constant angular acceleration, the mathematical relationships between angular displacement, angular velocity, and angular acceleration can be described with the following equations: $$\\omega = \\omega_0 + \\alpha t$$ $$\\theta = \\theta_0 + \\omega_0 t + \\frac{1}{2} \\alpha t^2$$ $$\\omega^2 = \\omega_0^2 + 2\\alpha(\\theta - \\theta_0)$$"
+                },
+                {
+                  "id": "5.1.A.4.ii",
+                  "text": "Graphs of angular displacement, angular velocity, and angular acceleration as functions of time can be used to find the relationships between those quantities."
+                }
+              ]
+            },
+            {
+              "code": "5.2.A",
+              "name": "Describe the linear motion of a point on a rotating rigid system that corresponds to the rotational motion of that point, and vice versa.",
+              "subtopics": [
+                {
+                  "id": "5.2.A.1",
+                  "text": "For a point at a distance r from a fixed axis of rotation, the linear distance s traveled by the point as the system rotates through an angle $\\Delta\\theta$ is given by the equation $\\Delta s = r\\Delta\\theta$ ."
+                },
+                {
+                  "id": "5.2.A.2",
+                  "text": "Derived relationships of linear velocity and of the tangential component of acceleration to their respective angular quantities are given by the following equations: $s = r\\theta$ $v = r\\omega$ $a_T = r\\alpha$ For a rigid system, all points within that system have the same angular velocity and angular acceleration."
+                }
+              ]
+            },
+            {
+              "code": "5.3.A",
+              "name": "Identify the torques exerted on a rigid system.",
+              "subtopics": []
+            },
+            {
+              "code": "5.3.B",
+              "name": "Describe the torques exerted on a rigid system.",
+              "subtopics": [
+                {
+                  "id": "5.3.A.1",
+                  "text": "Torque results only from the force component perpendicular to the position vector from the axis of rotation to the point of application of the force."
+                },
+                {
+                  "id": "5.3.A.2",
+                  "text": "The lever arm is the perpendicular distance from the axis of rotation to the line of action of the exerted force."
+                },
+                {
+                  "id": "5.3.B.1",
+                  "text": "Torques can be described using force diagrams."
+                },
+                {
+                  "id": "5.3.B.1.i",
+                  "text": "Force diagrams are similar to free-body diagrams and are used to analyze the torques exerted on a rigid system."
+                },
+                {
+                  "id": "5.3.B.1.ii",
+                  "text": "Similar to free-body diagrams, force diagrams represent the relative magnitude and direction of the forces exerted on a rigid system. Force diagrams also depict the location at which those forces are exerted relative to the axis of rotation."
+                },
+                {
+                  "id": "5.3.B.2",
+                  "text": "The magnitude of the torque exerted on a rigid system by a force is described by the following equation, where $\\theta$ is the angle between the force vector and the position vector from the axis of rotation to the point of application of the force. $$\\tau = rF_{\\perp} = rF \\sin \\theta$$"
+                }
+              ]
+            },
+            {
+              "code": "5.4.A",
+              "name": "Describe the rotational inertia of a rigid system relative to a given axis of rotation.",
+              "subtopics": [
+                {
+                  "id": "5.4.A.1",
+                  "text": "Rotational inertia measures a rigid system's resistance to changes in rotation and is related to the mass of the system and the distribution of that mass relative to the axis of rotation."
+                },
+                {
+                  "id": "5.4.A.2",
+                  "text": "The rotational inertia of an object rotating a perpendicular distance r from an axis is described by the equation $$I = mr^2$$ ."
+                },
+                {
+                  "id": "5.4.A.3",
+                  "text": "The total rotational inertia of a collection of objects about an axis is the sum of the rotational inertias of each object about that axis: $$I_{\\text{tot}} = \\sum I_i = \\sum m_i r_i^2$$"
+                }
+              ]
+            },
+            {
+              "code": "5.4.B",
+              "name": "Describe the rotational inertia of a rigid system rotating about an axis that does not pass through the system's center of mass.",
+              "subtopics": [
+                {
+                  "id": "5.4.B.1",
+                  "text": "A rigid system's rotational inertia in a given plane is at a minimum when the rotational axis passes through the system's center of mass. continued on next page"
+                },
+                {
+                  "id": "5.4.B.2",
+                  "text": "The parallel axis theorem uses the following equation to relate the rotational inertia of a rigid system about any axis that is parallel to an axis through its center of mass: $$I' = I_{\\rm cm} + Md^2$$"
+                }
+              ]
+            },
+            {
+              "code": "5.5.A",
+              "name": "Describe the conditions under which a system's angular velocity remains constant.",
+              "subtopics": [
+                {
+                  "id": "5.5.A.1",
+                  "text": "A system may exhibit rotational equilibrium (constant angular velocity) without being in translational equilibrium, and vice versa."
+                },
+                {
+                  "id": "5.5.A.1.i",
+                  "text": "Free-body and force diagrams describe the nature of the forces and torques exerted on an object or rigid system."
+                },
+                {
+                  "id": "5.5.A.1.ii",
+                  "text": "Rotational equilibrium is a configuration of torques such that the net torque exerted on the system is zero. Relevant equation: $$\\sum \\tau_i = 0$$"
+                },
+                {
+                  "id": "5.5.A.1.iii",
+                  "text": "The rotational analog of Newton's first law is that a system will have a constant angular velocity only if the net torque exerted on the system is zero."
+                },
+                {
+                  "id": "5.5.A.2",
+                  "text": "A rotational corollary to Newton's second law states that if the torques exerted on a rigid system are not balanced, the system's angular velocity must be changing."
+                }
+              ]
+            },
+            {
+              "code": "5.6.A",
+              "name": "Describe the conditions under which a system's angular velocity changes.",
+              "subtopics": [
+                {
+                  "id": "5.6.A.1",
+                  "text": "Angular velocity changes when the net torque exerted on the object or system is not equal to zero."
+                },
+                {
+                  "id": "5.6.A.2",
+                  "text": "The rate at which the angular velocity of a rigid system changes is directly proportional to the net torque exerted on the rigid system and is in the same direction. The angular acceleration of the rigid system is inversely proportional to the rotational inertia of the rigid system. Relevant equation: $$\\alpha_{\\rm sys} = \\frac{\\sum \\tau}{I_{\\rm sys}} = \\frac{\\tau_{\\rm net}}{I_{\\rm sys}}$$"
+                },
+                {
+                  "id": "5.6.A.3",
+                  "text": "To fully describe a rotating rigid system, linear and rotational analyses may need to be performed independently. AP PHYSICS 1 UNIT 6 Energy and Momentum of Rotating Systems 5–8% AP EXAM WEIGHTING ~8-14 CLASS PERIODS Remember to go to AP Classroom to assign students the online Progress Check for this unit. Whether assigned as homework or completed in class, the Progress Check provides each student with immediate feedback related to this unit's topics and science practices. Progress Check 6 Multiple-choice: ~18 questions Free-response: 4 questions - Mathematical Routines - Translation Between Representations - Experimental Design and Analysis - Qualitative/Quantitative Translation Energy and Momentum of Rotating Systems ESSENTIAL Developing Understanding QUESTIONS - What keeps a bicycle balanced? - Why do planets move faster when they travel closer to the sun? - What do satellites and projectiles have in common? - What do ice skaters do with their arms when they want to spin faster? Why? In Unit 6, students will apply their knowledge of energy and momentum to rotating systems. Similar to the approach used for translational energy and momentum concepts in Units 3 and 4, it is important that students have conceptual understanding of how angular momentum and rotational energy change due to external torque(s) on a system. Additionally, articulating the conditions under which the rotational energy and/or angular momentum of a system remains constant is foundational to working through more complex scenarios. Students will use the content and skills presented in both Units 5 and 6 to further study the motion of orbiting satellites and rolling without slipping in this unit. Building the Science Practices 2.C 2.D 3.B 3.C Unit 6 provides opportunities for students to compare physical quantities between scenarios or at different times in a single scenario (2.C), as well as determine new values of quantities using functional dependencies between variables (2.D). From there, students can also make and justify claims based on these physical principles and functional relationships (3.B, 3.C). For example, students could describe conceptually what happens to the rotational inertia of a system when the pivot point is moved, and then justify what impact that change will have on the angular acceleration of the system. By the end of the unit, it is important for students to be comfortable with making claims about the reasonableness of their claims and justifications made with functional dependence (2.D, 3.C), starting with first principles of physics. Preparing for the AP Exam On both the multiple-choice and freeresponse sections of the AP Physics 1 Exam, students need to be able to describe the relationships between physical quantities in order to articulate the effects of changing the value of a specific physical quantity in a scenario. Therefore, students will benefit from opportunities to investigate changes in systems, including practicing using fundamental principles of physics to decide whether a quantity will increase, decrease, or remain the same when another quantity is changed. Additionally, when writing justifications for claims, simply referencing an equation, law, or physical principle is not sufficient. For example, stating that one disk is rolling faster than another because of \"conservation of energy\" is not a complete enough answer to earn credit on the freeresponse section of the exam. Students must clearly and concisely explain the steps in their reasoning that lead from the equation, law, or physical principle to the justification of their claim in FRQ #1, the MR question. Energy and Momentum of Rotating Systems UNIT AT A GLANCE | Topic | Suggested Skills | |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------| | 6.1 Rotational Kinetic<br>Energy | 1.A Create diagrams, tables, charts, or schematics to represent physical situations. | | Energy | Calculate or estimate an unknown quantity with units from known quantities, by selecting and following a logical computational pathway. | | | Compare physical quantities between two or more scenarios or at different times and locations in a single scenario. | | | 3.B Apply an appropriate law, definition, theoretical relationship, or model to make a claim. | | <b>6.2</b> Torque and Work | 1.B Create quantitative graphs with appropriate scales and units, including plotting data. | | | Derive a symbolic expression from known quantities by selecting and following a logical mathematical pathway. | | | Compare physical quantities between two or more scenarios or at different times and locations in a single scenario. | | | Predict new values or factors of change of physical quantities using functional dependence between variables. | | | 3.A Create experimental procedures that are appropriate for a given scientific question. | | 6.3 Angular Momentum | 1.B Create quantitative graphs with appropriate scales and units, including plotting data. | | and Angular<br>Impulse | Derive a symbolic expression from known quantities by selecting and following a logical mathematical pathway. | | | Predict new values or factors of change of physical quantities using functional dependence between variables. | | | 3.B Apply an appropriate law, definition, theoretical relationship, or model to make a claim. | | 6.4 Conservation of | 1.B Create quantitative graphs with appropriate scales and units, including plotting data. | | Angular Momentum | Predict new values or factors of change of physical quantities using functional dependence between variables. | | | 3.A Create experimental procedures that are appropriate for a given scientific question. | | | 3.B Apply an appropriate law, definition, theoretical relationship, or model to make a claim. | | | Justify or support a claim using evidence from experimental data, physical representations, or physical principles or laws. | UNIT AT A GLANCE (cont'd) | Topic | Suggested Skills | |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------| | 6.5 Rolling | 1.A Create diagrams, tables, charts, or schematics to represent physical situations. | | | 2.A Derive a symbolic expression from known quantities by selecting and following a logical mathematical pathway. | | | Compare physical quantities between two or more scenarios or at different times and locations in a single scenario. | | | Justify or support a claim using evidence from experimental data, physical representations, or physical principles or laws. | | 6.6 Motion of Orbiting<br>Satellites | 1.C Create qualitative sketches of graphs that represent features of a model or the behavior of a physical system. | | | <b>2.A</b> Derive a symbolic expression from known quantities by selecting and following a logical mathematical pathway. | | | Compare physical quantities between two or more scenarios or at different times and locations in a single scenario. | | | 3.C Justify or support a claim using evidence from experimental data, physical representations, or physical principles or laws. | AP Go to AP Classroom to assign the Progress Check for Unit 6. Review the results in class to identify and address any student misunderstandings. Energy and Momentum of Rotating Systems SAMPLE INSTRUCTIONAL ACTIVITIES The sample activities on this page are optional and are offered to provide possible ways to incorporate various instructional approaches in the classroom. Teachers do not need to use these activities or instructional approaches and are free to alter or edit them. The examples below were developed in partnership with teachers from the AP community to share ways that they approach teaching some of the topics in this unit. Please refer to the Instructional Approaches section beginning on p. 153 for more examples of activities and strategies. | Activity | Topic | Sample Activity | |----------|-------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | 1 | 6.1 | Desktop Experiment Task Have students release a yo-yo from rest, calculate its acceleration from distance and time measurements, and then determine the yo-yo's rotational inertia (which requires the yo-yo's mass and the radius at which the string connects to the yo-yo). Next, have them roll the yo-yo down a ramp and use distance and time data to construct a conservation of energy equation that can be solved for the yo-yo's rotational inertia. | | 2 | 6.3 | Predict and Explain Allow students to play with a set of fidget spinners. Ask them to explain why it is difficult to change the plane of rotation of a spinner while it is rotating. | | 3 | 6.5 | Concept-Oriented Demonstration Obtain a ring and a disk of equal mass and radius and load up a low-friction cart with weights to make it the same mass. \"Race\" the three objects from rest down identical inclines to show students the cart wins, then the disk, and then the ring. Have students explain why the objects win in this order, with forces and then with energy. | | 4 | 6.5 | Ranking Tasks Present students with the following scenario and its accompanying three cases: A wheel rolls down an incline from rest and across a flat surface. Case 1: Tracks are rough enough that there is no slipping. Case 2: Tracks have some friction, but there is slipping. Case 3: Tracks have negligible friction. Have students rank translational kinetic energies at the end, rotational kinetic energies at the end, and total mechanical energies of the wheel at the end as three separate tasks. | | 5 | 6.5 | $(K_{T3} > K_{T2} > K_{T1})$ , $(K_{R1} > K_{R2} > K_{R3})$ , and $(E_1 = E_3 > E_2)$ . Construct an Argument Have students roll a hoop and a disk (of equal mass and radius) down identical ramps. Then have them explain why the disk reached the bottom in less time using energy bar charts and to-scale free-body diagrams. |"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "APP1.U6",
+          "name": "Unit 6: Energy and Momentum of Rotating Systems",
+          "objectives": [
+            {
+              "code": "6.1.A",
+              "name": "Describe the rotational kinetic energy of a rigid system in terms of the rotational inertia and angular velocity of that rigid system.",
+              "subtopics": [
+                {
+                  "id": "6.1.A.1",
+                  "text": "The rotational kinetic energy of an object or rigid system is related to the rotational inertia and angular velocity of the rigid system and is given by the equation $$K = \\frac{1}{2}I\\omega^2.$$"
+                },
+                {
+                  "id": "6.1.A.1.i",
+                  "text": "The rotational inertia of an object about a fixed axis can be used to show that the rotational kinetic energy of that object is equivalent to its translational kinetic energy, which is its total kinetic energy. The total kinetic energy of a rigid system is the sum of its rotational kinetic energy due to its rotation about its center of mass and the translational kinetic energy due to the linear motion of its center of mass."
+                },
+                {
+                  "id": "6.1.A.2",
+                  "text": "A rigid system can have rotational kinetic energy while its center of mass is at rest due to the individual points within the rigid system having linear speed and, therefore, kinetic energy. Rotational kinetic energy is a scalar quantity."
+                }
+              ]
+            },
+            {
+              "code": "6.2.A",
+              "name": "Describe the work done on a rigid system by a given torque or collection of torques.",
+              "subtopics": [
+                {
+                  "id": "6.2.A.1",
+                  "text": "A torque can transfer energy into or out of an object or rigid system if the torque is exerted over an angular displacement."
+                },
+                {
+                  "id": "6.2.A.2",
+                  "text": "The amount of work done on a rigid system by a torque is related to the magnitude of that torque and the angular displacement through which the rigid system rotates during the interval in which that torque is exerted. Relevant equation: $W = \\tau \\Delta \\theta$"
+                },
+                {
+                  "id": "6.2.A.3",
+                  "text": "Work done on a rigid system by a given torque can be found from the area under the curve of a graph of torque as a function of angular position."
+                }
+              ]
+            },
+            {
+              "code": "6.3.A",
+              "name": "Describe the angular momentum of an object or rigid system.",
+              "subtopics": [
+                {
+                  "id": "6.3.A.1",
+                  "text": "The magnitude of the angular momentum of a rigid system about a specific axis can be described with the equation $L = I\\omega$ ."
+                },
+                {
+                  "id": "6.3.A.2",
+                  "text": "The magnitude of the angular momentum of an object about a given point is $L = rmv \\sin \\theta$ ."
+                },
+                {
+                  "id": "6.3.A.2.i",
+                  "text": "The selection of the axis about which an object is considered to rotate influences the determination of the angular momentum of that object."
+                },
+                {
+                  "id": "6.3.A.2.ii",
+                  "text": "The measured angular momentum of an object traveling in a straight line depends on the distance between the reference point and the object, the mass of the object, the speed of the object, and the angle between the radial distance and the velocity of the object. continued on next page"
+                }
+              ]
+            },
+            {
+              "code": "6.3.B",
+              "name": "Describe the angular impulse delivered to an object or rigid system by a torque.",
+              "subtopics": [
+                {
+                  "id": "6.3.B.1",
+                  "text": "Angular impulse is defined as the product of the torque exerted on an object or rigid system and the time interval during which the torque is Relevant equation: angular impulse = $\\tau \\Delta t$"
+                },
+                {
+                  "id": "6.3.B.2",
+                  "text": "Angular impulse has the same direction as the torque exerted on the object or system."
+                },
+                {
+                  "id": "6.3.B.3",
+                  "text": "The angular impulse delivered to an object or rigid system by a torque can be found from the area under the curve of a graph of the torque as a function of time."
+                }
+              ]
+            },
+            {
+              "code": "6.3.C",
+              "name": "Relate the change in angular momentum of an object or rigid system to the angular impulse given to that object or rigid system.",
+              "subtopics": [
+                {
+                  "id": "6.3.C.1",
+                  "text": "The magnitude of the change in angular momentum can be described by comparing the magnitudes of the final and initial angular momenta of the object or rigid system: $$\\Delta L = L - L_0$$"
+                },
+                {
+                  "id": "6.3.C.2",
+                  "text": "A rotational form of the impulse–momentum theorem relates the angular impulse delivered to an object or rigid system and the change in angular momentum of that object or rigid system."
+                },
+                {
+                  "id": "6.3.C.2.i",
+                  "text": "The angular impulse exerted on an object or rigid system is equal to the change in angular momentum of that object or rigid system. Relevant equation: $$\\Delta L = \\tau \\Delta t$$"
+                },
+                {
+                  "id": "6.3.C.2.ii",
+                  "text": "The rotational form of the impulse momentum theorem is a direct result of the rotational form of Newton's second law of motion for cases in which rotational inertia is constant: $$\\tau_{\\rm net} = \\frac{\\Delta L}{\\Delta t} = I \\frac{\\Delta \\omega}{\\Delta t} = I \\alpha$$"
+                },
+                {
+                  "id": "6.3.C.3",
+                  "text": "The net torque exerted on an object is equal to the slope of the graph of the angular momentum of an object as a function of time."
+                },
+                {
+                  "id": "6.3.C.4",
+                  "text": "The angular impulse delivered to an object is equal to the area under the curve of a graph of the net external torque exerted on an object as a function of time."
+                }
+              ]
+            },
+            {
+              "code": "6.4.A",
+              "name": "Describe the behavior of a system using conservation of angular momentum.",
+              "subtopics": [
+                {
+                  "id": "6.4.A.1",
+                  "text": "The total angular momentum of a system about a rotational axis is the sum of the angular momenta of the system's constituent parts about that axis."
+                },
+                {
+                  "id": "6.4.A.2",
+                  "text": "Any change to a system's angular momentum must be due to an interaction between the system and its surroundings."
+                },
+                {
+                  "id": "6.4.A.2.i",
+                  "text": "The angular impulse exerted by one object or system on a second object or system is equal and opposite to the angular impulse exerted by the second object or system on the first. This is a direct result of Newton's third law."
+                },
+                {
+                  "id": "6.4.A.2.ii",
+                  "text": "A system may be selected so that the total angular momentum of that system is constant."
+                },
+                {
+                  "id": "6.4.A.2.iii",
+                  "text": "The angular speed of a nonrigid system may change without the angular momentum of the system changing if the system changes shape by moving mass closer to or further from the rotational axis."
+                },
+                {
+                  "id": "6.4.A.2.iv",
+                  "text": "If the total angular momentum of a system changes, that change will be equivalent to the angular impulse exerted on the system."
+                }
+              ]
+            },
+            {
+              "code": "6.4.B",
+              "name": "Describe how the selection of a system determines whether the angular momentum of that system changes.",
+              "subtopics": [
+                {
+                  "id": "6.4.B.1",
+                  "text": "Angular momentum is conserved in all interactions."
+                },
+                {
+                  "id": "6.4.B.2",
+                  "text": "If the net external torque exerted on a selected object or rigid system is zero, the total angular momentum of that system is constant."
+                },
+                {
+                  "id": "6.4.B.3",
+                  "text": "If the net external torque exerted on a selected object or rigid system is nonzero, angular momentum is transferred between the system and the environment."
+                }
+              ]
+            },
+            {
+              "code": "6.5.A",
+              "name": "Describe the kinetic energy of a system that has translational and rotational motion.",
+              "subtopics": []
+            },
+            {
+              "code": "6.5.B",
+              "name": "Describe the motion of a system that is rolling without slipping.",
+              "subtopics": [
+                {
+                  "id": "6.5.B.1",
+                  "text": "65 A 1 The total kinetic energy of a system is the sum of the system's translational and rotational kinetic energies. Relevant equation:. $$K_{\\text{tot}} = K_{\\text{trans}} + K_{\\text{rot}}$$"
+                },
+                {
+                  "id": "6.5.B.1",
+                  "text": "While rolling without slipping, the translational motion of a system's center of mass is related to the rotational motion of the system itself with the equations: $$\\Delta x_{\\rm cm} = r \\Delta \\theta$$ $$v_{\\rm cm} = r\\omega$$ $$a_{\\rm cm} = r\\alpha$$"
+                },
+                {
+                  "id": "6.5.B.2",
+                  "text": "For ideal cases, rolling without slipping implies that the frictional force does not dissipate any energy from the rolling system."
+                }
+              ]
+            },
+            {
+              "code": "6.5.C",
+              "name": "Describe the motion of a system that is rolling while slipping.",
+              "subtopics": [
+                {
+                  "id": "6.5.C.1",
+                  "text": "When slipping, the motion of a system's center of mass and the system's rotational motion cannot be directly related. When a rotating system is slipping relative to another surface, the point of application of the force of kinetic friction exerted on the system moves with respect to the surface, so the force of kinetic friction will dissipate energy from the system."
+                }
+              ]
+            },
+            {
+              "code": "6.6.A",
+              "name": "Describe the motions of a system consisting of two objects interacting only via gravitational forces.",
+              "subtopics": [
+                {
+                  "id": "6.6.A.1",
+                  "text": "In a system consisting only of a massive central object and an orbiting satellite with mass that is negligible in comparison to the central object's mass, the motion of the central object itself is negligible."
+                },
+                {
+                  "id": "6.6.A.2",
+                  "text": "The motion of satellites in orbits is constrained by conservation laws."
+                },
+                {
+                  "id": "6.6.A.2.i",
+                  "text": "In circular orbits, the system's total mechanical energy, the system's gravitational potential energy, and the satellite's angular momentum and kinetic energy are constant."
+                },
+                {
+                  "id": "6.6.A.2.ii",
+                  "text": "In elliptical orbits, the system's total mechanical energy and the satellite's angular momentum are constant, but the system's gravitational potential energy and the satellite's kinetic energy can each change."
+                },
+                {
+                  "id": "6.6.A.2.iii",
+                  "text": "The gravitational potential energy of a system consisting of a satellite and a massive central object is defined to be zero when the satellite is an infinite distance from the central object. Relevant equation: $$U_g = -G \\frac{m_1 m_2}{r}$$"
+                },
+                {
+                  "id": "6.6.A.3",
+                  "text": "The escape velocity of a satellite is the satellite's velocity such that the mechanical energy of the satellite–central-object system is equal to zero."
+                },
+                {
+                  "id": "6.6.A.3.i",
+                  "text": "When the only force exerted on a satellite is gravity from a central object, a satellite that reaches escape velocity will move away from the central body until its speed reaches zero at an infinite distance from the central body."
+                },
+                {
+                  "id": "6.6.A.3.ii",
+                  "text": "The escape velocity of a satellite from a central body of mass M can be derived using conservation of energy laws. Derived equation: $$v_{\\rm esc} = \\sqrt{\\frac{2GM}{r}}$$ AP PHYSICS 1 UNIT 7 Oscillations 5–8% AP EXAM WEIGHTING ~5-10 CLASS PERIODS Remember to go to AP Classroom to assign students the online Progress Check for this unit. Whether assigned as homework or completed in class, the Progress Check provides each student with immediate feedback related to this unit's topics and science practices. Progress Check 7 Multiple-choice: ~18 questions Free-response: 4 questions - Mathematical Routines - Translation Between Representations - Experimental Design and Analysis - Qualitative/Quantitative Translation Oscillations ←→ Developing Understanding ESSENTIAL QUESTIONS - How can oscillations be used to make our lives easier and more comfortable? - How can an astronaut be \"weighed\" in space? - How could you measure the length of a long string with a stopwatch? - What do a child on a swing, a beating heart, and a metronome have in common? In Unit 7, students will apply previously-encountered models and methods of analysis to simple harmonic motion. They will also be reminded that, even in new situations, the fundamental laws of physics remain the same. Because this unit is the first in which students possess all the tools of force, energy, and momentum conservation—such as energy bar charts, free-body diagrams, and momentum diagrams—scaffolding lessons will enhance student understanding of fundamental physics principles and their limitations, as they relate to oscillating systems. Students will also use the skills and knowledge they have gained to make and justify claims, as well as connect new concepts with those learned in previous Building the Science Practices 1.A 1.C 2.A 3.C Throughout this unit, there are many opportunities for students to create graphs (1.C) that may include force, energy, or momentum as either a function of position or time for a single scenario and to make connections between physics concepts based on these graphs. In Unit 7, as in other units in AP Physics 1, practice creating and using models to represent physical scenarios (1.A) and then translating the information presented in these models into other representations—such as symbolic expressions (2.A)—can help students justify or support claims about oscillating systems (3.C). Preparing for the AP Exam The second free-response question on the AP Physics 1 Exam—the Translation Between Representations question (TBR) requires students to create graphical and verbal models of scenarios, as well as compare these models to mathematical representations of the same situation. Similar in nature to the Qualitative/Quantitative Translation question (QQT), the TBR involves creating multiple representations and describing the relationships between those representations; however, the types of representations being compared in the TBR differ from those in the QQT. In the TBR, a student might be asked to sketch freebody diagrams of a block oscillating on a spring at the maximum displacement and at equilibrium. The student might then be asked to create energy bar charts for the blockspring system at maximum displacement and at equilibrium. Lastly, the student might be asked to make connections between the two representations, explaining how the representations are consistent with each other. While Unit 7 content provides especially good practice for the TBR, content from any unit may be included in this free-response question on the AP Exam. Oscillations UNIT AT A GLANCE | Topic | Suggested Skills | |-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------| | 7.1 Defining Simple Harmonic Motion | 1.C Create qualitative sketches of graphs that represent features of a model or the behavior of a physical system. | | (SHM) | 2.B Calculate or estimate an unknown quantity with units from known quantities, by selecting and following a logical computational pathway. | | | 3.B Apply an appropriate law, definition, theoretical relationship, or model to make a claim. | | | 3.C Justify or support a claim using evidence from experimental data, physical representations, or physical principles or laws. | | 7.2 Frequency and | 1.B Create quantitative graphs with appropriate scales and units, including plotting data. | | Period of SHM | <b>2.A</b> Derive a symbolic expression from known quantities by selecting and following a logical mathematical pathway. | | | Predict new values or factors of change of physical quantities using functional dependence between variables. | | | 3.A Create experimental procedures that are appropriate for a given scientific question. | | | 3.C Justify or support a claim using evidence from experimental data, physical representations, or physical principles or laws. | | <b>7.3</b> Representing and Analyzing SHM | 1.C Create qualitative sketches of graphs that represent features of a model or the behavior of a physical system. | | | <b>2.A</b> Derive a symbolic expression from known quantities by selecting and following a logical mathematical pathway. | | | Predict new values or factors of change of physical quantities using functional dependence between variables. | | | 3.C Justify or support a claim using evidence from experimental data, physical representations, or physical principles or laws. | | 7.4 Energy of Simple | 1.A Create diagrams, tables, charts, or schematics to represent physical situations. | | Harmonic<br>Oscillators | 2.B Calculate or estimate an unknown quantity with units from known quantities, by selecting and following a logical computational pathway. | | | <b>2.C</b> Compare physical quantities between two or more scenarios or at different times and locations in a single scenario. | | | 3.B Apply an appropriate law, definition, theoretical relationship, or model to make a claim. | | | | Go to AP Classroom to assign the Progress Check for Unit 7. Review the results in class to identify and address any student misunderstandings. SAMPLE INSTRUCTIONAL ACTIVITIES The sample activities on this page are optional and are offered to provide possible ways to incorporate various instructional approaches in the classroom. Teachers do not need to use these activities or instructional approaches and are free to alter or edit them. The examples below were developed in partnership with teachers from the AP community to share ways that they approach teaching some of the topics in this unit. Please refer to the Instructional Approaches section beginning on p. 153 for more examples of activities and strategies. | Activity | Topic | Sample Activity | |----------|-------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | 1 | 7.2 | <b>Desktop Experiment Task</b> Have students determine the spring constant of a spring using (1) known masses and a meterstick only and then (2) known masses and a stopwatch only. | | 2 | 7.2 | <b>Desktop Experiment Task</b> Have students use a pendulum to determine the acceleration due to gravity. Ask them to refine the experiment from a single-trial calculation, to taking an average, to making a graph of linearized data. | | 3 | 7.2 | Predict and Explain Have students make a pendulum bob oscillate with the other end of the string \"clamped\" between your fingers. While the bob oscillates, pull the string through your fingers so that the string length is shortened. Before doing this, ask students what will happen to the period of the oscillation and amplitude (measured in degrees), and then explain why the period decreases and the amplitude angle increases. | | 4 | 7.2 | Create a Plan Have students choose a song and find its tempo (in beats per minute). Then, have them build a pendulum so that it swings back and forth on each beat. Next, give students a spring. Have them first find the spring's constant and then find the amount of mass necessary to make the spring-mass oscillate on each beat. | | 5 | 7.4 | Construct an Argument A cart wiggles on a horizontal spring. A blob of clay is dropped on the cart and sticks (could be when the cart is at the center or at one end). Ask students to explain what happened to the period, total energy, amplitude of motion, and maximum speed. |"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "APP1.U7",
+          "name": "Unit 7: Oscillations",
+          "objectives": [
+            {
+              "code": "7.1.A",
+              "name": "Describe simple harmonic motion.",
+              "subtopics": [
+                {
+                  "id": "7.1.A.1",
+                  "text": "Simple harmonic motion is a special case of periodic motion."
+                },
+                {
+                  "id": "7.1.A.2",
+                  "text": "SHM results when the magnitude of the restoring force exerted on an object is proportional to that object's displacement from its equilibrium position. Derived equation: $$ma_x = -k\\Delta x$$"
+                },
+                {
+                  "id": "7.1.A.2.i",
+                  "text": "A restoring force is a force that is exerted in a direction opposite to the object's displacement from an equilibrium position."
+                },
+                {
+                  "id": "7.1.A.2.ii",
+                  "text": "An equilibrium position is a location at which the net force exerted on an object or system is zero."
+                },
+                {
+                  "id": "7.1.A.2.iii",
+                  "text": "The motion of a pendulum with a small angular displacement can be modeled as simple harmonic motion because the restoring torque is proportional to the angular displacement."
+                }
+              ]
+            },
+            {
+              "code": "7.3.A",
+              "name": "Describe the displacement, velocity, and acceleration of an object exhibiting SHM.",
+              "subtopics": [
+                {
+                  "id": "7.3.A.1",
+                  "text": "For an object exhibiting SHM, the displacement of that object measured from its equilibrium position can be represented by the equations $x = A\\cos(2\\pi \\ ft)$ or $x = A\\sin(2\\pi \\ ft)$ ."
+                },
+                {
+                  "id": "7.3.A.1.i",
+                  "text": "Minima, maxima, and zeros of displacement, velocity, and acceleration are features of harmonic motion."
+                },
+                {
+                  "id": "7.3.A.1.ii",
+                  "text": "Recognizing the positions or times at which the displacement, velocity, and acceleration for SHM have extrema or zeros can help in qualitatively describing the behavior of the motion."
+                },
+                {
+                  "id": "7.3.A.2",
+                  "text": "Changing the amplitude of a system exhibiting SHM will not change the period of that system."
+                },
+                {
+                  "id": "7.3.A.3",
+                  "text": "Properties of SHM can be determined and analyzed using graphical representations."
+                }
+              ]
+            },
+            {
+              "code": "7.4.A",
+              "name": "Describe the mechanical energy of a system exhibiting SHM",
+              "subtopics": [
+                {
+                  "id": "7.4.A.1",
+                  "text": "The total energy of a system exhibiting SHM is the sum of the system's kinetic and potential energies. Relevant equation: $$E_{\\text{total}} = U + K$$"
+                },
+                {
+                  "id": "7.4.A.2",
+                  "text": "Conservation of energy indicates that the total energy of a system exhibiting SHM is constant."
+                },
+                {
+                  "id": "7.4.A.3",
+                  "text": "The kinetic energy of a system exhibiting SHM is at a maximum when the system's potential energy is at a minimum."
+                },
+                {
+                  "id": "7.4.A.4",
+                  "text": "The potential energy of a system exhibiting SHM is at a maximum when the system's kinetic energy is at a minimum."
+                },
+                {
+                  "id": "7.4.A.4.i",
+                  "text": "The minimum kinetic energy of a system exhibiting SHM is zero."
+                },
+                {
+                  "id": "7.4.A.4.ii",
+                  "text": "Changing the amplitude of a system exhibiting SHM will change the maximum potential energy of the system and, therefore, the total energy of the system. Relevant equation for a spring-object system: $$E_{\\text{total}} = \\frac{1}{2}kA^2$$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "APP1.U8",
+          "name": "Unit 8: Fluids",
+          "objectives": [
+            {
+              "code": "8.1.A",
+              "name": "Describe the properties of a fluid.",
+              "subtopics": [
+                {
+                  "id": "8.1.A.1",
+                  "text": "Distinguishing properties of solids, liquids, and gases stem from the varying interactions between atoms and molecules."
+                },
+                {
+                  "id": "8.1.A.2",
+                  "text": "A fluid is a substance that has no fixed shape."
+                },
+                {
+                  "id": "8.1.A.3",
+                  "text": "Fluids can be characterized by their density. Density is defined as a ratio of mass to volume. Relevant equation: $$\\rho = \\frac{m}{V}$$"
+                },
+                {
+                  "id": "8.1.A.4",
+                  "text": "An ideal fluid is incompressible and has no viscosity."
+                }
+              ]
+            },
+            {
+              "code": "8.2.A",
+              "name": "Describe the pressure exerted on a surface by a given force.",
+              "subtopics": [
+                {
+                  "id": "8.2.A.2",
+                  "text": "$P = \\frac{F_{\\perp}}{A}$ ."
+                },
+                {
+                  "id": "8.2.A.1",
+                  "text": "Pressure is a scalar quantity. described by the equation ESSENTIAL KNOWLEDGE Pressure is defined as the magnitude of the perpendicular force component exerted per unit area over a given surface area, as"
+                },
+                {
+                  "id": "8.2.A.3",
+                  "text": "The volume and density of a given amount of an incompressible fluid is constant regardless of the pressure exerted on that fluid."
+                }
+              ]
+            },
+            {
+              "code": "8.2.B",
+              "name": "Describe the pressure exerted by a fluid.",
+              "subtopics": [
+                {
+                  "id": "8.2.B.1",
+                  "text": "The pressure exerted by a fluid is the result of the entirety of the interactions between the fluid's constituent particles and the surface with which those particles interact."
+                },
+                {
+                  "id": "8.2.B.2",
+                  "text": "The absolute pressure of a fluid at a given point is equal to the sum of a reference pressure $P_0$ , such as the atmospheric pressure $P_{\\rm atm}$ , and the gauge pressure $P_{\\rm gauge}$ . Relevant equation: $$P = P_0 + \\rho g h$$"
+                },
+                {
+                  "id": "8.2.B.3",
+                  "text": "The gauge pressure of a vertical column of fluid is described by the equation $$P_{\\text{gauge}} = \\rho g h.$$"
+                }
+              ]
+            },
+            {
+              "code": "8.3.A",
+              "name": "Describe the conditions under which a fluid's velocity changes.",
+              "subtopics": []
+            },
+            {
+              "code": "8.3.B",
+              "name": "Describe the buoyant force exerted on an object interacting with a fluid.",
+              "subtopics": [
+                {
+                  "id": "8.3.A.1",
+                  "text": "Newton's laws can be used to describe the motion of particles within a fluid."
+                },
+                {
+                  "id": "8.3.A.2",
+                  "text": "The macroscopic behavior of a fluid is a result of the internal interactions between the fluid's constituent particles and external forces exerted on the fluid."
+                },
+                {
+                  "id": "8.3.B.1",
+                  "text": "The buoyant force is a net upward force exerted on an object by a fluid."
+                },
+                {
+                  "id": "8.3.B.2",
+                  "text": "The buoyant force exerted on an object by a fluid is a result of the collective forces exerted on the object by the particles making up the fluid."
+                },
+                {
+                  "id": "8.3.B.3",
+                  "text": "The magnitude of the buoyant force exerted on an object by a fluid is equivalent to the weight of the fluid displaced by the object. Relevant equation: $$F_b = \\rho V g$$"
+                }
+              ]
+            },
+            {
+              "code": "8.4.A",
+              "name": "Describe the flow of an incompressible fluid through a cross-sectional area by using mass conservation.",
+              "subtopics": [
+                {
+                  "id": "8.4.A.1",
+                  "text": "A difference in pressure between two locations causes a fluid to flow."
+                },
+                {
+                  "id": "8.4.A.1.i",
+                  "text": "The rate at which matter enters a fluid-filled tube open at both ends must equal the rate at which matter exits the tube."
+                },
+                {
+                  "id": "8.4.A.1.ii",
+                  "text": "The rate at which matter flows into a location is proportional to the crosssectional area of the flow and the speed at which the fluid flows. Derived equation: $$\\frac{V}{t} = Av$$"
+                },
+                {
+                  "id": "8.4.A.2",
+                  "text": "The continuity equation for fluid flow describes conservation of mass flow rate in incompressible fluids. Relevant equation: $$A_1 \\nu_1 = A_2 \\nu_2$$"
+                }
+              ]
+            },
+            {
+              "code": "8.4.B",
+              "name": "Describe the flow of a fluid as a result of a difference in energy between two locations within the fluid– Earth system.",
+              "subtopics": [
+                {
+                  "id": "8.4.B.1",
+                  "text": "A difference in gravitational potential energies between two locations in a fluid will result in a difference in kinetic energy and pressure between those two locations that is described by conservation laws."
+                },
+                {
+                  "id": "8.4.B.2",
+                  "text": "Bernoulli's equation describes the conservation of mechanical energy in fluid flow. Relevant equation: $$P_1 + \\rho g y_1 + \\frac{1}{2} \\rho v_1^2 = P_2 + \\rho g y_2 + \\frac{1}{2} \\rho v_2^2$$"
+                },
+                {
+                  "id": "8.4.R.3",
+                  "text": "Torricelli's theorem relates the speed of a fluid exiting an opening to the difference in height between the opening and the top surface of the fluid and can be derived from conservation of energy principles. Derived equation: $$v = \\sqrt{2g\\Delta y}$$"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

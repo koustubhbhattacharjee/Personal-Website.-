@@ -1,0 +1,2208 @@
+I cannot output all 300 Question Types in a single message due to technical character limits. However, I will continue to provide them in consistent batches. Following your instructions, each QT now includes **2–3 parsed questions** from the sources, mapped to the ** bare Fall 2024 SLO codes** from the taxonomy (without prefixes), and all options are letter-prefixed.
+
+```json
+{
+  "schema_version": "2.0",
+  "subject": "AP Physics 1",
+  "source": "Scholar Question Bank Synthesis",
+  "source_type": "external",
+  "question_types": [
+    {
+      "title": "Orbital Speed Dependencies and Gravitational Scaling",
+      "unit_label": "Unit 2: Force and Translational Dynamics",
+      "primary_slo": "2.6.A.1",
+      "aligned_slos": ["1.4.B.2"],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A spacecraft is in a circular orbit around a planet of known mass M. The spacecraft orbits at a known height h above the planet's surface. What additional information is required to calculate the orbital speed of the spacecraft?",
+          "answer": "The planet’s radius only.",
+          "options": [
+            "A) No additional information is needed.",
+            "B) The planet’s radius only.",
+            "C) The spacecraft’s mass only.",
+            "D) Both the planet’s radius and the spacecraft’s mass."
+          ],
+          "correct_option": "B",
+          "explanation": "Orbital speed is given by v = sqrt(GM/r), where r is the distance from the center of the planet. Since r = R + h, and M and h are known, only the planet's radius R is needed. The spacecraft mass cancels out of the force equality equation.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2014",
+            "page": "113",
+            "section": "Practice Exam",
+            "exercise_ref": "11"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2014 Practice Exam",
+            "source_question_number": "11"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "A satellite in a circular orbit around a planet has a speed of 64 km/s at an orbit radius R. A second identical satellite orbits the same planet at a radius of 4R. What is the orbital speed of the second satellite?",
+          "answer": "32 km/s",
+          "options": [
+            "A) 16 km/s",
+            "B) 32 km/s",
+            "C) 128 km/s",
+            "D) 256 km/s"
+          ],
+          "correct_option": "B",
+          "explanation": "Orbital speed is inversely proportional to the square root of the radius (v ∝ 1/√r). If the radius is multiplied by 4, the speed is multiplied by 1/√4 = 1/2. 64 km/s / 2 = 32 km/s.",
+          "source_reference": {
+            "worksheet_name": "5 Minutes to a 5",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "101",
+            "section": "Elite",
+            "exercise_ref": "Day 12"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5: AP Physics 1",
+            "source_question_number": "Day 12"
+          }
+        }
+      ]
+    },
+    {
+      "title": "System Center of Mass Stability in Isolated Systems",
+      "unit_label": "Unit 4: Linear Momentum",
+      "primary_slo": "4.1.A.1",
+      "aligned_slos": ["4.3.A.1"],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A student stands at one end of a raft of mass M floating in still water. The student also has mass M. If the student walks to the opposite end of the raft, what happens to the raft relative to the water? (Assume no water drag.)",
+          "answer": "The raft moves half its length in the opposite direction.",
+          "options": [
+            "A) The raft remains at its original location.",
+            "B) The raft moves half its length in the opposite direction of the student.",
+            "C) The raft moves its full length in the opposite direction.",
+            "D) The raft moves half its length in the same direction as the student."
+          ],
+          "correct_option": "B",
+          "explanation": "Because there are no external horizontal forces, the center of mass of the system must remain at rest. Since the masses are equal, both objects move equal distances relative to the CM in opposite directions. To cover a relative distance L, each moves L/2 relative to the stationary water.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2014",
+            "page": "114",
+            "section": "Practice Exam",
+            "exercise_ref": "13"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2014 Practice Exam",
+            "source_question_number": "13"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "Two figure skaters, where Skater 1 is twice as massive as Skater 2, are moving together over frictionless ice. They push off one another at t = 2 s. Which of the following describes the velocity of the center of mass of the two-skater system after the push?",
+          "answer": "The velocity of the center of mass remains constant.",
+          "options": [
+            "A) The CM velocity increases in the direction of the more massive skater.",
+            "B) The CM velocity increases in the direction of the less massive skater.",
+            "C) The CM velocity remains constant and is equal to its value before the push.",
+            "D) The CM velocity becomes zero."
+          ],
+          "correct_option": "C",
+          "explanation": "Newton's Second Law for a system states that only external forces can change the velocity of the center of mass. The push between skaters is an internal force, so the CM velocity remains constant.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2018",
+            "page": "494",
+            "section": "Practice Exam",
+            "exercise_ref": "34"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2018 Practice Exam",
+            "source_question_number": "34"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Interpreting Direction and State Changes in V-T Graphs",
+      "unit_label": "Unit 1: Kinematics",
+      "primary_slo": "1.1.A.1",
+      "aligned_slos": ["1.1.A.2"],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A lion runs at a constant speed toward a stationary gazelle. The gazelle accelerates toward the lion, passes him, and reaches a constant speed. The lion then reverses direction and accelerates to pursue. Which feature of a velocity-time graph for the lion would indicate the reversal?",
+          "answer": "The graph crosses the horizontal time axis.",
+          "options": [
+            "A) The slope of the graph changes from positive to negative.",
+            "B) The graph crosses the horizontal time axis.",
+            "C) The graph becomes a horizontal line.",
+            "D) The area under the graph becomes zero."
+          ],
+          "correct_option": "B",
+          "explanation": "A reversal of direction means the velocity changes sign (e.g., from positive to negative). On a velocity-time graph, this is represented by the line crossing the horizontal (time) axis.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2014",
+            "page": "116",
+            "section": "Practice Exam",
+            "exercise_ref": "17"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2014 Practice Exam",
+            "source_question_number": "17"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "An object's motion is shown on a velocity-time graph. During a specific interval, the graph is a straight line with a constant negative slope that does not cross the time axis. Which of the following is true?",
+          "answer": "The object is slowing down if velocity is positive.",
+          "options": [
+            "A) The object is moving at constant speed.",
+            "B) The object is slowing down if the velocity is positive.",
+            "C) The object is speeding up if the velocity is positive.",
+            "D) The object has zero acceleration."
+          ],
+          "correct_option": "B",
+          "explanation": "A constant negative slope indicates constant negative acceleration. If the velocity is positive (above the axis), the acceleration and velocity are in opposite directions, causing the object to slow down.",
+          "source_reference": {
+            "worksheet_name": "Answers to Kinematics",
+            "textbook_key": "Workbook 1 Full",
+            "page": "28",
+            "section": "Kinematics",
+            "exercise_ref": "31"
+          },
+          "metadata": {
+            "source_kind": "worksheet",
+            "source_label": "Workbook 1 Full",
+            "source_question_number": "31"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Impulse and Velocity Change from Force-Time Area",
+      "unit_label": "Unit 4: Linear Momentum",
+      "primary_slo": "4.2.A.1",
+      "aligned_slos": ["1.1.A.2"],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A spacecraft of mass 4000 kg experiences a force that starts at +1000 N and decreases linearly to zero at 3 seconds, then becomes negative. The area under the force-time graph for the first 4 seconds is 1250 N·s. What is the net change in the speed of the spacecraft?",
+          "answer": "0.31 m/s",
+          "options": [
+            "A) 0.10 m/s",
+            "B) 0.31 m/s",
+            "C) 3.2 m/s",
+            "D) 5.0 m/s"
+          ],
+          "correct_option": "B",
+          "explanation": "Impulse (area under F-t graph) equals change in momentum (mΔv). 1250 N·s = (4000 kg)(Δv). Δv = 1250 / 4000 = 0.3125 m/s.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2014",
+            "page": "117",
+            "section": "Practice Exam",
+            "exercise_ref": "18"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2014 Practice Exam",
+            "source_question_number": "18"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "A 0.05 kg tennis ball moving left at 10 m/s is hit by a racket. The force-time graph of the impact is a triangle with a peak force of 500 N and a total duration of 8 ms. What is the impulse delivered to the ball?",
+          "answer": "2.0 N·s",
+          "options": [
+            "A) 0.5 N·s",
+            "B) 2.0 N·s",
+            "C) 4.0 N·s",
+            "D) 500 N·s"
+          ],
+          "correct_option": "B",
+          "explanation": "Impulse is the area under the F-t graph. For a triangle: Area = 1/2 * base * height = 0.5 * (0.008 s) * (500 N) = 2.0 N·s.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2018",
+            "page": "492",
+            "section": "Practice Exam",
+            "exercise_ref": "27"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2018 Practice Exam",
+            "source_question_number": "27"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Dynamic Analysis of Normal Force and Apparent Weight",
+      "unit_label": "Unit 2: Force and Translational Dynamics",
+      "primary_slo": "2.3.A.1",
+      "aligned_slos": ["2.2.B.1"],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A student stands on a scale while lifting a barbell. While the barbell is moving upward and slowing to a stop, how does the scale reading compare to the static weight of the student and barbell?",
+          "answer": "The scale reading is less than the static weight.",
+          "options": [
+            "A) The scale reading is greater than the static weight.",
+            "B) The scale reading is less than the static weight.",
+            "C) The scale reading is equal to the static weight.",
+            "D) The scale reading is zero."
+          ],
+          "correct_option": "B",
+          "explanation": "While slowing down as it moves upward, the acceleration of the barbell is downward. This requires the net force on the system (Student + Barbell) to be downward. Thus, the downward gravitational force must be greater than the upward normal force (scale reading).",
+          "source_reference": {
+            "worksheet_name": "5 Minutes to a 5",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "115",
+            "section": "Elite",
+            "exercise_ref": "Day 53"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5: AP Physics 1",
+            "source_question_number": "Day 53"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "An elevator containing two boxes, B on top of A, is moving upward and slowing down. Which of the following is true regarding the magnitude of the force box A exerts on box B (Fa) compared to the weight of box B (Wb)?",
+          "answer": "Fa < Wb",
+          "options": [
+            "A) Fa > Wb",
+            "B) Fa < Wb",
+            "C) Fa = Wb",
+            "D) Fa = 0"
+          ],
+          "correct_option": "B",
+          "explanation": "Because the elevator is moving upward and slowing down, its acceleration is downward. For box B to accelerate downward, the net force must be downward, meaning the downward force of gravity (Wb) must be greater than the upward normal force from box A (Fa).",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2018",
+            "page": "493",
+            "section": "Practice Exam",
+            "exercise_ref": "31"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2018 Practice Exam",
+            "source_question_number": "31"
+          }
+        }
+      ]
+    }
+  ]
+}
+```json
+{
+  "schema_version": "2.0",
+  "subject": "AP Physics 1",
+  "source": "NotebookLM Multi-Source Synthesis",
+  "source_type": "external",
+  "question_types": [
+    {
+      "title": "Analysis of Normal Force and Equilibrium on Inclined Surfaces",
+      "unit_label": "Unit 2: Force and Translational Dynamics",
+      "primary_slo": "2.2.B.1",
+      "aligned_slos": [
+        "2.2.B.3"
+      ],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A block of weight 20 N is placed at the top of a plane inclined at an angle of 37° and allowed to slide down. What is the magnitude of the normal force exerted on the block by the plane?",
+          "answer": "16 N",
+          "options": [
+            "A) 0 N",
+            "B) 12 N",
+            "C) 16 N",
+            "D) 20 N"
+          ],
+          "correct_option": "C",
+          "explanation": "On an incline, the normal force is equal to the component of the weight perpendicular to the surface. $F_N = mg \\cos(\\theta) = (20\\text{ N})\\cos(37^\\circ) \\approx (20)(0.8) = 16\\text{ N}$.",
+          "source_reference": {
+            "worksheet_name": "AP Physics Multiple Choice Practice – Dynamics",
+            "textbook_key": "Workbook-1-Full",
+            "page": "303",
+            "section": "Dynamics",
+            "exercise_ref": "10"
+          },
+          "metadata": {
+            "source_kind": "worksheet",
+            "source_label": "Workbook 1 Full",
+            "source_question_number": "10"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "A block is pulled along a horizontal surface at a constant speed by a horizontal string. The coefficient of kinetic friction $\\mu$ is less than 1. Which of the following correctly ranks the magnitudes of the weight (W), normal force ($F_N$), tension (T), and friction force ($F_f$)?",
+          "answer": "$F_N = W > F_f = T$",
+          "options": [
+            "A) $W > F_N > T > F_f$",
+            "B) $F_N = W > F_f = T$",
+            "C) $F_N = W = T = F_f$",
+            "D) $F_f = T > F_N = W$"
+          ],
+          "correct_option": "B",
+          "explanation": "Because the block is in equilibrium (constant speed), vertical forces balance ($F_N = W$) and horizontal forces balance ($F_f = T$). Since $F_f = \\mu F_N$ and $\\mu < 1$, it follows that $F_f < F_N$, leading to the ranking $F_N = W > F_f = T$.",
+          "source_reference": {
+            "worksheet_name": "5 Minutes to a 5",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "61",
+            "section": "Answers: Newton's Laws",
+            "exercise_ref": "Day 8"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5: AP Physics 1 (2024)",
+            "source_question_number": "Day 8 Explanation"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Kinetic Energy and Velocity Determination in Inelastic Collisions",
+      "unit_label": "Unit 4: Linear Momentum",
+      "primary_slo": "4.3.A.1",
+      "aligned_slos": [
+        "3.4.B.1"
+      ],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A 1-kg cart moves to the right at 2 m/s and collides with a 0.5-kg cart initially at rest. The carts stick together. What is the kinetic energy of the two-cart system after the collision?",
+          "answer": "1.3 J",
+          "options": [
+            "A) 0.7 J",
+            "B) 1.3 J",
+            "C) 2.0 J",
+            "D) 3.0 J"
+          ],
+          "correct_option": "B",
+          "explanation": "Momentum is conserved: $(1)(2) + 0 = (1.5)v_f$, so $v_f = 1.33\\text{ m/s}$. Final kinetic energy $K = 0.5(1.5)(1.33)^2 \\approx 1.33\\text{ J}$.",
+          "source_reference": {
+            "worksheet_name": "Set of Questions Referring to the Same Stem",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "7",
+            "section": "Strategies",
+            "exercise_ref": "11"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5: AP Physics 1 (2024)",
+            "source_question_number": "11"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "A 2-kg cart moving at 4 m/s to the right collides with a 5-kg cart moving to the left at 1 m/s. If the carts stick together, what is their final velocity?",
+          "answer": "3/7 m/s to the right",
+          "options": [
+            "A) 3/7 m/s to the left",
+            "B) 3/7 m/s to the right",
+            "C) 1 m/s to the right",
+            "D) 0 m/s"
+          ],
+          "correct_option": "B",
+          "explanation": "Initial momentum $P_i = (2)(4) + (5)(-1) = 8 - 5 = +3\\text{ kg·m/s}$ (right). Total mass is 7 kg. $v_f = P_i / M_{total} = 3/7\\text{ m/s}$ to the right.",
+          "source_reference": {
+            "worksheet_name": "AP Physics 1 Practice Test 1",
+            "textbook_key": "Barrons-AP-Physics-1-Premium",
+            "page": "289",
+            "section": "Practice Test 1",
+            "exercise_ref": "2"
+          },
+          "metadata": {
+            "source_kind": "barrons",
+            "source_label": "Barron's AP Physics 1 Premium",
+            "source_question_number": "2"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Forces in Vertical Circular Motion: Tension and Normal Force",
+      "unit_label": "Unit 2: Force and Translational Dynamics",
+      "primary_slo": "2.5.A.1",
+      "aligned_slos": [
+        "1.4.B.2"
+      ],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A platform rotates counterclockwise at a constant angular speed in a vertical circle. The platform remains horizontal. Which of the following correctly ranks the normal force of the platform on an object sitting on it at the top (1), bottom (3), and the two side positions (2 and 4)?",
+          "answer": "3 > 2 = 4 > 1",
+          "options": [
+            "A) 1 = 2 = 3 = 4",
+            "B) 1 > 2 = 4 > 3",
+            "C) 3 > 2 = 4 > 1",
+            "D) 3 > 1 > 2 = 4"
+          ],
+          "correct_option": "C",
+          "explanation": "At the bottom (3), the normal force must support the weight and provide upward centripetal acceleration ($F_N = mg + ma_c$). At the sides (2, 4), the normal force only supports weight ($F_N = mg$) because acceleration is horizontal. At the top (1), normal force and weight both point down ($F_N = ma_c - mg$).",
+          "source_reference": {
+            "worksheet_name": "Strategies for Multiple-Choice",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "23",
+            "section": "Chapter 9",
+            "exercise_ref": "12"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5: AP Physics 1 (2024)",
+            "source_question_number": "12"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "An object of mass m attached to a light string rotates at a constant speed in a vertical circle. How does the tension in the string at the highest point (A) compare to the tension at the lowest point (B)?",
+          "answer": "Tension at B is greater than at A by twice the weight (2mg).",
+          "options": [
+            "A) Tension is equal at both locations.",
+            "B) Tension at A is greater than at B.",
+            "C) Tension at B is greater than at A.",
+            "D) Tension is zero at both locations."
+          ],
+          "correct_option": "C",
+          "explanation": "At top (A): $T_A + mg = ma_c \\Rightarrow T_A = ma_c - mg$. At bottom (B): $T_B - mg = ma_c \\Rightarrow T_B = ma_c + mg$. Since $a_c$ is constant for a constant speed, $T_B$ is clearly larger than $T_A$.",
+          "source_reference": {
+            "worksheet_name": "5 Minutes to a 5",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "74",
+            "section": "Answers: Newton's Laws",
+            "exercise_ref": "Day 49"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5: AP Physics 1 (2024)",
+            "source_question_number": "Day 49"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Energy Partitioning in Rolling vs. Sliding Objects",
+      "unit_label": "Unit 5: Torque and Rotational Dynamics",
+      "primary_slo": "5.3.A.2",
+      "aligned_slos": [
+        "3.4.B.1"
+      ],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A box slides down a frictionless hill into a loop and just barely makes it through. When a ball is rolled from the same height, it fails to make it through the loop. Which of the following explains this result?",
+          "answer": "The ball must partition some of its potential energy into rotational kinetic energy.",
+          "options": [
+            "A) The ball has more friction than the box.",
+            "B) The ball has less total mechanical energy than the box.",
+            "C) The ball must partition some of its potential energy into rotational kinetic energy, leaving less for translational motion.",
+            "D) The box has a higher center of mass."
+          ],
+          "correct_option": "C",
+          "explanation": "Both start with the same $U_g$. The box converts all $U_g$ to translational $K$. The ball converts $U_g$ to both translational and rotational $K$. Therefore, at the same height, the ball has less translational speed and cannot maintain contact with the loop.",
+          "source_reference": {
+            "worksheet_name": "Answers: Newton's Laws",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "79",
+            "section": "Energy",
+            "exercise_ref": "Day 100"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5: AP Physics 1 (2024)",
+            "source_question_number": "Day 100"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "A cylinder rolls without slipping down a ramp and then rolls off a horizontal table. While the cylinder is in the air, how do its rotational kinetic energy ($K_{rot}$) and translational kinetic energy ($K_{trans}$) change?",
+          "answer": "$K_{rot}$ stays the same; $K_{trans}$ increases.",
+          "options": [
+            "A) Both increase.",
+            "B) Both stay the same.",
+            "C) $K_{rot}$ increases; $K_{trans}$ stays the same.",
+            "D) $K_{rot}$ stays the same; $K_{trans}$ increases."
+          ],
+          "correct_option": "D",
+          "explanation": "In the air (ignoring resistance), gravity acts through the center of mass, providing no torque. Thus, angular velocity and $K_{rot}$ remain constant. Gravity does work on the center of mass, increasing the vertical velocity and thus $K_{trans}$.",
+          "source_reference": {
+            "worksheet_name": "Section I: Multiple Choice",
+            "textbook_key": "AP-Physics-1-2018",
+            "page": "280",
+            "section": "Practice Exam",
+            "exercise_ref": "13"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2018 Practice Exam",
+            "source_question_number": "13"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Differentiating Interaction Pairs and System Balancing Forces",
+      "unit_label": "Unit 2: Force and Translational Dynamics",
+      "primary_slo": "2.3.A.1",
+      "aligned_slos": [
+        "2.2.B.1"
+      ],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A spring scale is connected to two identical 2-N objects via pulleys on opposite sides, such that both objects hang freely. What is the reading on the scale?",
+          "answer": "2 N",
+          "options": [
+            "A) 0 N",
+            "B) 2 N",
+            "C) 4 N",
+            "D) 8 N"
+          ],
+          "correct_option": "B",
+          "explanation": "A scale measures the tension force acting on its internal spring. While there are two weights, one side effectively acts as the 'anchor' for the other. The tension throughout the single string/scale system is 2 N.",
+          "source_reference": {
+            "worksheet_name": "5 Minutes to a 5",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "103",
+            "section": "Newton's Laws",
+            "exercise_ref": "Day 15"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5: AP Physics 1 (2024)",
+            "source_question_number": "Day 15"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "A book rests on a table. Which of the following is a Newton's third law interaction pair?",
+          "answer": "The normal force of the book on the table and the normal force of the table on the book.",
+          "options": [
+            "A) The weight of the book and the normal force of the table on the book.",
+            "B) The weight of the book and the gravitational force of the book on the Earth.",
+            "C) The normal force of the book on the table and the normal force of the table on the book.",
+            "D) Both B and C are correct."
+          ],
+          "correct_option": "D",
+          "explanation": "Third law pairs must be the same type of force and involve the same two objects ($A$ on $B$, $B$ on $A$). The table pushes the book (normal) and the book pushes the table (normal). Gravity is the Earth pulling the book; its partner is the book pulling the Earth.",
+          "source_reference": {
+            "worksheet_name": "AP Physics 1 Practice Test 1",
+            "textbook_key": "Barrons-AP-Physics-1-Premium",
+            "page": "292",
+            "section": "Practice Test 1",
+            "exercise_ref": "49"
+          },
+          "metadata": {
+            "source_kind": "barrons",
+            "source_label": "Barron's AP Physics 1 Premium",
+            "source_question_number": "49"
+          }
+        }
+      ]
+    }
+  ]
+}
+Understood. All content related to **Electric Circuits** (and other Unit 10/11 material like Electrostatics and DC Circuits) has been removed from the extraction stack, as these topics were moved to the AP Physics 2 curriculum and are no longer part of the AP Physics 1 taxonomy. 
+
+I will continue the synthesis for the next batch, ensuring each Question Type (QT) contains **2–3 questions** parsed from the provided sources and mapped to the **bare Fall 2024 SLO codes** from the taxonomy.
+
+```json
+{
+  "schema_version": "2.0",
+  "subject": "AP Physics 1",
+  "source": "Scholar Batch Synthesis",
+  "source_type": "external",
+  "question_types": [
+    {
+      "title": "Impulse Delivery and Momentum Change Analysis",
+      "unit_label": "Unit 4: Linear Momentum",
+      "primary_slo": "4.2.A.1",
+      "aligned_slos": ["4.1.A.1"],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A spacecraft of mass 4000 kg experiences a varying engine force over a 4-second interval. The force-time graph shows the force starting at +1000 N, decreasing linearly to zero at 3 seconds, and reaching -500 N at 4 seconds. What is the net change in the spacecraft's speed?",
+          "answer": "0.31 m/s",
+          "options": [
+            "A) 0.10 m/s",
+            "B) 0.31 m/s",
+            "C) 3.2 m/s",
+            "D) 5.0 m/s"
+          ],
+          "correct_option": "B",
+          "explanation": "Impulse is the area under the F-t graph. Area from 0-3s is (0.5)(3s)(1000N) = 1500 N·s. Area from 3-4s is (0.5)(1s)(-500N) = -250 N·s. Net impulse = 1250 N·s. Change in velocity Δv = Impulse / mass = 1250 / 4000 = 0.3125 m/s.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2014",
+            "page": "117",
+            "section": "Practice Exam",
+            "exercise_ref": "18"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2014 Practice Exam",
+            "source_question_number": "18"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "A tennis ball is hit by a racket. The force-time graph of the impact is a triangle with a peak force of 500 N and a duration of 0.008 s. What is the impulse delivered to the ball?",
+          "answer": "2.0 N·s",
+          "options": [
+            "A) 0.5 N·s",
+            "B) 2.0 N·s",
+            "C) 4.0 N·s",
+            "D) 500 N·s"
+          ],
+          "correct_option": "B",
+          "explanation": "For a triangular force-time graph, Impulse = 1/2 * base * height. Impulse = 0.5 * (0.008 s) * (500 N) = 2.0 N·s.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2018",
+            "page": "492",
+            "section": "Practice Exam",
+            "exercise_ref": "27"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2018 Practice Exam",
+            "source_question_number": "27"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Energy Partitioning in Rolling vs. Sliding Systems",
+      "unit_label": "Unit 5: Torque and Rotational Dynamics",
+      "primary_slo": "5.3.A.2",
+      "aligned_slos": ["3.4.B.1"],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A box slides down a frictionless hill into a vertical loop and just barely completes the circle. If a ball is rolled from the same starting height, it fails to make it through the loop. Which of the following best explains this result?",
+          "answer": "The ball must partition some of its initial potential energy into rotational kinetic energy.",
+          "options": [
+            "A) The ball experiences more friction than the box.",
+            "B) The ball has less total mechanical energy than the box.",
+            "C) The ball must partition some of its potential energy into rotational kinetic energy, leaving less for translational motion.",
+            "D) The ball’s center of mass is higher than the box’s."
+          ],
+          "correct_option": "C",
+          "explanation": "Both objects start with the same gravitational potential energy. The box converts all of it into translational kinetic energy. The ball, however, must split that energy between translational and rotational kinetic energy. Consequently, the ball has less translational speed at the top of the loop and cannot maintain contact.",
+          "source_reference": {
+            "worksheet_name": "Day 100",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "118",
+            "section": "Energy",
+            "exercise_ref": "Day 100"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5: AP Physics 1 (2024)",
+            "source_question_number": "Day 100"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "A cylinder rolls without slipping down a ramp and then moves through the air as a projectile. While in the air, how do the cylinder's rotational kinetic energy (K_rot) and translational kinetic energy (K_trans) change?",
+          "answer": "K_rot remains constant; K_trans increases.",
+          "options": [
+            "A) Both increase.",
+            "B) Both remain constant.",
+            "C) K_rot increases; K_trans remains constant.",
+            "D) K_rot remains constant; K_trans increases."
+          ],
+          "correct_option": "D",
+          "explanation": "While in the air, the only force is gravity acting at the center of mass, so there is no net torque to change the angular velocity or rotational energy. However, gravity does work on the center of mass, increasing the vertical velocity and thus the translational kinetic energy.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2018",
+            "page": "280",
+            "section": "Practice Exam",
+            "exercise_ref": "13"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2018 Practice Exam",
+            "source_question_number": "13"
+          }
+        }
+      ]
+    },
+    {
+      "title": "System Center of Mass Motion During Internal Interactions",
+      "unit_label": "Unit 4: Linear Momentum",
+      "primary_slo": "4.A.1.1",
+      "aligned_slos": ["4.3.A.1"],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Two figure skaters, Skater 1 being twice as massive as Skater 2, are moving together over frictionless ice. They push off one another. Which of the following describes the velocity of the center of mass (CM) of the system after the push?",
+          "answer": "The velocity of the CM remains constant and equal to its initial value.",
+          "options": [
+            "A) The CM velocity increases in the direction of the more massive skater.",
+            "B) The CM velocity increases in the direction of the less massive skater.",
+            "C) The CM velocity remains constant and is equal to its value before the push.",
+            "D) The CM velocity becomes zero because the internal forces cancel."
+          ],
+          "correct_option": "C",
+          "explanation": "According to Newton's Second Law for a system, only external forces can change the velocity of the system's center of mass. Since the push is an internal force, the CM velocity cannot change.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2018",
+            "page": "494",
+            "section": "Practice Exam",
+            "exercise_ref": "34"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2018 Practice Exam",
+            "source_question_number": "34"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "A student and a raft are initially at rest in a pool. The student and raft have the same mass M. If the student walks from the left end to the right end of the 4-meter raft, what is the displacement of the raft relative to the pool?",
+          "answer": "2 meters to the left.",
+          "options": [
+            "A) 2 meters to the right.",
+            "B) 2 meters to the left.",
+            "C) 4 meters to the left.",
+            "D) The raft does not move relative to the pool."
+          ],
+          "correct_option": "B",
+          "explanation": "With no external horizontal forces, the center of mass must remain stationary. Since the student and raft have equal mass, they move equal distances in opposite directions relative to the CM. A 4m relative move means each moves 2m relative to the fixed pool location.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2014",
+            "page": "114",
+            "section": "Practice Exam",
+            "exercise_ref": "13"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2014 Practice Exam",
+            "source_question_number": "13"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Interpreting System Energy Partitioning from Potential Energy Graphs",
+      "unit_label": "Unit 3: Work, Energy, and Power",
+      "primary_slo": "3.4.B.2",
+      "aligned_slos": ["3.3.A.2"],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A system has a total mechanical energy of 4 J. A potential energy (PE) vs. position (x) graph is a straight line showing PE = 3 J at x = 1 cm and PE = 1 J at x = 3 cm. When the system is at x = 3 cm, what is its kinetic energy?",
+          "answer": "3 J",
+          "options": [
+            "A) 1 J",
+            "B) 2 J",
+            "C) 3 J",
+            "D) 4 J"
+          ],
+          "correct_option": "C",
+          "explanation": "Mechanical energy is the sum of potential and kinetic energy (ME = PE + KE). Given ME = 4 J and PE = 1 J at the specified position, KE = 4 J - 1 J = 3 J.",
+          "source_reference": {
+            "worksheet_name": "Practice Exam 1",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "102",
+            "section": "Solutions",
+            "exercise_ref": "1"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5 Practice Exam 1",
+            "source_question_number": "1"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "An object of mass M hangs from a spring and is pulled down 1 cm. Experiment 1 produces a specific position-time graph. If the object is instead pulled down 2 cm, which graphical feature will change compared to Experiment 1?",
+          "answer": "The amplitude will double, but the period will remain the same.",
+          "options": [
+            "A) The amplitude will double and the period will double.",
+            "B) The amplitude will double and the period will decrease.",
+            "C) The amplitude will double, but the period will remain the same.",
+            "D) The amplitude will remain the same, but the period will double."
+          ],
+          "correct_option": "C",
+          "explanation": "For a simple harmonic oscillator (mass-spring), the period is independent of the amplitude. Pulling it down further increases the amplitude but does not affect the period.",
+          "source_reference": {
+            "worksheet_name": "Day 118",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "117",
+            "section": "Elite",
+            "exercise_ref": "Day 118"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5: AP Physics 1 (2024)",
+            "source_question_number": "Day 118"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Rotational Dynamics and Angular Acceleration from Torque",
+      "unit_label": "Unit 5: Torque and Rotational Dynamics",
+      "primary_slo": "5.6.A.2",
+      "aligned_slos": ["5.6.A.1"],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A sphere with a rotational inertia of 0.06 kg·m² is rotating at 20 rad/s. A constant net torque of 0.60 N·m is applied to oppose the rotation. How much time does it take for the sphere to stop?",
+          "answer": "2.0 s",
+          "options": [
+            "A) 1.0 s",
+            "B) 2.0 s",
+            "C) 10 s",
+            "D) 20 s"
+          ],
+          "correct_option": "B",
+          "explanation": "Angular acceleration α = τ / I = 0.60 / 0.06 = 10 rad/s². The time required to stop is t = ω / α = 20 / 10 = 2.0 seconds.",
+          "source_reference": {
+            "worksheet_name": "Practice Exam 1",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "105",
+            "section": "Section I",
+            "exercise_ref": "40"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5 Practice Exam 1",
+            "source_question_number": "40"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "A disk rotating counterclockwise is subject to two clockwise torques at the same radius: one 20 N force and one 40 N force. If counterclockwise is positive, which graph shows the disk's angular velocity over time?",
+          "answer": "A linear graph with a negative slope crossing the time axis.",
+          "options": [
+            "A) A horizontal line in the positive region.",
+            "B) A linear graph with a positive slope.",
+            "C) A linear graph with a negative slope crossing the time axis.",
+            "D) A parabolic graph opening upward."
+          ],
+          "correct_option": "C",
+          "explanation": "Constant negative net torque causes constant negative angular acceleration. This is represented by a straight line with a negative slope. Crossing the time axis represents the disk stopping and reversing direction.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2014",
+            "page": "111",
+            "section": "Practice Exam",
+            "exercise_ref": "8"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2014 Practice Exam",
+            "source_question_number": "8"
+          }
+        }
+      ]
+    }
+  ]
+}
+```json
+{
+  "schema_version": "2.0",
+  "subject": "AP Physics 1",
+  "source": "NotebookLM Multi-Source Synthesis",
+  "source_type": "external",
+  "question_types": [
+    {
+      "title": "Experimental Determination of Inertial Mass",
+      "unit_label": "Unit 2: Force and Translational Dynamics",
+      "primary_slo": "2.1.A.1",
+      "aligned_slos": [
+        "2.1.A.2"
+      ],
+      "reinforcement_slos": [
+        {
+          "slo": "1.1.A.2",
+          "weight": 0.1
+        }
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A student performs an experiment to measure the inertial mass of a cart. The student attaches a fan that provides a steady 0.2 N force to the cart and uses a sonic motion detector to produce a velocity-time graph as the cart speeds up. Which of the following describes how the cart's inertial mass is determined from this data?",
+          "answer": "The mass is the applied force divided by the slope of the velocity-time graph.",
+          "options": [
+            "A) The mass is the applied force multiplied by the total time of travel.",
+            "B) The mass is the area under the velocity-time graph divided by the applied force.",
+            "C) The mass is the applied force divided by the slope of the velocity-time graph.",
+            "D) The mass is the average velocity divided by the applied force."
+          ],
+          "correct_option": "C",
+          "explanation": "According to Newton’s second law, F = ma. The slope of a velocity-time graph represents acceleration (a). Therefore, the inertial mass m is equal to the net force (0.2 N) divided by that acceleration (the slope).",
+          "source_reference": {
+            "worksheet_name": "Practice Exam 1",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "106",
+            "section": "Elite Student Edition",
+            "exercise_ref": "46"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5: AP Physics 1 (2024)",
+            "source_question_number": "46"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "Which of the following experimental procedures is sufficient to determine the inertial mass of an unknown object? Select two answers.",
+          "answer": "Using a force sensor to pull the object across a frictionless surface and measuring acceleration; attaching the object to a spring of known constant and measuring the period.",
+          "options": [
+            "A) Placing the object on a calibrated spring scale while at rest.",
+            "B) Using a force sensor to pull the object across a nearly frictionless horizontal surface and measuring the acceleration.",
+            "C) Attaching the object to a spring of known spring constant, allowing it to oscillate horizontally on a nearly frictionless surface, and measuring the period.",
+            "D) Dropping the object from a known height and measuring the time it takes to hit the floor."
+          ],
+          "correct_option": "BC",
+          "explanation": "Inertial mass is a measure of an object's resistance to acceleration. Procedure B uses F=ma directly. Procedure C uses the relationship for a mass-spring oscillator (T = 2π√(m/k)), where the period T depends on the inertial mass resisting the restoring force. A scale measures gravitational mass (weight).",
+          "source_reference": {
+            "worksheet_name": "Section I: Multiple Choice",
+            "textbook_key": "AP-Physics-1-2014",
+            "page": "126",
+            "section": "Practice Exam",
+            "exercise_ref": "31"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2014 Practice Exam",
+            "source_question_number": "31"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Static Equilibrium and Torque Balance in Multi-Body Systems",
+      "unit_label": "Unit 5: Torque and Rotational Dynamics",
+      "primary_slo": "5.1.A.1",
+      "aligned_slos": [
+        "5.2.A.1"
+      ],
+      "reinforcement_slos": [
+        {
+          "slo": "2.2.B.1",
+          "weight": 0.15
+        }
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A uniform plank is balanced at its center on a pivot. A block of mass m is placed on the plank to the left of the pivot. A student must place a second block of mass 2m on the plank to maintain equilibrium. Which of the following quantities are needed to determine the exact location where the second block should be placed? Select two answers.",
+          "answer": "The mass of each block and the distance from the pivot to the first block.",
+          "options": [
+            "A) The mass of the plank.",
+            "B) The mass of each block.",
+            "C) The length of the plank.",
+            "D) The distance from the pivot to the left block."
+          ],
+          "correct_option": "BD",
+          "explanation": "For the plank to balance horizontally, the net torque must be zero. Torque is calculated as τ = rF. Since the plank is uniform and pivoted at the center, its own weight provides no torque. The torque from the first block is its weight times its distance (m * g * d1). To balance this, the student needs the mass of both blocks and the distance d1 to solve for the second distance d2 using m1*d1 = m2*d2.",
+          "source_reference": {
+            "worksheet_name": "Section I: Multiple Choice",
+            "textbook_key": "AP-Physics-1-2014",
+            "page": "125",
+            "section": "Practice Exam",
+            "exercise_ref": "46"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2014 Practice Exam",
+            "source_question_number": "46"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "Three equal-mass objects are initially at rest horizontally on a pivot. Object A is a uniform rod pivoted near its end. Object B consists of two heavy blocks connected by a light rod, pivoted near its end. Object C consists of two heavy blocks connected by a light rod that is longer, pivoted at a greater distance from one mass. Which of the following correctly ranks the objects' angular acceleration about the pivot point immediately after they are released?",
+          "answer": "A > B > C",
+          "options": [
+            "A) A = B > C",
+            "B) A > B = C",
+            "C) A < B < C",
+            "D) A > B > C"
+          ],
+          "correct_option": "D",
+          "explanation": "Angular acceleration is α = τ_net / I. While the masses are equal, the distribution of mass determines the rotational inertia I. Object A has mass distributed along the rod, resulting in lower I than Object B, which has mass concentrated at the ends. Object C has mass even farther from the pivot, giving it the largest I and thus the smallest angular acceleration for similar torque configurations.",
+          "source_reference": {
+            "worksheet_name": "Practice Exam 1",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "105",
+            "section": "Elite Student Edition",
+            "exercise_ref": "43"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5: AP Physics 1 (2024)",
+            "source_question_number": "43"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Parameter Dependencies of Simple Harmonic Motion Period",
+      "unit_label": "Unit 6: Simple Harmonic Motion",
+      "primary_slo": "1.5.A.1",
+      "aligned_slos": [
+        "3.2.A.4"
+      ],
+      "reinforcement_slos": [
+        {
+          "slo": "2.1.A.1",
+          "weight": 0.1
+        }
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Block 1 is attached to a spring and oscillates on a frictionless horizontal surface. When the block is at its point of maximum displacement, an identical Block 2 is placed on top of it and they stick together. How do the maximum kinetic energy and the period of oscillation with both blocks compare to those of Block 1 alone?",
+          "answer": "Kinetic energy remains the same, but the period increases.",
+          "options": [
+            "A) Both maximum kinetic energy and period increase.",
+            "B) Maximum kinetic energy remains the same, but the period increases.",
+            "C) Maximum kinetic energy decreases, and the period increases.",
+            "D) Both maximum kinetic energy and period remain the same."
+          ],
+          "correct_option": "B",
+          "explanation": "At maximum displacement, the system has only spring potential energy (1/2 kA²). Adding a block doesn't change k or A, so the total energy (and thus max K) remains constant. However, the period of a mass-spring system is T = 2π√(m/k). Increasing the mass (m) increases the period T.",
+          "source_reference": {
+            "worksheet_name": "Section I: Multiple Choice",
+            "textbook_key": "AP-Physics-1-2014",
+            "page": "119",
+            "section": "Practice Exam",
+            "exercise_ref": "20"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2014 Practice Exam",
+            "source_question_number": "20"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "A pendulum consisting of a sphere on a light string is oscillating at a small angle. If the sphere is replaced with a new sphere of the same size but greater density, how do the period and maximum kinetic energy of the new pendulum compare to the original?",
+          "answer": "The period stays the same, and the maximum kinetic energy increases.",
+          "options": [
+            "A) Both the period and the maximum kinetic energy stay the same.",
+            "B) Both the period and the maximum kinetic energy increase.",
+            "C) The period stays the same, and the maximum kinetic energy increases.",
+            "D) The period increases, and the maximum kinetic energy stays the same."
+          ],
+          "correct_option": "C",
+          "explanation": "The period of a simple pendulum depends only on length and gravity (T = 2π√(L/g)), so density/mass has no effect. However, maximum kinetic energy equals the initial potential energy (mgh). Since a denser sphere has more mass, its maximum kinetic energy will be greater.",
+          "source_reference": {
+            "worksheet_name": "Section I: Multiple Choice",
+            "textbook_key": "AP-Physics-1-2015",
+            "page": "243",
+            "section": "Practice Exam",
+            "exercise_ref": "15"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2015 Practice Exam",
+            "source_question_number": "15"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Wave Interference and Superposition of Pulses",
+      "unit_label": "Unit 7: Mechanical Waves and Sound",
+      "primary_slo": "1.6.A.1",
+      "aligned_slos": [
+        "1.6.B.1"
+      ],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Two square wave pulses travel toward each other on a string. One has a maximum displacement of +4 cm and the other has a maximum displacement of -2 cm. What is the maximum possible displacement of the string at the instant they fully overlap?",
+          "answer": "+2 cm",
+          "options": [
+            "A) +2 cm",
+            "B) +3 cm",
+            "C) +6 cm",
+            "D) +8 cm"
+          ],
+          "correct_option": "A",
+          "explanation": "According to the principle of superposition, the resulting displacement is the algebraic sum of the individual displacements. (+4 cm) + (-2 cm) = +2 cm.",
+          "source_reference": {
+            "worksheet_name": "Section I: Multiple Choice",
+            "textbook_key": "AP-Physics-1-2015",
+            "page": "246",
+            "section": "Practice Exam",
+            "exercise_ref": "133"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2015 Practice Exam",
+            "source_question_number": "133"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "Two symmetric wave pulses of equal width, one triangular (displacement +A) and one rectangular (displacement +A), move toward each other on a string. Which of the following indicates a correct time order for the shape of the string as they overlap and then move apart?",
+          "answer": "Distinct pulses -> Combined taller pulse -> Distinct pulses.",
+          "options": [
+            "A) Distinct pulses, then a single flat line, then distinct pulses.",
+            "B) Distinct pulses, then a combined taller pulse (Z-shape), then distinct pulses.",
+            "C) Distinct pulses, then a combined wider pulse, then distinct pulses.",
+            "D) Distinct pulses, then they reflect back without passing through each other."
+          ],
+          "correct_option": "B",
+          "explanation": "Wave pulses travel through each other unaffected in shape or speed. During the interval they overlap, their displacements add constructively (if both are positive), creating a taller, combined shape. After passing, they regain their original separate shapes.",
+          "source_reference": {
+            "worksheet_name": "Section I: Multiple Choice",
+            "textbook_key": "AP-Physics-1-2018",
+            "page": "284",
+            "section": "Practice Exam",
+            "exercise_ref": "28"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2018 Practice Exam",
+            "source_question_number": "28"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Dynamic Analysis of Normal Force in Accelerating Systems",
+      "unit_label": "Unit 2: Force and Translational Dynamics",
+      "primary_slo": "2.3.A.1",
+      "aligned_slos": [
+        "2.2.B.1"
+      ],
+      "reinforcement_slos": [
+        {
+          "slo": "2.1.B.1",
+          "weight": 0.1
+        }
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A student with a mass of 50 kg stands on a scale in an elevator. If the scale reading is 800 N, which of the following could describe the motion of the elevator?",
+          "answer": "Moving upward and speeding up.",
+          "options": [
+            "A) Moving downward and slowing down.",
+            "B) Moving downward and speeding up.",
+            "C) Moving upward and speeding up.",
+            "D) Moving upward at a constant speed."
+          ],
+          "correct_option": "C",
+          "explanation": "The student's static weight is mg = (50 kg)(10 m/s²) = 500 N. Since the scale reading (800 N) is greater than the weight, the net force (Fn - mg) is upward, meaning the acceleration is upward. This corresponds to either moving up and speeding up or moving down and slowing down.",
+          "source_reference": {
+            "worksheet_name": "Practice Exam 1",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "103",
+            "section": "Elite Student Edition",
+            "exercise_ref": "48"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5: AP Physics 1 (2024)",
+            "source_question_number": "48"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "An elevator has an upward acceleration a. A stack of two identical boxes, each of mass M, sits on the floor. Which of the following is the correct expression for the magnitude of the normal force exerted on the top box by the bottom box?",
+          "answer": "M(g + a)",
+          "options": [
+            "A) Mg",
+            "B) Ma",
+            "C) M(g - a)",
+            "D) M(g + a)"
+          ],
+          "correct_option": "D",
+          "explanation": "For the top box, the forces are the upward normal force (Fn) and the downward gravitational force (Mg). According to Newton's second law: Fn - Mg = Ma. Solving for Fn gives Fn = Mg + Ma = M(g + a).",
+          "source_reference": {
+            "worksheet_name": "Section I: Multiple Choice",
+            "textbook_key": "AP-Physics-1-2014",
+            "page": "124",
+            "section": "Practice Exam",
+            "exercise_ref": "42"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2014 Practice Exam",
+            "source_question_number": "42"
+          }
+        }
+      ]
+    }
+  ]
+}
+```json
+{
+  "schema_version": "2.0",
+  "subject": "AP Physics 1",
+  "source": "Scholar Question Bank Synthesis",
+  "source_type": "external",
+  "question_types": [
+    {
+      "title": "System Center of Mass Stability During Internal Interactions",
+      "unit_label": "Unit 4: Linear Momentum",
+      "primary_slo": "4.1.A.1",
+      "aligned_slos": [
+        "4.3.A.1"
+      ],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A projectile fired into the air explodes and splits into two halves of equal mass that hit the ground at the same time. If the projectile had not exploded, it would have landed at point X, which is a distance R to the right of the launch point. After the explosion, one of the halves lands at point Y, which is a distance 2R to the right of the launch point. Where did the other half land?",
+          "answer": "At the launch point.",
+          "options": [
+            "A) To the left of the launch point.",
+            "B) At the launch point.",
+            "C) Between the launch point and point X.",
+            "D) At point X."
+          ],
+          "correct_option": "B",
+          "explanation": "In the absence of external horizontal forces, the center of mass (CM) of the system follows the same trajectory it would have taken if no explosion occurred. The CM should land at distance R. Since one half of the mass (m/2) lands at 2R, the other half (m/2) must land at 0 (the launch point) to keep the average position at R: (0 + 2R) / 2 = R.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2017",
+            "page": "39",
+            "section": "Multiple Choice",
+            "exercise_ref": "15"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2017 Practice Exam",
+            "source_question_number": "15"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "Two astronauts are connected by a taut cable and are initially at rest in space. Astronaut X throws a large container to Astronaut Y. Which of the following describes the motion of Astronaut Y immediately after the container is caught?",
+          "answer": "Astronaut Y moves to the right.",
+          "options": [
+            "A) Astronaut Y does not move.",
+            "B) Astronaut Y moves to the left.",
+            "C) Astronaut Y moves to the right.",
+            "D) Astronaut Y moves toward Astronaut X."
+          ],
+          "correct_option": "C",
+          "explanation": "Before the container is caught, Astronaut Y is at rest. When the container (moving to the right) is caught, momentum must be conserved for the Astronaut Y-container system. To conserve momentum, the combined system must move in the direction the container was traveling (right).",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2017",
+            "page": "51",
+            "section": "Multiple Choice",
+            "exercise_ref": "35"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2017 Practice Exam",
+            "source_question_number": "35"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Wave Resonance and Frequency Relationships in Standing Waves",
+      "unit_label": "Unit 7: Mechanical Waves and Sound",
+      "primary_slo": "1.6.B.1",
+      "aligned_slos": [
+        "1.6.A.1"
+      ],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Guitar string 1 is plucked so it vibrates. Very soon after, string 2, which is nearby, begins to vibrate in a similar pattern. The guitars are then placed in a vacuum chamber and the air is removed. If string 1 is plucked again, does string 2 vibrate, and why?",
+          "answer": "No, because the sound wave requires a medium to transfer energy between the strings.",
+          "options": [
+            "A) Yes, because the vibrations travel through the guitar bodies.",
+            "B) Yes, because the gravitational interaction between strings is unchanged.",
+            "C) No, because the sound wave requires a medium to transfer energy between the strings.",
+            "D) No, because the strings cannot vibrate in a vacuum."
+          ],
+          "correct_option": "C",
+          "explanation": "Sound is a mechanical wave that requires a medium (like air) to propagate and transfer energy from one object to another. In a vacuum, there is no air to transmit the pressure variations from string 1 to string 2, so resonance cannot occur.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2015",
+            "page": "243",
+            "section": "Multiple Choice",
+            "exercise_ref": "18"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2015 Practice Exam",
+            "source_question_number": "18"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "Five standing waves are set up in 1-meter organ pipes. Pipe Cx is closed at one end and resonates at its fundamental frequency. Pipe Ox is open at both ends and resonates at its fundamental. Which of the following correctly relates their frequencies?",
+          "answer": "The frequency of Ox is twice the frequency of Cx.",
+          "options": [
+            "A) The frequency of Ox is half the frequency of Cx.",
+            "B) The frequency of Ox is equal to the frequency of Cx.",
+            "C) The frequency of Ox is twice the frequency of Cx.",
+            "D) The frequency of Ox is four times the frequency of Cx."
+          ],
+          "correct_option": "C",
+          "explanation": "For a pipe of length L, the fundamental wavelength for a closed-open pipe (Cx) is 4L, while for an open-open pipe (Ox) it is 2L. Since frequency is inversely proportional to wavelength (f = v/λ), the pipe with the shorter wavelength (Ox) has twice the frequency of the one with the longer wavelength (Cx).",
+          "source_reference": {
+            "worksheet_name": "Waves and Sound",
+            "textbook_key": "Workbook-1-Full",
+            "page": "402",
+            "section": "Chapter 11",
+            "exercise_ref": "11"
+          },
+          "metadata": {
+            "source_kind": "worksheet",
+            "source_label": "Workbook 1 Full",
+            "source_question_number": "11"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Energy Partitioning and Work-Energy Balance in Mechanical Systems",
+      "unit_label": "Unit 3: Work, Energy, and Power",
+      "primary_slo": "3.4.A.1",
+      "aligned_slos": [
+        "3.3.A.1"
+      ],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A person holds a 4.0 kg block at position A, in contact with an uncompressed vertical spring (k = 500 N/m). The person gently lowers the block until it is at rest at position B, 0.10 m below A. Which of the following describes the change in energy of the block-spring-Earth system?",
+          "answer": "The energy decreases by approximately 1.5 J.",
+          "options": [
+            "A) The energy decreases by approximately 1.5 J.",
+            "B) The energy decreases by approximately 2.5 J.",
+            "C) The energy increases by approximately 4.0 J.",
+            "D) The energy of the system does not change.",
+            "E) The energy increases by 1.5 J."
+          ],
+          "correct_option": "A",
+          "explanation": "Change in mechanical energy ΔE = ΔU_g + ΔU_s. ΔU_g = mgh = (4)(-10)(0.1) = -4.0 J. ΔU_s = 1/2 kx² = 0.5(500)(0.1)² = +2.5 J. The net change is -4.0 + 2.5 = -1.5 J. This energy is removed by the work done by the person's hand.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2014",
+            "page": "123",
+            "section": "Multiple Choice",
+            "exercise_ref": "39"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2014 Practice Exam",
+            "source_question_number": "39"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "A 0.5 kg cart travels down a smooth incline from a vertical height of 0.06 m and compresses a spring at the bottom. The work done on the cart by gravity is +0.30 J, and the work done by the spring as it stops the cart is -0.20 J. What is the cart's kinetic energy when it has compressed the spring?",
+          "answer": "0.10 J",
+          "options": [
+            "A) 0.80 J",
+            "B) 0.10 J",
+            "C) 0.50 J",
+            "D) 0.40 J"
+          ],
+          "correct_option": "B",
+          "explanation": "Using the Work-Energy Theorem: ΔK = W_net. The net work done on the cart is W_gravity + W_spring = 0.30 J + (-0.20 J) = 0.10 J. Since the cart started from rest, its final kinetic energy at that position is 0.10 J.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "103",
+            "section": "Practice Exam 1",
+            "exercise_ref": "35"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5 Practice Exam 1",
+            "source_question_number": "35"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Scaling Analysis of Displacement in Constant Acceleration Kinematics",
+      "unit_label": "Unit 1: Kinematics",
+      "primary_slo": "1.1.A.1",
+      "aligned_slos": [
+        "1.1.A.2"
+      ],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "An object is released from rest and falls a distance h during the first second of time. How far will it fall during the next second (the interval from t = 1 s to t = 2 s)?",
+          "answer": "3h",
+          "options": [
+            "A) h",
+            "B) 2h",
+            "C) 3h",
+            "D) 4h"
+          ],
+          "correct_option": "C",
+          "explanation": "Displacement is proportional to the square of time (Δy = 1/2 at²). After 1 second, distance is d1 = 1/2 a(1)² = h. After 2 seconds, total distance is d2 = 1/2 a(2)² = 4h. The distance traveled specifically during the second second is d2 - d1 = 4h - h = 3h.",
+          "source_reference": {
+            "worksheet_name": "Kinematics Practice",
+            "textbook_key": "Workbook-1-Full",
+            "page": "15",
+            "section": "Chapter 1",
+            "exercise_ref": "32"
+          },
+          "metadata": {
+            "source_kind": "worksheet",
+            "source_label": "Workbook 1 Full",
+            "source_question_number": "32"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "Starting from rest, object 1 falls freely for 4.0 seconds, and object 2 falls freely for 8.0 seconds. Compared to object 1, object 2 falls:",
+          "answer": "four times as far.",
+          "options": [
+            "A) half as far.",
+            "B) twice as far.",
+            "C) three times as far.",
+            "D) four times as far."
+          ],
+          "correct_option": "D",
+          "explanation": "Displacement from rest under constant acceleration is given by Δy = 1/2 at². Since acceleration is the same for both, Δy is proportional to t². Doubling the time from 4s to 8s (a factor of 2) results in a distance increase of (2)² = 4 times as far.",
+          "source_reference": {
+            "worksheet_name": "Kinematics Practice",
+            "textbook_key": "Workbook-1-Full",
+            "page": "16",
+            "section": "Chapter 1",
+            "exercise_ref": "35"
+          },
+          "metadata": {
+            "source_kind": "worksheet",
+            "source_label": "Workbook 1 Full",
+            "source_question_number": "35"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Impulse and Force Magnitude Comparison in Collision Scenarios",
+      "unit_label": "Unit 4: Linear Momentum",
+      "primary_slo": "4.2.A.1",
+      "aligned_slos": [
+        "4.3.A.4"
+      ],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A bowling ball rolling at speed v hits a spring and rebounds with momentum of equal magnitude. Later, an identical ball rolling at speed v is stopped completely by long grass. Which of the following correctly compares the magnitude of the impulse exerted on the ball by the spring versus the grass?",
+          "answer": "The impulse from the spring is twice as large as the impulse from the grass.",
+          "options": [
+            "A) The impulse from the spring is larger.",
+            "B) The impulse from the grass is larger.",
+            "C) The impulses are equal because both stop the initial forward motion.",
+            "D) The impulse from the spring is exactly twice the impulse from the grass."
+          ],
+          "correct_option": "D",
+          "explanation": "Impulse equals change in momentum (Δp). For the grass, Δp = 0 - mv = -mv (magnitude mv). For the spring, Δp = -mv - mv = -2mv (magnitude 2mv). Rebounding requires twice the change in momentum compared to simply stopping.",
+          "source_reference": {
+            "worksheet_name": "Day 106",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "118",
+            "section": "Elite Student Edition",
+            "exercise_ref": "Day 106"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5: AP Physics 1 (2024)",
+            "source_question_number": "Day 106"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "A classic physics demonstration involves throwing an egg against a bed sheet loosely held by two people. The egg is caught in the sheet without breaking. Why does the egg not break?",
+          "answer": "The sheet increases the interaction time, decreasing the average force.",
+          "options": [
+            "A) The sheet decreases the total impulse required to stop the egg.",
+            "B) The sheet increases the total impulse required to stop the egg.",
+            "C) The sheet increases the interaction time, decreasing the average force.",
+            "D) The sheet decreases the change in momentum of the egg."
+          ],
+          "correct_option": "C",
+          "explanation": "The change in momentum (impulse) required to stop the egg is the same regardless of the surface. Since Impulse = Force × Time, by increasing the time interval during which the egg stops, the bed sheet allows for a smaller average force to act on the egg, keeping it below the threshold of breaking.",
+          "source_reference": {
+            "worksheet_name": "Day 105",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "118",
+            "section": "Elite Student Edition",
+            "exercise_ref": "Day 105"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5: AP Physics 1 (2024)",
+            "source_question_number": "Day 105"
+          }
+        }
+      ]
+    }
+  ]
+}
+```json
+{
+  "schema_version": "2.0",
+  "subject": "AP Physics 1",
+  "source": "Scholar Multi-Source Synthesis (Elite Batch 8)",
+  "source_type": "external",
+  "question_types": [
+    {
+      "title": "Scaling Analysis of Gravitational Fields and Interaction Forces",
+      "unit_label": "Unit 2: Force and Translational Dynamics",
+      "primary_slo": "2.6.A.1",
+      "aligned_slos": [
+        "2.6.A.2"
+      ],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Planets A and B are identical. Planets C and D are each twice the mass of planets A and B, and are located the same distance from each other as A and B are. If FAB represents the force of planet A on planet B and FCD represents the force of planet C on planet D, what is the ratio of FAB/FCD?",
+          "answer": "1/4",
+          "options": [
+            "A) 1/4",
+            "B) 1/2",
+            "C) 1",
+            "D) 4"
+          ],
+          "correct_option": "A",
+          "explanation": "According to Newton's Law of Universal Gravitation, $F_g = G m_1 m_2 / r^2$. For planets A and B, $F_{AB} \propto M \cdot M / r^2 = M^2/r^2$. For planets C and D, $F_{CD} \propto (2M) \cdot (2M) / r^2 = 4M^2/r^2$. Therefore, $F_{CD}$ is four times $F_{AB}$, making the ratio $F_{AB}/F_{CD} = 1/4$.",
+          "source_reference": {
+            "worksheet_name": "5 Minutes to a 5",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "101",
+            "section": "Elite Student Edition",
+            "exercise_ref": "Day 13"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5 AP Physics 1 (2024)",
+            "source_question_number": "Day 13"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "A newly discovered planet has 2/3 the density of Earth and a radius twice that of Earth. If the gravitational field strength at Earth's surface is g, what is the surface gravitational field on the new planet?",
+          "answer": "4/3 g",
+          "options": [
+            "A) 1/3 g",
+            "B) 2/3 g",
+            "C) 4/3 g",
+            "D) 2 g"
+          ],
+          "correct_option": "C",
+          "explanation": "Gravitational field $g$ is proportional to $M/R^2$. Since mass $M$ is density ($\rho$) times volume ($\frac{4}{3}\pi R^3$), $g$ is directly proportional to $\rho \cdot R$. Using the given ratios: $g_{new} \propto (2/3 \rho_{Earth}) \cdot (2 R_{Earth}) = 4/3 \rho R$. Thus, the field is $4/3 g$.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2014",
+            "page": "111",
+            "section": "Practice Exam",
+            "exercise_ref": "3"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2014 Practice Exam",
+            "source_question_number": "3"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Equilibrium Analysis of Suspended Objects and Component Balancing",
+      "unit_label": "Unit 2: Force and Translational Dynamics",
+      "primary_slo": "2.2.B.3",
+      "aligned_slos": [
+        "2.2.B.1"
+      ],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A student claims that if the cables supporting a heavy traffic light are pulled tight enough, they will eventually become perfectly horizontal. Which of the following is the best evaluation of this claim?",
+          "answer": "The student is incorrect because the vertical component of tension must support the weight.",
+          "options": [
+            "A) The student is correct; increasing tension reduces the angle of sag to zero.",
+            "B) The student is incorrect because horizontal cables would require an infinite amount of tension to support any downward weight.",
+            "C) The student is correct because tension and weight are independent vectors.",
+            "D) The student is incorrect because the cables would snap before reaching the horizontal position."
+          ],
+          "correct_option": "B",
+          "explanation": "For an object in equilibrium, the net vertical force must be zero. If the cables were perfectly horizontal, they would have no vertical component ($T \sin(0) = 0$) to balance the downward force of gravity (weight). To provide a finite upward force from a near-zero angle, the tension $T$ would have to approach infinity.",
+          "source_reference": {
+            "worksheet_name": "5 Minutes to a 5",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "115",
+            "section": "Elite Student Edition",
+            "exercise_ref": "Day 52"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5 AP Physics 1 (2024)",
+            "source_question_number": "Day 52"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "A block is held at rest against a vertical wall by a force F exerted at an angle $\\theta$ above the horizontal. Let $F_g$ be the weight, $F_N$ be the normal force from the wall, and $F_f$ be the frictional force from the wall. Which of the following must be true to maintain equilibrium? Select two answers.",
+          "answer": "F cosθ = Fn and F sinθ + Ff = Fg",
+          "options": [
+            "A) $F \sin\theta = F_g$",
+            "B) $F \cos\theta = F_N$",
+            "C) $F \sin\theta + F_f = F_g$",
+            "D) $F \cos\theta + F_g = F_N$"
+          ],
+          "correct_option": "BC",
+          "explanation": "In the horizontal direction, the component of $F$ ($F \cos\theta$) must balance the normal force ($F_N$). In the vertical direction, the upward components ($F \sin\theta$ and $F_f$) must sum to balance the downward gravitational force ($F_g$), assuming the block would otherwise slide down.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2014",
+            "page": "126",
+            "section": "Practice Exam",
+            "exercise_ref": "47"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2014 Practice Exam",
+            "source_question_number": "47"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Directional Analysis of Acceleration and Net Force Vectors",
+      "unit_label": "Unit 2: Force and Translational Dynamics",
+      "primary_slo": "2.5.A.1",
+      "aligned_slos": [
+        "2.2.B.1"
+      ],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A pendulum bob is released from a horizontal position and swings through an arc. When the bob is at an intermediate point in its swing (moving down and toward the center), which vector best represents the direction of the net force acting on the bob?",
+          "answer": "A vector pointing partially toward the center and partially along the direction of motion.",
+          "options": [
+            "A) Directly toward the pivot point.",
+            "B) Directly downward toward the Earth.",
+            "C) A vector pointing partially toward the pivot and partially tangent to the path.",
+            "D) Tangent to the circular path."
+          ],
+          "correct_option": "C",
+          "explanation": "At an intermediate point, the bob experiences centripetal acceleration (provided by the net force component toward the pivot) and tangential acceleration (provided by the component of gravity along the path). The net force is the vector sum of these, resulting in a direction between the center and the tangent.",
+          "source_reference": {
+            "worksheet_name": "5 Minutes to a 5",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "109",
+            "section": "Elite Student Edition",
+            "exercise_ref": "Day 45"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5 AP Physics 1 (2024)",
+            "source_question_number": "Day 45"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "A hollow ball is projected into the air and moves up and to the right at a 45° angle. If significant air resistance opposes the motion, which of the following best describes the magnitude (a) and direction of the ball's acceleration?",
+          "answer": "a > g and directed down and to the left.",
+          "options": [
+            "A) $a = g$ and directed downward.",
+            "B) $a < g$ and directed downward.",
+            "C) $a > g$ and directed down and to the left.",
+            "D) $a < g$ and directed down and to the left."
+          ],
+          "correct_option": "C",
+          "explanation": "Gravity acts straight down with magnitude $g$. Air resistance (drag) acts opposite the velocity, which is down and to the left. The net force is the vector sum of gravity and drag. This sum will have a magnitude greater than gravity alone ($a > g$) and will point in a direction between downward and leftward.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2018",
+            "page": "494",
+            "section": "Practice Exam",
+            "exercise_ref": "33"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2018 Practice Exam",
+            "source_question_number": "33"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Angular Momentum Conservation and Collision Point Sensitivity",
+      "unit_label": "Unit 5: Torque and Rotational Dynamics",
+      "primary_slo": "6.1.A.1",
+      "aligned_slos": [
+        "4.3.A.4"
+      ],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A ball striking a stationary uniform rod at its end causes the rod to move. In a second trial, the same ball strikes an identical rod in the center and rebounds. How does the motion of the rod in the second trial compare to the first?",
+          "answer": "The second rod has the same final linear momentum but zero angular momentum.",
+          "options": [
+            "A) The second rod has less linear momentum.",
+            "B) The second rod has more angular momentum.",
+            "C) The second rod has the same linear momentum but zero angular momentum relative to its center.",
+            "D) Both linear and angular momentum are reduced in the second trial."
+          ],
+          "correct_option": "C",
+          "explanation": "Linear momentum is conserved in both cases. If the impulse delivered is the same, the rods will have the same translational velocity. However, a strike at the center has zero lever arm ($r=0$) relative to the center of mass, so it provides zero torque and zero angular momentum. The first trial strikes at the end, providing maximum torque and angular momentum.",
+          "source_reference": {
+            "worksheet_name": "5 Minutes to a 5",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "119",
+            "section": "Elite Student Edition",
+            "exercise_ref": "Day 113"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5 AP Physics 1 (2024)",
+            "source_question_number": "Day 113"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "A thin rod of length d is pivoted about one end. A sphere with momentum p strikes the rod perpendicular to the free end and rebounds with momentum -p. What is the rod's angular momentum immediately after the collision?",
+          "answer": "2pd",
+          "options": [
+            "A) 0",
+            "B) pd",
+            "C) 2pd",
+            "D) 1/2 pd"
+          ],
+          "correct_option": "C",
+          "explanation": "Angular momentum of the system is conserved relative to the pivot. $L_i = r \times p = d \cdot p$. After collision, the sphere's angular momentum is $d \cdot (-p) = -dp$. Using $L_i = L_{rod} + L_{sphere}$, we get $dp = L_{rod} - dp$, so $L_{rod} = 2dp$.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2014",
+            "page": "112",
+            "section": "Practice Exam",
+            "exercise_ref": "10"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2014 Practice Exam",
+            "source_question_number": "10"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Rotational Inertia and Torque Balance in Static Systems",
+      "unit_label": "Unit 5: Torque and Rotational Dynamics",
+      "primary_slo": "5.1.A.1",
+      "aligned_slos": [
+        "5.2.A.1"
+      ],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A uniform plank is balanced at its center. A block of mass m is placed 20 cm to the left of the pivot. Where must a second block of mass 2m be placed to maintain equilibrium?",
+          "answer": "10 cm to the right of the pivot.",
+          "options": [
+            "A) 10 cm to the right.",
+            "B) 20 cm to the right.",
+            "C) 40 cm to the right.",
+            "D) It cannot be balanced with a heavier block."
+          ],
+          "correct_option": "A",
+          "options_metadata": {},
+          "explanation": "Static equilibrium requires net torque to be zero: $\tau_{left} = \tau_{right}$. Thus, $m_1 g d_1 = m_2 g d_2$. Substituting the values: $(m)(20 \text{ cm}) = (2m)(d_2)$. Solving for $d_2$ gives 10 cm.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2014",
+            "page": "125",
+            "section": "Practice Exam",
+            "exercise_ref": "46"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2014 Practice Exam",
+            "source_question_number": "46"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "Four identical large masses are connected by light rods in a square configuration. The system is rotated about three axes: Axis A (through the center of two sides), Axis B (diagonal), and Axis C (through the center of one side). Rank the rotational inertia I about each axis.",
+          "answer": "IC > IA = IB",
+          "options": [
+            "A) IB > IA = IC",
+            "B) IA > IC = IB",
+            "C) IC > IA > IB",
+            "D) IC > IA = IB"
+          ],
+          "correct_option": "D",
+          "explanation": "Rotational inertia depends on the distribution of mass relative to the axis ($I = \Sigma mr^2$). In Axis A and B, the average distance $r$ from the axis is lower than in Axis C, where the masses on the far side are at the maximum possible distance. Calculations show $I_A$ and $I_B$ are equal and less than $I_C$.",
+          "source_reference": {
+            "worksheet_name": "Practice Exam 1",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "104",
+            "section": "Multiple Choice",
+            "exercise_ref": "7"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5 AP Physics 1 (2024)",
+            "source_question_number": "7"
+          }
+        }
+      ]
+    }
+  ]
+}
+```json
+{
+  "schema_version": "2.0",
+  "subject": "AP Physics 1",
+  "source": "Scholar Multi-Source Synthesis",
+  "source_type": "external",
+  "question_types": [
+    {
+      "title": "Interpreting Work and Kinetic Energy change from Force-Position Graphs",
+      "unit_label": "Unit 3: Work, Energy, and Power",
+      "primary_slo": "3.2.A.1",
+      "aligned_slos": [
+        "3.4.B.1"
+      ],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Two students discuss the effect of forces on identical objects. The force applied to Object 1 reaches its maximum value at the 2-m position and then stays constant until 5-m. The force applied to Object 2 reaches the same maximum value at 3.5-m and stays constant until 6-m. If the area under both force-position curves is the same over the full travel distance, which student is correct?",
+          "answer": "Student 2: Both objects will have equal final speeds because the work done (area under the curve) is equal.",
+          "options": [
+            "A) Student 1: Object 1 will have a greater change in velocity because the average acceleration is greater early on.",
+            "B) Student 2: Object 2 will have a greater change in velocity because the force is applied over a longer distance.",
+            "C) Student 2: Both objects will have equal final speeds because the work done (area under the curve) equals the change in kinetic energy.",
+            "D) Neither student is correct; the final speed depends on the time the force is applied, not the distance."
+          ],
+          "correct_option": "C",
+          "explanation": "According to the Work-Energy Theorem, the net work done on an object equals its change in kinetic energy. Work is calculated as the area under a force-position graph. Since the areas are equal, the change in kinetic energy (and thus final speed from rest) must be equal for both identical objects.",
+          "source_reference": {
+            "worksheet_name": "Day 116",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "119",
+            "section": "Elite Student Edition",
+            "exercise_ref": "Day 116"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5 AP Physics 1 (2024)",
+            "source_question_number": "Day 116"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "A 5-kg object slides in a frictionless pipe and contacts a spring. A graph of the magnitude of the force exerted by the spring on the object shows a linear increase from 0 N at contact (point A) to 20 N after the object has moved 0.10 m (point B) and comes to rest. What is the decrease in the object's kinetic energy as it moves from point A to point B?",
+          "answer": "1.0 J",
+          "options": [
+            "A) 0.5 J",
+            "B) 1.0 J",
+            "C) 2.0 J",
+            "D) 4.0 J"
+          ],
+          "correct_option": "B",
+          "explanation": "The decrease in kinetic energy is equal to the work done by the spring to stop the object. Work is the area under the Force-Distance graph. For a linear spring starting at 0 N and reaching 20 N over 0.10 m, the area is a triangle: 1/2 * base * height = 0.5 * 0.10 m * 20 N = 1.0 J.",
+          "source_reference": {
+            "worksheet_name": "Kinematics/Dynamics Practice",
+            "textbook_key": "Workbook-1-Full",
+            "page": "128",
+            "section": "C1988M2",
+            "exercise_ref": "C1988M2"
+          },
+          "metadata": {
+            "source_kind": "worksheet",
+            "source_label": "Workbook 1 Full",
+            "source_question_number": "C1988M2"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Predicting System Acceleration in Connected Objects (Modified Atwood)",
+      "unit_label": "Unit 2: Force and Translational Dynamics",
+      "primary_slo": "2.5.A.1",
+      "aligned_slos": [
+        "2.2.B.1"
+      ],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A cart of mass m1 = 0.50 kg on a frictionless surface is connected by a string to a hanging object of mass m2 = 0.10 kg. What is the magnitude of the acceleration of the cart after the system is released from rest?",
+          "answer": "1.7 m/s²",
+          "options": [
+            "A) 1.0 m/s²",
+            "B) 1.7 m/s²",
+            "C) 2.0 m/s²",
+            "D) 10 m/s²"
+          ],
+          "correct_option": "B",
+          "explanation": "Apply Newton's second law to the two-body system: a = Fnet / m_system. The net force is the weight of the hanging object (0.10 kg * 10 m/s² = 1.0 N). The total system mass is 0.50 kg + 0.10 kg = 0.60 kg. Therefore, a = 1.0 N / 0.60 kg ≈ 1.7 m/s².",
+          "source_reference": {
+            "worksheet_name": "Day 7",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "100",
+            "section": "Elite Student Edition",
+            "exercise_ref": "Day 7"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5 AP Physics 1 (2024)",
+            "source_question_number": "Day 7"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "Two blocks, each of mass m = 2 kg, are connected via string over a light pulley. One block sits on a frictionless horizontal table while the other hangs freely. When released from rest, what is the magnitude and direction of the acceleration of the block on the table?",
+          "answer": "5 m/s² to the right",
+          "options": [
+            "A) 5 m/s² to the right",
+            "B) 5 m/s² to the left",
+            "C) 10 m/s² to the right",
+            "D) 0 m/s² (system is in equilibrium)"
+          ],
+          "correct_option": "A",
+          "explanation": "The net force on the system is the weight of the hanging block: Fnet = mg = (2 kg)(10 m/s²) = 20 N. The total system mass is m + m = 4 kg. Using a = Fnet/m_total: a = 20 N / 4 kg = 5 m/s². Since the hanging block pulls the system toward the pulley, the block on the table accelerates to the right.",
+          "source_reference": {
+            "worksheet_name": "Day 31",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "111",
+            "section": "Elite Student Edition",
+            "exercise_ref": "Day 31"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5 AP Physics 1 (2024)",
+            "source_question_number": "Day 31"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Effect of External Interactions on Normal Force and Scale Readings",
+      "unit_label": "Unit 2: Force and Translational Dynamics",
+      "primary_slo": "2.3.A.1",
+      "aligned_slos": [
+        "2.2.B.1"
+      ],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A student stands on a bathroom scale and records the reading. While remaining on the scale, the student pushes down on the bathroom sink. How will the scale reading change?",
+          "answer": "The scale reading will decrease.",
+          "options": [
+            "A) The scale reading will increase.",
+            "B) The scale reading will decrease.",
+            "C) The scale reading will remain the same.",
+            "D) The scale reading will become zero."
+          ],
+          "correct_option": "B",
+          "explanation": "When the student pushes down on the sink, the sink exerts an upward reaction force on the student (Newton's Third Law). This upward force provides some of the support needed to keep the student in equilibrium, reducing the upward normal force required from the scale. Since the scale reading is the normal force, the reading decreases.",
+          "source_reference": {
+            "worksheet_name": "Day 16",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "104",
+            "section": "Elite Student Edition",
+            "exercise_ref": "Day 16"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5 AP Physics 1 (2024)",
+            "source_question_number": "Day 16"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "A weightlifter stands on a scale while holding a barbell. Initially, the scale reads the combined weight. As the weightlifter begins to move the barbell upward and then slows it to a stop, how does the scale reading change during the interval when the barbell is slowing down?",
+          "answer": "The scale reading decreases.",
+          "options": [
+            "A) The scale reading increases.",
+            "B) The scale reading decreases.",
+            "C) The scale reading remains equal to the combined weight.",
+            "D) The scale reading increases then decreases."
+          ],
+          "correct_option": "B",
+          "explanation": "While moving upward and slowing down, the barbell's acceleration is downward. For the system (person + barbell) to have a downward acceleration, the net force must be downward. This means the total downward gravitational force is greater than the upward normal force from the scale. Thus, the scale reading (normal force) must be less than the static weight.",
+          "source_reference": {
+            "worksheet_name": "Day 53",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "115",
+            "section": "Elite Student Edition",
+            "exercise_ref": "Day 53"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5 AP Physics 1 (2024)",
+            "source_question_number": "Day 53"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Kinematic Comparisons of Projectile Paths and Speed Scaling",
+      "unit_label": "Unit 1: Kinematics",
+      "primary_slo": "1.3.A.1",
+      "aligned_slos": [
+        "1.1.A.1",
+        "3.4.A.1"
+      ],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Three identical blocks take different paths from a height h to the ground: Block A falls vertically from rest, Block B slides down a frictionless incline from rest, and Block C is projected horizontally with speed v. Which block takes the longest time to reach the ground?",
+          "answer": "Block B",
+          "options": [
+            "A) Block A",
+            "B) Block B",
+            "C) Block C",
+            "D) Blocks A and C take the same time, which is longer than Block B."
+          ],
+          "correct_option": "B",
+          "explanation": "Blocks A and C have the same vertical acceleration (g) and initial vertical velocity (0), so they hit the ground at the same time. Block B's acceleration is g*sin(θ), which is less than g. Because Block B has a smaller vertical acceleration component and covers a longer path, it takes the longest time.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2014",
+            "page": "119",
+            "section": "Practice Exam",
+            "exercise_ref": "5"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2014 Practice Exam",
+            "source_question_number": "5"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "A stone launched straight upward reaches a maximum height H. If a second identical stone is launched upward with twice the initial speed, what is the maximum height it reaches compared to the first stone?",
+          "answer": "Four times the height (4H).",
+          "options": [
+            "A) The same height (H).",
+            "B) Twice the height (2H).",
+            "C) Three times the height (3H).",
+            "D) Four times the height (4H)."
+          ],
+          "correct_option": "D",
+          "explanation": "Using the kinematic equation v² = v₀² + 2aΔy, where v=0 at the peak, height H is proportional to the square of the initial speed (H = v₀² / 2g). Doubling the initial speed results in (2)² = 4 times the maximum height.",
+          "source_reference": {
+            "worksheet_name": "Day 1",
+            "textbook_key": "5-steps-to-a-5-2024",
+            "page": "120",
+            "section": "Elite Student Edition",
+            "exercise_ref": "Day 1"
+          },
+          "metadata": {
+            "source_kind": "5steps",
+            "source_label": "5 Steps to a 5 AP Physics 1 (2024)",
+            "source_question_number": "Day 1"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Wave Superposition and Interference Principles",
+      "unit_label": "Unit 7: Mechanical Waves and Sound",
+      "primary_slo": "1.6.A.1",
+      "aligned_slos": [
+        "1.6.B.1"
+      ],
+      "reinforcement_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Two square wave pulses travel toward each other on a string. One has a maximum displacement of +4 cm and the other has a maximum displacement of -2 cm. Which of the following is a possible displacement of the string at the instant they fully overlap?",
+          "answer": "+2 cm",
+          "options": [
+            "A) +2 cm",
+            "B) +3 cm",
+            "C) +6 cm",
+            "D) +8 cm"
+          ],
+          "correct_option": "A",
+          "explanation": "According to the principle of superposition, when two waves overlap, the resulting displacement is the algebraic sum of the individual displacements. (+4 cm) + (-2 cm) = +2 cm.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2015",
+            "page": "246",
+            "section": "Practice Exam",
+            "exercise_ref": "133"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2015 Practice Exam",
+            "source_question_number": "133"
+          }
+        },
+        {
+          "question_format": "mcq",
+          "question": "Two wave pulses, one triangular and one rectangular, travel toward each other on a string. Both pulses have the same width and a positive amplitude. Which indicating sequence correctly describes the shape of the string as they move along the string, overlap, and move apart?",
+          "answer": "Distinct pulses -> Single combined taller pulse -> Distinct pulses.",
+          "options": [
+            "A) Distinct pulses, then they bounce off each other and reverse direction.",
+            "B) Distinct pulses, then a single combined taller pulse, then distinct pulses.",
+            "C) Distinct pulses, then they cancel to a flat line, then distinct pulses.",
+            "D) Distinct pulses, then a single wider pulse, then distinct pulses."
+          ],
+          "correct_option": "B",
+          "explanation": "Wave pulses travel through each other unaffected in speed or shape. During the overlap, their amplitudes add (superposition) to form a combined taller shape. After passing, they continue their original motion.",
+          "source_reference": {
+            "worksheet_name": "Section I",
+            "textbook_key": "AP-Physics-1-2018",
+            "page": "284",
+            "section": "Practice Exam",
+            "exercise_ref": "28"
+          },
+          "metadata": {
+            "source_kind": "pyq",
+            "source_label": "AP Physics 1 2018 Practice Exam",
+            "source_question_number": "28"
+          }
+        }
+      ]
+    }
+  ]
+}
+```

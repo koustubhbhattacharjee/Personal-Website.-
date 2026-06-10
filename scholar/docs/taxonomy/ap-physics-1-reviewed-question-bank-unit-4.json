@@ -1,0 +1,1168 @@
+{
+  "subject": "AP Physics 1",
+  "source": "NotebookLM",
+  "source_label": "Official PYQ + reference synthesis",
+  "custom_notes": "Reviewed Unit 4 Linear Momentum bank extracted from combined Unit 3-4 source.",
+  "questionTypes": [
+    {
+      "type": "Calculate linear momentum magnitude and direction",
+      "unit": "Unit 4: Linear Momentum",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "What is the magnitude of the linear momentum of a 0.5 kg object moving at 10 m/s?",
+          "options": ["2.0 kg*m/s", "5.0 kg*m/s", "10 kg*m/s", "50 kg*m/s"],
+          "correct_option": "5.0 kg*m/s",
+          "answer": "B. 5.0 kg*m/s",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An object moves to the left at 4 m/s and has a mass of 2 kg. What is its linear momentum (using standard coordinate conventions)?",
+          "options": ["+8 kg*m/s", "-8 kg*m/s", "+2 kg*m/s", "-2 kg*m/s"],
+          "correct_option": "-8 kg*m/s",
+          "answer": "B. -8 kg*m/s",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Two objects have the same momentum. Object A has more mass than Object B. How do their speeds compare?",
+          "options": ["Speed A > Speed B", "Speed A < Speed B", "Speed A = Speed B", "Cannot be determined"],
+          "correct_option": "Speed A < Speed B",
+          "answer": "B. Speed A < Speed B",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If an object's mass is doubled and its speed is halved, its momentum:",
+          "options": ["Doubles", "Halves", "Remains the same", "Quadruples"],
+          "correct_option": "Remains the same",
+          "answer": "C. Remains the same",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Identify momentum as a vector related to velocity",
+      "unit": "Unit 4: Linear Momentum",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Momentum is a vector quantity. Its direction is always the same as:",
+          "options": ["Net Force", "Acceleration", "Velocity", "Displacement"],
+          "correct_option": "Velocity",
+          "answer": "C. Velocity",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A ball moves East with momentum P. After bouncing, it moves West with momentum P. What is the magnitude of its change in momentum?",
+          "options": ["0", "P", "2P", "-2P"],
+          "correct_option": "2P",
+          "answer": "C. 2P",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which of the following describes an object with constant momentum?",
+          "options": ["Object at rest", "Object moving in a circle at constant speed", "Object moving in a straight line at constant speed", "Both A and C"],
+          "correct_option": "Both A and C",
+          "answer": "D. Both A and C",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A change in which of the following results in a change in momentum?",
+          "options": ["Mass", "Velocity", "Direction of motion", "All of the above"],
+          "correct_option": "All of the above",
+          "answer": "D. All of the above",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Calculate impulse from force and duration",
+      "unit": "Unit 4: Linear Momentum",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A force of 10 N acts on an object for 0.5 s. What is the magnitude of the impulse delivered?",
+          "options": ["2.0 N*s", "5.0 N*s", "10 N*s", "20 N*s"],
+          "correct_option": "5.0 N*s",
+          "answer": "B. 5.0 N*s",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If you double the duration of a constant force acting on an object, the change in its momentum:",
+          "options": ["Is halved", "Stays the same", "Doubles", "Quadruples"],
+          "correct_option": "Doubles",
+          "answer": "C. Doubles",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An impulse of 20 N*s is applied to a 4 kg object. What is the resulting change in the object's velocity?",
+          "options": ["5 m/s", "10 m/s", "16 m/s", "80 m/s"],
+          "correct_option": "5 m/s",
+          "answer": "A. 5 m/s",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Impulse is a vector quantity with the same direction as:",
+          "options": ["Velocity", "Momentum", "The average net force", "The displacement"],
+          "correct_option": "The average net force",
+          "answer": "C. The average net force",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Determine impulse from area under force-time graph",
+      "unit": "Unit 4: Linear Momentum",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A force vs. time graph consists of a triangle with a base of 2 s and a peak force of 10 N. What is the total impulse?",
+          "options": ["5 N*s", "10 N*s", "20 N*s", "40 N*s"],
+          "correct_option": "10 N*s",
+          "answer": "B. 10 N*s",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The area under a force-time graph represents which physical quantity?",
+          "options": ["Work", "Power", "Impulse", "Acceleration"],
+          "correct_option": "Impulse",
+          "answer": "C. Impulse",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A student finds that the area under a force-time graph is 12 N*s. If the 3 kg object was initially at rest, what is its final speed?",
+          "options": ["4 m/s", "9 m/s", "15 m/s", "36 m/s"],
+          "correct_option": "4 m/s",
+          "answer": "A. 4 m/s",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A force of 10 N acts from 0 to 2 s, then a force of -10 N acts from 2 to 4 s. What is the net impulse?",
+          "options": ["-20 N*s", "0", "20 N*s", "40 N*s"],
+          "correct_option": "0",
+          "answer": "B. 0",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Relate net force to rate of change of momentum",
+      "unit": "Unit 4: Linear Momentum",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "According to Newton's Second Law in terms of momentum, the net external force is equal to:",
+          "options": ["Total momentum", "Impulse", "The rate of change of momentum", "The square of momentum"],
+          "correct_option": "The rate of change of momentum",
+          "answer": "C. The rate of change of momentum",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The slope of a momentum vs. time graph represents:",
+          "options": ["Velocity", "Impulse", "Net Force", "Kinetic Energy"],
+          "correct_option": "Net Force",
+          "answer": "C. Net Force",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the net force on an object is zero, the momentum of the object must be:",
+          "options": ["Zero", "Increasing", "Decreasing", "Constant"],
+          "correct_option": "Constant",
+          "answer": "D. Constant",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A 2 kg object has a momentum that changes by 10 kg*m/s in 5 seconds. What was the average net force?",
+          "options": ["2 N", "4 N", "10 N", "50 N"],
+          "correct_option": "2 N",
+          "answer": "A. 2 N",
+          "source_reference": {
+            "source_tier": "generated_fill",
+            "source_name": "NotebookLM Internal",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Solve for final velocity in perfectly inelastic collisions",
+      "unit": "Unit 4: Linear Momentum",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A 2 kg cart moving at 4 m/s collides with and sticks to a 2 kg cart at rest. What is their common final speed?",
+          "options": ["1 m/s", "2 m/s", "4 m/s", "8 m/s"],
+          "correct_option": "2 m/s",
+          "answer": "B. 2 m/s",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In a perfectly inelastic collision, which of the following is NOT conserved for the system?",
+          "options": ["Total momentum", "Kinetic energy", "Total mass", "Center-of-mass velocity"],
+          "correct_option": "Kinetic energy",
+          "answer": "B. Kinetic energy",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A mass m moving at v collides with a stationary mass 3m and they stick together. What is the system's final speed?",
+          "options": ["v/4", "v/3", "v/2", "v"],
+          "correct_option": "v/4",
+          "answer": "A. v/4",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Two carts stick together in a collision on a frictionless track. The initial momentum was 10 kg*m/s. The final momentum is:",
+          "options": ["0", "Less than 10", "Exactly 10", "More than 10"],
+          "correct_option": "Exactly 10",
+          "answer": "C. Exactly 10",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Predict final velocities in explosions (recoil)",
+      "unit": "Unit 4: Linear Momentum",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Two carts initially at rest on a frictionless track are pushed apart by a spring. If Cart A has 3 times the mass of Cart B, what is the ratio of their final speeds (v_A / v_B)?",
+          "options": ["3:1", "1:1", "1:3", "1:9"],
+          "correct_option": "1:3",
+          "answer": "C. 1:3",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An exploding projectile breaks into two pieces of equal mass. If the total system momentum was P before the explosion, what is it after?",
+          "options": ["0", "P/2", "P", "2P"],
+          "correct_option": "P",
+          "answer": "C. P",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A person on a stationary boat throws a heavy object forward. The boat moves:",
+          "options": ["Forward", "Backward", "Not at all", "Upward"],
+          "correct_option": "Backward",
+          "answer": "B. Backward",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In a recoil scenario starting from rest, how does the final momentum of object A compare to object B?",
+          "options": ["Equal magnitude", "Double magnitude", "Zero magnitude", "Variable"],
+          "correct_option": "Equal magnitude",
+          "answer": "A. Equal magnitude",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Determine system momentum conservation based on external force",
+      "unit": "Unit 4: Linear Momentum",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A system's linear momentum is conserved if which of the following is true?",
+          "options": ["The kinetic energy is conserved", "The internal forces are zero", "The net external force is zero", "The mass remains constant"],
+          "correct_option": "The net external force is zero",
+          "answer": "C. The net external force is zero",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a net external force acts on a system, the system's momentum must:",
+          "options": ["Be zero", "Stay constant", "Change", "Equal the kinetic energy"],
+          "correct_option": "Change",
+          "answer": "C. Change",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Momentum is conserved in all interactions if the system is chosen to include:",
+          "options": ["Only one object", "Only the colliding objects", "All interacting objects", "The entire universe"],
+          "correct_option": "All interacting objects",
+          "answer": "C. All interacting objects",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A ball falls and hits the floor. If the system is 'the ball', is momentum conserved during the collision?",
+          "options": ["Yes", "No, because gravity is an external force", "No, because the floor exerts an external force", "Both B and C"],
+          "correct_option": "Both B and C",
+          "answer": "D. Both B and C",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Compare impulse magnitude for bouncing vs. sticking",
+      "unit": "Unit 4: Linear Momentum",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A 1 kg ball hits a wall at 5 m/s. Case 1: It sticks. Case 2: It bounces back at 5 m/s. Which case involves a larger magnitude of impulse?",
+          "options": ["Case 1 (sticks)", "Case 2 (bounces)", "They are equal", "It depends on the time"],
+          "correct_option": "Case 2 (bounces)",
+          "answer": "B. Case 2 (bounces)",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An object bounces off a cart. The cart moves faster than if the object had stuck. This is because:",
+          "options": ["The object had more KE", "The impulse delivered was larger for the bounce", "The cart's mass decreased", "Friction was zero"],
+          "correct_option": "The impulse delivered was larger for the bounce",
+          "answer": "B. The impulse delivered was larger for the bounce",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A dart bouncing off a block vs. sticking. The block reaches a higher speed for the bounce because:",
+          "options": ["Momentum is not conserved for the block", "The dart transfers all its momentum", "The dart's change in momentum is greater", "KE is conserved"],
+          "correct_option": "The dart's change in momentum is greater",
+          "answer": "C. The dart's change in momentum is greater",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which result provides the smallest impulse to a stationary target?",
+          "options": ["Projectile bounces back at original speed", "Projectile stops and drops", "Projectile sticks", "Projectile passes through at half speed"],
+          "correct_option": "Projectile passes through at half speed",
+          "answer": "D. Projectile passes through at half speed",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Calculate the velocity of the center of mass",
+      "unit": "Unit 4: Linear Momentum",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A 2 kg object moves at 6 m/s and a 1 kg object moves at 0 m/s. What is the velocity of the system's center of mass?",
+          "options": ["2 m/s", "3 m/s", "4 m/s", "6 m/s"],
+          "correct_option": "4 m/s",
+          "answer": "C. 4 m/s",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Two identical 1 kg masses collide. Object 1 was moving at 2 m/s and Object 2 was at rest. What is the speed of the center of mass?",
+          "options": ["0 m/s", "1 m/s", "2 m/s", "4 m/s"],
+          "correct_option": "1 m/s",
+          "answer": "B. 1 m/s",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The velocity of the center of mass (Vcm) for a system of two masses is found using:",
+          "options": ["(V1 + V2)/2", "(m1V1 + m2V2)/(m1 + m2)", "m1V1 + m2V2", "sqrt(V1^2 + V2^2)"],
+          "correct_option": "(m1V1 + m2V2)/(m1 + m2)",
+          "answer": "B. (m1V1 + m2V2)/(m1 + m2)",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A system consists of two masses moving toward each other with equal and opposite momenta. The velocity of the center of mass is:",
+          "options": ["Maximum", "Positive", "Negative", "Zero"],
+          "correct_option": "Zero",
+          "answer": "D. Zero",
+          "source_reference": {
+            "source_tier": "generated_fill",
+            "source_name": "NotebookLM Internal",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Predict center of mass motion under zero net external force",
+      "unit": "Unit 4: Linear Momentum",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "If there is no net external force on a system, how does the center-of-mass velocity change during a collision?",
+          "options": ["It increases", "It decreases", "It remains constant", "It becomes zero"],
+          "correct_option": "It remains constant",
+          "answer": "C. It remains constant",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An astronaut and a space station are initially at rest. The astronaut pushes off the station. The center of mass of the astronaut-station system:",
+          "options": ["Moves with the astronaut", "Moves with the station", "Stays at rest", "Accelerates outward"],
+          "correct_option": "Stays at rest",
+          "answer": "C. Stays at rest",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Two objects in an isolated system collide. While they are in contact, the acceleration of the system's center of mass is:",
+          "options": ["Zero", "Maximum", "Variable", "Dependent on the masses"],
+          "correct_option": "Zero",
+          "answer": "A. Zero",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A grenade at rest explodes. The center of mass of all the fragments:",
+          "options": ["Moves in the direction of the largest fragment", "Expands outward", "Remains at the explosion site", "Follows a random path"],
+          "correct_option": "Remains at the explosion site",
+          "answer": "C. Remains at the explosion site",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Apply Newton's Third Law to impulses in collisions",
+      "unit": "Unit 4: Linear Momentum",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A car traveling at high speed collides with a bug. How does the magnitude of the force exerted by the bug on the car compare to the car on the bug?",
+          "options": ["Car exerts larger force", "Bug exerts larger force", "They exert equal forces", "Force depends on bug's mass"],
+          "correct_option": "They exert equal forces",
+          "answer": "C. They exert equal forces",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "During a collision between two carts, Cart A experiences a larger acceleration than Cart B. This implies that:",
+          "options": ["Cart A felt a larger force", "Cart B felt a larger force", "Cart A has less mass", "Cart B has less mass"],
+          "correct_option": "Cart A has less mass",
+          "answer": "C. Cart A has less mass",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Newton's Third Law applies to the impulses exchanged in a collision. Which is true?",
+          "options": ["Impulse A > Impulse B", "Impulse A < Impulse B", "Impulse A = Impulse B", "Only heavier cart feels impulse"],
+          "correct_option": "Impulse A = Impulse B",
+          "answer": "C. Impulse A = Impulse B",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In a collision between Cart 1 and Cart 2, the change in momentum of Cart 1 is +10. What is the change in momentum of Cart 2?",
+          "options": ["0", "+10", "-10", "Cannot be determined"],
+          "correct_option": "-10",
+          "answer": "C. -10",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Relate interaction time to average force (safety features)",
+      "unit": "Unit 4: Linear Momentum",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A water balloon is less likely to break if caught by moving your hands backward with the balloon. This is because:",
+          "options": ["Change in momentum is reduced", "Impulse is reduced", "Time of impact is increased, reducing force", "Work done is zero"],
+          "correct_option": "Time of impact is increased, reducing force",
+          "answer": "C. Time of impact is increased, reducing force",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Why are cars designed with crumple zones?",
+          "options": ["To increase change in momentum", "To decrease total impulse", "To increase duration of impact, decreasing average force", "To ensure car bounces back"],
+          "correct_option": "To increase duration of impact, decreasing average force",
+          "answer": "C. To increase duration of impact, decreasing average force",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If you double the time over which an object stops while maintaining the same momentum change, the average force:",
+          "options": ["Is halved", "Doubles", "Quadruples", "Remains same"],
+          "correct_option": "Is halved",
+          "answer": "A. Is halved",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An object hits a wall and stops. If it hits a soft pad instead and stops in twice the time, the total impulse is:",
+          "options": ["Half", "The same", "Double", "Zero"],
+          "correct_option": "The same",
+          "answer": "B. The same",
+          "source_reference": {
+            "source_tier": "generated_fill",
+            "source_name": "NotebookLM Internal",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Interpret momentum-time graphs for force identification",
+      "unit": "Unit 4: Linear Momentum",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "The slope of a momentum vs. time graph for a 2 kg object is +5 N. What is the acceleration of the object?",
+          "options": ["2.5 m/s^2", "5 m/s^2", "10 m/s^2", "0.4 m/s^2"],
+          "correct_option": "2.5 m/s^2",
+          "answer": "A. 2.5 m/s^2",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "On a momentum vs. time graph, a horizontal line indicates that the net force is:",
+          "options": ["Zero", "Constant and non-zero", "Increasing", "Decreasing"],
+          "correct_option": "Zero",
+          "answer": "A. Zero",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the momentum-time graph is a straight line with a negative slope, the force is:",
+          "options": ["Zero", "Constant and positive", "Constant and negative", "Increasing"],
+          "correct_option": "Constant and negative",
+          "answer": "C. Constant and negative",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The y-intercept of a momentum-time graph represents:",
+          "options": ["Initial velocity", "Initial force", "Initial momentum", "Mass"],
+          "correct_option": "Initial momentum",
+          "answer": "C. Initial momentum",
+          "source_reference": {
+            "source_tier": "generated_fill",
+            "source_name": "NotebookLM Internal",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Solve for unknown mass using conservation of momentum",
+      "unit": "Unit 4: Linear Momentum",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A 1 kg cart moving at 3 m/s hits a stationary cart of mass M. They stick and move at 1 m/s. What is mass M?",
+          "options": ["1 kg", "2 kg", "3 kg", "4 kg"],
+          "correct_option": "2 kg",
+          "answer": "B. 2 kg",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A cart of mass 2 kg moving at 10 m/s collides with cart B of unknown mass at rest. Cart A stops and Cart B moves at 5 m/s. What is mass B?",
+          "options": ["1 kg", "2 kg", "4 kg", "10 kg"],
+          "correct_option": "4 kg",
+          "answer": "C. 4 kg",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If total system momentum is zero and two objects push off each other, the ratio of their masses (m1/m2) is equal to:",
+          "options": ["v1/v2", "v2/v1", "v1^2/v2^2", "sqrt(v1/v2)"],
+          "correct_option": "v2/v1",
+          "answer": "B. v2/v1",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In a 2 kg vs M collision, M was at rest. If the final speed of the system is 1/5 of the initial speed of the 2 kg mass, what is M?",
+          "options": ["2 kg", "4 kg", "8 kg", "10 kg"],
+          "correct_option": "8 kg",
+          "answer": "C. 8 kg",
+          "source_reference": {
+            "source_tier": "generated_fill",
+            "source_name": "NotebookLM Internal",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Distinguish between elastic and inelastic collisions using kinetic energy",
+      "unit": "Unit 4: Linear Momentum",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "An elastic collision is specifically defined by the conservation of:",
+          "options": ["Momentum only", "Kinetic energy only", "Both momentum and kinetic energy", "Potential energy"],
+          "correct_option": "Both momentum and kinetic energy",
+          "answer": "C. Both momentum and kinetic energy",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In which type of collision is momentum conserved but kinetic energy is lost?",
+          "options": ["Elastic", "Inelastic", "Superelastic", "None of the above"],
+          "correct_option": "Inelastic",
+          "answer": "B. Inelastic",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A student finds that initial KE is 20 J and final KE is 15 J. The collision was:",
+          "options": ["Elastic", "Inelastic", "Impossible", "Perfectly elastic"],
+          "correct_option": "Inelastic",
+          "answer": "B. Inelastic",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If two objects stick together, the collision is definitely:",
+          "options": ["Elastic", "Inelastic", "Stationary", "Frictionless"],
+          "correct_option": "Inelastic",
+          "answer": "B. Inelastic",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Identify conserved quantities in collision types",
+      "unit": "Unit 4: Linear Momentum",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "In ALL isolated collisions, which of the following is conserved?",
+          "options": ["Kinetic Energy", "Velocity", "Linear Momentum", "Mechanical Energy"],
+          "correct_option": "Linear Momentum",
+          "answer": "C. Linear Momentum",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "During an explosion, the total _____ of the fragments is conserved, but the total _____ increases.",
+          "options": ["KE, Momentum", "Momentum, KE", "Mass, Momentum", "Velocity, Mass"],
+          "correct_option": "Momentum, KE",
+          "answer": "B. Momentum, KE",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a system's internal energy increases during a collision, the collision was:",
+          "options": ["Elastic", "Inelastic", "Perfectly elastic", "Impossible"],
+          "correct_option": "Inelastic",
+          "answer": "B. Inelastic",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "For a collision on a rough floor, momentum of the 'cart system' is NOT conserved because:",
+          "options": ["Mass changed", "Friction is an external force", "Energy is lost", "Velocity is too high"],
+          "correct_option": "Friction is an external force",
+          "answer": "B. Friction is an external force",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Design experiments to verify momentum conservation",
+      "unit": "Unit 4: Linear Momentum",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Which set of measurements is sufficient to verify momentum conservation in a 1D collision?",
+          "options": ["Masses and initial speeds only", "Masses and final speeds only", "Masses and speeds before and after", "Impulse only"],
+          "correct_option": "Masses and speeds before and after",
+          "answer": "C. Masses and speeds before and after",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2018",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which tool is best for measuring speeds in a momentum lab to ensure accuracy?",
+          "options": ["Stopwatch and meterstick", "Sonic motion detectors", "Protractor", "Spring scale"],
+          "correct_option": "Sonic motion detectors",
+          "answer": "B. Sonic motion detectors",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "To reduce random error in a momentum experiment, a student should:",
+          "options": ["Perform only one trial", "Use heavier carts", "Perform multiple trials and average results", "Measure speed from a single frame of video"],
+          "correct_option": "Perform multiple trials and average results",
+          "answer": "C. Perform multiple trials and average results",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2018",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In a lab to test if a collision is elastic, a student must calculate:",
+          "options": ["Total momentum before and after", "Total kinetic energy before and after", "Final velocity of center of mass", "Area under F-t graph"],
+          "correct_option": "Total kinetic energy before and after",
+          "answer": "B. Total kinetic energy before and after",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Represent interactions with momentum bar charts",
+      "unit": "Unit 4: Linear Momentum",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "In a momentum bar chart for an explosion starting from rest, the final bars for the two objects must:",
+          "options": ["Both be positive", "Both be negative", "Sum to zero", "Be equal to mass"],
+          "correct_option": "Sum to zero",
+          "answer": "C. Sum to zero",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If an external impulse of +5 units is applied to a system, the final momentum bars will sum to:",
+          "options": ["Initial momentum sum", "Initial momentum sum + 5", "5", "Zero"],
+          "correct_option": "Initial momentum sum + 5",
+          "answer": "B. Initial momentum sum + 5",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which chart represents a perfectly inelastic collision between identical masses where mass 2 was at rest?",
+          "options": ["Obj1=10, Obj1+2=10", "Obj1=10, Obj1+2=20", "Obj1=10, Obj1=5, Obj2=5", "Initial and final zero"],
+          "correct_option": "Obj1=10, Obj1+2=10",
+          "answer": "A. Obj1=10, Obj1+2=10",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A momentum bar chart shows a single object's bar going from +4 to -2. The impulse bar must be:",
+          "options": ["+2", "-2", "-6", "+6"],
+          "correct_option": "-6",
+          "answer": "C. -6",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Predict speed ratios from mass ratios in explosions",
+      "unit": "Unit 4: Linear Momentum",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Two objects, m and 4m, are initially at rest and push apart. If the speed of m is v, the speed of 4m is:",
+          "options": ["v/4", "v/2", "2v", "4v"],
+          "correct_option": "v/4",
+          "answer": "A. v/4",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps to a 5",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A 60 kg person jumps forward at 2 m/s from a 120 kg boat. What is the boat's recoil speed?",
+          "options": ["1 m/s", "2 m/s", "4 m/s", "0.5 m/s"],
+          "correct_option": "1 m/s",
+          "answer": "A. 1 m/s",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In an explosion, the more massive fragment will always have _____ speed than the less massive fragment.",
+          "options": ["More", "Less", "The same", "Zero"],
+          "correct_option": "Less",
+          "answer": "B. Less",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Two blocks push off each other. Block A has speed 10 m/s and Block B has speed 2 m/s. The mass ratio mA/mB is:",
+          "options": ["1/5", "5", "1/25", "25"],
+          "correct_option": "1/5",
+          "answer": "A. 1/5",
+          "source_reference": {
+            "source_tier": "generated_fill",
+            "source_name": "NotebookLM Internal",
+            "chapter": "Unit 4: Linear Momentum",
+            "generated": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "schema_version": "2.0",
+  "source_type": "textbook",
+  "source_label": "Pearson Edexcel Year 1 Pure",
+  "textbook_key": "pearson-9ma0-y1",
+  "overlay_key": "pearson-9ma0-full",
+  "subject": "9MA0",
+  "question_types": [
+    {
+      "title": "Linear simultaneous equations 3A — Elimination Method",
+      "section_ref": "3.1",
+      "unit_label": "Chapter 3 — Equations and inequalities",
+      "primary_slo": "9MA0.P1.1.2.5",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Solve the following simultaneous equations by elimination: 2x – y = 6, 4x + 3y = 22",
+          "explanation": "Multiply the first equation by 3 to get 6x - 3y = 18. Add to 4x + 3y = 22 to get 10x = 40, so x = 4. Substitute into 2x - y = 6: y = 2.",
+          "diagram_required": "none",
+          "options": [
+            "x = 4, y = 2",
+            "x = 2, y = 4",
+            "x = 3, y = 0",
+            "x = 5, y = 4"
+          ],
+          "correct_option": "A"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Solve the following simultaneous equations by elimination: 7x + 3y = 16, 2x + 9y = 29",
+          "explanation": "Multiply the first equation by 3 to get 21x + 9y = 48. Subtract 2x + 9y = 29 to get 19x = 19, so x = 1. Substitute to find y = 3.",
+          "diagram_required": "none",
+          "options": [
+            "x = 3, y = 1",
+            "x = 1, y = 3",
+            "x = 2, y = 2/3",
+            "x = 1, y = 2"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Linear simultaneous equations 3A — Substitution Method",
+      "section_ref": "3.1",
+      "unit_label": "Chapter 3 — Equations and inequalities",
+      "primary_slo": "9MA0.P1.1.2.5",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Solve the following simultaneous equations by substitution: x + 3y = 11, 4x – 7y = 6",
+          "explanation": "From the first equation, x = 11 - 3y. Substitute into the second: 4(11 - 3y) - 7y = 6 => 44 - 19y = 6 => y = 2. Then x = 11 - 6 = 5.",
+          "diagram_required": "none",
+          "options": [
+            "x = 2, y = 5",
+            "x = 4, y = 7/3",
+            "x = 5, y = 2",
+            "x = 7, y = 4/3"
+          ],
+          "correct_option": "C"
+        }
+      ]
+    },
+    {
+      "title": "Quadratic simultaneous equations 3B — Linear and Quadratic",
+      "section_ref": "3.2",
+      "unit_label": "Chapter 3 — Equations and inequalities",
+      "primary_slo": "9MA0.P1.1.2.5",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Solve the simultaneous equations: x + y = 11, xy = 30",
+          "explanation": "Substitute y = 11 - x into xy = 30: x(11 - x) = 30 => x² - 11x + 30 = 0 => (x - 5)(x - 6) = 0.",
+          "diagram_required": "none",
+          "options": [
+            "(3, 8) and (8, 3)",
+            "(5, 6) only",
+            "(2, 15) and (15, 2)",
+            "(5, 6) and (6, 5)"
+          ],
+          "correct_option": "D"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Solve the simultaneous equations: 2x + y = 1, x² + y² = 1",
+          "explanation": "Substitute y = 1 - 2x: x² + (1-2x)² = 1 => 5x² - 4x = 0 => x(5x - 4) = 0. x = 0 or x = 0.8.",
+          "diagram_required": "none",
+          "options": [
+            "(0, 1) and (0.8, -0.6)",
+            "(0, 1) and (−0.8, 0.6)",
+            "(1, −1) and (0.5, 0)",
+            "(0, 1) and (1, −1)"
+          ],
+          "correct_option": "A"
+        }
+      ]
+    },
+    {
+      "title": "Quadratic simultaneous equations 3B — More Complex Systems",
+      "section_ref": "3.2",
+      "unit_label": "Chapter 3 — Equations and inequalities",
+      "primary_slo": "9MA0.P1.1.2.5",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Solve the simultaneous equations: 2x + 2y = 7, x² – 4y² = 8",
+          "explanation": "y = 3.5 - x. Substitute into x² - 4(3.5-x)² = 8 => -3x² + 28x - 57 = 0 => 3x² - 28x + 57 = 0. Discriminant = 784 - 684 = 100. x = (28 ± 10)/6 = 3 or 19/3. y = 0.5 or -17/6.",
+          "diagram_required": "none",
+          "options": [
+            "(3, 0.5) only",
+            "(3, 0.5) and (19/3, -17/6)",
+            "(4, −0.5) and (7/3, 17/6)",
+            "(2, 1.5) and (5, −1.5)"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Simultaneous equations on graphs 3C — Linear Intersections",
+      "section_ref": "3.3",
+      "unit_label": "Chapter 3 — Equations and inequalities",
+      "primary_slo": "9MA0.P1.1.2.6",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the coordinates of the point of intersection: y = 3x – 5, y = 3 – x",
+          "explanation": "3x - 5 = 3 - x => 4x = 8 => x = 2. y = 3 - 2 = 1.",
+          "diagram_required": "graph",
+          "options": [
+            "(1, −2)",
+            "(2, −1)",
+            "(2, 1)",
+            "(3, 4)"
+          ],
+          "correct_option": "C"
+        }
+      ]
+    },
+    {
+      "title": "Simultaneous equations on graphs 3C — Line and Curve Intersections",
+      "section_ref": "3.3",
+      "unit_label": "Chapter 3 — Equations and inequalities",
+      "primary_slo": "9MA0.P1.1.2.6",
+      "aligned_slos": [
+        "9MA0.P1.1.2.5"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the coordinates of the points at which the line y = x – 4 intersects the curve y² = 2x² – 17.",
+          "explanation": "(x-4)² = 2x² - 17 => x² - 8x + 16 = 2x² - 17 => x² + 8x - 33 = 0 => (x+11)(x-3) = 0. x = 3: y = -1. x = -11: y = -15.",
+          "diagram_required": "graph",
+          "options": [
+            "(3, −1) and (7, 3)",
+            "(2, −2) and (−5, −9)",
+            "(3, −1) and (−10, −14)",
+            "(3, -1) and (-11, -15)"
+          ],
+          "correct_option": "D"
+        }
+      ]
+    },
+    {
+      "title": "Linear inequalities 3D — Simple Linear",
+      "section_ref": "3.4",
+      "unit_label": "Chapter 3 — Equations and inequalities",
+      "primary_slo": "9MA0.P1.1.3.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the set of values of x for which: 2x – 3 < 5",
+          "explanation": "2x < 8 => x < 4.",
+          "diagram_required": "none",
+          "options": [
+            "x < 4",
+            "x < 1",
+            "x < 8",
+            "x > 4"
+          ],
+          "correct_option": "A"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Find the set of values of x for which: 5x + 4 ≥ 39",
+          "explanation": "5x ≥ 35 => x ≥ 7.",
+          "diagram_required": "none",
+          "options": [
+            "x ≥ 35",
+            "x ≥ 7",
+            "x > 7",
+            "x ≥ 8"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Linear inequalities 3D — Variables on Both Sides",
+      "section_ref": "3.4",
+      "unit_label": "Chapter 3 — Equations and inequalities",
+      "primary_slo": "9MA0.P1.1.3.1",
+      "aligned_slos": [
+        "9MA0.P1.1.3.2"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the set of values of x for which: 1 + x < 25 + 3x",
+          "explanation": "1 < 25 + 2x => -24 < 2x => x > -12.",
+          "diagram_required": "none",
+          "options": [
+            "x < −12",
+            "x > 12",
+            "x > -12",
+            "x < 12"
+          ],
+          "correct_option": "C"
+        }
+      ]
+    },
+    {
+      "title": "Quadratic inequalities 3E — Standard Quadratic",
+      "section_ref": "3.5",
+      "unit_label": "Chapter 3 — Equations and inequalities",
+      "primary_slo": "9MA0.P1.1.2.4",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the set of values of x for which: x² – 11x + 24 < 0",
+          "explanation": "(x - 3)(x - 8) < 0. The quadratic is negative between the roots.",
+          "diagram_required": "none",
+          "options": [
+            "x < 3 or x > 8",
+            "2 < x < 9",
+            "3 ≤ x ≤ 8",
+            "3 < x < 8"
+          ],
+          "correct_option": "D"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Find the set of values of x for which: x² + 7x + 12 ≥ 0",
+          "explanation": "(x + 4)(x + 3) ≥ 0. The quadratic is non-negative outside the roots.",
+          "diagram_required": "none",
+          "options": [
+            "x ≤ -4 or x ≥ -3",
+            "−4 ≤ x ≤ −3",
+            "x ≤ −3 or x ≥ −4",
+            "x < −4 or x > −3"
+          ],
+          "correct_option": "A"
+        }
+      ]
+    },
+    {
+      "title": "Quadratic inequalities 3E — Non-monic and Rearranged",
+      "section_ref": "3.5",
+      "unit_label": "Chapter 3 — Equations and inequalities",
+      "primary_slo": "9MA0.P1.1.2.4",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the set of values of x for which: 10 + x – 2x² < 0",
+          "explanation": "Rearrange: 2x² - x - 10 > 0. Factorise: (2x - 5)(x + 2) > 0. Positive outside roots x = -2 and x = 2.5.",
+          "diagram_required": "none",
+          "options": [
+            "−2 < x < 2.5",
+            "x < -2 or x > 2.5",
+            "x < −5 or x > 2",
+            "x < −2 or x > 5"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Inequalities on graphs 3F — Graphical Analysis",
+      "section_ref": "3.6",
+      "unit_label": "Chapter 3 — Equations and inequalities",
+      "primary_slo": "9MA0.P1.1.3.2",
+      "aligned_slos": [
+        "9MA0.P1.1.2.6"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "L1: 2y + 3x = 6. L2: x – y = 5. Find the coordinates of their intersection P.",
+          "explanation": "y = x - 5. Sub into 2(x-5) + 3x = 6 => 5x = 16 => x = 3.2. y = -1.8.",
+          "diagram_required": "graph",
+          "options": [
+            "(2, −3)",
+            "(3, −2)",
+            "(3.2, -1.8)",
+            "(4, −1)"
+          ],
+          "correct_option": "C"
+        }
+      ]
+    }
+  ]
+}

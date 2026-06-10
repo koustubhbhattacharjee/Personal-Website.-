@@ -1,0 +1,1672 @@
+{
+  "version": 2,
+  "source_label": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+  "source_type": "external",
+  "textbook_key": "barrons_ap_phys1_premium_2024",
+  "units": [
+    {
+      "id": "u1",
+      "label": "Unit 1: Kinematics",
+      "question_types": [
+        {
+          "existing_qt_id": "5a8c81d4-4f87-4e64-ab24-c31c4c8cde57",
+          "title": "Constant-acceleration 1D kinematics (algebraic)",
+          "unit_label": "Unit 1: Kinematics",
+          "primary_slo": "1.3.A.2",
+          "questions": [
+            {
+              "id": "barrons_ch02_kinematics_q1",
+              "label": "1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "v=v0+at to find time to apex",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 64,
+                "section": "ch02 kinematics",
+                "exercise_ref": "1"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A ball is thrown upward with an initial velocity of 20 m/s. How long will the ball take to reach its maximum height?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 19.6 s\n(B) 9.8 s\n(C) 6.3 s\n(D) 2.04 s"
+                }
+              ],
+              "options": [
+                "(A) 19.6 s",
+                "(B) 9.8 s",
+                "(C) 6.3 s",
+                "(D) 2.04 s"
+              ],
+              "correct_option": "(D) 2.04 s"
+            },
+            {
+              "id": "barrons_ch02_kinematics_q2",
+              "label": "2",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "v\u00b2=v0\u00b2+2ax for stopping distance from given numbers",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 64,
+                "section": "ch02 kinematics",
+                "exercise_ref": "2"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "An airplane lands on a runway with a velocity of 150 m/s. How far will it travel until it stops if its rate of deceleration is constant at \u22123 m/s2?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 525 m\n(B) 3,750 m\n(C) 6,235 m\n(D) 9,813 m"
+                }
+              ],
+              "options": [
+                "(A) 525 m",
+                "(B) 3,750 m",
+                "(C) 6,235 m",
+                "(D) 9,813 m"
+              ],
+              "correct_option": "(B) 3,750 m"
+            },
+            {
+              "id": "barrons_ch02_kinematics_q3",
+              "label": "3",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "v=v0+gt for downward throw",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 64,
+                "section": "ch02 kinematics",
+                "exercise_ref": "3"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A ball is thrown downward from the top of a roof with a speed of 25 m/s. After 2 s, its velocity will be"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 19.6 m/s\n(B) \u22125.4 m/s\n(C) \u221244.6 m/s\n(D) 44.6 m/s"
+                }
+              ],
+              "options": [
+                "(A) 19.6 m/s",
+                "(B) \u22125.4 m/s",
+                "(C) \u221244.6 m/s",
+                "(D) 44.6 m/s"
+              ],
+              "correct_option": "(C) \u221244.6 m/s"
+            },
+            {
+              "id": "barrons_ch02_kinematics_q9",
+              "label": "9",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 64,
+                "section": "ch02 kinematics",
+                "exercise_ref": "9"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "An object has an initial velocity of 15 m/s. How long must it accelerate at a constant rate of 3 m/s2 before its average velocity is equal to twice its initial velocity?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 5 s\n(B) 10 s\n(C) 15 s\n(D) 20 s"
+                }
+              ],
+              "options": [
+                "(A) 5 s",
+                "(B) 10 s",
+                "(C) 15 s",
+                "(D) 20 s"
+              ],
+              "correct_option": "(B) 10 s"
+            },
+            {
+              "id": "barrons_ch02_kinematics_q2_frq",
+              "label": "2",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "Two-stone simultaneous-arrival kinematics",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 66,
+                "section": "ch02 kinematics",
+                "exercise_ref": "FRQ-2"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A stone is dropped from a 75-m-high building. When this stone has dropped 15 m, a second stone is thrown downward with an initial velocity such that the two stones hit the ground at the same time. What was the initial velocity of the second stone?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "2326880d-363a-428e-b280-54f7cf74f54a",
+          "title": "Vertical throw: maximum height proportional to v\u00b2/(2g)",
+          "unit_label": "Unit 1: Kinematics",
+          "primary_slo": "1.3.A.2",
+          "questions": [
+            {
+              "id": "barrons_ch02_kinematics_q4",
+              "label": "4",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.7,
+              "classification_note": "Two-stage: powered ascent + free-fall to apex",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 64,
+                "section": "ch02 kinematics",
+                "exercise_ref": "4"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A rocket is propelled upward with an acceleration of 25 m/s2 for 5 s. After that time, the engine is shut off, and the rocket continues to move upward. The maximum height, in meters, that the rocket will reach is"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 900\n(B) 1,000\n(C) 1,100\n(D) 1,200\nQuestions 5\u20137 refer to the velocity versus time graph shown below.\n[IMG alt= src=../images/f064-01.jpg]"
+                }
+              ],
+              "options": [
+                "(A) 900",
+                "(B) 1,000",
+                "(C) 1,100",
+                "(D) 1,200\nQuestions 5\u20137 refer to the velocity versus time graph shown below.\n[IMG alt= src=../images/f064-01.jpg]"
+              ],
+              "correct_option": "(C) 1,100"
+            },
+            {
+              "id": "barrons_ch02_kinematics_q6_frq",
+              "label": "6",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.7,
+              "classification_note": "Up vs down throw symmetry",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 66,
+                "section": "ch02 kinematics",
+                "exercise_ref": "FRQ-6"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A girl standing on top of a roof throws a stone straight upward into the air with a certain speed. She then throws a similar stone directly downward with the same speed. Compare the velocities of both stones when they reach the ground."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "b6a4a3d2-32de-4d3d-b5a9-0dc9a9f7d543",
+          "title": "Area under v-t graph to find displacement/position",
+          "unit_label": "Unit 1: Kinematics",
+          "primary_slo": "1.3.A.4",
+          "questions": [
+            {
+              "id": "barrons_ch02_kinematics_q5",
+              "label": "5",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 64,
+                "section": "ch02 kinematics",
+                "exercise_ref": "5"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The total distance traveled by the object during the indicated 14 s is"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 7.5 m\n(B) 25 m\n(C) 62.5 m\n(D) 77.5 m"
+                }
+              ],
+              "options": [
+                "(A) 7.5 m",
+                "(B) 25 m",
+                "(C) 62.5 m",
+                "(D) 77.5 m"
+              ],
+              "correct_option": "(C) 62.5 m"
+            },
+            {
+              "id": "barrons_ch02_kinematics_q6",
+              "label": "6",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 64,
+                "section": "ch02 kinematics",
+                "exercise_ref": "6"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The total displacement of the object during the 14 s indicated is"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 7.5 m\n(B) 25 m\n(C) 62.5 m\n(D) 77.5 m"
+                }
+              ],
+              "options": [
+                "(A) 7.5 m",
+                "(B) 25 m",
+                "(C) 62.5 m",
+                "(D) 77.5 m"
+              ],
+              "correct_option": "(A) 7.5 m"
+            },
+            {
+              "id": "barrons_ch02_kinematics_q7",
+              "label": "7",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 64,
+                "section": "ch02 kinematics",
+                "exercise_ref": "7"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The average velocity over the whole time, in meters per second, of the object is"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 0\n(B) 0.5\n(C) 2.5\n(D) 4.5"
+                }
+              ],
+              "options": [
+                "(A) 0",
+                "(B) 0.5",
+                "(C) 2.5",
+                "(D) 4.5"
+              ],
+              "correct_option": "(B) 0.5"
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "26dee3c9-7cee-469f-8a51-fa2e4e63ed2b",
+          "title": "Area under a-t graph as change in velocity",
+          "unit_label": "Unit 1: Kinematics",
+          "primary_slo": "1.3.A.4",
+          "questions": [
+            {
+              "id": "barrons_ch02_kinematics_q8",
+              "label": "8",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 65,
+                "section": "ch02 kinematics",
+                "exercise_ref": "8"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "What is the total change in velocity for the object whose acceleration versus time graph is given below?\n[IMG alt= src=../images/f065-01.jpg]"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 40 m/s\n(B) \u221240 m/s\n(C) 80 m/s\n(D) \u221280 m/s"
+                }
+              ],
+              "options": [
+                "(A) 40 m/s",
+                "(B) \u221240 m/s",
+                "(C) 80 m/s",
+                "(D) \u221280 m/s"
+              ],
+              "correct_option": "(A) 40 m/s"
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "eeb5a802-5620-4078-85b1-c56f80916077",
+          "title": "Symmetric projectile: velocity & acceleration at labeled points",
+          "unit_label": "Unit 1: Kinematics",
+          "primary_slo": "1.5.B.2",
+          "questions": [
+            {
+              "id": "barrons_ch02_kinematics_q10",
+              "label": "10",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "v_x at apex of 45\u00b0 launch",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 64,
+                "section": "ch02 kinematics",
+                "exercise_ref": "10"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A projectile is launched at an angle of 45\u00b0 with a velocity of 250 m/s. If air resistance is neglected, the magnitude of the horizontal velocity of the projectile at the time it reaches maximum altitude is equal to"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 0 m/s\n(B) 175 m/s\n(C) 200 m/s\n(D) 250 m/s"
+                }
+              ],
+              "options": [
+                "(A) 0 m/s",
+                "(B) 175 m/s",
+                "(C) 200 m/s",
+                "(D) 250 m/s"
+              ],
+              "correct_option": "(B) 175 m/s"
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "0585aefe-9c76-4e2a-921b-b8ce0dbc1418",
+          "title": "Horizontal projectile: range & time-of-flight from a height",
+          "unit_label": "Unit 1: Kinematics",
+          "primary_slo": "1.5.B.2",
+          "questions": [
+            {
+              "id": "barrons_ch02_kinematics_q11",
+              "label": "11",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 64,
+                "section": "ch02 kinematics",
+                "exercise_ref": "11"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A projectile is launched horizontally with a velocity of 25 m/s from the top of a 75-m height. How many seconds will the projectile take to reach the bottom?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 15.5\n(B) 9.75\n(C) 6.31\n(D) 3.91"
+                }
+              ],
+              "options": [
+                "(A) 15.5",
+                "(B) 9.75",
+                "(C) 6.31",
+                "(D) 3.91"
+              ],
+              "correct_option": "(D) 3.91"
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "86e85fea-9a0a-4219-a451-bcb643c79250",
+          "title": "Projectile launch angle: range and speed dependence on \u03b1",
+          "unit_label": "Unit 1: Kinematics",
+          "primary_slo": "1.5.B.2",
+          "questions": [
+            {
+              "id": "barrons_ch02_kinematics_q12",
+              "label": "12",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 65,
+                "section": "ch02 kinematics",
+                "exercise_ref": "12"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "At a launch angle of 45\u00b0, the range of a launched projectile is given by"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) [IMG alt= src=../images/f065-02.jpg]\n(B) [IMG alt= src=../images/f065-03.jpg]\n(C) [IMG alt= src=../images/f065-04.jpg]\n(D) [IMG alt= src=../images/f065-05.jpg]"
+                }
+              ],
+              "options": [
+                "(A) [IMG alt= src=../images/f065-02.jpg]",
+                "(B) [IMG alt= src=../images/f065-03.jpg]",
+                "(C) [IMG alt= src=../images/f065-04.jpg]",
+                "(D) [IMG alt= src=../images/f065-05.jpg]"
+              ],
+              "correct_option": "(A) [IMG alt= src=../images/f065-02.jpg]"
+            },
+            {
+              "id": "barrons_ch02_kinematics_q13",
+              "label": "13",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 64,
+                "section": "ch02 kinematics",
+                "exercise_ref": "13"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A projectile is launched at a certain angle. After 4 s, it hits the top of a building 500 m away. The height of the building is 50 m. The projectile was launched at an angle of"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 14\u00b0\n(B) 21\u00b0\n(C) 37\u00b0\n(D) 76\u00b0"
+                }
+              ],
+              "options": [
+                "(A) 14\u00b0",
+                "(B) 21\u00b0",
+                "(C) 37\u00b0",
+                "(D) 76\u00b0"
+              ],
+              "correct_option": "(A) 14\u00b0"
+            },
+            {
+              "id": "barrons_ch02_kinematics_q9_frq",
+              "label": "9",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "Football pass + receiver pursuit \u2014 projectile motion + relative",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 66,
+                "section": "ch02 kinematics",
+                "exercise_ref": "FRQ-9"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A football quarterback throws a pass to a receiver at an angle of 25 degrees to the horizontal and at an initial velocity of 25 m/s. The receiver is initially at rest 30 m from the quarterback. The instant the ball is thrown, the receiver runs at a constant velocity to catch the pass. In what direction and at what speed should he run?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "fe873d0c-92ef-47dc-9aa2-f11c3fbdd4d5",
+          "title": "Relative motion, average speed/velocity, and 1D sign conventions",
+          "unit_label": "Unit 1: Kinematics",
+          "primary_slo": "1.4.B.2",
+          "questions": [
+            {
+              "id": "barrons_ch02_kinematics_q14",
+              "label": "14",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "Boat-river crossing \u2014 vector sum of velocities",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 64,
+                "section": "ch02 kinematics",
+                "exercise_ref": "14"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The operator of a boat wishes to cross a 5-km-wide river that is flowing to the east at 10 m/s. He wants to reach the exact point on the opposite shore 15 min after starting. With what speed and in what direction should the boat travel?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 11.2 m/s at 26.6\u00b0 E of N\n(B) 8.66 m/s at 63.4\u00b0 W of N\n(C) 11.4 m/s at 60.9\u00b0 W of N\n(D) 8.66 m/s at 26.6\u00b0 E of N"
+                }
+              ],
+              "options": [
+                "(A) 11.2 m/s at 26.6\u00b0 E of N",
+                "(B) 8.66 m/s at 63.4\u00b0 W of N",
+                "(C) 11.4 m/s at 60.9\u00b0 W of N",
+                "(D) 8.66 m/s at 26.6\u00b0 E of N"
+              ],
+              "correct_option": "(C) 11.4 m/s at 60.9\u00b0 W of N"
+            },
+            {
+              "id": "barrons_ch02_kinematics_q5_frq",
+              "label": "5",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.7,
+              "classification_note": "Conceptual: avg vs instantaneous velocity",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 66,
+                "section": "ch02 kinematics",
+                "exercise_ref": "FRQ-5"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "If the average velocity of an object is nonzero, does this mean that the instantaneous velocity of the object can never be zero? Explain."
+                }
+              ]
+            },
+            {
+              "id": "barrons_ch02_kinematics_q7_frq",
+              "label": "7",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "Conceptual: avg velocity zero, avg speed nonzero",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 66,
+                "section": "ch02 kinematics",
+                "exercise_ref": "FRQ-7"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Explain how it is possible for an object to have zero average velocity and still have nonzero average speed."
+                }
+              ]
+            },
+            {
+              "id": "barrons_ch02_kinematics_q10_frq",
+              "label": "10",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "Raindrops on car windshield \u2014 frame change",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 66,
+                "section": "ch02 kinematics",
+                "exercise_ref": "FRQ-10"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A car is moving in a straight line with velocity v. Raindrops are falling vertically downward with a constant terminal velocity u. At what angle does the driver think the drops are hitting the car\u2019s windshield? Explain."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "5b76e395-6460-4ae6-b5ad-9d1ae185c10d",
+          "title": "Translating between x-t, v-t, and a-t graph shapes",
+          "unit_label": "Unit 1: Kinematics",
+          "primary_slo": "1.3.A.1",
+          "questions": [
+            {
+              "id": "barrons_ch02_kinematics_q1_frq",
+              "label": "1",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "Generate v-t from a-t",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 66,
+                "section": "ch02 kinematics",
+                "exercise_ref": "FRQ-1"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A particle has the acceleration versus time graph shown below:\n[IMG alt= src=../images/f066-01.jpg]\nIf the particle begins its motion at t = 0, with v = 0 and x = 0, make a graph of velocity versus time."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "c3845131-ee4b-4d41-8a0f-1ac34c571616",
+          "title": "Slope of x-t graph as instantaneous velocity",
+          "unit_label": "Unit 1: Kinematics",
+          "primary_slo": "1.3.A.4",
+          "questions": [
+            {
+              "id": "barrons_ch02_kinematics_q3_frq",
+              "label": "3",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "x(t)=3t\u00b2+2 \u2014 limit of avg velocity \u2192 instant",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 66,
+                "section": "ch02 kinematics",
+                "exercise_ref": "FRQ-3"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A particle is moving in one dimension along the x-axis. The position of the particle is given, for any time, by the following position function:\nx(t) = 3 t2 + 2\n(a)Evaluate the average velocity of the particle starting at t = 2 s for \u0394t = 1, 0.5, 0.2, 0.1, 0.01, 0.001 s.\n(b)Interpret the physical meaning of your results for part (a)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "6a01083f-3628-4fde-8733-7e4619b10de9",
+          "title": "Free-fall from rest: distance scales as t\u00b2",
+          "unit_label": "Unit 1: Kinematics",
+          "primary_slo": "1.3.A.3",
+          "questions": [
+            {
+              "id": "barrons_ch02_kinematics_q4_frq",
+              "label": "4",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "Stone dropped, last-half time relation",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 66,
+                "section": "ch02 kinematics",
+                "exercise_ref": "FRQ-4"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A stone is dropped from a height h and falls the last half of its distance in 4 seconds. (a) What was the total time of fall? (b) From what height was the stone dropped?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "eb845e08-5bbb-476d-8524-093df1e68971",
+          "title": "Free-fall conceptual: acceleration is constant regardless of mass/location",
+          "unit_label": "Unit 1: Kinematics",
+          "primary_slo": "1.3.A.3",
+          "questions": [
+            {
+              "id": "barrons_ch05_gravitation_q2_frq",
+              "label": "2",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 119,
+                "section": "ch05 gravitation",
+                "exercise_ref": "FRQ-2"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Explain why a heavier object near the surface of Earth does not fall faster than a lighter object (Neglect air resistance)."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "label": "Unit 2: Force and Translational Dynamics",
+      "question_types": [
+        {
+          "existing_qt_id": "08af44c8-7071-4d00-b9e1-0d0d84c144d5",
+          "title": "Object leaving a circular path (projectile after release)",
+          "unit_label": "Unit 2: Force and Translational Dynamics",
+          "primary_slo": "2.4.A.3",
+          "questions": [
+            {
+              "id": "barrons_ch02_kinematics_q8_frq",
+              "label": "8",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "Mass on string overhead, lands after release",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 66,
+                "section": "ch02 kinematics",
+                "exercise_ref": "FRQ-8"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A mass attached to a string is twirled overhead in a horizontal circle of radius r every 0.3 s. The path is directly 0.5 m above the ground. When released, the mass lands 2.6 m away. What was the velocity of the mass when it was released, and what was the radius of the circular path?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "3c7a84f6-6cb3-4a12-bd32-6a0a7a78c31f",
+          "title": "Static equilibrium of a hanging mass with strings at angles",
+          "unit_label": "Unit 2: Force and Translational Dynamics",
+          "primary_slo": "2.4.A.2",
+          "questions": [
+            {
+              "id": "barrons_ch03_forces_q1",
+              "label": "1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 86,
+                "section": "ch03 forces",
+                "exercise_ref": "1"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "In the situation shown below, what is the tension in string 1?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 69.3 N\n(B) 98 N\n(C) 138.6 N\n(D) 147.6 N\n[IMG alt= src=../images/f086-01.jpg]"
+                }
+              ],
+              "options": [
+                "(A) 69.3 N",
+                "(B) 98 N",
+                "(C) 138.6 N",
+                "(D) 147.6 N\n[IMG alt= src=../images/f086-01.jpg]"
+              ],
+              "correct_option": "(A) 69.3 N"
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+          "title": "Connected blocks via string/pulley (Atwood & variants)",
+          "unit_label": "Unit 2: Force and Translational Dynamics",
+          "primary_slo": "2.5.A.1",
+          "questions": [
+            {
+              "id": "barrons_ch03_forces_q2",
+              "label": "2",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 86,
+                "section": "ch03 forces",
+                "exercise_ref": "2"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Two masses, M and m, are hung over a massless, frictionless pulley as shown below. If M > m, what is the downward acceleration of mass M?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) g\n(B) [IMG alt= src=../images/f086-02.jpg]\n(C) [IMG alt= src=../images/f086-03.jpg]\n(D) [IMG alt= src=../images/f086-04.jpg]\n[IMG alt= src=../images/f086-05.jpg]"
+                }
+              ],
+              "options": [
+                "(A) g",
+                "(B) [IMG alt= src=../images/f086-02.jpg]",
+                "(C) [IMG alt= src=../images/f086-03.jpg]",
+                "(D) [IMG alt= src=../images/f086-04.jpg]\n[IMG alt= src=../images/f086-05.jpg]"
+              ],
+              "correct_option": "(B) [IMG alt= src=../images/f086-02.jpg]"
+            },
+            {
+              "id": "barrons_ch03_forces_q7",
+              "label": "7",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.7,
+              "classification_note": "Two blocks side-by-side pushed; 'connected blocks' is the closest catalog match (no dedicated 'pushed-together blocks' QT)",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 87,
+                "section": "ch03 forces",
+                "exercise_ref": "7"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A 20-N force is pushing two blocks horizontally along a frictionless floor as shown below.\n[IMG alt= src=../images/f087-01.jpg]\nWhat is the force that the 8-kg mass exerts on the 2-kg mass?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 4 N\n(B) 8 N\n(C) 16 N\n(D) 20 N"
+                }
+              ],
+              "options": [
+                "(A) 4 N",
+                "(B) 8 N",
+                "(C) 16 N",
+                "(D) 20 N"
+              ],
+              "correct_option": "(C) 16 N"
+            },
+            {
+              "id": "barrons_ch03_forces_q9",
+              "label": "9",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "Block on table + pulley + hanging mass, frictionless",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 87,
+                "section": "ch03 forces",
+                "exercise_ref": "9"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "According to the diagram below, what is the tension in the connecting string if the table is frictionless?\n[IMG alt= src=../images/f087-03.jpg]"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 6.4 N\n(B) 13 N\n(C) 19.7 N\n(D) 25 N"
+                }
+              ],
+              "options": [
+                "(A) 6.4 N",
+                "(B) 13 N",
+                "(C) 19.7 N",
+                "(D) 25 N"
+              ],
+              "correct_option": "(C) 19.7 N"
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "41bca3e2-c8ce-409c-a321-c89763c254ac",
+          "title": "Tension at top/bottom of vertical circle",
+          "unit_label": "Unit 2: Force and Translational Dynamics",
+          "primary_slo": "2.9.A.2",
+          "questions": [
+            {
+              "id": "barrons_ch03_forces_q3",
+              "label": "3",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 86,
+                "section": "ch03 forces",
+                "exercise_ref": "3"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A 0.25-kg mass is attached to a string and swung in a vertical circle whose radius is 0.75 m. At the bottom of the circle, the mass is observed to have a speed of 10 m/s. What is the magnitude of the tension in the string at that point?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 2.45 N\n(B) 5.78 N\n(C) 22.6 N\n(D) 35.7 N"
+                }
+              ],
+              "options": [
+                "(A) 2.45 N",
+                "(B) 5.78 N",
+                "(C) 22.6 N",
+                "(D) 35.7 N"
+              ],
+              "correct_option": "(D) 35.7 N"
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "b1dffc3c-32f4-4126-bfaa-45375beec9a6",
+          "title": "Centripetal acceleration and force calculations (a = v\u00b2/r)",
+          "unit_label": "Unit 2: Force and Translational Dynamics",
+          "primary_slo": "2.9.A.2",
+          "questions": [
+            {
+              "id": "barrons_ch03_forces_q4",
+              "label": "4",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.7,
+              "classification_note": "Hilltop apparent weight \u2014 N=m(g-v\u00b2/r); could also map to bbb55c91",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 86,
+                "section": "ch03 forces",
+                "exercise_ref": "4"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A car and driver have a combined mass of 1,000 kg. The car passes over the top of a hill that has a radius of curvature equal to 10 m. The speed of the car at that instant is 5 m/s. What is the force of the hill on the car as it passes over the top?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 7,300 N up\n(B) 7,300 N down\n(C) 12,300 N up\n(D) 12,300 N down"
+                }
+              ],
+              "options": [
+                "(A) 7,300 N up",
+                "(B) 7,300 N down",
+                "(C) 12,300 N up",
+                "(D) 12,300 N down"
+              ],
+              "correct_option": "(A) 7,300 N up"
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "3de57203-070c-41b7-9f45-7ed8e18261bb",
+          "title": "Horizontal kinetic friction numerical comparison",
+          "unit_label": "Unit 2: Force and Translational Dynamics",
+          "primary_slo": "2.7.A.2",
+          "questions": [
+            {
+              "id": "barrons_ch03_forces_q5",
+              "label": "5",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "Puck onto frictional surface, stopping distance via \u03bc",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 86,
+                "section": "ch03 forces",
+                "exercise_ref": "5"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A hockey puck with a mass of 0.3 kg is sliding along ice that can be considered frictionless. The puck\u2019s velocity is 20 m/s. The puck now crosses over onto a floor that has a coefficient of kinetic friction equal to 0.35. How far will the puck travel across the floor before it stops?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 3 m\n(B) 87 m\n(C) 48 m\n(D) 58 m"
+                }
+              ],
+              "options": [
+                "(A) 3 m",
+                "(B) 87 m",
+                "(C) 48 m",
+                "(D) 58 m"
+              ],
+              "correct_option": "(D) 58 m"
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "665c502a-a8bf-47bb-9ec1-20afb9ca37a3",
+          "title": "Ideal spring / Hooke's law and effective spring constant",
+          "unit_label": "Unit 2: Force and Translational Dynamics",
+          "primary_slo": "2.8.A.1",
+          "questions": [
+            {
+              "id": "barrons_ch03_forces_q6",
+              "label": "6",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "Spring on incline \u2014 F=kx with weight component",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 86,
+                "section": "ch03 forces",
+                "exercise_ref": "6"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A spring with a stiffness constant k = 50 N/m has a natural length of 0.45 m. It is attached to the top of an incline that makes a 30\u00b0 angle with the horizontal. The incline is 2.4 m long. A mass of 2 kg is attached to the spring, causing it to be stretched down the incline. How far down the incline does the end of the spring rest?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 0.196 m\n(B) 0.45 m\n(C) 0.646 m\n(D) 0.835 m"
+                }
+              ],
+              "options": [
+                "(A) 0.196 m",
+                "(B) 0.45 m",
+                "(C) 0.646 m",
+                "(D) 0.835 m"
+              ],
+              "correct_option": "(C) 0.646 m"
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "c8a99dfd-56d2-484d-b628-835fb9dc7864",
+          "title": "Block on incline driven by horizontal applied force (with friction)",
+          "unit_label": "Unit 2: Force and Translational Dynamics",
+          "primary_slo": "2.7.A.1",
+          "questions": [
+            {
+              "id": "barrons_ch03_forces_q8",
+              "label": "8",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.7,
+              "classification_note": "Frictionless variant \u2014 geometry is the same",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 87,
+                "section": "ch03 forces",
+                "exercise_ref": "8"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A force of 20 N acts horizontally on a mass of 10 kg being pushed along a frictionless incline that makes a 30\u00b0 angle with the horizontal, as shown below.\n[IMG alt= src=../images/f087-02.jpg]\nThe magnitude of the acceleration of the mass up the incline is equal to"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 1.9 m/s2\n(B) 2.2 m/s2\n(C) 3.17 m/s2\n(D) 3.87 m/s2"
+                }
+              ],
+              "options": [
+                "(A) 1.9 m/s2",
+                "(B) 2.2 m/s2",
+                "(C) 3.17 m/s2",
+                "(D) 3.87 m/s2"
+              ],
+              "correct_option": "(C) 3.17 m/s2"
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+          "title": "Block on inclined plane with friction (weight components)",
+          "unit_label": "Unit 2: Force and Translational Dynamics",
+          "primary_slo": "2.7.B.1",
+          "questions": [
+            {
+              "id": "barrons_ch03_forces_q10",
+              "label": "10",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "Find \u03bc_k from observed slide",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 86,
+                "section": "ch03 forces",
+                "exercise_ref": "10"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A mass, M, is released from rest on an incline that makes a 42\u00b0 angle with the horizontal. In 3 s, the mass is observed to have gone a distance of 3 m. What is the coefficient of kinetic friction between the mass and the surface of the incline?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 0.8\n(B) 0.7\n(C) 0.6\n(D) 0.5"
+                }
+              ],
+              "options": [
+                "(A) 0.8",
+                "(B) 0.7",
+                "(C) 0.6",
+                "(D) 0.5"
+              ],
+              "correct_option": "(A) 0.8"
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "bb78f05e-de80-495a-a5ea-0541171a0769",
+          "title": "Stacked blocks & friction-limited acceleration",
+          "unit_label": "Unit 2: Force and Translational Dynamics",
+          "primary_slo": "2.7.B.1",
+          "questions": [
+            {
+              "id": "barrons_ch03_forces_q1_frq",
+              "label": "1",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 87,
+                "section": "ch03 forces",
+                "exercise_ref": "FRQ-1"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A 3-kg block is placed on top of a 7-kg block as shown below.\n[IMG alt= src=../images/f087-04.jpg]\nThe coefficient of kinetic friction between the 7-kg block and the surface is 0.35. A horizontal force F acts on the 7-kg block.\n(a)Draw a free-body diagram for each block.\n(b)Calculate the magnitude of the applied force F necessary to maintain an acceleration of 5 m/s2.\n(c)Find the minimum coefficient of static friction necessary to prevent the 3-kg block from slipping."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "8c49e5bd-98d3-4fd2-a0f8-6ed7ba0fd0f7",
+          "title": "Banked / rotating wall & friction for circular motion",
+          "unit_label": "Unit 2: Force and Translational Dynamics",
+          "primary_slo": "2.9.A.2",
+          "questions": [
+            {
+              "id": "barrons_ch03_forces_q2_frq",
+              "label": "2",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "Banked curve, no-friction angle",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 88,
+                "section": "ch03 forces",
+                "exercise_ref": "FRQ-2"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A curved road is banked at an angle \u03b8, such that friction is not necessary for a car to stay on the road. A 2,500-kg car is traveling at a speed of 25 m/s, and the road has a radius of curvature equal to 40 m.\n(a)Draw a free-body diagram for the situation described above.\n(b)Find angle \u03b8.\n(c)Calculate the magnitude of the force that the road exerts on the car."
+                }
+              ]
+            },
+            {
+              "id": "barrons_ch03_forces_q3_frq",
+              "label": "3",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "Rotor ride \u2014 exactly QT note example",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 88,
+                "section": "ch03 forces",
+                "exercise_ref": "FRQ-3"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The \u201crotor\u201d is an amusement park ride that can be modeled as a rotating cylinder, with radius r. A person inside the rotor is held motionless against the sides of the ride as it rotates with a certain velocity. The coefficient of static friction between a person and the sides is \u00b5.\n(a)Derive a formula for the period of rotation T, in terms of r, g, and \u00b5.\n(b)If r = 5 m and \u00b5 = 0.5, calculate the value of the period T in seconds.\n(c)Using the answer to part (b), calculate the angular velocity \u03c9 in radians per second."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "bbb55c91-193b-4fdb-a7d0-fd44400515a9",
+          "title": "Apparent weight in an accelerating elevator",
+          "unit_label": "Unit 2: Force and Translational Dynamics",
+          "primary_slo": "2.6.C.1",
+          "questions": [
+            {
+              "id": "barrons_ch03_forces_q4_frq",
+              "label": "4",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.7,
+              "classification_note": "Earth-equator apparent weight (rotating frame)",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 88,
+                "section": "ch03 forces",
+                "exercise_ref": "FRQ-4"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "How does the rotation of Earth affect the apparent weight of a 1-kg mass at the equator?"
+                }
+              ]
+            },
+            {
+              "id": "barrons_ch05_gravitation_q4_frq",
+              "label": "4",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "Free-fall in orbit = weightlessness",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 119,
+                "section": "ch05 gravitation",
+                "exercise_ref": "FRQ-4"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Explain why objects in orbit appear to be \u201cweightless.\u201d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "d99753dc-133b-4cf6-a4e9-f7406ed4bcf0",
+          "title": "Newton's third law (force pairs)",
+          "unit_label": "Unit 2: Force and Translational Dynamics",
+          "primary_slo": "2.3.A.1",
+          "questions": [
+            {
+              "id": "barrons_ch03_forces_q5_frq",
+              "label": "5",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "Why action-reaction pairs allow motion",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 88,
+                "section": "ch03 forces",
+                "exercise_ref": "FRQ-5"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "If forces occur in action-reaction pairs that are equal and opposite, how is it possible for any one force to cause an object to move?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "03d07b16-39e7-4c19-8567-44e95bdee70d",
+          "title": "Newton's law of universal gravitation (g, F, 1/r^2 scaling)",
+          "unit_label": "Unit 2: Force and Translational Dynamics",
+          "primary_slo": "2.6.A.2",
+          "questions": [
+            {
+              "id": "barrons_ch05_gravitation_q1",
+              "label": "1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 118,
+                "section": "ch05 gravitation",
+                "exercise_ref": "1"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "What is the value of g at a height above Earth\u2019s surface that is equal to the radius of Earth?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 9.8 N/kg\n(B) 4.9 N/kg\n(C) 6.93 N/kg\n(D) 2.45 N/kg"
+                }
+              ],
+              "options": [
+                "(A) 9.8 N/kg",
+                "(B) 4.9 N/kg",
+                "(C) 6.93 N/kg",
+                "(D) 2.45 N/kg"
+              ],
+              "correct_option": "(D) 2.45 N/kg"
+            },
+            {
+              "id": "barrons_ch05_gravitation_q2",
+              "label": "2",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 118,
+                "section": "ch05 gravitation",
+                "exercise_ref": "2"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A planet has half the mass of Earth and half the radius. Compared to the acceleration due to gravity near the surface of Earth, the acceleration of gravity near the surface of this other planet is"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) twice as much\n(B) one-fourth as much\n(C) half as much\n(D) the same"
+                }
+              ],
+              "options": [
+                "(A) twice as much",
+                "(B) one-fourth as much",
+                "(C) half as much",
+                "(D) the same"
+              ],
+              "correct_option": "(A) twice as much"
+            },
+            {
+              "id": "barrons_ch05_gravitation_q3",
+              "label": "3",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "g from density+radius",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 118,
+                "section": "ch05 gravitation",
+                "exercise_ref": "3"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Which of the following is an expression for the acceleration of gravity at the surface of a planet with uniform density \u03c1 and radius r?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) G(4\u03c0\u03c1/3r2)\n(B) G(4\u03c0\u03c1r2/3)\n(C) G(4\u03c0\u03c1/3r)\n(D) G(4\u03c0r\u03c1/3)"
+                }
+              ],
+              "options": [
+                "(A) G(4\u03c0\u03c1/3r2)",
+                "(B) G(4\u03c0\u03c1r2/3)",
+                "(C) G(4\u03c0\u03c1/3r)",
+                "(D) G(4\u03c0r\u03c1/3)"
+              ],
+              "correct_option": "(D) G(4\u03c0r\u03c1/3)"
+            },
+            {
+              "id": "barrons_ch05_gravitation_q4",
+              "label": "4",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "Orbital velocity at altitude",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 118,
+                "section": "ch05 gravitation",
+                "exercise_ref": "4"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "What is the orbital velocity of a satellite at a height of 300 km above the surface of Earth? (The mass of Earth is approximately 6 \u00d7 1024 kg, and its radius is 6.4 \u00d7 106 m.)"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 5.42 \u00d7 101 m/s\n(B) 1.15 \u00d7 106 m/s\n(C) 7.7 \u00d7 103 m/s\n(D) 6 \u00d7 106 m/s"
+                }
+              ],
+              "options": [
+                "(A) 5.42 \u00d7 101 m/s",
+                "(B) 1.15 \u00d7 106 m/s",
+                "(C) 7.7 \u00d7 103 m/s",
+                "(D) 6 \u00d7 106 m/s"
+              ],
+              "correct_option": "(C) 7.7 \u00d7 103 m/s"
+            },
+            {
+              "id": "barrons_ch05_gravitation_q5",
+              "label": "5",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.5,
+              "classification_note": "Escape velocity \u2014 typically energy-based (Unit 3); current Unit-2 QT is a stretch",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 118,
+                "section": "ch05 gravitation",
+                "exercise_ref": "5"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "What is the escape velocity from the Moon, given that the mass of the Moon is 7.2 \u00d7 1022 kg and its radius is 1.778 \u00d7 106 m?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 1.64 \u00d7 103 m/s\n(B) 2.32 \u00d7 103 m/s\n(C) 2.69 \u00d7 106 m/s\n(D) 5.38 \u00d7 106 m/s"
+                }
+              ],
+              "options": [
+                "(A) 1.64 \u00d7 103 m/s",
+                "(B) 2.32 \u00d7 103 m/s",
+                "(C) 2.69 \u00d7 106 m/s",
+                "(D) 5.38 \u00d7 106 m/s"
+              ],
+              "correct_option": "(B) 2.32 \u00d7 103 m/s"
+            },
+            {
+              "id": "barrons_ch05_gravitation_q6",
+              "label": "6",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.5,
+              "classification_note": "Schwarzschild radius \u2014 same caveat as q5",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 118,
+                "section": "ch05 gravitation",
+                "exercise_ref": "6"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A black hole theoretically has an escape velocity that is greater than or equal to the velocity of light (3 \u00d7 108 m/s). If the effective mass of the black hole is equal to the mass of the Sun (2 \u00d7 1030 kg), what is the effective \u201cradius\u201d (called the \u201cSchwarzschild radius\u201d) of the black hole?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 3 \u00d7 103 m\n(B) 1.5 \u00d7 103 m\n(C) 8.9 \u00d7 106 m\n(D) 4.45 \u00d7 106 m"
+                }
+              ],
+              "options": [
+                "(A) 3 \u00d7 103 m",
+                "(B) 1.5 \u00d7 103 m",
+                "(C) 8.9 \u00d7 106 m",
+                "(D) 4.45 \u00d7 106 m"
+              ],
+              "correct_option": "(A) 3 \u00d7 103 m"
+            },
+            {
+              "id": "barrons_ch05_gravitation_q7",
+              "label": "7",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 118,
+                "section": "ch05 gravitation",
+                "exercise_ref": "7"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "What is the gravitational force of attraction between two trucks, each of mass 20,000 kg, separated by a distance of 2 m?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 0.057 N\n(B) 0.013 N\n(C) 0.0067 N\n(D) 1.20 N"
+                }
+              ],
+              "options": [
+                "(A) 0.057 N",
+                "(B) 0.013 N",
+                "(C) 0.0067 N",
+                "(D) 1.20 N"
+              ],
+              "correct_option": "(C) 0.0067 N"
+            },
+            {
+              "id": "barrons_ch05_gravitation_q8",
+              "label": "8",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "confidence": 0.9,
+              "classification_note": "",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 118,
+                "section": "ch05 gravitation",
+                "exercise_ref": "8"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The gravitational force between two masses is 36 N. If the distance between masses is tripled, the force of gravity will be"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) the same\n(B) 18 N\n(C) 9 N\n(D) 4 N"
+                }
+              ],
+              "options": [
+                "(A) the same",
+                "(B) 18 N",
+                "(C) 9 N",
+                "(D) 4 N"
+              ],
+              "correct_option": "(D) 4 N"
+            },
+            {
+              "id": "barrons_ch05_gravitation_q1_frq",
+              "label": "1",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "g at perpendicular bisector \u2014 superposition",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 119,
+                "section": "ch05 gravitation",
+                "exercise_ref": "FRQ-1"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Find the magnitude of the gravitational field strength g at a point P along the perpendicular bisector between two equal masses, M and M, that are separated by a distance 2b as shown below:\n[IMG alt= src=../images/f119-01.jpg]"
+                }
+              ]
+            },
+            {
+              "id": "barrons_ch05_gravitation_q3_frq",
+              "label": "3",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.7,
+              "classification_note": "Conceptual \u2014 units of g, field-strength language",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 119,
+                "section": "ch05 gravitation",
+                "exercise_ref": "FRQ-3"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Show that the units for g in N/kg are equivalent to m/s2. Why is g referred to as the \u201cgravitational field strength\u201d?"
+                }
+              ]
+            },
+            {
+              "id": "barrons_ch05_gravitation_q5_frq",
+              "label": "5",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "Geosynchronous radius from T=24h",
+              "source_reference": {
+                "worksheet_name": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+                "textbook_key": "barrons_ap_phys1_premium_2024",
+                "page": 119,
+                "section": "ch05 gravitation",
+                "exercise_ref": "FRQ-5"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Find the orbital radius for a geosynchronous satellite. A geosynchronous satellite is a satellite around Earth that is synchronized, in that its orbital period is 24 hours, just like Earth itself. The mass of Earth is approximately 6.0 \u00d7 1024 kg."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

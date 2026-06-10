@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "tally": {
+      "url": "https://api.tally.so/mcp"
+    }
+  }
+}

@@ -1,0 +1,5167 @@
+[
+  {
+    "qid": "b83e124e-f04d-4d67-a56f-dc656abd33c2",
+    "qhash": "92648d5fca6e165efadaea43b8892173",
+    "qt_id": "2f18b2a4-f3a9-46ec-883f-03e9d54a33d9",
+    "label": "70",
+    "source_id": "q70",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A cart is initially moving at 0.5 m/s along a track. The cart comes to rest after traveling 1 m. The experiment is repeated on the same trac",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 20,
+      "score": 12,
+      "matched": [
+        "at 0 5 m s along a track the cart",
+        "along a track the cart comes to rest after traveling",
+        "comes to rest after traveling 1 m the experiment is"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "1df512ff-4265-4cb5-8dab-14ea331fe100",
+    "qhash": "693f17a16b67e0c4b93f837689cb5cfb",
+    "qt_id": "41bca3e2-c8ce-409c-a321-c89763c254ac",
+    "label": "2001B1",
+    "source_id": "q_frq_2001B1",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A ball of mass M is attached to a string of length R and negligible mass. The ball moves clockwise in a vertical circle. Point Z is at the t",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 78,
+      "score": 7,
+      "matched": [
+        "is attached to a string of length r and negligible",
+        "of length r and negligible mass the ball moves clockwise",
+        "minimum speed the ball can have at point z without"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "5stepsapphysics",
+        "page": 458,
+        "hits": 2
+      },
+      {
+        "slug": "workbook_1_full_1",
+        "page": 71,
+        "hits": 1
+      },
+      {
+        "slug": "workbook_1_full_1",
+        "page": 75,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "61cef21d-1e8f-4c24-bdc4-4c56e0351242",
+    "qhash": "1b6616929bb136e7ba516b64dee99b5a",
+    "qt_id": "f3230b7c-3712-468c-a7a6-43f680750722",
+    "label": "B7",
+    "source_id": "q_cm7",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A car initially travels north and then turns to the left along a circular curve. This causes a package on the seat of the car to slide towar",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 53,
+      "score": 12,
+      "matched": [
+        "and then turns to the left along a circular curve",
+        "left along a circular curve this causes a package on",
+        "this causes a package on the seat of the car"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "30247367-aeb1-479b-b02a-82422a0c4bd5",
+    "qhash": "133fb0c3e0aa03a214b2527e61bb74f4",
+    "qt_id": "b1dffc3c-32f4-4126-bfaa-45375beec9a6",
+    "label": "B2",
+    "source_id": "q_cm2",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A ball attached to a string is whirled around in a horizontal circle having a radius R. If the radius of the circle is changed to 4R and the",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 52,
+      "score": 12,
+      "matched": [
+        "string is whirled around in a horizontal circle having a",
+        "a horizontal circle having a radius r if the radius",
+        "radius r if the radius of the circle is changed"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "303d34c5-9c65-4fdf-bd74-814b66219581",
+    "qhash": "911f60e1b2691a082d09fe60338d3967",
+    "qt_id": "b1dffc3c-32f4-4126-bfaa-45375beec9a6",
+    "label": "B11",
+    "source_id": "q_cm11",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "Inside a washing machine, the radius of the cylinder where the clothes sit is 0.50 m. In one of its settings the machine spins the cylinder ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 54,
+      "score": 12,
+      "matched": [
+        "inside a washing machine the radius of the cylinder where",
+        "radius of the cylinder where the clothes sit is 0",
+        "the clothes sit is 0 50 m in one of"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "1a58a93c-408a-4f52-81ea-e76a0126e6b7",
+    "qhash": "3db12a5b6b11cdf2c3eef872bfa50ad2",
+    "qt_id": "b1dffc3c-32f4-4126-bfaa-45375beec9a6",
+    "label": "B3",
+    "source_id": "q_cm3",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A racing car is moving around the circular track of radius 300 meters shown above. At the instant when the car's velocity is directed due ea",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 52,
+      "score": 12,
+      "matched": [
+        "a racing car is moving around the circular track of",
+        "around the circular track of radius 300 meters shown above",
+        "radius 300 meters shown above at the instant when the"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "6d4f13cf-9719-44c7-be19-7db94a1cd126",
+    "qhash": "5239c667e3536c50276a748a31941c54",
+    "qt_id": "8c49e5bd-98d3-4fd2-a0f8-6ed7ba0fd0f7",
+    "label": "B22",
+    "source_id": "q_cm22",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "Three cars are moving counterclockwise during a one-lap race on an elliptical track. Which car has had the lowest average speed during the r",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 56,
+      "score": 6,
+      "matched": [
+        "car has had the lowest average speed during the race",
+        "moving counterclockwise during a one lap",
+        "a one lap race on an"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "d5dca396-9f59-4e96-90cb-cf57508a168d",
+    "qhash": "39e788c164a129cb3fea5521dc7be0ef",
+    "qt_id": "909bff58-644c-4423-954f-0eb27dcde525",
+    "label": "B6",
+    "source_id": "q_cm6",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "An automobile moves at constant speed down one hill and up another hill along the smoothly curved surface shown above. Which of the followin",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 53,
+      "score": 12,
+      "matched": [
+        "an automobile moves at constant speed down one hill and",
+        "speed down one hill and up another hill along the",
+        "up another hill along the smoothly curved surface shown above"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "b4dd11c2-04d1-438d-81a5-9e4152a3f570",
+    "qhash": "9f00f848f2acc4a51676e203df3f2685",
+    "qt_id": "909bff58-644c-4423-954f-0eb27dcde525",
+    "label": "B13",
+    "source_id": "q_cm13",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A mass m moves on a curved path from point X to point Y. Which of the following diagrams indicates a possible combination of the net force F",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 54,
+      "score": 12,
+      "matched": [
+        "a mass m moves on a curved path from point",
+        "a curved path from point x to point y which",
+        "x to point y which of the following diagrams indicates"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 271,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "a2431b31-d59d-4073-9c35-5495479f84e4",
+    "qhash": "770ff3e7b07773b9d71c0b1b2bd2f776",
+    "qt_id": "861f6365-4b70-4a76-b263-c32c4a22d69f",
+    "label": "PSI-5",
+    "source_id": "q_psi5",
+    "qt_section_ref": "8.2.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "What is the difference between the pressure on the bottom of a pool and the pressure on the water surface?",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 57,
+      "score": 1,
+      "matched": [
+        "what is the difference between the"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "91d6d151-207a-4501-b182-c70fe97126a8",
+    "qhash": "825fe3ef70ad2b58cc94df336cd61c95",
+    "qt_id": "87d55c67-df68-453c-bbe4-b8f9b1a39790",
+    "label": "PSI-8",
+    "source_id": "q_psi8",
+    "qt_section_ref": "8.2.A",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "A car driver measures a tire pressure of 220 kPa. What is the absolute pressure in the tire?",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "a0eefae3-b0ed-48ad-be06-1c6cf47bdd69",
+    "qhash": "2304c2ea32bbe01c7ed62d774634d427",
+    "qt_id": "404c199d-ccd0-46cc-a063-25f1b3e06637",
+    "label": "PSI-15",
+    "source_id": "q_psi15",
+    "qt_section_ref": "8.3.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "An object has a weight of 9 N when it is in air and 7.2 N when it is submerged into water. What is the specific gravity of the object's mate",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "c50fbb2a-6e5a-48a0-b8ea-7ef989a46ab4",
+    "qhash": "07f6517efbb646fdac3d4c573a62aa63",
+    "qt_id": "861f6365-4b70-4a76-b263-c32c4a22d69f",
+    "label": "AP2017-Q1c-i",
+    "source_id": "q_frq_2017_c_i",
+    "qt_section_ref": "8.2.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "A valve at the end of a pipe is closed. The pipe remains full of static water. Point B is at the vertical top of the pipe (open to the atmos",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "ac5e87c9-d005-4acf-9927-7cb1cc2ca210",
+    "qhash": "b967ef224ecf9c4a0385395aee626d64",
+    "qt_id": "404c199d-ccd0-46cc-a063-25f1b3e06637",
+    "label": "PSI-12",
+    "source_id": "q_psi12",
+    "qt_section_ref": "8.3.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "A piece of iron has a weight of 3.5 N when it is in air and 2.0 N when it is submerged into water. What is the buoyant force on the piece of",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "09ed385d-049e-455d-a856-ce97bdc71337",
+    "qhash": "f3e2f3e4ce61ba446415cb1203b9787e",
+    "qt_id": "4ca41423-8706-4e1c-a43a-ec5449918f2c",
+    "label": "PSI-9",
+    "source_id": "q_psi9",
+    "qt_section_ref": "8.2.A",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "In a hydraulic lift the small piston has an area of 2 cm² and the large piston has an area of 80 cm². What is the mechanical advantage of th",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "f017f9bb-da47-405f-a3af-1ed65cc10f09",
+    "qhash": "8f68468c4ca5b7f16d157ef2bdf39074",
+    "qt_id": "f79998e9-c91e-4232-925b-2127d3786da7",
+    "label": "PSI-20",
+    "source_id": "q_psi20",
+    "qt_section_ref": "8.4.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "An open bottle is filled with a liquid which flows out through a spigot located a distance h below the surface of the liquid. What is the ve",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "06502e56-8c55-4978-8554-bbb0d9a24636",
+    "qhash": "acd766ce00a0d57ade476321567291ec",
+    "qt_id": "70981d06-64f6-4ec2-aeef-8a79127e7ee0",
+    "label": "PSI-FRQ4-e",
+    "source_id": "q_psi_frq4_e",
+    "qt_section_ref": "8.3.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "Continuing from the previous problem: the same ice slab (V = 20 m³, top area 14 m², ρ_ice = 900 kg/m³, ρ_sea = 1030 kg/m³, with 0.15 m of it",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "c236fbf8-a487-440c-b55a-c13bcb43d8d0",
+    "qhash": "7d5f764e8c38e4597d3351bbbe1d71cf",
+    "qt_id": "70981d06-64f6-4ec2-aeef-8a79127e7ee0",
+    "label": "PSI-17",
+    "source_id": "q_psi17",
+    "qt_section_ref": "8.3.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "A wooden block with a weight of 9 N is placed on water. When the block floats on the surface of water it is partially submerged in water. Wh",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "f638c0a2-f107-447c-8d3b-b86035a4ffe4",
+    "qhash": "82c59b8d81dafed84f49fe6ebcb7bc75",
+    "qt_id": "6f861ffb-0e34-4fce-b760-5f60ceddf0a8",
+    "label": "PSI-18",
+    "source_id": "q_psi18",
+    "qt_section_ref": "8.4.A",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "Water flows at a constant speed of 16 m/s through a narrow section of a pipe. What is the speed of water in the section of the pipe where it",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "fd16c258-02cb-4a10-ba80-77d626a8b57a",
+    "qhash": "3f2049c5a5daf5cc7187a24c9509a5d6",
+    "qt_id": "6f861ffb-0e34-4fce-b760-5f60ceddf0a8",
+    "label": "AP2018-Q4c",
+    "source_id": "q_frq_ap2018_c",
+    "qt_section_ref": "8.4.A",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "A river has a width of 60 m, a constant depth, and flows at a speed of 5 km/h. Partway downstream, the river narrows to a width of 30 m whil",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "ecd68dc3-a971-41c0-9820-442c4ffff2e3",
+    "qhash": "e9dee10774a3a2fd84dea6c1eb326fc4",
+    "qt_id": "dc100bed-7afd-4632-8c1b-8ad53efc61e1",
+    "label": "AP2023-Q3c",
+    "source_id": "q_frq_ap2023_c",
+    "qt_section_ref": "8.4.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "Tank Z is a large tank whose top is open to the air and is shaped like an inverted cone with the point at the bottom and the wide part at th",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "bedcbf88-d1e7-4ac7-8248-f3318952b152",
+    "qhash": "c01ddc81b0c684905049c59d94eb48ba",
+    "qt_id": "dc100bed-7afd-4632-8c1b-8ad53efc61e1",
+    "label": "AP2017-Q1b",
+    "source_id": "q_frq_ap2017_b",
+    "qt_section_ref": "8.4.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "Water flows through a section of pipe that decreases in diameter and increases in elevation. At point A (diameter 2.5 cm, lower elevation), ",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "97583cc7-eeb0-49d0-a039-e8af93faab27",
+    "qhash": "08e281472738c15fd177bb2ae89c57a9",
+    "qt_id": "9f846fa0-b34b-403c-9b5c-0c7ae1a879f1",
+    "label": "PSI-1",
+    "source_id": "q_psi1",
+    "qt_section_ref": "8.1.A",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "Two substances, mercury with a density 13600 kg/m³ and alcohol with a density 0.8 kg/m³ (as printed in the source), are selected for an expe",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "807721b1-6634-412b-8588-1f3773a0cac5",
+    "qhash": "a840b370deca269d044f25c4d9eea34c",
+    "qt_id": "f79998e9-c91e-4232-925b-2127d3786da7",
+    "label": "PSI-FRQ2-d",
+    "source_id": "q_psi_frq2_d",
+    "qt_section_ref": "8.4.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "A pool is being emptied by a pump. The pump produces a pressure P₁ = 9 × 10⁵ Pa in the submerged pipe (radius 4 cm) with the water speed the",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "2bf3a184-6160-4df5-bb48-ea1435928b17",
+    "qhash": "2ae9bb45571b19ef3c0bae24b0528e69",
+    "qt_id": "87d55c67-df68-453c-bbe4-b8f9b1a39790",
+    "label": "PSI-2",
+    "source_id": "q_psi2",
+    "qt_section_ref": "8.2.A",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "A perpendicular force is applied to a certain area and produces a pressure P. If the same force is applied to a twice bigger area, the new p",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "150b58a4-062f-447c-a608-a862fb5c4971",
+    "qhash": "5f483fa8e4fed430036e243919e2e92e",
+    "qt_id": "404c199d-ccd0-46cc-a063-25f1b3e06637",
+    "label": "PSI-14",
+    "source_id": "q_psi14",
+    "qt_section_ref": "8.3.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "A solid cylinder of mass 5 kg is completely submerged into water and hangs from a string. What is the tension in the string supporting the c",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "4680d625-f64d-4f3c-ad05-67a7fcac1d53",
+    "qhash": "72261858f78dd1c5c9e8630547fff0b4",
+    "qt_id": "861f6365-4b70-4a76-b263-c32c4a22d69f",
+    "label": "PSI-4",
+    "source_id": "q_psi4",
+    "qt_section_ref": "8.2.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "Three containers are used in a chemistry lab. All containers have the same bottom area and the same height. A chemistry student fills each o",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "ea726ae1-b46f-46cb-86a2-13bab1621a8a",
+    "qhash": "07d8f101ddc1d0b9afb84b8470facf97",
+    "qt_id": "861f6365-4b70-4a76-b263-c32c4a22d69f",
+    "label": "PSI-6",
+    "source_id": "q_psi6",
+    "qt_section_ref": "8.2.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "A boy swims in a lake and initially dives 0.5 m beneath the surface. When he dives 1 m beneath the surface, how does the absolute pressure c",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "9c87304e-3712-4b3f-9220-24f30286530d",
+    "qhash": "565544956af2987f79904c15dece86e3",
+    "qt_id": "70981d06-64f6-4ec2-aeef-8a79127e7ee0",
+    "label": "PSI-16",
+    "source_id": "q_psi16",
+    "qt_section_ref": "8.3.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "A wooden block with a weight of 7.5 N is placed on water. When the block floats on the surface of water it is partially submerged in water. ",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "3bee98f8-0b41-4031-91cd-8c4629a20811",
+    "qhash": "aa6573485ede50a9814896c5f639a382",
+    "qt_id": "dc100bed-7afd-4632-8c1b-8ad53efc61e1",
+    "label": "AP2017-Q1a",
+    "source_id": "q_frq_ap2017_a",
+    "qt_section_ref": "8.4.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "Water flows from point A (diameter 2.5 cm, lower elevation) through a pipe to point B (diameter 1.5 cm, higher elevation). Two students make",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "02cacf0a-f958-456e-beb7-464450c7dbc5",
+    "qhash": "f8b4ffc0a61753146e98e2142dcb60de",
+    "qt_id": "4ca41423-8706-4e1c-a43a-ec5449918f2c",
+    "label": "PSI-7",
+    "source_id": "q_psi7",
+    "qt_section_ref": "8.2.A",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "Which of the following scientists invented the mercury barometer?",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "35af1122-7b82-4b6e-8170-203220725c22",
+    "qhash": "2053c66fee4860cf45494eed27240074",
+    "qt_id": "4ca41423-8706-4e1c-a43a-ec5449918f2c",
+    "label": "PSI-10",
+    "source_id": "q_psi10",
+    "qt_section_ref": "8.2.A",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "A hydraulic lift is used to lift a car. The small piston has a radius of 5 cm and the large piston has a radius of 50 cm. If a driver applie",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "19673325-679b-4dfc-862d-c703585c3d13",
+    "qhash": "16f667cadbb9110b0993c07281e8b54c",
+    "qt_id": "404c199d-ccd0-46cc-a063-25f1b3e06637",
+    "label": "AP2021-Q2c",
+    "source_id": "q_frq_ap2021_c",
+    "qt_section_ref": "8.3.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "A balloon of volume V_b contains gas of density ρ_g; the balloon material itself (not including the gas) has mass m_b. The balloon is held u",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "cc9c99eb-1fda-430d-9f1d-c746e1754662",
+    "qhash": "1ab8c213a5c5e3d1126c1ad5c7d7edb8",
+    "qt_id": "404c199d-ccd0-46cc-a063-25f1b3e06637",
+    "label": "AP2022-Q1a-ii",
+    "source_id": "q_frq_ap2022_a_ii",
+    "qt_section_ref": "8.3.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "A stationary rectangular block of mass m_b, volume V_b, and density ρ_b is held in place by a string. The block is submerged in a tank conta",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "48638539-929e-4c1e-a19d-951fcd4e8b22",
+    "qhash": "b46818896a19cad4ce9a0d3c05b55343",
+    "qt_id": "70981d06-64f6-4ec2-aeef-8a79127e7ee0",
+    "label": "PSI-FRQ4-b/c",
+    "source_id": "q_psi_frq4_bc",
+    "qt_section_ref": "8.3.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "A rectangular slab of ice floats on sea water with a large portion submerged. The volume of the slab is 20 m³ and the top surface area is 14",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "1f001337-a437-4fe0-8600-ab7442fcf783",
+    "qhash": "5de6ba4f59318c547804f263806bd6a9",
+    "qt_id": "404c199d-ccd0-46cc-a063-25f1b3e06637",
+    "label": "AP2023-Q3a-ii",
+    "source_id": "q_frq_ap2023_a_ii",
+    "qt_section_ref": "8.3.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "Two blocks, A and B, have identical dimensions and are placed in a partially filled cylindrical tank. Both blocks float at rest, partially s",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "8b5704d7-bc2e-4724-8030-8883556f78c1",
+    "qhash": "3f44ed487e8e9ec76aec652fbc0aa89f",
+    "qt_id": "70981d06-64f6-4ec2-aeef-8a79127e7ee0",
+    "label": "AP2018-Q4a",
+    "source_id": "q_frq_ap2018_a",
+    "qt_section_ref": "8.3.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "A large boat of mass M_b can displace a maximum volume V_0 of river water (of density ρ_water). The boat is being loaded with identical stee",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "206d7191-94cd-4278-9300-d909a8c08c6c",
+    "qhash": "dc05b6f1bc337b4e5ae24b649ab616d8",
+    "qt_id": "6f861ffb-0e34-4fce-b760-5f60ceddf0a8",
+    "label": "AP2023-Q3b-ii",
+    "source_id": "q_frq_ap2023_b_ii",
+    "qt_section_ref": "8.4.A",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "Tank Y is a large tank open to the air. The bottom of Tank Y is connected to a short horizontal pipe of radius r. The top surface of the wat",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "00b73ce6-09f1-4c46-847c-cc8a4933f430",
+    "qhash": "9dc56261abaf4c2c2dd362a7503fff59",
+    "qt_id": "f79998e9-c91e-4232-925b-2127d3786da7",
+    "label": "AP2023-Q3b-i",
+    "source_id": "q_frq_ap2023_b_i",
+    "qt_section_ref": "8.4.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "Tank Y has an open top; the surface of the water is falling at constant speed v_s, and water is exiting a pipe at the bottom with speed v_p.",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "9ceeb2fb-53d5-426c-8778-2b237759b41c",
+    "qhash": "a54f10968fc011d0620f6a53d9fcd11f",
+    "qt_id": "f79998e9-c91e-4232-925b-2127d3786da7",
+    "label": "AP2023-Q3b-iii",
+    "source_id": "q_frq_ap2023_b_iii",
+    "qt_section_ref": "8.4.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "For Tank Y, the relationships v_p = √(v_s² + 2gh) and v_s = (r²/R²)v_p have been derived, where R is the radius of the water surface at the ",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "fe17930f-6cc2-4ed9-b756-59b8f71f983d",
+    "qhash": "ced4d05ea904b1bac6c9c62f9a7a05e3",
+    "qt_id": "404c199d-ccd0-46cc-a063-25f1b3e06637",
+    "label": "PSI-11",
+    "source_id": "q_psi11",
+    "qt_section_ref": "8.3.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "Three blocks of equal volume are completely submerged in water. The blocks are made of different materials: aluminum, iron, and lead (ρ_Al =",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "1f1551ac-35b3-4ce1-b12d-64dfef2d171e",
+    "qhash": "c76f83f747f59d81bf2e39b2c879ab02",
+    "qt_id": "861f6365-4b70-4a76-b263-c32c4a22d69f",
+    "label": "PSI-FRQ3-b/c",
+    "source_id": "q_psi_frq3_bc",
+    "qt_section_ref": "8.2.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "A submarine descends to a depth of 100 m beneath the surface of an ocean. The density of salt water is 1030 kg/m³. Using g = 10 m/s² and atm",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "2efbbfa9-3771-46c8-8e09-ea54bee59123",
+    "qhash": "404c8f1569086c656e194881eca5c410",
+    "qt_id": "b6a4a3d2-32de-4d3d-b5a9-0dc9a9f7d543",
+    "label": "60",
+    "source_id": "q60",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "What was the total displacement of the toy car for the entire 10 second interval shown?",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 19,
+      "score": 6,
+      "matched": [
+        "what was the total displacement of the toy car for",
+        "of the toy car for the entire 10 second interval",
+        "what was the total displacement of"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "bf7c8090-7c87-4a50-90c2-15ce357e0cac",
+    "qhash": "f37e8a45b763c292aa652739c5a98a32",
+    "qt_id": "b6a4a3d2-32de-4d3d-b5a9-0dc9a9f7d543",
+    "label": "31",
+    "source_id": "q31",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "Shown below is the velocity vs. time graph for a toy car moving along a straight line. What is the maximum displacement from start for the t",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 14,
+      "score": 12,
+      "matched": [
+        "shown below is the velocity vs time graph for a",
+        "vs time graph for a toy car moving along a",
+        "toy car moving along a straight line what is the"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 17,
+        "hits": 1
+      },
+      {
+        "slug": "workbook_1_full_1",
+        "page": 21,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "6a626c08-830e-44af-a797-16d3e5759ab0",
+    "qhash": "02613faa213c5efd5ce3e5359fbe9c31",
+    "qt_id": "404c199d-ccd0-46cc-a063-25f1b3e06637",
+    "label": "PSI-13",
+    "source_id": "q_psi13",
+    "qt_section_ref": "8.3.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "Physics students use a spring scale to measure the weight of a piece of lead. The experiment was performed two times, once in air and the ot",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "8f592287-60da-4e52-92c4-4eb149cf9161",
+    "qhash": "5f1cd660a522b9d8fcbfe71d43bb1dc1",
+    "qt_id": "5b76e395-6460-4ae6-b5ad-9d1ae185c10d",
+    "label": "25",
+    "source_id": "q25",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A large beach ball is dropped from the ceiling of a school gymnasium to the floor about 10 meters below. Which of the following graphs would",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 13,
+      "score": 12,
+      "matched": [
+        "a large beach ball is dropped from the ceiling of",
+        "dropped from the ceiling of a school gymnasium to the",
+        "a school gymnasium to the floor about 10 meters below"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "5710038e-32c2-468b-acb1-96b1dfe2f401",
+    "qhash": "0c4eeb8deb0df3296c6386edbf4dcb97",
+    "qt_id": "dc100bed-7afd-4632-8c1b-8ad53efc61e1",
+    "label": "PSI-19",
+    "source_id": "q_psi19",
+    "qt_section_ref": "8.4.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "A Venturi-like tube has three sections of different radii: section 1 has medium radius, section 2 is the narrowest, and section 3 is the wid",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "b262b95f-580f-4f1a-950a-105a4cdb3a94",
+    "qhash": "dfec89da856d780cf05f8cc0891a45f5",
+    "qt_id": "69d76ea7-337e-405f-834d-ba0d9ad3529d",
+    "label": "2",
+    "source_id": "q2",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "Which object moves with constant non-zero acceleration?",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 8,
+      "score": 1,
+      "matched": [
+        "which object moves with constant non"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "af2f4c8d-012b-4aff-b509-17831018fe4a",
+    "qhash": "b7835aa966ce3071fe1ea4536ee56d08",
+    "qt_id": "5b76e395-6460-4ae6-b5ad-9d1ae185c10d",
+    "label": "28",
+    "source_id": "q28",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "Which of the following sets of graphs might be the corresponding graphs of Position, Velocity, and Acceleration vs. Time for a moving partic",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 13,
+      "score": 7,
+      "matched": [
+        "of graphs might be the corresponding graphs of position velocity",
+        "corresponding graphs of position velocity and acceleration vs time for",
+        "following sets of graphs might be"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "7ffb28d2-5931-42b6-877e-63f0d535a936",
+    "qhash": "0605248194b1953b825956d2fe248269",
+    "qt_id": "9f846fa0-b34b-403c-9b5c-0c7ae1a879f1",
+    "label": "PSI-FRQ1-d",
+    "source_id": "q_psi_frq1_d",
+    "qt_section_ref": "8.1.A",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "A small sphere of mass m and density D is suspended from an elastic spring and stretches the spring by a distance x₁ in air. When the sphere",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "52a78223-61e6-44a0-88b0-562f9ac89995",
+    "qhash": "6d524fac5630c291f3f2f52c2ebc3630",
+    "qt_id": "bfe85965-9895-4378-9820-5af52a16e29a",
+    "label": "74",
+    "source_id": "q74",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "At which time is the car the greatest distance from the origin?",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 21,
+      "score": 4,
+      "matched": [
+        "at which time is the car the greatest distance from",
+        "at which time is the car",
+        "is the car the greatest distance"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "c9c65213-d27e-4a49-8025-e35c0c62d6ec",
+    "qhash": "e2855231a0bdb44d06b148b0bd6f3e6b",
+    "qt_id": "c3845131-ee4b-4d41-8a0f-1ac34c571616",
+    "label": "76",
+    "source_id": "q76",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "Consider the motion of an object given by the position vs. time graph shown. For what time(s) is the speed of the object greatest?",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 22,
+      "score": 11,
+      "matched": [
+        "consider the motion of an object given by the position",
+        "object given by the position vs time graph shown for",
+        "vs time graph shown for what time s is the"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "28c35268-802e-47b2-85ec-6036b83cf954",
+    "qhash": "2984cac15a7132e989019f7a398bda97",
+    "qt_id": "69d76ea7-337e-405f-834d-ba0d9ad3529d",
+    "label": "58",
+    "source_id": "q58",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "What is the marbles average acceleration between t = 3.1 s and t = 3.8 s",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 19,
+      "score": 6,
+      "matched": [
+        "what is the marbles average acceleration between t 3 1",
+        "acceleration between t 3 1 s and t 3 8",
+        "what is the marbles average acceleration"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "f9253e7f-97f4-4f05-b216-6cc422e100a6",
+    "qhash": "013c2385035e121a92606de12c1ef15e",
+    "qt_id": "87d55c67-df68-453c-bbe4-b8f9b1a39790",
+    "label": "PSI-3",
+    "source_id": "q_psi3",
+    "qt_section_ref": "8.2.A",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "There are two round tables in the physics classroom: one with a radius of 50 cm, the other with a radius of 150 cm. What is the relationship",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "94b35fe0-6da6-4e3d-94ec-efdc5255bc59",
+    "qhash": "c71271f1e0764b3e9b4593b31f15a7ad",
+    "qt_id": "bfe85965-9895-4378-9820-5af52a16e29a",
+    "label": "23",
+    "source_id": "q23",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A whiffle ball is tossed straight up, reaches a highest point, and falls back down. Air resistance is not negligible. Which of the following",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 12,
+      "score": 9,
+      "matched": [
+        "a whiffle ball is tossed straight up reaches a highest",
+        "straight up reaches a highest point and falls back down",
+        "point and falls back down air resistance is not negligible"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "a28582da-77d7-4008-9626-fd2621ca2474",
+    "qhash": "e64787ab7f5d16250608a7b9e6340b37",
+    "qt_id": "861f6365-4b70-4a76-b263-c32c4a22d69f",
+    "label": "PSI-FRQ3-d",
+    "source_id": "q_psi_frq3_d",
+    "qt_section_ref": "8.2.B",
+    "qt_unit_label": "Unit 8: Fluids",
+    "stem_excerpt": "The submarine at depth 100 m has a hatch of area 2 m² located on the top of its body. The interior is maintained at atmospheric pressure. Us",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "abf21999-836c-4952-b27f-5a7a1bf895c6",
+    "qhash": "d80499fb3a2f13b630a43c5893a121cb",
+    "qt_id": "5b76e395-6460-4ae6-b5ad-9d1ae185c10d",
+    "label": "22",
+    "source_id": "q22",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A child left her home and started walking at a constant velocity. After a time she stopped for a while and then continued on with a velocity",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 12,
+      "score": 12,
+      "matched": [
+        "a child left her home and started walking at a",
+        "and started walking at a constant velocity after a time",
+        "constant velocity after a time she stopped for a while"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "a2f0adce-b6e0-44aa-9892-2ef7f759722a",
+    "qhash": "7f6aa27f7c77ad36383066c327c12c3e",
+    "qt_id": "5a8c81d4-4f87-4e64-ab24-c31c4c8cde57",
+    "label": "36",
+    "source_id": "q36",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A car starts from rest and uniformly accelerates to a final speed of 20.0 m/s in a time of 15.0 s. How far does the car travel during this t",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 15,
+      "score": 12,
+      "matched": [
+        "and uniformly accelerates to a final speed of 20 0",
+        "final speed of 20 0 m s in a time",
+        "m s in a time of 15 0 s how"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "ap_physics_1_premium_2024_4_practice_tests_comprehensive_kenneth_rideout_jonathan_wolf_2022_barrons_",
+        "page": 45,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "3a03a516-c539-48e3-9144-73f5dce8f7a4",
+    "qhash": "d9490ade91d2d04486aa82a21fa6723e",
+    "qt_id": "bfe85965-9895-4378-9820-5af52a16e29a",
+    "label": "2005B1",
+    "source_id": "frq_2005b1",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "The vertical position of an elevator as a function of time is shown above. From the graph, the elevator's velocity between t = 8 s and t = 1",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 28,
+      "score": 4,
+      "matched": [
+        "the vertical position of an elevator as a function of",
+        "the vertical position of an elevator",
+        "of an elevator as a function"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "5stepsapphysics",
+        "page": 157,
+        "hits": 1
+      },
+      {
+        "slug": "5stepsapphysics",
+        "page": 270,
+        "hits": 1
+      },
+      {
+        "slug": "5stepsapphysics",
+        "page": 322,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "109a02cf-7fcf-4d0f-8a61-6f8769cb4607",
+    "qhash": "4eca647c2e279c5e5e87d1c600467819",
+    "qt_id": "eb845e08-5bbb-476d-8524-093df1e68971",
+    "label": "38",
+    "source_id": "q38",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A rocket near the surface of the earth is accelerating vertically upward at 10 m/s². The rocket releases an instrument package. Immediately ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 15,
+      "score": 8,
+      "matched": [
+        "a rocket near the surface of the earth is accelerating",
+        "of the earth is accelerating vertically upward at 10 m",
+        "instrument package immediately after release the acceleration of the instrument"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "065cca76-157b-4c2e-ab6f-5221daa07b49",
+    "qhash": "5ac72486351aff5aa5dafb32569f1ade",
+    "qt_id": "eb845e08-5bbb-476d-8524-093df1e68971",
+    "label": "40",
+    "source_id": "q40",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "In the absence of air resistance, if an object were to fall freely near the surface of the Moon,",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 15,
+      "score": 7,
+      "matched": [
+        "in the absence of air resistance if an object were",
+        "resistance if an object were to fall freely near the",
+        "in the absence of air resistance"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "ap_physics_1_premium_2024_4_practice_tests_comprehensive_kenneth_rideout_jonathan_wolf_2022_barrons_",
+        "page": 18,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "c0806a80-e10b-48f9-a1b1-4bd278a6c503",
+    "qhash": "9b8dae55f7073ce09825653c4eae5288",
+    "qt_id": "bfe85965-9895-4378-9820-5af52a16e29a",
+    "label": "41",
+    "source_id": "q41",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "Given the graph of the velocity vs. time of a duck flying due south for the winter. At what point did the duck stop its forward motion?",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 16,
+      "score": 12,
+      "matched": [
+        "given the graph of the velocity vs time of a",
+        "velocity vs time of a duck flying due south for",
+        "duck flying due south for the winter at what point"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "563b7ad4-55a9-456e-9d7f-db568e931ecf",
+    "qhash": "96a1be6cb72c5937495ef42f14bc84ff",
+    "qt_id": "b6a4a3d2-32de-4d3d-b5a9-0dc9a9f7d543",
+    "label": "11",
+    "source_id": "q11",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "At time t = 0, car X traveling with speed v0 passes car Y which is just starting to move. Both cars then travel on two parallel lanes of the",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 10,
+      "score": 12,
+      "matched": [
+        "at time t 0 car x traveling with speed v0",
+        "x traveling with speed v0 passes car y which is",
+        "passes car y which is just starting to move both"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "1e75598a-51ce-4db3-895f-d115da5dd8f5",
+    "qhash": "583ff417ed7e494ce21f25ce51235489",
+    "qt_id": "5b76e395-6460-4ae6-b5ad-9d1ae185c10d",
+    "label": "16",
+    "source_id": "q16",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "The graph above shows the velocity v as a function of time t for an object moving in a straight line. Which of the following graphs shows th",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 11,
+      "score": 12,
+      "matched": [
+        "the graph above shows the velocity v as a function",
+        "velocity v as a function of time t for an",
+        "of time t for an object moving in a straight"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 44,
+        "hits": 2
+      },
+      {
+        "slug": "workbook_1_full_1",
+        "page": 8,
+        "hits": 1
+      },
+      {
+        "slug": "ap_physics_1_algebra_based_ap_physics_1_2015",
+        "page": 20,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "9698a7bd-c385-4cf5-b315-fb42a9fcdf22",
+    "qhash": "dadb05d7a752e0f7a02c26bd17fca4fa",
+    "qt_id": "b6a4a3d2-32de-4d3d-b5a9-0dc9a9f7d543",
+    "label": "4",
+    "source_id": "q4",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "The graph above shows the velocity versus time for an object moving in a straight line. At what time after t = 0 does the object again pass ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 8,
+      "score": 12,
+      "matched": [
+        "the graph above shows the velocity versus time for an",
+        "velocity versus time for an object moving in a straight",
+        "object moving in a straight line at what time after"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 11,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "03b94d21-b462-4cf7-8776-f0211387e403",
+    "qhash": "30ad1ba5f4c5409ccde7751809e69ff9",
+    "qt_id": "5b76e395-6460-4ae6-b5ad-9d1ae185c10d",
+    "label": "13",
+    "source_id": "q13",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "Which of the following pairs of graphs shows the distance traveled versus time and the speed versus time for an object uniformly accelerated",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 10,
+      "score": 9,
+      "matched": [
+        "of graphs shows the distance traveled versus time and the",
+        "traveled versus time and the speed versus time for an",
+        "speed versus time for an object uniformly accelerated from rest"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "8acd334c-f381-4798-9e8a-104367f93d5c",
+    "qhash": "9b618df354fded906bd92601749a5f68",
+    "qt_id": "b6a4a3d2-32de-4d3d-b5a9-0dc9a9f7d543",
+    "label": "1",
+    "source_id": "q1",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "Questions 1 – 3 relate to two objects that start at x = 0 at t = 0 and move in one dimension independently of one another. Graphs, of the ve",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 8,
+      "score": 12,
+      "matched": [
+        "questions 1 3 relate to two objects that start at",
+        "two objects that start at x 0 at t 0",
+        "x 0 at t 0 and move in one dimension"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "21110b5a-4ee3-4f3c-b993-3f054c6c4999",
+    "qhash": "57922bb993b21be8e6312a30826031e7",
+    "qt_id": "5b76e395-6460-4ae6-b5ad-9d1ae185c10d",
+    "label": "18",
+    "source_id": "q18",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "The graph above shows velocity v versus time t for an object in linear motion. Which of the following is a possible graph of position x vers",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 11,
+      "score": 11,
+      "matched": [
+        "the graph above shows velocity v versus time t for",
+        "v versus time t for an object in linear motion",
+        "a possible graph of position x versus time t for"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 9,
+        "hits": 2
+      },
+      {
+        "slug": "ap_physics_1_algebra_based_ap_physics_1_2016",
+        "page": 21,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "c4b583fd-9248-4835-ae7a-a9d026f20392",
+    "qhash": "356cc5db18400218c622def1429055bf",
+    "qt_id": "6a01083f-3628-4fde-8733-7e4619b10de9",
+    "label": "35",
+    "source_id": "q35",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "Starting from rest, object 1 falls freely for 4.0 seconds, and object 2 falls freely for 8.0 seconds. Compared to object 1, object 2 falls:",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 15,
+      "score": 12,
+      "matched": [
+        "starting from rest object 1 falls freely for 4 0",
+        "falls freely for 4 0 seconds and object 2 falls",
+        "seconds and object 2 falls freely for 8 0 seconds"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "d07c5ce4-050b-4398-8446-5ffe0fbbfef1",
+    "qhash": "b1edefa731ed8168c557d00497cd2e64",
+    "qt_id": "2f18b2a4-f3a9-46ec-883f-03e9d54a33d9",
+    "label": "67",
+    "source_id": "q67",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "The driver of a car makes an emergency stop by slamming on the car's brakes and skidding to a stop. How far would the car have skidded if it",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 20,
+      "score": 12,
+      "matched": [
+        "the driver of a car makes an emergency stop by",
+        "makes an emergency stop by slamming on the cars brakes",
+        "slamming on the cars brakes and skidding to a stop"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "05c87220-e6da-4a80-9fd9-7aaa1bbfe3ab",
+    "qhash": "37628c2974dc5b88b19ad93768492d0e",
+    "qt_id": "5a8c81d4-4f87-4e64-ab24-c31c4c8cde57",
+    "label": "46",
+    "source_id": "q46",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "If car #3 continues to constantly accelerate at the same rate what will be its position at the end of 6 seconds?",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 16,
+      "score": 9,
+      "matched": [
+        "if car 3 continues to constantly accelerate at the same",
+        "constantly accelerate at the same rate what will be its",
+        "rate what will be its position at the end of"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "f6e2c36d-3719-43f1-a345-33d9cc9f5cdf",
+    "qhash": "33aa50653f06cf600d60c3c477ad4134",
+    "qt_id": "bfe85965-9895-4378-9820-5af52a16e29a",
+    "label": "24",
+    "source_id": "q24",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "Above is a graph of the distance vs. time for car moving along a road. According the graph, at which of the following times would the automo",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 13,
+      "score": 12,
+      "matched": [
+        "above is a graph of the distance vs time for",
+        "the distance vs time for car moving along a road",
+        "car moving along a road according the graph at which"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "70553ade-e43f-465f-912b-8243b3e8f9ee",
+    "qhash": "f48de31b92a1e0efcb6a767b6fa505e3",
+    "qt_id": "6a01083f-3628-4fde-8733-7e4619b10de9",
+    "label": "32",
+    "source_id": "q32",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "An object is released from rest and falls a distance h during the first second of time. How far will it fall during the next second of time?",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 14,
+      "score": 10,
+      "matched": [
+        "rest and falls a distance h during the first second",
+        "h during the first second of time how far will",
+        "of time how far will it fall during the next"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "a3f77aed-d708-457f-ba07-71a6937aaa3e",
+    "qhash": "c75f24b683f7d02714ca442fd67a53dc",
+    "qt_id": "26dee3c9-7cee-469f-8a51-fa2e4e63ed2b",
+    "label": "26",
+    "source_id": "q26",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A car starts from rest and accelerates as shown in the graph below.",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 13,
+      "score": 3,
+      "matched": [
+        "a car starts from rest and accelerates as shown in",
+        "from rest and accelerates as shown",
+        "accelerates as shown in the graph"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "920d2f6a-07a5-4bc9-810c-bba10e46282c",
+    "qhash": "b5f51ca0aff0956240b5457abe8b43c5",
+    "qt_id": "5a8c81d4-4f87-4e64-ab24-c31c4c8cde57",
+    "label": "5",
+    "source_id": "q5",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A body moving in the positive x direction passes the origin at time t = 0. Between t = 0 and t = 1 second, the body has a constant speed of ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 8,
+      "score": 12,
+      "matched": [
+        "a body moving in the positive x direction passes the",
+        "positive x direction passes the origin at time t 0",
+        "origin at time t 0 between t 0 and t"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "377ab21a-a888-4cc8-bc1c-5120f9d1a739",
+    "qhash": "df6fd8e200d2d1cb84c84a09c12f7d4b",
+    "qt_id": "5a8c81d4-4f87-4e64-ab24-c31c4c8cde57",
+    "label": "50",
+    "source_id": "q50",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "The diagram below represents a toy car starting from rest and uniformly accelerating across the floor. The time and distance traveled from t",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 17,
+      "score": 12,
+      "matched": [
+        "the diagram below represents a toy car starting from rest",
+        "toy car starting from rest and uniformly accelerating across the",
+        "and uniformly accelerating across the floor the time and distance"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "c5f16109-4dcb-46ad-a2ac-426c5000e5eb",
+    "qhash": "a8339d7d6216fbac7abf521fc52e28a1",
+    "qt_id": "5a8c81d4-4f87-4e64-ab24-c31c4c8cde57",
+    "label": "1982B1",
+    "source_id": "frq_1982B1",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "The first 10 meters of a 100-meter dash are covered in 2 seconds by a sprinter who starts from rest and accelerates with a constant accelera",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 23,
+      "score": 9,
+      "matched": [
+        "a 100 meter dash are covered in 2 seconds by",
+        "covered in 2 seconds by a sprinter who starts from",
+        "a sprinter who starts from rest and accelerates with a"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "f9b0b3da-cb69-4187-a768-5b189c2c3c94",
+    "qhash": "f3635c2b73d99e9cb36df5fa9289904e",
+    "qt_id": "5a8c81d4-4f87-4e64-ab24-c31c4c8cde57",
+    "label": "2002B1",
+    "source_id": "frq_2002B1",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A model rocket is launched vertically with an engine that is ignited at time t = 0. The engine provides an upward acceleration of 30 m/s² fo",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 27,
+      "score": 7,
+      "matched": [
+        "a model rocket is launched vertically with an engine that",
+        "vertically with an engine that is ignited at time t",
+        "upon reaching its maximum height the rocket deploys a parachute"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 193,
+        "hits": 5
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "24fba591-fa00-4830-a357-a8dc3a932f91",
+    "qhash": "e6b55b79c0490dec20eb1607a8f5fd60",
+    "qt_id": "6a01083f-3628-4fde-8733-7e4619b10de9",
+    "label": "66",
+    "source_id": "q66",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A rubber ball bounces on the ground as shown. After each bounce, the ball reaches one-half the height of the bounce before it. If the time t",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 20,
+      "score": 12,
+      "matched": [
+        "a rubber ball bounces on the ground as shown after",
+        "the ground as shown after each bounce the ball reaches",
+        "each bounce the ball reaches one half the height of"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "6a075ae9-0272-4e00-a1ad-4e82b9582bee",
+    "qhash": "13365df6ffe9522c7a54bb2a8678dae0",
+    "qt_id": "6a01083f-3628-4fde-8733-7e4619b10de9",
+    "label": "2006Bb1",
+    "source_id": "frq_2006Bb1",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A student drops a small steel sphere over a range of distances D and records the time of fall t. To produce a linear relationship, the stude",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "faa0fa1a-436b-4c6c-baa7-7b9d15504326",
+    "qhash": "ec2f37bfff27e0753af6180dab8d2107",
+    "qt_id": "2326880d-363a-428e-b280-54f7cf74f54a",
+    "label": "49",
+    "source_id": "q49",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "If a ball is thrown directly upwards with twice the initial speed of another, how much higher will it be at its apex?",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 17,
+      "score": 9,
+      "matched": [
+        "if a ball is thrown directly upwards with twice the",
+        "directly upwards with twice the initial speed of another how",
+        "initial speed of another how much higher will it be"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "a924068a-2dae-4839-a51b-735d419b8e55",
+    "qhash": "ad585c9db94910747f6e8a5592e35184",
+    "qt_id": "2326880d-363a-428e-b280-54f7cf74f54a",
+    "label": "65",
+    "source_id": "q65",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "Three stones of different mass (1m, 2m & 3m) are thrown vertically upward with different velocities (1v, 2v & 3v respectively). The diagram ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 20,
+      "score": 6,
+      "matched": [
+        "diagram indicates the mass and velocity of each stone rank",
+        "velocity of each stone rank from high to low the",
+        "from high to low the maximum height of each stone"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "db512def-cdda-4f70-8cad-cd4db734fd48",
+    "qhash": "9fc3d87052ed21dac2ef91e26a21ed37",
+    "qt_id": "5b76e395-6460-4ae6-b5ad-9d1ae185c10d",
+    "label": "62",
+    "source_id": "q62",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "Which of the following graphs could correctly represent the motion of an object moving with a constant speed in a straight line?",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 19,
+      "score": 7,
+      "matched": [
+        "could correctly represent the motion of an object moving with",
+        "of an object moving with a constant speed in a",
+        "following graphs could correctly represent the"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "ap_physics_1_premium_2024_4_practice_tests_comprehensive_kenneth_rideout_jonathan_wolf_2022_barrons_",
+        "page": 52,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "4fbe7515-fe5d-4c19-b8b9-ec2ee9aef22b",
+    "qhash": "e26e7c23929431c6b5ce9acf51359d0c",
+    "qt_id": "b6a4a3d2-32de-4d3d-b5a9-0dc9a9f7d543",
+    "label": "12",
+    "source_id": "q12",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "At time t = 0, car X traveling with speed v0 passes car Y which is just starting to move. Both cars then travel on two parallel lanes of the",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 10,
+      "score": 12,
+      "matched": [
+        "at time t 0 car x traveling with speed v0",
+        "x traveling with speed v0 passes car y which is",
+        "passes car y which is just starting to move both"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "54e1c757-34f3-4eb5-b436-80f649bfe164",
+    "qhash": "79c9dc6713c8ee98748a43592a3fd74c",
+    "qt_id": "c3845131-ee4b-4d41-8a0f-1ac34c571616",
+    "label": "47",
+    "source_id": "q47",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "Questions 47-48 refer to the graph above.",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "f3de3423-1734-4c06-8d18-40635af1ba46",
+    "qhash": "c4bc322e9d11b8d41ecaebaf2c99b6cf",
+    "qt_id": "5a8c81d4-4f87-4e64-ab24-c31c4c8cde57",
+    "label": "64",
+    "source_id": "q64",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "The diagram shows a uniformly accelerating ball. The position of the ball each second is indicated.",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 19,
+      "score": 6,
+      "matched": [
+        "the diagram shows a uniformly accelerating ball the position of",
+        "accelerating ball the position of the ball each second is",
+        "the diagram shows a uniformly accelerating"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "d9f12846-0cf8-49ca-a20c-2347d4971c5d",
+    "qhash": "21e4b690e869d57ab0b082efa1ee068c",
+    "qt_id": "6a01083f-3628-4fde-8733-7e4619b10de9",
+    "label": "39",
+    "source_id": "q39",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A ball which is dropped from the top of a building strikes the ground with a speed of 30 m/s. Assume air resistance can be ignored. The heig",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 15,
+      "score": 12,
+      "matched": [
+        "from the top of a building strikes the ground with",
+        "building strikes the ground with a speed of 30 m",
+        "a speed of 30 m s assume air resistance can"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 20,
+        "hits": 1
+      },
+      {
+        "slug": "workbook_1_full_1",
+        "page": 118,
+        "hits": 1
+      },
+      {
+        "slug": "workbook_1_full_1",
+        "page": 31,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "c84a1f68-7b2c-4bfd-8a0d-5b312bc614fe",
+    "qhash": "fc5ef4e12eb6a4e8120b6138623a4e61",
+    "qt_id": "eb845e08-5bbb-476d-8524-093df1e68971",
+    "label": "19",
+    "source_id": "q19",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A student is testing the kinematic equations for uniformly accelerated motion by measuring the time it takes for light-weight plastic balls ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 12,
+      "score": 12,
+      "matched": [
+        "kinematic equations for uniformly accelerated motion by measuring the time",
+        "motion by measuring the time it takes for light weight",
+        "it takes for light weight plastic balls to fall to"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "3c10ea90-b448-4ca8-ae25-61f22d855c31",
+    "qhash": "471dd4d2076dff0a1ad7589ecf09e66b",
+    "qt_id": "26dee3c9-7cee-469f-8a51-fa2e4e63ed2b",
+    "label": "1993B1",
+    "source_id": "frq_1993B1",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A student stands in an elevator and records his acceleration as a function of time. At time t = 0, the elevator is at displacement x = 0 wit",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 24,
+      "score": 8,
+      "matched": [
+        "elevator and records his acceleration as a function of time",
+        "at time t 0 the elevator is at displacement x",
+        "elevator is at displacement x 0 with velocity v 0"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 55,
+        "hits": 1
+      },
+      {
+        "slug": "ap_physics_1_algebra_based_course_and_exam_description",
+        "page": 212,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "dc1f5f54-4b95-4be2-99fe-572a4eca0a18",
+    "qhash": "17ab3e18429efda1314a0bba925470dd",
+    "qt_id": "26dee3c9-7cee-469f-8a51-fa2e4e63ed2b",
+    "label": "21",
+    "source_id": "q21",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "Starting from rest at time t = 0, a car moves in a straight line with an acceleration given by the accompanying graph. What is the speed of ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 12,
+      "score": 12,
+      "matched": [
+        "starting from rest at time t 0 a car moves",
+        "t 0 a car moves in a straight line with",
+        "in a straight line with an acceleration given by the"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 106,
+        "hits": 1
+      },
+      {
+        "slug": "5stepsapphysics",
+        "page": 264,
+        "hits": 1
+      },
+      {
+        "slug": "ap_physics_1_algebra_based_course_and_exam_description",
+        "page": 192,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "f34f0c95-f8c4-454a-bf39-dcb2c3d024df",
+    "qhash": "17c3878619e2aa974d6cc6b005656038",
+    "qt_id": "26dee3c9-7cee-469f-8a51-fa2e4e63ed2b",
+    "label": "27",
+    "source_id": "q27",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A car starts from rest and accelerates as shown in the graph below.",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 13,
+      "score": 3,
+      "matched": [
+        "a car starts from rest and accelerates as shown in",
+        "from rest and accelerates as shown",
+        "accelerates as shown in the graph"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "68e4dae7-6f9f-4829-ac93-f16a34e5775f",
+    "qhash": "9ef8b9f5b7b6b729e8ed9869b8d7ca50",
+    "qt_id": "b6a4a3d2-32de-4d3d-b5a9-0dc9a9f7d543",
+    "label": "3",
+    "source_id": "q3",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "Questions 1 – 3 relate to two objects that start at x = 0 at t = 0 and move in one dimension independently of one another. Graphs, of the ve",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 8,
+      "score": 12,
+      "matched": [
+        "questions 1 3 relate to two objects that start at",
+        "two objects that start at x 0 at t 0",
+        "x 0 at t 0 and move in one dimension"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "f50a5168-51cb-494c-960c-dea5f6b09c8c",
+    "qhash": "2fb87ac23ebab90ab02960e0b96b3091",
+    "qt_id": "c3845131-ee4b-4d41-8a0f-1ac34c571616",
+    "label": "30",
+    "source_id": "q30",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "The position vs. time graph for an object moving in a straight line is shown below. What is the instantaneous velocity at t = 2 s?",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 14,
+      "score": 10,
+      "matched": [
+        "the position vs time graph for an object moving in",
+        "for an object moving in a straight line is shown",
+        "a straight line is shown below what is the instantaneous"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 18,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "61c4b6ff-55ec-4e14-99ab-f4c368b37a72",
+    "qhash": "d8ffa73fbbf5d427f8d42b2f0a7a7478",
+    "qt_id": "bfe85965-9895-4378-9820-5af52a16e29a",
+    "label": "57",
+    "source_id": "q57",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "For which time interval(s) did the marble have a positive acceleration?",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 18,
+      "score": 4,
+      "matched": [
+        "for which time interval s did the marble have a",
+        "for which time interval s did",
+        "interval s did the marble have"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "e77a039f-5cd8-41c3-b855-72baed74ec8c",
+    "qhash": "5132b4e58745f7e0640282785c5b1653",
+    "qt_id": "5a8c81d4-4f87-4e64-ab24-c31c4c8cde57",
+    "label": "51",
+    "source_id": "q51",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "The diagram below represents a toy car starting from rest and uniformly accelerating across the floor. The time and distance traveled from t",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 17,
+      "score": 12,
+      "matched": [
+        "the diagram below represents a toy car starting from rest",
+        "toy car starting from rest and uniformly accelerating across the",
+        "and uniformly accelerating across the floor the time and distance"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "c21ed72b-daeb-470e-a1e3-ec3aacb25a04",
+    "qhash": "46d4c31a145ce2ef3e8f001a00072120",
+    "qt_id": "5a8c81d4-4f87-4e64-ab24-c31c4c8cde57",
+    "label": "63",
+    "source_id": "q63",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "The diagram shows a uniformly accelerating ball. The position of the ball each second is indicated.",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 19,
+      "score": 6,
+      "matched": [
+        "the diagram shows a uniformly accelerating ball the position of",
+        "accelerating ball the position of the ball each second is",
+        "the diagram shows a uniformly accelerating"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "493e1785-4d6b-4536-aff4-abb9e3b8cdea",
+    "qhash": "9824a5a1a734c1375320134f989ab76b",
+    "qt_id": "86e85fea-9a0a-4219-a451-bcb643c79250",
+    "label": "20",
+    "source_id": "q20",
+    "qt_section_ref": "1.5.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "An object is thrown with velocity v from the edge of a cliff above level ground. Neglect air resistance. In order for the object to travel a",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 12,
+      "score": 12,
+      "matched": [
+        "velocity v from the edge of a cliff above level",
+        "of a cliff above level ground neglect air resistance in",
+        "ground neglect air resistance in order for the object to"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "5c49c1f5-4138-4394-9fe4-41cad1a7b730",
+    "qhash": "a6250ea382e1c232922f90421fce9228",
+    "qt_id": "86e85fea-9a0a-4219-a451-bcb643c79250",
+    "label": "29",
+    "source_id": "q29",
+    "qt_section_ref": "1.5.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "An object is thrown with a fixed initial speed v0 at various angles α relative to the horizon. At some constant height h above the launch po",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 14,
+      "score": 12,
+      "matched": [
+        "a fixed initial speed v0 at various angles relative to",
+        "at various angles relative to the horizon at some constant",
+        "the horizon at some constant height h above the launch"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "96480edd-821c-4ce6-aed9-e267a3520871",
+    "qhash": "871abcab21c4480f63514821f4d6e940",
+    "qt_id": "eb845e08-5bbb-476d-8524-093df1e68971",
+    "label": "54",
+    "source_id": "q54",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "When an object falls freely in a vacuum near the surface of the earth",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 18,
+      "score": 4,
+      "matched": [
+        "when an object falls freely in a vacuum near the",
+        "when an object falls freely in",
+        "falls freely in a vacuum near"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "2ba46c38-12c7-4d09-8e07-0f159f1fe154",
+    "qhash": "00540228f64c6621f56270fb2751c50b",
+    "qt_id": "eb845e08-5bbb-476d-8524-093df1e68971",
+    "label": "61",
+    "source_id": "q61",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "An object is thrown upwards with a velocity of 30 m/s near the surface of the earth. After two seconds what would be the direction of the di",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 19,
+      "score": 12,
+      "matched": [
+        "with a velocity of 30 m s near the surface",
+        "m s near the surface of the earth after two",
+        "of the earth after two seconds what would be the"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 56,
+        "hits": 1
+      },
+      {
+        "slug": "5stepsapphysics",
+        "page": 213,
+        "hits": 1
+      },
+      {
+        "slug": "workbook_1_full_1",
+        "page": 15,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "34e6f90c-7033-485a-b295-408a5f4aa571",
+    "qhash": "3924253e81b6df905c2c95d9731c2df7",
+    "qt_id": "0585aefe-9c76-4e2a-921b-b8ce0dbc1418",
+    "label": "6",
+    "source_id": "q6",
+    "qt_section_ref": "1.5.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A diver initially moving horizontally with speed v dives off the edge of a vertical cliff and lands in the water a distance d from the base ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 8,
+      "score": 12,
+      "matched": [
+        "a diver initially moving horizontally with speed v dives off",
+        "with speed v dives off the edge of a vertical",
+        "the edge of a vertical cliff and lands in the"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "374afd9a-fded-4a4b-9ca6-aff327d91f42",
+    "qhash": "db5097731e39a36e72264a8005d659c8",
+    "qt_id": "0585aefe-9c76-4e2a-921b-b8ce0dbc1418",
+    "label": "82",
+    "source_id": "q82",
+    "qt_section_ref": "1.5.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "During a recent winter storm, bales of hay had to be dropped from an airplane to a herd of cattle below. Assume the airplane flew horizontal",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 22,
+      "score": 12,
+      "matched": [
+        "during a recent winter storm bales of hay had to",
+        "bales of hay had to be dropped from an airplane",
+        "be dropped from an airplane to a herd of cattle"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "7b8fc0c5-1cb1-44a6-9bba-dc19ed10fd96",
+    "qhash": "4534f99df37ba93a4ffe09616419f65c",
+    "qt_id": "0585aefe-9c76-4e2a-921b-b8ce0dbc1418",
+    "label": "2000B1",
+    "source_id": "frq_2000B1",
+    "qt_section_ref": "1.5.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A 0.50 kg cart moves on a straight horizontal track. From t = 25 s onward, the cart continues with a constant horizontal velocity of 0.8 m/s",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 26,
+      "score": 4,
+      "matched": [
+        "a 0 50 kg cart moves on a straight horizontal",
+        "of the track and hits the floor which is 0",
+        "a 0 50 kg cart moves"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "7e3ff0fb-322d-4b9f-bccb-7b4638c18a6b",
+    "qhash": "22e9d0a0c3ba3b8c00b669d8989a4d0b",
+    "qt_id": "eb845e08-5bbb-476d-8524-093df1e68971",
+    "label": "69",
+    "source_id": "q69",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A rock is dropped from the top of a tall tower. Half a second later another rock, twice as massive as the first, is dropped. Ignoring air re",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 20,
+      "score": 12,
+      "matched": [
+        "a rock is dropped from the top of a tall",
+        "the top of a tall tower half a second later",
+        "tower half a second later another rock twice as massive"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 118,
+        "hits": 12
+      },
+      {
+        "slug": "5stepsapphysics",
+        "page": 383,
+        "hits": 1
+      },
+      {
+        "slug": "workbook_1_full_1",
+        "page": 15,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "fc92a1e5-89ea-4533-a9ee-13f9b86f3fb0",
+    "qhash": "fac69ea2596d50abdcdb055c1e04ff79",
+    "qt_id": "eeb5a802-5620-4078-85b1-c56f80916077",
+    "label": "9",
+    "source_id": "q9",
+    "qt_section_ref": "1.5.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A ball is thrown and follows the parabolic path shown above. Air friction is negligible. Point Q is the highest point on the path. Points P ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 9,
+      "score": 12,
+      "matched": [
+        "follows the parabolic path shown above air friction is negligible",
+        "above air friction is negligible point q is the highest",
+        "point q is the highest point on the path points"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 45,
+        "hits": 5
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "6962aafa-334e-4136-bcac-ee06a1bf70cd",
+    "qhash": "506b67acd83102f110adb5da4914bb4b",
+    "qt_id": "fe873d0c-92ef-47dc-9aa2-f11c3fbdd4d5",
+    "label": "73",
+    "source_id": "q73",
+    "qt_section_ref": "1.4.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A particle continuously moves in a circular path at constant speed in a counterclockwise direction. Consider a time interval during which th",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 21,
+      "score": 12,
+      "matched": [
+        "a circular path at constant speed in a counterclockwise direction",
+        "speed in a counterclockwise direction consider a time interval during",
+        "consider a time interval during which the particle moves along"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "43d91e3f-963e-43cd-97d0-b2400c2b0091",
+    "qhash": "176690b24d6032e36edc37238a4f83de",
+    "qt_id": "eb845e08-5bbb-476d-8524-093df1e68971",
+    "label": "80",
+    "source_id": "q80",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "Is it possible for an object's velocity to increase while its acceleration decreases?",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 22,
+      "score": 1,
+      "matched": [
+        "velocity to increase while its acceleration"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "d8d91a56-4560-4b13-86f7-6475297fa2d7",
+    "qhash": "4b6c299e92b02844c3385ad5bac2cc5d",
+    "qt_id": "0585aefe-9c76-4e2a-921b-b8ce0dbc1418",
+    "label": "37",
+    "source_id": "q37",
+    "qt_section_ref": "1.5.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "An arrow is aimed horizontally, directly at the center of a target 20 m away. The arrow hits 0.050 m below the center of the target. Neglect",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 15,
+      "score": 12,
+      "matched": [
+        "an arrow is aimed horizontally directly at the center of",
+        "directly at the center of a target 20 m away",
+        "a target 20 m away the arrow hits 0 050"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "62eb1df2-1753-4ef0-97e7-3a27f33c8507",
+    "qhash": "8fb30613383c888841a4b976791a92fd",
+    "qt_id": "eeb5a802-5620-4078-85b1-c56f80916077",
+    "label": "15",
+    "source_id": "q15",
+    "qt_section_ref": "1.5.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "The velocity of a projectile at launch has a horizontal component vh and a vertical component vv. Air resistance is negligible. When the pro",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 11,
+      "score": 12,
+      "matched": [
+        "the velocity of a projectile at launch has a horizontal",
+        "at launch has a horizontal component vh and a vertical",
+        "component vh and a vertical component vv air resistance is"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "029cd0d8-4250-4b3e-9aac-6373674e64c7",
+    "qhash": "0a3e80e5f6d207632a3a9802da1023ba",
+    "qt_id": "fe873d0c-92ef-47dc-9aa2-f11c3fbdd4d5",
+    "label": "44",
+    "source_id": "q44",
+    "qt_section_ref": "1.4.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "At t0, two cars moving along a highway are side-by-side as they pass a third car stopped on the side of the road. At this moment the driver ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 16,
+      "score": 12,
+      "matched": [
+        "at t0 two cars moving along a highway are side",
+        "along a highway are side by side as they pass",
+        "by side as they pass a third car stopped on"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "3fb24e7c-16f7-45de-a30a-7f765e61baa1",
+    "qhash": "df5390b26674ac035c7fd1cb237e7ea6",
+    "qt_id": "0585aefe-9c76-4e2a-921b-b8ce0dbc1418",
+    "label": "81",
+    "source_id": "q81",
+    "qt_section_ref": "1.5.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "During a recent winter storm, bales of hay had to be dropped from an airplane to a herd of cattle below. Assume the airplane flew horizontal",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 22,
+      "score": 12,
+      "matched": [
+        "during a recent winter storm bales of hay had to",
+        "bales of hay had to be dropped from an airplane",
+        "be dropped from an airplane to a herd of cattle"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "ca1d90f0-b786-4b91-b9cd-06092f7215fd",
+    "qhash": "2669e420b5b149e1bd04a8554414f578",
+    "qt_id": "eeb5a802-5620-4078-85b1-c56f80916077",
+    "label": "42",
+    "source_id": "q42",
+    "qt_section_ref": "1.5.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "An ideal elastic rubber ball is dropped from a height of about 2 meters, hits the floor and rebounds to its original height.",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 16,
+      "score": 9,
+      "matched": [
+        "an ideal elastic rubber ball is dropped from a height",
+        "is dropped from a height of about 2 meters hits",
+        "of about 2 meters hits the floor and rebounds to"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "66daa3b2-f533-4ee3-93ba-98d2c677b829",
+    "qhash": "5ca553dcf70d70607f04b9913a43574f",
+    "qt_id": "fe873d0c-92ef-47dc-9aa2-f11c3fbdd4d5",
+    "label": "45",
+    "source_id": "q45",
+    "qt_section_ref": "1.4.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "At t0, two cars moving along a highway are side-by-side as they pass a third car stopped on the side of the road. At this moment the driver ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 16,
+      "score": 12,
+      "matched": [
+        "at t0 two cars moving along a highway are side",
+        "along a highway are side by side as they pass",
+        "by side as they pass a third car stopped on"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "5d2e6234-e8ec-4a50-a23f-95c8ca6eebaa",
+    "qhash": "9297627bac8699138089003d3c5504f4",
+    "qt_id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "label": "4",
+    "source_id": "q_d4",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "When the frictionless system shown above is accelerated by an applied force of magnitude F the tension in the string between the blocks is",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 41,
+      "score": 6,
+      "matched": [
+        "when the frictionless system shown above is accelerated by an",
+        "when the frictionless system shown above",
+        "system shown above is accelerated by"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "d5224ab9-b64f-45f3-a029-4ef6c313caf1",
+    "qhash": "3a38982ce6abe3b9763bce2935b7e1d9",
+    "qt_id": "86e85fea-9a0a-4219-a451-bcb643c79250",
+    "label": "55",
+    "source_id": "q55",
+    "qt_section_ref": "1.5.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "Two arrows are launched at the same time with the same speed. Arrow A at an angle greater than 45 degrees, and arrow B at an angle less than",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 18,
+      "score": 12,
+      "matched": [
+        "two arrows are launched at the same time with the",
+        "the same time with the same speed arrow a at",
+        "same speed arrow a at an angle greater than 45"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "ap_physics_1_algebra_based_ap_physics_1_2017",
+        "page": 20,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "67c1c5be-e147-4583-96aa-ac112880adeb",
+    "qhash": "da0bba1c43bd6e85645698f277258a46",
+    "qt_id": "86e85fea-9a0a-4219-a451-bcb643c79250",
+    "label": "1994B1",
+    "source_id": "frq_1994B1",
+    "qt_section_ref": "1.5.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A ball of mass 0.5 kilogram, initially at rest, is kicked directly toward a fence from a point 32 meters away. The velocity of the ball as i",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 25,
+      "score": 10,
+      "matched": [
+        "5 kilogram initially at rest is kicked directly toward a",
+        "is kicked directly toward a fence from a point 32",
+        "the ball as it leaves the kickers foot is 20"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "e762f2e1-4af8-40d9-bf0b-6c52b95b800b",
+    "qhash": "d74e14f4266a58284ed779adb1723fa5",
+    "qt_id": "eeb5a802-5620-4078-85b1-c56f80916077",
+    "label": "7",
+    "source_id": "q7",
+    "qt_section_ref": "1.5.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A projectile is fired with initial velocity v0 at an angle θ0 with the horizontal and follows the trajectory shown above. Which of the follo",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 9,
+      "score": 8,
+      "matched": [
+        "angle 0 with the horizontal and follows the trajectory shown",
+        "and follows the trajectory shown above which of the following",
+        "above which of the following pairs of graphs best represents"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "ab350154-8544-40a2-9b85-dba9824b9fd2",
+    "qhash": "4b96702f7cc9fcb05c3a9da374c2e4a7",
+    "qt_id": "eeb5a802-5620-4078-85b1-c56f80916077",
+    "label": "43",
+    "source_id": "q43",
+    "qt_section_ref": "1.5.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "An ideal elastic rubber ball is dropped from a height of about 2 meters, hits the floor and rebounds to its original height.",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 16,
+      "score": 9,
+      "matched": [
+        "an ideal elastic rubber ball is dropped from a height",
+        "is dropped from a height of about 2 meters hits",
+        "of about 2 meters hits the floor and rebounds to"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "ba5a3d24-7589-46aa-85e3-e668413d9403",
+    "qhash": "a99efd99a2bdfef1c6902b46fb17b7fc",
+    "qt_id": "fe873d0c-92ef-47dc-9aa2-f11c3fbdd4d5",
+    "label": "48",
+    "source_id": "q48",
+    "qt_section_ref": "1.4.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "Between what times did the object have a non-zero acceleration?",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 17,
+      "score": 3,
+      "matched": [
+        "between what times did the object have a non zero",
+        "between what times did the object",
+        "did the object have a non"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "a8df4b8e-41f3-473c-bb62-2a9e40c3ab74",
+    "qhash": "7d9df5b112600b0e91fde6eb95a0045c",
+    "qt_id": "fe873d0c-92ef-47dc-9aa2-f11c3fbdd4d5",
+    "label": "78",
+    "source_id": "q78",
+    "qt_section_ref": "1.4.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A toy car moves 3.0 m to the North in one second. The car then moves at 9.0 m/s due South for two seconds. What is the average speed of the ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 22,
+      "score": 12,
+      "matched": [
+        "a toy car moves 3 0 m to the north",
+        "0 m to the north in one second the car",
+        "in one second the car then moves at 9 0"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "ee31bc08-ed3b-4834-841e-91e84d7aa79b",
+    "qhash": "d34770ee175db1f8cada6eee77d34bb9",
+    "qt_id": "eeb5a802-5620-4078-85b1-c56f80916077",
+    "label": "8",
+    "source_id": "q8",
+    "qt_section_ref": "1.5.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A ball is thrown and follows the parabolic path shown above. Air friction is negligible. Point Q is the highest point on the path. Points P ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 9,
+      "score": 12,
+      "matched": [
+        "follows the parabolic path shown above air friction is negligible",
+        "above air friction is negligible point q is the highest",
+        "point q is the highest point on the path points"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 45,
+        "hits": 5
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "ed89c88a-a6e2-4faa-be33-3d6a2ff78191",
+    "qhash": "9696e90467af23e0136d78028cd4ba4b",
+    "qt_id": "eeb5a802-5620-4078-85b1-c56f80916077",
+    "label": "71",
+    "source_id": "q71",
+    "qt_section_ref": "1.5.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "During an interval of time, a tennis ball is moved so that the angle between the velocity and the acceleration of the ball is kept at a cons",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 21,
+      "score": 12,
+      "matched": [
+        "during an interval of time a tennis ball is moved",
+        "a tennis ball is moved so that the angle between",
+        "so that the angle between the velocity and the acceleration"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "da62cbb2-f811-45f8-8da2-73aa50ea86ed",
+    "qhash": "ea44350994c8b942f97063712f0f5ff7",
+    "qt_id": "fe873d0c-92ef-47dc-9aa2-f11c3fbdd4d5",
+    "label": "14",
+    "source_id": "q14",
+    "qt_section_ref": "1.4.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "Vectors V1 and V2 shown above have equal magnitudes. The vectors represent the velocities of an object at times t1 and t2, respectively. The",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 10,
+      "score": 12,
+      "matched": [
+        "vectors v1 and v2 shown above have equal magnitudes the",
+        "above have equal magnitudes the vectors represent the velocities of",
+        "vectors represent the velocities of an object at times t1"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "21341dda-4158-488b-a755-2dcf0f069d93",
+    "qhash": "bdc550035c17f6a84e2fa5620d68b456",
+    "qt_id": "fe873d0c-92ef-47dc-9aa2-f11c3fbdd4d5",
+    "label": "53",
+    "source_id": "q53",
+    "qt_section_ref": "1.4.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "After 12 seconds, how far is the clown from her original starting point?",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 18,
+      "score": 4,
+      "matched": [
+        "after 12 seconds how far is the clown from her",
+        "after 12 seconds how far is",
+        "how far is the clown from"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "60f52506-106e-4db1-9b7a-f90393241fb3",
+    "qhash": "c86efe8e21c1c5fbf61a936e91fba779",
+    "qt_id": "fe873d0c-92ef-47dc-9aa2-f11c3fbdd4d5",
+    "label": "79",
+    "source_id": "q79",
+    "qt_section_ref": "1.4.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "Two automobiles are 150 kilometers apart and traveling toward each other. One automobile is moving at 60 km/h and the other is moving at 40 ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 22,
+      "score": 12,
+      "matched": [
+        "two automobiles are 150 kilometers apart and traveling toward each",
+        "apart and traveling toward each other one automobile is moving",
+        "other one automobile is moving at 60 km h and"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "160bdde8-3db2-4b5e-9d6f-8b163b2ee7fd",
+    "qhash": "fb7f33637f901832e35f8111e6fc6c75",
+    "qt_id": "fe873d0c-92ef-47dc-9aa2-f11c3fbdd4d5",
+    "label": "33",
+    "source_id": "q33",
+    "qt_section_ref": "1.4.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "Two identical bowling balls A and B are each dropped from rest from the top of a tall tower. Ball A is dropped 1.0 s before ball B is droppe",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 14,
+      "score": 10,
+      "matched": [
+        "two identical bowling balls a and b are each dropped",
+        "and b are each dropped from rest from the top",
+        "a is dropped 1 0 s before ball b is"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "2f4c0a4a-398d-46f9-8962-e09804d638a6",
+    "qhash": "cb05b20a97348c4e07513b89fadebe95",
+    "qt_id": "fe873d0c-92ef-47dc-9aa2-f11c3fbdd4d5",
+    "label": "68",
+    "source_id": "q68",
+    "qt_section_ref": "1.4.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A snail is moving along a straight line. Its initial position is x0 = –5 meters and it is moving away from the origin and slowing down. In t",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 20,
+      "score": 12,
+      "matched": [
+        "a snail is moving along a straight line its initial",
+        "a straight line its initial position is x0 5 meters",
+        "position is x0 5 meters and it is moving away"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "ea7b02fb-c41b-4e60-af52-73739770b0ed",
+    "qhash": "fc51df32d4f7d26f34dce0611ddb4dc1",
+    "qt_id": "fe873d0c-92ef-47dc-9aa2-f11c3fbdd4d5",
+    "label": "72",
+    "source_id": "q72",
+    "qt_section_ref": "1.4.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A particle continuously moves in a circular path at constant speed in a counterclockwise direction. Consider a time interval during which th",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 21,
+      "score": 12,
+      "matched": [
+        "a circular path at constant speed in a counterclockwise direction",
+        "speed in a counterclockwise direction consider a time interval during",
+        "consider a time interval during which the particle moves along"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "ea00749d-1ddf-480c-a090-f263b596c981",
+    "qhash": "bd3c4ee6c2abcb1cf729e3a2fe5149a1",
+    "qt_id": "69d76ea7-337e-405f-834d-ba0d9ad3529d",
+    "label": "52",
+    "source_id": "q52",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "The motion of a circus clown on a unicycle moving in a straight line is shown in the graph below",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 18,
+      "score": 8,
+      "matched": [
+        "the motion of a circus clown on a unicycle moving",
+        "clown on a unicycle moving in a straight line is",
+        "in a straight line is shown in the graph below"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 14,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "77c28c0f-6de4-4378-841d-438535af7363",
+    "qhash": "ab7367dbee5fc7479bb90419ae36996e",
+    "qt_id": "b6a4a3d2-32de-4d3d-b5a9-0dc9a9f7d543",
+    "label": "75",
+    "source_id": "q75",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "What is the average speed of the car for the 10 second interval?",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 21,
+      "score": 4,
+      "matched": [
+        "what is the average speed of the car for the",
+        "what is the average speed of",
+        "average speed of the car for"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 22,
+        "hits": 2
+      },
+      {
+        "slug": "workbook_1_full_1",
+        "page": 19,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "f0cca31c-b4e9-4036-86eb-7ede245fb612",
+    "qhash": "55290cceacc9960889bff87400dda81e",
+    "qt_id": "69d76ea7-337e-405f-834d-ba0d9ad3529d",
+    "label": "59",
+    "source_id": "q59",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "The accompanying graph describes the motion of a toy car across the floor for 10 seconds.",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 19,
+      "score": 6,
+      "matched": [
+        "the accompanying graph describes the motion of a toy car",
+        "motion of a toy car across the floor for 10",
+        "the accompanying graph describes the motion"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 18,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "d4ebf4f8-95d2-4d96-bc84-eda82ab1d63c",
+    "qhash": "45b3c66267b8429dea33a28a61bd1ef3",
+    "qt_id": "3c7a84f6-6cb3-4a12-bd32-6a0a7a78c31f",
+    "label": "1991B1",
+    "source_id": "q_frq_1991B1",
+    "qt_section_ref": "2.4.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A 5.0-kilogram monkey hangs initially at rest from two vines, A and B, as shown. Vine A makes an angle of 30° with the vertical and vine B m",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 72,
+      "score": 6,
+      "matched": [
+        "a 5 0 kilogram monkey hangs initially at rest from",
+        "hangs initially at rest from two vines a and b",
+        "a 5 0 kilogram monkey hangs"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 129,
+        "hits": 6
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "53e8198b-95e7-4b7c-9641-66849c1497e0",
+    "qhash": "8a2ee0b2fae937b115e18ae7ac0a55ea",
+    "qt_id": "c3845131-ee4b-4d41-8a0f-1ac34c571616",
+    "label": "56",
+    "source_id": "q56",
+    "qt_section_ref": "1.3.A",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "The accompanying graph describes the motion of a marble on a table top for 10 seconds.",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 18,
+      "score": 6,
+      "matched": [
+        "the accompanying graph describes the motion of a marble on",
+        "motion of a marble on a table top for 10",
+        "the accompanying graph describes the motion"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 19,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "95f651ec-a028-4909-a2ed-52e861e633ac",
+    "qhash": "0efe34af9137d29f6d2372918b464abf",
+    "qt_id": "0585aefe-9c76-4e2a-921b-b8ce0dbc1418",
+    "label": "17",
+    "source_id": "q17",
+    "qt_section_ref": "1.5.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A target T lies flat on the ground 3 m from the side of a building that is 10 m tall, as shown above. A student rolls a ball off the horizon",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 11,
+      "score": 12,
+      "matched": [
+        "a target t lies flat on the ground 3 m",
+        "on the ground 3 m from the side of a",
+        "from the side of a building that is 10 m"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "6e9f6341-5aff-43ea-ae9b-50df2e37cfa9",
+    "qhash": "3d604d84ba4b8054aeda1cff784d1ce9",
+    "qt_id": "eeb5a802-5620-4078-85b1-c56f80916077",
+    "label": "77",
+    "source_id": "q77",
+    "qt_section_ref": "1.5.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "The free fall trajectory of an object thrown horizontally from the top of a building is shown as the dashed line in the figure. Which sets o",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 22,
+      "score": 12,
+      "matched": [
+        "the free fall trajectory of an object thrown horizontally from",
+        "the top of a building is shown as the dashed",
+        "is shown as the dashed line in the figure which"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 15,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "a880552a-7a68-41de-adb4-b2386c925d3b",
+    "qhash": "fe441109b2d34fd552ee93359a9c8d02",
+    "qt_id": "eeb5a802-5620-4078-85b1-c56f80916077",
+    "label": "1979M1",
+    "source_id": "frq_1979M1",
+    "qt_section_ref": "1.5.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "A ball of mass m is released from rest at a distance h above a frictionless plane inclined at an angle of 45° to the horizontal. The ball bo",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 27,
+      "score": 10,
+      "matched": [
+        "is released from rest at a distance h above a",
+        "a distance h above a frictionless plane inclined at an",
+        "frictionless plane inclined at an angle of 45 to the"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "5stepsapphysics",
+        "page": 283,
+        "hits": 1
+      },
+      {
+        "slug": "workbook_1_full_1",
+        "page": 61,
+        "hits": 1
+      },
+      {
+        "slug": "5stepsapphysics",
+        "page": 290,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "30855f7c-e44b-41fd-af1d-e440440b6a5e",
+    "qhash": "319c6c7b47d5a2bdadaa70282bad5a5d",
+    "qt_id": "86e85fea-9a0a-4219-a451-bcb643c79250",
+    "label": "34",
+    "source_id": "q34",
+    "qt_section_ref": "1.5.B",
+    "qt_unit_label": "Unit 1: Kinematics",
+    "stem_excerpt": "The diagram below shows four cannons firing shells with different masses at different angles of elevation. The horizontal component of the s",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 15,
+      "score": 12,
+      "matched": [
+        "the diagram below shows four cannons firing shells with different",
+        "cannons firing shells with different masses at different angles of",
+        "masses at different angles of elevation the horizontal component of"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "cacefbc6-c234-4e21-8906-6978a1128492",
+    "qhash": "1c178142825ecf6f9ce7babdb81cb6f6",
+    "qt_id": "3c7a84f6-6cb3-4a12-bd32-6a0a7a78c31f",
+    "label": "7",
+    "source_id": "q_d7",
+    "qt_section_ref": "2.4.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A uniform rope of weight 50 N hangs from a hook as shown above. A box of weight 100 N hangs from the rope. What is the tension in the rope?",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 42,
+      "score": 12,
+      "matched": [
+        "a uniform rope of weight 50 n hangs from a",
+        "50 n hangs from a hook as shown above a",
+        "hook as shown above a box of weight 100 n"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "614d9e57-7d96-400c-9888-46ab7e398782",
+    "qhash": "d8935dfbeaf29a7ed2347522e6483ca9",
+    "qt_id": "3c7a84f6-6cb3-4a12-bd32-6a0a7a78c31f",
+    "label": "8",
+    "source_id": "q_d8",
+    "qt_section_ref": "2.4.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "When an object of weight W is suspended from the center of a massless string as shown above, the tension at any point in the string is",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 42,
+      "score": 12,
+      "matched": [
+        "when an object of weight w is suspended from the",
+        "w is suspended from the center of a massless string",
+        "center of a massless string as shown above the tension"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "29f09393-d263-436b-b85c-901a5b60c504",
+    "qhash": "79d8f9cb30d05b303d278cdd56322aa8",
+    "qt_id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "label": "28",
+    "source_id": "q_d28",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "Two blocks of mass 1.0 kg and 3.0 kg are connected by a string which has a tension of 2.0 N. A force F acts in the direction shown to the ri",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 47,
+      "score": 12,
+      "matched": [
+        "two blocks of mass 1 0 kg and 3 0",
+        "0 kg and 3 0 kg are connected by a",
+        "kg are connected by a string which has a tension"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "42434862-c56e-4ea3-8ddf-978262dae97c",
+    "qhash": "a8e0e605acbdadf815f669cc66206a99",
+    "qt_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "label": "10",
+    "source_id": "q_d10",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A plane 5 meters in length is inclined at an angle of 37°, as shown above. A block of weight 20 N is placed at the top of the plane and allo",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 43,
+      "score": 11,
+      "matched": [
+        "a plane 5 meters in length is inclined at an",
+        "length is inclined at an angle of 37 as shown",
+        "angle of 37 as shown above a block of weight"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 65,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "dd228b6a-92e9-4c8e-980c-35cd4c712bc5",
+    "qhash": "f520a9ef2e54d06dec9902d43785eadb",
+    "qt_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "label": "43",
+    "source_id": "q_d43",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A force F is used to hold a block of mass m on an incline as shown in the diagram. The plane makes an angle of θ with the horizontal and F i",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 49,
+      "score": 11,
+      "matched": [
+        "a force f is used to hold a block of",
+        "to hold a block of mass m on an incline",
+        "mass m on an incline as shown in the diagram"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "8ff55206-89bb-48c9-8e54-c0e45aaf54e3",
+    "qhash": "9032cdc7f6bafb39ec566b501830b6d5",
+    "qt_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "label": "3",
+    "source_id": "q_d3",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A 2-kg block slides down a 30° incline as shown above with an acceleration of 2 m/s².",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 41,
+      "score": 7,
+      "matched": [
+        "a 2 kg block slides down a 30 incline as",
+        "down a 30 incline as shown above with an acceleration",
+        "a 2 kg block slides down"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 58,
+        "hits": 1
+      },
+      {
+        "slug": "workbook_1_full_1",
+        "page": 68,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "0cf89f6c-8865-4d27-a6e6-3007b3470c35",
+    "qhash": "189b58678139140ed5c7f93282af2152",
+    "qt_id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "label": "13",
+    "source_id": "q_d13",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A rope of negligible mass supports a block that weighs 30 N, as shown above. The breaking strength of the rope is 50 N. The largest accelera",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 43,
+      "score": 12,
+      "matched": [
+        "a rope of negligible mass supports a block that weighs",
+        "supports a block that weighs 30 n as shown above",
+        "30 n as shown above the breaking strength of the"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "9952efaf-447e-4023-af94-86b6701e18c9",
+    "qhash": "22a48776198572d2aeb3822a099f6da0",
+    "qt_id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "label": "51",
+    "source_id": "q_d51",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A simple Atwood's machine is shown in the diagram above. It is composed of a frictionless lightweight pulley with two cubes connected by a l",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 50,
+      "score": 12,
+      "matched": [
+        "a simple atwoods machine is shown in the diagram above",
+        "shown in the diagram above it is composed of a",
+        "it is composed of a frictionless lightweight pulley with two"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "d0bac990-6715-4672-9090-d3691a22f8e6",
+    "qhash": "393ea61e848abcdb92b03ac242baf771",
+    "qt_id": "2d698944-c5ae-486d-ab3d-fbb4335131ed",
+    "label": "12",
+    "source_id": "q_d12",
+    "qt_section_ref": "2.4.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "For which of the following motions of an object must the acceleration always be zero?",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 43,
+      "score": 6,
+      "matched": [
+        "for which of the following motions of an object must",
+        "motions of an object must the acceleration always be zero",
+        "for which of the following motions"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "68a44bed-d550-4246-a3cb-db185a9f3faa",
+    "qhash": "b2af2da5251179f4ade3548363efabb5",
+    "qt_id": "b743c003-5094-41b2-9fc1-9c90e718c9a1",
+    "label": "14",
+    "source_id": "q_d14",
+    "qt_section_ref": "2.4.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A horizontal, uniform board of weight 125 N and length 4 m is supported by vertical chains at each end. A person weighing 500 N is hanging f",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 43,
+      "score": 12,
+      "matched": [
+        "a horizontal uniform board of weight 125 n and length",
+        "weight 125 n and length 4 m is supported by",
+        "4 m is supported by vertical chains at each end"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "07578048-4e07-47ef-a61a-528b37ca4604",
+    "qhash": "7f0cf229a0687c94c4ae97f81f2ca2a6",
+    "qt_id": "973667a0-e055-4dff-b586-92f3389e905d",
+    "label": "48",
+    "source_id": "q_d48",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "Three identical laboratory carts A, B, and C are each subject to a constant force FA, FB, and FC, respectively. One or more of these forces ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 50,
+      "score": 12,
+      "matched": [
+        "three identical laboratory carts a b and c are each",
+        "b and c are each subject to a constant force",
+        "subject to a constant force fa fb and fc respectively"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "a93868d6-cad5-49ef-b797-8ec34220835c",
+    "qhash": "534b23507dfa3443a949f17b5c87684c",
+    "qt_id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "label": "45",
+    "source_id": "q_d45",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "Given the three masses as shown in the diagram above, if the coefficient of kinetic friction between the large mass (m2) and the table is μ,",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 49,
+      "score": 12,
+      "matched": [
+        "given the three masses as shown in the diagram above",
+        "shown in the diagram above if the coefficient of kinetic",
+        "if the coefficient of kinetic friction between the large mass"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "dd879bfd-e80d-45fc-b638-be536983aa2d",
+    "qhash": "eb51a22cfc79eeaf395fe67d4d05dce2",
+    "qt_id": "2d698944-c5ae-486d-ab3d-fbb4335131ed",
+    "label": "11",
+    "source_id": "q_d11",
+    "qt_section_ref": "2.4.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "Three forces act on an object. If the object is moving to the right in translational equilibrium, which of the following must both be true?",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 43,
+      "score": 9,
+      "matched": [
+        "three forces act on an object if the object is",
+        "object if the object is moving to the right in",
+        "moving to the right in translational equilibrium which of the"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "85eebcac-2d00-4d0c-bac5-655435be7b83",
+    "qhash": "22909dd07c1a0b758caddae135bc113e",
+    "qt_id": "bb78f05e-de80-495a-a5ea-0541171a0769",
+    "label": "53",
+    "source_id": "q_d53",
+    "qt_section_ref": "2.7",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "Block 1 is stacked on top of block 2. Block 2 is connected by a light cord to block 3, which is pulled along a frictionless surface with a f",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 51,
+      "score": 12,
+      "matched": [
+        "block 1 is stacked on top of block 2 block",
+        "top of block 2 block 2 is connected by a",
+        "2 is connected by a light cord to block 3"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "c34c76b9-40f9-4320-aaa6-0a33d9433971",
+    "qhash": "b36f838146b2a93b2abec70bf581d7cd",
+    "qt_id": "973667a0-e055-4dff-b586-92f3389e905d",
+    "label": "47",
+    "source_id": "q_d47",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "Three identical laboratory carts A, B, and C are each subject to a constant force FA, FB, and FC, respectively. One or more of these forces ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 50,
+      "score": 12,
+      "matched": [
+        "three identical laboratory carts a b and c are each",
+        "b and c are each subject to a constant force",
+        "subject to a constant force fa fb and fc respectively"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "f7b35ea8-a37e-432d-92e9-504edadc94b0",
+    "qhash": "f7f61aa4304dc23ba1ef7f58491c799c",
+    "qt_id": "2d698944-c5ae-486d-ab3d-fbb4335131ed",
+    "label": "17",
+    "source_id": "q_d17",
+    "qt_section_ref": "2.4.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "Two people are pulling on the ends of a rope. Each person pulls with a force of 100 N. The tension in the rope is:",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 44,
+      "score": 11,
+      "matched": [
+        "two people are pulling on the ends of a rope",
+        "the ends of a rope each person pulls with a",
+        "each person pulls with a force of 100 n the"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "5stepsapphysics",
+        "page": 341,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "32fb9517-084f-46c0-b834-2231c5cf3c40",
+    "qhash": "d02927255443c9944f01a00c5d736bc7",
+    "qt_id": "973667a0-e055-4dff-b586-92f3389e905d",
+    "label": "18",
+    "source_id": "q_d18",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "The parabola above is a graph of speed v as a function of time t for an object. Which of the following graphs best represents the magnitude ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 44,
+      "score": 12,
+      "matched": [
+        "the parabola above is a graph of speed v as",
+        "graph of speed v as a function of time t",
+        "a function of time t for an object which of"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 11,
+        "hits": 2
+      },
+      {
+        "slug": "5stepsapphysics",
+        "page": 318,
+        "hits": 1
+      },
+      {
+        "slug": "5stepsapphysics",
+        "page": 337,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "167aa395-b76c-43b5-ae79-7e0b48b728f2",
+    "qhash": "2bacd0258cf145909ef4170cc334aad8",
+    "qt_id": "973667a0-e055-4dff-b586-92f3389e905d",
+    "label": "46",
+    "source_id": "q_d46",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "Using the setup described in question 45 with a 5 kg block, 7 kg block on a table, and the 5 kg block hanging. With a net applied force yiel",
+    "best": null,
+    "runners_up": [],
+    "unmatched": true
+  },
+  {
+    "qid": "ade8c621-061d-4cda-b6f5-5968d87e3483",
+    "qhash": "5f45ade3f87f2be56af158d116e0da07",
+    "qt_id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "label": "33",
+    "source_id": "q_d33",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "Two masses, m1 and m2, are connected by a cord and arranged as shown in the diagram with m1 sliding along on a frictionless surface and m2 h",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 47,
+      "score": 12,
+      "matched": [
+        "two masses m1 and m2 are connected by a cord",
+        "are connected by a cord and arranged as shown in",
+        "and arranged as shown in the diagram with m1 sliding"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 107,
+        "hits": 1
+      },
+      {
+        "slug": "workbook_1_full_1",
+        "page": 235,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "456262fc-ed77-4cce-ae09-586a2ed29415",
+    "qhash": "17cb9a036699bdf45e9bdf61b6ea41c4",
+    "qt_id": "2d698944-c5ae-486d-ab3d-fbb4335131ed",
+    "label": "40",
+    "source_id": "q_d40",
+    "qt_section_ref": "2.4.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A box slides to the right across a horizontal floor. A person called Ted exerts a force T to the right on the box. A person called Mario exe",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 49,
+      "score": 12,
+      "matched": [
+        "a box slides to the right across a horizontal floor",
+        "right across a horizontal floor a person called ted exerts",
+        "a person called ted exerts a force t to the"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "ap25_frq_physics_1",
+        "page": 3,
+        "hits": 1
+      },
+      {
+        "slug": "workbook_1_full_1",
+        "page": 139,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "3002e0d0-a2a3-4c72-bb6b-880651584a37",
+    "qhash": "6a851c6f49907e7a8d906eda3c2e25ec",
+    "qt_id": "973667a0-e055-4dff-b586-92f3389e905d",
+    "label": "32",
+    "source_id": "q_d32",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "The graph at left shows the relationship between the mass of a number of rubber stoppers and their resulting weight on some far-off planet. ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 47,
+      "score": 12,
+      "matched": [
+        "the graph at left shows the relationship between the mass",
+        "the relationship between the mass of a number of rubber",
+        "of a number of rubber stoppers and their resulting weight"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "ab0c1d24-113e-4ea1-b4ff-614fa7ea8bfd",
+    "qhash": "ce1e2ee83ab6de168842458a5ebe6051",
+    "qt_id": "d99753dc-133b-4cf6-a4e9-f7406ed4bcf0",
+    "label": "30",
+    "source_id": "q_d30",
+    "qt_section_ref": "2.3.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A tractor-trailer truck is traveling down the road. The mass of the trailer is 4 times the mass of the tractor. If the tractor accelerates f",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 47,
+      "score": 12,
+      "matched": [
+        "a tractor trailer truck is traveling down the road the",
+        "traveling down the road the mass of the trailer is",
+        "mass of the trailer is 4 times the mass of"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 271,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "00369e9b-a56a-46f6-bf0b-c60048373c72",
+    "qhash": "6385b86634d7e1774916ee084e410686",
+    "qt_id": "bb78f05e-de80-495a-a5ea-0541171a0769",
+    "label": "42",
+    "source_id": "q_d42",
+    "qt_section_ref": "2.7",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "Two identical blocks of weight W are placed one on top of the other as shown in the diagram above. The upper block is tied to the wall. The ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 49,
+      "score": 12,
+      "matched": [
+        "two identical blocks of weight w are placed one on",
+        "w are placed one on top of the other as",
+        "top of the other as shown in the diagram above"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "59f82a1b-4a82-4a70-bea2-01c5e096ae13",
+    "qhash": "a03b9dfeb575f07dec51093bc94a6c4c",
+    "qt_id": "f22af356-e937-49b1-b270-a3ee1411bec3",
+    "label": "5",
+    "source_id": "q_d5",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A ball falls straight down through the air under the influence of gravity. There is a retarding force F on the ball with magnitude given by ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 41,
+      "score": 12,
+      "matched": [
+        "through the air under the influence of gravity there is",
+        "influence of gravity there is a retarding force f on",
+        "a retarding force f on the ball with magnitude given"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "8d51639f-f00d-4a8e-bfbf-9e356531f287",
+    "qhash": "a0f2138e5df2fbfe37d23413bc23a774",
+    "qt_id": "54c6cfca-d95b-4c5f-b789-bdd760a079b8",
+    "label": "25",
+    "source_id": "q_d25",
+    "qt_section_ref": "2.7.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A student pulls a wooden box along a rough horizontal floor at constant speed by means of a force P as shown to the right. Which of the foll",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 46,
+      "score": 12,
+      "matched": [
+        "box along a rough horizontal floor at constant speed by",
+        "floor at constant speed by means of a force p",
+        "means of a force p as shown to the right"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "e57dd9b0-8988-48c7-afc7-ae4938699fc0",
+    "qhash": "43296509ca60c03ca20fd85624d2fdfb",
+    "qt_id": "d46cf597-b7d0-4b43-bd59-caa15f9b5129",
+    "label": "16",
+    "source_id": "q_d16",
+    "qt_section_ref": "2.2.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "The cart of mass 10 kg shown above moves without frictional loss on a level table. A 10 N force pulls on the cart horizontally to the right.",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 44,
+      "score": 12,
+      "matched": [
+        "the cart of mass 10 kg shown above moves without",
+        "kg shown above moves without frictional loss on a level",
+        "frictional loss on a level table a 10 n force"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "399e6df6-3041-40d7-900c-e99d1f986d82",
+    "qhash": "32c33a1db4c504a1dee6a33f22b6c472",
+    "qt_id": "665c502a-a8bf-47bb-9ec1-20afb9ca37a3",
+    "label": "38",
+    "source_id": "q_d38",
+    "qt_section_ref": "2.8.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A mass, M, is at rest on a frictionless surface, connected to an ideal horizontal spring that is unstretched. A person extends the spring 30",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 48,
+      "score": 12,
+      "matched": [
+        "a mass m is at rest on a frictionless surface",
+        "rest on a frictionless surface connected to an ideal horizontal",
+        "connected to an ideal horizontal spring that is unstretched a"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "5stepsapphysics",
+        "page": 200,
+        "hits": 1
+      },
+      {
+        "slug": "5stepsapphysics",
+        "page": 519,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "3dbb0bcc-efff-4c8e-93b0-dbf23ff81b8a",
+    "qhash": "0e826c51ea484b90edd27c2354832196",
+    "qt_id": "bbb55c91-193b-4fdb-a7d0-fd44400515a9",
+    "label": "41",
+    "source_id": "q_d41",
+    "qt_section_ref": "2.6.C",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A spaceman of mass 80 kg is sitting in a spacecraft near the surface of the Earth. The spacecraft is accelerating upward at five times the a",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 49,
+      "score": 12,
+      "matched": [
+        "a spaceman of mass 80 kg is sitting in a",
+        "kg is sitting in a spacecraft near the surface of",
+        "spacecraft near the surface of the earth the spacecraft is"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "5stepsapphysics",
+        "page": 213,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "56398b06-5d0c-4172-9498-622a3af0f035",
+    "qhash": "676ce1531297dbafebee3493f82f4177",
+    "qt_id": "f22af356-e937-49b1-b270-a3ee1411bec3",
+    "label": "49",
+    "source_id": "q_d49",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A skydiver is falling at terminal velocity before opening her parachute. After opening her parachute, she falls at a much smaller terminal v",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 50,
+      "score": 12,
+      "matched": [
+        "a skydiver is falling at terminal velocity before opening her",
+        "terminal velocity before opening her parachute after opening her parachute",
+        "parachute after opening her parachute she falls at a much"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "20ddb4e6-3f08-42dc-b9e1-cc8576096cc2",
+    "qhash": "6317ce04669a0cf9ec2afe6d5e3a24ad",
+    "qt_id": "54c6cfca-d95b-4c5f-b789-bdd760a079b8",
+    "label": "37",
+    "source_id": "q_d37",
+    "qt_section_ref": "2.7.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A homeowner pushes a lawn mower across a horizontal patch of grass with a constant speed by applying a force P. The arrows in the diagram co",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 48,
+      "score": 12,
+      "matched": [
+        "a homeowner pushes a lawn mower across a horizontal patch",
+        "mower across a horizontal patch of grass with a constant",
+        "of grass with a constant speed by applying a force"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "bfb957b3-c2aa-4cc5-bfe2-7c76e9cd772d",
+    "qhash": "b21c8efa0bd1acd97ff6dedba42d4bca",
+    "qt_id": "bbb55c91-193b-4fdb-a7d0-fd44400515a9",
+    "label": "1976B1",
+    "source_id": "q_frq_1976B1",
+    "qt_section_ref": "2.6.C",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "The two guide rails for an elevator each exert a constant friction force of 100 newtons on the elevator car when the elevator car is moving ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 58,
+      "score": 4,
+      "matched": [
+        "constant friction force of 100 newtons on the elevator car",
+        "newtons on the elevator car when the elevator car is",
+        "when the elevator car is moving upward with an acceleration"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "9415cfdc-927d-4e70-bef7-aa5dda30afa2",
+    "qhash": "95ed665aa4f2c7b676c49bcecb8309ca",
+    "qt_id": "54c6cfca-d95b-4c5f-b789-bdd760a079b8",
+    "label": "6",
+    "source_id": "q_d6",
+    "qt_section_ref": "2.7.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A block of weight W is pulled along a horizontal surface at constant speed v by a force F, which acts at an angle θ with the horizontal, as ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 42,
+      "score": 10,
+      "matched": [
+        "is pulled along a horizontal surface at constant speed v",
+        "surface at constant speed v by a force f which",
+        "the horizontal as shown above the normal force exerted on"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "08f128fd-6bcf-4b73-abe5-6324f9f59cfa",
+    "qhash": "1958d2a2d1557b8221f3bd78b4254296",
+    "qt_id": "d46cf597-b7d0-4b43-bd59-caa15f9b5129",
+    "label": "27",
+    "source_id": "q_d27",
+    "qt_section_ref": "2.2.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "Assume the objects in the following diagrams have equal mass and the strings holding them in place are identical. In which case would the st",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 46,
+      "score": 12,
+      "matched": [
+        "assume the objects in the following diagrams have equal mass",
+        "following diagrams have equal mass and the strings holding them",
+        "and the strings holding them in place are identical in"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "7d37afca-770a-4884-a9d1-6685021ae3f6",
+    "qhash": "f9ace3fa83ffb24eca157c27653b9c35",
+    "qt_id": "3de57203-070c-41b7-9f45-7ed8e18261bb",
+    "label": "26",
+    "source_id": "q_d26",
+    "qt_section_ref": "2.7.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "The 10.0 kg box shown in the figure to the right is sliding to the right along the floor. A horizontal force of 10.0 N is being applied to t",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 46,
+      "score": 12,
+      "matched": [
+        "the 10 0 kg box shown in the figure to",
+        "shown in the figure to the right is sliding to",
+        "the right is sliding to the right along the floor"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 117,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "90121244-fa50-4902-9d9f-69d147d3105c",
+    "qhash": "50e6ddb827b7e4268571bfa7f808475d",
+    "qt_id": "d46cf597-b7d0-4b43-bd59-caa15f9b5129",
+    "label": "44",
+    "source_id": "q_d44",
+    "qt_section_ref": "2.2.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "When the speed of a rear-drive car is increasing on a horizontal road, what is the direction of the frictional force on the tires?",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 49,
+      "score": 11,
+      "matched": [
+        "when the speed of a rear drive car is increasing",
+        "rear drive car is increasing on a horizontal road what",
+        "on a horizontal road what is the direction of the"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "5stepsapphysics",
+        "page": 423,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "b364ebc3-64f4-4308-9ad6-02bdef1d75de",
+    "qhash": "8492e6a9e47ce7d4c2ef78978efd6fa1",
+    "qt_id": "bbb55c91-193b-4fdb-a7d0-fd44400515a9",
+    "label": "34",
+    "source_id": "q_d34",
+    "qt_section_ref": "2.6.C",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A mass is suspended from the roof of a lift (elevator) by means of a spring balance. The lift (elevator) is moving upwards and the readings ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 48,
+      "score": 12,
+      "matched": [
+        "a mass is suspended from the roof of a lift",
+        "the roof of a lift elevator by means of a",
+        "elevator by means of a spring balance the lift elevator"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "ap_physics_1_premium_2024_4_practice_tests_comprehensive_kenneth_rideout_jonathan_wolf_2022_barrons_",
+        "page": 11,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "85d5998d-98b1-4265-88c7-1af92b754c0b",
+    "qhash": "5ed109365d199c09c0fc23b5fd5913a7",
+    "qt_id": "3de57203-070c-41b7-9f45-7ed8e18261bb",
+    "label": "52",
+    "source_id": "q_d52",
+    "qt_section_ref": "2.7.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A simple Atwood's machine remains motionless when equal masses M are placed on each end of the cord. When a small mass m is added to one sid",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 51,
+      "score": 10,
+      "matched": [
+        "a simple atwoods machine remains motionless when equal masses m",
+        "motionless when equal masses m are placed on each end",
+        "small mass m is added to one side the masses"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "ea4763b7-3dc9-46f6-a2a3-fa0916df3bf2",
+    "qhash": "4ef46103b8227a462ec27c78da8d04fc",
+    "qt_id": "54c6cfca-d95b-4c5f-b789-bdd760a079b8",
+    "label": "B2007b1",
+    "source_id": "q_frq_2007B1B",
+    "qt_section_ref": "2.7.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A child pulls a 15 kg sled containing a 5.0 kg dog along a straight path on a horizontal surface. He exerts a force of 55 N on the sled at a",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 65,
+      "score": 10,
+      "matched": [
+        "a child pulls a 15 kg sled containing a 5",
+        "kg sled containing a 5 0 kg dog along a",
+        "0 kg dog along a straight path on a horizontal"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "10c2a76c-f3b2-4bff-9e43-bf5dd8996936",
+    "qhash": "396cf43ed1a0b56ce29ad55b1985112d",
+    "qt_id": "d46cf597-b7d0-4b43-bd59-caa15f9b5129",
+    "label": "21",
+    "source_id": "q_d21",
+    "qt_section_ref": "2.2.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A ball is thrown and follows a parabolic path, as shown above. Air friction is negligible. Point Q is the highest point on the path. Which o",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 45,
+      "score": 12,
+      "matched": [
+        "follows a parabolic path as shown above air friction is",
+        "shown above air friction is negligible point q is the",
+        "negligible point q is the highest point on the path"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 9,
+        "hits": 5
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "af00ee1b-022e-4a60-a4c3-f4c0f58bca2c",
+    "qhash": "692b04a7a639a4af2989ccaad6cc2987",
+    "qt_id": "2d698944-c5ae-486d-ab3d-fbb4335131ed",
+    "label": "39",
+    "source_id": "q_d39",
+    "qt_section_ref": "2.4.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A crate of toys remains at rest on a sleigh as the sleigh is pulled up a hill with an increasing speed. The crate is not fastened down to th",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 48,
+      "score": 11,
+      "matched": [
+        "a crate of toys remains at rest on a sleigh",
+        "at rest on a sleigh as the sleigh is pulled",
+        "as the sleigh is pulled up a hill with an"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "7e89f7a5-5f1e-4094-92ec-3d4007a34c41",
+    "qhash": "2c537c3576fc4ef7df040d3d0e668fb0",
+    "qt_id": "973667a0-e055-4dff-b586-92f3389e905d",
+    "label": "24",
+    "source_id": "q_d24",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A block of mass 3 kg, initially at rest, is pulled along a frictionless, horizontal surface with a force shown as a function of time t by th",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 46,
+      "score": 12,
+      "matched": [
+        "kg initially at rest is pulled along a frictionless horizontal",
+        "pulled along a frictionless horizontal surface with a force shown",
+        "surface with a force shown as a function of time"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "1c529d1c-3467-46ac-ae66-0310c82ae1e8",
+    "qhash": "647ec8338e5fc811ddd7528d26023536",
+    "qt_id": "bb78f05e-de80-495a-a5ea-0541171a0769",
+    "label": "36",
+    "source_id": "q_d36",
+    "qt_section_ref": "2.7",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A 6.0 kg block initially at rest is pushed against a wall by a 100 N force as shown. The coefficient of kinetic friction is 0.30 while the c",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 48,
+      "score": 12,
+      "matched": [
+        "a 6 0 kg block initially at rest is pushed",
+        "initially at rest is pushed against a wall by a",
+        "against a wall by a 100 n force as shown"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "9b7c619a-a6a1-45d8-aae1-15ff7b734231",
+    "qhash": "2f7edfb9e5f0a50b5ac8213edf69532a",
+    "qt_id": "bb78f05e-de80-495a-a5ea-0541171a0769",
+    "label": "35",
+    "source_id": "q_d35",
+    "qt_section_ref": "2.7",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A small box of mass m is placed on top of a larger box of mass 2m as shown in the diagram at right. When a force F is applied to the large b",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 48,
+      "score": 12,
+      "matched": [
+        "a small box of mass m is placed on top",
+        "m is placed on top of a larger box of",
+        "of a larger box of mass 2m as shown in"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "ap_physics_1_premium_2024_4_practice_tests_comprehensive_kenneth_rideout_jonathan_wolf_2022_barrons_",
+        "page": 21,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "7d221d4f-864d-4e04-811f-97b9a87a03c5",
+    "qhash": "b36bfdf4e6637320729410ad6bb92782",
+    "qt_id": "bb78f05e-de80-495a-a5ea-0541171a0769",
+    "label": "54",
+    "source_id": "q_d54",
+    "qt_section_ref": "2.7",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "Three blocks (m1, m2, and m3) are sliding at a constant velocity across a rough surface as shown in the diagram above. The coefficient of ki",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 51,
+      "score": 12,
+      "matched": [
+        "three blocks m1 m2 and m3 are sliding at a",
+        "m3 are sliding at a constant velocity across a rough",
+        "constant velocity across a rough surface as shown in the"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "ap_physics_1_algebra_based_ap_physics_1_2015",
+        "page": 23,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "6d7122a6-42e3-417d-90a3-5c1abb70877d",
+    "qhash": "3ada6313abcd6c90ed754f3a2de7ed71",
+    "qt_id": "3c7a84f6-6cb3-4a12-bd32-6a0a7a78c31f",
+    "label": "2005B2",
+    "source_id": "q_frq_2005B2",
+    "qt_section_ref": "2.4.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A simple pendulum consists of a bob of mass 1.8 kg attached to a string of length 2.3 m. The pendulum is held at an angle of 30° from the ve",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 71,
+      "score": 11,
+      "matched": [
+        "a simple pendulum consists of a bob of mass 1",
+        "a bob of mass 1 8 kg attached to a",
+        "8 kg attached to a string of length 2 3"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 136,
+        "hits": 11
+      },
+      {
+        "slug": "workbook_1_full_1",
+        "page": 297,
+        "hits": 11
+      },
+      {
+        "slug": "workbook_1_full_1",
+        "page": 135,
+        "hits": 2
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "2f7b4285-cbbf-423e-9e8c-39c8d602569c",
+    "qhash": "4cc70e6bf50c23b926b73cde484647d8",
+    "qt_id": "f3230b7c-3712-468c-a7a6-43f680750722",
+    "label": "B1",
+    "source_id": "q_cm1",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A person stands on a merry-go-round which is rotating at constant angular speed. Which of the following pair of statements is true about the",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 52,
+      "score": 8,
+      "matched": [
+        "a person stands on a merry go round which is",
+        "merry go round which is rotating at constant angular speed",
+        "the frictional force exerted on the person by the merry"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "0ac180f4-b5be-4993-b0a0-0755a05cde44",
+    "qhash": "26a0610e749e920ed0ae2fc13b723d66",
+    "qt_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "label": "31",
+    "source_id": "q_d31",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A wooden box is first pulled across a horizontal steel plate as shown in the diagram A. The box is then pulled across the same steel plate w",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 47,
+      "score": 12,
+      "matched": [
+        "a wooden box is first pulled across a horizontal steel",
+        "pulled across a horizontal steel plate as shown in the",
+        "plate as shown in the diagram a the box is"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "a5940f0c-608a-435e-ae23-91ecd232b22b",
+    "qhash": "6f71a0b5f7cb94329a4123972ebf1ad2",
+    "qt_id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "label": "9",
+    "source_id": "q_d9",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A block of mass 3m can move without friction on a horizontal table. This block is attached to another block of mass m by a cord that passes ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 42,
+      "score": 12,
+      "matched": [
+        "can move without friction on a horizontal table this block",
+        "a horizontal table this block is attached to another block",
+        "is attached to another block of mass m by a"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "bac9181b-6da8-4a7a-b1bb-33b5f6daa148",
+    "qhash": "edce886deb8758dccdbb0c90b2327332",
+    "qt_id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "label": "23",
+    "source_id": "q_d23",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "Three blocks of masses 3m, 2m, and m are connected by strings A, B, and C as shown above. The blocks are pulled along a rough surface by a f",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 46,
+      "score": 6,
+      "matched": [
+        "c as shown above the blocks are pulled along a",
+        "blocks are pulled along a rough surface by a force",
+        "rough surface by a force of magnitude f exerted by"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "ce73dd8a-dd01-4235-96ab-ee6207c66188",
+    "qhash": "f8d0fb359d1933d22d202afca40135d0",
+    "qt_id": "665c502a-a8bf-47bb-9ec1-20afb9ca37a3",
+    "label": "20",
+    "source_id": "q_d20",
+    "qt_section_ref": "2.8.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "Two massless springs, of spring constants k1 and k2, are hung from a horizontal support. A block of weight 12 N is suspended from the pair o",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 45,
+      "score": 12,
+      "matched": [
+        "two massless springs of spring constants k1 and k2 are",
+        "constants k1 and k2 are hung from a horizontal support",
+        "hung from a horizontal support a block of weight 12"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "29fd22e5-e6f6-40d3-bc3e-a1c9ebeb2fc5",
+    "qhash": "5cfc123abb0a2f7a9fde0655a3737485",
+    "qt_id": "f3230b7c-3712-468c-a7a6-43f680750722",
+    "label": "B4",
+    "source_id": "q_cm4",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "The horizontal turntable shown above rotates at a constant rate. As viewed from above, a coin on the turntable moves counterclockwise in a c",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 52,
+      "score": 12,
+      "matched": [
+        "the horizontal turntable shown above rotates at a constant rate",
+        "rotates at a constant rate as viewed from above a",
+        "as viewed from above a coin on the turntable moves"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "43311323-b378-4069-b2bc-e2476ae5c5cc",
+    "qhash": "2efe608559541b1437fac275cf3b096c",
+    "qt_id": "f3230b7c-3712-468c-a7a6-43f680750722",
+    "label": "B10",
+    "source_id": "q_cm10",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A steel ball supported by a stick rotates in a circle of radius r, as shown above. The direction of the net force acting on the ball when it",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 54,
+      "score": 12,
+      "matched": [
+        "a steel ball supported by a stick rotates in a",
+        "a stick rotates in a circle of radius r as",
+        "circle of radius r as shown above the direction of"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 224,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "aa8c6416-f10c-4e6e-9745-433295b6e34b",
+    "qhash": "02dd35285f75da2a89941e27ad65d951",
+    "qt_id": "f3230b7c-3712-468c-a7a6-43f680750722",
+    "label": "B14",
+    "source_id": "q_cm14",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A spring has a force constant of 100 N/m and an unstretched length of 0.07 m. One end is attached to a post that is free to rotate in the ce",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 55,
+      "score": 12,
+      "matched": [
+        "a spring has a force constant of 100 n m",
+        "constant of 100 n m and an unstretched length of",
+        "and an unstretched length of 0 07 m one end"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "309941c3-add3-40ff-bb66-32fe80448a8a",
+    "qhash": "ec92713aa3c2c057b62f7ab8a9812982",
+    "qt_id": "f3230b7c-3712-468c-a7a6-43f680750722",
+    "label": "B18",
+    "source_id": "q_cm18",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "An object shown in the accompanying figure moves in uniform circular motion. Which arrow best depicts the net force acting on the object at ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 56,
+      "score": 10,
+      "matched": [
+        "accompanying figure moves in uniform circular motion which arrow best",
+        "circular motion which arrow best depicts the net force acting",
+        "depicts the net force acting on the object at the"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "e3f1858d-1a65-4f80-aec6-b3204e97338e",
+    "qhash": "2970038cc63fb168a70059faaff5c9b8",
+    "qt_id": "8c49e5bd-98d3-4fd2-a0f8-6ed7ba0fd0f7",
+    "label": "B29",
+    "source_id": "q_cm29",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "Riders in a carnival ride stand with their backs against the wall of a circular room of diameter 8.0 m. The room is spinning horizontally ab",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 57,
+      "score": 12,
+      "matched": [
+        "riders in a carnival ride stand with their backs against",
+        "stand with their backs against the wall of a circular",
+        "the wall of a circular room of diameter 8 0"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "3bc88aa0-91e7-4e21-b875-ab9cfa1a548f",
+    "qhash": "0efab0b4073e3199b82a27248563fa3b",
+    "qt_id": "f3230b7c-3712-468c-a7a6-43f680750722",
+    "label": "B23",
+    "source_id": "q_cm23",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "Three cars are moving counterclockwise during a one-lap race on an elliptical track. Which car at the moment of the snapshot MUST have a net",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 56,
+      "score": 6,
+      "matched": [
+        "car at the moment of the snapshot must have a",
+        "the snapshot must have a net force acting on it",
+        "moving counterclockwise during a one lap"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "25d76b52-2d34-4bd8-a11a-1c2db4f06f5c",
+    "qhash": "da5c655ae64a67dadcbf6825353fd15d",
+    "qt_id": "8c49e5bd-98d3-4fd2-a0f8-6ed7ba0fd0f7",
+    "label": "1988M1",
+    "source_id": "q_frq_1988M1",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A highway curve that has a radius of curvature of 100 meters is banked at an angle of 15°. Determine the vehicle speed for which this curve ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 80,
+      "score": 9,
+      "matched": [
+        "a highway curve that has a radius of curvature of",
+        "a radius of curvature of 100 meters is banked at",
+        "the vehicle speed for which this curve is appropriate if"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "5stepsapphysics",
+        "page": 188,
+        "hits": 1
+      },
+      {
+        "slug": "ap_physics_1_premium_2024_4_practice_tests_comprehensive_kenneth_rideout_jonathan_wolf_2022_barrons_",
+        "page": 21,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "790da8dd-1f45-4501-b005-88f6ae1b7d4c",
+    "qhash": "7bf55fb06b28bbfcd8ea95f910811308",
+    "qt_id": "b1dffc3c-32f4-4126-bfaa-45375beec9a6",
+    "label": "B24",
+    "source_id": "q_cm24",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A centripetal force of 5.0 newtons is applied to a rubber stopper moving at a constant speed in a horizontal circle. If the same force is ap",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 57,
+      "score": 12,
+      "matched": [
+        "a centripetal force of 5 0 newtons is applied to",
+        "0 newtons is applied to a rubber stopper moving at",
+        "a rubber stopper moving at a constant speed in a"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "f04dbe0b-4804-4bbc-a89e-77fd8ec35a5e",
+    "qhash": "21fb8db200d2428603cb2bffa8e348f7",
+    "qt_id": "909bff58-644c-4423-954f-0eb27dcde525",
+    "label": "B25",
+    "source_id": "q_cm25",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "Astronauts on the Moon perform an experiment with a simple pendulum that is released from the horizontal position at rest. At the moment sho",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 57,
+      "score": 12,
+      "matched": [
+        "astronauts on the moon perform an experiment with a simple",
+        "an experiment with a simple pendulum that is released from",
+        "pendulum that is released from the horizontal position at rest"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "07908dbf-c329-4d98-a9ca-5c7089416386",
+    "qhash": "62c13e0b13c6dc46ed8e51e358a68e45",
+    "qt_id": "08af44c8-7071-4d00-b9e1-0d0d84c144d5",
+    "label": "B16",
+    "source_id": "q_cm16",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A car travels forward with constant velocity. It goes over a small stone, which gets stuck in the groove of a tire. The initial acceleration",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 55,
+      "score": 12,
+      "matched": [
+        "constant velocity it goes over a small stone which gets",
+        "a small stone which gets stuck in the groove of",
+        "stuck in the groove of a tire the initial acceleration"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 226,
+        "hits": 12
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "e70bdd00-7ccf-416e-adb3-d76ca9888780",
+    "qhash": "db9e2b0eee2aaa70e9f519d714e49282",
+    "qt_id": "41bca3e2-c8ce-409c-a321-c89763c254ac",
+    "label": "B27",
+    "source_id": "q_cm27",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A ball of mass m is fastened to a string. The ball swings at constant speed in a vertical circle of radius R with the other end of the strin",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 57,
+      "score": 12,
+      "matched": [
+        "is fastened to a string the ball swings at constant",
+        "the ball swings at constant speed in a vertical circle",
+        "speed in a vertical circle of radius r with the"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "06096747-69ce-43ac-9654-fdd89c8a48b2",
+    "qhash": "47fff239342235d7c64543a4a85906b1",
+    "qt_id": "b1dffc3c-32f4-4126-bfaa-45375beec9a6",
+    "label": "B8",
+    "source_id": "q_cm8",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A child has a toy tied to the end of a string and whirls the toy at constant speed in a horizontal circular path of radius R. The toy comple",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 53,
+      "score": 12,
+      "matched": [
+        "a child has a toy tied to the end of",
+        "tied to the end of a string and whirls the",
+        "a string and whirls the toy at constant speed in"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 54,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "581e9f41-a699-4b7c-a9de-b360a6c26620",
+    "qhash": "9a789f51301db65a16e0fc4d7621eb90",
+    "qt_id": "b1dffc3c-32f4-4126-bfaa-45375beec9a6",
+    "label": "1999B5",
+    "source_id": "q_frq_1999B5",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A coin of mass 0.0050 kg is placed on a horizontal disk at a distance of 0.14 m from the center. The disk rotates at a constant rate counter",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 77,
+      "score": 5,
+      "matched": [
+        "0050 kg is placed on a horizontal disk at a",
+        "a horizontal disk at a distance of 0 14 m",
+        "mass 0 0050 kg is placed"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "8d88a653-e3be-4083-94d7-2762d259eafd",
+    "qhash": "b6b88b9828aea9b3123dbc6476e40370",
+    "qt_id": "909bff58-644c-4423-954f-0eb27dcde525",
+    "label": "B12",
+    "source_id": "q_cm12",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A ball of mass m is attached to the end of a string of length L. The ball is released from rest from position P, where the string is horizon",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 54,
+      "score": 9,
+      "matched": [
+        "is attached to the end of a string of length",
+        "from rest from position p where the string is horizontal",
+        "where the string is horizontal it swings through position q"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "5stepsapphysics",
+        "page": 458,
+        "hits": 1
+      },
+      {
+        "slug": "ap_physics_1_premium_2024_4_practice_tests_comprehensive_kenneth_rideout_jonathan_wolf_2022_barrons_",
+        "page": 20,
+        "hits": 1
+      },
+      {
+        "slug": "ap_physics_1_premium_2024_4_practice_tests_comprehensive_kenneth_rideout_jonathan_wolf_2022_barrons_",
+        "page": 32,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "4383af7f-3cb7-44d8-abd2-d562efb3dcff",
+    "qhash": "d2634f001f343105d9edfe64ddca2eeb",
+    "qt_id": "41bca3e2-c8ce-409c-a321-c89763c254ac",
+    "label": "B28",
+    "source_id": "q_cm28",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "An object weighing 4 newtons swings on the end of a string as a simple pendulum. At the bottom of the swing, the tension in the string is 6 ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 57,
+      "score": 12,
+      "matched": [
+        "swings on the end of a string as a simple",
+        "a string as a simple pendulum at the bottom of",
+        "pendulum at the bottom of the swing the tension in"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 183,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "6c057590-ab37-46bc-8fb6-0d3e5ba4b415",
+    "qhash": "80e8629d4c8491f81cbf60bba13fab52",
+    "qt_id": "b1dffc3c-32f4-4126-bfaa-45375beec9a6",
+    "label": "B20",
+    "source_id": "q_cm20",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "An astronaut in an orbiting space craft attaches a mass m to a string and whirls it around in uniform circular motion. The radius of the cir",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 56,
+      "score": 12,
+      "matched": [
+        "an astronaut in an orbiting space craft attaches a mass",
+        "space craft attaches a mass m to a string and",
+        "m to a string and whirls it around in uniform"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "7741ecce-fa3c-4b0d-92a7-1a4baa10e117",
+    "qhash": "4c723febb9199e7764f6d4714b62a82b",
+    "qt_id": "909bff58-644c-4423-954f-0eb27dcde525",
+    "label": "B5",
+    "source_id": "q_cm5",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "In which of the following situations would an object be accelerated? Select the pair of situations in which both describe acceleration.",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 52,
+      "score": 4,
+      "matched": [
+        "in which of the following situations would an object be",
+        "in which of the following situations",
+        "the following situations would an object"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "ap_physics_1_algebra_based_ap_physics_1_2014",
+        "page": 14,
+        "hits": 1
+      },
+      {
+        "slug": "ap_physics_1_algebra_based_ap_physics_1_2015",
+        "page": 19,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "1ea7ce3c-d278-4178-9c27-4b8ecb5204b5",
+    "qhash": "0a3816ec69ac49381efa543a2d5c8d1b",
+    "qt_id": "909bff58-644c-4423-954f-0eb27dcde525",
+    "label": "B19",
+    "source_id": "q_cm19",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A child whirls a ball at the end of a rope, in a uniform circular motion. Which pair of statements is true?",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 56,
+      "score": 5,
+      "matched": [
+        "a child whirls a ball at the end of a",
+        "at the end of a rope in a uniform circular",
+        "a child whirls a ball at"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "c639dcb8-11c8-4d01-88ee-124e2026f618",
+    "qhash": "b5f684a13bad615e72de0cdfdc824aca",
+    "qt_id": "41bca3e2-c8ce-409c-a321-c89763c254ac",
+    "label": "B26",
+    "source_id": "q_cm26",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A 4.0 kg mass is attached to one end of a rope 2 m long. If the mass is swung in a vertical circle from the free end of the rope, what is th",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 57,
+      "score": 12,
+      "matched": [
+        "a 4 0 kg mass is attached to one end",
+        "is attached to one end of a rope 2 m",
+        "of a rope 2 m long if the mass is"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "ap_physics_1_algebra_based_ap_physics_1_2014",
+        "page": 27,
+        "hits": 1
+      },
+      {
+        "slug": "ap_physics_1_algebra_based_course_and_exam_description",
+        "page": 198,
+        "hits": 1
+      },
+      {
+        "slug": "workbook_1_full_1",
+        "page": 79,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "22d42d82-0419-4a2e-a060-0438addb279d",
+    "qhash": "86a77e126b4e6880dec36d51a9b853a2",
+    "qt_id": "909bff58-644c-4423-954f-0eb27dcde525",
+    "label": "B15",
+    "source_id": "q_cm15",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A figure of a dancer on a music box moves counterclockwise at constant speed around the path shown above. The path is such that the lengths ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 55,
+      "score": 12,
+      "matched": [
+        "a figure of a dancer on a music box moves",
+        "on a music box moves counterclockwise at constant speed around",
+        "counterclockwise at constant speed around the path shown above the"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "0cf8b3b9-ec8f-4964-a83c-310e93c3fde8",
+    "qhash": "91bd0b7b4c1250c551968b17e7c39060",
+    "qt_id": "08af44c8-7071-4d00-b9e1-0d0d84c144d5",
+    "label": "1989B1",
+    "source_id": "q_frq_1989B1",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "An object of mass M on a string is whirled with increasing speed in a horizontal circle. When the string breaks, the object has speed v0 and",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 76,
+      "score": 5,
+      "matched": [
+        "on a string is whirled with increasing speed in a",
+        "has radius r and is a height h above the",
+        "mass m on a string is"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "519659ec-addc-4206-a7f6-ff430bc89147",
+    "qhash": "a7035134acbe32314e6ed99e079d3267",
+    "qt_id": "41bca3e2-c8ce-409c-a321-c89763c254ac",
+    "label": "B21",
+    "source_id": "q_cm21",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "Assume the roller coaster cart rolls along the curved track from point A to point C under the influence of gravity. Assume the friction betw",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 56,
+      "score": 11,
+      "matched": [
+        "assume the roller coaster cart rolls along the curved track",
+        "rolls along the curved track from point a to point",
+        "from point a to point c under the influence of"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "9fa0ef7e-039c-4970-8c57-5f16c484b306",
+    "qhash": "ae9cb447bbfe37557a272e89e77ea7c3",
+    "qt_id": "08af44c8-7071-4d00-b9e1-0d0d84c144d5",
+    "label": "B9",
+    "source_id": "q_cm9",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A compressed spring mounted on a disk can project a small ball. When the disk is not rotating, as shown in the top view above, the ball move",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 53,
+      "score": 12,
+      "matched": [
+        "a compressed spring mounted on a disk can project a",
+        "a disk can project a small ball when the disk",
+        "small ball when the disk is not rotating as shown"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "cbcd0c39-ff4d-4000-8986-099ffcb6423a",
+    "qhash": "402012dcf089e1f23ce9bb7c04c80ef4",
+    "qt_id": "08af44c8-7071-4d00-b9e1-0d0d84c144d5",
+    "label": "B17",
+    "source_id": "q_cm17",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A car is traveling on a road in hilly terrain. Assume the car has speed v and the tops and bottoms of the hills have radius of curvature R. ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 55,
+      "score": 9,
+      "matched": [
+        "assume the car has speed v and the tops and",
+        "v and the tops and bottoms of the hills have",
+        "bottoms of the hills have radius of curvature r the"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "9f13906f-ef9c-4ebf-9549-c307f85516e2",
+    "qhash": "cc6129ba2e0a109ba8083a41d8226feb",
+    "qt_id": "3c7a84f6-6cb3-4a12-bd32-6a0a7a78c31f",
+    "label": "1",
+    "source_id": "q_d1",
+    "qt_section_ref": "2.4.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A ball of mass m is suspended from two strings of unequal length as shown above. The magnitudes of the tensions T1 and T2 in the strings mus",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 41,
+      "score": 12,
+      "matched": [
+        "is suspended from two strings of unequal length as shown",
+        "of unequal length as shown above the magnitudes of the",
+        "above the magnitudes of the tensions t1 and t2 in"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "9d455f78-434f-45af-803e-61fe077ff3d2",
+    "qhash": "3680c634d5025d162af3f6c4333a9328",
+    "qt_id": "8c49e5bd-98d3-4fd2-a0f8-6ed7ba0fd0f7",
+    "label": "1984M1",
+    "source_id": "q_frq_1984M1",
+    "qt_section_ref": "2.9.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "An amusement park ride consists of a rotating vertical cylinder with rough canvas walls. After the rider has entered and the cylinder is rot",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 80,
+      "score": 8,
+      "matched": [
+        "an amusement park ride consists of a rotating vertical cylinder",
+        "the rider has entered and the cylinder is rotating sufficiently",
+        "the cylinder is rotating sufficiently fast the floor is dropped"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 230,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "c4c32050-180d-4bd4-8f74-f98f704bdd7a",
+    "qhash": "d2136dc99aab25b7cdbb63bbaa7f70a5",
+    "qt_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "label": "2",
+    "source_id": "q_d2",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A 2-kg block slides down a 30° incline as shown above with an acceleration of 2 m/s².",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 41,
+      "score": 7,
+      "matched": [
+        "a 2 kg block slides down a 30 incline as",
+        "down a 30 incline as shown above with an acceleration",
+        "a 2 kg block slides down"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 58,
+        "hits": 1
+      },
+      {
+        "slug": "workbook_1_full_1",
+        "page": 68,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "252828d7-2582-4a3a-8a20-efec664a6597",
+    "qhash": "44601aeec72709602fdaea8c4963b686",
+    "qt_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "label": "1979B2",
+    "source_id": "q_frq_1979B2",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A 10-kilogram block rests on a table. The coefficient of sliding friction between the block and the table is 0.2. The block is connected to ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 58,
+      "score": 5,
+      "matched": [
+        "of sliding friction between the block and the table is",
+        "block and the table is 0 2 the block is",
+        "0 2 the block is connected to a cord of"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 66,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "62950a90-92ec-45c2-9fcd-ea47963f11a8",
+    "qhash": "871c0014a1e93bb7c00311199394ee3c",
+    "qt_id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "label": "50",
+    "source_id": "q_d50",
+    "qt_section_ref": "2.5.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "Each of the diagrams below represents two weights connected by a massless string which passes over a massless, frictionless pulley. In which",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 50,
+      "score": 12,
+      "matched": [
+        "each of the diagrams below represents two weights connected by",
+        "represents two weights connected by a massless string which passes",
+        "a massless string which passes over a massless frictionless pulley"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 58,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "d666b5c1-5212-46b6-93b7-e321a945ab21",
+    "qhash": "f2aaec4befc1d15c86498a64252153ac",
+    "qt_id": "54c6cfca-d95b-4c5f-b789-bdd760a079b8",
+    "label": "22",
+    "source_id": "q_d22",
+    "qt_section_ref": "2.7.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A block of mass m is accelerated across a rough surface by a force of magnitude F that is exerted at an angle θ with the horizontal, as show",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 45,
+      "score": 12,
+      "matched": [
+        "is accelerated across a rough surface by a force of",
+        "surface by a force of magnitude f that is exerted",
+        "magnitude f that is exerted at an angle with the"
+      ]
+    },
+    "runners_up": [
+      {
+        "slug": "workbook_1_full_1",
+        "page": 46,
+        "hits": 1
+      }
+    ],
+    "unmatched": false
+  },
+  {
+    "qid": "d86e9c05-faaa-4f6d-88e8-4f5d2b1fe4c3",
+    "qhash": "e11ed0d27bc83d6c46464da1869b259a",
+    "qt_id": "b743c003-5094-41b2-9fc1-9c90e718c9a1",
+    "label": "15",
+    "source_id": "q_d15",
+    "qt_section_ref": "2.4.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A horizontal, uniform board of weight 125 N and length 4 m is supported by vertical chains at each end. A person weighing 500 N is hanging f",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 43,
+      "score": 12,
+      "matched": [
+        "a horizontal uniform board of weight 125 n and length",
+        "weight 125 n and length 4 m is supported by",
+        "4 m is supported by vertical chains at each end"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "5669db02-ec5a-4d65-99d6-c330429744d3",
+    "qhash": "a4b660ae078036348a89c0f1ed75af94",
+    "qt_id": "d46cf597-b7d0-4b43-bd59-caa15f9b5129",
+    "label": "19",
+    "source_id": "q_d19",
+    "qt_section_ref": "2.2.A",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A ball initially moves horizontally with velocity vi, as shown above. It is then struck by a stick. After leaving the stick, the ball moves ",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 45,
+      "score": 10,
+      "matched": [
+        "with velocity vi as shown above it is then struck",
+        "above it is then struck by a stick after leaving",
+        "by a stick after leaving the stick the ball moves"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  },
+  {
+    "qid": "6ad556b0-4aa7-4f0a-bd5f-3251e8ca2911",
+    "qhash": "eb69ebc339f9ca8b315c7f1c90a0a980",
+    "qt_id": "bbb55c91-193b-4fdb-a7d0-fd44400515a9",
+    "label": "29",
+    "source_id": "q_d29",
+    "qt_section_ref": "2.6.C",
+    "qt_unit_label": "Unit 2: Force and Translational Dynamics",
+    "stem_excerpt": "A 50-kg student stands on a scale in an elevator. At the instant the elevator has a downward acceleration of 1.0 m/s² and an upward velocity",
+    "best": {
+      "slug": "workbook_1_full_1",
+      "file": "WORKBOOK 1 FULL (1).pdf",
+      "page": 47,
+      "score": 11,
+      "matched": [
+        "a 50 kg student stands on a scale in an",
+        "on a scale in an elevator at the instant the",
+        "elevator at the instant the elevator has a downward acceleration"
+      ]
+    },
+    "runners_up": [],
+    "unmatched": false
+  }
+]

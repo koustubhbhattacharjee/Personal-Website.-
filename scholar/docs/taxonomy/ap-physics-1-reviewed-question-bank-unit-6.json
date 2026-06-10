@@ -1,0 +1,646 @@
+{
+  "subject": "AP Physics 1",
+  "source": "NotebookLM",
+  "source_label": "Official PYQ + reference synthesis",
+  "custom_notes": "Reviewed Unit 6 Energy and Momentum of Rotating Systems bank with answer-only formatting for import.",
+  "questionTypes": [
+    {
+      "type": "Calculate rotational kinetic energy",
+      "unit": "Unit 6: Energy and Momentum of Rotating Systems",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "What is the rotational kinetic energy of a wheel with I = 2 kg·m² spinning at 5 rad/s?",
+          "options": ["5 J", "10 J", "25 J", "50 J"],
+          "correct_option": "25 J",
+          "answer": "C. 25 J",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 6",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If an object's angular speed is tripled, its rotational kinetic energy increases by factor:",
+          "options": ["3", "6", "9", "27"],
+          "correct_option": "9",
+          "answer": "C. 9",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 16",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A disk and a hoop have the same mass and radius and spin at the same ω. Which has more rotational KE?",
+          "options": ["The disk", "The hoop", "Both the same", "Hoop, because it is larger"],
+          "correct_option": "The hoop",
+          "answer": "B. The hoop",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2016",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A rotating rigid system can have non-zero kinetic energy even if its center of mass is at rest.",
+          "options": ["True", "False", "Only if it is hollow", "Only if it is heavy"],
+          "correct_option": "True",
+          "answer": "A. True",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Calculate total kinetic energy of rolling objects",
+      "unit": "Unit 6: Energy and Momentum of Rotating Systems",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "For a solid disk (I = 1/2 MR²) rolling without slipping at speed v, what is the ratio of rotational KE to translational KE?",
+          "options": ["1:1", "1:2", "2:1", "1:4"],
+          "correct_option": "1:2",
+          "answer": "B. 1:2",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A hoop of mass M rolls without slipping at speed v. Its total kinetic energy is:",
+          "options": ["1/2 Mv²", "Mv²", "2 Mv²", "1/4 Mv²"],
+          "correct_option": "Mv²",
+          "answer": "B. Mv²",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Rotational Motion",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which rolling object has the highest total KE for the same mass and speed v?",
+          "options": ["Hoop", "Solid disk", "Solid sphere", "They all have the same total KE"],
+          "correct_option": "Hoop",
+          "answer": "A. Hoop",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2016",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An object rolls without slipping. This implies that friction:",
+          "options": ["Does negative work", "Does positive work", "Does zero net work", "Is kinetic friction"],
+          "correct_option": "Does zero net work",
+          "answer": "C. Does zero net work",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Apply conservation of energy to rolling objects",
+      "unit": "Unit 6: Energy and Momentum of Rotating Systems",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A disk and a hoop roll from rest down the same incline. Which reaches the bottom first?",
+          "options": ["The disk", "The hoop", "Both at same time", "Hoop, because it has more energy"],
+          "correct_option": "The disk",
+          "answer": "A. The disk",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2016",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a rolling ball reaches a frictionless section of a hill, it will:",
+          "options": ["Stop rotating", "Continue rotating at constant angular velocity", "Speed up its rotation", "Slow down its rotation"],
+          "correct_option": "Continue rotating at constant angular velocity",
+          "answer": "B. Continue rotating at constant angular velocity",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Rotational Motion",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A solid sphere rolls from rest down a height H. Its speed at the bottom is:",
+          "options": ["sqrt(2gH)", "sqrt(10/7 gH)", "sqrt(4/3 gH)", "sqrt(gH)"],
+          "correct_option": "sqrt(10/7 gH)",
+          "answer": "B. sqrt(10/7 gH)",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Rotational Motion",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Two objects have same mass/radius. Disk rolls down; block slides down (frictionless). Which has higher speed at the bottom?",
+          "options": ["Disk", "Block", "Both same", "It depends on the mass"],
+          "correct_option": "Block",
+          "answer": "B. Block",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2014",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Calculate angular momentum of point masses and rigid bodies",
+      "unit": "Unit 6: Energy and Momentum of Rotating Systems",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "What is the angular momentum of a 2 kg mass moving at 10 m/s in a circle of radius 0.5 m?",
+          "options": ["1 kg·m²/s", "5 kg·m²/s", "10 kg·m²/s", "20 kg·m²/s"],
+          "correct_option": "10 kg·m²/s",
+          "answer": "C. 10 kg·m²/s",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 6",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A disk with I = 4 kg·m² rotates at 2 rad/s. Its angular momentum is:",
+          "options": ["2 kg·m²/s", "4 kg·m²/s", "8 kg·m²/s", "16 kg·m²/s"],
+          "correct_option": "8 kg·m²/s",
+          "answer": "C. 8 kg·m²/s",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 16",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An object moving in a straight line with momentum p passes an observer at a minimum distance (impact parameter) d. Its angular momentum relative to the observer is:",
+          "options": ["Zero", "p*d", "p/d", "p*d²"],
+          "correct_option": "p*d",
+          "answer": "B. p*d",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Angular momentum is a vector quantity. Its direction is given by:",
+          "options": ["Right-hand rule", "Left-hand rule", "The direction of gravity", "Toward the center"],
+          "correct_option": "Right-hand rule",
+          "answer": "A. Right-hand rule",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Rotational Motion",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Apply conservation of angular momentum to systems",
+      "unit": "Unit 6: Energy and Momentum of Rotating Systems",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A spinning ice skater pulls her arms in, decreasing her rotational inertia. Her angular velocity will:",
+          "options": ["Decrease", "Stay the same", "Increase", "Become zero"],
+          "correct_option": "Increase",
+          "answer": "C. Increase",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the ice skater increases her angular velocity by factor 2 by pulling in arms, her rotational inertia must have decreased by factor:",
+          "options": ["2", "4", "sqrt(2)", "1"],
+          "correct_option": "2",
+          "answer": "A. 2",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Rotational Motion",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A student drops a non-rotating disk onto a rotating disk. What is conserved for the two-disk system?",
+          "options": ["Kinetic Energy", "Angular Momentum", "Both", "Neither"],
+          "correct_option": "Angular Momentum",
+          "answer": "B. Angular Momentum",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2016",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Angular momentum is conserved when:",
+          "options": ["Net external force is zero", "Net external torque is zero", "Friction is zero", "Mass is constant"],
+          "correct_option": "Net external torque is zero",
+          "answer": "B. Net external torque is zero",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Relate net torque to change in angular momentum (Angular Impulse)",
+      "unit": "Unit 6: Energy and Momentum of Rotating Systems",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "An angular impulse of 10 N·m·s is applied to a disk. Its change in angular momentum is:",
+          "options": ["5 kg·m²/s", "10 kg·m²/s", "20 kg·m²/s", "Zero"],
+          "correct_option": "10 kg·m²/s",
+          "answer": "B. 10 kg·m²/s",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 6",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A constant torque of 5 N·m acts for 4 seconds. The magnitude of the angular impulse is:",
+          "options": ["1.25 N·m·s", "5 N·m·s", "20 N·m·s", "25 N·m·s"],
+          "correct_option": "20 N·m·s",
+          "answer": "C. 20 N·m·s",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Rotational Motion",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The rate of change of angular momentum (dL/dt) is equal to:",
+          "options": ["Angular impulse", "Net torque", "Rotational KE", "Angular velocity"],
+          "correct_option": "Net torque",
+          "answer": "B. Net torque",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "On a torque vs. time graph, the area under the curve represents:",
+          "options": ["Angular displacement", "Angular impulse", "Rotational work", "Rotational inertia"],
+          "correct_option": "Angular impulse",
+          "answer": "B. Angular impulse",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Analyze satellite orbits using gravitational and rotational concepts",
+      "unit": "Unit 6: Energy and Momentum of Rotating Systems",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "For a satellite in a circular orbit, which of the following is constant?",
+          "options": ["Total mechanical energy", "Angular momentum", "Speed", "All of the above"],
+          "correct_option": "All of the above",
+          "answer": "D. All of the above",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a satellite's orbit radius is quadrupled, its orbital speed changes by factor:",
+          "options": ["1/4", "1/2", "2", "4"],
+          "correct_option": "1/2",
+          "answer": "B. 1/2",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 11",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "According to Kepler's laws, a planet moves fastest when it is:",
+          "options": ["Closest to the sun", "Farthest from the sun", "At a medium distance", "Mass is doubled"],
+          "correct_option": "Closest to the sun",
+          "answer": "A. Closest to the sun",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a satellite escapes a planet, its final total mechanical energy must be:",
+          "options": ["Negative", "Zero", "Positive", "Infinite"],
+          "correct_option": "Zero",
+          "answer": "B. Zero",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Calculate rotational work",
+      "unit": "Unit 6: Energy and Momentum of Rotating Systems",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A constant torque of 2 N·m rotates a wheel through 5 radians. The work done is:",
+          "options": ["0.4 J", "2.5 J", "7 J", "10 J"],
+          "correct_option": "10 J",
+          "answer": "D. 10 J",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 6",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "On a graph of torque vs. angular position, the area under the curve represents:",
+          "options": ["Angular momentum", "Rotational work", "Angular impulse", "Rotational inertia"],
+          "correct_option": "Rotational work",
+          "answer": "B. Rotational work",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the torque on a rotating system does 50 J of positive work, and the potential energy is constant, the kinetic energy must:",
+          "options": ["Decrease by 50 J", "Stay same", "Increase by 50 J", "Be zero"],
+          "correct_option": "Increase by 50 J",
+          "answer": "C. Increase by 50 J",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Rotational Motion",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Rotational work is zero if the torque is applied but the object:",
+          "options": ["Is at rest", "Does not rotate", "Is in equilibrium", "Has no mass"],
+          "correct_option": "Does not rotate",
+          "answer": "B. Does not rotate",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 16",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Solve for final velocities in inelastic rotational collisions",
+      "unit": "Unit 6: Energy and Momentum of Rotating Systems",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A disk with inertia I spinning at ω collides with and sticks to a stationary disk with inertia 2I. The final angular speed is:",
+          "options": ["ω", "ω/2", "ω/3", "2ω"],
+          "correct_option": "ω/3",
+          "answer": "C. ω/3",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2016",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In the previous question, the rotational kinetic energy of the system:",
+          "options": ["Is conserved", "Increases", "Decreases", "Becomes zero"],
+          "correct_option": "Decreases",
+          "answer": "C. Decreases",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2016",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a disk's final angular speed is 1/4 its initial speed after a collision with a stationary disk, the ratio of their inertias (I_initial / I_total) is:",
+          "options": ["1:2", "1:4", "4:1", "1:16"],
+          "correct_option": "1:4",
+          "answer": "B. 1:4",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Rotational Motion",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Two non-rotating students catch each other on a frictionless ice rink and start spinning. The total angular momentum was:",
+          "options": ["Zero", "Positive", "Negative", "Dependent on catch radius"],
+          "correct_option": "Dependent on catch radius",
+          "answer": "D. Dependent on catch radius",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Design experiments for angular momentum conservation",
+      "unit": "Unit 6: Energy and Momentum of Rotating Systems",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "To verify angular momentum conservation for a rotating student with weights, which measurements are needed?",
+          "options": ["Mass only", "Angular speed and radii of weights", "Force applied", "Linear acceleration"],
+          "correct_option": "Angular speed and radii of weights",
+          "answer": "B. Angular speed and radii of weights",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A student wants to determine if a rotational collision is elastic. They must calculate total _____ before and after.",
+          "options": ["Momentum", "Angular Momentum", "Rotational Kinetic Energy", "Torque"],
+          "correct_option": "Rotational Kinetic Energy",
+          "answer": "C. Rotational Kinetic Energy",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 16",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which set of data would linearize an experiment testing L = Iω where I is varied by moving masses along a rod?",
+          "options": ["ω vs radius", "ω vs 1/inertia", "ω vs time", "ω vs radius squared"],
+          "correct_option": "ω vs 1/inertia",
+          "answer": "B. ω vs 1/inertia",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2018",
+            "chapter": "Unit 6",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "When measuring rotation speed with a video camera, what is the most direct way to find ω?",
+          "options": ["Count frames per revolution", "Measure mass of object", "Measure radius of wheel", "Track center of mass"],
+          "correct_option": "Count frames per revolution",
+          "answer": "A. Count frames per revolution",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Rotational Motion",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Predict speed ratios based on mass and radius in orbital systems",
+      "unit": "Unit 6: Energy and Momentum of Rotating Systems",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Two satellites orbit the same planet. Satellite A has twice the mass of Satellite B but same radius. Their speeds are:",
+          "options": ["vA = vB", "vA = 2vB", "vA = 0.5vB", "vA = 4vB"],
+          "correct_option": "vA = vB",
+          "answer": "A. vA = vB",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a planet orbits twice as far from the sun as another, its orbital period is increased by factor:",
+          "options": ["2", "4", "sqrt(8)", "sqrt(2)"],
+          "correct_option": "sqrt(8)",
+          "answer": "C. sqrt(8)",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 11",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The gravitational potential energy of a satellite-earth system is zero at:",
+          "options": ["Earth's surface", "Earth's center", "Infinite distance", "Low Earth orbit"],
+          "correct_option": "Infinite distance",
+          "answer": "C. Infinite distance",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 6",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a satellite's speed is doubled at its current radius, its angular momentum relative to the planet center:",
+          "options": ["Is halved", "Stay same", "Doubles", "Quadruples"],
+          "correct_option": "Doubles",
+          "answer": "C. Doubles",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Rotational Motion",
+            "generated": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+[
+  {
+    "id": "d46cf597-b7d0-4b43-bd59-caa15f9b5129",
+    "title": "Net force from vector sum / impulse-direction reasoning",
+    "section_ref": "2.2.A",
+    "primary_slo": "2.5.A.2",
+    "aligned_slos": [
+      "2.2.A.1",
+      "2.2.B.3"
+    ],
+    "notes": "Members require determining direction of net force/average force from changes in velocity vectors or combination of multiple forces.",
+    "sample_stems": [
+      "A ball initially moves horizontally with velocity vi, as shown above. It is then struck by a stick. After leaving the stick, the ball moves ",
+      "Assume the objects in the following diagrams have equal mass and the strings holding them in place are identical. In which case would the st"
+    ],
+    "n_questions": 5
+  },
+  {
+    "id": "d99753dc-133b-4cf6-a4e9-f7406ed4bcf0",
+    "title": "Newton's third law (force pairs)",
+    "section_ref": "2.3.A",
+    "primary_slo": "2.3.A.1",
+    "aligned_slos": [],
+    "notes": "Member requires identification of action-reaction pairs as equal-magnitude, opposite-direction forces between interacting bodies.",
+    "sample_stems": [
+      "A tractor-trailer truck is traveling down the road. The mass of the trailer is 4 times the mass of the tractor. If the tractor accelerates f"
+    ],
+    "n_questions": 1
+  },
+  {
+    "id": "2d698944-c5ae-486d-ab3d-fbb4335131ed",
+    "title": "Translational equilibrium concept & net-force conditions",
+    "section_ref": "2.4.A",
+    "primary_slo": "2.4.A.2",
+    "aligned_slos": [
+      "2.4.A.3",
+      "2.4.A.1"
+    ],
+    "notes": "Members test conceptual understanding of equilibrium: vector sum of forces, constant velocity, and tension in a rope pulled equally from both sides.",
+    "sample_stems": [
+      "For which of the following motions of an object must the acceleration always be zero?",
+      "Three forces act on an object. If the object is moving to the right in translational equilibrium, which of the following must both be true?"
+    ],
+    "n_questions": 5
+  },
+  {
+    "id": "b743c003-5094-41b2-9fc1-9c90e718c9a1",
+    "title": "Balance of forces on a supported horizontal board",
+    "section_ref": "2.4.A",
+    "primary_slo": "2.4.A.2",
+    "aligned_slos": [],
+    "notes": "Members apply Fy=0 and torque-like reasoning about which support must bear more load based on position of the hanging person.",
+    "sample_stems": [
+      "A horizontal, uniform board of weight 125 N and length 4 m is supported by vertical chains at each end. A person weighing 500 N is hanging f",
+      "A horizontal, uniform board of weight 125 N and length 4 m is supported by vertical chains at each end. A person weighing 500 N is hanging f"
+    ],
+    "n_questions": 2
+  },
+  {
+    "id": "3c7a84f6-6cb3-4a12-bd32-6a0a7a78c31f",
+    "title": "Static equilibrium of a hanging mass with strings at angles",
+    "section_ref": "2.4.A",
+    "primary_slo": "2.4.A.2",
+    "aligned_slos": [],
+    "notes": "Questions require resolving tension into components and applying translational equilibrium for a suspended/hanging mass.",
+    "sample_stems": [
+      "A uniform rope of weight 50 N hangs from a hook as shown above. A box of weight 100 N hangs from the rope. What is the tension in the rope?",
+      "When an object of weight W is suspended from the center of a massless string as shown above, the tension at any point in the string is"
+    ],
+    "n_questions": 5
+  },
+  {
+    "id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "title": "Block on inclined plane with friction (weight components)",
+    "section_ref": "2.5.A",
+    "primary_slo": "2.5.A.2",
+    "aligned_slos": [],
+    "notes": "Members apply Newton's 2nd law along an incline, resolving weight into parallel (mg sinθ) and perpendicular (mg cosθ) components with friction present.",
+    "sample_stems": [
+      "A force F is used to hold a block of mass m on an incline as shown in the diagram. The plane makes an angle of θ with the horizontal and F i",
+      "A plane 5 meters in length is inclined at an angle of 37°, as shown above. A block of weight 20 N is placed at the top of the plane and allo"
+    ],
+    "n_questions": 6
+  },
+  {
+    "id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "title": "Connected blocks via string/pulley (Atwood & variants)",
+    "section_ref": "2.5.A",
+    "primary_slo": "2.5.A.2",
+    "aligned_slos": [],
+    "notes": "Members require applying Newton's 2nd law to a multi-object system connected by strings/pulleys to find acceleration or tension.",
+    "sample_stems": [
+      "A simple Atwood's machine is shown in the diagram above. It is composed of a frictionless lightweight pulley with two cubes connected by a l",
+      "A rope of negligible mass supports a block that weighs 30 N, as shown above. The breaking strength of the rope is 50 N. The largest accelera"
+    ],
+    "n_questions": 9
+  },
+  {
+    "id": "f22af356-e937-49b1-b270-a3ee1411bec3",
+    "title": "Terminal velocity and velocity-dependent drag",
+    "section_ref": "2.5.A",
+    "primary_slo": "2.5.A.1",
+    "aligned_slos": [
+      "2.4.A.3"
+    ],
+    "notes": "Members analyze motion under a drag force proportional to speed, considering acceleration before and at terminal velocity.",
+    "sample_stems": [
+      "A ball falls straight down through the air under the influence of gravity. There is a retarding force F on the ball with magnitude given by ",
+      "A skydiver is falling at terminal velocity before opening her parachute. After opening her parachute, she falls at a much smaller terminal v"
+    ],
+    "n_questions": 2
+  },
+  {
+    "id": "973667a0-e055-4dff-b586-92f3389e905d",
+    "title": "Reading F-t or v-t graphs to determine force/acceleration",
+    "section_ref": "2.5.A",
+    "primary_slo": "2.5.A.2",
+    "aligned_slos": [],
+    "notes": "Members require extracting information from a graph (force vs. time, or position vs. time of carts) and applying F = ma.",
+    "sample_stems": [
+      "The graph at left shows the relationship between the mass of a number of rubber stoppers and their resulting weight on some far-off planet. ",
+      "Three identical laboratory carts A, B, and C are each subject to a constant force FA, FB, and FC, respectively. One or more of these forces "
+    ],
+    "n_questions": 6
+  },
+  {
+    "id": "bbb55c91-193b-4fdb-a7d0-fd44400515a9",
+    "title": "Apparent weight in an accelerating elevator",
+    "section_ref": "2.6.C",
+    "primary_slo": "2.6.C.1",
+    "aligned_slos": [],
+    "notes": "Members apply the scale/normal equation N = m(g + a) for an object in an accelerating non-inertial lift.",
+    "sample_stems": [
+      "A spaceman of mass 80 kg is sitting in a spacecraft near the surface of the Earth. The spacecraft is accelerating upward at five times the a",
+      "The two guide rails for an elevator each exert a constant friction force of 100 newtons on the elevator car when the elevator car is moving "
+    ],
+    "n_questions": 4
+  },
+  {
+    "id": "bb78f05e-de80-495a-a5ea-0541171a0769",
+    "title": "Stacked blocks & friction-limited acceleration",
+    "section_ref": "2.7",
+    "primary_slo": "2.7.B.2",
+    "aligned_slos": [
+      "2.7.A.2"
+    ],
+    "notes": "Members examine friction between surfaces within a multi-body stack to determine the maximum accelerating force or required friction coefficient.",
+    "sample_stems": [
+      "Block 1 is stacked on top of block 2. Block 2 is connected by a light cord to block 3, which is pulled along a frictionless surface with a f",
+      "A 6.0 kg block initially at rest is pushed against a wall by a 100 N force as shown. The coefficient of kinetic friction is 0.30 while the c"
+    ],
+    "n_questions": 5
+  },
+  {
+    "id": "3de57203-070c-41b7-9f45-7ed8e18261bb",
+    "title": "Horizontal kinetic friction numerical comparison",
+    "section_ref": "2.7.A",
+    "primary_slo": "2.7.A.2",
+    "aligned_slos": [],
+    "notes": "Member requires computing kinetic friction magnitude and comparing to applied force to determine direction of acceleration.",
+    "sample_stems": [
+      "The 10.0 kg box shown in the figure to the right is sliding to the right along the floor. A horizontal force of 10.0 N is being applied to t",
+      "A simple Atwood's machine remains motionless when equal masses M are placed on each end of the cord. When a small mass m is added to one sid"
+    ],
+    "n_questions": 2
+  },
+  {
+    "id": "54c6cfca-d95b-4c5f-b789-bdd760a079b8",
+    "title": "Horizontal pull at an angle affecting normal force",
+    "section_ref": "2.7.A",
+    "primary_slo": "2.2.B.4",
+    "aligned_slos": [
+      "2.2.B.4"
+    ],
+    "notes": "Members require resolving an applied force into horizontal/vertical components to determine how the normal force and friction differ from W.",
+    "sample_stems": [
+      "A homeowner pushes a lawn mower across a horizontal patch of grass with a constant speed by applying a force P. The arrows in the diagram co",
+      "A student pulls a wooden box along a rough horizontal floor at constant speed by means of a force P as shown to the right. Which of the foll"
+    ],
+    "n_questions": 5
+  },
+  {
+    "id": "665c502a-a8bf-47bb-9ec1-20afb9ca37a3",
+    "title": "Ideal spring / Hooke's law and effective spring constant",
+    "section_ref": "2.8.A",
+    "primary_slo": "2.8.A.1",
+    "aligned_slos": [],
+    "notes": "Members apply F = kx in static situations, including parallel springs whose forces add for a common extension.",
+    "sample_stems": [
+      "A mass, M, is at rest on a frictionless surface, connected to an ideal horizontal spring that is unstretched. A person extends the spring 30",
+      "Two massless springs, of spring constants k1 and k2, are hung from a horizontal support. A block of weight 12 N is suspended from the pair o"
+    ],
+    "n_questions": 2
+  },
+  {
+    "id": "f3230b7c-3712-468c-a7a6-43f680750722",
+    "title": "Source of centripetal force (friction/normal/tension provides Fc)",
+    "section_ref": "2.9.A",
+    "primary_slo": "2.9.A.2",
+    "aligned_slos": [
+      "2.9.A.1"
+    ],
+    "notes": "Members identify which real force (friction, normal, tension, gravity, or a component) supplies the centripetal force for an object in circular motion.",
+    "sample_stems": [
+      "A car initially travels north and then turns to the left along a circular curve. This causes a package on the seat of the car to slide towar",
+      "A person stands on a merry-go-round which is rotating at constant angular speed. Which of the following pair of statements is true about the"
+    ],
+    "n_questions": 7
+  },
+  {
+    "id": "b1dffc3c-32f4-4126-bfaa-45375beec9a6",
+    "title": "Centripetal acceleration and force calculations (a = v²/r)",
+    "section_ref": "2.9.A",
+    "primary_slo": "2.9.A.1",
+    "aligned_slos": [
+      "2.9.A.2",
+      "2.9.A.5"
+    ],
+    "notes": "Members use $a = v^2/r$ and $F = mv^2/r$ (often combined with $v = 2\\pi r/T$) to compute numerical centripetal quantities.",
+    "sample_stems": [
+      "A ball attached to a string is whirled around in a horizontal circle having a radius R. If the radius of the circle is changed to 4R and the",
+      "Inside a washing machine, the radius of the cylinder where the clothes sit is 0.50 m. In one of its settings the machine spins the cylinder "
+    ],
+    "n_questions": 7
+  },
+  {
+    "id": "909bff58-644c-4423-954f-0eb27dcde525",
+    "title": "Velocity & acceleration direction in circular motion (conceptual)",
+    "section_ref": "2.9.A",
+    "primary_slo": "2.9.A.1",
+    "aligned_slos": [
+      "2.9.A.4"
+    ],
+    "notes": "Members distinguish the direction of velocity (tangential) from the direction of acceleration (toward center) and identify when acceleration exists.",
+    "sample_stems": [
+      "An automobile moves at constant speed down one hill and up another hill along the smoothly curved surface shown above. Which of the followin",
+      "A mass m moves on a curved path from point X to point Y. Which of the following diagrams indicates a possible combination of the net force F"
+    ],
+    "n_questions": 7
+  },
+  {
+    "id": "41bca3e2-c8ce-409c-a321-c89763c254ac",
+    "title": "Tension at top/bottom of vertical circle",
+    "section_ref": "2.9.A",
+    "primary_slo": "2.9.A.2",
+    "aligned_slos": [
+      "2.9.A.1",
+      "2.9.A.2"
+    ],
+    "notes": "Members apply F_net = mv²/r at the top or bottom of a vertical circle, where tension and gravity combine differently.",
+    "sample_stems": [
+      "A ball of mass M is attached to a string of length R and negligible mass. The ball moves clockwise in a vertical circle. Point Z is at the t",
+      "A ball of mass m is fastened to a string. The ball swings at constant speed in a vertical circle of radius R with the other end of the strin"
+    ],
+    "n_questions": 5
+  },
+  {
+    "id": "08af44c8-7071-4d00-b9e1-0d0d84c144d5",
+    "title": "Object leaving a circular path (projectile after release)",
+    "section_ref": "2.9.A",
+    "primary_slo": "2.4.A.3",
+    "aligned_slos": [
+      "2.9.A.1"
+    ],
+    "notes": "Members apply Newton's first law: once the centripetal force is removed, the object continues in a straight line tangent to the circle (becoming a projectile if gravity is present).",
+    "sample_stems": [
+      "A car travels forward with constant velocity. It goes over a small stone, which gets stuck in the groove of a tire. The initial acceleration",
+      "An object of mass M on a string is whirled with increasing speed in a horizontal circle. When the string breaks, the object has speed v0 and"
+    ],
+    "n_questions": 4
+  },
+  {
+    "id": "8c49e5bd-98d3-4fd2-a0f8-6ed7ba0fd0f7",
+    "title": "Banked / rotating wall & friction for circular motion",
+    "section_ref": "2.9.A",
+    "primary_slo": "2.9.A.2",
+    "aligned_slos": [
+      "2.9.A.1"
+    ],
+    "notes": "Members require combining friction (static), normal force, and circular-motion dynamics for riders on rotating surfaces or curved tracks — typically solving for a minimum μ or a required speed.",
+    "sample_stems": [
+      "Three cars are moving counterclockwise during a one-lap race on an elliptical track. Which car has had the lowest average speed during the r",
+      "Riders in a carnival ride stand with their backs against the wall of a circular room of diameter 8.0 m. The room is spinning horizontally ab"
+    ],
+    "n_questions": 4
+  }
+]

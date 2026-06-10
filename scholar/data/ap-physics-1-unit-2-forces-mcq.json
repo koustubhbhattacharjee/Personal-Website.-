@@ -1,0 +1,3234 @@
+{
+  "version": 2,
+  "units": [
+    {
+      "id": "u2",
+      "label": "Unit 2: Force and Translational Dynamics",
+      "question_types": [
+        {
+          "id": "qt1",
+          "label": "Static equilibrium of a hanging mass with strings at angles",
+          "section_ref": "2.4.A",
+          "primary_slo": "2.4.A.2",
+          "notes": "Questions require resolving tension into components and applying translational equilibrium for a suspended/hanging mass.",
+          "slo_weights": [
+            {
+              "slo": "2.4.A.2",
+              "weight": 0.45
+            },
+            {
+              "slo": "2.3.A.3",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.2.B.1",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.5.A.3",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "2.3.A.3",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.2.B.1",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.5.A.3",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_d1",
+              "label": "1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) T1 < T2",
+                "(B) T1 = T2",
+                "(C) T1 > T2",
+                "(D) T1 + T2 = mg"
+              ],
+              "correct_option": "(A) T1 < T2",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 41,
+                  "bbox": [
+                    0.34,
+                    0.18,
+                    0.62,
+                    0.27
+                  ],
+                  "caption": "Ball suspended from two strings of unequal length",
+                  "alt": "A ball of mass m hanging from ceiling by two strings; T1 on left is less vertical, T2 on right is more vertical"
+                },
+                {
+                  "type": "text",
+                  "value": "A ball of mass m is suspended from two strings of unequal length as shown above. The magnitudes of the tensions T1 and T2 in the strings must satisfy which of the following relations?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) T1 < T2\n(B) T1 = T2\n(C) T1 > T2\n(D) T1 + T2 = mg"
+                }
+              ]
+            },
+            {
+              "id": "q_d7",
+              "label": "7",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) It varies from 100 N at the bottom of the rope to 150 N at the top.",
+                "(B) 75 N throughout the rope",
+                "(C) 100 N throughout the rope",
+                "(D) 150 N throughout the rope"
+              ],
+              "correct_option": "(A) It varies from 100 N at the bottom of the rope to 150 N at the top.",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A uniform rope of weight 50 N hangs from a hook as shown above. A box of weight 100 N hangs from the rope. What is the tension in the rope?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) It varies from 100 N at the bottom of the rope to 150 N at the top.\n(B) 75 N throughout the rope\n(C) 100 N throughout the rope\n(D) 150 N throughout the rope"
+                }
+              ]
+            },
+            {
+              "id": "q_d8",
+              "label": "8",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) $W/(2\\cos\\theta)$",
+                "(B) $2W\\cos\\theta$",
+                "(C) $\\frac{1}{2}W\\cos\\theta$",
+                "(D) $W/(\\cos\\theta)$"
+              ],
+              "correct_option": "(A) $W/(2\\cos\\theta)$",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "When an object of weight W is suspended from the center of a massless string as shown above, the tension at any point in the string is"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $W/(2\\cos\\theta)$\n(B) $2W\\cos\\theta$\n(C) $\\frac{1}{2}W\\cos\\theta$\n(D) $W/(\\cos\\theta)$"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_1991B1",
+              "label": "1991B1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Converted from FRQ 1991B1 (monkey on two vines). Select the tension in vine B at rest.",
+              "options": [
+                "(A) 42 N",
+                "(B) 24 N",
+                "(C) 50 N",
+                "(D) 10.2 N"
+              ],
+              "correct_option": "(A) 42 N",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A 5.0-kilogram monkey hangs initially at rest from two vines, A and B, as shown. Vine A makes an angle of 30° with the vertical and vine B makes an angle of 60° with the vertical. Using g = 10 m/s² and solving the simultaneous equilibrium equations (Ta cos 30° = Tb cos 60°, Ta sin 30° + Tb sin 60° – mg = 0), determine the tension in vine B."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 42 N\n(B) 24 N\n(C) 50 N\n(D) 10.2 N"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_2005B2",
+              "label": "2005B2",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Converted from FRQ 2005B2 (pendulum held by horizontal string at 30°).",
+              "options": [
+                "(A) 10.18 N",
+                "(B) 20.37 N",
+                "(C) 15.3 N",
+                "(D) 17.6 N"
+              ],
+              "correct_option": "(A) 10.18 N",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A simple pendulum consists of a bob of mass 1.8 kg attached to a string of length 2.3 m. The pendulum is held at an angle of 30° from the vertical by a light horizontal string attached to a wall. Using g = 9.8 m/s², calculate the tension in the horizontal string."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 10.18 N\n(B) 20.37 N\n(C) 15.3 N\n(D) 17.6 N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt2",
+          "label": "Block on inclined plane with friction (weight components)",
+          "section_ref": "2.5.A",
+          "primary_slo": "2.5.A.2",
+          "notes": "Members apply Newton's 2nd law along an incline, resolving weight into parallel (mg sinθ) and perpendicular (mg cosθ) components with friction present.",
+          "slo_weights": [
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.4
+            },
+            {
+              "slo": "2.7.A.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.2.B.4",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.5.A.3",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "2.7.A.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.2.B.4",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.5.A.3",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_d2_3_stem",
+              "label": "2-3",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "incline_30",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 41,
+                  "bbox": [
+                    0.38,
+                    0.32,
+                    0.58,
+                    0.44
+                  ],
+                  "caption": "Block on 30° incline",
+                  "alt": "2-kg block on a 30° inclined surface sliding down"
+                },
+                {
+                  "type": "text",
+                  "value": "A 2-kg block slides down a 30° incline as shown above with an acceleration of 2 m/s²."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q_d2",
+                  "label": "2",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) Weight W straight down, normal N perpendicular to and away from the incline, friction f parallel to incline pointing up the slope",
+                    "(B) W perpendicular to the incline, N straight up, f down the slope",
+                    "(C) W along the incline, N straight down, f horizontal",
+                    "(D) W down, N down, f up the slope"
+                  ],
+                  "correct_option": "(A) Weight W straight down, normal N perpendicular to and away from the incline, friction f parallel to incline pointing up the slope",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Which of the following diagrams best represents the gravitational force W, the frictional force f, and the normal force N that act on the block?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) Weight W straight down, normal N perpendicular to and away from the incline, friction f parallel to incline pointing up the slope\n(B) W perpendicular to the incline, N straight up, f down the slope\n(C) W along the incline, N straight down, f horizontal\n(D) W down, N down, f up the slope"
+                    }
+                  ]
+                },
+                {
+                  "id": "q_d3",
+                  "label": "3",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) 10 N down the plane, 6 N up the plane",
+                    "(B) 20 N down the plane, 16 N up the plane",
+                    "(C) 4 N down the plane, 4 N up the plane",
+                    "(D) 0 N down the plane, 4 N up the plane"
+                  ],
+                  "correct_option": "(A) 10 N down the plane, 6 N up the plane",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Which of the following correctly indicates the magnitudes of the forces acting up and down the incline?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) 10 N down the plane, 6 N up the plane\n(B) 20 N down the plane, 16 N up the plane\n(C) 4 N down the plane, 4 N up the plane\n(D) 0 N down the plane, 4 N up the plane"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "q_d10",
+              "label": "10",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) greater than zero but less than 20 N",
+                "(B) greater than 20 N",
+                "(C) equal to 20 N",
+                "(D) zero"
+              ],
+              "correct_option": "(A) greater than zero but less than 20 N",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A plane 5 meters in length is inclined at an angle of 37°, as shown above. A block of weight 20 N is placed at the top of the plane and allowed to slide down. The magnitude of the normal force exerted on the block by the plane is"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) greater than zero but less than 20 N\n(B) greater than 20 N\n(C) equal to 20 N\n(D) zero"
+                }
+              ]
+            },
+            {
+              "id": "q_d31",
+              "label": "31",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) the inclined case has less frictional force",
+                "(B) the frictional force is the same in both cases",
+                "(C) the inclined case has a greater frictional force",
+                "(D) the frictional force increases with angle until the angle is 90°, then drops to zero"
+              ],
+              "correct_option": "(A) the inclined case has less frictional force",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A wooden box is first pulled across a horizontal steel plate as shown in the diagram A. The box is then pulled across the same steel plate while the plate is inclined as shown in diagram B. How does the force required to overcome friction in the inclined case (B) compare to the horizontal case (A)?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) the inclined case has less frictional force\n(B) the frictional force is the same in both cases\n(C) the inclined case has a greater frictional force\n(D) the frictional force increases with angle until the angle is 90°, then drops to zero"
+                }
+              ]
+            },
+            {
+              "id": "q_d43",
+              "label": "43",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) $mg(\\sin\\theta - \\mu\\cos\\theta)/\\mu$",
+                "(B) $mg\\cos\\theta$",
+                "(C) $mg\\sin\\theta$",
+                "(D) $mg\\sin\\theta/\\mu$"
+              ],
+              "correct_option": "(A) $mg(\\sin\\theta - \\mu\\cos\\theta)/\\mu$",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A force F is used to hold a block of mass m on an incline as shown in the diagram. The plane makes an angle of θ with the horizontal and F is perpendicular to the plane. The coefficient of friction between the plane and the block is μ. What is the minimum force, F, necessary to keep the block at rest?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $mg(\\sin\\theta - \\mu\\cos\\theta)/\\mu$\n(B) $mg\\cos\\theta$\n(C) $mg\\sin\\theta$\n(D) $mg\\sin\\theta/\\mu$"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_1979B2",
+              "label": "1979B2",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Converted from FRQ 1979B2 part (a): 10-kg block pulled by 50 N horizontal force with μ = 0.2.",
+              "options": [
+                "(A) 3 m/s²",
+                "(B) 5 m/s²",
+                "(C) 2 m/s²",
+                "(D) 4.8 m/s²"
+              ],
+              "correct_option": "(A) 3 m/s²",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A 10-kilogram block rests on a table. The coefficient of sliding friction between the block and the table is 0.2. The block is connected to a cord of negligible mass that hangs over a massless frictionless pulley. In case I a force of 50 newtons is applied horizontally to the cord pulling the block. Using g = 10 m/s², calculate the acceleration of the 10-kilogram block in case I."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 3 m/s²\n(B) 5 m/s²\n(C) 2 m/s²\n(D) 4.8 m/s²"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt3",
+          "label": "Connected blocks via string/pulley (Atwood & variants)",
+          "section_ref": "2.5.A",
+          "primary_slo": "2.5.A.2",
+          "notes": "Members require applying Newton's 2nd law to a multi-object system connected by strings/pulleys to find acceleration or tension.",
+          "slo_weights": [
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.45
+            },
+            {
+              "slo": "2.3.A.3",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.1.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.2.B.2",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "2.3.A.3",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.1.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.2.B.2",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_d4",
+              "label": "4",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 1/3 F",
+                "(B) F",
+                "(C) 2/3 F",
+                "(D) ½ F"
+              ],
+              "correct_option": "(A) 1/3 F",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 41,
+                  "bbox": [
+                    0.3,
+                    0.66,
+                    0.7,
+                    0.76
+                  ],
+                  "caption": "Two blocks (1 kg + 2 kg) pulled by F",
+                  "alt": "1 kg block on left connected by string to 2 kg block; force F applied to the right on 2 kg block on frictionless surface"
+                },
+                {
+                  "type": "text",
+                  "value": "When the frictionless system shown above is accelerated by an applied force of magnitude F the tension in the string between the blocks is"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 1/3 F\n(B) F\n(C) 2/3 F\n(D) ½ F"
+                }
+              ]
+            },
+            {
+              "id": "q_d9",
+              "label": "9",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) g/4",
+                "(B) g/3",
+                "(C) 2g/3",
+                "(D) g"
+              ],
+              "correct_option": "(A) g/4",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A block of mass 3m can move without friction on a horizontal table. This block is attached to another block of mass m by a cord that passes over a frictionless pulley, as shown above. If the masses of the cord and the pulley are negligible, what is the magnitude of the acceleration of the descending block?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) g/4\n(B) g/3\n(C) 2g/3\n(D) g"
+                }
+              ]
+            },
+            {
+              "id": "q_d13",
+              "label": "13",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 6.7 m/s²",
+                "(B) 10 m/s²",
+                "(C) 16.7 m/s²",
+                "(D) 26.7 m/s²"
+              ],
+              "correct_option": "(A) 6.7 m/s²",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A rope of negligible mass supports a block that weighs 30 N, as shown above. The breaking strength of the rope is 50 N. The largest acceleration that can be given to the block by pulling up on it with the rope without breaking the rope is most nearly"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 6.7 m/s²\n(B) 10 m/s²\n(C) 16.7 m/s²\n(D) 26.7 m/s²"
+                }
+              ]
+            },
+            {
+              "id": "q_d23",
+              "label": "23",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) C",
+                "(B) A",
+                "(C) B",
+                "(D) They must all be the same strength."
+              ],
+              "correct_option": "(A) C",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Three blocks of masses 3m, 2m, and m are connected by strings A, B, and C as shown above. The blocks are pulled along a rough surface by a force of magnitude F exerted by string C. The coefficient of friction between each block and the surface is the same. Which string must be the strongest in order not to break?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) C\n(B) A\n(C) B\n(D) They must all be the same strength."
+                }
+              ]
+            },
+            {
+              "id": "q_d28",
+              "label": "28",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 8.0 N",
+                "(B) 2.0 N",
+                "(C) 4.0 N",
+                "(D) 6.0 N"
+              ],
+              "correct_option": "(A) 8.0 N",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Two blocks of mass 1.0 kg and 3.0 kg are connected by a string which has a tension of 2.0 N. A force F acts in the direction shown to the right. Assuming friction is negligible, what is the value of F?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 8.0 N\n(B) 2.0 N\n(C) 4.0 N\n(D) 6.0 N"
+                }
+              ]
+            },
+            {
+              "id": "q_d33",
+              "label": "33",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) $Tm_1/(gm_1 - T)$",
+                "(B) $(m_1 g - T)/g$",
+                "(C) $\\frac{1}{2}Tg$",
+                "(D) $m_1(T - g)/(gm_1 - T)$"
+              ],
+              "correct_option": "(A) $Tm_1/(gm_1 - T)$",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Two masses, m1 and m2, are connected by a cord and arranged as shown in the diagram with m1 sliding along on a frictionless surface and m2 hanging from a light frictionless pulley. What would be the mass of the falling mass, m2, if both the sliding mass, m1, and the tension, T, in the cord were known?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $Tm_1/(gm_1 - T)$\n(B) $(m_1 g - T)/g$\n(C) $\\frac{1}{2}Tg$\n(D) $m_1(T - g)/(gm_1 - T)$"
+                }
+              ]
+            },
+            {
+              "id": "q_d45",
+              "label": "45",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) $g(m_3 - m_1 - \\mu m_2)/(m_1 + m_2 + m_3)$",
+                "(B) $g(m_1 + m_2)/(m_1 + m_2 + m_3)$",
+                "(C) $g(m_1 + m_2 + m_3)/(m_1 - m_2 - m_3)$",
+                "(D) $g(m_1 - m_2 - m_3)/(m_1 + m_2 + m_3)$"
+              ],
+              "correct_option": "(A) $g(m_3 - m_1 - \\mu m_2)/(m_1 + m_2 + m_3)$",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Given the three masses as shown in the diagram above, if the coefficient of kinetic friction between the large mass (m2) and the table is μ, what would be the upward acceleration of the small mass (m3)? The mass and friction of the cords and pulleys are small enough to produce a negligible effect on the system."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $g(m_3 - m_1 - \\mu m_2)/(m_1 + m_2 + m_3)$\n(B) $g(m_1 + m_2)/(m_1 + m_2 + m_3)$\n(C) $g(m_1 + m_2 + m_3)/(m_1 - m_2 - m_3)$\n(D) $g(m_1 - m_2 - m_3)/(m_1 + m_2 + m_3)$"
+                }
+              ]
+            },
+            {
+              "id": "q_d51",
+              "label": "51",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) TA = 47 N ; TB = 47 N",
+                "(B) TA = 47 N ; TB = 71 N",
+                "(C) TA = 47 N ; TB = 42 N",
+                "(D) TA = 39 N ; TB = 39 N"
+              ],
+              "correct_option": "(A) TA = 47 N ; TB = 47 N",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A simple Atwood's machine is shown in the diagram above. It is composed of a frictionless lightweight pulley with two cubes connected by a light string. If cube A has a mass of 4.0 kg and cube B has a mass of 6.0 kg, the system will move such that cube B accelerates downwards. What would be the tension in the two parts of the string between the pulley and the cubes?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) TA = 47 N ; TB = 47 N\n(B) TA = 47 N ; TB = 71 N\n(C) TA = 47 N ; TB = 42 N\n(D) TA = 39 N ; TB = 39 N"
+                }
+              ]
+            },
+            {
+              "id": "q_d50",
+              "label": "50",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) The case with the largest mass-difference relative to the total mass",
+                "(B) The case with equal masses on both sides",
+                "(C) The case with smaller masses overall",
+                "(D) The case with the heaviest total combined mass"
+              ],
+              "correct_option": "(A) The case with the largest mass-difference relative to the total mass",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Each of the diagrams below represents two weights connected by a massless string which passes over a massless, frictionless pulley. In which diagram will the magnitude of the acceleration be the largest?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) The case with the largest mass-difference relative to the total mass\n(B) The case with equal masses on both sides\n(C) The case with smaller masses overall\n(D) The case with the heaviest total combined mass"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt4",
+          "label": "Terminal velocity and velocity-dependent drag",
+          "section_ref": "2.5.A",
+          "primary_slo": "2.5.A.1",
+          "notes": "Members analyze motion under a drag force proportional to speed, considering acceleration before and at terminal velocity.",
+          "slo_weights": [
+            {
+              "slo": "2.5.A.1",
+              "weight": 0.4
+            },
+            {
+              "slo": "2.4.A.3",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.6.B.2",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [
+            "2.4.A.3"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.6.B.2",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_d5",
+              "label": "5",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) Decreasing",
+                "(B) Increasing",
+                "(C) 10 m/s²",
+                "(D) Zero"
+              ],
+              "correct_option": "(A) Decreasing",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A ball falls straight down through the air under the influence of gravity. There is a retarding force F on the ball with magnitude given by F = bv, where v is the speed of the ball and b is a positive constant. The ball reaches a terminal velocity after a time t. The magnitude of the acceleration at time t/2 is"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Decreasing\n(B) Increasing\n(C) 10 m/s²\n(D) Zero"
+                }
+              ]
+            },
+            {
+              "id": "q_d49",
+              "label": "49",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) The upward force in both cases must be the same.",
+                "(B) The ratio of the forces is equal to the ratio of the velocities.",
+                "(C) The upward force with the parachute will depend on the size of the parachute.",
+                "(D) The upward force before the parachute will be greater because of the greater velocity."
+              ],
+              "correct_option": "(A) The upward force in both cases must be the same.",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A skydiver is falling at terminal velocity before opening her parachute. After opening her parachute, she falls at a much smaller terminal velocity. How does the total upward force before she opens her parachute compare to the total upward force after she opens her parachute?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) The upward force in both cases must be the same.\n(B) The ratio of the forces is equal to the ratio of the velocities.\n(C) The upward force with the parachute will depend on the size of the parachute.\n(D) The upward force before the parachute will be greater because of the greater velocity."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt5",
+          "label": "Horizontal pull at an angle affecting normal force",
+          "section_ref": "2.7.A",
+          "primary_slo": "2.2.B.4",
+          "notes": "Members require resolving an applied force into horizontal/vertical components to determine how the normal force and friction differ from W.",
+          "slo_weights": [
+            {
+              "slo": "2.2.B.4",
+              "weight": 0.4
+            },
+            {
+              "slo": "2.7.A.2",
+              "weight": 0.3
+            },
+            {
+              "slo": "2.4.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.5.A.3",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [
+            "2.2.B.4"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "2.7.A.2",
+              "weight": 0.3
+            },
+            {
+              "slo": "2.4.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.5.A.3",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_d6",
+              "label": "6",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) greater than zero but less than W",
+                "(B) greater than W",
+                "(C) equal to W",
+                "(D) zero"
+              ],
+              "correct_option": "(A) greater than zero but less than W",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A block of weight W is pulled along a horizontal surface at constant speed v by a force F, which acts at an angle θ with the horizontal, as shown above. The normal force exerted on the block by the surface has magnitude"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) greater than zero but less than W\n(B) greater than W\n(C) equal to W\n(D) zero"
+                }
+              ]
+            },
+            {
+              "id": "q_d22",
+              "label": "22",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) $(F\\cos\\theta - f)/m$",
+                "(B) $F/m$",
+                "(C) $(F\\cos\\theta)/m$",
+                "(D) $(F - f)/m$"
+              ],
+              "correct_option": "(A) $(F\\cos\\theta - f)/m$",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A block of mass m is accelerated across a rough surface by a force of magnitude F that is exerted at an angle θ with the horizontal, as shown above. The frictional force on the block exerted by the surface has magnitude f. What is the acceleration of the block?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $(F\\cos\\theta - f)/m$\n(B) $F/m$\n(C) $(F\\cos\\theta)/m$\n(D) $(F - f)/m$"
+                }
+              ]
+            },
+            {
+              "id": "q_d25",
+              "label": "25",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) P > f and N < W",
+                "(B) P > f and N = W",
+                "(C) P = f and N > W",
+                "(D) P = f and N = W"
+              ],
+              "correct_option": "(A) P > f and N < W",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A student pulls a wooden box along a rough horizontal floor at constant speed by means of a force P as shown to the right. Which of the following must be true?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) P > f and N < W\n(B) P > f and N = W\n(C) P = f and N > W\n(D) P = f and N = W"
+                }
+              ]
+            },
+            {
+              "id": "q_d37",
+              "label": "37",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) P > f and N > W",
+                "(B) P < f and N = W",
+                "(C) P > f and N < W",
+                "(D) P = f and N > W"
+              ],
+              "correct_option": "(A) P > f and N > W",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A homeowner pushes a lawn mower across a horizontal patch of grass with a constant speed by applying a force P. The arrows in the diagram correctly indicate the directions but not necessarily the magnitudes of the various forces on the lawn mower. Which of the following relations among the various force magnitudes, W, f, N, P is correct?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) P > f and N > W\n(B) P < f and N = W\n(C) P > f and N < W\n(D) P = f and N > W"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_2007B1B",
+              "label": "B2007b1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Converted from FRQ B2007b1: sled+dog system pulled at 20° above horizontal. N and a.",
+              "options": [
+                "(A) N ≈ 177 N ; a ≈ 0.64 m/s²",
+                "(B) N ≈ 196 N ; a ≈ 2.6 m/s²",
+                "(C) N ≈ 215 N ; a ≈ 0.64 m/s²",
+                "(D) N ≈ 177 N ; a ≈ 2.6 m/s²"
+              ],
+              "correct_option": "(A) N ≈ 177 N ; a ≈ 0.64 m/s²",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A child pulls a 15 kg sled containing a 5.0 kg dog along a straight path on a horizontal surface. He exerts a force of 55 N on the sled at an angle of 20° above the horizontal. The coefficient of friction between the sled and the surface is 0.22. Using g = 9.8 m/s², calculate the normal force of the surface on the system and the acceleration of the system."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) N ≈ 177 N ; a ≈ 0.64 m/s²\n(B) N ≈ 196 N ; a ≈ 2.6 m/s²\n(C) N ≈ 215 N ; a ≈ 0.64 m/s²\n(D) N ≈ 177 N ; a ≈ 2.6 m/s²"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt6",
+          "label": "Translational equilibrium concept & net-force conditions",
+          "section_ref": "2.4.A",
+          "primary_slo": "2.4.A.2",
+          "notes": "Members test conceptual understanding of equilibrium: vector sum of forces, constant velocity, and tension in a rope pulled equally from both sides.",
+          "slo_weights": [
+            {
+              "slo": "2.4.A.2",
+              "weight": 0.45
+            },
+            {
+              "slo": "2.4.A.3",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.4.A.1",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.1.A.2",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [
+            "2.4.A.3",
+            "2.4.A.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "2.1.A.2",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_d11",
+              "label": "11",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Multi-correct in source; rewrote as single-best-choice 'which pair must both be true'.",
+              "options": [
+                "(A) The vector sum of the three forces must equal zero, and the object must be moving at a constant speed.",
+                "(B) All three forces must be parallel, and the magnitudes must all be equal.",
+                "(C) The magnitudes of the three forces must be equal, and all three forces point in the direction of motion.",
+                "(D) The object must be moving at a constant speed, and at least two forces must cancel out exactly."
+              ],
+              "correct_option": "(A) The vector sum of the three forces must equal zero, and the object must be moving at a constant speed.",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Three forces act on an object. If the object is moving to the right in translational equilibrium, which of the following must both be true?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) The vector sum of the three forces must equal zero, and the object must be moving at a constant speed.\n(B) All three forces must be parallel, and the magnitudes must all be equal.\n(C) The magnitudes of the three forces must be equal, and all three forces point in the direction of motion.\n(D) The object must be moving at a constant speed, and at least two forces must cancel out exactly."
+                }
+              ]
+            },
+            {
+              "id": "q_d12",
+              "label": "12",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) Any single object in motion with constant momentum",
+                "(B) Any motion in a straight line",
+                "(C) Simple harmonic motion",
+                "(D) Any motion at constant speed"
+              ],
+              "correct_option": "(A) Any single object in motion with constant momentum",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "For which of the following motions of an object must the acceleration always be zero?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Any single object in motion with constant momentum\n(B) Any motion in a straight line\n(C) Simple harmonic motion\n(D) Any motion at constant speed"
+                }
+              ]
+            },
+            {
+              "id": "q_d17",
+              "label": "17",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 100 N",
+                "(B) 0 N",
+                "(C) 50 N",
+                "(D) 200 N"
+              ],
+              "correct_option": "(A) 100 N",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Two people are pulling on the ends of a rope. Each person pulls with a force of 100 N. The tension in the rope is:"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 100 N\n(B) 0 N\n(C) 50 N\n(D) 200 N"
+                }
+              ]
+            },
+            {
+              "id": "q_d39",
+              "label": "39",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) the force of static friction of the sleigh on the crate",
+                "(B) the contact force (normal force) of the ground on the sleigh",
+                "(C) the gravitational force acting on the sleigh",
+                "(D) no force is needed"
+              ],
+              "correct_option": "(A) the force of static friction of the sleigh on the crate",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A crate of toys remains at rest on a sleigh as the sleigh is pulled up a hill with an increasing speed. The crate is not fastened down to the sleigh. What force is responsible for the crate's increase in speed up the hill?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) the force of static friction of the sleigh on the crate\n(B) the contact force (normal force) of the ground on the sleigh\n(C) the gravitational force acting on the sleigh\n(D) no force is needed"
+                }
+              ]
+            },
+            {
+              "id": "q_d40",
+              "label": "40",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) f < M < T",
+                "(B) M < f < T",
+                "(C) M < T < f",
+                "(D) f = M < T"
+              ],
+              "correct_option": "(A) f < M < T",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A box slides to the right across a horizontal floor. A person called Ted exerts a force T to the right on the box. A person called Mario exerts a force M to the left, which is half as large as the force T. Given that there is friction f and the box accelerates to the right, rank the sizes of these three forces exerted on the box."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) f < M < T\n(B) M < f < T\n(C) M < T < f\n(D) f = M < T"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt7",
+          "label": "Balance of forces on a supported horizontal board",
+          "section_ref": "2.4.A",
+          "primary_slo": "2.4.A.2",
+          "notes": "Members apply Fy=0 and torque-like reasoning about which support must bear more load based on position of the hanging person.",
+          "slo_weights": [
+            {
+              "slo": "2.4.A.2",
+              "weight": 0.5
+            },
+            {
+              "slo": "2.3.A.3",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.2.B.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.1.A.2",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "2.3.A.3",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.2.B.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.1.A.2",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "medium",
+          "questions": [
+            {
+              "id": "q_d14_15_stem",
+              "label": "14-15",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "board_chains",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "A horizontal, uniform board of weight 125 N and length 4 m is supported by vertical chains at each end. A person weighing 500 N is hanging from the board. The tension in the right chain is 250 N."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q_d14",
+                  "label": "14",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) 375 N",
+                    "(B) 125 N",
+                    "(C) 250 N",
+                    "(D) 625 N"
+                  ],
+                  "correct_option": "(A) 375 N",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "What is the tension in the left chain?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) 375 N\n(B) 125 N\n(C) 250 N\n(D) 625 N"
+                    }
+                  ]
+                },
+                {
+                  "id": "q_d15",
+                  "label": "15",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) between the chains, but closer to the left-hand chain",
+                    "(B) between the chains, but closer to the right-hand chain",
+                    "(C) Right in the middle of the board",
+                    "(D) directly below one of the chains"
+                  ],
+                  "correct_option": "(A) between the chains, but closer to the left-hand chain",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Which of the following describes where the person is hanging?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) between the chains, but closer to the left-hand chain\n(B) between the chains, but closer to the right-hand chain\n(C) Right in the middle of the board\n(D) directly below one of the chains"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt8",
+          "label": "Net force from vector sum / impulse-direction reasoning",
+          "section_ref": "2.2.A",
+          "primary_slo": "2.5.A.2",
+          "notes": "Members require determining direction of net force/average force from changes in velocity vectors or combination of multiple forces.",
+          "slo_weights": [
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.4
+            },
+            {
+              "slo": "2.2.A.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.2.B.3",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [
+            "2.2.A.1",
+            "2.2.B.3"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_d16",
+              "label": "16",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Multi-correct in source; rewrote as single-best-choice pair.",
+              "options": [
+                "(A) moving left and speeding up, OR moving right and slowing down",
+                "(B) moving right and speeding up, OR moving left and slowing down",
+                "(C) moving right and speeding up, OR moving right and slowing down",
+                "(D) moving left and slowing down only"
+              ],
+              "correct_option": "(A) moving left and speeding up, OR moving right and slowing down",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The cart of mass 10 kg shown above moves without frictional loss on a level table. A 10 N force pulls on the cart horizontally to the right. At the same time, a 30 N force at an angle of 60° above the horizontal pulls on the cart to the left. Which of the following describes a manner in which this cart could be moving?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) moving left and speeding up, OR moving right and slowing down\n(B) moving right and speeding up, OR moving left and slowing down\n(C) moving right and speeding up, OR moving right and slowing down\n(D) moving left and slowing down only"
+                }
+              ]
+            },
+            {
+              "id": "q_d19",
+              "label": "19",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) upward and to the left (opposite vi with an upward component equal to vf)",
+                "(B) to the right in the direction of vi",
+                "(C) straight down in the direction of vf",
+                "(D) straight up"
+              ],
+              "correct_option": "(A) upward and to the left (opposite vi with an upward component equal to vf)",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A ball initially moves horizontally with velocity vi, as shown above. It is then struck by a stick. After leaving the stick, the ball moves vertically with a velocity vf, which is smaller in magnitude than vi. Which of the following vectors best represents the direction of the average force that the stick exerts on the ball?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) upward and to the left (opposite vi with an upward component equal to vf)\n(B) to the right in the direction of vi\n(C) straight down in the direction of vf\n(D) straight up"
+                }
+              ]
+            },
+            {
+              "id": "q_d21",
+              "label": "21",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) straight down",
+                "(B) along the direction of motion",
+                "(C) perpendicular to the trajectory",
+                "(D) toward the highest point Q"
+              ],
+              "correct_option": "(A) straight down",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A ball is thrown and follows a parabolic path, as shown above. Air friction is negligible. Point Q is the highest point on the path. Which of the following best indicates the direction of the net force on the ball at point P?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) straight down\n(B) along the direction of motion\n(C) perpendicular to the trajectory\n(D) toward the highest point Q"
+                }
+              ]
+            },
+            {
+              "id": "q_d27",
+              "label": "27",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) the case where the string is at the smallest angle above the horizontal",
+                "(B) the case where the string is vertical",
+                "(C) the case where the string is at 45° above the horizontal",
+                "(D) All would be equally likely to break"
+              ],
+              "correct_option": "(A) the case where the string is at the smallest angle above the horizontal",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Assume the objects in the following diagrams have equal mass and the strings holding them in place are identical. In which case would the string be most likely to break?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) the case where the string is at the smallest angle above the horizontal\n(B) the case where the string is vertical\n(C) the case where the string is at 45° above the horizontal\n(D) All would be equally likely to break"
+                }
+              ]
+            },
+            {
+              "id": "q_d44",
+              "label": "44",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) backward on the front tires and forward on the rear tires",
+                "(B) forward on the front tires and backward on the rear tires",
+                "(C) forward on all tires",
+                "(D) backward on all tires"
+              ],
+              "correct_option": "(A) backward on the front tires and forward on the rear tires",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "When the speed of a rear-drive car is increasing on a horizontal road, what is the direction of the frictional force on the tires?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) backward on the front tires and forward on the rear tires\n(B) forward on the front tires and backward on the rear tires\n(C) forward on all tires\n(D) backward on all tires"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt9",
+          "label": "Reading F-t or v-t graphs to determine force/acceleration",
+          "section_ref": "2.5.A",
+          "primary_slo": "2.5.A.2",
+          "notes": "Members require extracting information from a graph (force vs. time, or position vs. time of carts) and applying F = ma.",
+          "slo_weights": [
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.45
+            },
+            {
+              "slo": "1.3.A.4",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.6.B.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "1.3.A.4",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.6.B.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_d18",
+              "label": "18",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) F grows linearly with time (proportional to t)",
+                "(B) F is a constant horizontal line",
+                "(C) F is itself a parabola in t",
+                "(D) F drops linearly toward zero"
+              ],
+              "correct_option": "(A) F grows linearly with time (proportional to t)",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The parabola above is a graph of speed v as a function of time t for an object. Which of the following graphs best represents the magnitude F of the net force exerted on the object as a function of time t?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) F grows linearly with time (proportional to t)\n(B) F is a constant horizontal line\n(C) F is itself a parabola in t\n(D) F drops linearly toward zero"
+                }
+              ]
+            },
+            {
+              "id": "q_d24",
+              "label": "24",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 4/3 m/s²",
+                "(B) 2 m/s²",
+                "(C) 8 m/s²",
+                "(D) 12 m/s²"
+              ],
+              "correct_option": "(A) 4/3 m/s²",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A block of mass 3 kg, initially at rest, is pulled along a frictionless, horizontal surface with a force shown as a function of time t by the graph above. The acceleration of the block at t = 2 s is"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 4/3 m/s²\n(B) 2 m/s²\n(C) 8 m/s²\n(D) 12 m/s²"
+                }
+              ]
+            },
+            {
+              "id": "q_d32",
+              "label": "32",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) acceleration due to gravity",
+                "(B) mass of a stopper",
+                "(C) density of a stopper",
+                "(D) number of stoppers for each unit of weight"
+              ],
+              "correct_option": "(A) acceleration due to gravity",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The graph at left shows the relationship between the mass of a number of rubber stoppers and their resulting weight on some far-off planet. The slope of the graph is a representation of the:"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) acceleration due to gravity\n(B) mass of a stopper\n(C) density of a stopper\n(D) number of stoppers for each unit of weight"
+                }
+              ]
+            },
+            {
+              "id": "q_d47_48_stem",
+              "label": "47-48",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "three_carts",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "Three identical laboratory carts A, B, and C are each subject to a constant force FA, FB, and FC, respectively. One or more of these forces may be zero. The diagram below shows the position of each cart at each second of an 8.0 second interval."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q_d47",
+                  "label": "47",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) all three average velocities are equal",
+                    "(B) A",
+                    "(C) B",
+                    "(D) C"
+                  ],
+                  "correct_option": "(A) all three average velocities are equal",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Which cart has the greatest average velocity during the interval?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) all three average velocities are equal\n(B) A\n(C) B\n(D) C"
+                    }
+                  ]
+                },
+                {
+                  "id": "q_d48",
+                  "label": "48",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) FA = FC > FB",
+                    "(B) FA > FB > FC",
+                    "(C) FA > FC = FB",
+                    "(D) FA = FB > FC"
+                  ],
+                  "correct_option": "(A) FA = FC > FB",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "How does the magnitude of the force acting on each cart compare?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) FA = FC > FB\n(B) FA > FB > FC\n(C) FA > FC = FB\n(D) FA = FB > FC"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "q_d46",
+              "label": "46",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 12.5 N",
+                "(B) 10 N",
+                "(C) 25 N",
+                "(D) 6.0 N"
+              ],
+              "correct_option": "(A) 12.5 N",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Using the setup described in question 45 with a 5 kg block, 7 kg block on a table, and the 5 kg block hanging. With a net applied force yielding a total acceleration of 2.5 m/s² on the 12-kg system, the tension in the rope between the hanging block and the block on the table is"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 12.5 N\n(B) 10 N\n(C) 25 N\n(D) 6.0 N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt10",
+          "label": "Ideal spring / Hooke's law and effective spring constant",
+          "section_ref": "2.8.A",
+          "primary_slo": "2.8.A.1",
+          "notes": "Members apply F = kx in static situations, including parallel springs whose forces add for a common extension.",
+          "slo_weights": [
+            {
+              "slo": "2.8.A.1",
+              "weight": 0.55
+            },
+            {
+              "slo": "2.4.A.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.2.B.1",
+              "weight": 0.1
+            },
+            {
+              "slo": "2.6.B.2",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "2.4.A.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.2.B.1",
+              "weight": 0.1
+            },
+            {
+              "slo": "2.6.B.2",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_d20",
+              "label": "20",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) k1 + k2 = 0.5 N/cm",
+                "(B) k1 = k2 = 0.25 N/cm",
+                "(C) 1/k1 + 1/k2 = 1/(0.5 N/cm)",
+                "(D) k1 – k2 = 0.5 N/cm"
+              ],
+              "correct_option": "(A) k1 + k2 = 0.5 N/cm",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Two massless springs, of spring constants k1 and k2, are hung from a horizontal support. A block of weight 12 N is suspended from the pair of springs, as shown above. When the block is in equilibrium, each spring is stretched an additional 24 cm. Thus, the equivalent spring constant of the two-spring system is 12 N / 24 cm = 0.5 N/cm. Which of the following statements is correct about k1 and k2?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) k1 + k2 = 0.5 N/cm\n(B) k1 = k2 = 0.25 N/cm\n(C) 1/k1 + 1/k2 = 1/(0.5 N/cm)\n(D) k1 – k2 = 0.5 N/cm"
+                }
+              ]
+            },
+            {
+              "id": "q_d38",
+              "label": "38",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 10.0 N",
+                "(B) 20.0 N",
+                "(C) 14.1 N",
+                "(D) 7.07 N"
+              ],
+              "correct_option": "(A) 10.0 N",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A mass, M, is at rest on a frictionless surface, connected to an ideal horizontal spring that is unstretched. A person extends the spring 30 cm from equilibrium and holds it at this location by applying a 10 N force. The spring is brought back to equilibrium and the mass connected to it is now doubled to 2M. If the spring is extended back 30 cm from equilibrium, what is the necessary force applied by the person to hold the mass stationary there?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 10.0 N\n(B) 20.0 N\n(C) 14.1 N\n(D) 7.07 N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt11",
+          "label": "Apparent weight in an accelerating elevator",
+          "section_ref": "2.6.C",
+          "primary_slo": "2.6.C.1",
+          "notes": "Members apply the scale/normal equation N = m(g + a) for an object in an accelerating non-inertial lift.",
+          "slo_weights": [
+            {
+              "slo": "2.6.C.1",
+              "weight": 0.45
+            },
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.3
+            },
+            {
+              "slo": "2.4.A.5",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.6.B.2",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.3
+            },
+            {
+              "slo": "2.4.A.5",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.6.B.2",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_d29",
+              "label": "29",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 450 N",
+                "(B) 350 N",
+                "(C) 500 N",
+                "(D) 550 N"
+              ],
+              "correct_option": "(A) 450 N",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A 50-kg student stands on a scale in an elevator. At the instant the elevator has a downward acceleration of 1.0 m/s² and an upward velocity of 3.0 m/s, the scale reads approximately"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 450 N\n(B) 350 N\n(C) 500 N\n(D) 550 N"
+                }
+              ]
+            },
+            {
+              "id": "q_d34",
+              "label": "34",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) RU > RC > RD",
+                "(B) RU = RD",
+                "(C) RC < RD",
+                "(D) RC > RD"
+              ],
+              "correct_option": "(A) RU > RC > RD",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A mass is suspended from the roof of a lift (elevator) by means of a spring balance. The lift (elevator) is moving upwards and the readings of the spring balance are noted as follows: Speeding up: RU, Constant speed: RC, Slowing down: RD. Which of the following is a correct relationship between the readings?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) RU > RC > RD\n(B) RU = RD\n(C) RC < RD\n(D) RC > RD"
+                }
+              ]
+            },
+            {
+              "id": "q_d41",
+              "label": "41",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 4800 N",
+                "(B) 800 N",
+                "(C) 3200 N",
+                "(D) 4000 N"
+              ],
+              "correct_option": "(A) 4800 N",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A spaceman of mass 80 kg is sitting in a spacecraft near the surface of the Earth. The spacecraft is accelerating upward at five times the acceleration due to gravity. What is the force of the spaceman on the spacecraft?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 4800 N\n(B) 800 N\n(C) 3200 N\n(D) 4000 N"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_1976B1",
+              "label": "1976B1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Converted from FRQ 1976B1 part (b): tension in elevator cable. m=400 kg, a=2 m/s² up, friction 100 N per rail (two rails).",
+              "options": [
+                "(A) 5000 N",
+                "(B) 4800 N",
+                "(C) 4000 N",
+                "(D) 3200 N"
+              ],
+              "correct_option": "(A) 5000 N",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The two guide rails for an elevator each exert a constant friction force of 100 newtons on the elevator car when the elevator car is moving upward with an acceleration of 2 m/s². The pulley has negligible friction and mass. Using g = 10 m/s², calculate the tension T in the cable lifting the 400-kilogram elevator car during the upward acceleration."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 5000 N\n(B) 4800 N\n(C) 4000 N\n(D) 3200 N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt12",
+          "label": "Newton's third law (force pairs)",
+          "section_ref": "2.3.A",
+          "primary_slo": "2.3.A.1",
+          "notes": "Member requires identification of action-reaction pairs as equal-magnitude, opposite-direction forces between interacting bodies.",
+          "slo_weights": [
+            {
+              "slo": "2.3.A.1",
+              "weight": 0.65
+            },
+            {
+              "slo": "2.2.A.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "2.2.A.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_d30",
+              "label": "30",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) equal to the force of the tractor on the trailer",
+                "(B) 4 times greater than the force of the tractor on the trailer",
+                "(C) 2 times greater than the force of the tractor on the trailer",
+                "(D) ¼ the force of the tractor on the trailer"
+              ],
+              "correct_option": "(A) equal to the force of the tractor on the trailer",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A tractor-trailer truck is traveling down the road. The mass of the trailer is 4 times the mass of the tractor. If the tractor accelerates forward, the force that the trailer applies on the tractor is"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) equal to the force of the tractor on the trailer\n(B) 4 times greater than the force of the tractor on the trailer\n(C) 2 times greater than the force of the tractor on the trailer\n(D) ¼ the force of the tractor on the trailer"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt13",
+          "label": "Stacked blocks & friction-limited acceleration",
+          "section_ref": "2.7",
+          "primary_slo": "2.7.B.2",
+          "notes": "Members examine friction between surfaces within a multi-body stack to determine the maximum accelerating force or required friction coefficient.",
+          "slo_weights": [
+            {
+              "slo": "2.7.B.2",
+              "weight": 0.35
+            },
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.3
+            },
+            {
+              "slo": "2.7.A.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.1.A.5",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [
+            "2.7.A.2"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.3
+            },
+            {
+              "slo": "2.1.A.5",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_d35",
+              "label": "35",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) $(F - 3\\mu mg)/3$",
+                "(B) $F/3 - \\mu mg$",
+                "(C) $F - 3\\mu mg$",
+                "(D) $F - \\mu mg$"
+              ],
+              "correct_option": "(A) $(F - 3\\mu mg)/3$",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A small box of mass m is placed on top of a larger box of mass 2m as shown in the diagram at right. When a force F is applied to the large box, both boxes accelerate to the right with the same acceleration. If the coefficient of friction between all surfaces is μ, what would be the force accelerating the smaller mass?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $(F - 3\\mu mg)/3$\n(B) $F/3 - \\mu mg$\n(C) $F - 3\\mu mg$\n(D) $F - \\mu mg$"
+                }
+              ]
+            },
+            {
+              "id": "q_d36",
+              "label": "36",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) Kinetic friction acts downward on the block.",
+                "(B) Static friction acts upward on the block.",
+                "(C) Kinetic friction acts upward on the block.",
+                "(D) Static friction acts downward on the block."
+              ],
+              "correct_option": "(A) Kinetic friction acts downward on the block.",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A 6.0 kg block initially at rest is pushed against a wall by a 100 N force as shown. The coefficient of kinetic friction is 0.30 while the coefficient of static friction is 0.50. What is true of the friction acting on the block after a time of 1 second?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Kinetic friction acts downward on the block.\n(B) Static friction acts upward on the block.\n(C) Kinetic friction acts upward on the block.\n(D) Static friction acts downward on the block."
+                }
+              ]
+            },
+            {
+              "id": "q_d42",
+              "label": "42",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) $3\\mu W$",
+                "(B) $\\mu W$",
+                "(C) $2\\mu W$",
+                "(D) $3\\mu W/2$"
+              ],
+              "correct_option": "(A) $3\\mu W$",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Two identical blocks of weight W are placed one on top of the other as shown in the diagram above. The upper block is tied to the wall. The lower block is pulled to the right with a force F. The coefficient of static friction between all surfaces in contact is μ. What is the largest force F that can be exerted before the lower block starts to slip?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $3\\mu W$\n(B) $\\mu W$\n(C) $2\\mu W$\n(D) $3\\mu W/2$"
+                }
+              ]
+            },
+            {
+              "id": "q_d53",
+              "label": "53",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) F/3mg",
+                "(B) 2F/mg",
+                "(C) F/mg",
+                "(D) 3F/2mg"
+              ],
+              "correct_option": "(A) F/3mg",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Block 1 is stacked on top of block 2. Block 2 is connected by a light cord to block 3, which is pulled along a frictionless surface with a force F as shown in the diagram. Block 1 is accelerated at the same rate as block 2 because of the frictional forces between the two blocks. If all three blocks have the same mass m, what is the minimum coefficient of static friction between block 1 and block 2?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) F/3mg\n(B) 2F/mg\n(C) F/mg\n(D) 3F/2mg"
+                }
+              ]
+            },
+            {
+              "id": "q_d54",
+              "label": "54",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) $(m_2 + m_3)g\\mu$",
+                "(B) $F - (m_2 - m_3)g\\mu$",
+                "(C) $F$",
+                "(D) $m_1 g\\mu - (m_2 + m_3)g\\mu$"
+              ],
+              "correct_option": "(A) $(m_2 + m_3)g\\mu$",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Three blocks (m1, m2, and m3) are sliding at a constant velocity across a rough surface as shown in the diagram above. The coefficient of kinetic friction between each block and the surface is μ. What would be the force of m1 on m2?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $(m_2 + m_3)g\\mu$\n(B) $F - (m_2 - m_3)g\\mu$\n(C) $F$\n(D) $m_1 g\\mu - (m_2 + m_3)g\\mu$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt14",
+          "label": "Horizontal kinetic friction numerical comparison",
+          "section_ref": "2.7.A",
+          "primary_slo": "2.7.A.2",
+          "notes": "Member requires computing kinetic friction magnitude and comparing to applied force to determine direction of acceleration.",
+          "slo_weights": [
+            {
+              "slo": "2.7.A.2",
+              "weight": 0.55
+            },
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.2.B.4",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.1.B.1",
+              "weight": 0.05
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.2.B.4",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.1.B.1",
+              "weight": 0.05
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_d26",
+              "label": "26",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) acceleration to the left.",
+                "(B) acceleration to the right.",
+                "(C) constant speed and constant velocity.",
+                "(D) constant speed but not constant velocity."
+              ],
+              "correct_option": "(A) acceleration to the left.",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The 10.0 kg box shown in the figure to the right is sliding to the right along the floor. A horizontal force of 10.0 N is being applied to the right. The coefficient of kinetic friction between the box and the floor is 0.20. The box is moving with:"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) acceleration to the left.\n(B) acceleration to the right.\n(C) constant speed and constant velocity.\n(D) constant speed but not constant velocity."
+                }
+              ]
+            },
+            {
+              "id": "q_d52",
+              "label": "52",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Atwood with two equal masses M plus small extra m on one side.",
+              "options": [
+                "(A) $(g-a)m/(2a)$",
+                "(B) $(g+a)m/(2a)$",
+                "(C) $ma/g$",
+                "(D) $mg/a$"
+              ],
+              "correct_option": "(A) $(g-a)m/(2a)$",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A simple Atwood's machine remains motionless when equal masses M are placed on each end of the cord. When a small mass m is added to one side, the masses have an acceleration a. What is M? You may neglect friction and the mass of the cord and pulley."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $(g-a)m/(2a)$\n(B) $(g+a)m/(2a)$\n(C) $ma/g$\n(D) $mg/a$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt15",
+          "label": "Source of centripetal force (friction/normal/tension provides Fc)",
+          "section_ref": "2.9.A",
+          "primary_slo": "2.9.A.2",
+          "notes": "Members identify which real force (friction, normal, tension, gravity, or a component) supplies the centripetal force for an object in circular motion.",
+          "slo_weights": [
+            {
+              "slo": "2.9.A.2",
+              "weight": 0.4
+            },
+            {
+              "slo": "2.9.A.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.2.B.3",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.3.A.1",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [
+            "2.9.A.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "2.2.B.3",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.3.A.1",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_cm1",
+              "label": "B1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Multi-correct in source (B,D); rewrote as single-best-choice combined statement.",
+              "options": [
+                "(A) The force is opposite in direction to the frictional force exerted on the merry-go-round by the person, and the force is dependent on the person's mass.",
+                "(B) The force is greater in magnitude than the frictional force exerted on the person by the merry-go-round, and the force is directed away from the center.",
+                "(C) The force is directed away from the center, and the force does not depend on the person's mass.",
+                "(D) The force is directed toward the center, and the force does not depend on the person's mass."
+              ],
+              "correct_option": "(A) The force is opposite in direction to the frictional force exerted on the merry-go-round by the person, and the force is dependent on the person's mass.",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A person stands on a merry-go-round which is rotating at constant angular speed. Which of the following pair of statements is true about the frictional force exerted on the person by the merry-go-round?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) The force is opposite in direction to the frictional force exerted on the merry-go-round by the person, and the force is dependent on the person's mass.\n(B) The force is greater in magnitude than the frictional force exerted on the person by the merry-go-round, and the force is directed away from the center.\n(C) The force is directed away from the center, and the force does not depend on the person's mass.\n(D) The force is directed toward the center, and the force does not depend on the person's mass."
+                }
+              ]
+            },
+            {
+              "id": "q_cm4",
+              "label": "B4",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) tangent to the circular path in the direction of motion",
+                "(B) opposite the direction of motion",
+                "(C) radially outward from the center",
+                "(D) toward the center of the circular path"
+              ],
+              "correct_option": "(D) toward the center of the circular path",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 53,
+                  "bbox": [
+                    0.329,
+                    0.091,
+                    0.673,
+                    0.168
+                  ],
+                  "caption": "Horizontal turntable with coin (top view)",
+                  "alt": "Top-down view of a rotating turntable showing coin position and direction of motion"
+                },
+                {
+                  "type": "text",
+                  "value": "The horizontal turntable shown above rotates at a constant rate. As viewed from above, a coin on the turntable moves counterclockwise in a circle as shown. Which of the following vectors best represents the direction of the frictional force exerted on the coin by the turntable when the coin is in the position shown?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) tangent to the circular path in the direction of motion\n(B) opposite the direction of motion\n(C) radially outward from the center\n(D) toward the center of the circular path"
+                }
+              ]
+            },
+            {
+              "id": "q_cm7",
+              "label": "B7",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) The force is directed away from the center of the circle.",
+                "(B) There is not enough force directed north to keep the package from sliding.",
+                "(C) There is not enough force tangential to the car's path to keep the package from sliding.",
+                "(D) There is not enough force directed toward the center of the circle to keep the package from sliding."
+              ],
+              "correct_option": "(D) There is not enough force directed toward the center of the circle to keep the package from sliding.",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A car initially travels north and then turns to the left along a circular curve. This causes a package on the seat of the car to slide toward the right side of the car. Which of the following is true of the net force on the package while it is sliding?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) The force is directed away from the center of the circle.\n(B) There is not enough force directed north to keep the package from sliding.\n(C) There is not enough force tangential to the car's path to keep the package from sliding.\n(D) There is not enough force directed toward the center of the circle to keep the package from sliding."
+                }
+              ]
+            },
+            {
+              "id": "q_cm10",
+              "label": "B10",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) straight down (toward the ground)",
+                "(B) upward along the supporting stick",
+                "(C) inward toward the center of the circle (horizontally)",
+                "(D) tangent to the circle in the direction of motion"
+              ],
+              "correct_option": "(C) inward toward the center of the circle (horizontally)",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 54,
+                  "bbox": [
+                    0.438,
+                    0.091,
+                    0.564,
+                    0.197
+                  ],
+                  "caption": "Steel ball supported by a stick rotates in a horizontal circle",
+                  "alt": "Ball on a rotating stick forming a horizontal circle of radius r"
+                },
+                {
+                  "type": "text",
+                  "value": "A steel ball supported by a stick rotates in a circle of radius r, as shown above. The direction of the net force acting on the ball when it is in the position shown is indicated by which of the following?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) straight down (toward the ground)\n(B) upward along the supporting stick\n(C) inward toward the center of the circle (horizontally)\n(D) tangent to the circle in the direction of motion"
+                }
+              ]
+            },
+            {
+              "id": "q_cm14",
+              "label": "B14",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 0.3 N",
+                "(B) 3 N",
+                "(C) 10 N",
+                "(D) 300 N"
+              ],
+              "correct_option": "(B) 3 N",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 55,
+                  "bbox": [
+                    0.37,
+                    0.305,
+                    0.631,
+                    0.39
+                  ],
+                  "caption": "Spring on rotating post with a 1-kg disc",
+                  "alt": "Top-view of a spring attached to a center post, stretched by a disc in uniform circular motion"
+                },
+                {
+                  "type": "text",
+                  "value": "A spring has a force constant of 100 N/m and an unstretched length of 0.07 m. One end is attached to a post that is free to rotate in the center of a smooth table, as shown in the top view above. The other end is attached to a 1 kg disc moving in uniform circular motion on the table, which stretches the spring by 0.03 m. Friction is negligible. What is the centripetal force on the disc?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 0.3 N\n(B) 3 N\n(C) 10 N\n(D) 300 N"
+                }
+              ]
+            },
+            {
+              "id": "q_cm18",
+              "label": "B18",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) the arrow tangent to the circle in the direction of motion",
+                "(B) the arrow pointing radially toward the center of the circle",
+                "(C) the arrow tangent to the circle opposite motion",
+                "(D) the arrow pointing radially outward"
+              ],
+              "correct_option": "(B) the arrow pointing radially toward the center of the circle",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 56,
+                  "bbox": [
+                    0.423,
+                    0.091,
+                    0.579,
+                    0.188
+                  ],
+                  "caption": "Object in uniform circular motion with candidate arrows",
+                  "alt": "Circle showing an object at an instant with four candidate force-direction arrows"
+                },
+                {
+                  "type": "text",
+                  "value": "An object shown in the accompanying figure moves in uniform circular motion. Which arrow best depicts the net force acting on the object at the instant shown?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) the arrow tangent to the circle in the direction of motion\n(B) the arrow pointing radially toward the center of the circle\n(C) the arrow tangent to the circle opposite motion\n(D) the arrow pointing radially outward"
+                }
+              ]
+            },
+            {
+              "id": "q_cm23",
+              "label": "B23",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) car A",
+                "(B) car B",
+                "(C) car C",
+                "(D) all three cars have net forces acting on them"
+              ],
+              "correct_option": "(D) all three cars have net forces acting on them",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 56,
+                  "bbox": [
+                    0.355,
+                    0.609,
+                    0.645,
+                    0.722
+                  ],
+                  "caption": "Elliptical race track with three cars",
+                  "alt": "Elliptical track with cars A, B, and C placed at different positions moving counterclockwise"
+                },
+                {
+                  "type": "text",
+                  "value": "Three cars are moving counterclockwise during a one-lap race on an elliptical track. Which car at the moment of the snapshot MUST have a net force acting on it?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) car A\n(B) car B\n(C) car C\n(D) all three cars have net forces acting on them"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt16",
+          "label": "Centripetal acceleration and force calculations (a = v²/r)",
+          "section_ref": "2.9.A",
+          "primary_slo": "2.9.A.1",
+          "notes": "Members use $a = v^2/r$ and $F = mv^2/r$ (often combined with $v = 2\\pi r/T$) to compute numerical centripetal quantities.",
+          "slo_weights": [
+            {
+              "slo": "2.9.A.1",
+              "weight": 0.55
+            },
+            {
+              "slo": "2.9.A.5",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.9.A.2",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [
+            "2.9.A.2",
+            "2.9.A.5"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_cm2",
+              "label": "B2",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) One-quarter the original speed",
+                "(B) One-half the original speed",
+                "(C) The same as the original speed",
+                "(D) Twice the original speed"
+              ],
+              "correct_option": "(D) Twice the original speed",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A ball attached to a string is whirled around in a horizontal circle having a radius R. If the radius of the circle is changed to 4R and the same centripetal force is applied by the string, the new speed of the ball is which of the following?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) One-quarter the original speed\n(B) One-half the original speed\n(C) The same as the original speed\n(D) Twice the original speed"
+                }
+              ]
+            },
+            {
+              "id": "q_cm3",
+              "label": "B3",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) clockwise at 30 m/s",
+                "(B) clockwise at 10 m/s",
+                "(C) counterclockwise at 30 m/s",
+                "(D) counterclockwise at 10 m/s"
+              ],
+              "correct_option": "(A) clockwise at 30 m/s",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 52,
+                  "bbox": [
+                    0.429,
+                    0.558,
+                    0.572,
+                    0.694
+                  ],
+                  "caption": "Circular racing-track diagram (top view)",
+                  "alt": "Top view of a 300-m radius circular track; car moving east with acceleration pointed south"
+                },
+                {
+                  "type": "text",
+                  "value": "A racing car is moving around the circular track of radius 300 meters shown above. At the instant when the car's velocity is directed due east, its acceleration is directed due south and has a magnitude of 3 meters per second squared. When viewed from above, the car is moving"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) clockwise at 30 m/s\n(B) clockwise at 10 m/s\n(C) counterclockwise at 30 m/s\n(D) counterclockwise at 10 m/s"
+                }
+              ]
+            },
+            {
+              "id": "q_cm8",
+              "label": "B8",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) Zero",
+                "(B) $4\\pi^2 R / T^2$",
+                "(C) $R / T^2$",
+                "(D) g"
+              ],
+              "correct_option": "(B) $4\\pi^2 R / T^2$",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A child has a toy tied to the end of a string and whirls the toy at constant speed in a horizontal circular path of radius R. The toy completes each revolution of its motion in a time period T. What is the magnitude of the acceleration of the toy?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Zero\n(B) $4\\pi^2 R / T^2$\n(C) $R / T^2$\n(D) g"
+                }
+              ]
+            },
+            {
+              "id": "q_cm11",
+              "label": "B11",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 0.080 m/s²",
+                "(B) 1.6 m/s²",
+                "(C) 8.0 m/s²",
+                "(D) 79 m/s²"
+              ],
+              "correct_option": "(D) 79 m/s²",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Inside a washing machine, the radius of the cylinder where the clothes sit is 0.50 m. In one of its settings the machine spins the cylinder at 2.0 revolutions per second. What is the acceleration of an item of clothing?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 0.080 m/s²\n(B) 1.6 m/s²\n(C) 8.0 m/s²\n(D) 79 m/s²"
+                }
+              ]
+            },
+            {
+              "id": "q_cm20",
+              "label": "B20",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) F",
+                "(B) 2F",
+                "(C) 4F",
+                "(D) 8F"
+              ],
+              "correct_option": "(C) 4F",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "An astronaut in an orbiting space craft attaches a mass m to a string and whirls it around in uniform circular motion. The radius of the circle is R, the speed of the mass is v, and the tension in the string is F. If the mass, radius, and speed were all to double the tension required to maintain uniform circular motion would be"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) F\n(B) 2F\n(C) 4F\n(D) 8F"
+                }
+              ]
+            },
+            {
+              "id": "q_cm24",
+              "label": "B24",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) v increases and f increases",
+                "(B) v decreases and f decreases",
+                "(C) v increases and f decreases",
+                "(D) v decreases and f increases"
+              ],
+              "correct_option": "(D) v decreases and f increases",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A centripetal force of 5.0 newtons is applied to a rubber stopper moving at a constant speed in a horizontal circle. If the same force is applied, but the radius is made smaller, what happens to the speed, v, and the frequency, f, of the stopper?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) v increases and f increases\n(B) v decreases and f decreases\n(C) v increases and f decreases\n(D) v decreases and f increases"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_1999B5",
+              "label": "1999B5",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Converted from FRQ 1999B5 part (b): linear speed of coin with r=0.14 m, T=1.5 s.",
+              "options": [
+                "(A) 0.21 m/s",
+                "(B) 0.59 m/s",
+                "(C) 1.3 m/s",
+                "(D) 2.9 m/s"
+              ],
+              "correct_option": "(B) 0.59 m/s",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A coin of mass 0.0050 kg is placed on a horizontal disk at a distance of 0.14 m from the center. The disk rotates at a constant rate counterclockwise as seen from above, and the coin does not slip. The time it takes for the coin to make a complete revolution is 1.5 s. Determine the linear speed of the coin."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 0.21 m/s\n(B) 0.59 m/s\n(C) 1.3 m/s\n(D) 2.9 m/s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt17",
+          "label": "Velocity & acceleration direction in circular motion (conceptual)",
+          "section_ref": "2.9.A",
+          "primary_slo": "2.9.A.1",
+          "notes": "Members distinguish the direction of velocity (tangential) from the direction of acceleration (toward center) and identify when acceleration exists.",
+          "slo_weights": [
+            {
+              "slo": "2.9.A.1",
+              "weight": 0.45
+            },
+            {
+              "slo": "2.9.A.4",
+              "weight": 0.25
+            },
+            {
+              "slo": "1.2.B.4",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [
+            "2.9.A.4"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.2.B.4",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_cm5",
+              "label": "B5",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Multi-correct in source (B,C); rewrote as single-best-choice pair.",
+              "options": [
+                "(A) It moves in a straight line at constant speed, AND it is at rest",
+                "(B) It is at rest, AND it moves with uniform circular motion",
+                "(C) It moves with uniform circular motion, AND it travels as a projectile in a gravitational field with negligible air resistance",
+                "(D) It moves in a straight line at constant speed, AND it moves with uniform circular motion"
+              ],
+              "correct_option": "(C) It moves with uniform circular motion, AND it travels as a projectile in a gravitational field with negligible air resistance",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "In which of the following situations would an object be accelerated? Select the pair of situations in which both describe acceleration."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) It moves in a straight line at constant speed, AND it is at rest\n(B) It is at rest, AND it moves with uniform circular motion\n(C) It moves with uniform circular motion, AND it travels as a projectile in a gravitational field with negligible air resistance\n(D) It moves in a straight line at constant speed, AND it moves with uniform circular motion"
+                }
+              ]
+            },
+            {
+              "id": "q_cm6",
+              "label": "B6",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) velocity horizontal, acceleration horizontal forward",
+                "(B) velocity horizontal (tangent to track), acceleration upward (toward the center of curvature)",
+                "(C) velocity upward, acceleration horizontal",
+                "(D) velocity horizontal, acceleration downward"
+              ],
+              "correct_option": "(B) velocity horizontal (tangent to track), acceleration upward (toward the center of curvature)",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 53,
+                  "bbox": [
+                    0.44,
+                    0.5,
+                    0.559,
+                    0.572
+                  ],
+                  "caption": "Smoothly curved road between two hills",
+                  "alt": "Side view of a valley formed by two hills; car at the lowest point"
+                },
+                {
+                  "type": "text",
+                  "value": "An automobile moves at constant speed down one hill and up another hill along the smoothly curved surface shown above. Which of the following diagrams best represents the directions of the velocity and the acceleration of the automobile at the instant that it is at the lowest position, as shown?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) velocity horizontal, acceleration horizontal forward\n(B) velocity horizontal (tangent to track), acceleration upward (toward the center of curvature)\n(C) velocity upward, acceleration horizontal\n(D) velocity horizontal, acceleration downward"
+                }
+              ]
+            },
+            {
+              "id": "q_cm12",
+              "label": "B12",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) Q: Downward ; R: Downward",
+                "(B) Q: Downward ; R: To the right",
+                "(C) Q: Upward ; R: Downward",
+                "(D) Q: Upward ; R: To the left"
+              ],
+              "correct_option": "(C) Q: Upward ; R: Downward",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A ball of mass m is attached to the end of a string of length L. The ball is released from rest from position P, where the string is horizontal. It swings through position Q, where the string is vertical, and then to position R, where the string is again horizontal. What are the directions of the acceleration vectors of the ball at positions Q and R?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Q: Downward ; R: Downward\n(B) Q: Downward ; R: To the right\n(C) Q: Upward ; R: Downward\n(D) Q: Upward ; R: To the left"
+                }
+              ]
+            },
+            {
+              "id": "q_cm13",
+              "label": "B13",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) F and v are in the same direction; a is perpendicular",
+                "(B) F is opposite v; a is along v",
+                "(C) F is radially outward; v and a are tangent",
+                "(D) F and a both point toward the center of curvature; v is tangent to the path"
+              ],
+              "correct_option": "(D) F and a both point toward the center of curvature; v is tangent to the path",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 54,
+                  "bbox": [
+                    0.12,
+                    0.657,
+                    0.808,
+                    0.773
+                  ],
+                  "caption": "Curved path from X to Y with force/velocity/acceleration diagrams",
+                  "alt": "Two side-by-side diagrams showing a mass moving along a curved path with force, velocity, and acceleration vectors"
+                },
+                {
+                  "type": "text",
+                  "value": "A mass m moves on a curved path from point X to point Y. Which of the following diagrams indicates a possible combination of the net force F on the mass, and the velocity v and acceleration a of the mass at the location shown?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) F and v are in the same direction; a is perpendicular\n(B) F is opposite v; a is along v\n(C) F is radially outward; v and a are tangent\n(D) F and a both point toward the center of curvature; v is tangent to the path"
+                }
+              ]
+            },
+            {
+              "id": "q_cm15",
+              "label": "B15",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) Acceleration is constant for the whole trip",
+                "(B) Acceleration is zero during straight segments and nonzero constant during the circular arcs",
+                "(C) Acceleration is zero for the entire trip",
+                "(D) Acceleration is largest on the straight segments"
+              ],
+              "correct_option": "(B) Acceleration is zero during straight segments and nonzero constant during the circular arcs",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 55,
+                  "bbox": [
+                    0.15,
+                    0.448,
+                    0.736,
+                    0.582
+                  ],
+                  "caption": "Music-box dancer path: straight segments plus two semicircular arcs",
+                  "alt": "Closed path with two straight segments PQ and RS plus semicircular arcs QR and SP"
+                },
+                {
+                  "type": "text",
+                  "value": "A figure of a dancer on a music box moves counterclockwise at constant speed around the path shown above. The path is such that the lengths of its segments, PQ, QR, RS, and SP, are equal. Arcs QR and SP are semicircles. Which of the following best represents the magnitude of the dancer's acceleration as a function of time t during one trip around the path, beginning at point P?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Acceleration is constant for the whole trip\n(B) Acceleration is zero during straight segments and nonzero constant during the circular arcs\n(C) Acceleration is zero for the entire trip\n(D) Acceleration is largest on the straight segments"
+                }
+              ]
+            },
+            {
+              "id": "q_cm19",
+              "label": "B19",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Multi-correct in source (A,C); rewrote as single-best-choice pair.",
+              "options": [
+                "(A) The velocity of the ball is constant, AND the net force is directed radially outward",
+                "(B) The speed of the ball is constant, AND the magnitude of the ball's acceleration is constant",
+                "(C) The speed is constant, AND the velocity is constant",
+                "(D) The net force is directed radially outward, AND the magnitude of acceleration is constant"
+              ],
+              "correct_option": "(B) The speed of the ball is constant, AND the magnitude of the ball's acceleration is constant",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A child whirls a ball at the end of a rope, in a uniform circular motion. Which pair of statements is true?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) The velocity of the ball is constant, AND the net force is directed radially outward\n(B) The speed of the ball is constant, AND the magnitude of the ball's acceleration is constant\n(C) The speed is constant, AND the velocity is constant\n(D) The net force is directed radially outward, AND the magnitude of acceleration is constant"
+                }
+              ]
+            },
+            {
+              "id": "q_cm25",
+              "label": "B25",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) straight to the right",
+                "(B) straight upward",
+                "(C) straight downward",
+                "(D) straight along the connecting string toward point P (the pivot)"
+              ],
+              "correct_option": "(A) straight to the right",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 57,
+                  "bbox": [
+                    0.408,
+                    0.226,
+                    0.594,
+                    0.328
+                  ],
+                  "caption": "Simple pendulum on the Moon",
+                  "alt": "Pendulum released from horizontal, shown at angle θ with 0°<θ<90°"
+                },
+                {
+                  "type": "text",
+                  "value": "Astronauts on the Moon perform an experiment with a simple pendulum that is released from the horizontal position at rest. At the moment shown in the diagram with 0° < θ < 90°, the total acceleration of the mass may be directed in which of the following ways?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) straight to the right\n(B) straight upward\n(C) straight downward\n(D) straight along the connecting string toward point P (the pivot)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt18",
+          "label": "Tension at top/bottom of vertical circle",
+          "section_ref": "2.9.A",
+          "primary_slo": "2.9.A.2",
+          "notes": "Members apply F_net = mv²/r at the top or bottom of a vertical circle, where tension and gravity combine differently.",
+          "slo_weights": [
+            {
+              "slo": "2.9.A.2",
+              "weight": 0.4
+            },
+            {
+              "slo": "2.9.A.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.9.A.2",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [
+            "2.9.A.1",
+            "2.9.A.2"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.2
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_cm21",
+              "label": "B21",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) upward",
+                "(B) downward",
+                "(C) forward",
+                "(D) backward"
+              ],
+              "correct_option": "(A) upward",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 56,
+                  "bbox": [
+                    0.542,
+                    0.428,
+                    0.859,
+                    0.549
+                  ],
+                  "caption": "Roller-coaster dip (side view)",
+                  "alt": "Roller-coaster track showing points A, B (bottom of dip), and C"
+                },
+                {
+                  "type": "text",
+                  "value": "Assume the roller coaster cart rolls along the curved track from point A to point C under the influence of gravity. Assume the friction between the track and the cart is negligible. What would be the direction of the cart's acceleration at point B (the bottom of the curved dip)?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) upward\n(B) downward\n(C) forward\n(D) backward"
+                }
+              ]
+            },
+            {
+              "id": "q_cm26",
+              "label": "B26",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 5.4 N",
+                "(B) 10.8 N",
+                "(C) 50 N",
+                "(D) 65.4 N"
+              ],
+              "correct_option": "(B) 10.8 N",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A 4.0 kg mass is attached to one end of a rope 2 m long. If the mass is swung in a vertical circle from the free end of the rope, what is the tension in the rope when the mass is at its highest point if it is moving with a speed of 5 m/s?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 5.4 N\n(B) 10.8 N\n(C) 50 N\n(D) 65.4 N"
+                }
+              ]
+            },
+            {
+              "id": "q_cm27",
+              "label": "B27",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) mg",
+                "(B) 2mg",
+                "(C) 4mg",
+                "(D) 8mg"
+              ],
+              "correct_option": "(B) 2mg",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A ball of mass m is fastened to a string. The ball swings at constant speed in a vertical circle of radius R with the other end of the string held fixed. Neglecting air resistance, what is the difference between the string's tension at the bottom of the circle and at the top of the circle?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) mg\n(B) 2mg\n(C) 4mg\n(D) 8mg"
+                }
+              ]
+            },
+            {
+              "id": "q_cm28",
+              "label": "B28",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 0.5 g",
+                "(B) g",
+                "(C) 1.5 g",
+                "(D) 2.5 g"
+              ],
+              "correct_option": "(A) 0.5 g",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "An object weighing 4 newtons swings on the end of a string as a simple pendulum. At the bottom of the swing, the tension in the string is 6 newtons. What is the magnitude of the centripetal acceleration of the object at the bottom of the swing?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 0.5 g\n(B) g\n(C) 1.5 g\n(D) 2.5 g"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_2001B1",
+              "label": "2001B1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Converted from FRQ 2001B1 part (b): minimum speed at top of vertical circle when tension = 0 and gravity alone supplies centripetal force.",
+              "options": [
+                "(A) $v_{min} = \\sqrt{2gR}$",
+                "(B) $v_{min} = \\sqrt{gR}$",
+                "(C) $v_{min} = 2\\sqrt{gR}$",
+                "(D) $v_{min} = \\sqrt{gR/2}$"
+              ],
+              "correct_option": "(B) $v_{min} = \\sqrt{gR}$",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A ball of mass M is attached to a string of length R and negligible mass. The ball moves clockwise in a vertical circle. Point Z is at the top of the circle. Derive an expression for v_min, the minimum speed the ball can have at point Z without leaving the circular path."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $v_{min} = \\sqrt{2gR}$\n(B) $v_{min} = \\sqrt{gR}$\n(C) $v_{min} = 2\\sqrt{gR}$\n(D) $v_{min} = \\sqrt{gR/2}$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt19",
+          "label": "Object leaving a circular path (projectile after release)",
+          "section_ref": "2.9.A",
+          "primary_slo": "2.4.A.3",
+          "notes": "Members apply Newton's first law: once the centripetal force is removed, the object continues in a straight line tangent to the circle (becoming a projectile if gravity is present).",
+          "slo_weights": [
+            {
+              "slo": "2.4.A.3",
+              "weight": 0.4
+            },
+            {
+              "slo": "2.9.A.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "1.5.B.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.2.A.1.i",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [
+            "2.9.A.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.5.B.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.2.A.1.i",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_cm9",
+              "label": "B9",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) a curved path continuing the circular motion",
+                "(B) radially outward in a straight line from the center",
+                "(C) tangent to the circle at the moment of release",
+                "(D) a straight-line path combining tangential motion and radial outward motion from the spring"
+              ],
+              "correct_option": "(D) a straight-line path combining tangential motion and radial outward motion from the spring",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 53,
+                  "bbox": [
+                    0.15,
+                    0.645,
+                    0.646,
+                    0.7
+                  ],
+                  "caption": "Compressed spring on rotating disk — top view",
+                  "alt": "Four-panel diagram showing a spring mounted on a disk projecting a ball"
+                },
+                {
+                  "type": "text",
+                  "value": "A compressed spring mounted on a disk can project a small ball. When the disk is not rotating, as shown in the top view above, the ball moves radially outward. The disk then rotates in a counterclockwise direction as seen from above, and the ball is projected outward at the instant the disk is in the position shown above. Which of the following best shows the subsequent path of the ball relative to the ground?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) a curved path continuing the circular motion\n(B) radially outward in a straight line from the center\n(C) tangent to the circle at the moment of release\n(D) a straight-line path combining tangential motion and radial outward motion from the spring"
+                }
+              ]
+            },
+            {
+              "id": "q_cm16",
+              "label": "B16",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) vertically upward",
+                "(B) horizontally forward",
+                "(C) horizontally backward",
+                "(D) zero"
+              ],
+              "correct_option": "(A) vertically upward",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A car travels forward with constant velocity. It goes over a small stone, which gets stuck in the groove of a tire. The initial acceleration of the stone, as it leaves the surface of the road, is"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) vertically upward\n(B) horizontally forward\n(C) horizontally backward\n(D) zero"
+                }
+              ]
+            },
+            {
+              "id": "q_cm17",
+              "label": "B17",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) at the top of a hill when $v \\geq \\sqrt{gR}$",
+                "(B) at the bottom of a hill when $v \\geq \\sqrt{gR}$",
+                "(C) going down a hill when $v \\geq \\sqrt{gR}$",
+                "(D) at the top of a hill when $v < \\sqrt{gR}$"
+              ],
+              "correct_option": "(A) at the top of a hill when $v \\geq \\sqrt{gR}$",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 55,
+                  "bbox": [
+                    0.364,
+                    0.698,
+                    0.637,
+                    0.76
+                  ],
+                  "caption": "Hilly-road terrain",
+                  "alt": "Side view of a car on a road with hills of curvature R"
+                },
+                {
+                  "type": "text",
+                  "value": "A car is traveling on a road in hilly terrain. Assume the car has speed v and the tops and bottoms of the hills have radius of curvature R. The driver of the car is most likely to feel weightless:"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) at the top of a hill when $v \\geq \\sqrt{gR}$\n(B) at the bottom of a hill when $v \\geq \\sqrt{gR}$\n(C) going down a hill when $v \\geq \\sqrt{gR}$\n(D) at the top of a hill when $v < \\sqrt{gR}$"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_1989B1",
+              "label": "1989B1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Converted from FRQ 1989B1 parts (a)(i),(ii): string breaks while whirling horizontally at height h; object becomes a horizontal projectile with initial speed v0.",
+              "options": [
+                "(A) $t = \\sqrt{2h/g}$; horizontal distance $= v_0 \\sqrt{2h/g}$",
+                "(B) $t = \\sqrt{h/g}$; horizontal distance $= v_0 \\sqrt{h/g}$",
+                "(C) $t = 2\\sqrt{h/g}$; horizontal distance $= 2 v_0 \\sqrt{h/g}$",
+                "(D) $t = h/v_0$; horizontal distance $= h$"
+              ],
+              "correct_option": "(A) $t = \\sqrt{2h/g}$; horizontal distance $= v_0 \\sqrt{2h/g}$",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "An object of mass M on a string is whirled with increasing speed in a horizontal circle. When the string breaks, the object has speed v0 and the circular path has radius R and is a height h above the ground. Neglect air friction. Determine (i) the time required for the object to hit the ground after the string breaks, and (ii) the horizontal distance the object travels from the time the string breaks until it hits the ground."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $t = \\sqrt{2h/g}$; horizontal distance $= v_0 \\sqrt{2h/g}$\n(B) $t = \\sqrt{h/g}$; horizontal distance $= v_0 \\sqrt{h/g}$\n(C) $t = 2\\sqrt{h/g}$; horizontal distance $= 2 v_0 \\sqrt{h/g}$\n(D) $t = h/v_0$; horizontal distance $= h$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt20",
+          "label": "Banked / rotating wall & friction for circular motion",
+          "section_ref": "2.9.A",
+          "primary_slo": "2.9.A.2",
+          "notes": "Members require combining friction (static), normal force, and circular-motion dynamics for riders on rotating surfaces or curved tracks — typically solving for a minimum μ or a required speed.",
+          "slo_weights": [
+            {
+              "slo": "2.9.A.2",
+              "weight": 0.4
+            },
+            {
+              "slo": "2.7.B.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.9.A.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [
+            "2.9.A.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "2.7.B.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_cm22",
+              "label": "B22",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) car A",
+                "(B) car B",
+                "(C) car C",
+                "(D) all three cars have had the same average speed"
+              ],
+              "correct_option": "(C) car C",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 56,
+                  "bbox": [
+                    0.355,
+                    0.609,
+                    0.645,
+                    0.722
+                  ],
+                  "caption": "Elliptical race track with three cars",
+                  "alt": "Elliptical track with cars A, B, and C placed at different positions moving counterclockwise"
+                },
+                {
+                  "type": "text",
+                  "value": "Three cars are moving counterclockwise during a one-lap race on an elliptical track. Which car has had the lowest average speed during the race so far?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) car A\n(B) car B\n(C) car C\n(D) all three cars have had the same average speed"
+                }
+              ]
+            },
+            {
+              "id": "q_cm29",
+              "label": "B29",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 0.056",
+                "(B) 0.11",
+                "(C) 0.53",
+                "(D) 8.9"
+              ],
+              "correct_option": "(B) 0.11",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Riders in a carnival ride stand with their backs against the wall of a circular room of diameter 8.0 m. The room is spinning horizontally about an axis through its center at a rate of 45 rev/min when the floor drops so that it no longer provides any support for the riders. What is the minimum coefficient of static friction between the wall and the rider required so that the rider does not slide down the wall?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 0.056\n(B) 0.11\n(C) 0.53\n(D) 8.9"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_1988M1",
+              "label": "1988M1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Converted from FRQ 1988M1 part (a): banked curve of radius 100 m at 15°; find design speed with no friction.",
+              "options": [
+                "(A) 16 m/s",
+                "(B) 25 m/s",
+                "(C) 32 m/s",
+                "(D) 10 m/s"
+              ],
+              "correct_option": "(A) 16 m/s",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A highway curve that has a radius of curvature of 100 meters is banked at an angle of 15°. Determine the vehicle speed for which this curve is appropriate if there is no friction between the road and the tires of the vehicle. Use g = 9.8 m/s²."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 16 m/s\n(B) 25 m/s\n(C) 32 m/s\n(D) 10 m/s"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_1984M1",
+              "label": "1984M1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Converted from FRQ 1984M1 part (a): rotor-ride with rider of mass 50 kg, r=5 m, f=1/π rev/s; compute centripetal force provided by the normal force.",
+              "options": [
+                "(A) 250 N",
+                "(B) 500 N",
+                "(C) 1000 N",
+                "(D) 2000 N"
+              ],
+              "correct_option": "(C) 1000 N",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "An amusement park ride consists of a rotating vertical cylinder with rough canvas walls. After the rider has entered and the cylinder is rotating sufficiently fast, the floor is dropped down, yet the rider does not slide down. The rider has mass 50 kg, the radius R of the cylinder is 5 m, and the frequency of the cylinder when rotating is 1/π revolutions per second. Calculate the centripetal force on the rider when the cylinder is rotating. (This force is provided by the normal force from the wall.)"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 250 N\n(B) 500 N\n(C) 1000 N\n(D) 2000 N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

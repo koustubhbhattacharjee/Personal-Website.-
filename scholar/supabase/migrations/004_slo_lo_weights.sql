@@ -1,0 +1,12 @@
+-- 004_slo_lo_weights.sql — DEFERRED, DO NOT RUN YET
+--
+-- SLO→LO is already a strict 1:many (each SLO has one lo_id).
+-- LO mastery is currently derived as average of child SLO masteries with no
+-- explicit weights needed. This migration is deferred until there is a concrete
+-- reason to weight SLOs differently within a parent LO.
+--
+-- What IS needed now is school_section_slos.weight (already in migration 001)
+-- for the student UI section mastery projection.
+--
+-- alter table public.sub_learning_objectives
+--   add column if not exists lo_weight numeric(6,4) not null default 0;

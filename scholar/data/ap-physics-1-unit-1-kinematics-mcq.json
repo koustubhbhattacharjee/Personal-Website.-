@@ -1,0 +1,3315 @@
+{
+  "version": 2,
+  "units": [
+    {
+      "id": "u1",
+      "label": "Unit 1: Kinematics",
+      "question_types": [
+        {
+          "id": "qt1",
+          "label": "Area under v-t graph to find displacement/position",
+          "section_ref": "1.3.A",
+          "primary_slo": "1.3.A.4",
+          "notes": "All members require interpreting the area bounded by a v-t curve as displacement over an interval.",
+          "slo_weights": [
+            {
+              "slo": "1.3.A.4",
+              "weight": 0.55
+            },
+            {
+              "slo": "1.3.A.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.2.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.1.B.1",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [
+            "1.3.A.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.2.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.1.B.1",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "qt1_stem_ab",
+              "label": "1-3",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "objAB",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "Questions 1 – 3 relate to two objects that start at x = 0 at t = 0 and move in one dimension independently of one another. Graphs, of the velocity of each object versus time are shown below"
+                },
+                {
+                  "type": "image",
+                  "page": 8,
+                  "bbox": [
+                    0.22,
+                    0.17,
+                    0.72,
+                    0.32
+                  ],
+                  "caption": "Object A and Object B v-t graphs",
+                  "alt": "Two velocity-vs-time graphs. Object A: square wave at +1.0 m/s from 0-1s then -1.0 m/s from 1-2s. Object B: exponential-like curve rising from 0 to about 1.0 m/s over 0-2s."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q1",
+                  "label": "1",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) B",
+                    "(B) A",
+                    "(C) They are at the same location at $t = 2$ seconds",
+                    "(D) They are the same distance from the origin, but in opposite directions"
+                  ],
+                  "correct_option": "(A) B",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Which object is farthest from the origin at t = 2 seconds."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) B\n(B) A\n(C) They are at the same location at $t = 2$ seconds\n(D) They are the same distance from the origin, but in opposite directions"
+                    }
+                  ]
+                },
+                {
+                  "id": "q3",
+                  "label": "3",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) A",
+                    "(B) B",
+                    "(C) both A and B",
+                    "(D) neither A nor B"
+                  ],
+                  "correct_option": "(A) A",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Which object is in its initial position at t = 2 seconds?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) A\n(B) B\n(C) both A and B\n(D) neither A nor B"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "q4",
+              "label": "4",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) Between 1 and 2 s",
+                "(B) 1 s",
+                "(C) 2 s",
+                "(D) Between 2 and 3 s"
+              ],
+              "correct_option": "(A) Between 1 and 2 s",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 8,
+                  "bbox": [
+                    0.3,
+                    0.56,
+                    0.65,
+                    0.7
+                  ],
+                  "caption": "Velocity vs. time graph",
+                  "alt": "v-t graph with velocity in m/s from -2 to 2, time 0 to 4 s; triangular/trapezoidal shape with negative region then positive region"
+                },
+                {
+                  "type": "text",
+                  "value": "The graph above shows the velocity versus time for an object moving in a straight line. At what time after t = 0 does the object again pass through its initial position?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Between 1 and 2 s\n(B) 1 s\n(C) 2 s\n(D) Between 2 and 3 s"
+                }
+              ]
+            },
+            {
+              "id": "q11_12_stem",
+              "label": "11-12",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "carsXY",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 10,
+                  "bbox": [
+                    0.28,
+                    0.1,
+                    0.72,
+                    0.28
+                  ],
+                  "caption": "Speed vs. time for Cars X and Y",
+                  "alt": "Car X horizontal line at constant speed v0; Car Y starts at origin with positive slope, lines cross at some time before t = 40 s"
+                },
+                {
+                  "type": "text",
+                  "value": "At time t = 0, car X traveling with speed v0 passes car Y which is just starting to move. Both cars then travel on two parallel lanes of the same straight road. The graphs of speed v versus time t for both cars are shown above."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q11",
+                  "label": "11",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) Car Y is behind car X.",
+                    "(B) Car Y is passing car X.",
+                    "(C) Car Y is in front of car X.",
+                    "(D) Car X is accelerating faster than car Y."
+                  ],
+                  "correct_option": "(A) Car Y is behind car X.",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Which of the following is true at time t = 20 seconds?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) Car Y is behind car X.\n(B) Car Y is passing car X.\n(C) Car Y is in front of car X.\n(D) Car X is accelerating faster than car Y."
+                    }
+                  ]
+                },
+                {
+                  "id": "q12",
+                  "label": "12",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) Car Y is passing car X.",
+                    "(B) Car Y is behind car X.",
+                    "(C) Car Y is in front of car X.",
+                    "(D) Car X is accelerating faster than car Y."
+                  ],
+                  "correct_option": "(A) Car Y is passing car X.",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "From time t = 0 to time t = 40 seconds, the areas under both curves are equal. Therefore, which of the following is true at time t = 40 seconds?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) Car Y is passing car X.\n(B) Car Y is behind car X.\n(C) Car Y is in front of car X.\n(D) Car X is accelerating faster than car Y."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "q31",
+              "label": "31",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 7 m",
+                "(B) 5 m",
+                "(C) 6.5 m",
+                "(D) 7.5 m"
+              ],
+              "correct_option": "(A) 7 m",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 14,
+                  "bbox": [
+                    0.3,
+                    0.48,
+                    0.65,
+                    0.63
+                  ],
+                  "caption": "v-t graph for toy car",
+                  "alt": "velocity vs time, rises from 0 to 4 m/s then decreases crossing axis near t=2.5 s, then goes negative to about -2 m/s at t=3s"
+                },
+                {
+                  "type": "text",
+                  "value": "Shown below is the velocity vs. time graph for a toy car moving along a straight line. What is the maximum displacement from start for the toy car?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 7 m\n(B) 5 m\n(C) 6.5 m\n(D) 7.5 m"
+                }
+              ]
+            },
+            {
+              "id": "q60",
+              "label": "60",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 6.5 meters",
+                "(B) 0 meters",
+                "(C) 9 meters",
+                "(D) 10 meters"
+              ],
+              "correct_option": "(A) 6.5 meters",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 19,
+                  "bbox": [
+                    0.18,
+                    0.15,
+                    0.65,
+                    0.32
+                  ],
+                  "caption": "v-t graph for toy car over 10 s",
+                  "alt": "velocity vs time graph showing car goes negative then positive with positive area larger than negative area"
+                },
+                {
+                  "type": "text",
+                  "value": "What was the total displacement of the toy car for the entire 10 second interval shown?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 6.5 meters\n(B) 0 meters\n(C) 9 meters\n(D) 10 meters"
+                }
+              ]
+            },
+            {
+              "id": "q75",
+              "label": "75",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 5.00 m/s",
+                "(B) 1.20 m/s",
+                "(C) 1.40 m/s",
+                "(D) 3.30 m/s"
+              ],
+              "correct_option": "(A) 5.00 m/s",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 21,
+                  "bbox": [
+                    0.28,
+                    0.6,
+                    0.7,
+                    0.78
+                  ],
+                  "caption": "v-t graph for car on straight track",
+                  "alt": "velocity starts at positive value, decreases through zero around t=5s, settles at about -5 m/s after t=6s through t=10s"
+                },
+                {
+                  "type": "text",
+                  "value": "What is the average speed of the car for the 10 second interval?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 5.00 m/s\n(B) 1.20 m/s\n(C) 1.40 m/s\n(D) 3.30 m/s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt2",
+          "label": "Slope of x-t graph as instantaneous velocity",
+          "section_ref": "1.3.A",
+          "primary_slo": "1.3.A.4",
+          "notes": "Members require reading an x-t (or d-t) curve's slope to extract instantaneous speed or velocity at a given time.",
+          "slo_weights": [
+            {
+              "slo": "1.3.A.4",
+              "weight": 0.6
+            },
+            {
+              "slo": "1.3.A.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.2.B.5",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.1.A.3",
+              "weight": 0.05
+            }
+          ],
+          "aligned_slos": [
+            "1.3.A.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.2.B.5",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.1.A.3",
+              "weight": 0.05
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q30",
+              "label": "30",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) – 2 m/s",
+                "(B) ½ m/s",
+                "(C) 0 m/s",
+                "(D) 2 m/s"
+              ],
+              "correct_option": "(A) – 2 m/s",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The position vs. time graph for an object moving in a straight line is shown below. What is the instantaneous velocity at t = 2 s?"
+                },
+                {
+                  "type": "image",
+                  "page": 14,
+                  "bbox": [
+                    0.35,
+                    0.16,
+                    0.7,
+                    0.32
+                  ],
+                  "caption": "Position vs time graph",
+                  "alt": "x-t line with slope -2, crosses zero around t=2s, going from about +4 m at t=0 to -2 m at t=3s"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) – 2 m/s\n(B) ½ m/s\n(C) 0 m/s\n(D) 2 m/s"
+                }
+              ]
+            },
+            {
+              "id": "q47_48_stem",
+              "label": "47-48",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "dist_curve",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 17,
+                  "bbox": [
+                    0.3,
+                    0.08,
+                    0.72,
+                    0.3
+                  ],
+                  "caption": "Distance vs. time graph",
+                  "alt": "Distance from 0 to about 5 m over time 0 to 8 s; concave-down curve rising from origin then leveling off"
+                },
+                {
+                  "type": "text",
+                  "value": "Questions 47-48 refer to the graph above."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q47",
+                  "label": "47",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) 0.8 m/s",
+                    "(B) 0.0 m/s",
+                    "(C) 2.5 m/s",
+                    "(D) 4.0 m/s"
+                  ],
+                  "correct_option": "(A) 0.8 m/s",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "The graph represents the relationship between distance and time for an object that is moving along a straight line. What is the instantaneous speed of the object at t = 5.0 seconds?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) 0.8 m/s\n(B) 0.0 m/s\n(C) 2.5 m/s\n(D) 4.0 m/s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "q56_stem",
+              "label": "56",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "marble",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 18,
+                  "bbox": [
+                    0.15,
+                    0.54,
+                    0.65,
+                    0.78
+                  ],
+                  "caption": "Position vs. time graph (marble)",
+                  "alt": "position from 0 to 3 m over 10 s; rises, plateau, then falls steeply below zero near t=8s"
+                },
+                {
+                  "type": "text",
+                  "value": "The accompanying graph describes the motion of a marble on a table top for 10 seconds."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q56",
+                  "label": "56",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) from t = 4.8 s to t = 10.0 s only",
+                    "(B) from t = 8.0 s to t = 10.0 s only",
+                    "(C) from t = 6.9 s to t = 10.0 s only",
+                    "(D) from t = 4.8 s to t = 6.2 s and from t = 6.9 s to t = 10.0 s only"
+                  ],
+                  "correct_option": "(D) from t = 4.8 s to t = 6.2 s and from t = 6.9 s to t = 10.0 s only",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "For which time interval(s) did the marble have a negative velocity?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) from t = 4.8 s to t = 10.0 s only\n(B) from t = 8.0 s to t = 10.0 s only\n(C) from t = 6.9 s to t = 10.0 s only\n(D) from t = 4.8 s to t = 6.2 s and from t = 6.9 s to t = 10.0 s only"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "q76",
+              "label": "76",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) At time $t = 4.0\\ s$",
+                "(B) At all times from $t = 0.0\\ s \\to t = 2.0\\ s$",
+                "(C) At time $t = 3.0\\ s$",
+                "(D) At time $t = 8.5\\ s$"
+              ],
+              "correct_option": "(A) At time $t = 4.0\\ s$",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Consider the motion of an object given by the position vs. time graph shown. For what time(s) is the speed of the object greatest?"
+                },
+                {
+                  "type": "image",
+                  "page": 22,
+                  "bbox": [
+                    0.3,
+                    0.12,
+                    0.72,
+                    0.3
+                  ],
+                  "caption": "Position vs time graph",
+                  "alt": "position starts near 5 m, plateau, sharp drop near t=4-5s to about -10 m, plateau, then rises from t=7 to t=10"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) At time $t = 4.0\\ s$\n(B) At all times from $t = 0.0\\ s \\to t = 2.0\\ s$\n(C) At time $t = 3.0\\ s$\n(D) At time $t = 8.5\\ s$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt3",
+          "label": "Slope of v-t graph as acceleration",
+          "section_ref": "1.3.A",
+          "primary_slo": "1.3.A.4",
+          "notes": "Members require reading slope of v-t (or explicit linear-segment analysis) to determine acceleration at an instant.",
+          "slo_weights": [
+            {
+              "slo": "1.3.A.4",
+              "weight": 0.55
+            },
+            {
+              "slo": "1.3.A.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.2.B.4",
+              "weight": 0.05
+            }
+          ],
+          "aligned_slos": [
+            "1.3.A.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.2.B.4",
+              "weight": 0.05
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q2",
+              "label": "2",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) neither A nor B",
+                "(B) A",
+                "(C) B",
+                "(D) both A and B"
+              ],
+              "correct_option": "(A) neither A nor B",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 8,
+                  "bbox": [
+                    0.22,
+                    0.17,
+                    0.72,
+                    0.32
+                  ],
+                  "caption": "Object A and Object B v-t graphs",
+                  "alt": "Object A is piecewise-constant (step), Object B is a curve"
+                },
+                {
+                  "type": "text",
+                  "value": "Which object moves with constant non-zero acceleration?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) neither A nor B\n(B) A\n(C) B\n(D) both A and B"
+                }
+              ]
+            },
+            {
+              "id": "q52_53_stem",
+              "label": "52-53",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "clown",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 18,
+                  "bbox": [
+                    0.3,
+                    0.1,
+                    0.68,
+                    0.29
+                  ],
+                  "caption": "v-t graph of unicycle clown",
+                  "alt": "velocity rises to 6 m/s then plateaus, rises again to 10 m/s at t≈8s, drops back to 0 by t=12s"
+                },
+                {
+                  "type": "text",
+                  "value": "The motion of a circus clown on a unicycle moving in a straight line is shown in the graph below"
+                }
+              ],
+              "children": [
+                {
+                  "id": "q52",
+                  "label": "52",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) 2.0 m/s²",
+                    "(B) 1.6 m/s²",
+                    "(C) 8.0 m/s²",
+                    "(D) 3.4 m/s²"
+                  ],
+                  "correct_option": "(A) 2.0 m/s²",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "What would be the acceleration of the clown at 5 s?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) 2.0 m/s²\n(B) 1.6 m/s²\n(C) 8.0 m/s²\n(D) 3.4 m/s²"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "q58",
+              "label": "58",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) -2.0 m/s²",
+                "(B) 0.8 m/s²",
+                "(C) 2.0 m/s²",
+                "(D) 3.0 m/s²"
+              ],
+              "correct_option": "(A) -2.0 m/s²",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "What is the marbles average acceleration between t = 3.1 s and t = 3.8 s"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) -2.0 m/s²\n(B) 0.8 m/s²\n(C) 2.0 m/s²\n(D) 3.0 m/s²"
+                }
+              ]
+            },
+            {
+              "id": "q59_60_stem",
+              "label": "59-60",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "toycar_vt",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 19,
+                  "bbox": [
+                    0.18,
+                    0.15,
+                    0.65,
+                    0.32
+                  ],
+                  "caption": "v-t graph toy car over 10 s",
+                  "alt": "velocity starts at 0, goes negative to -1 m/s, returns to 0 at t=4s, continues up to +2 m/s, plateau, then drops"
+                },
+                {
+                  "type": "text",
+                  "value": "The accompanying graph describes the motion of a toy car across the floor for 10 seconds."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q59",
+                  "label": "59",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) 1 m/s²",
+                    "(B) –1 m/s²",
+                    "(C) 0 m/s²",
+                    "(D) 2 m/s²"
+                  ],
+                  "correct_option": "(A) 1 m/s²",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "What is the acceleration of the toy car at t = 4 s?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) 1 m/s²\n(B) –1 m/s²\n(C) 0 m/s²\n(D) 2 m/s²"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt4",
+          "label": "Translating between x-t, v-t, and a-t graph shapes",
+          "section_ref": "1.3.A",
+          "primary_slo": "1.3.A.1",
+          "notes": "Members ask the student to pick, among graph families, the correct x-t that corresponds to a given v-t (or the correct v-t/a-t companion set).",
+          "slo_weights": [
+            {
+              "slo": "1.3.A.1",
+              "weight": 0.5
+            },
+            {
+              "slo": "1.3.A.4",
+              "weight": 0.35
+            },
+            {
+              "slo": "1.2.B.4",
+              "weight": 0.1
+            },
+            {
+              "slo": "1.2.B.5",
+              "weight": 0.05
+            }
+          ],
+          "aligned_slos": [
+            "1.3.A.4"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.2.B.4",
+              "weight": 0.1
+            },
+            {
+              "slo": "1.2.B.5",
+              "weight": 0.05
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q13",
+              "label": "13",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) distance curves upward (parabolic) while speed is a straight line with positive slope from rest",
+                "(B) distance is a straight line with constant slope while speed is a straight line with positive slope",
+                "(C) distance curves upward while speed curves downward",
+                "(D) distance is a straight line while speed is horizontal (constant)"
+              ],
+              "correct_option": "(A) distance curves upward (parabolic) while speed is a straight line with positive slope from rest",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Which of the following pairs of graphs shows the distance traveled versus time and the speed versus time for an object uniformly accelerated from rest?"
+                },
+                {
+                  "type": "image",
+                  "page": 10,
+                  "bbox": [
+                    0.1,
+                    0.39,
+                    0.92,
+                    0.7
+                  ],
+                  "caption": "Four choice panels of distance-time and speed-time graph pairs",
+                  "alt": "Four labeled options (A)-(D), each showing a distance-t graph next to a speed-t graph"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) distance curves upward (parabolic) while speed is a straight line with positive slope from rest\n(B) distance is a straight line with constant slope while speed is a straight line with positive slope\n(C) distance curves upward while speed curves downward\n(D) distance is a straight line while speed is horizontal (constant)"
+                }
+              ]
+            },
+            {
+              "id": "q16",
+              "label": "16",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) x increases with increasing slope, then with constant slope, then with decreasing slope to a plateau",
+                "(B) x stays constant, then decreases, then levels off",
+                "(C) x increases linearly the entire time",
+                "(D) x is a sinusoid"
+              ],
+              "correct_option": "(A) x increases with increasing slope, then with constant slope, then with decreasing slope to a plateau",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 11,
+                  "bbox": [
+                    0.35,
+                    0.32,
+                    0.65,
+                    0.42
+                  ],
+                  "caption": "v-t trapezoidal graph",
+                  "alt": "velocity rises linearly, plateaus, then decreases linearly back toward zero"
+                },
+                {
+                  "type": "text",
+                  "value": "The graph above shows the velocity v as a function of time t for an object moving in a straight line. Which of the following graphs shows the corresponding displacement x as a function of time t for the same time interval?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) x increases with increasing slope, then with constant slope, then with decreasing slope to a plateau\n(B) x stays constant, then decreases, then levels off\n(C) x increases linearly the entire time\n(D) x is a sinusoid"
+                }
+              ]
+            },
+            {
+              "id": "q18",
+              "label": "18",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) x increases linearly, levels off, then decreases linearly and negatively",
+                "(B) x is a rectangular pulse that goes up then back down",
+                "(C) x is a pair of cusps touching zero",
+                "(D) x is a sine-like oscillation"
+              ],
+              "correct_option": "(A) x increases linearly, levels off, then decreases linearly and negatively",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 11,
+                  "bbox": [
+                    0.35,
+                    0.6,
+                    0.65,
+                    0.72
+                  ],
+                  "caption": "v-t graph",
+                  "alt": "velocity constant positive, smoothly decreases to negative, then constant negative"
+                },
+                {
+                  "type": "text",
+                  "value": "The graph above shows velocity v versus time t for an object in linear motion. Which of the following is a possible graph of position x versus time t for this object?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) x increases linearly, levels off, then decreases linearly and negatively\n(B) x is a rectangular pulse that goes up then back down\n(C) x is a pair of cusps touching zero\n(D) x is a sine-like oscillation"
+                }
+              ]
+            },
+            {
+              "id": "q22",
+              "label": "22",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) positive constant slope, flat (rest), steeper positive slope, then steep negative slope returning to zero",
+                "(B) positive slope the entire time",
+                "(C) oscillating between positive and negative",
+                "(D) curving upward smoothly"
+              ],
+              "correct_option": "(A) positive constant slope, flat (rest), steeper positive slope, then steep negative slope returning to zero",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A child left her home and started walking at a constant velocity. After a time she stopped for a while and then continued on with a velocity greater than she originally had. All of a sudden she turned around and walked very quickly back home. Which of the following graphs best represents the distance versus time graph for her walk?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) positive constant slope, flat (rest), steeper positive slope, then steep negative slope returning to zero\n(B) positive slope the entire time\n(C) oscillating between positive and negative\n(D) curving upward smoothly"
+                }
+              ]
+            },
+            {
+              "id": "q25",
+              "label": "25",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) v grows with a decreasing slope, approaching a terminal (constant) value",
+                "(B) v grows with a constant slope (straight line)",
+                "(C) v grows with an increasing slope (curves upward)",
+                "(D) v rises linearly then drops to zero"
+              ],
+              "correct_option": "(A) v grows with a decreasing slope, approaching a terminal (constant) value",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A large beach ball is dropped from the ceiling of a school gymnasium to the floor about 10 meters below. Which of the following graphs would best represent its velocity as a function of time? (do not neglect air resistance)"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) v grows with a decreasing slope, approaching a terminal (constant) value\n(B) v grows with a constant slope (straight line)\n(C) v grows with an increasing slope (curves upward)\n(D) v rises linearly then drops to zero"
+                }
+              ]
+            },
+            {
+              "id": "q28",
+              "label": "28",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) Position is a parabola, velocity is a triangle (linear rising then falling), acceleration is a constant positive then constant negative",
+                "(B) Position is linear, velocity is linear rising, acceleration is linear rising",
+                "(C) Position is sinusoidal, velocity is linear, acceleration is constant",
+                "(D) Position curves up, velocity curves up, acceleration curves up"
+              ],
+              "correct_option": "(A) Position is a parabola, velocity is a triangle (linear rising then falling), acceleration is a constant positive then constant negative",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Which of the following sets of graphs might be the corresponding graphs of Position, Velocity, and Acceleration vs. Time for a moving particle?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Position is a parabola, velocity is a triangle (linear rising then falling), acceleration is a constant positive then constant negative\n(B) Position is linear, velocity is linear rising, acceleration is linear rising\n(C) Position is sinusoidal, velocity is linear, acceleration is constant\n(D) Position curves up, velocity curves up, acceleration curves up"
+                }
+              ]
+            },
+            {
+              "id": "q62",
+              "label": "62",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) Graphs I and IV only",
+                "(B) Graph I only",
+                "(C) Graphs II and V only",
+                "(D) Graph II only"
+              ],
+              "correct_option": "(A) Graphs I and IV only",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 19,
+                  "bbox": [
+                    0.15,
+                    0.54,
+                    0.88,
+                    0.72
+                  ],
+                  "caption": "Five graphs (I–V) of kinematic quantities vs time",
+                  "alt": "Graph I distance-t with positive constant slope, II speed-t with positive slope, III acceleration-t with positive slope, IV speed-t constant horizontal line, V acceleration-t constant nonzero horizontal"
+                },
+                {
+                  "type": "text",
+                  "value": "Which of the following graphs could correctly represent the motion of an object moving with a constant speed in a straight line?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Graphs I and IV only\n(B) Graph I only\n(C) Graphs II and V only\n(D) Graph II only"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt5",
+          "label": "Interpreting sign of acceleration from graph curvature",
+          "section_ref": "1.3.A",
+          "primary_slo": "1.3.A.4",
+          "notes": "Members ask students to identify where an object has positive (or non-zero) acceleration based on concavity or slope changes of a kinematic graph.",
+          "slo_weights": [
+            {
+              "slo": "1.3.A.4",
+              "weight": 0.55
+            },
+            {
+              "slo": "1.3.A.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.2.B.4",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.1.B.1",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [
+            "1.3.A.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.2.B.4",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.1.B.1",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q24",
+              "label": "24",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 5, 29, & 57 min.",
+                "(B) 0, 20, 38, & 60 min.",
+                "(C) 5, 12, 29, & 35 min.",
+                "(D) 12, 35, & 41 min."
+              ],
+              "correct_option": "(A) 5, 29, & 57 min.",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 13,
+                  "bbox": [
+                    0.28,
+                    0.08,
+                    0.75,
+                    0.22
+                  ],
+                  "caption": "Distance vs time graph (car)",
+                  "alt": "distance-time curve over 0-60 min, rises with increasing slope, flattens, descends"
+                },
+                {
+                  "type": "text",
+                  "value": "Above is a graph of the distance vs. time for car moving along a road. According the graph, at which of the following times would the automobile have been accelerating positively?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 5, 29, & 57 min.\n(B) 0, 20, 38, & 60 min.\n(C) 5, 12, 29, & 35 min.\n(D) 12, 35, & 41 min."
+                }
+              ]
+            },
+            {
+              "id": "q41",
+              "label": "41",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) D",
+                "(B) A",
+                "(C) B",
+                "(D) C"
+              ],
+              "correct_option": "(A) D",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 15,
+                  "bbox": [
+                    0.32,
+                    0.82,
+                    0.68,
+                    0.98
+                  ],
+                  "caption": "v-t graph with labeled points A, B, C, D",
+                  "alt": "velocity-time graph showing duck's flight with four labeled points; velocity is above t-axis until point D where it reaches zero"
+                },
+                {
+                  "type": "text",
+                  "value": "Given the graph of the velocity vs. time of a duck flying due south for the winter. At what point did the duck stop its forward motion?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) D\n(B) A\n(C) B\n(D) C"
+                }
+              ]
+            },
+            {
+              "id": "q57",
+              "label": "57",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) from t = 2.0 s to t = 2.5 s, from t = 5.8 s to t = 6.2 s, and from t = 8.4 s to t = 8.8 s only",
+                "(B) from t = 0.0 s to t = 8.0 s only",
+                "(C) from t = 0.0 s to t = 3.6 only",
+                "(D) from t = 3.8 s to t = 4.8 s and t = 6.2 s to t = 6.8 s only"
+              ],
+              "correct_option": "(A) from t = 2.0 s to t = 2.5 s, from t = 5.8 s to t = 6.2 s, and from t = 8.4 s to t = 8.8 s only",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "For which time interval(s) did the marble have a positive acceleration?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) from t = 2.0 s to t = 2.5 s, from t = 5.8 s to t = 6.2 s, and from t = 8.4 s to t = 8.8 s only\n(B) from t = 0.0 s to t = 8.0 s only\n(C) from t = 0.0 s to t = 3.6 only\n(D) from t = 3.8 s to t = 4.8 s and t = 6.2 s to t = 6.8 s only"
+                }
+              ]
+            },
+            {
+              "id": "q74",
+              "label": "74",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) t = 5s",
+                "(B) t = 10 s",
+                "(C) t = 3s",
+                "(D) t = 0 s"
+              ],
+              "correct_option": "(A) t = 5s",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "At which time is the car the greatest distance from the origin?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) t = 5s\n(B) t = 10 s\n(C) t = 3s\n(D) t = 0 s"
+                }
+              ]
+            },
+            {
+              "id": "q23",
+              "label": "23",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) I only",
+                "(B) II only",
+                "(C) I & II only",
+                "(D) I & III only"
+              ],
+              "correct_option": "(D) I & III only",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A whiffle ball is tossed straight up, reaches a highest point, and falls back down. Air resistance is not negligible. Which of the following statements are true?\nI. The ball's speed is zero at the highest point.\nII. The ball's acceleration is zero at the highest point.\nIII. The ball takes a longer time to travel up to the highest point than to fall back down."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) I only\n(B) II only\n(C) I & II only\n(D) I & III only"
+                }
+              ]
+            },
+            {
+              "id": "frq_2005b1",
+              "label": "2005B1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Converted from free-response 2005B1 part b.i: compute average acceleration from given vertical-position-vs-time graph over 8-10 s interval.",
+              "options": [
+                "(A) $-0.75\\ \\text{m/s}^2$",
+                "(B) $+0.75\\ \\text{m/s}^2$",
+                "(C) $-1.5\\ \\text{m/s}^2$",
+                "(D) $0\\ \\text{m/s}^2$"
+              ],
+              "correct_option": "(A) $-0.75\\ \\text{m/s}^2$",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 28,
+                  "bbox": [
+                    0.2,
+                    0.08,
+                    0.72,
+                    0.32
+                  ],
+                  "caption": "Vertical position vs time for elevator (2005B1)",
+                  "alt": "Elevator position rises from 0 to ~14 m over 0-10 s, plateau, then descends from t=18 to t=26 s"
+                },
+                {
+                  "type": "text",
+                  "value": "The vertical position of an elevator as a function of time is shown above. From the graph, the elevator's velocity between t = 8 s and t = 10 s transitions from approximately +1.5 m/s to 0 m/s. Calculate the average acceleration for the time period t = 8 s to t = 10 s."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $-0.75\\ \\text{m/s}^2$\n(B) $+0.75\\ \\text{m/s}^2$\n(C) $-1.5\\ \\text{m/s}^2$\n(D) $0\\ \\text{m/s}^2$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt6",
+          "label": "Area under a-t graph as change in velocity",
+          "section_ref": "1.3.A",
+          "primary_slo": "1.3.A.4",
+          "notes": "Members require interpreting the area under an acceleration-vs-time graph as the change in velocity, or ordering/ranking velocities from an a-t plot.",
+          "slo_weights": [
+            {
+              "slo": "1.3.A.4",
+              "weight": 0.55
+            },
+            {
+              "slo": "1.3.A.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.2.A.2",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [
+            "1.3.A.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.2.A.2",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q21",
+              "label": "21",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 10.5 m/s",
+                "(B) 1.0 m/s",
+                "(C) 2.0 m/s",
+                "(D) 6.0 m/s"
+              ],
+              "correct_option": "(A) 10.5 m/s",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Starting from rest at time t = 0, a car moves in a straight line with an acceleration given by the accompanying graph. What is the speed of the car at t = 3 s?"
+                },
+                {
+                  "type": "image",
+                  "page": 12,
+                  "bbox": [
+                    0.32,
+                    0.45,
+                    0.68,
+                    0.62
+                  ],
+                  "caption": "Acceleration vs time graph",
+                  "alt": "a in m/s²: starts at 5 m/s² at t=0, decreases linearly, reaches 0 at t≈5s and stays at 0 to t=6s"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 10.5 m/s\n(B) 1.0 m/s\n(C) 2.0 m/s\n(D) 6.0 m/s"
+                }
+              ]
+            },
+            {
+              "id": "q26_27_stem",
+              "label": "26-27",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "car_accel",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 13,
+                  "bbox": [
+                    0.28,
+                    0.5,
+                    0.72,
+                    0.68
+                  ],
+                  "caption": "Acceleration vs. time graph for a car from rest",
+                  "alt": "a-t graph: acceleration rises from 0 to +4 m/s² near t=2s, then falls to 0 at t=4s, continues to -2 m/s² near t=6s, then rises back to 0 at t=8s"
+                },
+                {
+                  "type": "text",
+                  "value": "A car starts from rest and accelerates as shown in the graph below."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q26",
+                  "label": "26",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) 4 seconds",
+                    "(B) 2 seconds",
+                    "(C) 6 seconds",
+                    "(D) 8 seconds"
+                  ],
+                  "correct_option": "(A) 4 seconds",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "At what time would the car be moving with the greatest velocity?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) 4 seconds\n(B) 2 seconds\n(C) 6 seconds\n(D) 8 seconds"
+                    }
+                  ]
+                },
+                {
+                  "id": "q27",
+                  "label": "27",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) 8 seconds",
+                    "(B) 2 seconds",
+                    "(C) 4 seconds",
+                    "(D) 6 seconds"
+                  ],
+                  "correct_option": "(A) 8 seconds",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "At what time would the car be farthest from its original starting position?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) 8 seconds\n(B) 2 seconds\n(C) 4 seconds\n(D) 6 seconds"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "frq_1993B1",
+              "label": "1993B1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Converted from free-response 1993B1 part a: compute velocity at end of each 5-second interval from stepwise a-t graph of elevator (0, +4, 0, -4 m/s² for the four intervals).",
+              "options": [
+                "(A) 0, 20, 20, 0 m/s",
+                "(B) 0, 4, 4, 0 m/s",
+                "(C) 0, 20, 40, 20 m/s",
+                "(D) 0, 4, 8, 4 m/s"
+              ],
+              "correct_option": "(A) 0, 20, 20, 0 m/s",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 24,
+                  "bbox": [
+                    0.18,
+                    0.06,
+                    0.85,
+                    0.28
+                  ],
+                  "caption": "Elevator acceleration vs. time (1993B1)",
+                  "alt": "Stepwise a-t graph: a = 0 for 0–5s, a = +4 m/s² for 5–10s, a = 0 for 10–15s, a = -4 m/s² for 15–20s"
+                },
+                {
+                  "type": "text",
+                  "value": "A student stands in an elevator and records his acceleration as a function of time. At time t = 0, the elevator is at displacement x = 0 with velocity v = 0. Determine the velocity v of the elevator at the end of each 5-second interval (i.e. at t = 5 s, 10 s, 15 s, and 20 s)."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 0, 20, 20, 0 m/s\n(B) 0, 4, 4, 0 m/s\n(C) 0, 20, 40, 20 m/s\n(D) 0, 4, 8, 4 m/s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt7",
+          "label": "Constant-acceleration 1D kinematics (algebraic)",
+          "section_ref": "1.3.A",
+          "primary_slo": "1.3.A.2",
+          "notes": "Members require direct application of constant-acceleration equations (v = v0 + at, x = x0 + v0 t + ½at², v² = v0² + 2a(x-x0)) for position/velocity/acceleration.",
+          "slo_weights": [
+            {
+              "slo": "1.3.A.2",
+              "weight": 0.55
+            },
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.2.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.1.B.1",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.2.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.1.B.1",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q5",
+              "label": "5",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) -36 m",
+                "(B) +99 m",
+                "(C) +36 m",
+                "(D) -99 m"
+              ],
+              "correct_option": "(A) -36 m",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A body moving in the positive x direction passes the origin at time t = 0. Between t = 0 and t = 1 second, the body has a constant speed of 24 meters per second. At t = 1 second, the body is given a constant acceleration of 6 meters per second squared in the negative x direction. The position x of the body at t = 11 seconds is"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) -36 m\n(B) +99 m\n(C) +36 m\n(D) -99 m"
+                }
+              ]
+            },
+            {
+              "id": "q36",
+              "label": "36",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 150 m",
+                "(B) 300 m",
+                "(C) 450 m",
+                "(D) 600 m"
+              ],
+              "correct_option": "(A) 150 m",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A car starts from rest and uniformly accelerates to a final speed of 20.0 m/s in a time of 15.0 s. How far does the car travel during this time?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 150 m\n(B) 300 m\n(C) 450 m\n(D) 600 m"
+                }
+              ]
+            },
+            {
+              "id": "q46",
+              "label": "46",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 72 m",
+                "(B) 24 m",
+                "(C) 68 m",
+                "(D) 78 m"
+              ],
+              "correct_option": "(A) 72 m",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "If car #3 continues to constantly accelerate at the same rate what will be its position at the end of 6 seconds?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 72 m\n(B) 24 m\n(C) 68 m\n(D) 78 m"
+                }
+              ]
+            },
+            {
+              "id": "q50_51_stem",
+              "label": "50-51",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "toycar_uniform",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 17,
+                  "bbox": [
+                    0.1,
+                    0.54,
+                    0.9,
+                    0.65
+                  ],
+                  "caption": "Toy car positions at 0.1s intervals",
+                  "alt": "Horizontal positions of a toy car at times 0s, 0.1s, 0.2s, 0.3s, 0.4s; distances from Start: 0, 6 cm, 24 cm, 54 cm, 96 cm"
+                },
+                {
+                  "type": "text",
+                  "value": "The diagram below represents a toy car starting from rest and uniformly accelerating across the floor. The time and distance traveled from the start are shown in the diagram."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q50",
+                  "label": "50",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) 12 m/s²",
+                    "(B) 25 m/s²",
+                    "(C) 9.8 m/s²",
+                    "(D) 50 m/s²"
+                  ],
+                  "correct_option": "(A) 12 m/s²",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "What was the acceleration of the cart during the first 0.4 seconds?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) 12 m/s²\n(B) 25 m/s²\n(C) 9.8 m/s²\n(D) 50 m/s²"
+                    }
+                  ]
+                },
+                {
+                  "id": "q51",
+                  "label": "51",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) 4.8 m/s",
+                    "(B) 0.6 m/s",
+                    "(C) 1.9 m/s",
+                    "(D) 2.4 m/s"
+                  ],
+                  "correct_option": "(A) 4.8 m/s",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "What was the instantaneous velocity of the cart at 96 centimeters from the start?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) 4.8 m/s\n(B) 0.6 m/s\n(C) 1.9 m/s\n(D) 2.4 m/s"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "q63_64_stem",
+              "label": "63-64",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "ball_uniform_accel",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 19,
+                  "bbox": [
+                    0.1,
+                    0.76,
+                    0.9,
+                    0.86
+                  ],
+                  "caption": "Positions of a uniformly accelerating ball each second",
+                  "alt": "At times 0, 1, 2, 3, 4, 5 seconds, positions are 0, 1, 4, 9, 16, 25 cm"
+                },
+                {
+                  "type": "text",
+                  "value": "The diagram shows a uniformly accelerating ball. The position of the ball each second is indicated."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q63",
+                  "label": "63",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) 7.0 cm/s",
+                    "(B) 3.0 cm/s",
+                    "(C) 3.5 cm/s",
+                    "(D) 12.5 cm/s"
+                  ],
+                  "correct_option": "(A) 7.0 cm/s",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "What is the average speed of the ball between 3 and 4 seconds?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) 7.0 cm/s\n(B) 3.0 cm/s\n(C) 3.5 cm/s\n(D) 12.5 cm/s"
+                    }
+                  ]
+                },
+                {
+                  "id": "q64",
+                  "label": "64",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) 2 cm/s²",
+                    "(B) 1 cm/s²",
+                    "(C) 4 cm/s²",
+                    "(D) 5 cm/s²"
+                  ],
+                  "correct_option": "(A) 2 cm/s²",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Which of the following is closest to the acceleration of the ball?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) 2 cm/s²\n(B) 1 cm/s²\n(C) 4 cm/s²\n(D) 5 cm/s²"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "frq_1982B1",
+              "label": "1982B1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Converted from free-response 1982B1 parts a-c: sprinter covers first 10 m in 2 s from rest (constant a), then 90 m at constant v.",
+              "options": [
+                "(A) a = 5 m/s², v = 10 m/s, total time = 11 s",
+                "(B) a = 2.5 m/s², v = 5 m/s, total time = 20 s",
+                "(C) a = 10 m/s², v = 20 m/s, total time = 6.5 s",
+                "(D) a = 5 m/s², v = 10 m/s, total time = 9 s"
+              ],
+              "correct_option": "(A) a = 5 m/s², v = 10 m/s, total time = 11 s",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The first 10 meters of a 100-meter dash are covered in 2 seconds by a sprinter who starts from rest and accelerates with a constant acceleration. The remaining 90 meters are run with the same velocity the sprinter had after 2 seconds. Determine (a) the sprinter's constant acceleration during the first 2 seconds, (b) the sprinter's velocity after 2 seconds have elapsed, and (c) the total time needed to run the full 100 meters."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) a = 5 m/s², v = 10 m/s, total time = 11 s\n(B) a = 2.5 m/s², v = 5 m/s, total time = 20 s\n(C) a = 10 m/s², v = 20 m/s, total time = 6.5 s\n(D) a = 5 m/s², v = 10 m/s, total time = 9 s"
+                }
+              ]
+            },
+            {
+              "id": "frq_2002B1",
+              "label": "2002B1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Converted from free-response 2002B1 parts a-c: rocket upward at a = 30 m/s² for 2.0 s, then free-fall up until max height.",
+              "options": [
+                "(A) speed after 2 s = 60 m/s, max height = 240 m, total time to max height = 8 s",
+                "(B) speed after 2 s = 30 m/s, max height = 60 m, total time to max height = 5 s",
+                "(C) speed after 2 s = 60 m/s, max height = 60 m, total time to max height = 2 s",
+                "(D) speed after 2 s = 60 m/s, max height = 180 m, total time to max height = 6 s"
+              ],
+              "correct_option": "(A) speed after 2 s = 60 m/s, max height = 240 m, total time to max height = 8 s",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A model rocket is launched vertically with an engine that is ignited at time t = 0. The engine provides an upward acceleration of 30 m/s² for 2.0 s. Upon reaching its maximum height, the rocket deploys a parachute and descends to the ground. Using g = 10 m/s², determine (a) the speed of the rocket after the 2 s firing of the engine, (b) the maximum height the rocket will reach, and (c) the time after t = 0 at which the maximum height is reached."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) speed after 2 s = 60 m/s, max height = 240 m, total time to max height = 8 s\n(B) speed after 2 s = 30 m/s, max height = 60 m, total time to max height = 5 s\n(C) speed after 2 s = 60 m/s, max height = 60 m, total time to max height = 2 s\n(D) speed after 2 s = 60 m/s, max height = 180 m, total time to max height = 6 s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt8",
+          "label": "Free-fall from rest: distance scales as t²",
+          "section_ref": "1.3.A",
+          "primary_slo": "1.3.A.3",
+          "notes": "Members use d = ½gt² to compare fall distances, heights, or times for objects dropped from rest near Earth's surface.",
+          "slo_weights": [
+            {
+              "slo": "1.3.A.3",
+              "weight": 0.45
+            },
+            {
+              "slo": "1.3.A.2",
+              "weight": 0.3
+            },
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.1.A.3",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [
+            "1.3.A.2"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.1.A.3",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q32",
+              "label": "32",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 3h",
+                "(B) h",
+                "(C) 2h",
+                "(D) 4h"
+              ],
+              "correct_option": "(A) 3h",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "An object is released from rest and falls a distance h during the first second of time. How far will it fall during the next second of time?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 3h\n(B) h\n(C) 2h\n(D) 4h"
+                }
+              ]
+            },
+            {
+              "id": "q35",
+              "label": "35",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) four times as far",
+                "(B) half as far",
+                "(C) twice as far",
+                "(D) three times as far"
+              ],
+              "correct_option": "(A) four times as far",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Starting from rest, object 1 falls freely for 4.0 seconds, and object 2 falls freely for 8.0 seconds. Compared to object 1, object 2 falls:"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) four times as far\n(B) half as far\n(C) twice as far\n(D) three times as far"
+                }
+              ]
+            },
+            {
+              "id": "q39",
+              "label": "39",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 45 m",
+                "(B) 15 m",
+                "(C) 30 m",
+                "(D) 75 m"
+              ],
+              "correct_option": "(A) 45 m",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A ball which is dropped from the top of a building strikes the ground with a speed of 30 m/s. Assume air resistance can be ignored. The height of the building is approximately:"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 45 m\n(B) 15 m\n(C) 30 m\n(D) 75 m"
+                }
+              ]
+            },
+            {
+              "id": "q66",
+              "label": "66",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 0.71 sec",
+                "(B) 0.50 sec",
+                "(C) 1.0 sec",
+                "(D) 1.4 sec"
+              ],
+              "correct_option": "(A) 0.71 sec",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 20,
+                  "bbox": [
+                    0.25,
+                    0.28,
+                    0.6,
+                    0.42
+                  ],
+                  "caption": "Bouncing ball height decreasing by 1/2 each bounce",
+                  "alt": "Rubber ball showing three bounces with decreasing parabolic heights"
+                },
+                {
+                  "type": "text",
+                  "value": "A rubber ball bounces on the ground as shown. After each bounce, the ball reaches one-half the height of the bounce before it. If the time the ball was in the air between the first and second bounce was 1 second. What would be the time between the second and third bounce?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 0.71 sec\n(B) 0.50 sec\n(C) 1.0 sec\n(D) 1.4 sec"
+                }
+              ]
+            },
+            {
+              "id": "frq_2006Bb1",
+              "label": "2006Bb1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Converted from FRQ 2006Bb1 part (d): slope of D vs t² graph gives ½g; measured slope ≈ 4.9 m/s².",
+              "options": [
+                "(A) 9.8 m/s²",
+                "(B) 4.9 m/s²",
+                "(C) 2.45 m/s²",
+                "(D) 19.6 m/s²"
+              ],
+              "correct_option": "(A) 9.8 m/s²",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A student drops a small steel sphere over a range of distances D and records the time of fall t. To produce a linear relationship, the student plots D on the y-axis and t² on the x-axis. The slope of the resulting best-fit line is measured to be 4.9 m/s². Using this slope, calculate the experimental value of the acceleration g due to gravity."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 9.8 m/s²\n(B) 4.9 m/s²\n(C) 2.45 m/s²\n(D) 19.6 m/s²"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt9",
+          "label": "Stopping distance depends on initial speed squared",
+          "section_ref": "1.3.A",
+          "primary_slo": "1.3.A.2",
+          "notes": "Members apply v² = v0² + 2a(x-x0) with vf = 0 to show that stopping distance is proportional to v0².",
+          "slo_weights": [
+            {
+              "slo": "1.3.A.2",
+              "weight": 0.6
+            },
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.2.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.1.B.1",
+              "weight": 0.05
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.2.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.1.B.1",
+              "weight": 0.05
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q67",
+              "label": "67",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 4 times as far",
+                "(B) the same distance",
+                "(C) 2 times as far",
+                "(D) the mass of the car must be known"
+              ],
+              "correct_option": "(A) 4 times as far",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The driver of a car makes an emergency stop by slamming on the car's brakes and skidding to a stop. How far would the car have skidded if it had been traveling twice as fast?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 4 times as far\n(B) the same distance\n(C) 2 times as far\n(D) the mass of the car must be known"
+                }
+              ]
+            },
+            {
+              "id": "q70",
+              "label": "70",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 4 m",
+                "(B) 1 m",
+                "(C) 2 m",
+                "(D) 3 m"
+              ],
+              "correct_option": "(A) 4 m",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A cart is initially moving at 0.5 m/s along a track. The cart comes to rest after traveling 1 m. The experiment is repeated on the same track, but now the cart is initially moving at 1 m/s. How far does the cart travel before coming to rest?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 4 m\n(B) 1 m\n(C) 2 m\n(D) 3 m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt10",
+          "label": "Vertical throw: maximum height proportional to v²/(2g)",
+          "section_ref": "1.3.A",
+          "primary_slo": "1.3.A.2",
+          "notes": "Members apply vf² = v0² + 2a(x-x0) with vf = 0 at apex to find maximum height, typically comparing across speeds or masses.",
+          "slo_weights": [
+            {
+              "slo": "1.3.A.2",
+              "weight": 0.5
+            },
+            {
+              "slo": "1.3.A.3",
+              "weight": 0.3
+            },
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.1.A.3",
+              "weight": 0.05
+            }
+          ],
+          "aligned_slos": [
+            "1.3.A.3"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.1.A.3",
+              "weight": 0.05
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q49",
+              "label": "49",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 4 times",
+                "(B) 8 times",
+                "(C) 2 times",
+                "(D) $\\sqrt{2}$ times"
+              ],
+              "correct_option": "(A) 4 times",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "If a ball is thrown directly upwards with twice the initial speed of another, how much higher will it be at its apex?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 4 times\n(B) 8 times\n(C) 2 times\n(D) $\\sqrt{2}$ times"
+                }
+              ]
+            },
+            {
+              "id": "q65",
+              "label": "65",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) III, II, I",
+                "(B) I, II, III",
+                "(C) II, I, III",
+                "(D) I, III, II"
+              ],
+              "correct_option": "(A) III, II, I",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 20,
+                  "bbox": [
+                    0.4,
+                    0.06,
+                    0.6,
+                    0.22
+                  ],
+                  "caption": "Three stones with different masses and initial speeds",
+                  "alt": "Stone I: mass 1m, speed 1v upward; Stone II: mass 2m, speed 2v upward; Stone III: mass 3m, speed 3v upward"
+                },
+                {
+                  "type": "text",
+                  "value": "Three stones of different mass (1m, 2m & 3m) are thrown vertically upward with different velocities (1v, 2v & 3v respectively). The diagram indicates the mass and velocity of each stone. Rank from high to low the maximum height of each stone. Assume air resistance is negligible."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) III, II, I\n(B) I, II, III\n(C) II, I, III\n(D) I, III, II"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt11",
+          "label": "Free-fall conceptual: acceleration is constant regardless of mass/location",
+          "section_ref": "1.3.A",
+          "primary_slo": "1.3.A.3",
+          "notes": "Members require conceptual understanding that near-surface free-fall acceleration is constant, independent of mass, and persists as long as only gravity acts. Several members also test the vector nature of acceleration vs velocity.",
+          "slo_weights": [
+            {
+              "slo": "1.3.A.3",
+              "weight": 0.5
+            },
+            {
+              "slo": "1.2.B.4",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.3.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.1.A.3",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [
+            "1.3.A.2"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.2.B.4",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.1.A.3",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q19",
+              "label": "19",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) Air resistance increases the downward acceleration.",
+                "(B) The acceleration due to gravity is 70% greater than 9.80 m/s² at this location.",
+                "(C) The acceleration due to gravity is 70% less than 9.80 m/s² at this location.",
+                "(D) The acceleration of the plastic balls is not uniform."
+              ],
+              "correct_option": "(D) The acceleration of the plastic balls is not uniform.",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A student is testing the kinematic equations for uniformly accelerated motion by measuring the time it takes for light-weight plastic balls to fall to the floor from a height of 3 m in the lab. The student predicts the time to fall using g as 9.80 m/s² but finds the measured time to be 35% greater. Which of the following is the most likely cause of the large percent error?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Air resistance increases the downward acceleration.\n(B) The acceleration due to gravity is 70% greater than 9.80 m/s² at this location.\n(C) The acceleration due to gravity is 70% less than 9.80 m/s² at this location.\n(D) The acceleration of the plastic balls is not uniform."
+                }
+              ]
+            },
+            {
+              "id": "q38",
+              "label": "38",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 20 m/s² up",
+                "(B) 10 m/s² up",
+                "(C) 0",
+                "(D) 10 m/s² down"
+              ],
+              "correct_option": "(D) 10 m/s² down",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A rocket near the surface of the earth is accelerating vertically upward at 10 m/s². The rocket releases an instrument package. Immediately after release the acceleration of the instrument package is:"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 20 m/s² up\n(B) 10 m/s² up\n(C) 0\n(D) 10 m/s² down"
+                }
+              ]
+            },
+            {
+              "id": "q40",
+              "label": "40",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) its acceleration would gradually decrease until the object moves with a terminal velocity.",
+                "(B) the acceleration is constant.",
+                "(C) it will fall with a constant speed.",
+                "(D) the acceleration is zero"
+              ],
+              "correct_option": "(B) the acceleration is constant.",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "In the absence of air resistance, if an object were to fall freely near the surface of the Moon,"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) its acceleration would gradually decrease until the object moves with a terminal velocity.\n(B) the acceleration is constant.\n(C) it will fall with a constant speed.\n(D) the acceleration is zero"
+                }
+              ]
+            },
+            {
+              "id": "q54",
+              "label": "54",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) the terminal velocity will be greater than when dropped in air",
+                "(B) the velocity will increase but the acceleration will be zero",
+                "(C) the acceleration will constantly increase",
+                "(D) the acceleration will remain constant"
+              ],
+              "correct_option": "(D) the acceleration will remain constant",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "When an object falls freely in a vacuum near the surface of the earth"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) the terminal velocity will be greater than when dropped in air\n(B) the velocity will increase but the acceleration will be zero\n(C) the acceleration will constantly increase\n(D) the acceleration will remain constant"
+                }
+              ]
+            },
+            {
+              "id": "q61",
+              "label": "61",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) Displacement up, velocity up, acceleration up",
+                "(B) Displacement up, velocity up, acceleration down",
+                "(C) Displacement up, velocity down, acceleration down",
+                "(D) Displacement up, velocity down, acceleration up"
+              ],
+              "correct_option": "(B) Displacement up, velocity up, acceleration down",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "An object is thrown upwards with a velocity of 30 m/s near the surface of the earth. After two seconds what would be the direction of the displacement, velocity and acceleration?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Displacement up, velocity up, acceleration up\n(B) Displacement up, velocity up, acceleration down\n(C) Displacement up, velocity down, acceleration down\n(D) Displacement up, velocity down, acceleration up"
+                }
+              ]
+            },
+            {
+              "id": "q69",
+              "label": "69",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) the distance between the rocks increases while both are falling.",
+                "(B) the acceleration is greater for the more massive rock.",
+                "(C) they strike the ground more than half a second apart.",
+                "(D) they strike the ground with the same kinetic energy."
+              ],
+              "correct_option": "(A) the distance between the rocks increases while both are falling.",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A rock is dropped from the top of a tall tower. Half a second later another rock, twice as massive as the first, is dropped. Ignoring air resistance,"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) the distance between the rocks increases while both are falling.\n(B) the acceleration is greater for the more massive rock.\n(C) they strike the ground more than half a second apart.\n(D) they strike the ground with the same kinetic energy."
+                }
+              ]
+            },
+            {
+              "id": "q80",
+              "label": "80",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) No, because if acceleration is decreasing the object will be slowing down",
+                "(B) No, because velocity and acceleration must always be in the same direction",
+                "(C) Yes, an example would be a falling object near the surface of the moon",
+                "(D) Yes, an example would be a falling object in the presence of air resistance"
+              ],
+              "correct_option": "(D) Yes, an example would be a falling object in the presence of air resistance",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Is it possible for an object's velocity to increase while its acceleration decreases?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) No, because if acceleration is decreasing the object will be slowing down\n(B) No, because velocity and acceleration must always be in the same direction\n(C) Yes, an example would be a falling object near the surface of the moon\n(D) Yes, an example would be a falling object in the presence of air resistance"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt12",
+          "label": "Horizontal projectile: range & time-of-flight from a height",
+          "section_ref": "1.5.B",
+          "primary_slo": "1.5.B.2",
+          "notes": "Members involve a projectile launched horizontally from a height where time of flight depends only on the height, not the initial horizontal speed. Members use d = v0*t horizontally and h = ½gt² vertically.",
+          "slo_weights": [
+            {
+              "slo": "1.5.B.2",
+              "weight": 0.45
+            },
+            {
+              "slo": "1.5.B.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "1.3.A.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.3.A.3",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [
+            "1.5.B.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.3.A.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.3.A.3",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q6",
+              "label": "6",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) d",
+                "(B) $\\sqrt{2}\\,d$",
+                "(C) 2d",
+                "(D) 4d"
+              ],
+              "correct_option": "(C) 2d",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A diver initially moving horizontally with speed v dives off the edge of a vertical cliff and lands in the water a distance d from the base of the cliff. How far from the base of the cliff would the diver have landed if the diver initially had been moving horizontally with speed 2v?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) d\n(B) $\\sqrt{2}\\,d$\n(C) 2d\n(D) 4d"
+                }
+              ]
+            },
+            {
+              "id": "q17",
+              "label": "17",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 3/10 m/s",
+                "(B) $\\sqrt{2}$ m/s",
+                "(C) $3/\\sqrt{2}$ m/s",
+                "(D) 3 m/s"
+              ],
+              "correct_option": "(C) $3/\\sqrt{2}$ m/s",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 11,
+                  "bbox": [
+                    0.4,
+                    0.4,
+                    0.6,
+                    0.58
+                  ],
+                  "caption": "Building and target T on the ground",
+                  "alt": "10 m tall building, target T on ground 3 m from base; ball rolls off roof horizontally toward the target"
+                },
+                {
+                  "type": "text",
+                  "value": "A target T lies flat on the ground 3 m from the side of a building that is 10 m tall, as shown above. A student rolls a ball off the horizontal roof of the building in the direction of the target. Air resistance is negligible. The horizontal speed with which the ball must leave the roof if it is to strike the target is most nearly"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 3/10 m/s\n(B) $\\sqrt{2}$ m/s\n(C) $3/\\sqrt{2}$ m/s\n(D) 3 m/s"
+                }
+              ]
+            },
+            {
+              "id": "q37",
+              "label": "37",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 20 m/s",
+                "(B) 40 m/s",
+                "(C) 100 m/s",
+                "(D) 200 m/s"
+              ],
+              "correct_option": "(D) 200 m/s",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "An arrow is aimed horizontally, directly at the center of a target 20 m away. The arrow hits 0.050 m below the center of the target. Neglecting air resistance, what was the initial speed of the arrow?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 20 m/s\n(B) 40 m/s\n(C) 100 m/s\n(D) 200 m/s"
+                }
+              ]
+            },
+            {
+              "id": "q81_82_stem",
+              "label": "81-82",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "bales",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "During a recent winter storm, bales of hay had to be dropped from an airplane to a herd of cattle below. Assume the airplane flew horizontally at an altitude of 180 m with a constant velocity of 50 m/s and dropped one bale of hay every two seconds. It is reasonable to assume that air resistance will be negligible for this situation."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q81",
+                  "label": "81",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) the distance of separation will increase",
+                    "(B) the distance of separation will decrease",
+                    "(C) the distance of separation will remain constant",
+                    "(D) the distance of separation will depend on the mass of the bales"
+                  ],
+                  "correct_option": "(C) the distance of separation will remain constant",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "As the bales are falling through the air, what will happen to their distance of separation?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) the distance of separation will increase\n(B) the distance of separation will decrease\n(C) the distance of separation will remain constant\n(D) the distance of separation will depend on the mass of the bales"
+                    }
+                  ]
+                },
+                {
+                  "id": "q82",
+                  "label": "82",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) 300 m",
+                    "(B) 180 m",
+                    "(C) 100 m",
+                    "(D) 50 m"
+                  ],
+                  "correct_option": "(C) 100 m",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "About how far apart from each other will the bales land on the ground?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) 300 m\n(B) 180 m\n(C) 100 m\n(D) 50 m"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "frq_2000B1",
+              "label": "2000B1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Converted from FRQ 2000B1 part (e): cart leaves track horizontally at 0.4 m above floor; compute time to floor and horizontal distance.",
+              "options": [
+                "(A) t ≈ 0.28 s, x ≈ 0.22 m",
+                "(B) t ≈ 0.08 s, x ≈ 0.06 m",
+                "(C) t ≈ 0.4 s, x ≈ 0.32 m",
+                "(D) t ≈ 0.56 s, x ≈ 0.45 m"
+              ],
+              "correct_option": "(A) t ≈ 0.28 s, x ≈ 0.22 m",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A 0.50 kg cart moves on a straight horizontal track. From t = 25 s onward, the cart continues with a constant horizontal velocity of 0.8 m/s. The cart then leaves the end of the track and hits the floor, which is 0.40 m below the track. Neglecting air resistance, determine (i) the time from when the cart leaves the track until it first hits the floor and (ii) the horizontal distance from the end of the track to the point at which the cart first hits the floor. Use g = 9.8 m/s²."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) t ≈ 0.28 s, x ≈ 0.22 m\n(B) t ≈ 0.08 s, x ≈ 0.06 m\n(C) t ≈ 0.4 s, x ≈ 0.32 m\n(D) t ≈ 0.56 s, x ≈ 0.45 m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt13",
+          "label": "Projectile launch angle: range and speed dependence on α",
+          "section_ref": "1.5.B",
+          "primary_slo": "1.5.B.2",
+          "notes": "Members involve a projectile launched at an angle (above/below horizontal) and compare how range, height, or speed depend on the launch angle.",
+          "slo_weights": [
+            {
+              "slo": "1.5.B.2",
+              "weight": 0.5
+            },
+            {
+              "slo": "1.5.A.3",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.3.A.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.3.A.3",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [
+            "1.5.A.3"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.3.A.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.3.A.3",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q20",
+              "label": "20",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) greater than 60° above the horizontal",
+                "(B) greater than 45° but less than 60° above the horizontal",
+                "(C) greater than zero but less than 45° above the horizontal",
+                "(D) greater than zero but less than 45° below the horizontal"
+              ],
+              "correct_option": "(C) greater than zero but less than 45° above the horizontal",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "An object is thrown with velocity v from the edge of a cliff above level ground. Neglect air resistance. In order for the object to travel a maximum horizontal distance from the cliff before hitting the ground, the throw should be at an angle θ with respect to the horizontal of"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) greater than 60° above the horizontal\n(B) greater than 45° but less than 60° above the horizontal\n(C) greater than zero but less than 45° above the horizontal\n(D) greater than zero but less than 45° below the horizontal"
+                }
+              ]
+            },
+            {
+              "id": "q29",
+              "label": "29",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) v will increase monotonically with α",
+                "(B) v will increase to some critical value v_max and then decrease",
+                "(C) v will remain constant, independent of α",
+                "(D) v will decrease to some critical value v_min and then increase"
+              ],
+              "correct_option": "(C) v will remain constant, independent of α",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "An object is thrown with a fixed initial speed v0 at various angles α relative to the horizon. At some constant height h above the launch point the speed v of the object is measured as a function of the initial angle α. Which of the following best describes the dependence of v on α? (Assume that the height h is achieved, and assume that there is no air resistance.)"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) v will increase monotonically with α\n(B) v will increase to some critical value v_max and then decrease\n(C) v will remain constant, independent of α\n(D) v will decrease to some critical value v_min and then increase"
+                }
+              ]
+            },
+            {
+              "id": "q34",
+              "label": "34",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) cannon A",
+                "(B) cannon B only",
+                "(C) cannon C only",
+                "(D) cannon D"
+              ],
+              "correct_option": "(D) cannon D",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 15,
+                  "bbox": [
+                    0.14,
+                    0.22,
+                    0.85,
+                    0.42
+                  ],
+                  "caption": "Four cannons firing shells at different angles with same horizontal velocity component",
+                  "alt": "Cannon A (1 kg, 30°), Cannon B (1 kg, 45°), Cannon C (2 kg, 45°), Cannon D (2 kg, 60°), all with same horizontal velocity component of 50 m/s"
+                },
+                {
+                  "type": "text",
+                  "value": "The diagram below shows four cannons firing shells with different masses at different angles of elevation. The horizontal component of the shell's velocity is the same in all four cases. In which case will the shell have the greatest range if air resistance is neglected?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) cannon A\n(B) cannon B only\n(C) cannon C only\n(D) cannon D"
+                }
+              ]
+            },
+            {
+              "id": "q55",
+              "label": "55",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) arrow A arrives first",
+                "(B) arrow B arrives first",
+                "(C) they both arrive together",
+                "(D) it depends on the elevation where the arrows land"
+              ],
+              "correct_option": "(B) arrow B arrives first",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Two arrows are launched at the same time with the same speed. Arrow A at an angle greater than 45 degrees, and arrow B at an angle less than 45 degrees. Both land at the same spot on the ground. Which arrow arrives first?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) arrow A arrives first\n(B) arrow B arrives first\n(C) they both arrive together\n(D) it depends on the elevation where the arrows land"
+                }
+              ]
+            },
+            {
+              "id": "frq_1994B1",
+              "label": "1994B1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Converted from FRQ 1994B1: ball kicked at v=20 m/s, 37° above horizontal, toward fence 32 m away and 2.5 m tall.",
+              "options": [
+                "(A) t = 2 s; ball passes 1.9 m above the top of the fence",
+                "(B) t = 2 s; ball hits 1.9 m below the top of the fence",
+                "(C) t = 1 s; ball passes 2.5 m above the top of the fence",
+                "(D) t = 2.5 s; ball hits 1.0 m below the top of the fence"
+              ],
+              "correct_option": "(A) t = 2 s; ball passes 1.9 m above the top of the fence",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 25,
+                  "bbox": [
+                    0.1,
+                    0.05,
+                    0.9,
+                    0.28
+                  ],
+                  "caption": "Ball kicked toward fence (1994B1)",
+                  "alt": "Ball kicked at 37° with initial speed 20 m/s toward a fence 32 m away and 2.5 m tall; sin 37°=0.60, cos 37°=0.80"
+                },
+                {
+                  "type": "text",
+                  "value": "A ball of mass 0.5 kilogram, initially at rest, is kicked directly toward a fence from a point 32 meters away. The velocity of the ball as it leaves the kicker's foot is 20 meters per second at an angle of 37° above the horizontal. The top of the fence is 2.5 meters high. Air resistance is negligible. Using g = 9.8 m/s², sin 37° = 0.60, cos 37° = 0.80, determine (a) the time it takes for the ball to reach the plane of the fence and (b) whether the ball hits the fence or passes above it (and by how much)."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) t = 2 s; ball passes 1.9 m above the top of the fence\n(B) t = 2 s; ball hits 1.9 m below the top of the fence\n(C) t = 1 s; ball passes 2.5 m above the top of the fence\n(D) t = 2.5 s; ball hits 1.0 m below the top of the fence"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt14",
+          "label": "Symmetric projectile: velocity & acceleration at labeled points",
+          "section_ref": "1.5.B",
+          "primary_slo": "1.5.B.2",
+          "notes": "Members identify velocity components, acceleration direction (always g downward), or speed-ranking at points along a parabolic trajectory.",
+          "slo_weights": [
+            {
+              "slo": "1.5.B.2",
+              "weight": 0.45
+            },
+            {
+              "slo": "1.5.A.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.2.B.4",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.3.A.3",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [
+            "1.5.A.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.2.B.4",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.3.A.3",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q7",
+              "label": "7",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) v_y is linear decreasing (crossing zero and going negative); a is constant negative",
+                "(B) v_y is linear decreasing; a is linear decreasing",
+                "(C) v_y is constant; a is linear decreasing",
+                "(D) v_y is constant; a is zero"
+              ],
+              "correct_option": "(A) v_y is linear decreasing (crossing zero and going negative); a is constant negative",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A projectile is fired with initial velocity v0 at an angle θ0 with the horizontal and follows the trajectory shown above. Which of the following pairs of graphs best represents the vertical components of the velocity and acceleration, v and a, respectively, of the projectile as functions of time t?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) v_y is linear decreasing (crossing zero and going negative); a is constant negative\n(B) v_y is linear decreasing; a is linear decreasing\n(C) v_y is constant; a is linear decreasing\n(D) v_y is constant; a is zero"
+                }
+              ]
+            },
+            {
+              "id": "q8_9_stem",
+              "label": "8-9",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "PQR",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 9,
+                  "bbox": [
+                    0.2,
+                    0.38,
+                    0.8,
+                    0.55
+                  ],
+                  "caption": "Parabolic trajectory with labeled points P (ascending), Q (apex), R (descending)",
+                  "alt": "Symmetric parabolic arc; P is on the ascending branch, Q is at the highest point, R is on the descending branch; P and R are at the same height"
+                },
+                {
+                  "type": "text",
+                  "value": "A ball is thrown and follows the parabolic path shown above. Air friction is negligible. Point Q is the highest point on the path. Points P and R are the same height above the ground."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q8",
+                  "label": "8",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) vP < vQ < vR",
+                    "(B) vR < vQ < vP",
+                    "(C) vQ < vR < vP",
+                    "(D) vQ < vP = vR"
+                  ],
+                  "correct_option": "(D) vQ < vP = vR",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "How do the speeds of the ball at the three points compare?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) vP < vQ < vR\n(B) vR < vQ < vP\n(C) vQ < vR < vP\n(D) vQ < vP = vR"
+                    }
+                  ]
+                },
+                {
+                  "id": "q9",
+                  "label": "9",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) up and to the right",
+                    "(B) horizontal to the right",
+                    "(C) down and to the right",
+                    "(D) straight down"
+                  ],
+                  "correct_option": "(D) straight down",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Which of the following diagrams best shows the direction of the acceleration of the ball at point P?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) up and to the right\n(B) horizontal to the right\n(C) down and to the right\n(D) straight down"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "q15",
+              "label": "15",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) Vertical velocity vv, horizontal velocity vh, vertical acceleration 0",
+                "(B) Vertical velocity 0, horizontal velocity vh, vertical acceleration 0",
+                "(C) Vertical velocity 0, horizontal velocity 0, vertical acceleration g",
+                "(D) Vertical velocity 0, horizontal velocity vh, vertical acceleration g"
+              ],
+              "correct_option": "(D) Vertical velocity 0, horizontal velocity vh, vertical acceleration g",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The velocity of a projectile at launch has a horizontal component vh and a vertical component vv. Air resistance is negligible. When the projectile is at the highest point of its trajectory, which of the following shows the vertical and horizontal components of its velocity and the vertical component of its acceleration?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Vertical velocity vv, horizontal velocity vh, vertical acceleration 0\n(B) Vertical velocity 0, horizontal velocity vh, vertical acceleration 0\n(C) Vertical velocity 0, horizontal velocity 0, vertical acceleration g\n(D) Vertical velocity 0, horizontal velocity vh, vertical acceleration g"
+                }
+              ]
+            },
+            {
+              "id": "q42_43_stem",
+              "label": "42-43",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "elastic_ball",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "An ideal elastic rubber ball is dropped from a height of about 2 meters, hits the floor and rebounds to its original height."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q42",
+                  "label": "42",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) Series of parabolic arcs, each above the t-axis, starting at max height, reaching zero at the bounces and peaks returning to the initial height",
+                    "(B) A single parabola rising and falling over the full time",
+                    "(C) A sinusoidal wave oscillating above and below the axis",
+                    "(D) Flat horizontal line"
+                  ],
+                  "correct_option": "(A) Series of parabolic arcs, each above the t-axis, starting at max height, reaching zero at the bounces and peaks returning to the initial height",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Which of the following graphs would best represent the distance above the floor versus time for the above bouncing ball?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) Series of parabolic arcs, each above the t-axis, starting at max height, reaching zero at the bounces and peaks returning to the initial height\n(B) A single parabola rising and falling over the full time\n(C) A sinusoidal wave oscillating above and below the axis\n(D) Flat horizontal line"
+                    }
+                  ]
+                },
+                {
+                  "id": "q43",
+                  "label": "43",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) Constant –9.8 m/s² with upward spikes at each bounce",
+                    "(B) Always zero",
+                    "(C) Sinusoidal oscillation centered at zero",
+                    "(D) Linearly increasing with time"
+                  ],
+                  "correct_option": "(A) Constant –9.8 m/s² with upward spikes at each bounce",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Which of the following graphs would best represent acceleration versus time for the bouncing ball?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) Constant –9.8 m/s² with upward spikes at each bounce\n(B) Always zero\n(C) Sinusoidal oscillation centered at zero\n(D) Linearly increasing with time"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "q71",
+              "label": "71",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) Its speed increases and it is changing its direction of travel.",
+                "(B) Its speed decreases and it is changing its direction of travel.",
+                "(C) Its speed remains constant, but it is changing its direction of travel.",
+                "(D) Its speed remains constant and it is not changing its direction of travel."
+              ],
+              "correct_option": "(B) Its speed decreases and it is changing its direction of travel.",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "During an interval of time, a tennis ball is moved so that the angle between the velocity and the acceleration of the ball is kept at a constant 120°. Which statement is true about the tennis ball during this interval of time?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Its speed increases and it is changing its direction of travel.\n(B) Its speed decreases and it is changing its direction of travel.\n(C) Its speed remains constant, but it is changing its direction of travel.\n(D) Its speed remains constant and it is not changing its direction of travel."
+                }
+              ]
+            },
+            {
+              "id": "q77",
+              "label": "77",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) velocity tangent to the path (down-right); acceleration straight down",
+                "(B) velocity horizontal; acceleration straight down",
+                "(C) velocity horizontal; acceleration up-left",
+                "(D) velocity tangent to the path (down-right); acceleration down-left"
+              ],
+              "correct_option": "(A) velocity tangent to the path (down-right); acceleration straight down",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 22,
+                  "bbox": [
+                    0.12,
+                    0.35,
+                    0.45,
+                    0.5
+                  ],
+                  "caption": "Free-fall trajectory thrown horizontally from building",
+                  "alt": "Dashed parabolic trajectory starting from top of building with labeled point P on the descending branch"
+                },
+                {
+                  "type": "text",
+                  "value": "The free fall trajectory of an object thrown horizontally from the top of a building is shown as the dashed line in the figure. Which sets of arrows best correspond to the directions of the velocity and of the acceleration for the object at the point labeled P on the trajectory?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) velocity tangent to the path (down-right); acceleration straight down\n(B) velocity horizontal; acceleration straight down\n(C) velocity horizontal; acceleration up-left\n(D) velocity tangent to the path (down-right); acceleration down-left"
+                }
+              ]
+            },
+            {
+              "id": "frq_1979M1",
+              "label": "1979M1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Converted from FRQ 1979M1 parts (a)-(c): ball dropped from height h hits 45° plane, bounces horizontally with speed sqrt(2gh).",
+              "options": [
+                "(A) v1 = $\\sqrt{2gh}$; t = $2\\sqrt{2h/g}$; L = $4\\sqrt{2}\\,h$",
+                "(B) v1 = $\\sqrt{gh}$; t = $\\sqrt{2h/g}$; L = $2h$",
+                "(C) v1 = $\\sqrt{2gh}$; t = $\\sqrt{h/g}$; L = $h$",
+                "(D) v1 = $2\\sqrt{gh}$; t = $2\\sqrt{h/g}$; L = $8h$"
+              ],
+              "correct_option": "(A) v1 = $\\sqrt{2gh}$; t = $2\\sqrt{2h/g}$; L = $4\\sqrt{2}\\,h$",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 27,
+                  "bbox": [
+                    0.3,
+                    0.4,
+                    0.7,
+                    0.65
+                  ],
+                  "caption": "Ball dropped from height h onto 45° frictionless incline (1979M1)",
+                  "alt": "Ball released from rest at height h above point P1 on 45° incline; bounces horizontally off plane, strikes plane again at P2 a distance L down the slope"
+                },
+                {
+                  "type": "text",
+                  "value": "A ball of mass m is released from rest at a distance h above a frictionless plane inclined at an angle of 45° to the horizontal. The ball bounces horizontally off the plane at point P1 with the same speed with which it struck the plane, and strikes the plane again at point P2. In terms of g and h determine: (a) the speed of the ball just after it first bounces off the plane at P1, (b) the time the ball is in flight between points P1 and P2, and (c) the distance L along the plane from P1 to P2."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) v1 = $\\sqrt{2gh}$; t = $2\\sqrt{2h/g}$; L = $4\\sqrt{2}\\,h$\n(B) v1 = $\\sqrt{gh}$; t = $\\sqrt{2h/g}$; L = $2h$\n(C) v1 = $\\sqrt{2gh}$; t = $\\sqrt{h/g}$; L = $h$\n(D) v1 = $2\\sqrt{gh}$; t = $2\\sqrt{h/g}$; L = $8h$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt15",
+          "label": "Relative motion, average speed/velocity, and 1D sign conventions",
+          "section_ref": "1.4.B",
+          "primary_slo": "1.4.B.2",
+          "notes": "Members involve combining 1D motion of objects from the perspective of a reference frame, or computing total-distance/total-time averages where sign of position or velocity matters.",
+          "slo_weights": [
+            {
+              "slo": "1.4.B.2",
+              "weight": 0.4
+            },
+            {
+              "slo": "1.1.B.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "1.2.B.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.2.A.2",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "1.1.B.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "1.2.B.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.2.A.2",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q14",
+              "label": "14",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) directed north",
+                "(B) directed west",
+                "(C) directed north of east",
+                "(D) directed north of west"
+              ],
+              "correct_option": "(D) directed north of west",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 10,
+                  "bbox": [
+                    0.22,
+                    0.74,
+                    0.7,
+                    0.9
+                  ],
+                  "caption": "Two velocity vectors at t1 and t2",
+                  "alt": "V1 pointing roughly east, V2 pointing roughly north, both with equal magnitudes, shown on compass axes"
+                },
+                {
+                  "type": "text",
+                  "value": "Vectors V1 and V2 shown above have equal magnitudes. The vectors represent the velocities of an object at times t1 and t2, respectively. The average acceleration of the object between time t1 and t2 was"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) directed north\n(B) directed west\n(C) directed north of east\n(D) directed north of west"
+                }
+              ]
+            },
+            {
+              "id": "q33",
+              "label": "33",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) The distance between the two balls decreases.",
+                "(B) The velocity of ball A increases with respect to ball B.",
+                "(C) The velocity of ball A decreases with respect to ball B.",
+                "(D) The distance between the two balls increases."
+              ],
+              "correct_option": "(D) The distance between the two balls increases.",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Two identical bowling balls A and B are each dropped from rest from the top of a tall tower. Ball A is dropped 1.0 s before ball B is dropped but both balls fall for some time before ball A strikes the ground. Air resistance can be considered negligible during the fall. After ball B is dropped but before ball A strikes the ground, which of the following is true?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) The distance between the two balls decreases.\n(B) The velocity of ball A increases with respect to ball B.\n(C) The velocity of ball A decreases with respect to ball B.\n(D) The distance between the two balls increases."
+                }
+              ]
+            },
+            {
+              "id": "q44_45_stem",
+              "label": "44-45",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "three_cars",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 16,
+                  "bbox": [
+                    0.08,
+                    0.63,
+                    0.92,
+                    0.8
+                  ],
+                  "caption": "Positions of three cars at successive times t0–t5",
+                  "alt": "Car #1 (braking): positions 0, 10, 20, 30, 40, 50 m; Car #2 (constant v): positions 0, 10, 20, 30, 40, 50 m; Car #3 (accelerating from rest): positions 0, 0, 10, 20, 30, 50 m"
+                },
+                {
+                  "type": "text",
+                  "value": "At t0, two cars moving along a highway are side-by-side as they pass a third car stopped on the side of the road. At this moment the driver of the first car steps on the brakes while the driver of the stopped car begins to accelerate. The diagrams show the positions of each car for the next 5 seconds."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q44",
+                  "label": "44",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) t0 to t1",
+                    "(B) t1 to t2",
+                    "(C) t2 to t3",
+                    "(D) t3 to t4"
+                  ],
+                  "correct_option": "(C) t2 to t3",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "During which time interval would cars #2 and #3 be moving at the same average speed?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) t0 to t1\n(B) t1 to t2\n(C) t2 to t3\n(D) t3 to t4"
+                    }
+                  ]
+                },
+                {
+                  "id": "q45",
+                  "label": "45",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) car #2 and car #3 had the same average speed",
+                    "(B) car #2 only",
+                    "(C) all three cars had the same average speed",
+                    "(D) car #3 only"
+                  ],
+                  "correct_option": "(A) car #2 and car #3 had the same average speed",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Which of the three cars had the greatest average speed during these 5 seconds?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) car #2 and car #3 had the same average speed\n(B) car #2 only\n(C) all three cars had the same average speed\n(D) car #3 only"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "q48",
+              "label": "48",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 0 s on",
+                "(B) 0 s to 5 s",
+                "(C) the object was not accelerating at any time",
+                "(D) 5 s to 8 s"
+              ],
+              "correct_option": "(D) 5 s to 8 s",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Between what times did the object have a non-zero acceleration?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 0 s on\n(B) 0 s to 5 s\n(C) the object was not accelerating at any time\n(D) 5 s to 8 s"
+                }
+              ]
+            },
+            {
+              "id": "q53",
+              "label": "53",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 0 m",
+                "(B) 10 m",
+                "(C) 47 m",
+                "(D) 74 m"
+              ],
+              "correct_option": "(D) 74 m",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "After 12 seconds, how far is the clown from her original starting point?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 0 m\n(B) 10 m\n(C) 47 m\n(D) 74 m"
+                }
+              ]
+            },
+            {
+              "id": "q68",
+              "label": "68",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) x0: –, v0: +, a: +",
+                "(B) x0: –, v0: –, a: +",
+                "(C) x0: –, v0: –, a: –",
+                "(D) x0: –, v0: +, a: –"
+              ],
+              "correct_option": "(B) x0: –, v0: –, a: +",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A snail is moving along a straight line. Its initial position is x0 = –5 meters and it is moving away from the origin and slowing down. In this coordinate system, the signs of the initial position, initial velocity and acceleration, respectively, are"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) x0: –, v0: +, a: +\n(B) x0: –, v0: –, a: +\n(C) x0: –, v0: –, a: –\n(D) x0: –, v0: +, a: –"
+                }
+              ]
+            },
+            {
+              "id": "q72_73_stem",
+              "label": "72-73",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "halfcircle_PQ",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 21,
+                  "bbox": [
+                    0.3,
+                    0.2,
+                    0.65,
+                    0.45
+                  ],
+                  "caption": "Circular path with points P and Q",
+                  "alt": "Circle with point P on the right, point Q on the left, particle moving counterclockwise at constant speed"
+                },
+                {
+                  "type": "text",
+                  "value": "A particle continuously moves in a circular path at constant speed in a counterclockwise direction. Consider a time interval during which the particle moves along this circular path from point P to point Q. Point Q is exactly half-way around the circle from Point P."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q72",
+                  "label": "72",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) →",
+                    "(B) ←",
+                    "(C) ↑",
+                    "(D) The average velocity is zero."
+                  ],
+                  "correct_option": "(B) ←",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "What is the direction of the average velocity during this time interval?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) →\n(B) ←\n(C) ↑\n(D) The average velocity is zero."
+                    }
+                  ]
+                },
+                {
+                  "id": "q73",
+                  "label": "73",
+                  "is_stem_child": true,
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) →",
+                    "(B) ←",
+                    "(C) ↓",
+                    "(D) The average acceleration is zero."
+                  ],
+                  "correct_option": "(C) ↓",
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "What is the direction of the average acceleration during this time interval?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) →\n(B) ←\n(C) ↓\n(D) The average acceleration is zero."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "q78",
+              "label": "78",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 4.0 m/s",
+                "(B) 5.0 m/s",
+                "(C) 6.0 m/s",
+                "(D) 7 m/s"
+              ],
+              "correct_option": "(D) 7 m/s",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A toy car moves 3.0 m to the North in one second. The car then moves at 9.0 m/s due South for two seconds. What is the average speed of the car for this three second trip?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 4.0 m/s\n(B) 5.0 m/s\n(C) 6.0 m/s\n(D) 7 m/s"
+                }
+              ]
+            },
+            {
+              "id": "q79",
+              "label": "79",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 1.5",
+                "(B) 1.75",
+                "(C) 2.0",
+                "(D) 2.5"
+              ],
+              "correct_option": "(A) 1.5",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Two automobiles are 150 kilometers apart and traveling toward each other. One automobile is moving at 60 km/h and the other is moving at 40 km/h. In how many hours will they meet?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 1.5\n(B) 1.75\n(C) 2.0\n(D) 2.5"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

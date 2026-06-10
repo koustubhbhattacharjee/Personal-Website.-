@@ -1,0 +1,2229 @@
+{
+  "version": 2,
+  "source_label": "Larson — Precalculus with Limits (4th edition) — Section 10.4 Hyperbolas",
+  "source_type": "textbook",
+  "textbook_key": "larson_precalc_with_limits_4e",
+  "content_bank_id": "ddab656f-2f95-42d6-87d3-60c7e57b7a24",
+  "units": [
+    {
+      "id": "u10",
+      "label": "Chapter 10: Topics in Analytic Geometry",
+      "question_types": [
+        {
+          "label": "Hyperbola Vocabulary",
+          "section_ref": "10.4",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.3.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.3.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Fill-in-the-blank vocabulary on hyperbolas, foci, branches, transverse axis, center, and asymptotes.",
+          "questions": [
+            {
+              "id": "q1",
+              "label": "1",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 742,
+                "section": "10.4 Hyperbolas",
+                "exercise_ref": "1"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A ________ is the set of all points $(x, y)$ in a plane for which the absolute value of the difference of the distances from two distinct fixed points, called ________, is constant."
+                }
+              ]
+            },
+            {
+              "id": "q2",
+              "label": "2",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 742,
+                "section": "10.4 Hyperbolas",
+                "exercise_ref": "2"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The graph of a hyperbola has two disconnected parts called ________."
+                }
+              ]
+            },
+            {
+              "id": "q3",
+              "label": "3",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 742,
+                "section": "10.4 Hyperbolas",
+                "exercise_ref": "3"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The line segment connecting the vertices of a hyperbola is the ________ ________, and its midpoint is the ________ of the hyperbola."
+                }
+              ]
+            },
+            {
+              "id": "q4",
+              "label": "4",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 742,
+                "section": "10.4 Hyperbolas",
+                "exercise_ref": "4"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Every hyperbola has two ________ that intersect at the center of the hyperbola."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Matching Hyperbola Equations to Their Graphs",
+          "section_ref": "10.4",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.3.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.3.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Visually match a hyperbola equation in standard form to one of four labeled graphs.",
+          "questions": [
+            {
+              "id": "q5_8",
+              "label": "5–8",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q5_8",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 742,
+                  "bbox": [
+                    0.04,
+                    0.18,
+                    0.5,
+                    0.55
+                  ],
+                  "caption": "Graphs (a)–(d) for Exercises 5–8",
+                  "alt": "Four hyperbola graphs labeled (a),(b),(c),(d): (a) hyperbola opening up/down with center near origin; (b) hyperbola opening left/right centered at origin; (c) hyperbola opening left/right shifted left of origin; (d) hyperbola opening left/right centered near (−2, 2)."
+                },
+                {
+                  "type": "text",
+                  "value": "Matching In Exercises 5–8, match the equation with its graph. [The graphs are labeled (a), (b), (c), and (d).]"
+                }
+              ],
+              "children": [
+                {
+                  "id": "q5",
+                  "label": "5",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "5"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{y^2}{9} - \\dfrac{x^2}{25} = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q6",
+                  "label": "6",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "6"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{x^2}{9} - \\dfrac{y^2}{25} = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q7",
+                  "label": "7",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "7"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{x^2}{25} - \\dfrac{(y + 2)^2}{9} = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q8",
+                  "label": "8",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "8"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{(y + 4)^2}{25} - \\dfrac{(x - 2)^2}{9} = 1$"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Writing the Standard Equation of a Hyperbola from Vertices and Foci",
+          "section_ref": "10.4",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.3.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.3.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Given vertices and foci of a hyperbola, derive a, b, and c and write the standard form (x − h)²/a² − (y − k)²/b² = 1 (or vertical orientation).",
+          "questions": [
+            {
+              "id": "q9_18",
+              "label": "9–18",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q9_18",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "Finding the Standard Equation of a Hyperbola In Exercises 9–18, find the standard form of the equation of the hyperbola with the given characteristics."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q9",
+                  "label": "9",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "9"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(0, \\pm 2)$; foci: $(0, \\pm 4)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q10",
+                  "label": "10",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "10"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(\\pm 4, 0)$; foci: $(\\pm 6, 0)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q11",
+                  "label": "11",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "11"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(2, 0)$, $(6, 0)$; foci: $(0, 0)$, $(8, 0)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q12",
+                  "label": "12",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "12"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(2, 3)$, $(2, -3)$; foci: $(2, 6)$, $(2, -6)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q13",
+                  "label": "13",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "13"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(4, 1)$, $(4, 9)$; foci: $(4, 0)$, $(4, 10)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q14",
+                  "label": "14",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "14"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(-1, 1)$, $(3, 1)$; foci: $(-2, 1)$, $(4, 1)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q15",
+                  "label": "15",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "15"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(2, 3)$, $(2, -3)$; passes through the point $(0, 5)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q16",
+                  "label": "16",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "16"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(-2, 1)$, $(2, 1)$; passes through the point $(5, 4)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q17",
+                  "label": "17",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "17"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(0, -3)$, $(4, -3)$; passes through the point $(-4, 5)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q18",
+                  "label": "18",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "18"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(1, -3)$, $(1, -7)$; passes through the point $(5, -11)$"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Sketching a Hyperbola: Center, Vertices, Foci, and Asymptotes",
+          "section_ref": "10.4",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.3.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.3.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Read off center, vertices, foci, and equations of the asymptotes from a standard-form hyperbola equation, then sketch using the asymptote rectangle.",
+          "questions": [
+            {
+              "id": "q19_32",
+              "label": "19–32",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q19_32",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "Sketching a Hyperbola In Exercises 19–32, find the center, vertices, foci, and the equations of the asymptotes of the hyperbola. Then sketch the hyperbola using the asymptotes as an aid."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q19",
+                  "label": "19",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "19"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$x^2 - y^2 = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q20",
+                  "label": "20",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "20"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{x^2}{9} - \\dfrac{y^2}{16} = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q21",
+                  "label": "21",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "21"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{1}{36}y^2 - \\dfrac{1}{100}x^2 = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q22",
+                  "label": "22",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "22"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{1}{144}x^2 - \\dfrac{1}{169}y^2 = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q23",
+                  "label": "23",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "23"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$2y^2 - \\dfrac{x^2}{2} = 2$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q24",
+                  "label": "24",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "24"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{y^2}{3} - 3x^2 = 3$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q25",
+                  "label": "25",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "25"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{(x - 1)^2}{4} - \\dfrac{(y + 2)^2}{1} = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q26",
+                  "label": "26",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "26"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{(x + 3)^2}{144} - \\dfrac{(y - 2)^2}{25} = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q27",
+                  "label": "27",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "27"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{(y + 6)^2}{1/9} - \\dfrac{(x - 2)^2}{1/4} = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q28",
+                  "label": "28",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "28"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{(y - 1)^2}{1/4} - \\dfrac{(x + 3)^2}{1/16} = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q29",
+                  "label": "29",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "29"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$9x^2 - y^2 - 36x - 6y + 18 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q30",
+                  "label": "30",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "30"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$x^2 - 9y^2 + 36y - 72 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q31",
+                  "label": "31",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "31"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$4x^2 - y^2 + 8x + 2y - 1 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q32",
+                  "label": "32",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "32"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$16y^2 - x^2 + 2x + 64y + 64 = 0$"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Converting a Hyperbola from General Form and Graphing with a Utility",
+          "section_ref": "10.4",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.3.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.3.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Convert a general-form hyperbola equation (e.g. Ax² − Cy² + Dx + Ey + F = 0) to standard form, then identify center/vertices/foci and graph with a utility.",
+          "questions": [
+            {
+              "id": "q33_38",
+              "label": "33–38",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q33_38",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "Graphing a Hyperbola In Exercises 33–38, use a graphing utility to graph the hyperbola and its asymptotes. Find the center, vertices, and foci."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q33",
+                  "label": "33",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "33"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$2x^2 - 3y^2 = 6$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q34",
+                  "label": "34",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "34"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$6y^2 - 3x^2 = 18$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q35",
+                  "label": "35",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "35"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$25y^2 - 9x^2 = 225$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q36",
+                  "label": "36",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "36"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$25x^2 - 4y^2 = 100$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q37",
+                  "label": "37",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "37"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$9y^2 - x^2 + 2x + 54y + 62 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q38",
+                  "label": "38",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 742,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "38"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$9x^2 - y^2 + 54x + 10y + 55 = 0$"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Writing the Standard Equation of a Hyperbola from Asymptotes",
+          "section_ref": "10.4",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.3.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.3.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Given vertices or foci together with asymptote equations y = ±(b/a)(x − h) + k, derive a and b and write the standard-form hyperbola equation.",
+          "questions": [
+            {
+              "id": "q39_48",
+              "label": "39–48",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q39_48",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "Finding the Standard Equation of a Hyperbola In Exercises 39–48, find the standard form of the equation of the hyperbola with the given characteristics."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q39",
+                  "label": "39",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 743,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "39"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(\\pm 1, 0)$; asymptotes: $y = \\pm 5x$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q40",
+                  "label": "40",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 743,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "40"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(0, \\pm 3)$; asymptotes: $y = \\pm 3x$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q41",
+                  "label": "41",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 743,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "41"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Foci: $(0, \\pm 8)$; asymptotes: $y = \\pm 4x$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q42",
+                  "label": "42",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 743,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "42"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Foci: $(\\pm 10, 0)$; asymptotes: $y = \\pm \\tfrac{3}{4}x$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q43",
+                  "label": "43",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 743,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "43"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(1, 2)$, $(3, 2)$;\nasymptotes: $y = x$, $y = 4 - x$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q44",
+                  "label": "44",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 743,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "44"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(3, 0)$, $(3, 6)$;\nasymptotes: $y = 6 - x$, $y = x$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q45",
+                  "label": "45",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 743,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "45"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(3, 0)$, $(3, 4)$;\nasymptotes: $y = \\tfrac{2}{3}x$, $y = 4 - \\tfrac{2}{3}x$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q46",
+                  "label": "46",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 743,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "46"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(-4, 1)$, $(0, 1)$;\nasymptotes: $y = x + 3$, $y = -x - 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q47",
+                  "label": "47",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 743,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "47"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Foci: $(-1, -1)$, $(9, -1)$;\nasymptotes: $y = \\tfrac{3}{4}x - 4$, $y = -\\tfrac{3}{4}x + 2$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q48",
+                  "label": "48",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 743,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "48"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Foci: $(9, \\pm 2\\sqrt{10})$;\nasymptotes: $y = 3x - 27$, $y = -3x + 27$"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Modeling Real-World Objects with Hyperbolas",
+          "section_ref": "10.4",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.3.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.3.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Application problems that model curved sculptures, clock bases, sound-location triangulation, long-distance navigation, and hyperbolic mirrors as hyperbolas.",
+          "questions": [
+            {
+              "id": "q49",
+              "label": "49",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 743,
+                "section": "10.4 Hyperbolas",
+                "exercise_ref": "49"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Art A cross section of a sculpture can be modeled by a hyperbola (see figure).\n(a) Write an equation that models the curved sides of the sculpture.\n(b) Each unit in the coordinate plane represents 1 foot. Find the width of the sculpture at a height of 18 feet."
+                },
+                {
+                  "type": "image",
+                  "page": 743,
+                  "bbox": [
+                    0.04,
+                    0.32,
+                    0.5,
+                    0.58
+                  ],
+                  "caption": "Figure for Exercise 49",
+                  "alt": "Hyperbolic sculpture cross section: hourglass-shaped figure with vertices labeled (−1, 0), (1, 0); points (−2, 13), (2, 13) on the upper curve; points (−2, −13), (2, −13) on the lower curve."
+                }
+              ]
+            },
+            {
+              "id": "q50",
+              "label": "50",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 743,
+                "section": "10.4 Hyperbolas",
+                "exercise_ref": "50"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Clock The base of a clock has the shape of a hyperbola (see figure).\n(a) Write an equation of the cross section of the base.\n(b) Each unit in the coordinate plane represents $\\tfrac{1}{2}$ foot. Find the width of the base 4 inches from the bottom."
+                },
+                {
+                  "type": "image",
+                  "page": 743,
+                  "bbox": [
+                    0.04,
+                    0.66,
+                    0.5,
+                    0.97
+                  ],
+                  "caption": "Figure for Exercise 50",
+                  "alt": "Grandfather clock with hyperbolic base; on a coordinate plane the base shows vertices (−1, 0), (1, 0); points (−2, 9), (2, 9) at the top of the base and (−2, −9), (2, −9) at the bottom."
+                }
+              ]
+            },
+            {
+              "id": "q51",
+              "label": "51",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 743,
+                "section": "10.4 Hyperbolas",
+                "exercise_ref": "51"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Sound Location You and a friend live 4 miles apart. You hear a clap of thunder from lightning 18 seconds before your friend hears it. Where did the lightning occur? (Assume sound travels at 1100 feet per second.)"
+                }
+              ]
+            },
+            {
+              "id": "q52",
+              "label": "52",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 743,
+                "section": "10.4 Hyperbolas",
+                "exercise_ref": "52"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Sound Location Listening station A and listening station B are located at $(3300, 0)$ and $(-3300, 0)$, respectively. Station A detects an explosion 4 seconds before station B. (Assume the coordinate system is measured in feet and sound travels at 1100 feet per second.)\n(a) Where did the explosion occur?\n(b) Station C is located at $(3300, 1100)$ and detects the explosion 1 second after station A. Find the coordinates of the explosion."
+                }
+              ]
+            },
+            {
+              "id": "q53",
+              "label": "53",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 743,
+                "section": "10.4 Hyperbolas",
+                "exercise_ref": "53"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Navigation Long-distance radio navigation for aircraft and ships uses synchronized pulses transmitted by widely separated transmitting stations. These pulses travel at the speed of light (186,000 miles per second). The difference in the times of arrival of these pulses at an aircraft or ship is constant on a hyperbola having the transmitting stations as foci.\n\nAssume that two stations 300 miles apart are positioned on a rectangular coordinate system with coordinates $(-150, 0)$ and $(150, 0)$ and that a ship is traveling on a hyperbolic path with coordinates $(x, 75)$ (see figure)."
+                },
+                {
+                  "type": "image",
+                  "page": 743,
+                  "bbox": [
+                    0.51,
+                    0.18,
+                    0.97,
+                    0.34
+                  ],
+                  "caption": "Photograph for Exercise 53",
+                  "alt": "Photograph of a naval ship at sea."
+                },
+                {
+                  "type": "image",
+                  "page": 743,
+                  "bbox": [
+                    0.51,
+                    0.4,
+                    0.97,
+                    0.66
+                  ],
+                  "caption": "Figure for Exercise 53",
+                  "alt": "Diagram on coordinate axes: Station B at (−150, 0), Station A at (150, 0), Port at the origin; a hyperbola passes through both stations and a ship is shown on the right branch with coordinates (x, 75). Dashed lines connect the ship to each station. 'Not drawn to scale.'"
+                },
+                {
+                  "type": "text",
+                  "value": "(a) Find the x-coordinate of the position of the ship when the time difference between the pulses from the transmitting stations is 1000 microseconds (0.001 second).\n(b) Determine the distance between the port and station A.\n(c) Find a linear equation that approximates the ship's path as it travels far away from the shore."
+                }
+              ]
+            },
+            {
+              "id": "q54",
+              "label": "54",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 744,
+                "section": "10.4 Hyperbolas",
+                "exercise_ref": "54"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Hyperbolic Mirror A hyperbolic mirror (used in some telescopes) has the property that a light ray directed at focus A is reflected to focus B (see figure). Find the vertex of the mirror when its mount at the top edge of the mirror has coordinates $(24, 24)$."
+                },
+                {
+                  "type": "image",
+                  "page": 744,
+                  "bbox": [
+                    0.04,
+                    0.1,
+                    0.5,
+                    0.34
+                  ],
+                  "caption": "Figure for Exercise 54",
+                  "alt": "Two-branch hyperbola with foci labeled. Focus B at (−24, 0) on the left; Focus A at (24, 0) on the right; vertex (24, 0) labeled on the right branch; mount point (24, 24) labeled at the top of the right branch; a light ray is shown going to focus A and reflecting toward focus B."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Classifying a Conic from a General Equation",
+          "section_ref": "10.4",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.3.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.3.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Given a general second-degree equation in x and y, decide whether the graph is a circle, parabola, ellipse, or hyperbola (using the discriminant or coefficient pattern).",
+          "questions": [
+            {
+              "id": "q55_66",
+              "label": "55–66",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q55_66",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "Classifying a Conic from a General Equation In Exercises 55–66, classify the graph of the equation as a circle, a parabola, an ellipse, or a hyperbola."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q55",
+                  "label": "55",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 744,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "55"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$9x^2 + 4y^2 - 18x + 16y - 119 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q56",
+                  "label": "56",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 744,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "56"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$x^2 + y^2 - 4x - 6y - 23 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q57",
+                  "label": "57",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 744,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "57"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$4x^2 - y^2 - 4x - 3 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q58",
+                  "label": "58",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 744,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "58"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$y^2 - 6y - 4x + 21 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q59",
+                  "label": "59",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 744,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "59"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$y^2 - 4x^2 + 4x - 2y - 4 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q60",
+                  "label": "60",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 744,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "60"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$y^2 + 12x + 4y + 28 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q61",
+                  "label": "61",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 744,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "61"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$4x^2 + 25y^2 + 16x + 250y + 541 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q62",
+                  "label": "62",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 744,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "62"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$4y^2 - 2x^2 - 4y - 8x - 15 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q63",
+                  "label": "63",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 744,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "63"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$25x^2 - 10x - 200y - 119 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q64",
+                  "label": "64",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 744,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "64"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$4y^2 + 4x^2 - 24x + 35 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q65",
+                  "label": "65",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 744,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "65"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$100x^2 + 100y^2 - 100x + 400y + 409 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q66",
+                  "label": "66",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 744,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "66"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$9x^2 + 4y^2 - 90x + 8y + 228 = 0$"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Conceptual Reasoning About Hyperbolas and Conics",
+          "section_ref": "10.4",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.3.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.3.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "True/false reasoning, equation-to-graph matching across conic types, error analysis on asymptote derivation, derivation of the standard form from the focus-distance definition, and intersection-counting between conics.",
+          "questions": [
+            {
+              "id": "q67_69",
+              "label": "67–69",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q67_69",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "True or False? In Exercises 67–69, determine whether the statement is true or false. Justify your answer."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q67",
+                  "label": "67",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 744,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "67"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "In the standard form of the equation of a hyperbola, the larger the ratio of $b$ to $a$, the larger the eccentricity of the hyperbola."
+                    }
+                  ]
+                },
+                {
+                  "id": "q68",
+                  "label": "68",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 744,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "68"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "If the asymptotes of the hyperbola\n$$\\dfrac{x^2}{a^2} - \\dfrac{y^2}{b^2} = 1$$\nwhere $a, b > 0$, intersect at right angles, then $a = b$."
+                    }
+                  ]
+                },
+                {
+                  "id": "q69",
+                  "label": "69",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 744,
+                    "section": "10.4 Hyperbolas",
+                    "exercise_ref": "69"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "The graph of\n$$x^2 - y^2 + 4x - 4y = 0$$\nis a hyperbola."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "q70",
+              "label": "70",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 744,
+                "section": "10.4 Hyperbolas",
+                "exercise_ref": "70"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Think About It Write an equation whose graph is the bottom half of the hyperbola\n$$9x^2 - 54x - 4y^2 + 8y + 41 = 0.$$"
+                }
+              ]
+            },
+            {
+              "id": "q71",
+              "label": "71",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 744,
+                "section": "10.4 Hyperbolas",
+                "exercise_ref": "71"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Writing Explain how to use a rectangle to sketch the asymptotes of a hyperbola."
+                }
+              ]
+            },
+            {
+              "id": "q72",
+              "label": "72",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 744,
+                "section": "10.4 Hyperbolas",
+                "exercise_ref": "72"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "HOW DO YOU SEE IT? Match each equation with its graph.\n(a) $4x^2 - y^2 - 8x - 2y - 13 = 0$\n(b) $x^2 + y^2 - 2x - 8 = 0$\n(c) $2x^2 - 4x - 3y - 3 = 0$\n(d) $x^2 + 6y^2 - 2x - 5 = 0$"
+                },
+                {
+                  "type": "image",
+                  "page": 744,
+                  "bbox": [
+                    0.51,
+                    0.1,
+                    0.97,
+                    0.5
+                  ],
+                  "caption": "Figure for Exercise 72",
+                  "alt": "Four labeled coordinate-plane graphs: (i) parabola opening upward; (ii) circle centered roughly at (1, 0); (iii) horizontal ellipse centered roughly at (1, 0); (iv) two-branch hyperbola opening left/right."
+                }
+              ]
+            },
+            {
+              "id": "q73",
+              "label": "73",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 744,
+                "section": "10.4 Hyperbolas",
+                "exercise_ref": "73"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Error Analysis Describe the error in finding the asymptotes of the hyperbola\n$$\\dfrac{(y + 5)^2}{9} - \\dfrac{(x - 3)^2}{4} = 1.$$\n\n$y = k \\pm \\dfrac{b}{a}(x - h)$\n$\\;\\;= -5 \\pm \\tfrac{2}{3}(x - 3)$\n\nThe asymptotes are\n$y = \\tfrac{2}{3}x - 7$ and $y = -\\tfrac{2}{3}x - 3$."
+                }
+              ]
+            },
+            {
+              "id": "q74",
+              "label": "74",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 744,
+                "section": "10.4 Hyperbolas",
+                "exercise_ref": "74"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Think About It Consider a hyperbola centered at the origin with a horizontal transverse axis. Use the definition of a hyperbola to derive its standard form."
+                }
+              ]
+            },
+            {
+              "id": "q75",
+              "label": "75",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 744,
+                "section": "10.4 Hyperbolas",
+                "exercise_ref": "75"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Points of Intersection Sketch the circle $x^2 + y^2 = 4$. Then find the values of $C$ so that the parabola $y = x^2 + C$ intersects the circle at the given number of points.\n(a) 0 points\n(b) 1 point\n(c) 2 points\n(d) 3 points\n(e) 4 points"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

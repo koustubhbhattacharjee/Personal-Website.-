@@ -1,0 +1,366 @@
+{
+  "schema_version": "2.0",
+  "source_type": "textbook",
+  "source_label": "Pearson Edexcel Year 2 Pure",
+  "textbook_key": "pearson-9ma0-y2",
+  "overlay_key": "pearson-9ma0-full",
+  "subject": "9MA0",
+  "question_types": [
+    {
+      "title": "Exercise 6A — Evaluating Reciprocal Trig Ratios",
+      "section_ref": "6.1",
+      "unit_label": "Chapter 6 — Trigonometric functions",
+      "primary_slo": "9MA0.P2.2.1.1",
+      "aligned_slos": [
+        "9MA0.P1.4.2.2"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the exact value of $\\text{cosec}\\left(-\\frac{3\\pi}{4}\\right)$.",
+          "options": [
+            "$-\\sqrt{2}$",
+            "$\\sqrt{2}$",
+            "$-\\frac{1}{\\sqrt{2}}$",
+            "$\\frac{1}{\\sqrt{2}}$"
+          ],
+          "correct_option": "A",
+          "explanation": "$\\text{cosec}(-\\frac{3\\pi}{4}) = \\frac{1}{\\sin(-135^\\circ)}$. Since $\\sin(-135^\\circ) = -\\sin(45^\\circ) = -\\frac{1}{\\sqrt{2}}$, the reciprocal is $-\\sqrt{2}$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 6A — Reciprocal Identity Proofs",
+      "section_ref": "6.1",
+      "unit_label": "Chapter 6 — Trigonometric functions",
+      "primary_slo": "9MA0.P2.2.1.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Which of the following is equivalent to the expression $\\cot 30^\\circ \\sec 30^\\circ$?",
+          "options": [
+            "2",
+            "1",
+            "$\\sqrt{3}$",
+            "$\\frac{2}{3}\\sqrt{3}$"
+          ],
+          "correct_option": "A",
+          "explanation": "$\\cot 30^\\circ = \\sqrt{3}$ and $\\sec 30^\\circ = \\frac{1}{\\cos 30^\\circ} = \\frac{2}{\\sqrt{3}}$. Multiplying gives $\\sqrt{3} \\times \\frac{2}{\\sqrt{3}} = 2$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 6A — Constants in Reciprocal Sums",
+      "section_ref": "6.1",
+      "unit_label": "Chapter 6 — Trigonometric functions",
+      "primary_slo": "9MA0.P2.2.1.1",
+      "aligned_slos": [
+        "9MA0.P1.1.1.3"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Given that $\\text{cosec } \\frac{2\\pi}{3} + \\sec \\frac{2\\pi}{3} = a + b\\sqrt{3}$, where $a$ and $b$ are real numbers, find the value of $a$.",
+          "options": [
+            "$-2$",
+            "$2$",
+            "$\\frac{2}{3}$",
+            "$-\\frac{2}{3}$"
+          ],
+          "correct_option": "A",
+          "explanation": "$\\text{cosec } \\frac{2\\pi}{3} = \\frac{1}{\\sin 120^\\circ} = \\frac{2}{\\sqrt{3}} = \\frac{2}{3}\\sqrt{3}$. $\\sec \\frac{2\\pi}{3} = \\frac{1}{\\cos 120^\\circ} = -2$. Thus, $-2 + \\frac{2}{3}\\sqrt{3} = a + b\\sqrt{3}$, so $a = -2$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 6B — Reciprocal Graph Symmetries",
+      "section_ref": "6.2",
+      "unit_label": "Chapter 6 — Trigonometric functions",
+      "primary_slo": "9MA0.P2.2.1.2",
+      "aligned_slos": [
+        "9MA0.P1.1.4.4"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Identify the relationship between the graph of $y_1 = \\tan\\left(\\theta + \\frac{\\pi}{2}\\right)$ and the graph of $y_2 = \\cot \\theta$.",
+          "options": [
+            "$y_1 = -y_2$",
+            "$y_1 = y_2$",
+            "$y_1 = \\frac{1}{y_2}$",
+            "$y_1 = y_2 + \\frac{\\pi}{2}$"
+          ],
+          "correct_option": "A",
+          "explanation": "Using trigonometric identities, $\\tan(\\theta + 90^\\circ) = -\\cot \\theta$. Therefore, the graph of $y_1$ is a reflection of the graph of $y_2$ in the $\\theta$-axis.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 6B — Features of Transformed Secant Graphs",
+      "section_ref": "6.2",
+      "unit_label": "Chapter 6 — Trigonometric functions",
+      "primary_slo": "9MA0.P2.2.1.2",
+      "aligned_slos": [
+        "9MA0.P1.6.3.3"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "For the curve $y = 1 + 2\\sec \\theta$ in the interval $-\\pi \\le \\theta \\le 2\\pi$, identify the $\\theta$-coordinates of the points where the gradient is zero.",
+          "options": [
+            "$0, \\pi, 2\\pi$",
+            "$\\frac{\\pi}{2}, \\frac{3\\pi}{2}$",
+            "$0, 2\\pi$",
+            "$\\pi$ only"
+          ],
+          "correct_option": "A",
+          "explanation": "The gradient is zero at the local maximum and minimum points of the secant function. For $y = 1 + 2\\sec \\theta$, these occur where $\\cos \\theta = 1$ (minima) or $\\cos \\theta = -1$ (maxima). In the range, these are $\\theta = 0, \\pi, 2\\pi$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 6B — Solution Existence in Cosecant Graphs",
+      "section_ref": "6.2",
+      "unit_label": "Chapter 6 — Trigonometric functions",
+      "primary_slo": "9MA0.P2.2.1.2",
+      "aligned_slos": [
+        "9MA0.P1.1.4.2"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the range of values of $k$ for which the equation $3 + 5\\text{cosec } x = k$ has no solutions.",
+          "options": [
+            "$-2 < k < 8$",
+            "$k > 8$",
+            "$k < -2$",
+            "$-5 < k < 5$"
+          ],
+          "correct_option": "A",
+          "explanation": "The range of $y = \\text{cosec } x$ is $y \\le -1$ or $y \\ge 1$. Thus, $5\\text{cosec } x \\le -5$ or $\\ge 5$. Adding 3 gives $y \\le -2$ or $y \\ge 8$. The equation has no solutions in the gap $-2 < k < 8$.",
+          "diagram_required": "graph"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 6C — Proving Reciprocal Identities",
+      "section_ref": "6.3",
+      "unit_label": "Chapter 6 — Trigonometric functions",
+      "primary_slo": "9MA0.P2.2.1.3",
+      "aligned_slos": [
+        "9MA0.P1.4.3.4"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Prove the identity $\\text{cosec } \\theta - \\sin \\theta \\equiv X$. Identify the correct expression for $X$.",
+          "options": [
+            "$\\cos \\theta \\cot \\theta$",
+            "$\\cos \\theta \\tan \\theta$",
+            "$\\sec \\theta$",
+            "$\\cos^2 \\theta$"
+          ],
+          "correct_option": "A",
+          "explanation": "$\\text{cosec } \\theta - \\sin \\theta = \\frac{1}{\\sin \\theta} - \\sin \\theta = \\frac{1 - \\sin^2 \\theta}{\\sin \\theta} = \\frac{\\cos^2 \\theta}{\\sin \\theta} = \\cos \\theta \\cdot \\cot \\theta$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 6C — Solving Equations via Identity Substitution",
+      "section_ref": "6.3",
+      "unit_label": "Chapter 6 — Trigonometric functions",
+      "primary_slo": "9MA0.P2.2.1.3",
+      "aligned_slos": [
+        "9MA0.P1.4.3.3"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Solve the equation $\\frac{1 + \\cot x}{1 + \\tan x} = 5$ for $0 < x < 90^\\circ$.",
+          "options": [
+            "$11.3^\\circ$",
+            "$78.7^\\circ$",
+            "$11.5^\\circ$",
+            "$45.0^\\circ$"
+          ],
+          "correct_option": "A",
+          "explanation": "$\\frac{1 + \\cot x}{1 + \\tan x} = \\frac{1 + 1/\\tan x}{1 + \\tan x} = \\frac{(\\tan x + 1)/\\tan x}{1 + \\tan x} = \\frac{1}{\\tan x} = \\cot x$. Setting $\\cot x = 5$ gives $\\tan x = 0.2$, so $x = \\arctan(0.2) \\approx 11.3^\\circ$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 6C — Geometric Modeling with Secant",
+      "section_ref": "6.3",
+      "unit_label": "Chapter 6 — Trigonometric functions",
+      "primary_slo": "9MA0.P2.2.1.3",
+      "aligned_slos": [
+        "9MA0.P1.2.2.4"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "In a circle with diameter $AB = 6$ cm and tangent $BT$, the chord $AC$ is extended to meet the tangent at $D$ where $\\angle DAB = \\theta$. Which expression represents the length of $CD$?",
+          "options": [
+            "$6(\\sec \\theta - \\cos \\theta)$",
+            "$6(\\cos \\theta - \\sec \\theta)$",
+            "$6\\tan \\theta$",
+            "$6\\sin \\theta$"
+          ],
+          "correct_option": "A",
+          "explanation": "In right-angled $\\triangle ABD$, $AD = 6\\sec \\theta$. In right-angled $\\triangle ABC$ (angle in semicircle), $AC = 6\\cos \\theta$. Thus, $CD = AD - AC = 6\\sec \\theta - 6\\cos \\theta$.",
+          "diagram_required": "geometry"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 6D — Finding Exact Ratios using Identities",
+      "section_ref": "6.4",
+      "unit_label": "Chapter 6 — Trigonometric functions",
+      "primary_slo": "9MA0.P2.2.1.3",
+      "aligned_slos": [
+        "9MA0.P1.4.3.4"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Given that $\\cot \\theta = -\\sqrt{3}$ and $90^\\circ < \\theta < 180^\\circ$, find the exact value of $\\cos \\theta$.",
+          "options": [
+            "$-\\frac{\\sqrt{3}}{2}$",
+            "$\\frac{\\sqrt{3}}{2}$",
+            "$-\\frac{1}{2}$",
+            "$\\frac{1}{2}$"
+          ],
+          "correct_option": "A",
+          "explanation": "$1 + \\cot^2 \\theta = \\text{cosec}^2 \\theta \\implies 1 + 3 = 4 \\implies \\text{cosec } \\theta = 2$ (sine positive in 2nd quadrant). Thus $\\sin \\theta = 0.5$. Then $\\cos \\theta = \\sin \\theta \\cdot \\cot \\theta = 0.5 \\times (-\\sqrt{3}) = -\\frac{\\sqrt{3}}{2}$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 6D — Solving Disguised Quadratics",
+      "section_ref": "6.4",
+      "unit_label": "Chapter 6 — Trigonometric functions",
+      "primary_slo": "9MA0.P2.2.1.3",
+      "aligned_slos": [
+        "9MA0.P1.1.2.1"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "To solve the equation $\\tan^2 k = 2\\sec k$ for $0 \\le k \\le 360^\\circ$, identify the value of $\\sec k$ obtained after substituting an identity.",
+          "options": [
+            "$1 + \\sqrt{2}$",
+            "$1 - \\sqrt{2}$",
+            "$1$",
+            "$2$"
+          ],
+          "correct_option": "A",
+          "explanation": "Substitute $\\tan^2 k = \\sec^2 k - 1$: $\\sec^2 k - 2\\sec k - 1 = 0$. Using the quadratic formula: $\\sec k = 1 \\pm \\sqrt{2}$. Since $|\\sec k| \\ge 1$, only $1 + \\sqrt{2}$ gives a valid solution.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 6D — Algebraic Manipulation of Reciprocals",
+      "section_ref": "6.4",
+      "unit_label": "Chapter 6 — Trigonometric functions",
+      "primary_slo": "9MA0.P2.2.1.3",
+      "aligned_slos": [
+        "9MA0.P1.1.3.3"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Given that $x = \\sec \\theta + \\tan \\theta$, find an expression for $\\frac{1}{x}$ in terms of $\\theta$.",
+          "options": [
+            "$\\sec \\theta - \\tan \\theta$",
+            "$\\tan \\theta - \\sec \\theta$",
+            "$\\cos \\theta - \\cot \\theta$",
+            "$\\frac{1}{\\sec \\theta} + \\frac{1}{\\tan \\theta}$"
+          ],
+          "correct_option": "A",
+          "explanation": "Since $\\sec^2 \\theta - \\tan^2 \\theta = 1$, we have $(\\sec \\theta + \\tan \\theta)(\\sec \\theta - \\tan \\theta) = 1$. Thus $\\frac{1}{x} = \\sec \\theta - \\tan \\theta$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 6E — Composed Inverse Trig Evaluation",
+      "section_ref": "6.5",
+      "unit_label": "Chapter 6 — Trigonometric functions",
+      "primary_slo": "9MA0.P2.2.2.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Without using a calculator, work out the value of $\\sin\\left(\\arcsin\\left(-\\frac{1}{2}\\right)\\right)$.",
+          "options": [
+            "$-\\frac{1}{2}$",
+            "$\\frac{1}{2}$",
+            "$-\\frac{\\pi}{6}$",
+            "$\\frac{\\pi}{6}$"
+          ],
+          "correct_option": "A",
+          "explanation": "$\\sin$ and $\\arcsin$ are inverse functions, so $\\sin(\\arcsin x) = x$ for $x \\in [-1, 1]$. Thus the result is $-\\frac{1}{2}$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 6E — Domain of Transformed Inverse Functions",
+      "section_ref": "6.5",
+      "unit_label": "Chapter 6 — Trigonometric functions",
+      "primary_slo": "9MA0.P2.2.2.1",
+      "aligned_slos": [
+        "9MA0.P2.1.3.2"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The function $f$ is defined as $f(x) = \\arcsin x$ for $-1 \\le x \\le 1$. If $g(x) = f(2x)$, find the domain of $g$.",
+          "options": [
+            "$-0.5 \\le x \\le 0.5$",
+            "$-1 \\le x \\le 1$",
+            "$-2 \\le x \\le 2$",
+            "All real values of $x$"
+          ],
+          "correct_option": "A",
+          "explanation": "The argument of $\\arcsin$ must satisfy $-1 \\le 2x \\le 1$, giving $-0.5 \\le x \\le 0.5$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 6E — Inverse Trig Algebraic Identities",
+      "section_ref": "6.5",
+      "unit_label": "Chapter 6 — Trigonometric functions",
+      "primary_slo": "9MA0.P2.2.2.1",
+      "aligned_slos": [
+        "9MA0.P3.5.1.1"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "For $0 \\le x \\le 1$, which of the following is an identity equivalent to $\\arccos x$?",
+          "options": [
+            "$\\arcsin \\sqrt{1 - x^2}$",
+            "$\\arcsin(1 - x)$",
+            "$\\arcsin x$",
+            "$\\frac{1}{\\cos x}$"
+          ],
+          "correct_option": "A",
+          "explanation": "Let $\\theta = \\arccos x$, so $\\cos \\theta = x$ and $\\theta$ is in the first quadrant. Then $\\sin \\theta = \\sqrt{1 - x^2}$, so $\\theta = \\arcsin \\sqrt{1 - x^2}$.",
+          "diagram_required": "none"
+        }
+      ]
+    }
+  ]
+}

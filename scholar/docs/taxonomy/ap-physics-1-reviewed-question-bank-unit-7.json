@@ -1,0 +1,688 @@
+{
+  "subject": "AP Physics 1",
+  "source": "NotebookLM",
+  "source_label": "Official PYQ + reference synthesis",
+  "custom_notes": "Reviewed Unit 7 Oscillations bank with answer-only formatting for import and minor question cleanup.",
+  "questionTypes": [
+    {
+      "type": "Identify the relationship between pendulum length and period",
+      "unit": "Unit 7: Oscillations",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A simple pendulum has a period T on Earth. If the length of the pendulum is increased by a factor of 4, what is the new period?",
+          "options": ["T/2", "T", "2T", "4T"],
+          "correct_option": "2T",
+          "answer": "C. 2T"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Two pendulums, A and B, are created. Pendulum A is twice as long as Pendulum B. How does the period of A compare to B?",
+          "options": ["T_A = 0.5 T_B", "T_A = 1.41 T_B", "T_A = 2 T_B", "T_A = 4 T_B"],
+          "correct_option": "T_A = 1.41 T_B",
+          "answer": "B. T_A = 1.41 T_B"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "To triple the period of a simple pendulum, the length must be changed by what factor?",
+          "options": ["sqrt(3)", "3", "6", "9"],
+          "correct_option": "9",
+          "answer": "D. 9"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the length of a pendulum is reduced to one-fourth of its original length, the frequency of oscillation will:",
+          "options": ["Decrease by factor of 4", "Decrease by factor of 2", "Increase by factor of 2", "Increase by factor of 4"],
+          "correct_option": "Increase by factor of 2",
+          "answer": "C. Increase by factor of 2"
+        }
+      ]
+    },
+    {
+      "type": "Determine the effect of mass and amplitude on pendulum period",
+      "unit": "Unit 7: Oscillations",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A pendulum bob is replaced with a new sphere of the same size but greater density. If it is set into oscillation with the same angle, how does the new period compare?",
+          "options": ["It is shorter", "It is longer", "It remains the same", "It becomes zero"],
+          "correct_option": "It remains the same",
+          "answer": "C. It remains the same"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A student performs an experiment to determine if the period of a pendulum depends on the mass. What should be the independent and dependent variables?",
+          "options": ["Independent: Mass; Dependent: Period", "Independent: Length; Dependent: Period", "Independent: Period; Dependent: Mass", "Independent: Amplitude; Dependent: Period"],
+          "correct_option": "Independent: Mass; Dependent: Period",
+          "answer": "A. Independent: Mass; Dependent: Period"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which of the following changes will result in a change in the period of a simple pendulum?",
+          "options": ["Increasing the mass of the bob", "Increasing the amplitude from 5 to 10 degrees", "Moving the pendulum to a planet with higher gravity", "Decreasing the mass of the bob"],
+          "correct_option": "Moving the pendulum to a planet with higher gravity",
+          "answer": "C. Moving the pendulum to a planet with higher gravity"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A 1 kg mass on a 1 m string has period T. A 2 kg mass on a 1 m string is pulled to the same 5-degree angle. Its period is:",
+          "options": ["T/2", "T/sqrt(2)", "T", "T*sqrt(2)"],
+          "correct_option": "T",
+          "answer": "C. T"
+        }
+      ]
+    },
+    {
+      "type": "Calculate the period of a mass-spring system from m and k",
+      "unit": "Unit 7: Oscillations",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A 0.125 kg object is attached to a spring. If the system oscillates such that it completes 2 full cycles in 2 seconds, what is the period?",
+          "options": ["0.5 s", "1.0 s", "2.0 s", "4.0 s"],
+          "correct_option": "1.0 s",
+          "answer": "B. 1.0 s"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the mass attached to a spring is doubled and the spring constant is also doubled, the period of oscillation:",
+          "options": ["Increases", "Decreases", "Remains the same", "Is halved"],
+          "correct_option": "Remains the same",
+          "answer": "C. Remains the same"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A mass m on a spring with constant k has period T. What is the period if the mass is increased to 4m?",
+          "options": ["T/2", "T", "2T", "4T"],
+          "correct_option": "2T",
+          "answer": "C. 2T"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "To halve the period of a mass-spring system without changing the mass, the spring constant k must be:",
+          "options": ["Halved", "Doubled", "Quadrupled", "Reduced to one-fourth"],
+          "correct_option": "Quadrupled",
+          "answer": "C. Quadrupled"
+        }
+      ]
+    },
+    {
+      "type": "Analyze position vs. time graphs for SHM",
+      "unit": "Unit 7: Oscillations",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A position-time graph for an oscillator shows a peak at 0.5 s and the next peak at 1.5 s. What is the frequency of oscillation?",
+          "options": ["0.5 Hz", "1.0 Hz", "1.5 Hz", "2.0 Hz"],
+          "correct_option": "1.0 Hz",
+          "answer": "B. 1.0 Hz"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "On a position vs. time graph for simple harmonic motion, at what point is the object's speed greatest?",
+          "options": ["At the peaks", "At the troughs", "When position is zero", "Speed is constant"],
+          "correct_option": "When position is zero",
+          "answer": "C. When position is zero"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the amplitude of a simple harmonic oscillator is doubled, which feature of the position-time graph changes?",
+          "options": ["The period", "The frequency", "The vertical distance from equilibrium to peak", "The horizontal distance between peaks"],
+          "correct_option": "The vertical distance from equilibrium to peak",
+          "answer": "C. The vertical distance from equilibrium to peak"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A graph shows position x = A cos(bt). The constant 'b' is related to which physical property?",
+          "options": ["Amplitude", "Initial position", "Angular frequency", "Spring length"],
+          "correct_option": "Angular frequency",
+          "answer": "C. Angular frequency"
+        }
+      ]
+    },
+    {
+      "type": "Relate velocity vs. time and acceleration vs. time graphs",
+      "unit": "Unit 7: Oscillations",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "When the velocity of an oscillating object is at its maximum positive value, what is the object's acceleration?",
+          "options": ["Maximum positive", "Maximum negative", "Zero", "Constant"],
+          "correct_option": "Zero",
+          "answer": "C. Zero"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An acceleration vs. time graph for SHM is a reflection of which other graph across the time axis (with scaling)?",
+          "options": ["Position vs. time", "Velocity vs. time", "Force vs. velocity", "Kinetic energy vs. time"],
+          "correct_option": "Position vs. time",
+          "answer": "A. Position vs. time"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "At the turning points of an oscillation (maximum displacement), which statement is true?",
+          "options": ["Velocity is max, acceleration is zero", "Velocity is zero, acceleration is max", "Both are zero", "Both are max"],
+          "correct_option": "Velocity is zero, acceleration is max",
+          "answer": "B. Velocity is zero, acceleration is max"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A velocity vs. time graph shows a sine wave starting at the origin. What is the phase of the position graph?",
+          "options": ["Sine wave starting at origin", "Cosine wave starting at peak", "Negative cosine wave starting at trough", "Negative sine wave"],
+          "correct_option": "Negative cosine wave starting at trough",
+          "answer": "C. Negative cosine wave starting at trough"
+        }
+      ]
+    },
+    {
+      "type": "Determine potential and kinetic energy in SHM",
+      "unit": "Unit 7: Oscillations",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "In a frictionless mass-spring system, at what position is the kinetic energy equal to the total mechanical energy?",
+          "options": ["At maximum compression", "At maximum extension", "At the equilibrium position", "At half the amplitude"],
+          "correct_option": "At the equilibrium position",
+          "answer": "C. At the equilibrium position"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the total energy of an oscillating system is E, what is the spring potential energy when the mass is at its maximum displacement?",
+          "options": ["Zero", "E/2", "E", "2E"],
+          "correct_option": "E",
+          "answer": "C. E"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A mass-spring system is compressed by a distance X. If it is compressed by 2X instead, how does the total mechanical energy change?",
+          "options": ["It doubles", "It triples", "It quadruples", "It remains the same"],
+          "correct_option": "It quadruples",
+          "answer": "C. It quadruples"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "As an object moves from the equilibrium position toward maximum extension, what energy transformation occurs?",
+          "options": ["Potential to Kinetic", "Kinetic to Potential", "Internal to Potential", "Kinetic to Thermal"],
+          "correct_option": "Kinetic to Potential",
+          "answer": "B. Kinetic to Potential"
+        }
+      ]
+    },
+    {
+      "type": "Identify properties of the restoring force for ideal springs",
+      "unit": "Unit 7: Oscillations",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Which of the following force-displacement relationships will result in simple harmonic motion?",
+          "options": ["F = -k", "F = -kx", "F = -kx^2", "F = +kx"],
+          "correct_option": "F = -kx",
+          "answer": "B. F = -kx"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A student tests a rubber band and finds that the force required to stretch it is proportional to x^2. Is the resulting motion simple harmonic?",
+          "options": ["Yes, because it is a restoring force", "No, because the force is not linear with displacement", "Yes, only at large amplitudes", "No, because rubber bands have no mass"],
+          "correct_option": "No, because the force is not linear with displacement",
+          "answer": "B. No, because the force is not linear with displacement"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The slope of a graph of Force vs. Displacement for an ideal spring represents:",
+          "options": ["Mass", "Period", "Spring Constant", "Potential Energy"],
+          "correct_option": "Spring Constant",
+          "answer": "C. Spring Constant"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In the equation F = -kx, the negative sign indicates:",
+          "options": ["The force is always decreasing", "The potential energy is negative", "The force points opposite to the displacement", "The spring is breaking"],
+          "correct_option": "The force points opposite to the displacement",
+          "answer": "C. The force points opposite to the displacement"
+        }
+      ]
+    },
+    {
+      "type": "Design experiments for oscillatory systems",
+      "unit": "Unit 7: Oscillations",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "To determine the spring constant k of a vertical spring, a student should measure:",
+          "options": ["Initial length and final length with a known mass", "The period of oscillation only", "The color and thickness of the spring", "The maximum speed of the mass"],
+          "correct_option": "Initial length and final length with a known mass",
+          "answer": "A. Initial length and final length with a known mass"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which tool is best for determining the period of a fast-oscillating spring with high precision?",
+          "options": ["Meterstick", "Protractor", "Photogate and electronic timer", "Human observation with a wall clock"],
+          "correct_option": "Photogate and electronic timer",
+          "answer": "C. Photogate and electronic timer"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A student wants to find 'g' using a pendulum. Which graph will have a slope that allows 'g' to be calculated easily?",
+          "options": ["T vs L", "T^2 vs L", "L^2 vs T", "T vs sqrt(m)"],
+          "correct_option": "T^2 vs L",
+          "answer": "B. T^2 vs L"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In an experiment to find 'k', a student plots Force (F) on the y-axis and displacement (x) on the x-axis. The intercept is zero. This indicates:",
+          "options": ["A friction-free system", "The spring is ideal and follows Hooke's Law", "The mass is negligible", "The experiment failed"],
+          "correct_option": "The spring is ideal and follows Hooke's Law",
+          "answer": "B. The spring is ideal and follows Hooke's Law"
+        }
+      ]
+    },
+    {
+      "type": "Predict changes in period or energy using functional dependence",
+      "unit": "Unit 7: Oscillations",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A mass-spring system has period T on Earth. On the Moon, where gravity is 1/6 that of Earth, its period will be:",
+          "options": ["T/6", "T/sqrt(6)", "T", "T*sqrt(6)"],
+          "correct_option": "T",
+          "answer": "C. T"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the amplitude of oscillation for a mass-spring system is doubled, how does the period change?",
+          "options": ["It doubles", "It quadruples", "It remains the same", "It is halved"],
+          "correct_option": "It remains the same",
+          "answer": "C. It remains the same"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An object's mass is tripled in a mass-spring system. The new frequency is what factor of the old frequency?",
+          "options": ["3", "sqrt(3)", "1/sqrt(3)", "1/3"],
+          "correct_option": "1/sqrt(3)",
+          "answer": "C. 1/sqrt(3)"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Two springs are identical except spring A is twice as stiff as spring B (k_A = 2k_B). If same mass m is used, how do the periods compare?",
+          "options": ["T_A = 2 T_B", "T_A = sqrt(2) T_B", "T_A = T_B / sqrt(2)", "T_A = T_B / 2"],
+          "correct_option": "T_A = T_B / sqrt(2)",
+          "answer": "C. T_A = T_B / sqrt(2)"
+        }
+      ]
+    },
+    {
+      "type": "Calculate work and energy from force-displacement graphs",
+      "unit": "Unit 7: Oscillations",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A force vs. displacement graph for a spring shows a line from (0,0) to (0.1 m, 10 N). How much work was done to stretch the spring?",
+          "options": ["0.5 J", "1.0 J", "5.0 J", "100 J"],
+          "correct_option": "0.5 J",
+          "answer": "A. 0.5 J"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A block is released from rest after compressing a spring. The energy with which the block leaves the spring is determined by:",
+          "options": ["The mass of the block", "The time of contact", "The area under the force-displacement graph during compression", "The final velocity squared only"],
+          "correct_option": "The area under the force-displacement graph during compression",
+          "answer": "C. The area under the force-displacement graph during compression"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A spring with constant 200 N/m is compressed 0.2 m. What is the stored potential energy?",
+          "options": ["4 J", "8 J", "40 J", "400 J"],
+          "correct_option": "4 J",
+          "answer": "A. 4 J"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a force-displacement graph is non-linear (e.g., F = bx^2), how is the potential energy found?",
+          "options": ["Using 1/2 kx^2", "Calculating the area under the curve", "Multiplying final force by final displacement", "Potential energy is zero"],
+          "correct_option": "Calculating the area under the curve",
+          "answer": "B. Calculating the area under the curve"
+        }
+      ]
+    },
+    {
+      "type": "Identify phase relationships and turning points in SHM",
+      "unit": "Unit 7: Oscillations",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "At the moment an oscillating object passes through the equilibrium position, which quantity is at its MINIMUM magnitude?",
+          "options": ["Velocity", "Speed", "Acceleration", "Kinetic Energy"],
+          "correct_option": "Acceleration",
+          "answer": "C. Acceleration"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If an object is at its maximum positive displacement, what is the direction of its acceleration?",
+          "options": ["Positive", "Negative", "Zero", "Tangent to the curve"],
+          "correct_option": "Negative",
+          "answer": "B. Negative"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A system is released from rest at x = +A. Describe its motion immediately after release.",
+          "options": ["Zero velocity, zero acceleration", "Positive velocity, negative acceleration", "Zero velocity, negative acceleration", "Negative velocity, positive acceleration"],
+          "correct_option": "Zero velocity, negative acceleration",
+          "answer": "C. Zero velocity, negative acceleration"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In one full cycle of SHM, how many times does the object reach its maximum speed?",
+          "options": ["Once", "Twice", "Four times", "Depends on frequency"],
+          "correct_option": "Twice",
+          "answer": "B. Twice"
+        }
+      ]
+    },
+    {
+      "type": "Compare vertical and horizontal mass-spring systems",
+      "unit": "Unit 7: Oscillations",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "How does the period of a mass-spring system on a horizontal frictionless table compare to the same mass and spring hanging vertically?",
+          "options": ["Horizontal is longer", "Vertical is longer", "They are identical", "Vertical has no period"],
+          "correct_option": "They are identical",
+          "answer": "C. They are identical"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In a vertical mass-spring system, the equilibrium position is located where:",
+          "options": ["The spring is unstretched", "The spring force equals the weight of the mass", "The potential energy is zero by definition", "The mass is at the bottom of its motion"],
+          "correct_option": "The spring force equals the weight of the mass",
+          "answer": "B. The spring force equals the weight of the mass"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a vertical spring system is moved to a planet with higher gravity, how does the equilibrium position change?",
+          "options": ["Moves up", "Moves down", "Stays same", "Disappears"],
+          "correct_option": "Moves down",
+          "answer": "B. Moves down"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "For a vertical spring, the 'restoring force' that causes SHM is the:",
+          "options": ["Weight only", "Spring force only", "Net force of spring and gravity", "Normal force"],
+          "correct_option": "Net force of spring and gravity",
+          "answer": "C. Net force of spring and gravity"
+        }
+      ]
+    },
+    {
+      "type": "Analyze energy transformations in SHM",
+      "unit": "Unit 7: Oscillations",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Which graph correctly represents Kinetic Energy (K) as a function of Position (x) for SHM?",
+          "options": ["Straight line with positive slope", "Straight line with negative slope", "Parabola opening down with peak at x=0", "Parabola opening up with vertex at x=0"],
+          "correct_option": "Parabola opening down with peak at x=0",
+          "answer": "C. Parabola opening down with peak at x=0"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "When an oscillating mass is at x = A/2 (half the amplitude), what fraction of the total energy is potential energy?",
+          "options": ["1/4", "1/2", "1/sqrt(2)", "3/4"],
+          "correct_option": "1/4",
+          "answer": "A. 1/4"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "At what position is the energy of a mass-spring system equally split between kinetic and potential?",
+          "options": ["x = A/2", "x = A/sqrt(2)", "x = A/4", "x = 0"],
+          "correct_option": "x = A/sqrt(2)",
+          "answer": "B. x = A/sqrt(2)"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If friction is present, the total mechanical energy of the oscillator will:",
+          "options": ["Increase over time", "Decrease over time", "Remain constant", "Oscillate with the mass"],
+          "correct_option": "Decrease over time",
+          "answer": "B. Decrease over time"
+        }
+      ]
+    },
+    {
+      "type": "Solve for instantaneous position or velocity using conservation of energy",
+      "unit": "Unit 7: Oscillations",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A mass m on a spring with constant k is released from rest at x=A. What is its speed at x=0?",
+          "options": ["sqrt(k/m) * A", "sqrt(m/k) * A", "k/m * A^2", "sqrt(2kA/m)"],
+          "correct_option": "sqrt(k/m) * A",
+          "answer": "A. sqrt(k/m) * A"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A pendulum bob is released from height H. What is its speed at the lowest point?",
+          "options": ["mgH", "sqrt(gH)", "sqrt(2gH)", "2gH"],
+          "correct_option": "sqrt(2gH)",
+          "answer": "C. sqrt(2gH)"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a mass-spring system has total energy E, and at a certain point its potential energy is 0.25E, what is its kinetic energy?",
+          "options": ["0.25E", "0.50E", "0.75E", "E"],
+          "correct_option": "0.75E",
+          "answer": "C. 0.75E"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A spring is compressed by X and shoots a mass m. If the mass is doubled, the launch speed will change by what factor?",
+          "options": ["Double", "Half", "sqrt(2)", "1/sqrt(2)"],
+          "correct_option": "1/sqrt(2)",
+          "answer": "D. 1/sqrt(2)"
+        }
+      ]
+    },
+    {
+      "type": "Relate pendulum motion to non-inertial frames",
+      "unit": "Unit 7: Oscillations",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A physicist in an airplane that is accelerating horizontally at rate 'a' observes a pendulum bob. The string makes an angle theta with the vertical. This angle is determined by:",
+          "options": ["tan(theta) = a/g", "sin(theta) = a/g", "cos(theta) = g/a", "tan(theta) = g/a"],
+          "correct_option": "tan(theta) = a/g",
+          "answer": "A. tan(theta) = a/g"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In an elevator accelerating upward, the period of a pendulum will:",
+          "options": ["Increase", "Decrease", "Remain the same", "Become infinite"],
+          "correct_option": "Decrease",
+          "answer": "B. Decrease"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A pendulum is in a car traveling at constant velocity. The string is:",
+          "options": ["Vertical", "Angled forward", "Angled backward", "Oscillating wildly"],
+          "correct_option": "Vertical",
+          "answer": "A. Vertical"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a pendulum is in free fall (a = g downward), its period is:",
+          "options": ["Zero", "T", "T*sqrt(2)", "Infinite"],
+          "correct_option": "Infinite",
+          "answer": "D. Infinite"
+        }
+      ]
+    },
+    {
+      "type": "Analyze the motion of a system with multiple mass/spring configurations",
+      "unit": "Unit 7: Oscillations",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Two identical springs are connected in parallel to a single mass m. The effective spring constant of the system is:",
+          "options": ["k/2", "k", "2k", "k^2"],
+          "correct_option": "2k",
+          "answer": "C. 2k"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Two identical springs are connected in series to a single mass m. The effective spring constant of the system is:",
+          "options": ["k/2", "k", "2k", "k^2"],
+          "correct_option": "k/2",
+          "answer": "A. k/2"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A mass m is attached to a spring and oscillates with frequency f. If a second identical mass is glued to the first, the new frequency is:",
+          "options": ["f/2", "f/sqrt(2)", "f*sqrt(2)", "2f"],
+          "correct_option": "f/sqrt(2)",
+          "answer": "B. f/sqrt(2)"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A block of mass M is attached to a spring of constant K. A smaller block is placed on top of it. The period will:",
+          "options": ["Increase", "Decrease", "Remain the same", "Depends on friction"],
+          "correct_option": "Increase",
+          "answer": "A. Increase"
+        }
+      ]
+    },
+    {
+      "type": "Determine tension in a swinging pendulum bob",
+      "unit": "Unit 7: Oscillations",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "At which position in a pendulum's swing is the tension in the string greatest?",
+          "options": ["At the highest point", "At the lowest point", "Halfway between", "Tension is constant"],
+          "correct_option": "At the lowest point",
+          "answer": "B. At the lowest point"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A pendulum of mass m is released from height H. At the lowest point, the tension is:",
+          "options": ["mg", "mg + mv^2/L", "mv^2/L", "mg - mv^2/L"],
+          "correct_option": "mg + mv^2/L",
+          "answer": "B. mg + mv^2/L"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a pendulum is released from an angle such that the bob's height is L, at the bottom the tension is 3mg. Is this possible?",
+          "options": ["Yes, always", "No, max is 2mg", "Yes, if L is large", "No, tension is independent of height"],
+          "correct_option": "Yes, always",
+          "answer": "A. Yes, always"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "At the highest point of its swing (turning point), the tension is:",
+          "options": ["mg", "mg cos(theta)", "mg / cos(theta)", "Zero"],
+          "correct_option": "mg cos(theta)",
+          "answer": "B. mg cos(theta)"
+        }
+      ]
+    },
+    {
+      "type": "Calculate frequency and angular frequency",
+      "unit": "Unit 7: Oscillations",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A system completes 120 oscillations in one minute. What is its frequency in Hz?",
+          "options": ["0.5 Hz", "2.0 Hz", "60 Hz", "120 Hz"],
+          "correct_option": "2.0 Hz",
+          "answer": "B. 2.0 Hz"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the period of an oscillator is 0.1 s, what is its angular frequency (omega)?",
+          "options": ["0.1 rad/s", "10 rad/s", "31.4 rad/s", "62.8 rad/s"],
+          "correct_option": "62.8 rad/s",
+          "answer": "D. 62.8 rad/s"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which of the following is equivalent to the frequency 'f' of a mass-spring system?",
+          "options": ["1 / (2*pi) * sqrt(k/m)", "2*pi * sqrt(m/k)", "sqrt(k/m)", "m/k"],
+          "correct_option": "1 / (2*pi) * sqrt(k/m)",
+          "answer": "A. 1 / (2*pi) * sqrt(k/m)"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the frequency of a system is 5 Hz, how long does one cycle take?",
+          "options": ["0.2 s", "5 s", "10 s", "25 s"],
+          "correct_option": "0.2 s",
+          "answer": "A. 0.2 s"
+        }
+      ]
+    },
+    {
+      "type": "Determine maximum speed and acceleration",
+      "unit": "Unit 7: Oscillations",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A simple harmonic oscillator has amplitude A and angular frequency omega. Its maximum speed is:",
+          "options": ["A * omega", "A * omega^2", "A / omega", "1/2 A omega^2"],
+          "correct_option": "A * omega",
+          "answer": "A. A * omega"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The maximum acceleration of an oscillating object is proportional to:",
+          "options": ["Amplitude only", "Frequency only", "Amplitude and frequency squared", "The square root of amplitude"],
+          "correct_option": "Amplitude and frequency squared",
+          "answer": "C. Amplitude and frequency squared"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A mass-spring system with amplitude 0.1 m and frequency 2 Hz has a max speed of approximately:",
+          "options": ["0.2 m/s", "0.63 m/s", "1.26 m/s", "2.5 m/s"],
+          "correct_option": "1.26 m/s",
+          "answer": "C. 1.26 m/s"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "To double the maximum acceleration of an oscillator without changing the frequency, the amplitude must be:",
+          "options": ["Halved", "Doubled", "Quadrupled", "Increased by sqrt(2)"],
+          "correct_option": "Doubled",
+          "answer": "B. Doubled"
+        }
+      ]
+    },
+    {
+      "type": "Evaluate energy in non-ideal oscillators",
+      "unit": "Unit 7: Oscillations",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A student finds that the amplitude of a pendulum decreases over time. What can be concluded about the total energy of the system?",
+          "options": ["Energy is increasing", "Energy is decreasing", "Energy is constant", "Potential energy is increasing"],
+          "correct_option": "Energy is decreasing",
+          "answer": "B. Energy is decreasing"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In a real (non-ideal) oscillating system, where does the 'lost' mechanical energy go?",
+          "options": ["Into the spring constant", "Into gravitational potential energy", "Converted to thermal energy in the surroundings", "Becomes negative kinetic energy"],
+          "correct_option": "Converted to thermal energy in the surroundings",
+          "answer": "C. Converted to thermal energy in the surroundings"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A pendulum swings through air with noticeable damping. Compared with ideal motion, which change is most directly caused by air resistance?",
+          "options": ["Its amplitude decreases each cycle", "Its spring constant increases", "Its equilibrium position disappears", "Its restoring force reverses direction"],
+          "correct_option": "Its amplitude decreases each cycle",
+          "answer": "A. Its amplitude decreases each cycle"
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A rubber band oscillator is stretched. If heat is generated during the stretch, the efficiency of energy conversion is:",
+          "options": ["100%", "Greater than 100%", "Less than 100%", "0%"],
+          "correct_option": "Less than 100%",
+          "answer": "C. Less than 100%"
+        }
+      ]
+    }
+  ]
+}

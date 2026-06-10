@@ -1,0 +1,356 @@
+{
+  "version": 2,
+  "source_label": "5 Steps to a 5 \u2014 AP Physics 1 (2024 ed.)",
+  "source_type": "external",
+  "textbook_key": "ap_phys1_5steps_2024",
+  "units": [
+    {
+      "id": "u1",
+      "label": "Unit 1: Kinematics",
+      "question_types": [
+        {
+          "existing_qt_id": "b6a4a3d2-32de-4d3d-b5a9-0dc9a9f7d543",
+          "title": "Area under v-t graph to find displacement/position",
+          "unit_label": "Unit 1: Kinematics",
+          "primary_slo": "1.3.A.4",
+          "questions": [
+            {
+              "id": "5steps_ch10_kinematics_q1_frq",
+              "label": "1",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "Multi-part: rank from v-t graph (use stem-group)",
+              "source_reference": {
+                "worksheet_name": "5 Steps to a 5 \u2014 AP Physics 1 (2024 ed.)",
+                "textbook_key": "ap_phys1_5steps_2024",
+                "page": 130,
+                "section": "ch10 kinematics",
+                "exercise_ref": "FRQ-1"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The preceding velocity-time graphs represent the motion of two cars, Car A\nand Car B. Justify all answers thoroughly.\n(a)    Which car is moving faster at the start of the motion?\n(b)    Which car ends up farther from its starting point?\n========== PAGE 132 ==========\n(c)    Which car experiences a greater magnitude of acceleration?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "c3845131-ee4b-4d41-8a0f-1ac34c571616",
+          "title": "Slope of x-t graph as instantaneous velocity",
+          "unit_label": "Unit 1: Kinematics",
+          "primary_slo": "1.3.A.4",
+          "questions": [
+            {
+              "id": "5steps_ch10_kinematics_q2_frq",
+              "label": "2",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "Multi-part: rank speeds from x-t (use stem-group)",
+              "source_reference": {
+                "worksheet_name": "5 Steps to a 5 \u2014 AP Physics 1 (2024 ed.)",
+                "textbook_key": "ap_phys1_5steps_2024",
+                "page": 132,
+                "section": "ch10 kinematics",
+                "exercise_ref": "FRQ-2"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The following questions refer to the preceding position-time graph, which is\nthe readout of an eastward-pointing motion detector. Justify all answers\nthoroughly.\n(a)    Rank the speed of the object in each of the four labeled regions of the\ngraph, from fastest to slowest. If the object has the same speed in two\nor more regions, indicate so in your ranking.\n(b)    What total distance did the object travel in the 12 s, including all parts\nof the motion?\n(c)    How far from the object\u2019s starting point did the object end up after the\n12 s?\n(d)    Which of the following objects could reasonably perform this motion?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) A baby crawling\n(B) A sprinter\n(C) A car on the freeway\n(D) A jet airplane during takeoff\n(E)   An amoeba in a petri dish"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "eb845e08-5bbb-476d-8524-093df1e68971",
+          "title": "Free-fall conceptual: acceleration is constant regardless of mass/location",
+          "unit_label": "Unit 1: Kinematics",
+          "primary_slo": "1.3.A.3",
+          "questions": [
+            {
+              "id": "5steps_ch10_kinematics_q3_frq",
+              "label": "3",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "Earth vs Moon free fall",
+              "source_reference": {
+                "worksheet_name": "5 Steps to a 5 \u2014 AP Physics 1 (2024 ed.)",
+                "textbook_key": "ap_phys1_5steps_2024",
+                "page": 132,
+                "section": "ch10 kinematics",
+                "exercise_ref": "FRQ-3"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A ball is dropped from rest near Earth. Neglect air resistance.11 Justify all\nanswers thoroughly.\n(a)    About how far will the ball fall in 3 s?\n(b)    The same ball is dropped from rest by an astronaut on the moon, where\nthe free-fall acceleration is one-sixth that on Earth. In 3 s, will the ball\n========== PAGE 133 ==========\non the moon fall:"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) One-sixth as far as the ball on Earth\n(B) One-36th as far as the ball on Earth\n(C) The same distance as the ball on Earth\n(D) Six times as far as the ball on Earth\n(E)   Thirty-six times as far as the ball on Earth\nData Table"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "0585aefe-9c76-4e2a-921b-b8ce0dbc1418",
+          "title": "Horizontal projectile: range & time-of-flight from a height",
+          "unit_label": "Unit 1: Kinematics",
+          "primary_slo": "1.5.B.2",
+          "questions": [
+            {
+              "id": "5steps_ch10_kinematics_q4_frq",
+              "label": "4",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.7,
+              "classification_note": "4 projectiles ranked \u2014 covers both 0585aefe and 86e85fea aspects",
+              "source_reference": {
+                "worksheet_name": "5 Steps to a 5 \u2014 AP Physics 1 (2024 ed.)",
+                "textbook_key": "ap_phys1_5steps_2024",
+                "page": 133,
+                "section": "ch10 kinematics",
+                "exercise_ref": "FRQ-4"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Four projectiles, A, B, C, and D, were launched from and returned to level\nground. The preceding data table shows the initial horizontal speed, initial\nvertical speed, and time of flight for each projectile. Justify all answers\nthoroughly.\n(a)    Rank the projectiles by the horizontal distance traveled while in the air.\n(b)    Rank the projectiles by the maximum vertical height reached.\n(c)    Rank the projectiles by the magnitude of their acceleration while in the\nair."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "label": "Unit 2: Force and Translational Dynamics",
+      "question_types": [
+        {
+          "existing_qt_id": "54c6cfca-d95b-4c5f-b789-bdd760a079b8",
+          "title": "Horizontal pull at an angle affecting normal force",
+          "unit_label": "Unit 2: Force and Translational Dynamics",
+          "primary_slo": "2.7.A.1",
+          "questions": [
+            {
+              "id": "5steps_ch11_forces_q1_frq",
+              "label": "1",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "Block pulled at angle, friction",
+              "source_reference": {
+                "worksheet_name": "5 Steps to a 5 \u2014 AP Physics 1 (2024 ed.)",
+                "textbook_key": "ap_phys1_5steps_2024",
+                "page": 148,
+                "section": "ch11 forces",
+                "exercise_ref": "FRQ-1"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A 7.0-N block sits on a rough surface. It is being pulled by a force F1 at an\nangle \u03b8 = 30\u00b0 above the horizontal, as shown above. The block is initially\nmoving to the right with speed 5 m/s. The coefficient of friction between the\nblock and the surface is \u03bc = 0.20. Justify all answers.\n(a)    Is it possible for the block to be slowing down? If so, give a possible\n========== PAGE 151 ==========\nvalue of the magnitude of F1 that would allow the block to slow down.\nIf not, explain why not with reference to Newton\u2019s second law.\n(b)    In order to double the block\u2019s initial speed to 10 m/s, how must the\nmagnitude of the force F1 change?\n(A)   It must double.\n(B)   It must quadruple.\n(C)   It does not have to change."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "973667a0-e055-4dff-b586-92f3389e905d",
+          "title": "Reading F-t or v-t graphs to determine force/acceleration",
+          "unit_label": "Unit 2: Force and Translational Dynamics",
+          "primary_slo": "2.5.A.2",
+          "questions": [
+            {
+              "id": "5steps_ch11_forces_q2_frq",
+              "label": "2",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.5,
+              "classification_note": "F=ma application without graph; Unit 2 generic. May warrant new 'F=ma numerical from kinematics' QT later",
+              "source_reference": {
+                "worksheet_name": "5 Steps to a 5 \u2014 AP Physics 1 (2024 ed.)",
+                "textbook_key": "ap_phys1_5steps_2024",
+                "page": 151,
+                "section": "ch11 forces",
+                "exercise_ref": "FRQ-2"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A drag-racing car speeds up from rest to 22 m/s in 2 s. The car has mass 800\nkg; the driver has mass 80 kg.\n(a)    Calculate the acceleration of the drag racer.\n(b)    Calculate the net force on the drag racer.\n(c)    Which experiences a greater net force?\n(A)   The driver.\n(B)   The car.\n(C)   Both the driver and the car experience the same net force."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+          "title": "Block on inclined plane with friction (weight components)",
+          "unit_label": "Unit 2: Force and Translational Dynamics",
+          "primary_slo": "2.7.B.1",
+          "questions": [
+            {
+              "id": "5steps_ch11_forces_q3_frq",
+              "label": "3",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.7,
+              "classification_note": "Conceptual on frictionless incline \u2014 about normal-vs-weight",
+              "source_reference": {
+                "worksheet_name": "5 Steps to a 5 \u2014 AP Physics 1 (2024 ed.)",
+                "textbook_key": "ap_phys1_5steps_2024",
+                "page": 151,
+                "section": "ch11 forces",
+                "exercise_ref": "FRQ-3"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A car slides up a frictionless inclined plane. How does the normal force of\nthe incline on the car compare with the weight of the car?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) The normal force must be equal to the car\u2019s weight.\n(B) The normal force must be less than the car\u2019s weight.\n(C) The normal force must be greater than the car\u2019s weight.\n(D) The normal force must be zero."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "b743c003-5094-41b2-9fc1-9c90e718c9a1",
+          "title": "Balance of forces on a supported horizontal board",
+          "unit_label": "Unit 2: Force and Translational Dynamics",
+          "primary_slo": "2.4.A.2",
+          "questions": [
+            {
+              "id": "5steps_ch14_circular_q1_frq",
+              "label": "1",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "Two-leg + offset block \u2014 torque/equilibrium",
+              "source_reference": {
+                "worksheet_name": "5 Steps to a 5 \u2014 AP Physics 1 (2024 ed.)",
+                "textbook_key": "ap_phys1_5steps_2024",
+                "page": 200,
+                "section": "ch14 circular",
+                "exercise_ref": "FRQ-1"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A uniform wooden block has a mass m. On it is resting half of an identical\nblock, as shown above. The blocks are supported by two table legs, as\nshown.\n(a) Which table leg, if either, should provide a larger force on the bottom\nblock? Answer with specific reference to the torque equation.\n(b) In terms of given variables and fundamental constants, what is the force\nof the right-hand table leg on the bottom mass?\n========== PAGE 204 =========="
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "existing_qt_id": "03d07b16-39e7-4c19-8567-44e95bdee70d",
+          "title": "Newton's law of universal gravitation (g, F, 1/r^2 scaling)",
+          "unit_label": "Unit 2: Force and Translational Dynamics",
+          "primary_slo": "2.6.A.2",
+          "questions": [
+            {
+              "id": "5steps_ch15_gravitation_q1_frq",
+              "label": "1",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "Binary-star period derivation",
+              "source_reference": {
+                "worksheet_name": "5 Steps to a 5 \u2014 AP Physics 1 (2024 ed.)",
+                "textbook_key": "ap_phys1_5steps_2024",
+                "page": 213,
+                "section": "ch15 gravitation",
+                "exercise_ref": "FRQ-1"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Two stars, each of mass M, form a binary system. The stars orbit about a\npoint a distance R from the center of each star, as shown in the diagram\nabove. The stars themselves each have radius r.\n(a) In terms of given variables and fundamental constants, what is the force\neach star exerts on the other?\n(b) In terms of given variables and fundamental constants, what is the\nmagnitude of the gravitational field at the surface of one of the stars due\nonly to its own mass?\n(c) In terms of given variables and fundamental constants, what is the\nmagnitude of the gravitational field at the midpoint between the stars?\n(d) Explain why the stars don\u2019t crash into each other due to the gravitational\nforce between them."
+                }
+              ]
+            },
+            {
+              "id": "5steps_ch15_gravitation_q2_frq",
+              "label": "2",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "Multi-part orbit + geosynchronous",
+              "source_reference": {
+                "worksheet_name": "5 Steps to a 5 \u2014 AP Physics 1 (2024 ed.)",
+                "textbook_key": "ap_phys1_5steps_2024",
+                "page": 213,
+                "section": "ch15 gravitation",
+                "exercise_ref": "FRQ-2"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A space shuttle orbits Earth 300 km above the equator.\n(a) Explain why it would be impractical for the shuttle to orbit 10 km above\nthe Earth\u2019s surface (about 1 km higher than the top of Mount Everest).\n(b) A \u201cgeosynchronous orbit\u201d means that the shuttle will always remain\nover the same spot on Earth. Explain and describe the calculations you\nwould perform in order to determine whether this orbit is\ngeosynchronous. You should not actually carry out the numerical\ncalculations; just describe them in words and show them in symbols.\n(c) The radius of Earth is 6,400 km. At the altitude of the space shuttle,\nwhat fraction of the surface gravitational field g does the shuttle\nexperience?\n(d) When the shuttle was on Earth before launch, the shuttle\u2019s mass (not\nincluding any fuel) was 2 \u00d7 106 kg. At the orbiting altitude, what is the\nshuttle\u2019s mass, not including fuel?\n========== PAGE 216 =========="
+                }
+              ]
+            },
+            {
+              "id": "5steps_ch15_gravitation_q3_frq",
+              "label": "3",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "Two-satellite ratio of speeds",
+              "source_reference": {
+                "worksheet_name": "5 Steps to a 5 \u2014 AP Physics 1 (2024 ed.)",
+                "textbook_key": "ap_phys1_5steps_2024",
+                "page": 216,
+                "section": "ch15 gravitation",
+                "exercise_ref": "FRQ-3"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A satellite is in circular orbit around an unknown planet. A second, different\nsatellite also travels in a circular orbit around this same planet, but with an\norbital radius four times larger than the first satellite.\n(a) Explain what information must be known in order to calculate the speed\nthe first satellite travels in its orbit.\n(b) Compared to the first satellite, how many times faster or slower is the\nsecond satellite\u2019s speed?\n(c) Bob says:\n\u201cThe gravitational force of the planet on a satellite in circular orbit\ndepends inversely on the orbital radius squared. Since the second\nsatellite\u2019s orbital radius is four times that of the first satellite, the second\nsatellite experiences one-sixteenth the gravitational force that is exerted\non the first satellite.\u201d\nExplain what is wrong with Bob\u2019s explanation."
+                }
+              ]
+            },
+            {
+              "id": "5steps_ch15_gravitation_q4_frq",
+              "label": "4",
+              "kind": "single_question",
+              "question_format": "free_response",
+              "confidence": 0.9,
+              "classification_note": "Earth-Moon force-balance position",
+              "source_reference": {
+                "worksheet_name": "5 Steps to a 5 \u2014 AP Physics 1 (2024 ed.)",
+                "textbook_key": "ap_phys1_5steps_2024",
+                "page": 216,
+                "section": "ch15 gravitation",
+                "exercise_ref": "FRQ-4"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A spacecraft is positioned between the Earth and the Moon such that the\ngravitational forces on the spacecraft exerted by the Earth and the Moon\ncancel.\n(a) Is this position closer to the Moon, closer to the Earth, or halfway in\nbetween?\n(b) Are the gravitational forces on the spaceship (the force exerted by the\nMoon, and the force exerted by the Earth) a Newton\u2019s third law force\npair?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

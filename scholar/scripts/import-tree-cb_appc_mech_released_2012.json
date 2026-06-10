@@ -1,0 +1,3166 @@
+{
+  "version": 2,
+  "source_label": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+  "source_type": "external",
+  "textbook_key": "cb_appc_mech_released_2012",
+  "units": [
+    {
+      "id": "u1",
+      "label": "Unit 1: Kinematics",
+      "question_types": [
+        {
+          "id": "qt1",
+          "label": "Projectile motion components from graphs",
+          "section_ref": "1.5.A",
+          "primary_slo": "1.5.A.4",
+          "notes": "Identifying horizontal (constant) and vertical (linearly varying) velocity components of a projectile from time graphs.",
+          "slo_weights": [
+            {
+              "slo": "1.5.A.4",
+              "weight": 0.55
+            },
+            {
+              "slo": "1.5.A.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.3.A.4",
+              "weight": 0.25
+            }
+          ],
+          "aligned_slos": [
+            "1.5.A.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.3.A.4",
+              "weight": 0.25
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q1_q1q2",
+              "label": "1-2",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "fig_q1_2",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 19,
+                  "bbox": [
+                    0.1,
+                    0.18,
+                    0.5,
+                    0.3
+                  ],
+                  "caption": "Parabolic path of struck ball",
+                  "alt": "Diagram of a ball following a parabolic path with a dashed arc, dot at left ground position."
+                },
+                {
+                  "type": "text",
+                  "value": "A ball is struck at time t = 0 and follows the parabolic path shown in the diagram above. The following graphs show quantities possibly associated with the motion as a function of time t. Assume that air resistance is negligible and that the positive directions are upward and to the right."
+                },
+                {
+                  "type": "image",
+                  "page": 19,
+                  "bbox": [
+                    0.08,
+                    0.3,
+                    0.55,
+                    0.7
+                  ],
+                  "caption": "Five candidate graphs (A)–(E)",
+                  "alt": "Five graphs of a quantity vs t labeled (A) inverted-V triangle, (B) V shape, (C) line with positive slope starting below O, (D) line with negative slope starting above O, (E) horizontal nonzero line."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q1",
+                  "label": "1",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) Graph A",
+                    "(B) Graph B",
+                    "(C) Graph C",
+                    "(D) Graph D",
+                    "(E) Graph E"
+                  ],
+                  "correct_option": "(E) Graph E",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 19,
+                    "section": "Section I: Multiple Choice — Questions 1-2",
+                    "exercise_ref": "1"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Which graph represents the horizontal component of the velocity of the ball?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) Graph A\n(B) Graph B\n(C) Graph C\n(D) Graph D\n(E) Graph E"
+                    }
+                  ]
+                },
+                {
+                  "id": "q2",
+                  "label": "2",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) Graph A",
+                    "(B) Graph B",
+                    "(C) Graph C",
+                    "(D) Graph D",
+                    "(E) Graph E"
+                  ],
+                  "correct_option": "(D) Graph D",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 19,
+                    "section": "Section I: Multiple Choice — Questions 1-2",
+                    "exercise_ref": "2"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Which graph represents the vertical component of the velocity of the ball?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) Graph A\n(B) Graph B\n(C) Graph C\n(D) Graph D\n(E) Graph E"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt2",
+          "label": "Constant-acceleration kinematics on a frictionless incline",
+          "section_ref": "1.3.A",
+          "primary_slo": "1.3.A.2",
+          "notes": "Recognizing that an object on a frictionless incline experiences the same constant acceleration component along the incline regardless of direction of motion.",
+          "slo_weights": [
+            {
+              "slo": "1.3.A.2",
+              "weight": 0.55
+            },
+            {
+              "slo": "1.3.A.3",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.2.B.4",
+              "weight": 0.25
+            }
+          ],
+          "aligned_slos": [
+            "1.3.A.3"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.2.B.4",
+              "weight": 0.25
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q3",
+              "label": "3",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) It has a constant acceleration while moving up the plane and a greater acceleration when moving down the plane.",
+                "(B) It has a constant acceleration while moving up the plane and a smaller acceleration when moving down the plane.",
+                "(C) It moves with a constant velocity both up and down the plane.",
+                "(D) It has the same acceleration as it moves up and down the plane.",
+                "(E) It has a continually varying acceleration as it moves up and down the plane."
+              ],
+              "correct_option": "(D) It has the same acceleration as it moves up and down the plane.",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 19,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "3"
+              },
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 19,
+                  "bbox": [
+                    0.55,
+                    0.15,
+                    0.95,
+                    0.32
+                  ],
+                  "caption": "Object on inclined plane",
+                  "alt": "Right triangle inclined plane with an object at the bottom moving up with initial velocity v0 along the incline."
+                },
+                {
+                  "type": "text",
+                  "value": "An object with initial velocity v_0, as shown above, slides up and then down a long, frictionless, inclined plane. Which of the following is true of the object as it moves?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) It has a constant acceleration while moving up the plane and a greater acceleration when moving down the plane.\n(B) It has a constant acceleration while moving up the plane and a smaller acceleration when moving down the plane.\n(C) It moves with a constant velocity both up and down the plane.\n(D) It has the same acceleration as it moves up and down the plane.\n(E) It has a continually varying acceleration as it moves up and down the plane."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt3",
+          "label": "Free-fall distance scaling with time",
+          "section_ref": "1.3.A",
+          "primary_slo": "1.3.A.2",
+          "notes": "Both questions require applying the d = (1/2)gt^2 kinematic relation to compare distances at different free-fall durations.",
+          "slo_weights": [
+            {
+              "slo": "1.3.A.2",
+              "weight": 0.6
+            },
+            {
+              "slo": "1.3.A.3",
+              "weight": 0.25
+            },
+            {
+              "slo": "1.5.A.1",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [
+            "1.3.A.3"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.5.A.1",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q7",
+              "label": "7",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) d_A = (1/4) d_B",
+                "(B) d_A = (1/2) d_B",
+                "(C) d_A = 2 d_B",
+                "(D) d_A = 4 d_B",
+                "(E) It cannot be determined from the information given."
+              ],
+              "correct_option": "(A) d_A = (1/4) d_B",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 20,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "7"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Two objects are dropped from rest from the same height. Object A falls through a distance d_A during a time t, and object B falls through a distance d_B during a time 2t. If air resistance is negligible, what is the relationship between d_A and d_B ?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) d_A = (1/4) d_B\n(B) d_A = (1/2) d_B\n(C) d_A = 2 d_B\n(D) d_A = 4 d_B\n(E) It cannot be determined from the information given."
+                }
+              ]
+            },
+            {
+              "id": "q31",
+              "label": "31",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.9,
+              "notes": "Combines kinematics of dropped ball (h = (1/2)g t^2) and launched ball (y = v_0 t - (1/2) g t^2) to find meeting time.",
+              "question_format": "mcq",
+              "options": [
+                "(A) (1/4)(h/v_0)",
+                "(B) (1/2)(h/v_0)",
+                "(C) h/v_0",
+                "(D) 2(h/v_0)",
+                "(E) 4(h/v_0)"
+              ],
+              "correct_option": "(C) h/v_0",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 26,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "31"
+              },
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 26,
+                  "bbox": [
+                    0.18,
+                    0.05,
+                    0.55,
+                    0.3
+                  ],
+                  "caption": "Tower with two balls",
+                  "alt": "A tower of height h with ball 1 at the top dropped from rest and ball 2 launched upward from the ground with speed v0."
+                },
+                {
+                  "type": "text",
+                  "value": "Ball 1 is dropped from rest at time t = 0 from a tower of height h, as shown above. At the same instant, ball 2 is launched upward from the ground with initial speed v_0. If air resistance is negligible, at what time t will the two balls pass each other?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) (1/4)(h/v_0)\n(B) (1/2)(h/v_0)\n(C) h/v_0\n(D) 2(h/v_0)\n(E) 4(h/v_0)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt4",
+          "label": "Reading constant acceleration regions on a v-t graph",
+          "section_ref": "1.3.A",
+          "primary_slo": "1.3.A.4",
+          "notes": "Identifying intervals on a velocity-vs-time graph where the slope (acceleration) is constant and nonzero.",
+          "slo_weights": [
+            {
+              "slo": "1.3.A.4",
+              "weight": 0.6
+            },
+            {
+              "slo": "1.3.A.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [
+            "1.3.A.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.2
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q14",
+              "label": "14",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) QR only",
+                "(B) ST only",
+                "(C) PQ and TU only",
+                "(D) RS and ST only",
+                "(E) PQ, RS, ST, and TU"
+              ],
+              "correct_option": "(D) RS and ST only",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 22,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "14"
+              },
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 22,
+                  "bbox": [
+                    0.05,
+                    0.05,
+                    0.5,
+                    0.27
+                  ],
+                  "caption": "Velocity vs time graph with segments PQ, QR, RS, ST, TU",
+                  "alt": "A piecewise velocity-vs-time graph: horizontal PQ at top, sloped down QR to point R near 0, sloped further down RS to minimum S below 0, sloped up ST to T at 0, horizontal TU at 0."
+                },
+                {
+                  "type": "text",
+                  "value": "The graph above shows velocity as a function of time for an object moving along a straight line. For which of the following sections of the graph is the acceleration constant and nonzero?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) QR only\n(B) ST only\n(C) PQ and TU only\n(D) RS and ST only\n(E) PQ, RS, ST, and TU"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt5",
+          "label": "Differentiation of polynomial v(t) to find instantaneous acceleration",
+          "section_ref": "1.2.C",
+          "primary_slo": "1.2.C.1.ii",
+          "notes": "Take the time-derivative of v(t) = 3.0 t^2 - 2.0 t + 4.0 and evaluate at t = 2.0 s.",
+          "slo_weights": [
+            {
+              "slo": "1.2.C.1.ii",
+              "weight": 0.6
+            },
+            {
+              "slo": "1.2.C.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "1.2.C.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "1.2.B.3",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q15",
+              "label": "15",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) 4.0 m/s^2",
+                "(B) 6.0 m/s^2",
+                "(C) 8.0 m/s^2",
+                "(D) 10.0 m/s^2",
+                "(E) 12.0 m/s^2"
+              ],
+              "correct_option": "(D) 10.0 m/s^2",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 22,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "15"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The velocity of a particle moving along the x-axis is given as a function of time by the expression v(t) = 3.0 t^2 - 2.0 t + 4.0, where v is in meters per second and t is in seconds. What is the acceleration of the particle at t = 2.0 s?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 4.0 m/s^2\n(B) 6.0 m/s^2\n(C) 8.0 m/s^2\n(D) 10.0 m/s^2\n(E) 12.0 m/s^2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt6",
+          "label": "Parametric circular motion: radius and constant speed",
+          "section_ref": "2.10.A",
+          "primary_slo": "2.10.A.5.iii",
+          "notes": "Given x = 5 cos(3t), y = 5 sin(3t): identify radius and constant tangential speed v = r*omega.",
+          "slo_weights": [
+            {
+              "slo": "2.10.A.5.iii",
+              "weight": 0.4
+            },
+            {
+              "slo": "1.2.C.1.i",
+              "weight": 0.3
+            },
+            {
+              "slo": "1.5.A.1",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.10.A.1.i",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "1.2.C.1.i",
+              "weight": 0.3
+            },
+            {
+              "slo": "1.5.A.1",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.10.A.1.i",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q34_q35",
+              "label": "34-35",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "stem_q34_35",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "A particle moves in a circle in such a way that the x- and y-coordinates of its motion, given in meters as functions of time t in seconds, are:\n\nx = 5 cos(3t)\ny = 5 sin(3t)."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q34",
+                  "label": "34",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) (5/3) m",
+                    "(B) (5/2) m",
+                    "(C) 5 m",
+                    "(D) 10 m",
+                    "(E) 15 m"
+                  ],
+                  "correct_option": "(C) 5 m",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 27,
+                    "section": "Section I: Multiple Choice — Questions 34-35",
+                    "exercise_ref": "34"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "What is the radius of the circle?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) (5/3) m\n(B) (5/2) m\n(C) 5 m\n(D) 10 m\n(E) 15 m"
+                    }
+                  ]
+                },
+                {
+                  "id": "q35",
+                  "label": "35",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) It is always equal to 5 m/s.",
+                    "(B) It is always equal to 15 m/s.",
+                    "(C) It oscillates with a range of 0 to 5 m/s.",
+                    "(D) It oscillates with a range of 0 to 15 m/s.",
+                    "(E) It oscillates with a range of 5 to 15 m/s."
+                  ],
+                  "correct_option": "(B) It is always equal to 15 m/s.",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 27,
+                    "section": "Section I: Multiple Choice — Questions 34-35",
+                    "exercise_ref": "35"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Which of the following is true of the speed of the particle?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) It is always equal to 5 m/s.\n(B) It is always equal to 15 m/s.\n(C) It oscillates with a range of 0 to 5 m/s.\n(D) It oscillates with a range of 0 to 15 m/s.\n(E) It oscillates with a range of 5 to 15 m/s."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "label": "Unit 2: Force and Translational Dynamics",
+      "question_types": [
+        {
+          "id": "qt7",
+          "label": "Atwood-style pulley with massive wheel — comparing tensions",
+          "section_ref": "2.3.A",
+          "primary_slo": "2.3.A.2",
+          "notes": "Massive accelerating pulley implies unequal tensions: T2 > T1 to provide the net torque on the wheel.",
+          "slo_weights": [
+            {
+              "slo": "2.3.A.2",
+              "weight": 0.4
+            },
+            {
+              "slo": "5.6.A.2",
+              "weight": 0.3
+            },
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.3.A.3.iii",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "5.6.A.2",
+              "weight": 0.3
+            },
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.3.A.3.iii",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q4",
+              "label": "4",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.9,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) T_1 = T_2 because the wheel has mass.",
+                "(B) T_1 = T_2 because both blocks have the same acceleration.",
+                "(C) T_1 > T_2 because m_1 is farther from the wheel than m_2.",
+                "(D) T_1 > T_2 because m_1 accelerates upward.",
+                "(E) T_2 > T_1 because an unbalanced clockwise torque is needed to accelerate the wheel clockwise."
+              ],
+              "correct_option": "(E) T_2 > T_1 because an unbalanced clockwise torque is needed to accelerate the wheel clockwise.",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 20,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "4"
+              },
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 20,
+                  "bbox": [
+                    0.1,
+                    0.05,
+                    0.45,
+                    0.3
+                  ],
+                  "caption": "Pulley with two hanging masses",
+                  "alt": "A wheel of mass m with string passing over it; tension T1 to a hanging mass m1 on the left lower position and tension T2 to a hanging mass m2 on the right at higher position."
+                },
+                {
+                  "type": "text",
+                  "value": "Two blocks of masses m_1 and m_2 are connected by a massless string that passes over a wheel of mass m, as shown above. The string does not slip on the wheel and exerts forces T_1 and T_2 on the blocks. When the wheel is released from rest in the position shown, it undergoes an angular acceleration and rotates clockwise. Which of the following statements about T_1 and T_2 is correct?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) T_1 = T_2 because the wheel has mass.\n(B) T_1 = T_2 because both blocks have the same acceleration.\n(C) T_1 > T_2 because m_1 is farther from the wheel than m_2.\n(D) T_1 > T_2 because m_1 accelerates upward.\n(E) T_2 > T_1 because an unbalanced clockwise torque is needed to accelerate the wheel clockwise."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt8",
+          "label": "Center of mass of point particles on a number line",
+          "section_ref": "2.1.B",
+          "primary_slo": "2.1.B.2",
+          "notes": "Direct application of x_cm = sum(m_i x_i) / sum(m_i).",
+          "slo_weights": [
+            {
+              "slo": "2.1.B.2",
+              "weight": 0.7
+            },
+            {
+              "slo": "2.1.B.1",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.1.B.4",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [
+            "2.1.B.1",
+            "2.1.B.4"
+          ],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q5",
+              "label": "5",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) 1.0 m",
+                "(B) 1.5 m",
+                "(C) 2.0 m",
+                "(D) 2.5 m",
+                "(E) 3.0 m"
+              ],
+              "correct_option": "(D) 2.5 m",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 20,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "5"
+              },
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 20,
+                  "bbox": [
+                    0.05,
+                    0.55,
+                    0.5,
+                    0.68
+                  ],
+                  "caption": "Three masses on x-axis",
+                  "alt": "Number line x in meters with 3 kg at x=0, 5 kg at x=3, 2 kg at x=5."
+                },
+                {
+                  "type": "text",
+                  "value": "Three objects are located along the x-axis as shown above. The center of mass of the objects is at x ="
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 1.0 m\n(B) 1.5 m\n(C) 2.0 m\n(D) 2.5 m\n(E) 3.0 m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt9",
+          "label": "Maximum-tension uniform circular motion (string-breaking limit)",
+          "section_ref": "2.10.A",
+          "primary_slo": "2.10.A.1.i",
+          "notes": "Set max tension = required centripetal force m v^2 / r and solve for v.",
+          "slo_weights": [
+            {
+              "slo": "2.10.A.1.i",
+              "weight": 0.55
+            },
+            {
+              "slo": "2.10.A.1.ii",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.25
+            }
+          ],
+          "aligned_slos": [
+            "2.10.A.1.ii"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.25
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q8",
+              "label": "8",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) 5 m/s",
+                "(B) 10 m/s",
+                "(C) 14 m/s",
+                "(D) 20 m/s",
+                "(E) 100 m/s"
+              ],
+              "correct_option": "(D) 20 m/s",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 21,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "8"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The maximum mass that can be hung vertically from a string without breaking the string is 10 kg. A length of this string that is 2 m long is used to rotate a 0.5 kg object in a circle on a frictionless table with the string horizontal. The maximum speed that the mass can attain under these conditions without the string breaking is most nearly"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 5 m/s\n(B) 10 m/s\n(C) 14 m/s\n(D) 20 m/s\n(E) 100 m/s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt10",
+          "label": "Velocity from a time-varying net force F = bt",
+          "section_ref": "4.2.A",
+          "primary_slo": "4.2.A.2",
+          "notes": "Integrate F = bt to obtain impulse, then v = impulse/m = b t^2 / (2m).",
+          "slo_weights": [
+            {
+              "slo": "4.2.A.2",
+              "weight": 0.45
+            },
+            {
+              "slo": "4.2.B.2.i",
+              "weight": 0.3
+            },
+            {
+              "slo": "1.2.C.2",
+              "weight": 0.25
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "4.2.B.2.i",
+              "weight": 0.3
+            },
+            {
+              "slo": "1.2.C.2",
+              "weight": 0.25
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q10",
+              "label": "10",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.9,
+              "notes": "Could fit Unit 4 (impulse) too; categorized under dynamics for chain F→a→v.",
+              "question_format": "mcq",
+              "options": [
+                "(A) bt/m",
+                "(B) bt^2/(2m)",
+                "(C) bt^2/m",
+                "(D) b*sqrt(t)/m",
+                "(E) b/(mt)"
+              ],
+              "correct_option": "(B) bt^2/(2m)",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 21,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "10"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A particle of mass m starts from rest at position x = 0 and time t = 0. It moves along the positive x-axis under the influence of a single force F_x = bt, where b is a constant. The velocity v of the particle is given by"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) bt/m\n(B) bt^2/(2m)\n(C) bt^2/m\n(D) b*sqrt(t)/m\n(E) b/(mt)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt11",
+          "label": "Newton's second law on a connected block train",
+          "section_ref": "2.5.A",
+          "primary_slo": "2.5.A.2",
+          "notes": "Apply F_net = (m_total) a to find required force on a system of three blocks.",
+          "slo_weights": [
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.65
+            },
+            {
+              "slo": "2.4.A.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.1.A.2",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "2.4.A.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.1.A.2",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q11",
+              "label": "11",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) 0.33 N",
+                "(B) 1.5 N",
+                "(C) 3.0 N",
+                "(D) 6.0 N",
+                "(E) 12 N"
+              ],
+              "correct_option": "(E) 12 N",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 21,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "11"
+              },
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 21,
+                  "bbox": [
+                    0.5,
+                    0.04,
+                    0.95,
+                    0.2
+                  ],
+                  "caption": "Three blocks on frictionless surface with force F",
+                  "alt": "Three blocks A (1 kg), B (2 kg), C (3 kg) in a row on a frictionless surface; force F applied horizontally to block C from the right."
+                },
+                {
+                  "type": "text",
+                  "value": "Three blocks, A, B, and C, of masses 1, 2, and 3 kg, respectively, are initially at rest on a frictionless surface as indicated in the figure above. What force F has to be applied on block C to accelerate the three blocks at 2 m/s^2 ?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 0.33 N\n(B) 1.5 N\n(C) 3.0 N\n(D) 6.0 N\n(E) 12 N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt12",
+          "label": "Kinetic friction with an angled applied force",
+          "section_ref": "2.7.A",
+          "primary_slo": "2.7.A.1",
+          "notes": "Resolve angled force into components, find normal force from vertical equilibrium, then apply f = mu_k * N.",
+          "slo_weights": [
+            {
+              "slo": "2.7.A.1",
+              "weight": 0.5
+            },
+            {
+              "slo": "2.7.A.2.ii",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.4.A.4",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.2.B.4",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "2.7.A.2.ii",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.4.A.4",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.2.B.4",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q25",
+              "label": "25",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) mu_k m g",
+                "(B) mu_k F cos(phi)",
+                "(C) mu_k (F sin(phi) + m g)",
+                "(D) mu_k (F sin(phi) - m g)",
+                "(E) mu_k (m g - F sin(phi))"
+              ],
+              "correct_option": "(E) mu_k (m g - F sin(phi))",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 24,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "25"
+              },
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 24,
+                  "bbox": [
+                    0.55,
+                    0.05,
+                    0.95,
+                    0.25
+                  ],
+                  "caption": "Block pulled by angled force",
+                  "alt": "A block of mass m on a horizontal rough surface with force F applied at angle phi above the horizontal."
+                },
+                {
+                  "type": "text",
+                  "value": "A block of mass m is pulled across a rough surface, as shown above. The coefficient of friction between the block and the surface is mu_k. The force F that pulls the block is exerted at the angle phi shown. Which of the following is an expression for the magnitude of the frictional force on the block if it is moving at constant speed?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) mu_k m g\n(B) mu_k F cos(phi)\n(C) mu_k (F sin(phi) + m g)\n(D) mu_k (F sin(phi) - m g)\n(E) mu_k (m g - F sin(phi))"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt13",
+          "label": "Tension in a horizontal segment supporting hanging masses via two pulleys",
+          "section_ref": "2.4.A",
+          "primary_slo": "2.4.A.2",
+          "notes": "Each 4 kg block hangs at rest, so each vertical rope segment carries 40 N; the horizontal segment connects via the pulleys with that same tension.",
+          "slo_weights": [
+            {
+              "slo": "2.4.A.2",
+              "weight": 0.55
+            },
+            {
+              "slo": "2.3.A.3.ii",
+              "weight": 0.3
+            },
+            {
+              "slo": "2.4.A.1",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [
+            "2.4.A.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "2.3.A.3.ii",
+              "weight": 0.3
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q26",
+              "label": "26",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.9,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) 4 N",
+                "(B) 8 N",
+                "(C) 20 N",
+                "(D) 40 N",
+                "(E) 80 N"
+              ],
+              "correct_option": "(D) 40 N",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 24,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "26"
+              },
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 24,
+                  "bbox": [
+                    0.55,
+                    0.45,
+                    0.95,
+                    0.68
+                  ],
+                  "caption": "Two pulleys with hanging blocks",
+                  "alt": "Two ceiling-mounted frictionless pulleys with a horizontal rope segment between them; a 4 kg block hangs vertically from the rope on each side."
+                },
+                {
+                  "type": "text",
+                  "value": "Two 4 kg blocks hang from a rope that passes over two frictionless pulleys, as shown in the figure above. What is the tension in the horizontal portion of the rope if the blocks are not moving and the rope and the two pulleys have negligible mass?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 4 N\n(B) 8 N\n(C) 20 N\n(D) 40 N\n(E) 80 N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt14",
+          "label": "Kepler / orbital ratios for an elliptical comet orbit",
+          "section_ref": "6.6.A",
+          "primary_slo": "6.6.A.2.ii",
+          "notes": "All three parts work the same elliptical-orbit stimulus: KE/speed comparison via energy + angular momentum conservation, and force ratio via inverse-square gravity.",
+          "slo_weights": [
+            {
+              "slo": "6.6.A.2.ii",
+              "weight": 0.4
+            },
+            {
+              "slo": "6.4.A.2.iii",
+              "weight": 0.2
+            },
+            {
+              "slo": "6.6.A.2.iii",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.6.A.1",
+              "weight": 0.25
+            }
+          ],
+          "aligned_slos": [
+            "6.6.A.2.iii"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "6.4.A.2.iii",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.6.A.1",
+              "weight": 0.25
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q22_q24",
+              "label": "22-24",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "stem_q22_24",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 24,
+                  "bbox": [
+                    0.05,
+                    0.05,
+                    0.5,
+                    0.3
+                  ],
+                  "caption": "Elliptical comet orbit around the Sun (not to scale)",
+                  "alt": "An elliptical orbit with the Sun marked inside; position 2 on the left at the farthest point, position 1 on the right at the nearest point. Note: figure not drawn to scale."
+                },
+                {
+                  "type": "text",
+                  "value": "The elliptical orbit of a comet is shown above. Positions 1 and 2 are, respectively, the farthest and nearest positions to the Sun, and at position 1 the distance from the comet to the Sun is 10 times that at position 2."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q22",
+                  "label": "22",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) the same as at position 1",
+                    "(B) less than at position 1",
+                    "(C) at its maximum value for the orbit",
+                    "(D) at its minimum value for the orbit, but greater than zero",
+                    "(E) equal to zero"
+                  ],
+                  "correct_option": "(C) at its maximum value for the orbit",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 24,
+                    "section": "Section I: Multiple Choice — Questions 22-24",
+                    "exercise_ref": "22"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "At position 2, the comet's kinetic energy is"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) the same as at position 1\n(B) less than at position 1\n(C) at its maximum value for the orbit\n(D) at its minimum value for the orbit, but greater than zero\n(E) equal to zero"
+                    }
+                  ]
+                },
+                {
+                  "id": "q23",
+                  "label": "23",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "Wait — printed key for Q22 is C; problem says position 2 is FARTHEST so KE there is minimum. The published key reads C; some references list D. We use printed key C.",
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) 1/100",
+                    "(B) 1/10",
+                    "(C) 1",
+                    "(D) 10",
+                    "(E) 100"
+                  ],
+                  "correct_option": "(B) 1/10",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 24,
+                    "section": "Section I: Multiple Choice — Questions 22-24",
+                    "exercise_ref": "23"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "What is the ratio v_1 / v_2 of the speed of the comet at position 1 to the speed at position 2?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) 1/100\n(B) 1/10\n(C) 1\n(D) 10\n(E) 100"
+                    }
+                  ]
+                },
+                {
+                  "id": "q24",
+                  "label": "24",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.9,
+                  "notes": "F ~ 1/r^2 with r1 = r2/10 → F1/F2 = 100. The printed answer key gives A (1/100). Either there is a key/orientation inconsistency in the released exam OR the labeling of positions in different printings differs. We follow the printed CB key.",
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) 1/100",
+                    "(B) 1/10",
+                    "(C) 1",
+                    "(D) 10",
+                    "(E) 100"
+                  ],
+                  "correct_option": "(A) 1/100",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 24,
+                    "section": "Section I: Multiple Choice — Questions 22-24",
+                    "exercise_ref": "24"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "What is the ratio F_1 / F_2 of the force on the comet at position 1 to the force on the comet at position 2?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) 1/100\n(B) 1/10\n(C) 1\n(D) 10\n(E) 100"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt15",
+          "label": "Differential equation for SHM (spring-mass)",
+          "section_ref": "7.3.A",
+          "primary_slo": "7.3.A.2",
+          "notes": "Pick the second-order ODE -kx = m d^2x/dt^2 that follows from Newton's second law applied to a spring restoring force.",
+          "slo_weights": [
+            {
+              "slo": "7.3.A.2",
+              "weight": 0.55
+            },
+            {
+              "slo": "7.1.A.2",
+              "weight": 0.3
+            },
+            {
+              "slo": "2.8.A.2",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "7.1.A.2",
+              "weight": 0.3
+            },
+            {
+              "slo": "2.8.A.2",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q21",
+              "label": "21",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) k x = m d^2x/dt^2",
+                "(B) -k x = m d^2x/dt^2",
+                "(C) -k v = m dv/dt",
+                "(D) k x = m dx/dt",
+                "(E) m g - k v = m dv/dt"
+              ],
+              "correct_option": "(B) -k x = m d^2x/dt^2",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 23,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "21"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Which of the following is a differential equation that correctly describes Newton's second law for a simple harmonic oscillator of mass m and restoring force constant k ?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) k x = m d^2x/dt^2\n(B) -k x = m d^2x/dt^2\n(C) -k v = m dv/dt\n(D) k x = m dx/dt\n(E) m g - k v = m dv/dt"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u3",
+      "label": "Unit 3: Work, Energy, and Power",
+      "question_types": [
+        {
+          "id": "qt16",
+          "label": "Power required to lift mass at constant speed",
+          "section_ref": "3.5.A",
+          "primary_slo": "3.5.A.3",
+          "notes": "Use P = W/t with W = m g h to solve for time.",
+          "slo_weights": [
+            {
+              "slo": "3.5.A.3",
+              "weight": 0.55
+            },
+            {
+              "slo": "3.5.A.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "3.2.A.3.iii",
+              "weight": 0.25
+            }
+          ],
+          "aligned_slos": [
+            "3.5.A.2"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "3.2.A.3.iii",
+              "weight": 0.25
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q12",
+              "label": "12",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) 0.25 s",
+                "(B) 0.40 s",
+                "(C) 1.0 s",
+                "(D) 2.0 s",
+                "(E) 4.0 s"
+              ],
+              "correct_option": "(E) 4.0 s",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 21,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "12"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "An electrical motor provides 0.50 W of mechanical power. How much time will it take the motor to lift a 0.1 kg mass at constant speed from the floor to a shelf 2.0 m above the floor?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 0.25 s\n(B) 0.40 s\n(C) 1.0 s\n(D) 2.0 s\n(E) 4.0 s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt17",
+          "label": "Energy conservation with friction on horizontal surface",
+          "section_ref": "3.4.B",
+          "primary_slo": "3.4.B.2",
+          "notes": "Convert gravitational PE at the top of the track into KE at the bottom, then dissipate via friction over horizontal distance to find stop point.",
+          "slo_weights": [
+            {
+              "slo": "3.4.B.2",
+              "weight": 0.45
+            },
+            {
+              "slo": "3.2.A.4.iii",
+              "weight": 0.3
+            },
+            {
+              "slo": "3.2.A.4",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.7.A.1",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "3.2.A.4.iii",
+              "weight": 0.3
+            },
+            {
+              "slo": "3.2.A.4",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.7.A.1",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q13",
+              "label": "13",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) 0.40 m",
+                "(B) 1.0 m",
+                "(C) 2.5 m",
+                "(D) 10 m",
+                "(E) 25 m"
+              ],
+              "correct_option": "(E) 25 m",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 21,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "13"
+              },
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 21,
+                  "bbox": [
+                    0.5,
+                    0.45,
+                    0.95,
+                    0.68
+                  ],
+                  "caption": "Block sliding down frictionless track to point P, then onto rough surface",
+                  "alt": "A frictionless curved track of vertical drop 5.0 m terminating at point P at the level of a horizontal rough surface with friction coefficient mu = 0.20."
+                },
+                {
+                  "type": "text",
+                  "value": "A block slides from rest with negligible friction down the track above, descending a vertical height of 5.0 m to point P at the bottom. It then slides on the horizontal surface. The coefficient of friction between the block and the horizontal surface is 0.20. How far does the block slide on the horizontal surface before it comes to rest?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 0.40 m\n(B) 1.0 m\n(C) 2.5 m\n(D) 10 m\n(E) 25 m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt18",
+          "label": "Potential energy from a conservative force F(x)",
+          "section_ref": "3.3.A",
+          "primary_slo": "3.3.A.1",
+          "notes": "Integrate F = -dU/dx with F = -k x^3 to obtain U = (1/4) k x^4.",
+          "slo_weights": [
+            {
+              "slo": "3.3.A.1",
+              "weight": 0.65
+            },
+            {
+              "slo": "3.2.A.1.i",
+              "weight": 0.2
+            },
+            {
+              "slo": "3.2.A.3",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "3.2.A.1.i",
+              "weight": 0.2
+            },
+            {
+              "slo": "3.2.A.3",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q20",
+              "label": "20",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) U = -(1/2) k x^2",
+                "(B) U = (1/2) k x^2",
+                "(C) U = -(1/4) k x^4",
+                "(D) U = (1/4) k x^4",
+                "(E) U = -3 k x^2"
+              ],
+              "correct_option": "(D) U = (1/4) k x^4",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 23,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "20"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A certain one-dimensional conservative force is given as a function of x by the expression F = -k x^3, where F is in newtons and x is in meters. A possible potential energy function U for this force is"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) U = -(1/2) k x^2\n(B) U = (1/2) k x^2\n(C) U = -(1/4) k x^4\n(D) U = (1/4) k x^4\n(E) U = -3 k x^2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt19",
+          "label": "Stable equilibrium from a U(x) function",
+          "section_ref": "3.3.A",
+          "primary_slo": "3.3.A.6",
+          "notes": "Find where dU/dx = 0 and d^2U/dx^2 > 0 to identify stable equilibrium for U = (1/2) k x^2 - alpha x.",
+          "slo_weights": [
+            {
+              "slo": "3.3.A.6",
+              "weight": 0.5
+            },
+            {
+              "slo": "3.3.A.1",
+              "weight": 0.3
+            },
+            {
+              "slo": "7.1.A.2.ii",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [
+            "3.3.A.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "7.1.A.2.ii",
+              "weight": 0.2
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q32",
+              "label": "32",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) x = 0 only",
+                "(B) x = alpha/k only",
+                "(C) x = 2*alpha/k only",
+                "(D) x = 0 and alpha/k",
+                "(E) x = 0 and 2*alpha/k"
+              ],
+              "correct_option": "(B) x = alpha/k only",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 26,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "32"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Suppose that the potential energy of a particle constrained to move along the x-axis can be described by the function U(x) = (1/2) k x^2 - alpha x, where both k and alpha are positive constants. Stable equilibrium points, about which the particle oscillates, are located at"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) x = 0 only\n(B) x = alpha/k only\n(C) x = 2*alpha/k only\n(D) x = 0 and alpha/k\n(E) x = 0 and 2*alpha/k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt20",
+          "label": "Average force from work-energy theorem",
+          "section_ref": "3.2.A",
+          "primary_slo": "3.2.A.4",
+          "notes": "Use W = F d = (1/2) m v^2 to compute the average force over the throwing distance.",
+          "slo_weights": [
+            {
+              "slo": "3.2.A.4",
+              "weight": 0.55
+            },
+            {
+              "slo": "3.2.A.3.iii",
+              "weight": 0.25
+            },
+            {
+              "slo": "3.1.A.1",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "3.2.A.3.iii",
+              "weight": 0.25
+            },
+            {
+              "slo": "3.1.A.1",
+              "weight": 0.2
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q27",
+              "label": "27",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) 3.3 N",
+                "(B) 16.7 N",
+                "(C) 81 N",
+                "(D) 100 N",
+                "(E) 200 N"
+              ],
+              "correct_option": "(D) 100 N",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 25,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "27"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A person throws a ball of mass 0.20 kg. The ball starts from rest, accelerates horizontally and uniformly through a distance of 0.90 m, and leaves the person's hand at 30 m/s. The average horizontal force applied to the ball by the person's hand is"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 3.3 N\n(B) 16.7 N\n(C) 81 N\n(D) 100 N\n(E) 200 N"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u4",
+      "label": "Unit 4: Linear Momentum",
+      "question_types": [
+        {
+          "id": "qt21",
+          "label": "Units of momentum (dimensional analysis)",
+          "section_ref": "4.1.A",
+          "primary_slo": "4.1.A.1",
+          "notes": "Recognize kg·m/s = N·s as a unit of momentum (and impulse).",
+          "slo_weights": [
+            {
+              "slo": "4.1.A.1",
+              "weight": 0.55
+            },
+            {
+              "slo": "4.2.B.2.i",
+              "weight": 0.3
+            },
+            {
+              "slo": "4.2.A.2",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "4.2.B.2.i",
+              "weight": 0.3
+            },
+            {
+              "slo": "4.2.A.2",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q6",
+              "label": "6",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) Joule",
+                "(B) Newton",
+                "(C) Joule · second",
+                "(D) Newton · second",
+                "(E) Newton · meter"
+              ],
+              "correct_option": "(D) Newton · second",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 20,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "6"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Which of the following is equivalent to a unit of momentum?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Joule\n(B) Newton\n(C) Joule · second\n(D) Newton · second\n(E) Newton · meter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt22",
+          "label": "Conservation laws in a glancing collision",
+          "section_ref": "4.3.A",
+          "primary_slo": "4.3.A.3",
+          "notes": "Momentum is always conserved during a collision; KE may or may not be conserved depending on whether collision is elastic.",
+          "slo_weights": [
+            {
+              "slo": "4.3.A.3",
+              "weight": 0.45
+            },
+            {
+              "slo": "4.4.A.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "4.4.A.3",
+              "weight": 0.2
+            },
+            {
+              "slo": "4.3.B.1",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "4.4.A.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "4.4.A.3",
+              "weight": 0.2
+            },
+            {
+              "slo": "4.3.B.1",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q9",
+              "label": "9",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) Momentum is always conserved, and kinetic energy may be conserved.",
+                "(B) Kinetic energy is always conserved, and momentum may be conserved.",
+                "(C) Momentum is always conserved, and kinetic energy is never conserved.",
+                "(D) Both momentum and kinetic energy are always conserved.",
+                "(E) Neither momentum nor kinetic energy is conserved."
+              ],
+              "correct_option": "(A) Momentum is always conserved, and kinetic energy may be conserved.",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 21,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "9"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "An object moving on a horizontal, frictionless surface makes a glancing collision with another object initially at rest on the surface. In this case which of the following is true about momentum and kinetic energy?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Momentum is always conserved, and kinetic energy may be conserved.\n(B) Kinetic energy is always conserved, and momentum may be conserved.\n(C) Momentum is always conserved, and kinetic energy is never conserved.\n(D) Both momentum and kinetic energy are always conserved.\n(E) Neither momentum nor kinetic energy is conserved."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt23",
+          "label": "Equal-impulse comparison of momentum changes for unequal masses",
+          "section_ref": "4.2.B",
+          "primary_slo": "4.2.B.2.i",
+          "notes": "Impulse-momentum theorem: same net force * same time → identical change in momentum, independent of mass.",
+          "slo_weights": [
+            {
+              "slo": "4.2.B.2.i",
+              "weight": 0.55
+            },
+            {
+              "slo": "4.2.A.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "4.2.B.1",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "4.2.A.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "4.2.B.1",
+              "weight": 0.2
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q18",
+              "label": "18",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) It is smaller than the change in linear momentum of the larger mass but not zero.",
+                "(B) It is larger than the change in linear momentum of the larger mass.",
+                "(C) It is equal to the change in linear momentum of the larger mass.",
+                "(D) It is zero.",
+                "(E) It depends on the relative diameters of the two masses."
+              ],
+              "correct_option": "(C) It is equal to the change in linear momentum of the larger mass.",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 23,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "18"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Identical net forces act for the same length of time on two different spherical masses. Which of the following describes the change in linear momentum of the smaller mass compared to that of the larger mass?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) It is smaller than the change in linear momentum of the larger mass but not zero.\n(B) It is larger than the change in linear momentum of the larger mass.\n(C) It is equal to the change in linear momentum of the larger mass.\n(D) It is zero.\n(E) It depends on the relative diameters of the two masses."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt24",
+          "label": "Perfectly inelastic 1D collision speed",
+          "section_ref": "4.4.A",
+          "primary_slo": "4.4.A.5",
+          "notes": "Apply conservation of momentum to two objects that stick together; signs of velocities must be tracked.",
+          "slo_weights": [
+            {
+              "slo": "4.4.A.5",
+              "weight": 0.45
+            },
+            {
+              "slo": "4.3.A.2",
+              "weight": 0.3
+            },
+            {
+              "slo": "4.3.A.3",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.1.A.5",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "4.3.A.2",
+              "weight": 0.3
+            },
+            {
+              "slo": "4.3.A.3",
+              "weight": 0.15
+            },
+            {
+              "slo": "1.1.A.5",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q28",
+              "label": "28",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) (2/3) m/s",
+                "(B) 1 m/s",
+                "(C) (5/3) m/s",
+                "(D) (10/3) m/s",
+                "(E) 7 m/s"
+              ],
+              "correct_option": "(A) (2/3) m/s",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 25,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "28"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A railroad car of mass 1500 kg rolls to the right at 4 m/s and collides with another railroad car of mass 3000 kg that is rolling to the left at 3 m/s. The cars stick together. Their speed immediately after the collision is"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) (2/3) m/s\n(B) 1 m/s\n(C) (5/3) m/s\n(D) (10/3) m/s\n(E) 7 m/s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt25",
+          "label": "Impulse magnitude on a rebounding ball",
+          "section_ref": "4.2.B",
+          "primary_slo": "4.2.B.2.i",
+          "notes": "Magnitude of impulse equals |Delta p| = m(v_f + v_i) when initial and final velocities are in opposite directions.",
+          "slo_weights": [
+            {
+              "slo": "4.2.B.2.i",
+              "weight": 0.55
+            },
+            {
+              "slo": "4.2.B.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "1.1.A.5",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "4.2.B.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "1.1.A.5",
+              "weight": 0.2
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q33",
+              "label": "33",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) 2 m (v_f - v_i)",
+                "(B) m (v_f - v_i)",
+                "(C) m (v_f + v_i)",
+                "(D) m v_i",
+                "(E) m v_f"
+              ],
+              "correct_option": "(C) m (v_f + v_i)",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 26,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "33"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A ball of mass m falls vertically, hits the floor with a speed v_i, and rebounds with a speed v_f. What is the magnitude of the impulse exerted on the ball by the floor?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 2 m (v_f - v_i)\n(B) m (v_f - v_i)\n(C) m (v_f + v_i)\n(D) m v_i\n(E) m v_f"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u5",
+      "label": "Unit 5: Torque and Rotational Dynamics",
+      "question_types": [
+        {
+          "id": "qt26",
+          "label": "Parallel-axis theorem for a uniform rod",
+          "section_ref": "5.4.B",
+          "primary_slo": "5.4.B.2",
+          "notes": "Use I = I_cm + Md^2 with d = l/4 to extend rod's moment of inertia from center to halfway-to-end axis.",
+          "slo_weights": [
+            {
+              "slo": "5.4.B.2",
+              "weight": 0.65
+            },
+            {
+              "slo": "5.4.A.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "5.4.A.4",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "5.4.A.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "5.4.A.4",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q19",
+              "label": "19",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) (1/3) m l^2",
+                "(B) (1/6) m l^2",
+                "(C) (1/12) m l^2",
+                "(D) (1/48) m l^2",
+                "(E) (7/48) m l^2"
+              ],
+              "correct_option": "(E) (7/48) m l^2",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 23,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "19"
+              },
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 23,
+                  "bbox": [
+                    0.05,
+                    0.3,
+                    0.5,
+                    0.5
+                  ],
+                  "caption": "Uniform rod of length l with point P at l/4 from end",
+                  "alt": "A horizontal rectangular rod of length l with a marked point P located at distance l/4 from one end (halfway between center and end)."
+                },
+                {
+                  "type": "text",
+                  "value": "The uniform thin rod shown above has mass m and length l. The moment of inertia of the rod about an axis through its center and perpendicular to the rod is (1/12) m l^2. What is the moment of inertia of the rod about an axis perpendicular to the rod and passing through point P, which is halfway between the center and the end of the rod?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) (1/3) m l^2\n(B) (1/6) m l^2\n(C) (1/12) m l^2\n(D) (1/48) m l^2\n(E) (7/48) m l^2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt27",
+          "label": "Net torque on a meterstick about a fulcrum",
+          "section_ref": "5.3.B",
+          "primary_slo": "5.3.B.2",
+          "notes": "Compute net torque from gravitational forces on two hanging masses about the fulcrum at 0.4 m.",
+          "slo_weights": [
+            {
+              "slo": "5.3.B.2",
+              "weight": 0.55
+            },
+            {
+              "slo": "5.3.A.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "5.3.A.2",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "5.3.A.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "5.3.A.2",
+              "weight": 0.2
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q29",
+              "label": "29",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "question_format": "mcq",
+              "options": [
+                "(A) 1 N·m",
+                "(B) 2 N·m",
+                "(C) 2.5 N·m",
+                "(D) 7 N·m",
+                "(E) 7.5 N·m"
+              ],
+              "correct_option": "(A) 1 N·m",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 25,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "29"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A meterstick of negligible mass is placed on a fulcrum at the 0.4 m mark, with a 1 kg mass hung at the zero mark and a 0.5 kg mass hung at the 1.0 m mark. The meterstick is held horizontal and released. Immediately after release, the magnitude of the net torque on the meterstick about the fulcrum is most nearly"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 1 N·m\n(B) 2 N·m\n(C) 2.5 N·m\n(D) 7 N·m\n(E) 7.5 N·m"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u6",
+      "label": "Unit 6: Energy and Momentum of Rotating Systems",
+      "question_types": [
+        {
+          "id": "qt28",
+          "label": "Ring transitioning from sliding to rolling-without-slipping under friction",
+          "section_ref": "6.5.B",
+          "primary_slo": "6.5.C.2",
+          "notes": "Multipart FRQ derives v(t), omega(t) from translational and rotational Newton II, finds time and distance until rolling-without-slipping condition v = R omega is reached.",
+          "slo_weights": [
+            {
+              "slo": "6.5.C.2",
+              "weight": 0.3
+            },
+            {
+              "slo": "6.5.B.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "5.6.A.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.7.A.1",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "6.5.B.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "5.6.A.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.5.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.7.A.1",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_frq3",
+              "label": "Mech. 3",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "frq3",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 38,
+                  "bbox": [
+                    0.1,
+                    0.05,
+                    0.95,
+                    0.2
+                  ],
+                  "caption": "Ring transitioning from sliding only, to sliding and rotating, to rotating with no sliding",
+                  "alt": "Three illustrations of a ring of radius R: (1) sliding with velocity v0 on a frictionless surface, (2) sliding and rotating on a friction surface, (3) rolling without sliding after traveling distance L. Frictionless region to the left of t=0; friction with coefficient mu to the right."
+                },
+                {
+                  "type": "text",
+                  "value": "A ring of mass M, radius R, and rotational inertia M R^2 is initially sliding on a frictionless surface at constant velocity v_0 to the right, as shown above. At time t = 0 it encounters a surface with coefficient of friction mu and begins sliding and rotating. After traveling a distance L, the ring begins rolling without sliding. Express all answers to the following in terms of M, R, v_0, mu, and fundamental constants, as appropriate."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q_frq3_a_i",
+                  "label": "Mech. 3(a)i",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.9,
+                  "notes": "",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 38,
+                    "section": "Section II: Free Response — Mech. 3",
+                    "exercise_ref": "Mech. 3(a)i"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(a) Starting from Newton's second law in either translational or rotational form, as appropriate, derive a differential equation that can be used to solve for the magnitude of the following as the ring is sliding and rotating.\n\ni. The linear velocity v of the ring as a function of time t"
+                    }
+                  ]
+                },
+                {
+                  "id": "q_frq3_a_ii",
+                  "label": "Mech. 3(a)ii",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.9,
+                  "notes": "",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 38,
+                    "section": "Section II: Free Response — Mech. 3",
+                    "exercise_ref": "Mech. 3(a)ii"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(a) Starting from Newton's second law in either translational or rotational form, as appropriate, derive a differential equation that can be used to solve for the magnitude of the following as the ring is sliding and rotating.\n\nii. The angular velocity omega of the ring as a function of time t"
+                    }
+                  ]
+                },
+                {
+                  "id": "q_frq3_b_i",
+                  "label": "Mech. 3(b)i",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.9,
+                  "notes": "",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 38,
+                    "section": "Section II: Free Response — Mech. 3",
+                    "exercise_ref": "Mech. 3(b)i"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(b) Derive an expression for the magnitude of the following as the ring is sliding and rotating.\n\ni. The linear velocity v of the ring as a function of time t"
+                    }
+                  ]
+                },
+                {
+                  "id": "q_frq3_b_ii",
+                  "label": "Mech. 3(b)ii",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.9,
+                  "notes": "",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 38,
+                    "section": "Section II: Free Response — Mech. 3",
+                    "exercise_ref": "Mech. 3(b)ii"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(b) Derive an expression for the magnitude of the following as the ring is sliding and rotating.\n\nii. The angular velocity omega of the ring as a function of time t"
+                    }
+                  ]
+                },
+                {
+                  "id": "q_frq3_c",
+                  "label": "Mech. 3(c)",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.9,
+                  "notes": "",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 39,
+                    "section": "Section II: Free Response — Mech. 3",
+                    "exercise_ref": "Mech. 3(c)"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(c) Derive an expression for the time it takes the ring to travel the distance L."
+                    }
+                  ]
+                },
+                {
+                  "id": "q_frq3_d",
+                  "label": "Mech. 3(d)",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.9,
+                  "notes": "",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 39,
+                    "section": "Section II: Free Response — Mech. 3",
+                    "exercise_ref": "Mech. 3(d)"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(d) Derive an expression for the magnitude of the velocity of the ring immediately after it has traveled the distance L."
+                    }
+                  ]
+                },
+                {
+                  "id": "q_frq3_e",
+                  "label": "Mech. 3(e)",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.9,
+                  "notes": "",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 39,
+                    "section": "Section II: Free Response — Mech. 3",
+                    "exercise_ref": "Mech. 3(e)"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(e) Derive an expression for the distance L."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u7",
+      "label": "Unit 7: Oscillations",
+      "question_types": [
+        {
+          "id": "qt29",
+          "label": "Reading SHM y(t) graph for time of max upward velocity and spring constant",
+          "section_ref": "7.3.A",
+          "primary_slo": "7.3.A.1.ii",
+          "notes": "Identify the moment when y(t) crosses equilibrium moving upward, and use period to back out spring constant.",
+          "slo_weights": [
+            {
+              "slo": "7.3.A.1.ii",
+              "weight": 0.4
+            },
+            {
+              "slo": "7.2.A.1.i",
+              "weight": 0.3
+            },
+            {
+              "slo": "7.4.A.3",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.8.A.2",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "7.2.A.1.i",
+              "weight": 0.3
+            },
+            {
+              "slo": "7.4.A.3",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.8.A.2",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q16_q17",
+              "label": "16-17",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "stem_q16_17",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 22,
+                  "bbox": [
+                    0.5,
+                    0.05,
+                    0.95,
+                    0.3
+                  ],
+                  "caption": "Vertical position y vs time for a vertical spring oscillator",
+                  "alt": "Graph of y in meters vs t in seconds showing a sinusoidal oscillation with peaks near y = -0.10 m and troughs near y = -0.35 m, period about 0.7 s."
+                },
+                {
+                  "type": "text",
+                  "value": "An unstretched ideal spring hangs vertically from a fixed support. A 0.4 kg object is then attached to the lower end of the spring. The object is pulled down to a distance of 0.35 m below the unstretched position and released from rest at time t = 0. A graph of the subsequent vertical position y of the lower end of the spring as a function of t is given above, where y = 0 when the spring was initially unstretched."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q16",
+                  "label": "16",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.9,
+                  "notes": "",
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) 0.00 s",
+                    "(B) 0.25 s",
+                    "(C) 0.50 s",
+                    "(D) 0.75 s",
+                    "(E) 1.00 s"
+                  ],
+                  "correct_option": "(B) 0.25 s",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 22,
+                    "section": "Section I: Multiple Choice — Questions 16-17",
+                    "exercise_ref": "16"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "At which of the following times is the upward velocity of the object the greatest?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) 0.00 s\n(B) 0.25 s\n(C) 0.50 s\n(D) 0.75 s\n(E) 1.00 s"
+                    }
+                  ]
+                },
+                {
+                  "id": "q17",
+                  "label": "17",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.85,
+                  "notes": "From the equilibrium position (midpoint between peak and trough at y = -0.225 m) and m = 0.4 kg, k = m g / x_eq ~ 16 N/m.",
+                  "question_format": "mcq",
+                  "options": [
+                    "(A) 16 N/m",
+                    "(B) 20 N/m",
+                    "(C) 32 N/m",
+                    "(D) 40 N/m",
+                    "(E) 64 N/m"
+                  ],
+                  "correct_option": "(A) 16 N/m",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 22,
+                    "section": "Section I: Multiple Choice — Questions 16-17",
+                    "exercise_ref": "17"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "What is the spring constant of the spring?"
+                    },
+                    {
+                      "type": "text",
+                      "value": "(A) 16 N/m\n(B) 20 N/m\n(C) 32 N/m\n(D) 40 N/m\n(E) 64 N/m"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt30",
+          "label": "Acceleration vs displacement graph for SHM",
+          "section_ref": "7.3.A",
+          "primary_slo": "7.3.A.2",
+          "notes": "For SHM, a = -omega^2 x, so a(x) is a straight line through the origin with negative slope.",
+          "slo_weights": [
+            {
+              "slo": "7.3.A.2",
+              "weight": 0.55
+            },
+            {
+              "slo": "7.1.A.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "7.3.A.1.i",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "7.1.A.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "7.3.A.1.i",
+              "weight": 0.2
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q30",
+              "label": "30",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.9,
+              "notes": "Printed key gives A, but a = -omega^2 x is a line of negative slope through origin (graph A in this layout where line slopes down from top-left to bottom-right).",
+              "question_format": "mcq",
+              "options": [
+                "(A) Graph A — line of negative slope through origin",
+                "(B) Graph B — line of positive slope through origin",
+                "(C) Graph C — V-shape opening upward at the origin",
+                "(D) Graph D — concave-up parabola with minimum at the origin",
+                "(E) Graph E — concave-down parabola with maximum above the origin"
+              ],
+              "correct_option": "(A) Graph A — line of negative slope through origin",
+              "source_reference": {
+                "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                "textbook_key": "cb_appc_mech_released_2012",
+                "page": 25,
+                "section": "Section I: Multiple Choice",
+                "exercise_ref": "30"
+              },
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 25,
+                  "bbox": [
+                    0.5,
+                    0.04,
+                    0.95,
+                    0.95
+                  ],
+                  "caption": "Five candidate a-vs-x graphs labeled (A)–(E)",
+                  "alt": "Five candidate graphs of acceleration a vs displacement x: (A) line with negative slope through origin, (B) line with positive slope through origin, (C) V-shape with vertex at origin, (D) concave-up parabola with minimum at origin, (E) concave-down parabola with maximum at origin."
+                },
+                {
+                  "type": "text",
+                  "value": "An object undergoes simple harmonic motion along the x-axis shown above, where x = 0 is the object's equilibrium position. Which of the following graphs best shows the relationship between the object's acceleration a and its displacement x from equilibrium? (Assume positive a to be acceleration directed to the right.)"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Graph A — line of negative slope through origin\n(B) Graph B — line of positive slope through origin\n(C) Graph C — V-shape opening upward at the origin\n(D) Graph D — concave-up parabola with minimum at the origin\n(E) Graph E — concave-down parabola with maximum above the origin"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt31",
+          "label": "SHM spring-mass: deriving v(t), x(t), k, free-body diagrams, and damped v-t sketch",
+          "section_ref": "7.3.A",
+          "primary_slo": "7.3.A.3",
+          "notes": "Multipart FRQ asks for sinusoidal v(t) and x(t) from a v-t graph, k from period, FBDs in two motion directions on a rough surface, and a damped sketch.",
+          "slo_weights": [
+            {
+              "slo": "7.3.A.3",
+              "weight": 0.3
+            },
+            {
+              "slo": "7.2.A.1.i",
+              "weight": 0.2
+            },
+            {
+              "slo": "7.4.A.4.ii",
+              "weight": 0.1
+            },
+            {
+              "slo": "2.2.B.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.7.A.1",
+              "weight": 0.2
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            {
+              "slo": "7.2.A.1.i",
+              "weight": 0.2
+            },
+            {
+              "slo": "7.4.A.4.ii",
+              "weight": 0.1
+            },
+            {
+              "slo": "2.2.B.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.7.A.1",
+              "weight": 0.2
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_frq1",
+              "label": "Mech. 1",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "frq1",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 34,
+                  "bbox": [
+                    0.1,
+                    0.05,
+                    0.95,
+                    0.2
+                  ],
+                  "caption": "Spring-mass on frictionless table (Experiment 1)",
+                  "alt": "A horizontal spring of constant k attached to a fixed wall on the left and a 0.30 kg block on the right; the block sits on a frictionless table at equilibrium position x = 0."
+                },
+                {
+                  "type": "image",
+                  "page": 34,
+                  "bbox": [
+                    0.18,
+                    0.4,
+                    0.85,
+                    0.65
+                  ],
+                  "caption": "Velocity v vs time t for Experiment 1",
+                  "alt": "Graph of velocity v (m/s) from -0.2 to 0.2 vs time t (s) from 0.0 to 2.0 showing sinusoidal oscillation with amplitude about 0.16 m/s and period roughly 0.7 s, starting at 0 with negative slope."
+                },
+                {
+                  "type": "text",
+                  "value": "Mech. 1.\nExperiment 1. A block of mass 0.30 kg is placed on a frictionless table and is attached to one end of a horizontal spring of spring constant k, as shown above. The other end of the spring is attached to a fixed wall. The block is set into oscillatory motion by stretching the spring and releasing the block from rest at time t = 0. A motion detector is used to record the position of the block as it oscillates. The resulting graph of velocity v versus time t is shown below. The positive direction for all quantities is to the right."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q_frq1_a",
+                  "label": "Mech. 1(a)",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 34,
+                    "section": "Section II: Free Response — Mech. 1",
+                    "exercise_ref": "Mech. 1(a)"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(a) Determine the equation for v(t), including numerical values for all constants."
+                    }
+                  ]
+                },
+                {
+                  "id": "q_frq1_b",
+                  "label": "Mech. 1(b)",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 34,
+                    "section": "Section II: Free Response — Mech. 1",
+                    "exercise_ref": "Mech. 1(b)"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(b) Given that the equilibrium position is at x = 0, determine the equation for x(t), including numerical values for all constants."
+                    }
+                  ]
+                },
+                {
+                  "id": "q_frq1_c",
+                  "label": "Mech. 1(c)",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 35,
+                    "section": "Section II: Free Response — Mech. 1",
+                    "exercise_ref": "Mech. 1(c)"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(c) Calculate the value of k."
+                    }
+                  ]
+                },
+                {
+                  "id": "q_frq1_d",
+                  "label": "Mech. 1(d)",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 35,
+                    "section": "Section II: Free Response — Mech. 1",
+                    "exercise_ref": "Mech. 1(d)"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "image",
+                      "page": 35,
+                      "bbox": [
+                        0.1,
+                        0.3,
+                        0.95,
+                        0.5
+                      ],
+                      "caption": "Experiment 2 setup: spring-mass on rough surface, compressed by d",
+                      "alt": "A horizontal spring on a rough surface with a block compressed a distance d from the equilibrium position, then released."
+                    },
+                    {
+                      "type": "text",
+                      "value": "Experiment 2. The block and spring arrangement is now placed on a rough surface, as shown below. The block is displaced so that the spring is compressed a distance d and released from rest.\n\n(d) On the dots below that represent the block, draw and label the forces (not components) that act on the block when the spring is compressed a distance x = d/2 and the block is moving in the direction indicated below each dot. (One dot is labeled 'Toward the equilibrium position', the other 'Away from the equilibrium position'.)"
+                    }
+                  ]
+                },
+                {
+                  "id": "q_frq1_e",
+                  "label": "Mech. 1(e)",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 35,
+                    "section": "Section II: Free Response — Mech. 1",
+                    "exercise_ref": "Mech. 1(e)"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "image",
+                      "page": 35,
+                      "bbox": [
+                        0.18,
+                        0.7,
+                        0.85,
+                        0.95
+                      ],
+                      "caption": "Blank velocity vs time grid",
+                      "alt": "Empty plot grid with axes labeled Velocity v (m/s) vs Time t (s) from 0.0 to 2.0 s, ready for student sketch."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(e) Draw a sketch of v versus t in this case. Assume that there is a negligible change in the period and that the positive direction is still to the right."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt32",
+          "label": "Designing a conservation-of-mechanical-energy lab using gravitational PE → KE",
+          "section_ref": "3.4.B",
+          "primary_slo": "3.4.B.2",
+          "notes": "Multipart FRQ asks the student to plan equipment, procedure, calculations, and explain energy gain/loss in a lab where gravitational PE converts to translational KE.",
+          "slo_weights": [
+            {
+              "slo": "3.4.B.2",
+              "weight": 0.3
+            },
+            {
+              "slo": "3.4.C.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "3.4.C.3",
+              "weight": 0.15
+            },
+            {
+              "slo": "3.4.B.4",
+              "weight": 0.15
+            },
+            {
+              "slo": "3.2.A.1.iv",
+              "weight": 0.1
+            },
+            {
+              "slo": "3.1.A.1",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [
+            "3.4.B.4"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "3.4.C.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "3.4.C.3",
+              "weight": 0.15
+            },
+            {
+              "slo": "3.2.A.1.iv",
+              "weight": 0.1
+            },
+            {
+              "slo": "3.1.A.1",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_frq2",
+              "label": "Mech. 2",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "frq2",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "Mech. 2.\nYou are to perform an experiment investigating the conservation of mechanical energy involving a transformation from initial gravitational potential energy to translational kinetic energy."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q_frq2_a",
+                  "label": "Mech. 2(a)",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 36,
+                    "section": "Section II: Free Response — Mech. 2",
+                    "exercise_ref": "Mech. 2(a)"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(a) You are given the equipment listed below, all the supports required to hold the equipment, and a lab table. On the list below, indicate each piece of equipment you would use by checking the line next to each item.\n\n____ Track       ____ Meterstick       ____ Set of objects of different masses\n____ Cart        ____ Electronic balance ____ Lightweight low-friction pulley\n____ String      ____ Stopwatch"
+                    }
+                  ]
+                },
+                {
+                  "id": "q_frq2_b",
+                  "label": "Mech. 2(b)",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 36,
+                    "section": "Section II: Free Response — Mech. 2",
+                    "exercise_ref": "Mech. 2(b)"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(b) Outline a procedure for performing the experiment. Include a diagram of your experimental setup. Label the equipment in your diagram. Also include a description of the measurements you would make and a symbol for each measurement."
+                    }
+                  ]
+                },
+                {
+                  "id": "q_frq2_c",
+                  "label": "Mech. 2(c)",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 37,
+                    "section": "Section II: Free Response — Mech. 2",
+                    "exercise_ref": "Mech. 2(c)"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(c) Give a detailed account of the calculations of gravitational potential energy and translational kinetic energy both before and after the transformation, in terms of the quantities measured in part (b)."
+                    }
+                  ]
+                },
+                {
+                  "id": "q_frq2_d",
+                  "label": "Mech. 2(d)",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 37,
+                    "section": "Section II: Free Response — Mech. 2",
+                    "exercise_ref": "Mech. 2(d)"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(d) After your first trial, your calculations show that the energy increased during the experiment. Assuming you made no mathematical errors, give a reasonable explanation for this result."
+                    }
+                  ]
+                },
+                {
+                  "id": "q_frq2_e",
+                  "label": "Mech. 2(e)",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "CB AP Physics C: Mechanics Released Exam 2012 — Section I (MCQ) + Section II (FRQ) — extracted 2026-05",
+                    "textbook_key": "cb_appc_mech_released_2012",
+                    "page": 37,
+                    "section": "Section II: Free Response — Mech. 2",
+                    "exercise_ref": "Mech. 2(e)"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "(e) On all other trials, your calculations show that the energy decreased during the experiment. Assuming you made no mathematical errors, give a reasonable physical explanation for the fact that the average energy you determined decreased. Include references to conservative and nonconservative forces, as appropriate."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

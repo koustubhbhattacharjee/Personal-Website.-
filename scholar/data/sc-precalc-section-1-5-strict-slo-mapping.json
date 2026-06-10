@@ -1,0 +1,60 @@
+{
+  "question_types": [
+    {
+      "title": "Finding the Domain of a Function Algebraically",
+      "slo_weights": [
+        { "slo": "PC.FIF.5.1", "weight": 0.60 },
+        { "slo": "PC.ASE.1.2", "weight": 0.40 }
+      ],
+      "primary_slo": "PC.FIF.5.1",
+      "aligned_slos": [],
+      "reinforcement_slos": [
+        { "slo": "PC.ASE.1.2", "weight": 0.40 }
+      ],
+      "lo_confidence": "medium",
+      "mapping_rationale": "These items focus on determining the domain of functions, which most naturally aligns to interpreting valid input values for a function. Because the work is done algebraically through expression constraints in polynomial, rational, and radical forms, the task also depends substantially on analyzing expression structure."
+    },
+    {
+      "title": "Identifying Intervals of Increase and Decrease from a Graph",
+      "slo_weights": [
+        { "slo": "PC.FIF.4.1", "weight": 0.85 },
+        { "slo": "PC.FIF.5.1", "weight": 0.15 }
+      ],
+      "primary_slo": "PC.FIF.4.1",
+      "aligned_slos": [],
+      "reinforcement_slos": [
+        { "slo": "PC.FIF.5.1", "weight": 0.15 }
+      ],
+      "lo_confidence": "medium",
+      "mapping_rationale": "These questions ask students to read key behavioral features directly from graphs, specifically where a function is increasing or decreasing. That is primarily a graph-interpretation skill. Domain awareness is only a minor support here because students must express the behavior over x-intervals."
+    },
+    {
+      "title": "Calculating Average Rate of Change Algebraically",
+      "slo_weights": [
+        { "slo": "PC.FIF.6.1", "weight": 0.80 },
+        { "slo": "PC.ASE.1.2", "weight": 0.20 }
+      ],
+      "primary_slo": "PC.FIF.6.1",
+      "aligned_slos": [],
+      "reinforcement_slos": [
+        { "slo": "PC.ASE.1.2", "weight": 0.20 }
+      ],
+      "lo_confidence": "high",
+      "mapping_rationale": "These items directly assess average rate of change over an interval. Students must evaluate function values and apply the difference quotient correctly, with algebraic structure serving as a supporting skill rather than the main target."
+    },
+    {
+      "title": "Determining Parity (Even/Odd/Neither) Algebraically",
+      "slo_weights": [
+        { "slo": "PC.FIF.4.1", "weight": 0.55 },
+        { "slo": "PC.ASE.1.2", "weight": 0.45 }
+      ],
+      "primary_slo": "PC.FIF.4.1",
+      "aligned_slos": [],
+      "reinforcement_slos": [
+        { "slo": "PC.ASE.1.2", "weight": 0.45 }
+      ],
+      "lo_confidence": "medium",
+      "mapping_rationale": "These items ask students to determine whether a function is even, odd, or neither by analyzing the effect of replacing x with -x. The task is partly about recognizing a key feature of a function and partly about manipulating algebraic structure to test symmetry. This mapping is intentionally conservative unless the overlay explicitly names parity or symmetry under a dedicated code."
+    }
+  ]
+}

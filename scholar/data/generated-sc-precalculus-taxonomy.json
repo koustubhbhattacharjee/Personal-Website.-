@@ -1,0 +1,140 @@
+{
+  "south_carolina": {
+    "precalculus": {
+      "standards": [
+        {
+          "code": "PC.AAPR",
+          "name": "Arithmetic with Polynomials and Rational Expressions",
+          "objectives": [
+            { "code": "PC.AAPR.2", "name": "Division and Remainder Theorems", "subtopics": [{ "id": "PC.AAPR.2.1", "text": "Know and apply the Division Theorem and the Remainder Theorem for polynomials." }] },
+            { "code": "PC.AAPR.3", "name": "Graphing Polynomial Functions", "subtopics": [{ "id": "PC.AAPR.3.1", "text": "Graph polynomials identifying zeros when suitable factorizations are available and indicating end behavior." }, { "id": "PC.AAPR.3.2", "text": "Write a polynomial function of least degree corresponding to a given graph." }] },
+            { "code": "PC.AAPR.4", "name": "Polynomial Identities", "subtopics": [{ "id": "PC.AAPR.4.1", "text": "Prove polynomial identities and use them to describe numerical relationships." }] },
+            { "code": "PC.AAPR.5", "name": "Binomial Theorem", "subtopics": [{ "id": "PC.AAPR.5.1", "text": "Apply the Binomial Theorem to expand powers of binomials, including those with one and with two variables." }, { "id": "PC.AAPR.5.2", "text": "Use the Binomial Theorem to factor squares, cubes, and fourth powers of binomials." }] },
+            { "code": "PC.AAPR.6", "name": "Rewriting Rational Expressions", "subtopics": [{ "id": "PC.AAPR.6.1", "text": "Apply algebraic techniques to rewrite simple rational expressions in different forms using inspection, long division, or, for more complicated examples, a computer algebra system." }] },
+            { "code": "PC.AAPR.7", "name": "Rational Expressions", "subtopics": [{ "id": "PC.AAPR.7.1", "text": "Understand that rational expressions form a system analogous to the rational numbers, closed under addition, subtraction, multiplication, and division by a nonzero rational expression." }, { "id": "PC.AAPR.7.2", "text": "Add, subtract, multiply, and divide rational expressions." }] }
+          ]
+        },
+        {
+          "code": "PC.AREI",
+          "name": "Reasoning with Equations and Inequalities",
+          "objectives": [
+            { "code": "PC.AREI.7", "name": "Linear-Quadratic Systems", "subtopics": [{ "id": "PC.AREI.7.1", "text": "Solve a simple system consisting of a linear equation and a quadratic equation in two variables algebraically and graphically." }, { "id": "PC.AREI.7.2", "text": "Understand that such systems may have zero, one, two, or infinitely many solutions." }] },
+            { "code": "PC.AREI.8", "name": "Matrix Equation Representation", "subtopics": [{ "id": "PC.AREI.8.1", "text": "Represent a system of linear equations as a single matrix equation in a vector variable." }] },
+            { "code": "PC.AREI.9", "name": "Inverse Matrices", "subtopics": [{ "id": "PC.AREI.9.1", "text": "Using technology for matrices of dimension 3 × 3 or greater, find the inverse of a matrix if it exists and use it to solve systems of linear equations." }] },
+            { "code": "PC.AREI.11", "name": "Graphical Solutions to f(x)=g(x)", "subtopics": [{ "id": "PC.AREI.11.1", "text": "Solve an equation of the form f(x) = g(x) graphically by identifying the x-coordinate(s) of the point(s) of intersection of the graphs of y = f(x) and y = g(x)." }] }
+          ]
+        },
+        {
+          "code": "PC.ASE",
+          "name": "Seeing Structure in Expressions",
+          "objectives": [
+            { "code": "PC.ASE.1", "name": "Interpreting Algebraic Structure", "subtopics": [{ "id": "PC.ASE.1.1", "text": "Interpret the meanings of coefficients, factors, terms, and expressions based on their real-world contexts." }, { "id": "PC.ASE.1.2", "text": "Interpret complicated expressions as being composed of simpler expressions." }] },
+            { "code": "PC.ASE.2", "name": "Structure of Polynomial Expressions", "subtopics": [{ "id": "PC.ASE.2.1", "text": "Analyze the structure of binomials, trinomials, and other polynomials in order to rewrite equivalent expressions." }] },
+            { "code": "PC.ASE.4", "name": "Finite Geometric Series", "subtopics": [{ "id": "PC.ASE.4.1", "text": "Derive the formula for the sum of a finite geometric series when the common ratio is not 1." }, { "id": "PC.ASE.4.2", "text": "Use the formula to solve problems including applications to finance." }] }
+          ]
+        },
+        {
+          "code": "PC.FBF",
+          "name": "Building Functions",
+          "objectives": [
+            { "code": "PC.FBF.1", "name": "Combining Functions", "subtopics": [{ "id": "PC.FBF.1.1", "text": "Combine functions using the operations addition, subtraction, multiplication, and division to build new functions that describe relationships between two quantities in mathematical and real-world situations." }] },
+            { "code": "PC.FBF.3", "name": "Transformations of Functions", "subtopics": [{ "id": "PC.FBF.3.1", "text": "Describe the effect of the transformations kf(x), f(x) + k, f(x + k), and combinations of such transformations on the graph of y = f(x) for any real number k." }, { "id": "PC.FBF.3.2", "text": "Find the value of k given the graphs and write the equation of a transformed parent function given its graph." }] },
+            { "code": "PC.FBF.4", "name": "Inverse Functions", "subtopics": [{ "id": "PC.FBF.4.1", "text": "Understand that an inverse function can be obtained by expressing the dependent variable of one function as the independent variable of another, as f and g are inverse functions if and only if f(x) = y and g(y) = x, for all values of x in the domain of f and all values of y in the domain of g, and find inverse functions for one-to-one functions or by restricting the domain." }, { "id": "PC.FBF.4.2", "text": "Use composition to verify one function is an inverse of another." }, { "id": "PC.FBF.4.3", "text": "If a function has an inverse, find values of the inverse function from a graph or table." }] },
+            { "code": "PC.FBF.5", "name": "Exponential and Logarithmic Inverses", "subtopics": [{ "id": "PC.FBF.5.1", "text": "Understand and verify through function composition that exponential and logarithmic functions are inverses of each other." }, { "id": "PC.FBF.5.2", "text": "Use this relationship to solve problems involving logarithms and exponents." }] }
+          ]
+        },
+        {
+          "code": "PC.FIF",
+          "name": "Interpreting Functions",
+          "objectives": [
+            { "code": "PC.FIF.4", "name": "Key Features of Functions", "subtopics": [{ "id": "PC.FIF.4.1", "text": "Interpret key features of a function that models the relationship between two quantities when given in graphical or tabular form." }, { "id": "PC.FIF.4.2", "text": "Sketch the graph of a function from a verbal description showing key features including intercepts, intervals where the function is increasing, decreasing, constant, positive, or negative, relative maximums and minimums, symmetries, end behavior, and periodicity." }] },
+            { "code": "PC.FIF.5", "name": "Domain and Range", "subtopics": [{ "id": "PC.FIF.5.1", "text": "Relate the domain and range of a function to its graph and, where applicable, to the quantitative relationship it describes." }] },
+            { "code": "PC.FIF.6", "name": "Average Rate of Change", "subtopics": [{ "id": "PC.FIF.6.1", "text": "Given a function in graphical, symbolic, or tabular form, determine the average rate of change of the function over a specified interval." }, { "id": "PC.FIF.6.2", "text": "Interpret the meaning of the average rate of change in a given context." }] },
+            { "code": "PC.FIF.7", "name": "Graphing from Symbolic Representations", "subtopics": [{ "id": "PC.FIF.7.1", "text": "Graph functions from their symbolic representations and indicate key features including intercepts, intervals where the function is increasing, decreasing, positive, or negative, relative maximums and minimums, symmetries, end behavior, and periodicity." }, { "id": "PC.FIF.7.2", "text": "Graph rational functions, identifying zeros and asymptotes when suitable factorizations are available, and showing end behavior." }, { "id": "PC.FIF.7.3", "text": "Graph radical functions over their domain and show end behavior." }, { "id": "PC.FIF.7.4", "text": "Graph exponential and logarithmic functions, showing intercepts and end behavior." }, { "id": "PC.FIF.7.5", "text": "Graph trigonometric functions, showing period, midline, and amplitude." }] }
+          ]
+        },
+        {
+          "code": "PC.FLQE",
+          "name": "Linear, Quadratic, and Exponential",
+          "objectives": [
+            { "code": "PC.FLQE.1", "name": "Linear vs Exponential Models", "subtopics": [{ "id": "PC.FLQE.1.1", "text": "Distinguish between situations that can be modeled with linear functions or exponential functions by recognizing situations in which one quantity changes at a constant rate per unit interval as opposed to those in which a quantity changes by a constant percent rate per unit interval." }, { "id": "PC.FLQE.1.2", "text": "Prove that linear functions grow by equal differences over equal intervals and that exponential functions grow by equal factors over equal intervals." }, { "id": "PC.FLQE.1.3", "text": "Recognize situations in which a quantity grows or decays by a constant percent rate per unit interval relative to another." }] },
+            { "code": "PC.FLQE.2", "name": "Creating Linear and Exponential Functions", "subtopics": [{ "id": "PC.FLQE.2.1", "text": "Create symbolic representations of linear and exponential functions, including arithmetic and geometric sequences, given graphs, verbal descriptions, and tables." }] },
+            { "code": "PC.FLQE.3", "name": "Comparing Growth Rates", "subtopics": [{ "id": "PC.FLQE.3.1", "text": "Observe using graphs and tables that a quantity increasing exponentially eventually exceeds a quantity increasing linearly, quadratically, or more generally as a polynomial function." }] },
+            { "code": "PC.FLQE.4", "name": "Logarithms as Exponential Solutions", "subtopics": [{ "id": "PC.FLQE.4.1", "text": "Express a logarithm as the solution to the exponential equation a·b^(ct)=d where a, c, and d are numbers and the base b is 2, 10, or e." }, { "id": "PC.FLQE.4.2", "text": "Evaluate the logarithm using technology." }] },
+            { "code": "PC.FLQE.5", "name": "Interpreting Parameters", "subtopics": [{ "id": "PC.FLQE.5.1", "text": "Interpret the parameters in a linear or exponential function in terms of the context." }] }
+          ]
+        },
+        {
+          "code": "PC.FT",
+          "name": "Trigonometry",
+          "objectives": [
+            { "code": "PC.FT.1", "name": "Radian Measure", "subtopics": [{ "id": "PC.FT.1.1", "text": "Understand that the radian measure of an angle is the length of the arc on the unit circle subtended by the angle." }] },
+            { "code": "PC.FT.2", "name": "Defining Trigonometric Functions", "subtopics": [{ "id": "PC.FT.2.1", "text": "Define sine and cosine as functions of the radian measure of an angle in terms of the x- and y-coordinates of the point on the unit circle corresponding to that angle and explain how these definitions are extensions of the right triangle definitions." }, { "id": "PC.FT.2.2", "text": "Define the tangent, cotangent, secant, and cosecant functions as ratios involving sine and cosine." }, { "id": "PC.FT.2.3", "text": "Write cotangent, secant, and cosecant functions as the reciprocals of tangent, cosine, and sine, respectively." }] },
+            { "code": "PC.FT.3", "name": "Special Angles and the Unit Circle", "subtopics": [{ "id": "PC.FT.3.1", "text": "Use special triangles to determine geometrically the values of sine, cosine, and tangent for π/3, π/4, and π/6." }, { "id": "PC.FT.3.2", "text": "Use the unit circle to express the values of sine, cosine, and tangent for π−x, π+x, and 2π−x in terms of their values for x, where x is any real number." }] },
+            { "code": "PC.FT.4", "name": "Symmetry and Periodicity", "subtopics": [{ "id": "PC.FT.4.1", "text": "Use the unit circle to explain symmetry (odd and even) and periodicity of trigonometric functions." }] },
+            { "code": "PC.FT.5", "name": "Modeling Periodic Phenomena", "subtopics": [{ "id": "PC.FT.5.1", "text": "Choose trigonometric functions to model periodic phenomena with specified amplitude, frequency, and midline." }] },
+            { "code": "PC.FT.6", "name": "Inverse Trigonometric Functions", "subtopics": [{ "id": "PC.FT.6.1", "text": "Define the six inverse trigonometric functions using domain restrictions for regions where the function is always increasing or always decreasing." }] },
+            { "code": "PC.FT.7", "name": "Solving with Inverse Trigonometric Functions", "subtopics": [{ "id": "PC.FT.7.1", "text": "Use inverse functions to solve trigonometric equations that arise in modeling contexts." }, { "id": "PC.FT.7.2", "text": "Evaluate the solutions using technology and interpret them in terms of the context." }] },
+            { "code": "PC.FT.8", "name": "Core Trigonometric Identities", "subtopics": [{ "id": "PC.FT.8.1", "text": "Justify the Pythagorean, even/odd, and cofunction identities for sine and cosine using their unit circle definitions and symmetries of the unit circle." }, { "id": "PC.FT.8.2", "text": "Use the Pythagorean identity to find sin A, cos A, or tan A, given sin A, cos A, or tan A, and the quadrant of the angle." }] },
+            { "code": "PC.FT.9", "name": "Sum and Difference Formulas", "subtopics": [{ "id": "PC.FT.9.1", "text": "Justify the sum and difference formulas for sine, cosine, and tangent and use them to solve problems." }] }
+          ]
+        },
+        {
+          "code": "PC.GCI",
+          "name": "Circles",
+          "objectives": [
+            { "code": "PC.GCI.5", "name": "Arc Length and Sector Area", "subtopics": [{ "id": "PC.GCI.5.1", "text": "Derive the formulas for the length of an arc and the area of a sector in a circle." }, { "id": "PC.GCI.5.2", "text": "Apply these formulas to solve mathematical and real-world problems." }] }
+          ]
+        },
+        {
+          "code": "PC.GGPE",
+          "name": "Expressing Geometric Properties with Equations",
+          "objectives": [
+            { "code": "PC.GGPE.2", "name": "Parabolas from Focus and Directrix", "subtopics": [{ "id": "PC.GGPE.2.1", "text": "Use the geometric definition of a parabola to derive its equation given the focus and directrix." }] },
+            { "code": "PC.GGPE.3", "name": "Ellipses and Hyperbolas from Definitions", "subtopics": [{ "id": "PC.GGPE.3.1", "text": "Use the geometric definition of an ellipse and of a hyperbola to derive the equation of each given the foci and points whose sum or difference of distance from the foci are constant." }] }
+          ]
+        },
+        {
+          "code": "PC.GSRT",
+          "name": "Similarity, Right Triangles, and Trigonometry",
+          "objectives": [
+            { "code": "PC.GSRT.9", "name": "Area Formula for Triangles", "subtopics": [{ "id": "PC.GSRT.9.1", "text": "Derive the formula A = 1/2 ab sin C for the area of a triangle by drawing an auxiliary line from a vertex perpendicular to the opposite side." }] },
+            { "code": "PC.GSRT.10", "name": "Laws of Sines and Cosines", "subtopics": [{ "id": "PC.GSRT.10.1", "text": "Prove the Laws of Sines and Cosines and use them to solve problems." }] },
+            { "code": "PC.GSRT.11", "name": "Solving Triangles", "subtopics": [{ "id": "PC.GSRT.11.1", "text": "Use the Law of Sines and the Law of Cosines to solve for unknown measures of sides and angles of triangles that arise in mathematical and real-world problems." }] }
+          ]
+        },
+        {
+          "code": "PC.NCNS",
+          "name": "Complex Number System",
+          "objectives": [
+            { "code": "PC.NCNS.2", "name": "Operations with Complex Numbers", "subtopics": [{ "id": "PC.NCNS.2.1", "text": "Use the relation i^2 = −1 and the commutative, associative, and distributive properties to add, subtract, and multiply complex numbers." }] },
+            { "code": "PC.NCNS.3", "name": "Conjugates, Moduli, and Quotients", "subtopics": [{ "id": "PC.NCNS.3.1", "text": "Find the conjugate of a complex number in rectangular and polar forms." }, { "id": "PC.NCNS.3.2", "text": "Use conjugates to find moduli and quotients of complex numbers." }] },
+            { "code": "PC.NCNS.4", "name": "Graphing Complex Numbers", "subtopics": [{ "id": "PC.NCNS.4.1", "text": "Graph complex numbers on the complex plane in rectangular and polar form." }, { "id": "PC.NCNS.4.2", "text": "Explain why the rectangular and polar forms of a given complex number represent the same number." }] },
+            { "code": "PC.NCNS.5", "name": "Geometric Interpretation of Complex Operations", "subtopics": [{ "id": "PC.NCNS.5.1", "text": "Represent addition, subtraction, multiplication, and conjugation of complex numbers geometrically on the complex plane." }, { "id": "PC.NCNS.5.2", "text": "Use properties of this representation for computation." }] },
+            { "code": "PC.NCNS.6", "name": "Modulus and Distance", "subtopics": [{ "id": "PC.NCNS.6.1", "text": "Determine the modulus of a complex number by multiplying by its conjugate." }, { "id": "PC.NCNS.6.2", "text": "Determine the distance between two complex numbers by calculating the modulus of their difference." }] },
+            { "code": "PC.NCNS.7", "name": "Quadratics with Complex Solutions", "subtopics": [{ "id": "PC.NCNS.7.1", "text": "Solve quadratic equations in one variable that have complex solutions." }] },
+            { "code": "PC.NCNS.8", "name": "Polynomial Identities in the Complex Numbers", "subtopics": [{ "id": "PC.NCNS.8.1", "text": "Extend polynomial identities to the complex numbers and use DeMoivre's Theorem to calculate a power of a complex number." }] },
+            { "code": "PC.NCNS.9", "name": "Fundamental Theorem of Algebra", "subtopics": [{ "id": "PC.NCNS.9.1", "text": "Know the Fundamental Theorem of Algebra and explain why complex roots of polynomials with real coefficients must occur in conjugate pairs." }] }
+          ]
+        },
+        {
+          "code": "PC.NVMQ",
+          "name": "Vector and Matrix Quantities",
+          "objectives": [
+            { "code": "PC.NVMQ.1", "name": "Recognizing Vector Quantities", "subtopics": [{ "id": "PC.NVMQ.1.1", "text": "Recognize vector quantities as having both magnitude and direction." }, { "id": "PC.NVMQ.1.2", "text": "Represent vector quantities by directed line segments, and use appropriate symbols for vectors and their magnitudes." }] },
+            { "code": "PC.NVMQ.2", "name": "Vector Components", "subtopics": [{ "id": "PC.NVMQ.2.1", "text": "Represent and model with vector quantities." }, { "id": "PC.NVMQ.2.2", "text": "Use the coordinates of an initial point and of a terminal point to find the components of a vector." }] },
+            { "code": "PC.NVMQ.3", "name": "Modeling with Vectors", "subtopics": [{ "id": "PC.NVMQ.3.1", "text": "Represent and model with vector quantities." }, { "id": "PC.NVMQ.3.2", "text": "Solve problems involving velocity and other quantities that can be represented by vectors." }] },
+            { "code": "PC.NVMQ.4", "name": "Operations on Vectors", "subtopics": [{ "id": "PC.NVMQ.4.1", "text": "Add and subtract vectors using components of the vectors and graphically." }, { "id": "PC.NVMQ.4.2", "text": "Given the magnitude and direction of two vectors, determine the magnitude of their sum and of their difference." }] },
+            { "code": "PC.NVMQ.5", "name": "Scalar Multiplication", "subtopics": [{ "id": "PC.NVMQ.5.1", "text": "Multiply a vector by a scalar, representing the multiplication graphically and computing the magnitude of the scalar multiple." }] },
+            { "code": "PC.NVMQ.6", "name": "Using Matrices for Data", "subtopics": [{ "id": "PC.NVMQ.6.1", "text": "Use matrices to represent and manipulate data." }] },
+            { "code": "PC.NVMQ.7", "name": "Operations with Matrices", "subtopics": [{ "id": "PC.NVMQ.7.1", "text": "Perform operations with matrices of appropriate dimensions including addition, subtraction, and scalar multiplication." }] },
+            { "code": "PC.NVMQ.8", "name": "Properties of Matrix Multiplication", "subtopics": [{ "id": "PC.NVMQ.8.1", "text": "Understand that, unlike multiplication of numbers, matrix multiplication for square matrices is not a commutative operation, but still satisfies the associative and distributive properties." }] },
+            { "code": "PC.NVMQ.9", "name": "Zero, Identity, and Inverses", "subtopics": [{ "id": "PC.NVMQ.9.1", "text": "Understand that the zero and identity matrices play a role in matrix addition and multiplication similar to the role of 0 and 1 in the real numbers." }, { "id": "PC.NVMQ.9.2", "text": "The determinant of a square matrix is nonzero if and only if the matrix has a multiplicative inverse." }] },
+            { "code": "PC.NVMQ.10", "name": "Matrices as Vector Transformations", "subtopics": [{ "id": "PC.NVMQ.10.1", "text": "Multiply a vector by a matrix of appropriate dimension to produce another vector." }, { "id": "PC.NVMQ.10.2", "text": "Work with matrices as transformations of vectors." }] },
+            { "code": "PC.NVMQ.11", "name": "2×2 Matrix Transformations of the Plane", "subtopics": [{ "id": "PC.NVMQ.11.1", "text": "Apply 2 × 2 matrices as transformations of the plane." }, { "id": "PC.NVMQ.11.2", "text": "Interpret the absolute value of the determinant in terms of area." }] }
+          ]
+        }
+      ]
+    }
+  }
+}

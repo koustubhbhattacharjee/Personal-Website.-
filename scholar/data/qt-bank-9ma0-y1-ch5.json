@@ -1,0 +1,297 @@
+{
+  "schema_version": "2.0",
+  "source_type": "textbook",
+  "source_label": "Pearson Edexcel Year 1 Pure",
+  "textbook_key": "pearson-9ma0-y1",
+  "overlay_key": "pearson-9ma0-full",
+  "subject": "9MA0",
+  "question_types": [
+    {
+      "title": "Straight line graphs 5A — Calculating Gradients",
+      "section_ref": "5.1",
+      "unit_label": "Chapter 5 — Straight line graphs",
+      "primary_slo": "9MA0.P1.2.1.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Work out the gradient of the line joining (4, 2) and (6, 3).",
+          "explanation": "m = (3 - 2) / (6 - 4) = 1/2.",
+          "diagram_required": "none",
+          "options": [
+            "1/2",
+            "2",
+            "−1/2",
+            "1/4"
+          ],
+          "correct_option": "A"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Work out the gradient of the line joining (-1, 3) and (5, 4).",
+          "explanation": "m = (4 - 3) / (5 - (-1)) = 1/6.",
+          "diagram_required": "none",
+          "options": [
+            "6",
+            "1/6",
+            "−1/6",
+            "1/3"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Straight line graphs 5A — Solving for Unknown Coordinates",
+      "section_ref": "5.1",
+      "unit_label": "Chapter 5 — Straight line graphs",
+      "primary_slo": "9MA0.P1.2.1.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The line joining (3, -5) to (6, a) has gradient 4. Work out the value of a.",
+          "explanation": "(a + 5) / 3 = 4 => a + 5 = 12 => a = 7.",
+          "diagram_required": "none",
+          "options": [
+            "a = 3",
+            "a = 12",
+            "a = 7",
+            "a = 17"
+          ],
+          "correct_option": "C"
+        }
+      ]
+    },
+    {
+      "title": "Straight line graphs 5B — Identifying Gradient and Intercept",
+      "section_ref": "5.1",
+      "unit_label": "Chapter 5 — Straight line graphs",
+      "primary_slo": "9MA0.P1.2.1.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Work out the gradient of the line: y = -2x + 5",
+          "options": [
+            "-2",
+            "5",
+            "2",
+            "-5"
+          ],
+          "correct_option": "A",
+          "explanation": "In y = mx + c, m is the gradient.",
+          "diagram_required": "none"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Work out the gradient of the line: 2x - 4y + 5 = 0",
+          "options": [
+            "0.5",
+            "2",
+            "-4",
+            "-2"
+          ],
+          "correct_option": "A",
+          "explanation": "Rearrange: 4y = 2x + 5 => y = 0.5x + 1.25. Gradient is 0.5.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Straight line graphs 5B — Finding Intercepts",
+      "section_ref": "5.1",
+      "unit_label": "Chapter 5 — Straight line graphs",
+      "primary_slo": "9MA0.P1.2.1.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The line y = 6x - 18 meets the x-axis at P. Find the coordinates of P.",
+          "explanation": "Set y = 0: 6x = 18 => x = 3.",
+          "diagram_required": "none",
+          "options": [
+            "(0, −18)",
+            "(18, 0)",
+            "(2, 0)",
+            "(3, 0)"
+          ],
+          "correct_option": "D"
+        }
+      ]
+    },
+    {
+      "title": "Equations of straight lines 5C — Point and Gradient Form",
+      "section_ref": "5.2",
+      "unit_label": "Chapter 5 — Straight line graphs",
+      "primary_slo": "9MA0.P1.2.1.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the equation of the line with gradient 2 passing through (2, 5).",
+          "explanation": "y - 5 = 2(x - 2) => y = 2x + 1.",
+          "diagram_required": "none",
+          "options": [
+            "y = 2x + 1",
+            "y = 2x + 5",
+            "y = 2x − 1",
+            "y = 2x + 9"
+          ],
+          "correct_option": "A"
+        }
+      ]
+    },
+    {
+      "title": "Equations of straight lines 5C — Two Points Form",
+      "section_ref": "5.2",
+      "unit_label": "Chapter 5 — Straight line graphs",
+      "primary_slo": "9MA0.P1.2.1.2",
+      "aligned_slos": [
+        "9MA0.P1.2.1.1"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the equation of the line passing through (2, 4) and (3, 8).",
+          "explanation": "m = (8-4)/(3-2) = 4. y - 4 = 4(x - 2) => y = 4x - 4.",
+          "diagram_required": "none",
+          "options": [
+            "y = 4x + 4",
+            "y = 4x - 4",
+            "y = 4x",
+            "y = 4x − 8"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Equations of straight lines 5D — Intersections and Derived Lines",
+      "section_ref": "5.2",
+      "unit_label": "Chapter 5 — Straight line graphs",
+      "primary_slo": "9MA0.P1.2.1.3",
+      "aligned_slos": [
+        "9MA0.P1.2.1.2"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The line y = 4x - 8 meets the x-axis at A. Find the equation of the line with gradient 3 through A.",
+          "explanation": "A is at (2, 0). y - 0 = 3(x - 2) => y = 3x - 6.",
+          "diagram_required": "none",
+          "options": [
+            "y = 3x + 6",
+            "y = 3x − 2",
+            "y = 3x - 6",
+            "y = 3x"
+          ],
+          "correct_option": "C"
+        },
+        {
+          "question_format": "mcq",
+          "question": "The lines y = 4x - 10 and y = x - 1 intersect at T. Find the equation of the line with gradient -2/3 through T.",
+          "explanation": "4x-10 = x-1 => x=3, y=2. T=(3,2). y-2 = -2/3(x-3) => y = -2/3x + 4.",
+          "diagram_required": "none",
+          "options": [
+            "y = −x + 5",
+            "y = −1/4 x + 11/4",
+            "y = 2/3 x − 4",
+            "y = -2/3x + 4"
+          ],
+          "correct_option": "D"
+        }
+      ]
+    },
+    {
+      "title": "Parallel and perpendicular lines 5F — Relationship Analysis",
+      "section_ref": "5.3",
+      "unit_label": "Chapter 5 — Straight line graphs",
+      "primary_slo": "9MA0.P1.2.1.4",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Are the lines y = 4x + 2 and y = -1/4x - 7 parallel, perpendicular or neither?",
+          "options": [
+            "Perpendicular",
+            "Parallel",
+            "Neither",
+            "Identical"
+          ],
+          "correct_option": "A",
+          "explanation": "Product of gradients: 4 × (-1/4) = -1, so perpendicular.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Parallel and perpendicular lines 5F — Perpendicular Derivation",
+      "section_ref": "5.3",
+      "unit_label": "Chapter 5 — Straight line graphs",
+      "primary_slo": "9MA0.P1.2.1.4",
+      "aligned_slos": [
+        "9MA0.P1.2.1.2"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A line is perpendicular to y = 6x - 9 and passes through (0, 1). Find its equation.",
+          "explanation": "Perpendicular gradient is -1/6. Passes through (0,1) so y-intercept is 1.",
+          "diagram_required": "none",
+          "options": [
+            "y = -1/6x + 1",
+            "y = 6x + 1",
+            "y = −1/6 x − 1",
+            "y = −6x + 1"
+          ],
+          "correct_option": "A"
+        }
+      ]
+    },
+    {
+      "title": "Length and area 5G — Distance Formula",
+      "section_ref": "5.4",
+      "unit_label": "Chapter 5 — Straight line graphs",
+      "primary_slo": "9MA0.P1.2.1.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the distance between (0, 1) and (6, 9).",
+          "explanation": "d = √(6² + 8²) = √(36 + 64) = √100 = 10.",
+          "diagram_required": "none",
+          "options": [
+            "√52",
+            "10",
+            "8",
+            "√72"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Modelling with straight lines 5H — Linear Equations in Context",
+      "section_ref": "5.5",
+      "unit_label": "Chapter 5 — Straight line graphs",
+      "primary_slo": "9MA0.P1.2.1.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The cost of electricity E (£) and kilowatt hours h are given by data points (0, 45) and (15, 46.8). Deduce an equation in the form E = ah + b.",
+          "explanation": "a = (46.8 - 45) / 15 = 0.12. b = 45 (when h = 0).",
+          "diagram_required": "table",
+          "options": [
+            "E = 0.12h + 40",
+            "E = 12h + 45",
+            "E = 0.12h + 45",
+            "E = 0.12h + 55"
+          ],
+          "correct_option": "C"
+        }
+      ]
+    }
+  ]
+}

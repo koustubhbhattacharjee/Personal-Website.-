@@ -1,0 +1,1900 @@
+[
+  {
+    "id": "179a765c-1c7a-4951-8906-a5eef4075b40",
+    "question_type_id": "2d698944-c5ae-486d-ab3d-fbb4335131ed",
+    "question_text": "A ladder at rest is leaning against a wall at an angle. Which of the following forces must have the same magnitude as the frictional force exerted on the ladder by the floor?",
+    "qhash": "96cc3955ca7e7c32f0ddd35188030b8b",
+    "metadata": {
+      "label": "13",
+      "source_id": "ap_p1_2015_q13"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "54f786b8-6257-454b-bf46-3c4ef4ab793f",
+    "question_type_id": "d99753dc-133b-4cf6-a4e9-f7406ed4bcf0",
+    "question_text": "A person is running on a track. Which of the following forces propels the runner forward?",
+    "qhash": "8614ab1b877e174edadfe1a3cd4855cb",
+    "metadata": {
+      "label": "31",
+      "source_id": "ap_p1_2015_q31"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "8f2d6cb4-d59a-459a-a46e-8845c030fe34",
+    "question_type_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "question_text": "A student strikes a block at the bottom of a ramp, giving it an initial speed v_0 up the ramp, as shown at right. There is friction between the ramp and the block as it slides a distance x up the ramp and then slides back down. (a) On the dots below, which represent the block as it is sliding up the ramp and down the ramp, draw and label the forces (not components) exerted on the block. Represent each force by a distinct arrow starting on, and pointing away from, the dot. The dashed lines are drawn at the same angle as the surface of the ramp.",
+    "qhash": "aba55b55d972efe7ceaeec9dd5ec1cd2",
+    "metadata": {
+      "label": "FRQ4.a",
+      "source_id": "ap_p1_2018_qFRQ4.a"
+    },
+    "question_format": "free_response",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "f7a3dfb2-aafc-4689-8f7a-1a19b8f2384b",
+    "question_type_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "question_text": "(b) The block takes time t_up to slide up the ramp a distance x. The block then takes time t_down to slide back down to the bottom of the ramp, where it has speed v_f. Is t_down greater than, equal to, or less than t_up? In a clear, coherent paragraph-length response that may also contain figures and/or equations, explain your reasoning. (Choices: t_down > t_up, t_down = t_up, t_down < t_up.)",
+    "qhash": "0a2e2c823d40c5dc4f87b2ad900b16d0",
+    "metadata": {
+      "label": "FRQ4.b",
+      "source_id": "ap_p1_2018_qFRQ4.b"
+    },
+    "question_format": "free_response",
+    "is_stem_child": true,
+    "stem_group_id": "8f2d6cb4-d59a-459a-a46e-8845c030fe34"
+  },
+  {
+    "id": "d5dca396-9f59-4e96-90cb-cf57508a168d",
+    "question_type_id": "909bff58-644c-4423-954f-0eb27dcde525",
+    "question_text": "An automobile moves at constant speed down one hill and up another hill along the smoothly curved surface shown above. Which of the following diagrams best represents the directions of the velocity and the acceleration of the automobile at the instant that it is at the lowest position, as shown?",
+    "qhash": "39e788c164a129cb3fea5521dc7be0ef",
+    "metadata": {
+      "label": "B6",
+      "source_id": "q_cm6"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "3002e0d0-a2a3-4c72-bb6b-880651584a37",
+    "question_type_id": "973667a0-e055-4dff-b586-92f3389e905d",
+    "question_text": "The graph at left shows the relationship between the mass of a number of rubber stoppers and their resulting weight on some far-off planet. The slope of the graph is a representation of the:",
+    "qhash": "6a851c6f49907e7a8d906eda3c2e25ec",
+    "metadata": {
+      "label": "32",
+      "source_id": "q_d32"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "dd228b6a-92e9-4c8e-980c-35cd4c712bc5",
+    "question_type_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "question_text": "A force F is used to hold a block of mass m on an incline as shown in the diagram. The plane makes an angle of θ with the horizontal and F is perpendicular to the plane. The coefficient of friction between the plane and the block is μ. What is the minimum force, F, necessary to keep the block at rest?",
+    "qhash": "f520a9ef2e54d06dec9902d43785eadb",
+    "metadata": {
+      "label": "43",
+      "source_id": "q_d43"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "c8dcec24-89cd-48fc-b607-54050e28c331",
+    "question_type_id": "2d698944-c5ae-486d-ab3d-fbb4335131ed",
+    "question_text": "A kitten sits in a lightweight basket near the edge of a table. A person accidentally knocks the basket off the table. As the kitten and basket fall, the kitten rolls, turns, kicks, and catches the basket in its claws. The basket lands on the floor with the kitten safely inside. If air resistance is negligible, what is the acceleration of the kitten-basket system while the kitten and basket are in midair?",
+    "qhash": "d45895876c70733d5850ac36495736a6",
+    "metadata": {
+      "label": "1",
+      "source_id": "ap_p1_2016_q1"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "51d20c24-a032-43ea-81d7-2dda6d150bf3",
+    "question_type_id": "d99753dc-133b-4cf6-a4e9-f7406ed4bcf0",
+    "question_text": "Block A and block B move toward each other on a level frictionless track. Block A has mass m and velocity +v. Block B has mass 2m and velocity −v. The blocks collide, and during the collision the magnitude of the net force exerted on block A is F. What is the magnitude of the net force exerted on block B, and why does it have that value?",
+    "qhash": "9e9223bf04cf063564ae08f65a0816f5",
+    "metadata": {
+      "label": "13",
+      "source_id": "ap_p1_2016_q13"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "7f250231-1e3d-402a-a23a-a6abae0c752f",
+    "question_type_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "question_text": "The inclined plane in the figure above has two sections of equal length and different roughness. The dashed line shows where section 1 ends and section 2 begins. A block of mass M is placed at different locations on the incline. The coefficients of kinetic and static friction between the block and each section are: section 1 (μ_S1 static, μ_k kinetic), section 2 (μ_S2 > μ_S1 static, 2μ_k kinetic). If the block is at rest on section 1 of the incline, what is the magnitude of the force of static friction exerted on the block by the incline?",
+    "qhash": "038409c3f48040db22ff692b9ef14723",
+    "metadata": {
+      "label": "33",
+      "source_id": "ap_p1_2016_q33"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "790b3848-ddf2-4c0c-9844-c22f364b46e3",
+    "question_type_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "question_text": "If the block is sliding up section 2, what is the magnitude of the force of friction that is exerted on the block by the incline?",
+    "qhash": "dc13c072288e585cb27569ffb373ba25",
+    "metadata": {
+      "label": "34",
+      "source_id": "ap_p1_2016_q34"
+    },
+    "question_format": "mcq",
+    "is_stem_child": true,
+    "stem_group_id": "7f250231-1e3d-402a-a23a-a6abae0c752f"
+  },
+  {
+    "id": "318a7406-89a6-453c-97f8-aed5cda0c80d",
+    "question_type_id": "bbb55c91-193b-4fdb-a7d0-fd44400515a9",
+    "question_text": "An elevator carrying a person of mass m is moving upward and slowing down. How does the magnitude F of the force exerted on the person by the elevator floor compare with the magnitude mg of the gravitational force?",
+    "qhash": "5cb04d8a4f1575c5767c48c863835a0d",
+    "metadata": {
+      "label": "16",
+      "source_id": "ap_p1_2017_q16"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "7b37f9e1-3a83-4244-8e56-9044ab4ea649",
+    "question_type_id": "665c502a-a8bf-47bb-9ec1-20afb9ca37a3",
+    "question_text": "An object with mass m is suspended at rest from a spring with a spring constant of 200 N/m. The length of the spring is 5.0 cm longer than its unstretched length L, as shown above. A person then exerts a force on the object and stretches the spring an additional 5.0 cm. What is the total energy stored in the spring at the new stretched length?",
+    "qhash": "a7275d5dc30b4b4292211135d9adb294",
+    "metadata": {
+      "label": "35",
+      "source_id": "ap_p1_2016_q35"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "e8307eef-9011-4bd0-b155-e0d50b0c4af4",
+    "question_type_id": "d99753dc-133b-4cf6-a4e9-f7406ed4bcf0",
+    "question_text": "Two objects, A and B, move toward one another. Object A has twice the mass and half the speed of object B. Which of the following describes the forces the objects exert on each other when they collide and provides the best explanation?",
+    "qhash": "4d6ebc121e2045d0aff61f273d52147e",
+    "metadata": {
+      "label": "22",
+      "source_id": "ap_p1_2017_q22"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "cacefbc6-c234-4e21-8906-6978a1128492",
+    "question_type_id": "3c7a84f6-6cb3-4a12-bd32-6a0a7a78c31f",
+    "question_text": "A uniform rope of weight 50 N hangs from a hook as shown above. A box of weight 100 N hangs from the rope. What is the tension in the rope?",
+    "qhash": "1c178142825ecf6f9ce7babdb81cb6f6",
+    "metadata": {
+      "label": "7",
+      "source_id": "q_d7"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "9952efaf-447e-4023-af94-86b6701e18c9",
+    "question_type_id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "question_text": "A simple Atwood's machine is shown in the diagram above. It is composed of a frictionless lightweight pulley with two cubes connected by a light string. If cube A has a mass of 4.0 kg and cube B has a mass of 6.0 kg, the system will move such that cube B accelerates downwards. What would be the tension in the two parts of the string between the pulley and the cubes?",
+    "qhash": "22a48776198572d2aeb3822a099f6da0",
+    "metadata": {
+      "label": "51",
+      "source_id": "q_d51"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "0cf89f6c-8865-4d27-a6e6-3007b3470c35",
+    "question_type_id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "question_text": "A rope of negligible mass supports a block that weighs 30 N, as shown above. The breaking strength of the rope is 50 N. The largest acceleration that can be given to the block by pulling up on it with the rope without breaking the rope is most nearly",
+    "qhash": "189b58678139140ed5c7f93282af2152",
+    "metadata": {
+      "label": "13",
+      "source_id": "q_d13"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "08c6db13-11ab-4fdc-8133-5b47c08d92cc",
+    "question_type_id": "41bca3e2-c8ce-409c-a321-c89763c254ac",
+    "question_text": "A ball attached to a light string swings in a counterclockwise vertical circle, as shown above. Which of the following arrows represent one of the forces exerted on the ball at the moment it passes through point P? Select two answers.",
+    "qhash": "f7badf085c7a7dd6d6da3120673d2d50",
+    "metadata": {
+      "label": "132",
+      "source_id": "ap_p1_2016_q132"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "5669db02-ec5a-4d65-99d6-c330429744d3",
+    "question_type_id": "d46cf597-b7d0-4b43-bd59-caa15f9b5129",
+    "question_text": "A ball initially moves horizontally with velocity vi, as shown above. It is then struck by a stick. After leaving the stick, the ball moves vertically with a velocity vf, which is smaller in magnitude than vi. Which of the following vectors best represents the direction of the average force that the stick exerts on the ball?",
+    "qhash": "a4b660ae078036348a89c0f1ed75af94",
+    "metadata": {
+      "label": "19",
+      "source_id": "q_d19"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "1bb5f27e-6121-4486-a08e-6d613e2d2b66",
+    "question_type_id": "2d698944-c5ae-486d-ab3d-fbb4335131ed",
+    "question_text": "An object is moving to the west at a constant speed. Three forces are exerted on the object. One force is 10 N directed due north, and another is 10 N directed due west. What is the magnitude and direction of the third force if the object is to continue moving to the west at a constant speed?",
+    "qhash": "17c2a2593903f272fc4523c32c78c36a",
+    "metadata": {
+      "label": "9",
+      "source_id": "ap_p1_2017_q9"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "bac9181b-6da8-4a7a-b1bb-33b5f6daa148",
+    "question_type_id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "question_text": "Three blocks of masses 3m, 2m, and m are connected by strings A, B, and C as shown above. The blocks are pulled along a rough surface by a force of magnitude F exerted by string C. The coefficient of friction between each block and the surface is the same. Which string must be the strongest in order not to break?",
+    "qhash": "edce886deb8758dccdbb0c90b2327332",
+    "metadata": {
+      "label": "23",
+      "source_id": "q_d23"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "08f128fd-6bcf-4b73-abe5-6324f9f59cfa",
+    "question_type_id": "d46cf597-b7d0-4b43-bd59-caa15f9b5129",
+    "question_text": "Assume the objects in the following diagrams have equal mass and the strings holding them in place are identical. In which case would the string be most likely to break?",
+    "qhash": "1958d2a2d1557b8221f3bd78b4254296",
+    "metadata": {
+      "label": "27",
+      "source_id": "q_d27"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "20ddb4e6-3f08-42dc-b9e1-cc8576096cc2",
+    "question_type_id": "54c6cfca-d95b-4c5f-b789-bdd760a079b8",
+    "question_text": "A homeowner pushes a lawn mower across a horizontal patch of grass with a constant speed by applying a force P. The arrows in the diagram correctly indicate the directions but not necessarily the magnitudes of the various forces on the lawn mower. Which of the following relations among the various force magnitudes, W, f, N, P is correct?",
+    "qhash": "6317ce04669a0cf9ec2afe6d5e3a24ad",
+    "metadata": {
+      "label": "37",
+      "source_id": "q_d37"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "aa5df301-d19b-48b4-b3c3-2e10d53053ff",
+    "question_type_id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "question_text": "Blocks A and B, of masses m_A and m_B, are at rest on a frictionless surface, as shown above, with block A fixed to the table. Block C of mass m_C is suspended by a string that is tied to block B over an ideal pulley. Which of the following gives the magnitude of the force exerted by block A on block B?",
+    "qhash": "1bccf55095fd4d86cd1a98ad9c263a06",
+    "metadata": {
+      "label": "26",
+      "source_id": "ap_p1_2017_q26"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "a93868d6-cad5-49ef-b797-8ec34220835c",
+    "question_type_id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "question_text": "Given the three masses as shown in the diagram above, if the coefficient of kinetic friction between the large mass (m2) and the table is μ, what would be the upward acceleration of the small mass (m3)? The mass and friction of the cords and pulleys are small enough to produce a negligible effect on the system.",
+    "qhash": "534b23507dfa3443a949f17b5c87684c",
+    "metadata": {
+      "label": "45",
+      "source_id": "q_d45"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "8d51639f-f00d-4a8e-bfbf-9e356531f287",
+    "question_type_id": "54c6cfca-d95b-4c5f-b789-bdd760a079b8",
+    "question_text": "A student pulls a wooden box along a rough horizontal floor at constant speed by means of a force P as shown to the right. Which of the following must be true?",
+    "qhash": "a0f2138e5df2fbfe37d23413bc23a774",
+    "metadata": {
+      "label": "25",
+      "source_id": "q_d25"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "d25aab4c-e38a-4e33-9b52-f9902a4bc12d",
+    "question_type_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "question_text": "A block of mass m is at rest on a rough incline, as shown in the figure above. Which of the following forces must have a magnitude equal to mg? Select two answers.",
+    "qhash": "6228b3a9d11ab30bc86966486b1b0b2a",
+    "metadata": {
+      "label": "133",
+      "source_id": "ap_p1_2017_q133"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "62950a90-92ec-45c2-9fcd-ea47963f11a8",
+    "question_type_id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "question_text": "Each of the diagrams below represents two weights connected by a massless string which passes over a massless, frictionless pulley. In which diagram will the magnitude of the acceleration be the largest?",
+    "qhash": "871c0014a1e93bb7c00311199394ee3c",
+    "metadata": {
+      "label": "50",
+      "source_id": "q_d50"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "614d9e57-7d96-400c-9888-46ab7e398782",
+    "question_type_id": "3c7a84f6-6cb3-4a12-bd32-6a0a7a78c31f",
+    "question_text": "When an object of weight W is suspended from the center of a massless string as shown above, the tension at any point in the string is",
+    "qhash": "d8935dfbeaf29a7ed2347522e6483ca9",
+    "metadata": {
+      "label": "8",
+      "source_id": "q_d8"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "85eebcac-2d00-4d0c-bac5-655435be7b83",
+    "question_type_id": "bb78f05e-de80-495a-a5ea-0541171a0769",
+    "question_text": "Block 1 is stacked on top of block 2. Block 2 is connected by a light cord to block 3, which is pulled along a frictionless surface with a force F as shown in the diagram. Block 1 is accelerated at the same rate as block 2 because of the frictional forces between the two blocks. If all three blocks have the same mass m, what is the minimum coefficient of static friction between block 1 and block 2?",
+    "qhash": "22909dd07c1a0b758caddae135bc113e",
+    "metadata": {
+      "label": "53",
+      "source_id": "q_d53"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "1c529d1c-3467-46ac-ae66-0310c82ae1e8",
+    "question_type_id": "bb78f05e-de80-495a-a5ea-0541171a0769",
+    "question_text": "A 6.0 kg block initially at rest is pushed against a wall by a 100 N force as shown. The coefficient of kinetic friction is 0.30 while the coefficient of static friction is 0.50. What is true of the friction acting on the block after a time of 1 second?",
+    "qhash": "647ec8338e5fc811ddd7528d26023536",
+    "metadata": {
+      "label": "36",
+      "source_id": "q_d36"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "47283549-f2d0-4eec-8da9-a9fbed26e76b",
+    "question_type_id": "54c6cfca-d95b-4c5f-b789-bdd760a079b8",
+    "question_text": "The figure above shows a truck pulling three crates across a rough road. Which of the following shows the directions of all the horizontal forces acting on crate 2?",
+    "qhash": "ed0684c36259fca1226e250ce885049a",
+    "metadata": {
+      "label": "1",
+      "source_id": "ap_p1_2018_q1"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "00369e9b-a56a-46f6-bf0b-c60048373c72",
+    "question_type_id": "bb78f05e-de80-495a-a5ea-0541171a0769",
+    "question_text": "Two identical blocks of weight W are placed one on top of the other as shown in the diagram above. The upper block is tied to the wall. The lower block is pulled to the right with a force F. The coefficient of static friction between all surfaces in contact is μ. What is the largest force F that can be exerted before the lower block starts to slip?",
+    "qhash": "6385b86634d7e1774916ee084e410686",
+    "metadata": {
+      "label": "42",
+      "source_id": "q_d42"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "e57dd9b0-8988-48c7-afc7-ae4938699fc0",
+    "question_type_id": "d46cf597-b7d0-4b43-bd59-caa15f9b5129",
+    "question_text": "The cart of mass 10 kg shown above moves without frictional loss on a level table. A 10 N force pulls on the cart horizontally to the right. At the same time, a 30 N force at an angle of 60° above the horizontal pulls on the cart to the left. Which of the following describes a manner in which this cart could be moving?",
+    "qhash": "43296509ca60c03ca20fd85624d2fdfb",
+    "metadata": {
+      "label": "16",
+      "source_id": "q_d16"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "9415cfdc-927d-4e70-bef7-aa5dda30afa2",
+    "question_type_id": "54c6cfca-d95b-4c5f-b789-bdd760a079b8",
+    "question_text": "A block of weight W is pulled along a horizontal surface at constant speed v by a force F, which acts at an angle θ with the horizontal, as shown above. The normal force exerted on the block by the surface has magnitude",
+    "qhash": "95ed665aa4f2c7b676c49bcecb8309ca",
+    "metadata": {
+      "label": "6",
+      "source_id": "q_d6"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "03129e46-6c5c-414a-9ab3-3525e64022f7",
+    "question_type_id": "d46cf597-b7d0-4b43-bd59-caa15f9b5129",
+    "question_text": "A hollow plastic ball is projected into the air. There is significant air resistance opposing the ball's motion, so the magnitude of the ball's acceleration is not equal to g. At time t, the ball is moving up and to the right at an angle of 45° to the horizontal, as shown above. Which of the following best shows the magnitude a and the direction of the ball's acceleration at time t?",
+    "qhash": "23ce93d0fc2ba34041e3165d0b73a323",
+    "metadata": {
+      "label": "33",
+      "source_id": "ap_p1_2018_q33"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "631893f4-dec5-4b12-b775-c7b78e6b25de",
+    "question_type_id": "d46cf597-b7d0-4b43-bd59-caa15f9b5129",
+    "question_text": "An object is moving to the right with speed v_i when a force of magnitude F is exerted on it. In which of the following situations is the object's direction of motion changing and kinetic energy decreasing at the instant shown?",
+    "qhash": "5db7dea7b68a8c02c2b4cd809cf02617",
+    "metadata": {
+      "label": "1",
+      "source_id": "ap_p1_2014_q1"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "824ad201-422f-459d-bcab-499600bcb3a5",
+    "question_type_id": "2d698944-c5ae-486d-ab3d-fbb4335131ed",
+    "question_text": "A water-skier with weight F_g = mg moves to the right with acceleration a. A horizontal tension force T is exerted on the skier by the rope, and a horizontal drag force F_d is exerted by the water on the ski. The water also exerts a vertical lift force L on the skier. Which of the following are correct relationships between the forces exerted on the skier-ski system? Select two answers.",
+    "qhash": "02ef484c888e85c056de836dd29c1a75",
+    "metadata": {
+      "label": "131",
+      "source_id": "ap_p1_2018_q131"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "1df512ff-4265-4cb5-8dab-14ea331fe100",
+    "question_type_id": "41bca3e2-c8ce-409c-a321-c89763c254ac",
+    "question_text": "A ball of mass M is attached to a string of length R and negligible mass. The ball moves clockwise in a vertical circle. Point Z is at the top of the circle. Derive an expression for v_min, the minimum speed the ball can have at point Z without leaving the circular path.",
+    "qhash": "693f17a16b67e0c4b93f837689cb5cfb",
+    "metadata": {
+      "label": "2001B1",
+      "source_id": "q_frq_2001B1"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "61cef21d-1e8f-4c24-bdc4-4c56e0351242",
+    "question_type_id": "f3230b7c-3712-468c-a7a6-43f680750722",
+    "question_text": "A car initially travels north and then turns to the left along a circular curve. This causes a package on the seat of the car to slide toward the right side of the car. Which of the following is true of the net force on the package while it is sliding?",
+    "qhash": "1b6616929bb136e7ba516b64dee99b5a",
+    "metadata": {
+      "label": "B7",
+      "source_id": "q_cm7"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "30247367-aeb1-479b-b02a-82422a0c4bd5",
+    "question_type_id": "b1dffc3c-32f4-4126-bfaa-45375beec9a6",
+    "question_text": "A ball attached to a string is whirled around in a horizontal circle having a radius R. If the radius of the circle is changed to 4R and the same centripetal force is applied by the string, the new speed of the ball is which of the following?",
+    "qhash": "133fb0c3e0aa03a214b2527e61bb74f4",
+    "metadata": {
+      "label": "B2",
+      "source_id": "q_cm2"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "303d34c5-9c65-4fdf-bd74-814b66219581",
+    "question_type_id": "b1dffc3c-32f4-4126-bfaa-45375beec9a6",
+    "question_text": "Inside a washing machine, the radius of the cylinder where the clothes sit is 0.50 m. In one of its settings the machine spins the cylinder at 2.0 revolutions per second. What is the acceleration of an item of clothing?",
+    "qhash": "911f60e1b2691a082d09fe60338d3967",
+    "metadata": {
+      "label": "B11",
+      "source_id": "q_cm11"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "1a58a93c-408a-4f52-81ea-e76a0126e6b7",
+    "question_type_id": "b1dffc3c-32f4-4126-bfaa-45375beec9a6",
+    "question_text": "A racing car is moving around the circular track of radius 300 meters shown above. At the instant when the car's velocity is directed due east, its acceleration is directed due south and has a magnitude of 3 meters per second squared. When viewed from above, the car is moving",
+    "qhash": "3db12a5b6b11cdf2c3eef872bfa50ad2",
+    "metadata": {
+      "label": "B3",
+      "source_id": "q_cm3"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "b4dd11c2-04d1-438d-81a5-9e4152a3f570",
+    "question_type_id": "909bff58-644c-4423-954f-0eb27dcde525",
+    "question_text": "A mass m moves on a curved path from point X to point Y. Which of the following diagrams indicates a possible combination of the net force F on the mass, and the velocity v and acceleration a of the mass at the location shown?",
+    "qhash": "9f00f848f2acc4a51676e203df3f2685",
+    "metadata": {
+      "label": "B13",
+      "source_id": "q_cm13"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "5d2e6234-e8ec-4a50-a23f-95c8ca6eebaa",
+    "question_type_id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "question_text": "When the frictionless system shown above is accelerated by an applied force of magnitude F the tension in the string between the blocks is",
+    "qhash": "9297627bac8699138089003d3c5504f4",
+    "metadata": {
+      "label": "4",
+      "source_id": "q_d4"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "13dec323-cc76-47fb-a809-688fb0d9e703",
+    "question_type_id": "f3230b7c-3712-468c-a7a6-43f680750722",
+    "question_text": "A bus is initially traveling north at a constant speed, as shown in the figure above. As the bus starts to make a left turn without changing speed, a passenger notices that a box on the floor starts sliding toward the right side of the bus. Which of the following top views of the box, when correctly labeled, would best represent all of the horizontal forces exerted on the box as it starts sliding?",
+    "qhash": "1ede2a01de3bd07765b7b962e27e4829",
+    "metadata": {
+      "label": "4",
+      "source_id": "ap_p1_2014_q4"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "9cbf254a-cd82-4ce2-af48-c9cde2d6453f",
+    "question_type_id": "3de57203-070c-41b7-9f45-7ed8e18261bb",
+    "question_text": "A 50.0 N box is at rest on a horizontal surface. The coefficient of static friction between the box and the surface is 0.50, and the coefficient of kinetic friction is 0.30. A horizontal 20.0 N force is then exerted on the box. The magnitude of the acceleration of the box is most nearly",
+    "qhash": "1b4073c92a88df805d8c11740c14ec08",
+    "metadata": {
+      "label": "9",
+      "source_id": "ap_p1_2014_q9"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "d4ebf4f8-95d2-4d96-bc84-eda82ab1d63c",
+    "question_type_id": "3c7a84f6-6cb3-4a12-bd32-6a0a7a78c31f",
+    "question_text": "A 5.0-kilogram monkey hangs initially at rest from two vines, A and B, as shown. Vine A makes an angle of 30° with the vertical and vine B makes an angle of 60° with the vertical. Using g = 10 m/s² and solving the simultaneous equilibrium equations (Ta cos 30° = Tb cos 60°, Ta sin 30° + Tb sin 60° – mg = 0), determine the tension in vine B.",
+    "qhash": "45b3c66267b8429dea33a28a61bd1ef3",
+    "metadata": {
+      "label": "1991B1",
+      "source_id": "q_frq_1991B1"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "29f09393-d263-436b-b85c-901a5b60c504",
+    "question_type_id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "question_text": "Two blocks of mass 1.0 kg and 3.0 kg are connected by a string which has a tension of 2.0 N. A force F acts in the direction shown to the right. Assuming friction is negligible, what is the value of F?",
+    "qhash": "79d8f9cb30d05b303d278cdd56322aa8",
+    "metadata": {
+      "label": "28",
+      "source_id": "q_d28"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "42434862-c56e-4ea3-8ddf-978262dae97c",
+    "question_type_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "question_text": "A plane 5 meters in length is inclined at an angle of 37°, as shown above. A block of weight 20 N is placed at the top of the plane and allowed to slide down. The magnitude of the normal force exerted on the block by the plane is",
+    "qhash": "a8e0e605acbdadf815f669cc66206a99",
+    "metadata": {
+      "label": "10",
+      "source_id": "q_d10"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "d0bac990-6715-4672-9090-d3691a22f8e6",
+    "question_type_id": "2d698944-c5ae-486d-ab3d-fbb4335131ed",
+    "question_text": "For which of the following motions of an object must the acceleration always be zero?",
+    "qhash": "393ea61e848abcdb92b03ac242baf771",
+    "metadata": {
+      "label": "12",
+      "source_id": "q_d12"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "aa196d2e-ef64-4f41-8e54-625c668b66bf",
+    "question_type_id": "3c7a84f6-6cb3-4a12-bd32-6a0a7a78c31f",
+    "question_text": "A block is held at rest against a wall by a force of magnitude F exerted at an angle θ from the horizontal, as shown in the figure above. Let F_g be the gravitational force exerted by Earth on the block, F_N be the normal force exerted by the wall on the block, and F_f be the frictional force exerted by the wall on the block. Which of the following statements about the magnitudes of the forces on the block must be true? Select two answers.",
+    "qhash": "971cceabb68ed04be83b98bc23134435",
+    "metadata": {
+      "label": "47",
+      "source_id": "ap_p1_2014_q47"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "68a44bed-d550-4246-a3cb-db185a9f3faa",
+    "question_type_id": "b743c003-5094-41b2-9fc1-9c90e718c9a1",
+    "question_text": "A horizontal, uniform board of weight 125 N and length 4 m is supported by vertical chains at each end. A person weighing 500 N is hanging from the board. The tension in the right chain is 250 N.",
+    "qhash": "b2af2da5251179f4ade3548363efabb5",
+    "metadata": {
+      "label": "14",
+      "source_id": "q_d14"
+    },
+    "question_format": "mcq",
+    "is_stem_child": true,
+    "stem_group_id": "10213f55-3e77-4dac-ae1b-89962593e5a4"
+  },
+  {
+    "id": "07578048-4e07-47ef-a61a-528b37ca4604",
+    "question_type_id": "973667a0-e055-4dff-b586-92f3389e905d",
+    "question_text": "Three identical laboratory carts A, B, and C are each subject to a constant force FA, FB, and FC, respectively. One or more of these forces may be zero. The diagram below shows the position of each cart at each second of an 8.0 second interval.",
+    "qhash": "7f0cf229a0687c94c4ae97f81f2ca2a6",
+    "metadata": {
+      "label": "48",
+      "source_id": "q_d48"
+    },
+    "question_format": "mcq",
+    "is_stem_child": true,
+    "stem_group_id": "01708d4f-4814-4a1a-b8e6-a7aaf4dad3f2"
+  },
+  {
+    "id": "dd879bfd-e80d-45fc-b638-be536983aa2d",
+    "question_type_id": "2d698944-c5ae-486d-ab3d-fbb4335131ed",
+    "question_text": "Three forces act on an object. If the object is moving to the right in translational equilibrium, which of the following must both be true?",
+    "qhash": "eb51a22cfc79eeaf395fe67d4d05dce2",
+    "metadata": {
+      "label": "11",
+      "source_id": "q_d11"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "f7b35ea8-a37e-432d-92e9-504edadc94b0",
+    "question_type_id": "2d698944-c5ae-486d-ab3d-fbb4335131ed",
+    "question_text": "Two people are pulling on the ends of a rope. Each person pulls with a force of 100 N. The tension in the rope is:",
+    "qhash": "f7f61aa4304dc23ba1ef7f58491c799c",
+    "metadata": {
+      "label": "17",
+      "source_id": "q_d17"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "32fb9517-084f-46c0-b834-2231c5cf3c40",
+    "question_type_id": "973667a0-e055-4dff-b586-92f3389e905d",
+    "question_text": "The parabola above is a graph of speed v as a function of time t for an object. Which of the following graphs best represents the magnitude F of the net force exerted on the object as a function of time t?",
+    "qhash": "d02927255443c9944f01a00c5d736bc7",
+    "metadata": {
+      "label": "18",
+      "source_id": "q_d18"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "ade8c621-061d-4cda-b6f5-5968d87e3483",
+    "question_type_id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "question_text": "Two masses, m1 and m2, are connected by a cord and arranged as shown in the diagram with m1 sliding along on a frictionless surface and m2 hanging from a light frictionless pulley. What would be the mass of the falling mass, m2, if both the sliding mass, m1, and the tension, T, in the cord were known?",
+    "qhash": "5f45ade3f87f2be56af158d116e0da07",
+    "metadata": {
+      "label": "33",
+      "source_id": "q_d33"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "456262fc-ed77-4cce-ae09-586a2ed29415",
+    "question_type_id": "2d698944-c5ae-486d-ab3d-fbb4335131ed",
+    "question_text": "A box slides to the right across a horizontal floor. A person called Ted exerts a force T to the right on the box. A person called Mario exerts a force M to the left, which is half as large as the force T. Given that there is friction f and the box accelerates to the right, rank the sizes of these three forces exerted on the box.",
+    "qhash": "17cb9a036699bdf45e9bdf61b6ea41c4",
+    "metadata": {
+      "label": "40",
+      "source_id": "q_d40"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "31e52b8c-d621-449e-afaf-2b5c46b34971",
+    "question_type_id": "d5c7661b-a56d-41b1-becc-81bbe4d08ddc",
+    "question_text": "Some students have determined the gravitational mass of an object and want to compare it to the object's inertial mass. Procedures that would allow them to accomplish this include which of the following? Select two answers.",
+    "qhash": "8c1bba4ecc9f6e606a597a1e761e3114",
+    "metadata": {
+      "label": "48",
+      "source_id": "ap_p1_2014_q48"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "59f82a1b-4a82-4a70-bea2-01c5e096ae13",
+    "question_type_id": "f22af356-e937-49b1-b270-a3ee1411bec3",
+    "question_text": "A ball falls straight down through the air under the influence of gravity. There is a retarding force F on the ball with magnitude given by F = bv, where v is the speed of the ball and b is a positive constant. The ball reaches a terminal velocity after a time t. The magnitude of the acceleration at time t/2 is",
+    "qhash": "a03b9dfeb575f07dec51093bc94a6c4c",
+    "metadata": {
+      "label": "5",
+      "source_id": "q_d5"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "399e6df6-3041-40d7-900c-e99d1f986d82",
+    "question_type_id": "665c502a-a8bf-47bb-9ec1-20afb9ca37a3",
+    "question_text": "A mass, M, is at rest on a frictionless surface, connected to an ideal horizontal spring that is unstretched. A person extends the spring 30 cm from equilibrium and holds it at this location by applying a 10 N force. The spring is brought back to equilibrium and the mass connected to it is now doubled to 2M. If the spring is extended back 30 cm from equilibrium, what is the necessary force applied by the person to hold the mass stationary there?",
+    "qhash": "32c33a1db4c504a1dee6a33f22b6c472",
+    "metadata": {
+      "label": "38",
+      "source_id": "q_d38"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "3dbb0bcc-efff-4c8e-93b0-dbf23ff81b8a",
+    "question_type_id": "bbb55c91-193b-4fdb-a7d0-fd44400515a9",
+    "question_text": "A spaceman of mass 80 kg is sitting in a spacecraft near the surface of the Earth. The spacecraft is accelerating upward at five times the acceleration due to gravity. What is the force of the spaceman on the spacecraft?",
+    "qhash": "0e826c51ea484b90edd27c2354832196",
+    "metadata": {
+      "label": "41",
+      "source_id": "q_d41"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "53d63700-a9e8-4987-b28c-6542c78a5df3",
+    "question_type_id": "54c6cfca-d95b-4c5f-b789-bdd760a079b8",
+    "question_text": "A crate is on a horizontal frictionless surface. A force of magnitude F is exerted on the crate at an angle θ to the horizontal, as shown in the figure above, causing the crate to slide to the right. The surface exerts a normal force of magnitude F_N on the crate. As the crate slides a distance d, it gains an amount of kinetic energy ΔK. While F is kept constant, the angle θ is now doubled but is still less than 90°. Assume the crate remains in contact with the surface. How does the new normal force exerted on the crate compare to F_N?",
+    "qhash": "fb110b600dd48c51a55a0a3d23fb4fa8",
+    "metadata": {
+      "label": "25",
+      "source_id": "ap_p1_2014_q25"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "44255aea-9a23-475e-b345-75845363721c",
+    "question_type_id": "bbb55c91-193b-4fdb-a7d0-fd44400515a9",
+    "question_text": "Box A of mass m sits on the floor of an elevator, with box B of mass 2m on top of it, as shown in the figure above. The elevator is moving upward and slowing down. F_A is the magnitude of the force exerted on box A by box B, F_B is the magnitude of the force exerted on box B by box A, and F_g is the magnitude of the gravitational force exerted on box B. Which of the following ranks the forces in order of increasing magnitude?",
+    "qhash": "a78a50e38e9a427ca81e33c4d79238f5",
+    "metadata": {
+      "label": "31",
+      "source_id": "ap_p1_2016_q31"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "bfb957b3-c2aa-4cc5-bfe2-7c76e9cd772d",
+    "question_type_id": "bbb55c91-193b-4fdb-a7d0-fd44400515a9",
+    "question_text": "The two guide rails for an elevator each exert a constant friction force of 100 newtons on the elevator car when the elevator car is moving upward with an acceleration of 2 m/s². The pulley has negligible friction and mass. Using g = 10 m/s², calculate the tension T in the cable lifting the 400-kilogram elevator car during the upward acceleration.",
+    "qhash": "b21c8efa0bd1acd97ff6dedba42d4bca",
+    "metadata": {
+      "label": "1976B1",
+      "source_id": "q_frq_1976B1"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "7d37afca-770a-4884-a9d1-6685021ae3f6",
+    "question_type_id": "3de57203-070c-41b7-9f45-7ed8e18261bb",
+    "question_text": "The 10.0 kg box shown in the figure to the right is sliding to the right along the floor. A horizontal force of 10.0 N is being applied to the right. The coefficient of kinetic friction between the box and the floor is 0.20. The box is moving with:",
+    "qhash": "f9ace3fa83ffb24eca157c27653b9c35",
+    "metadata": {
+      "label": "26",
+      "source_id": "q_d26"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "8ff55206-89bb-48c9-8e54-c0e45aaf54e3",
+    "question_type_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "question_text": "A 2-kg block slides down a 30° incline as shown above with an acceleration of 2 m/s².",
+    "qhash": "9032cdc7f6bafb39ec566b501830b6d5",
+    "metadata": {
+      "label": "3",
+      "source_id": "q_d3"
+    },
+    "question_format": "mcq",
+    "is_stem_child": true,
+    "stem_group_id": "176e0570-62f8-454d-a543-f5518bef8038"
+  },
+  {
+    "id": "b364ebc3-64f4-4308-9ad6-02bdef1d75de",
+    "question_type_id": "bbb55c91-193b-4fdb-a7d0-fd44400515a9",
+    "question_text": "A mass is suspended from the roof of a lift (elevator) by means of a spring balance. The lift (elevator) is moving upwards and the readings of the spring balance are noted as follows: Speeding up: RU, Constant speed: RC, Slowing down: RD. Which of the following is a correct relationship between the readings?",
+    "qhash": "8492e6a9e47ce7d4c2ef78978efd6fa1",
+    "metadata": {
+      "label": "34",
+      "source_id": "q_d34"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "85d5998d-98b1-4265-88c7-1af92b754c0b",
+    "question_type_id": "3de57203-070c-41b7-9f45-7ed8e18261bb",
+    "question_text": "A simple Atwood's machine remains motionless when equal masses M are placed on each end of the cord. When a small mass m is added to one side, the masses have an acceleration a. What is M? You may neglect friction and the mass of the cord and pulley.",
+    "qhash": "5ed109365d199c09c0fc23b5fd5913a7",
+    "metadata": {
+      "label": "52",
+      "source_id": "q_d52"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "10c2a76c-f3b2-4bff-9e43-bf5dd8996936",
+    "question_type_id": "d46cf597-b7d0-4b43-bd59-caa15f9b5129",
+    "question_text": "A ball is thrown and follows a parabolic path, as shown above. Air friction is negligible. Point Q is the highest point on the path. Which of the following best indicates the direction of the net force on the ball at point P?",
+    "qhash": "396cf43ed1a0b56ce29ad55b1985112d",
+    "metadata": {
+      "label": "21",
+      "source_id": "q_d21"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "c34c76b9-40f9-4320-aaa6-0a33d9433971",
+    "question_type_id": "973667a0-e055-4dff-b586-92f3389e905d",
+    "question_text": "Three identical laboratory carts A, B, and C are each subject to a constant force FA, FB, and FC, respectively. One or more of these forces may be zero. The diagram below shows the position of each cart at each second of an 8.0 second interval.",
+    "qhash": "b36f838146b2a93b2abec70bf581d7cd",
+    "metadata": {
+      "label": "47",
+      "source_id": "q_d47"
+    },
+    "question_format": "mcq",
+    "is_stem_child": true,
+    "stem_group_id": "01708d4f-4814-4a1a-b8e6-a7aaf4dad3f2"
+  },
+  {
+    "id": "167aa395-b76c-43b5-ae79-7e0b48b728f2",
+    "question_type_id": "973667a0-e055-4dff-b586-92f3389e905d",
+    "question_text": "Using the setup described in question 45 with a 5 kg block, 7 kg block on a table, and the 5 kg block hanging. With a net applied force yielding a total acceleration of 2.5 m/s² on the 12-kg system, the tension in the rope between the hanging block and the block on the table is",
+    "qhash": "2bacd0258cf145909ef4170cc334aad8",
+    "metadata": {
+      "label": "46",
+      "source_id": "q_d46"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "7e89f7a5-5f1e-4094-92ec-3d4007a34c41",
+    "question_type_id": "973667a0-e055-4dff-b586-92f3389e905d",
+    "question_text": "A block of mass 3 kg, initially at rest, is pulled along a frictionless, horizontal surface with a force shown as a function of time t by the graph above. The acceleration of the block at t = 2 s is",
+    "qhash": "2c537c3576fc4ef7df040d3d0e668fb0",
+    "metadata": {
+      "label": "24",
+      "source_id": "q_d24"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "ab0c1d24-113e-4ea1-b4ff-614fa7ea8bfd",
+    "question_type_id": "d99753dc-133b-4cf6-a4e9-f7406ed4bcf0",
+    "question_text": "A tractor-trailer truck is traveling down the road. The mass of the trailer is 4 times the mass of the tractor. If the tractor accelerates forward, the force that the trailer applies on the tractor is",
+    "qhash": "ce1e2ee83ab6de168842458a5ebe6051",
+    "metadata": {
+      "label": "30",
+      "source_id": "q_d30"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "56398b06-5d0c-4172-9498-622a3af0f035",
+    "question_type_id": "f22af356-e937-49b1-b270-a3ee1411bec3",
+    "question_text": "A skydiver is falling at terminal velocity before opening her parachute. After opening her parachute, she falls at a much smaller terminal velocity. How does the total upward force before she opens her parachute compare to the total upward force after she opens her parachute?",
+    "qhash": "676ce1531297dbafebee3493f82f4177",
+    "metadata": {
+      "label": "49",
+      "source_id": "q_d49"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "90121244-fa50-4902-9d9f-69d147d3105c",
+    "question_type_id": "d46cf597-b7d0-4b43-bd59-caa15f9b5129",
+    "question_text": "When the speed of a rear-drive car is increasing on a horizontal road, what is the direction of the frictional force on the tires?",
+    "qhash": "50e6ddb827b7e4268571bfa7f808475d",
+    "metadata": {
+      "label": "44",
+      "source_id": "q_d44"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "ea4763b7-3dc9-46f6-a2a3-fa0916df3bf2",
+    "question_type_id": "54c6cfca-d95b-4c5f-b789-bdd760a079b8",
+    "question_text": "A child pulls a 15 kg sled containing a 5.0 kg dog along a straight path on a horizontal surface. He exerts a force of 55 N on the sled at an angle of 20° above the horizontal. The coefficient of friction between the sled and the surface is 0.22. Using g = 9.8 m/s², calculate the normal force of the surface on the system and the acceleration of the system.",
+    "qhash": "4ef46103b8227a462ec27c78da8d04fc",
+    "metadata": {
+      "label": "B2007b1",
+      "source_id": "q_frq_2007B1B"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "af00ee1b-022e-4a60-a4c3-f4c0f58bca2c",
+    "question_type_id": "2d698944-c5ae-486d-ab3d-fbb4335131ed",
+    "question_text": "A crate of toys remains at rest on a sleigh as the sleigh is pulled up a hill with an increasing speed. The crate is not fastened down to the sleigh. What force is responsible for the crate's increase in speed up the hill?",
+    "qhash": "692b04a7a639a4af2989ccaad6cc2987",
+    "metadata": {
+      "label": "39",
+      "source_id": "q_d39"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "6d7122a6-42e3-417d-90a3-5c1abb70877d",
+    "question_type_id": "3c7a84f6-6cb3-4a12-bd32-6a0a7a78c31f",
+    "question_text": "A simple pendulum consists of a bob of mass 1.8 kg attached to a string of length 2.3 m. The pendulum is held at an angle of 30° from the vertical by a light horizontal string attached to a wall. Using g = 9.8 m/s², calculate the tension in the horizontal string.",
+    "qhash": "3ada6313abcd6c90ed754f3a2de7ed71",
+    "metadata": {
+      "label": "2005B2",
+      "source_id": "q_frq_2005B2"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "2f7b4285-cbbf-423e-9e8c-39c8d602569c",
+    "question_type_id": "f3230b7c-3712-468c-a7a6-43f680750722",
+    "question_text": "A person stands on a merry-go-round which is rotating at constant angular speed. Which of the following pair of statements is true about the frictional force exerted on the person by the merry-go-round?",
+    "qhash": "4cc70e6bf50c23b926b73cde484647d8",
+    "metadata": {
+      "label": "B1",
+      "source_id": "q_cm1"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "9b7c619a-a6a1-45d8-aae1-15ff7b734231",
+    "question_type_id": "bb78f05e-de80-495a-a5ea-0541171a0769",
+    "question_text": "A small box of mass m is placed on top of a larger box of mass 2m as shown in the diagram at right. When a force F is applied to the large box, both boxes accelerate to the right with the same acceleration. If the coefficient of friction between all surfaces is μ, what would be the force accelerating the smaller mass?",
+    "qhash": "2f7edfb9e5f0a50b5ac8213edf69532a",
+    "metadata": {
+      "label": "35",
+      "source_id": "q_d35"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "a5940f0c-608a-435e-ae23-91ecd232b22b",
+    "question_type_id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "question_text": "A block of mass 3m can move without friction on a horizontal table. This block is attached to another block of mass m by a cord that passes over a frictionless pulley, as shown above. If the masses of the cord and the pulley are negligible, what is the magnitude of the acceleration of the descending block?",
+    "qhash": "6f71a0b5f7cb94329a4123972ebf1ad2",
+    "metadata": {
+      "label": "9",
+      "source_id": "q_d9"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "ef05d1d0-9fcf-4bb8-91fc-921304457190",
+    "question_type_id": "54c6cfca-d95b-4c5f-b789-bdd760a079b8",
+    "question_text": "(Stimulus continued — same setup as Q25.) As the crate slides a distance d, how does the new gain in kinetic energy compare to ΔK?",
+    "qhash": "e938841f32986b8855c12c5be1c5ab4d",
+    "metadata": {
+      "label": "26",
+      "source_id": "ap_p1_2014_q26"
+    },
+    "question_format": "mcq",
+    "is_stem_child": true,
+    "stem_group_id": "53d63700-a9e8-4987-b28c-6542c78a5df3"
+  },
+  {
+    "id": "29fd22e5-e6f6-40d3-bc3e-a1c9ebeb2fc5",
+    "question_type_id": "f3230b7c-3712-468c-a7a6-43f680750722",
+    "question_text": "The horizontal turntable shown above rotates at a constant rate. As viewed from above, a coin on the turntable moves counterclockwise in a circle as shown. Which of the following vectors best represents the direction of the frictional force exerted on the coin by the turntable when the coin is in the position shown?",
+    "qhash": "5cfc123abb0a2f7a9fde0655a3737485",
+    "metadata": {
+      "label": "B4",
+      "source_id": "q_cm4"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "7d221d4f-864d-4e04-811f-97b9a87a03c5",
+    "question_type_id": "bb78f05e-de80-495a-a5ea-0541171a0769",
+    "question_text": "Three blocks (m1, m2, and m3) are sliding at a constant velocity across a rough surface as shown in the diagram above. The coefficient of kinetic friction between each block and the surface is μ. What would be the force of m1 on m2?",
+    "qhash": "b36bfdf4e6637320729410ad6bb92782",
+    "metadata": {
+      "label": "54",
+      "source_id": "q_d54"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "525e3866-b436-4ee6-8687-51ff148c672f",
+    "question_type_id": "b743c003-5094-41b2-9fc1-9c90e718c9a1",
+    "question_text": "The figure above shows a uniform beam of length L and mass M that hangs horizontally and is attached to a vertical wall. A block of mass M is suspended from the far end of the beam by a cable. A support cable runs from the wall to the outer edge of the beam. Both cables are of negligible mass. The wall exerts a force F_W on the left end of the beam. For which of the following actions is the magnitude of the vertical component of F_W smallest?",
+    "qhash": "f8dbd5a21e18b436ac4081fec0174556",
+    "metadata": {
+      "label": "32",
+      "source_id": "ap_p1_2016_q32"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "94868312-ccfb-4660-9409-346680e6f3f5",
+    "question_type_id": "3de57203-070c-41b7-9f45-7ed8e18261bb",
+    "question_text": "A 12 kg box sliding on a horizontal floor has an initial speed of 4.0 m/s. The coefficient of friction between the box and the floor is 0.20. The box moves a distance of 4.0 m in 2.0 s. The magnitude of the change in momentum of the box during this time is most nearly",
+    "qhash": "aa6c4337f620502729a6ae9e72302751",
+    "metadata": {
+      "label": "2",
+      "source_id": "ap_p1_2017_q2"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "43311323-b378-4069-b2bc-e2476ae5c5cc",
+    "question_type_id": "f3230b7c-3712-468c-a7a6-43f680750722",
+    "question_text": "A steel ball supported by a stick rotates in a circle of radius r, as shown above. The direction of the net force acting on the ball when it is in the position shown is indicated by which of the following?",
+    "qhash": "2efe608559541b1437fac275cf3b096c",
+    "metadata": {
+      "label": "B10",
+      "source_id": "q_cm10"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "0ac180f4-b5be-4993-b0a0-0755a05cde44",
+    "question_type_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "question_text": "A wooden box is first pulled across a horizontal steel plate as shown in the diagram A. The box is then pulled across the same steel plate while the plate is inclined as shown in diagram B. How does the force required to overcome friction in the inclined case (B) compare to the horizontal case (A)?",
+    "qhash": "26a0610e749e920ed0ae2fc13b723d66",
+    "metadata": {
+      "label": "31",
+      "source_id": "q_d31"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "aa8c6416-f10c-4e6e-9745-433295b6e34b",
+    "question_type_id": "f3230b7c-3712-468c-a7a6-43f680750722",
+    "question_text": "A spring has a force constant of 100 N/m and an unstretched length of 0.07 m. One end is attached to a post that is free to rotate in the center of a smooth table, as shown in the top view above. The other end is attached to a 1 kg disc moving in uniform circular motion on the table, which stretches the spring by 0.03 m. Friction is negligible. What is the centripetal force on the disc?",
+    "qhash": "02dd35285f75da2a89941e27ad65d951",
+    "metadata": {
+      "label": "B14",
+      "source_id": "q_cm14"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "ce73dd8a-dd01-4235-96ab-ee6207c66188",
+    "question_type_id": "665c502a-a8bf-47bb-9ec1-20afb9ca37a3",
+    "question_text": "Two massless springs, of spring constants k1 and k2, are hung from a horizontal support. A block of weight 12 N is suspended from the pair of springs, as shown above. When the block is in equilibrium, each spring is stretched an additional 24 cm. Thus, the equivalent spring constant of the two-spring system is 12 N / 24 cm = 0.5 N/cm. Which of the following statements is correct about k1 and k2?",
+    "qhash": "f8d0fb359d1933d22d202afca40135d0",
+    "metadata": {
+      "label": "20",
+      "source_id": "q_d20"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "309941c3-add3-40ff-bb66-32fe80448a8a",
+    "question_type_id": "f3230b7c-3712-468c-a7a6-43f680750722",
+    "question_text": "An object shown in the accompanying figure moves in uniform circular motion. Which arrow best depicts the net force acting on the object at the instant shown?",
+    "qhash": "ec92713aa3c2c057b62f7ab8a9812982",
+    "metadata": {
+      "label": "B18",
+      "source_id": "q_cm18"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "07908dbf-c329-4d98-a9ca-5c7089416386",
+    "question_type_id": "08af44c8-7071-4d00-b9e1-0d0d84c144d5",
+    "question_text": "A car travels forward with constant velocity. It goes over a small stone, which gets stuck in the groove of a tire. The initial acceleration of the stone, as it leaves the surface of the road, is",
+    "qhash": "62c13e0b13c6dc46ed8e51e358a68e45",
+    "metadata": {
+      "label": "B16",
+      "source_id": "q_cm16"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "8d88a653-e3be-4083-94d7-2762d259eafd",
+    "question_type_id": "909bff58-644c-4423-954f-0eb27dcde525",
+    "question_text": "A ball of mass m is attached to the end of a string of length L. The ball is released from rest from position P, where the string is horizontal. It swings through position Q, where the string is vertical, and then to position R, where the string is again horizontal. What are the directions of the acceleration vectors of the ball at positions Q and R?",
+    "qhash": "b6b88b9828aea9b3123dbc6476e40370",
+    "metadata": {
+      "label": "B12",
+      "source_id": "q_cm12"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "7741ecce-fa3c-4b0d-92a7-1a4baa10e117",
+    "question_type_id": "909bff58-644c-4423-954f-0eb27dcde525",
+    "question_text": "In which of the following situations would an object be accelerated? Select the pair of situations in which both describe acceleration.",
+    "qhash": "4c723febb9199e7764f6d4714b62a82b",
+    "metadata": {
+      "label": "B5",
+      "source_id": "q_cm5"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "3bc88aa0-91e7-4e21-b875-ab9cfa1a548f",
+    "question_type_id": "f3230b7c-3712-468c-a7a6-43f680750722",
+    "question_text": "Three cars are moving counterclockwise during a one-lap race on an elliptical track. Which car at the moment of the snapshot MUST have a net force acting on it?",
+    "qhash": "0efab0b4073e3199b82a27248563fa3b",
+    "metadata": {
+      "label": "B23",
+      "source_id": "q_cm23"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "0cf8b3b9-ec8f-4964-a83c-310e93c3fde8",
+    "question_type_id": "08af44c8-7071-4d00-b9e1-0d0d84c144d5",
+    "question_text": "An object of mass M on a string is whirled with increasing speed in a horizontal circle. When the string breaks, the object has speed v0 and the circular path has radius R and is a height h above the ground. Neglect air friction. Determine (i) the time required for the object to hit the ground after the string breaks, and (ii) the horizontal distance the object travels from the time the string breaks until it hits the ground.",
+    "qhash": "91bd0b7b4c1250c551968b17e7c39060",
+    "metadata": {
+      "label": "1989B1",
+      "source_id": "q_frq_1989B1"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "252828d7-2582-4a3a-8a20-efec664a6597",
+    "question_type_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "question_text": "A 10-kilogram block rests on a table. The coefficient of sliding friction between the block and the table is 0.2. The block is connected to a cord of negligible mass that hangs over a massless frictionless pulley. In case I a force of 50 newtons is applied horizontally to the cord pulling the block. Using g = 10 m/s², calculate the acceleration of the 10-kilogram block in case I.",
+    "qhash": "44601aeec72709602fdaea8c4963b686",
+    "metadata": {
+      "label": "1979B2",
+      "source_id": "q_frq_1979B2"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "790da8dd-1f45-4501-b005-88f6ae1b7d4c",
+    "question_type_id": "b1dffc3c-32f4-4126-bfaa-45375beec9a6",
+    "question_text": "A centripetal force of 5.0 newtons is applied to a rubber stopper moving at a constant speed in a horizontal circle. If the same force is applied, but the radius is made smaller, what happens to the speed, v, and the frequency, f, of the stopper?",
+    "qhash": "7bf55fb06b28bbfcd8ea95f910811308",
+    "metadata": {
+      "label": "B24",
+      "source_id": "q_cm24"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "f04dbe0b-4804-4bbc-a89e-77fd8ec35a5e",
+    "question_type_id": "909bff58-644c-4423-954f-0eb27dcde525",
+    "question_text": "Astronauts on the Moon perform an experiment with a simple pendulum that is released from the horizontal position at rest. At the moment shown in the diagram with 0° < θ < 90°, the total acceleration of the mass may be directed in which of the following ways?",
+    "qhash": "21fb8db200d2428603cb2bffa8e348f7",
+    "metadata": {
+      "label": "B25",
+      "source_id": "q_cm25"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "e29c541f-a299-4550-a858-bcd190ca5915",
+    "question_type_id": "973667a0-e055-4dff-b586-92f3389e905d",
+    "question_text": "(b) Calculate the magnitude of the external force exerted on the system.",
+    "qhash": "2ad2ecc27e2e4ca496da1b34de7b5c59",
+    "metadata": {
+      "label": "FRQ1.b",
+      "source_id": "ap_p1_2014_qFRQ1.b"
+    },
+    "question_format": "free_response",
+    "is_stem_child": true,
+    "stem_group_id": "6a6272d0-ab35-45cd-bcbc-0b06dd86fba4"
+  },
+  {
+    "id": "e70bdd00-7ccf-416e-adb3-d76ca9888780",
+    "question_type_id": "41bca3e2-c8ce-409c-a321-c89763c254ac",
+    "question_text": "A ball of mass m is fastened to a string. The ball swings at constant speed in a vertical circle of radius R with the other end of the string held fixed. Neglecting air resistance, what is the difference between the string's tension at the bottom of the circle and at the top of the circle?",
+    "qhash": "db9e2b0eee2aaa70e9f519d714e49282",
+    "metadata": {
+      "label": "B27",
+      "source_id": "q_cm27"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "06096747-69ce-43ac-9654-fdd89c8a48b2",
+    "question_type_id": "b1dffc3c-32f4-4126-bfaa-45375beec9a6",
+    "question_text": "A child has a toy tied to the end of a string and whirls the toy at constant speed in a horizontal circular path of radius R. The toy completes each revolution of its motion in a time period T. What is the magnitude of the acceleration of the toy?",
+    "qhash": "47fff239342235d7c64543a4a85906b1",
+    "metadata": {
+      "label": "B8",
+      "source_id": "q_cm8"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "581e9f41-a699-4b7c-a9de-b360a6c26620",
+    "question_type_id": "b1dffc3c-32f4-4126-bfaa-45375beec9a6",
+    "question_text": "A coin of mass 0.0050 kg is placed on a horizontal disk at a distance of 0.14 m from the center. The disk rotates at a constant rate counterclockwise as seen from above, and the coin does not slip. The time it takes for the coin to make a complete revolution is 1.5 s. Determine the linear speed of the coin.",
+    "qhash": "9a789f51301db65a16e0fc4d7621eb90",
+    "metadata": {
+      "label": "1999B5",
+      "source_id": "q_frq_1999B5"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "bd9ef641-a5f0-4c46-9b9d-857eaddfed45",
+    "question_type_id": "973667a0-e055-4dff-b586-92f3389e905d",
+    "question_text": "(c) Suppose the experiment is repeated with different carts, so that the masses of cart plus magnet are 2 kg and 4 kg. Would your answer to part (b) be different with the new masses? Justify your answer.",
+    "qhash": "64f4d985ccd51356489c2d4ba98b2cf5",
+    "metadata": {
+      "label": "FRQ1.c",
+      "source_id": "ap_p1_2014_qFRQ1.c"
+    },
+    "question_format": "free_response",
+    "is_stem_child": true,
+    "stem_group_id": "6a6272d0-ab35-45cd-bcbc-0b06dd86fba4"
+  },
+  {
+    "id": "ceecb3e5-df5e-449c-b08c-def04f4bb625",
+    "question_type_id": "909bff58-644c-4423-954f-0eb27dcde525",
+    "question_text": "A toy consists of two identical solid spheres connected by a string with negligible mass. The toy is thrown at an angle above the horizontal (not straight up) such that the string remains taut and both spheres are revolving counterclockwise in a vertical plane around the center of the string, as shown above. (a) Sketch graphs of the horizontal and vertical components of the velocity of the center of the string as a function of time, from the instant the spheres are released at time t = 0 until the instant the system returns to its initial height at time t_f. Take the positive direction to be toward the right for the horizontal component and the positive direction to be upward for the vertical component.",
+    "qhash": "6a1e4b6fa656559344ff42128d1f5eb6",
+    "metadata": {
+      "label": "FRQ1.a",
+      "source_id": "ap_p1_2018_qFRQ1.a"
+    },
+    "question_format": "free_response",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "4383af7f-3cb7-44d8-abd2-d562efb3dcff",
+    "question_type_id": "41bca3e2-c8ce-409c-a321-c89763c254ac",
+    "question_text": "An object weighing 4 newtons swings on the end of a string as a simple pendulum. At the bottom of the swing, the tension in the string is 6 newtons. What is the magnitude of the centripetal acceleration of the object at the bottom of the swing?",
+    "qhash": "d2634f001f343105d9edfe64ddca2eeb",
+    "metadata": {
+      "label": "B28",
+      "source_id": "q_cm28"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "6c057590-ab37-46bc-8fb6-0d3e5ba4b415",
+    "question_type_id": "b1dffc3c-32f4-4126-bfaa-45375beec9a6",
+    "question_text": "An astronaut in an orbiting space craft attaches a mass m to a string and whirls it around in uniform circular motion. The radius of the circle is R, the speed of the mass is v, and the tension in the string is F. If the mass, radius, and speed were all to double the tension required to maintain uniform circular motion would be",
+    "qhash": "80e8629d4c8491f81cbf60bba13fab52",
+    "metadata": {
+      "label": "B20",
+      "source_id": "q_cm20"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "1ea7ce3c-d278-4178-9c27-4b8ecb5204b5",
+    "question_type_id": "909bff58-644c-4423-954f-0eb27dcde525",
+    "question_text": "A child whirls a ball at the end of a rope, in a uniform circular motion. Which pair of statements is true?",
+    "qhash": "0a3816ec69ac49381efa543a2d5c8d1b",
+    "metadata": {
+      "label": "B19",
+      "source_id": "q_cm19"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "c639dcb8-11c8-4d01-88ee-124e2026f618",
+    "question_type_id": "41bca3e2-c8ce-409c-a321-c89763c254ac",
+    "question_text": "A 4.0 kg mass is attached to one end of a rope 2 m long. If the mass is swung in a vertical circle from the free end of the rope, what is the tension in the rope when the mass is at its highest point if it is moving with a speed of 5 m/s?",
+    "qhash": "b5f684a13bad615e72de0cdfdc824aca",
+    "metadata": {
+      "label": "B26",
+      "source_id": "q_cm26"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "6b9a0d27-8848-45bf-bf4b-e5b4a17bbb6a",
+    "question_type_id": "bbb55c91-193b-4fdb-a7d0-fd44400515a9",
+    "question_text": "The stacks of boxes shown in the figure above are inside an elevator that is moving upward. The masses of the boxes are given in terms of the mass M of the lightest box. How does the magnitude of the force exerted by the top box on the bottom box compare with the magnitude of the force exerted by the bottom box on the top box for each of the stacks?",
+    "qhash": "ade8bca5245e9ab27f8696dd911f5694",
+    "metadata": {
+      "label": "40",
+      "source_id": "ap_p1_2014_q40"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "42677f6d-9802-4037-8b6f-0076c2828f90",
+    "question_type_id": "d99753dc-133b-4cf6-a4e9-f7406ed4bcf0",
+    "question_text": "Each of the figures above shows a tractor attached to an object. The tractor exerts the same constant force F on each object in every case. Which of the following is a true statement about an object and the relative magnitude of the force exerted by the object on the tractor?",
+    "qhash": "6c40a4683d36e555b69ecac4d20abf65",
+    "metadata": {
+      "label": "23",
+      "source_id": "ap_p1_2015_q23"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "22d42d82-0419-4a2e-a060-0438addb279d",
+    "question_type_id": "909bff58-644c-4423-954f-0eb27dcde525",
+    "question_text": "A figure of a dancer on a music box moves counterclockwise at constant speed around the path shown above. The path is such that the lengths of its segments, PQ, QR, RS, and SP, are equal. Arcs QR and SP are semicircles. Which of the following best represents the magnitude of the dancer's acceleration as a function of time t during one trip around the path, beginning at point P?",
+    "qhash": "86a77e126b4e6880dec36d51a9b853a2",
+    "metadata": {
+      "label": "B15",
+      "source_id": "q_cm15"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "519659ec-addc-4206-a7f6-ff430bc89147",
+    "question_type_id": "41bca3e2-c8ce-409c-a321-c89763c254ac",
+    "question_text": "Assume the roller coaster cart rolls along the curved track from point A to point C under the influence of gravity. Assume the friction between the track and the cart is negligible. What would be the direction of the cart's acceleration at point B (the bottom of the curved dip)?",
+    "qhash": "a7035134acbe32314e6ed99e079d3267",
+    "metadata": {
+      "label": "B21",
+      "source_id": "q_cm21"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "edff86c2-57bd-4d2d-a789-243d23a917fc",
+    "question_type_id": "bbb55c91-193b-4fdb-a7d0-fd44400515a9",
+    "question_text": "Assume the elevator is moving at constant speed, and consider the bottom box in the stack that has two boxes of mass 2M. Let F_floor be the force exerted by the floor on the box, F_g be the force exerted by gravity on the box, and F_box be the force exerted by the top box on the bottom box. Which of the following best represents the forces exerted on the bottom box?",
+    "qhash": "c7a26007f9b7e2b5a13f0a160d92ddb2",
+    "metadata": {
+      "label": "41",
+      "source_id": "ap_p1_2014_q41"
+    },
+    "question_format": "mcq",
+    "is_stem_child": true,
+    "stem_group_id": "6b9a0d27-8848-45bf-bf4b-e5b4a17bbb6a"
+  },
+  {
+    "id": "9fa0ef7e-039c-4970-8c57-5f16c484b306",
+    "question_type_id": "08af44c8-7071-4d00-b9e1-0d0d84c144d5",
+    "question_text": "A compressed spring mounted on a disk can project a small ball. When the disk is not rotating, as shown in the top view above, the ball moves radially outward. The disk then rotates in a counterclockwise direction as seen from above, and the ball is projected outward at the instant the disk is in the position shown above. Which of the following best shows the subsequent path of the ball relative to the ground?",
+    "qhash": "ae9cb447bbfe37557a272e89e77ea7c3",
+    "metadata": {
+      "label": "B9",
+      "source_id": "q_cm9"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "2f192bac-b994-43ec-9f61-b76cc21fb786",
+    "question_type_id": "bbb55c91-193b-4fdb-a7d0-fd44400515a9",
+    "question_text": "Assume the elevator has upward acceleration a, and consider the stack that has two boxes of mass M. What is the magnitude of the force exerted on the top box by the bottom box?",
+    "qhash": "724caf0cb8b4170b50591c5bb0648c3f",
+    "metadata": {
+      "label": "42",
+      "source_id": "ap_p1_2014_q42"
+    },
+    "question_format": "mcq",
+    "is_stem_child": true,
+    "stem_group_id": "6b9a0d27-8848-45bf-bf4b-e5b4a17bbb6a"
+  },
+  {
+    "id": "cbcd0c39-ff4d-4000-8986-099ffcb6423a",
+    "question_type_id": "08af44c8-7071-4d00-b9e1-0d0d84c144d5",
+    "question_text": "A car is traveling on a road in hilly terrain. Assume the car has speed v and the tops and bottoms of the hills have radius of curvature R. The driver of the car is most likely to feel weightless:",
+    "qhash": "402012dcf089e1f23ce9bb7c04c80ef4",
+    "metadata": {
+      "label": "B17",
+      "source_id": "q_cm17"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "75bd0e4b-abb5-461a-ac7b-0fdecd9c83c4",
+    "question_type_id": "d46cf597-b7d0-4b43-bd59-caa15f9b5129",
+    "question_text": "A stone of mass m is thrown upward at a 30° angle to the horizontal. At the instant the stone reaches its highest point, why is the stone neither gaining nor losing speed?",
+    "qhash": "bdb82fbc51956c6012d1d8908ce6e7a1",
+    "metadata": {
+      "label": "4",
+      "source_id": "ap_p1_2015_q4"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "afce2f17-72d4-4d13-acd9-a189ed4c3b52",
+    "question_type_id": "909bff58-644c-4423-954f-0eb27dcde525",
+    "question_text": "(b)ii. On the dot below, which represents the whole toy (the spheres-string system), draw and label the forces (not components) that act on the system at this instant. Represent each force by a distinct arrow starting on, and pointing away from, the dot. The dashed line is drawn at the same angle as the string.",
+    "qhash": "a9d1494494a7310e8c2d3e8abe3a1075",
+    "metadata": {
+      "label": "FRQ1.b.ii",
+      "source_id": "ap_p1_2018_qFRQ1.b.ii"
+    },
+    "question_format": "free_response",
+    "is_stem_child": true,
+    "stem_group_id": "ceecb3e5-df5e-449c-b08c-def04f4bb625"
+  },
+  {
+    "id": "9f13906f-ef9c-4ebf-9549-c307f85516e2",
+    "question_type_id": "3c7a84f6-6cb3-4a12-bd32-6a0a7a78c31f",
+    "question_text": "A ball of mass m is suspended from two strings of unequal length as shown above. The magnitudes of the tensions T1 and T2 in the strings must satisfy which of the following relations?",
+    "qhash": "cc6129ba2e0a109ba8083a41d8226feb",
+    "metadata": {
+      "label": "1",
+      "source_id": "q_d1"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "c4c32050-180d-4bd4-8f74-f98f704bdd7a",
+    "question_type_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "question_text": "A 2-kg block slides down a 30° incline as shown above with an acceleration of 2 m/s².",
+    "qhash": "d2136dc99aab25b7cdbb63bbaa7f70a5",
+    "metadata": {
+      "label": "2",
+      "source_id": "q_d2"
+    },
+    "question_format": "mcq",
+    "is_stem_child": true,
+    "stem_group_id": "176e0570-62f8-454d-a543-f5518bef8038"
+  },
+  {
+    "id": "d666b5c1-5212-46b6-93b7-e321a945ab21",
+    "question_type_id": "54c6cfca-d95b-4c5f-b789-bdd760a079b8",
+    "question_text": "A block of mass m is accelerated across a rough surface by a force of magnitude F that is exerted at an angle θ with the horizontal, as shown above. The frictional force on the block exerted by the surface has magnitude f. What is the acceleration of the block?",
+    "qhash": "f2aaec4befc1d15c86498a64252153ac",
+    "metadata": {
+      "label": "22",
+      "source_id": "q_d22"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "d86e9c05-faaa-4f6d-88e8-4f5d2b1fe4c3",
+    "question_type_id": "b743c003-5094-41b2-9fc1-9c90e718c9a1",
+    "question_text": "A horizontal, uniform board of weight 125 N and length 4 m is supported by vertical chains at each end. A person weighing 500 N is hanging from the board. The tension in the right chain is 250 N.",
+    "qhash": "e11ed0d27bc83d6c46464da1869b259a",
+    "metadata": {
+      "label": "15",
+      "source_id": "q_d15"
+    },
+    "question_format": "mcq",
+    "is_stem_child": true,
+    "stem_group_id": "10213f55-3e77-4dac-ae1b-89962593e5a4"
+  },
+  {
+    "id": "6ad556b0-4aa7-4f0a-bd5f-3251e8ca2911",
+    "question_type_id": "bbb55c91-193b-4fdb-a7d0-fd44400515a9",
+    "question_text": "A 50-kg student stands on a scale in an elevator. At the instant the elevator has a downward acceleration of 1.0 m/s² and an upward velocity of 3.0 m/s, the scale reads approximately",
+    "qhash": "eb69ebc339f9ca8b315c7f1c90a0a980",
+    "metadata": {
+      "label": "29",
+      "source_id": "q_d29"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "f0e6e095-ad33-4bb2-8fd3-2c8b61d26ef3",
+    "question_type_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "question_text": "A box of mass m is on a rough inclined plane that is at an angle θ with the horizontal. A force of magnitude F at an angle φ with the plane is exerted on the block, as shown above. As the block moves up the plane, there is a frictional force between the box and the plane of magnitude f. What is the magnitude of the net force acting on the box?",
+    "qhash": "9f453ff5f003a639145031c41f421641",
+    "metadata": {
+      "label": "7",
+      "source_id": "ap_p1_2015_q7"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "ae29a362-d3bd-470f-8aba-767ea28439f4",
+    "question_type_id": "41bca3e2-c8ce-409c-a321-c89763c254ac",
+    "question_text": "A small block slides without friction along a track toward a circular loop. The block has more than enough speed to remain firmly in contact with the track as it goes around the loop. The magnitude of the block's acceleration at the top of the loop is",
+    "qhash": "bc2bdf8f8348d4b1c8333c527aa57da9",
+    "metadata": {
+      "label": "16",
+      "source_id": "ap_p1_2018_q16"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "fdf5fd48-a82a-4842-9d15-c04d40e281bd",
+    "question_type_id": "909bff58-644c-4423-954f-0eb27dcde525",
+    "question_text": "(b)iii. When the toy was released, the center of the string was moving with an initial speed of 15 m/s at a 60° angle above the horizontal. Calculate the speed of the center of the string at the instant shown above, when the center of the string reaches the top of its trajectory.",
+    "qhash": "e52d197fe693af943652a4f5b659ba87",
+    "metadata": {
+      "label": "FRQ1.b.iii",
+      "source_id": "ap_p1_2018_qFRQ1.b.iii"
+    },
+    "question_format": "free_response",
+    "is_stem_child": true,
+    "stem_group_id": "ceecb3e5-df5e-449c-b08c-def04f4bb625"
+  },
+  {
+    "id": "6a6272d0-ab35-45cd-bcbc-0b06dd86fba4",
+    "question_type_id": "973667a0-e055-4dff-b586-92f3389e905d",
+    "question_text": "The figure above represents two carts, with magnets attached, that make up a system. The mass of one cart and magnet is 1 kg and the mass of the other is 5 kg. The carts are initially at rest on a frictionless track. They are released from rest and exert a repulsive force on each other. The track is not quite horizontal, with the right side slightly lower than the left side. The speeds of the carts are measured over a 10 s interval. The graph below shows the momentum of the two carts as a function of time for this interval as they move along the x-axis. (a) Based on the graph, were the measurements started at the instant the carts were released? Justify your answer.",
+    "qhash": "424635fa655e7faead88100321920304",
+    "metadata": {
+      "label": "FRQ1.a",
+      "source_id": "ap_p1_2014_qFRQ1.a"
+    },
+    "question_format": "free_response",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "8694f19e-71f1-4099-a1a3-2f19f54d8c54",
+    "question_type_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "question_text": "A student in a physics lab has a block with a fan attached to it, as shown in the figure above. The fan has a pivot so that the angle θ it makes with the horizontal can be adjusted between 0° and 90°. When the fan is pointed horizontally so that θ = 0°, the block accelerates from rest along a track, even though there is friction between the block and the track. (a) Describe an experimental procedure that the student could use to measure the force F that the air exerts on the fan-block system when the fan is turned on. Assume that the magnitude of this force is the same for all angles θ. i. What quantities would be measured? ii. What equipment would be used for the measurements, and how would that equipment be used? Include a labeled diagram of the experimental setup. iii. Describe the overall procedure to be used. Give enough detail so that another student could replicate the experiment. iv. Describe how the force can be determined from the measurements described in parts (a)i–iii.",
+    "qhash": "c942f0a6ec9ca042a9b3bfb09cf177de",
+    "metadata": {
+      "label": "FRQ3",
+      "source_id": "ap_p1_2016_qFRQ3"
+    },
+    "question_format": "free_response",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "7951a2b4-7ccd-4df1-afa3-16b1dd5b85bf",
+    "question_type_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "question_text": "(b) Describe an experimental procedure that would allow the student to use the fan-block system, with the fan turned on, to find the coefficient of kinetic friction between the block and the track. i. What quantities would be measured? ii. What equipment would be used for the measurements, and how would that equipment be used? Include a labeled diagram of the experimental setup. iii. Describe the overall procedure to be used. iv. On the dot to the right, which represents the fan-block system, draw and label the forces (not components) that are exerted on the system during the experiment described in parts (b)i–iii.",
+    "qhash": "104b630628308c4cb1dd328152ae29a7",
+    "metadata": {
+      "label": "FRQ3.b",
+      "source_id": "ap_p1_2016_qFRQ3.b"
+    },
+    "question_format": "free_response",
+    "is_stem_child": true,
+    "stem_group_id": "8694f19e-71f1-4099-a1a3-2f19f54d8c54"
+  },
+  {
+    "id": "ef928257-c0e7-4763-87e6-c86da3bd081e",
+    "question_type_id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "question_text": "(c) Describe how to analyze the data from the experiment described in parts (b)i–iii in order to determine the coefficient of kinetic friction between the block and the track. Your analysis may include the force F exerted by the air on the fan-block system. Do not add to the free-body diagram in part (b)iv.",
+    "qhash": "d8b2173f4f17ddcbb3c2bfbdc3734269",
+    "metadata": {
+      "label": "FRQ3.c",
+      "source_id": "ap_p1_2016_qFRQ3.c"
+    },
+    "question_format": "free_response",
+    "is_stem_child": true,
+    "stem_group_id": "8694f19e-71f1-4099-a1a3-2f19f54d8c54"
+  },
+  {
+    "id": "bc93e8d3-cd70-4891-a3bf-cb31cdda8be5",
+    "question_type_id": "909bff58-644c-4423-954f-0eb27dcde525",
+    "question_text": "(b)i. The figure above shows the toy at the instant the center of the string reaches the top of its trajectory. This is a side view: the sphere on the left is higher than the sphere on the right. On the dot below, which represents the left sphere only, draw and label the forces (not components) exerted on the left sphere at this instant. Represent each force by a distinct arrow starting on, and pointing away from, the dot. The dashed line is drawn at the same angle as the string.",
+    "qhash": "8f80784cd13e314c598af936d1dfda5b",
+    "metadata": {
+      "label": "FRQ1.b.i",
+      "source_id": "ap_p1_2018_qFRQ1.b.i"
+    },
+    "question_format": "free_response",
+    "is_stem_child": true,
+    "stem_group_id": "ceecb3e5-df5e-449c-b08c-def04f4bb625"
+  },
+  {
+    "id": "a6ee3f12-30bc-48ab-bf30-ecbbebc48f36",
+    "question_type_id": "03d07b16-39e7-4c19-8567-44e95bdee70d",
+    "question_text": "Three spheres, with masses indicated above, are initially far away from each other, and the gravitational potential energy of the three-sphere system is zero. The spheres are then brought together until each sphere is a distance r from the other two, as shown above. What is the new gravitational potential energy of the three-sphere system? (Spheres have masses m, m, 2m.)",
+    "qhash": "e336960683c0b2c258c14dfa84ca4d84",
+    "metadata": {
+      "label": "23",
+      "source_id": "ap_p1_2017_q23"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "c5ad9087-83ff-415a-9e3e-e73ea7d5ee9e",
+    "question_type_id": "03d07b16-39e7-4c19-8567-44e95bdee70d",
+    "question_text": "Two satellites are in circular orbits around Earth. Satellite A has speed v_A. Satellite B has an orbital radius nine times that of satellite A. What is the speed of satellite B?",
+    "qhash": "dc6161259f4ac783aa1cdcfd7c680be6",
+    "metadata": {
+      "label": "33",
+      "source_id": "ap_p1_2017_q33"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "027620e6-6917-4a6c-b864-430c29899912",
+    "question_type_id": "03d07b16-39e7-4c19-8567-44e95bdee70d",
+    "question_text": "A newly discovered planet is found to have density 2/3 rho_E and radius 2 R_E, where rho_E and R_E are the density and radius of Earth, respectively. The surface gravitational field of the planet is most nearly",
+    "qhash": "4a3141118ad0bc6cdb6fd60e81ab6bd9",
+    "metadata": {
+      "label": "3",
+      "source_id": "ap_p1_2014_q3"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "0ac7ee2a-5e02-4a98-8539-be2dd93a1738",
+    "question_type_id": "03d07b16-39e7-4c19-8567-44e95bdee70d",
+    "question_text": "A spacecraft is placed in a circular orbit around a planet with mass 6.4 × 10^23 kg. The spacecraft orbits at a height of 4.5 × 10^7 m above the planet's surface. What additional information is needed to calculate the speed of the spacecraft in the orbit?",
+    "qhash": "1b142426f8888abb3ff250c1d13d73b1",
+    "metadata": {
+      "label": "11",
+      "source_id": "ap_p1_2014_q11"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "756bc1ce-828e-4671-9639-2f10680bddf4",
+    "question_type_id": "03d07b16-39e7-4c19-8567-44e95bdee70d",
+    "question_text": "When two charged, massive objects are placed a distance r apart, the gravitational force between them has magnitude F. When the distance between the objects is increased to 2r, the magnitude of the gravitational force between them becomes F/4. Did the electrostatic force between the objects also decrease to one fourth its initial magnitude as a result of the change in position, and why?",
+    "qhash": "3f2290fbbaca5aa2c03985b64a998c23",
+    "metadata": {
+      "label": "15",
+      "source_id": "ap_p1_2014_q15"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "a105f4ee-96c4-4b70-b7fc-148b521a19d8",
+    "question_type_id": "03d07b16-39e7-4c19-8567-44e95bdee70d",
+    "question_text": "The magnitude of the gravitational field on the surface of a particular planet is 2g. The planet's mass is half the mass of Earth. What is the planet's radius in terms of the radius R_E of Earth?",
+    "qhash": "67ddce9e85894f1e8bd08af9de0a0860",
+    "metadata": {
+      "label": "19",
+      "source_id": "ap_p1_2016_q19"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "1cebdf12-ae7b-4948-a421-f506ea6544fa",
+    "question_type_id": "03d07b16-39e7-4c19-8567-44e95bdee70d",
+    "question_text": "Planet X has twice Earth's mass and three times Earth's radius. The magnitude of the gravitational field near Planet X's surface is most nearly",
+    "qhash": "7315028304dd5f4fb05f61f3e5d57bb3",
+    "metadata": {
+      "label": "16",
+      "source_id": "ap_p1_2015_q16"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "d4382d1b-9387-42e5-9fe9-220b75f01744",
+    "question_type_id": "03d07b16-39e7-4c19-8567-44e95bdee70d",
+    "question_text": "A vehicle lands on Mars and explores its surface. The average gravitational field on the surface of Mars is 3.7 N/kg. The weight of the vehicle is defined as the gravitational force exerted on it. Which of the following statements are true about the vehicle's weight? Select two answers.",
+    "qhash": "83ebef43d267f3c6b8f940b9079eaa2f",
+    "metadata": {
+      "label": "134",
+      "source_id": "ap_p1_2018_q134"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "6d4f13cf-9719-44c7-be19-7db94a1cd126",
+    "question_type_id": "8c49e5bd-98d3-4fd2-a0f8-6ed7ba0fd0f7",
+    "question_text": "Three cars are moving counterclockwise during a one-lap race on an elliptical track. Which car has had the lowest average speed during the race so far?",
+    "qhash": "5239c667e3536c50276a748a31941c54",
+    "metadata": {
+      "label": "B22",
+      "source_id": "q_cm22"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "e3f1858d-1a65-4f80-aec6-b3204e97338e",
+    "question_type_id": "8c49e5bd-98d3-4fd2-a0f8-6ed7ba0fd0f7",
+    "question_text": "Riders in a carnival ride stand with their backs against the wall of a circular room of diameter 8.0 m. The room is spinning horizontally about an axis through its center at a rate of 45 rev/min when the floor drops so that it no longer provides any support for the riders. What is the minimum coefficient of static friction between the wall and the rider required so that the rider does not slide down the wall?",
+    "qhash": "2970038cc63fb168a70059faaff5c9b8",
+    "metadata": {
+      "label": "B29",
+      "source_id": "q_cm29"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "25d76b52-2d34-4bd8-a11a-1c2db4f06f5c",
+    "question_type_id": "8c49e5bd-98d3-4fd2-a0f8-6ed7ba0fd0f7",
+    "question_text": "A highway curve that has a radius of curvature of 100 meters is banked at an angle of 15°. Determine the vehicle speed for which this curve is appropriate if there is no friction between the road and the tires of the vehicle. Use g = 9.8 m/s².",
+    "qhash": "da5c655ae64a67dadcbf6825353fd15d",
+    "metadata": {
+      "label": "1988M1",
+      "source_id": "q_frq_1988M1"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  },
+  {
+    "id": "9d455f78-434f-45af-803e-61fe077ff3d2",
+    "question_type_id": "8c49e5bd-98d3-4fd2-a0f8-6ed7ba0fd0f7",
+    "question_text": "An amusement park ride consists of a rotating vertical cylinder with rough canvas walls. After the rider has entered and the cylinder is rotating sufficiently fast, the floor is dropped down, yet the rider does not slide down. The rider has mass 50 kg, the radius R of the cylinder is 5 m, and the frequency of the cylinder when rotating is 1/π revolutions per second. Calculate the centripetal force on the rider when the cylinder is rotating. (This force is provided by the normal force from the wall.)",
+    "qhash": "3680c634d5025d162af3f6c4333a9328",
+    "metadata": {
+      "label": "1984M1",
+      "source_id": "q_frq_1984M1"
+    },
+    "question_format": "mcq",
+    "is_stem_child": false,
+    "stem_group_id": null
+  }
+]

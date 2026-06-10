@@ -1,0 +1,1418 @@
+{
+  "version": 2,
+  "units": [
+    {
+      "id": "u8",
+      "label": "Unit 8: Fluids",
+      "question_types": [
+        {
+          "id": "qt1",
+          "label": "Density, mass, and volume relationships",
+          "section_ref": "8.1.A",
+          "primary_slo": "8.1.A.3",
+          "notes": "Members require applying ρ = m/V to compare volumes or masses of substances with different densities.",
+          "slo_weights": [
+            {
+              "slo": "8.1.A.3",
+              "weight": 0.65
+            },
+            {
+              "slo": "8.1.A.2",
+              "weight": 0.2
+            },
+            {
+              "slo": "8.1.A.4",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [
+            "8.1.A.2",
+            "8.1.A.4"
+          ],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_psi1",
+              "label": "PSI-1",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Source has 5 options; reduced to 4 per MCQ format.",
+              "options": [
+                "(A) 1/15",
+                "(B) 17/1",
+                "(C) 1/13",
+                "(D) 1/17"
+              ],
+              "correct_option": "(B) 17/1",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Two substances, mercury with a density 13600 kg/m³ and alcohol with a density 0.8 kg/m³ (as printed in the source), are selected for an experiment. If the experiment requires equal masses of each liquid, what is the ratio of alcohol volume to the mercury volume?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 1/15\n(B) 17/1\n(C) 1/13\n(D) 1/17"
+                }
+              ]
+            },
+            {
+              "id": "q_psi_frq1_d",
+              "label": "PSI-FRQ1-d",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Converted from PSI free-response 1 part (d): sphere of density D on spring stretches x1 in air, x2 in liquid of density ρ. Find ρ in terms of D, x1, x2.",
+              "options": [
+                "(A) $\\rho = D(x_1/x_2 - 1)$",
+                "(B) $\\rho = D(x_2/x_1)$",
+                "(C) $\\rho = D(1 + x_2/x_1)$",
+                "(D) $\\rho = D(1 - x_2/x_1)$"
+              ],
+              "correct_option": "(D) $\\rho = D(1 - x_2/x_1)$",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 6,
+                  "bbox": [
+                    0.33,
+                    0.443,
+                    0.556,
+                    0.671
+                  ],
+                  "caption": "Sphere on spring submerged in fluid",
+                  "alt": "Sphere of mass m and density D suspended from a spring, lowered into a container of fluid"
+                },
+                {
+                  "type": "text",
+                  "value": "A small sphere of mass m and density D is suspended from an elastic spring and stretches the spring by a distance x₁ in air. When the sphere is submerged in a liquid of unknown density ρ < D, the new spring stretch is x₂. Derive an expression for the density of the liquid in terms of D, x₁, and x₂."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $\\rho = D(x_1/x_2 - 1)$\n(B) $\\rho = D(x_2/x_1)$\n(C) $\\rho = D(1 + x_2/x_1)$\n(D) $\\rho = D(1 - x_2/x_1)$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt2",
+          "label": "Pressure definition (P = F/A) and scaling with area",
+          "section_ref": "8.2.A",
+          "primary_slo": "8.2.A.2",
+          "notes": "Members apply P = F_perp/A to see how pressure scales with area, or how the force exerted by a given pressure scales with area.",
+          "slo_weights": [
+            {
+              "slo": "8.2.A.2",
+              "weight": 0.6
+            },
+            {
+              "slo": "8.2.A.1",
+              "weight": 0.25
+            },
+            {
+              "slo": "8.2.B.2",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [
+            "8.2.A.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "8.2.B.2",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_psi2",
+              "label": "PSI-2",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 2P",
+                "(B) P/2",
+                "(C) P",
+                "(D) P/4"
+              ],
+              "correct_option": "(B) P/2",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A perpendicular force is applied to a certain area and produces a pressure P. If the same force is applied to a twice bigger area, the new pressure on the surface is:"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 2P\n(B) P/2\n(C) P\n(D) P/4"
+                }
+              ]
+            },
+            {
+              "id": "q_psi3",
+              "label": "PSI-3",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) $F_1/F_2 = 9/1$",
+                "(B) $F_1/F_2 = 1/3$",
+                "(C) $F_1/F_2 = 3/1$",
+                "(D) $F_1/F_2 = 1/9$"
+              ],
+              "correct_option": "(D) $F_1/F_2 = 1/9$",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 1,
+                  "bbox": [
+                    0.346,
+                    0.466,
+                    0.661,
+                    0.611
+                  ],
+                  "caption": "Two tables of radius 50 cm and 25 cm",
+                  "alt": "Two round tables of different radii sitting side by side"
+                },
+                {
+                  "type": "text",
+                  "value": "There are two round tables in the physics classroom: one with a radius of 50 cm, the other with a radius of 150 cm. What is the relationship between the two forces applied on the tabletops by the atmospheric pressure?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $F_1/F_2 = 9/1$\n(B) $F_1/F_2 = 1/3$\n(C) $F_1/F_2 = 3/1$\n(D) $F_1/F_2 = 1/9$"
+                }
+              ]
+            },
+            {
+              "id": "q_psi8",
+              "label": "PSI-8",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 101 kPa",
+                "(B) 119 kPa",
+                "(C) 220 kPa",
+                "(D) 321 kPa"
+              ],
+              "correct_option": "(D) 321 kPa",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A car driver measures a tire pressure of 220 kPa. What is the absolute pressure in the tire?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 101 kPa\n(B) 119 kPa\n(C) 220 kPa\n(D) 321 kPa"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt3",
+          "label": "Hydrostatic pressure with depth (P = P₀ + ρgh)",
+          "section_ref": "8.2.B",
+          "primary_slo": "8.2.B.3",
+          "notes": "Members use hydrostatic pressure equations for fluid columns to compare pressures at different depths or bottom of shaped containers.",
+          "slo_weights": [
+            {
+              "slo": "8.2.B.3",
+              "weight": 0.45
+            },
+            {
+              "slo": "8.2.B.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "8.2.B.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "8.1.A.3",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [
+            "8.2.B.2",
+            "8.2.B.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "8.1.A.3",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_psi4",
+              "label": "PSI-4",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Diagram shows three containers (cylindrical, conical narrowing upward, conical narrowing downward) with same bottom area and same height filled to maximum.",
+              "options": [
+                "(A) $P_1 < P_2 > P_3$",
+                "(B) $P_1 > P_2 > P_3$",
+                "(C) $P_1 < P_2 < P_3$",
+                "(D) $P_1 = P_2 = P_3$"
+              ],
+              "correct_option": "(D) $P_1 = P_2 = P_3$",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Three containers are used in a chemistry lab. All containers have the same bottom area and the same height. A chemistry student fills each of the containers with the same liquid to the maximum volume. Which of the following is true about the pressure on the bottom in each container? (The containers have different shapes — straight-sided, widening upward, and narrowing upward — but the liquid column height is the same.)"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $P_1 < P_2 > P_3$\n(B) $P_1 > P_2 > P_3$\n(C) $P_1 < P_2 < P_3$\n(D) $P_1 = P_2 = P_3$"
+                }
+              ]
+            },
+            {
+              "id": "q_psi5",
+              "label": "PSI-5",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) $\\rho g / h$",
+                "(B) $\\rho g h$",
+                "(C) $\\rho / (g h)$",
+                "(D) zero"
+              ],
+              "correct_option": "(B) $\\rho g h$",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "What is the difference between the pressure on the bottom of a pool and the pressure on the water surface?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $\\rho g / h$\n(B) $\\rho g h$\n(C) $\\rho / (g h)$\n(D) zero"
+                }
+              ]
+            },
+            {
+              "id": "q_psi6",
+              "label": "PSI-6",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) It slightly increases",
+                "(B) It doubles",
+                "(C) It quadruples",
+                "(D) It is cut to a half"
+              ],
+              "correct_option": "(A) It slightly increases",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A boy swims in a lake and initially dives 0.5 m beneath the surface. When he dives 1 m beneath the surface, how does the absolute pressure change?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) It slightly increases\n(B) It doubles\n(C) It quadruples\n(D) It is cut to a half"
+                }
+              ]
+            },
+            {
+              "id": "q_psi_frq3_bc",
+              "label": "PSI-FRQ3-b/c",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Converted from PSI FRQ3 parts (b) and (c): submarine at 100 m depth, salt water ρ = 1030 kg/m³, g = 10 m/s², P_atm = 1.01×10⁵ Pa. Gauge and absolute pressures.",
+              "options": [
+                "(A) Gauge ≈ 1.13 × 10⁶ Pa; absolute ≈ 1.03 × 10⁶ Pa",
+                "(B) Gauge ≈ 1.03 × 10⁵ Pa; absolute ≈ 2.03 × 10⁵ Pa",
+                "(C) Gauge ≈ 1.03 × 10⁶ Pa; absolute ≈ 1.13 × 10⁶ Pa",
+                "(D) Gauge ≈ 9.8 × 10⁵ Pa; absolute ≈ 9.8 × 10⁵ Pa"
+              ],
+              "correct_option": "(C) Gauge ≈ 1.03 × 10⁶ Pa; absolute ≈ 1.13 × 10⁶ Pa",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 8,
+                  "bbox": [
+                    0.362,
+                    0.066,
+                    0.759,
+                    0.182
+                  ],
+                  "caption": "Submarine descending to depth 100 m",
+                  "alt": "Submarine in ocean at depth 100 m beneath the surface"
+                },
+                {
+                  "type": "text",
+                  "value": "A submarine descends to a depth of 100 m beneath the surface of an ocean. The density of salt water is 1030 kg/m³. Using g = 10 m/s² and atmospheric pressure = 1.01 × 10⁵ Pa, calculate (a) the gauge pressure on the submarine at the 100 m depth, and (b) the absolute pressure on the submarine at that depth."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Gauge ≈ 1.13 × 10⁶ Pa; absolute ≈ 1.03 × 10⁶ Pa\n(B) Gauge ≈ 1.03 × 10⁵ Pa; absolute ≈ 2.03 × 10⁵ Pa\n(C) Gauge ≈ 1.03 × 10⁶ Pa; absolute ≈ 1.13 × 10⁶ Pa\n(D) Gauge ≈ 9.8 × 10⁵ Pa; absolute ≈ 9.8 × 10⁵ Pa"
+                }
+              ]
+            },
+            {
+              "id": "q_psi_frq3_d",
+              "label": "PSI-FRQ3-d",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Converted from PSI FRQ3 part (d): net force on 2 m² hatch at 100 m depth due to pressure difference between outside seawater and interior (1 atm).",
+              "options": [
+                "(A) ≈ 2.26 × 10⁶ N",
+                "(B) ≈ 2.06 × 10⁵ N",
+                "(C) ≈ 1.03 × 10⁶ N",
+                "(D) ≈ 2.06 × 10⁶ N"
+              ],
+              "correct_option": "(D) ≈ 2.06 × 10⁶ N",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 8,
+                  "bbox": [
+                    0.362,
+                    0.066,
+                    0.759,
+                    0.182
+                  ],
+                  "caption": "Submarine descending to depth 100 m",
+                  "alt": "Submarine in ocean at depth 100 m with a hatch of area 2 m² on top"
+                },
+                {
+                  "type": "text",
+                  "value": "The submarine at depth 100 m has a hatch of area 2 m² located on the top of its body. The interior is maintained at atmospheric pressure. Using ρ_sea = 1030 kg/m³, g = 10 m/s², calculate the minimum force required to open the hatch from the inside (equal to the net pressure difference times the hatch area)."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) ≈ 2.26 × 10⁶ N\n(B) ≈ 2.06 × 10⁵ N\n(C) ≈ 1.03 × 10⁶ N\n(D) ≈ 2.06 × 10⁶ N"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_2017_c_i",
+              "label": "AP2017-Q1c-i",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Adapted from AP Physics 2 2017 Q1(c)(i): static water in vertical pipe, point A at lower elevation; point A is 5 m below point B. Find absolute pressure at A including atmosphere. ρ = 1000 kg/m³, g = 9.8 m/s², P_atm = 1.01 × 10⁵ Pa.",
+              "options": [
+                "(A) ≈ 1.99 × 10⁵ Pa",
+                "(B) ≈ 5.0 × 10⁴ Pa",
+                "(C) ≈ 1.01 × 10⁵ Pa",
+                "(D) ≈ 1.5 × 10⁵ Pa"
+              ],
+              "correct_option": "(D) ≈ 1.5 × 10⁵ Pa",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A valve at the end of a pipe is closed. The pipe remains full of static water. Point B is at the vertical top of the pipe (open to the atmosphere) and point A is located 5 m below point B in the same static column. Using ρ = 1000 kg/m³, g = 9.8 m/s², and atmospheric pressure P_atm = 1.01 × 10⁵ Pa, calculate the absolute pressure at point A (including the effect of the atmosphere)."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) ≈ 1.99 × 10⁵ Pa\n(B) ≈ 5.0 × 10⁴ Pa\n(C) ≈ 1.01 × 10⁵ Pa\n(D) ≈ 1.5 × 10⁵ Pa"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt4",
+          "label": "Pascal's principle and the hydraulic lift",
+          "section_ref": "8.2.A",
+          "primary_slo": "8.2.A.2",
+          "notes": "Members apply equal-pressure (Pascal's principle) in a closed system to relate forces and areas across two pistons.",
+          "slo_weights": [
+            {
+              "slo": "8.2.A.2",
+              "weight": 0.55
+            },
+            {
+              "slo": "8.2.A.3",
+              "weight": 0.2
+            },
+            {
+              "slo": "8.2.B.1",
+              "weight": 0.15
+            },
+            {
+              "slo": "8.1.A.4",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [
+            "8.2.A.3"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "8.2.B.1",
+              "weight": 0.15
+            },
+            {
+              "slo": "8.1.A.4",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_psi7",
+              "label": "PSI-7",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Trivia (historical); answer is Torricelli.",
+              "options": [
+                "(A) Evangelista Torricelli",
+                "(B) Blaise Pascal",
+                "(C) Amedeo Avogadro",
+                "(D) James Joule"
+              ],
+              "correct_option": "(A) Evangelista Torricelli",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Which of the following scientists invented the mercury barometer?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Evangelista Torricelli\n(B) Blaise Pascal\n(C) Amedeo Avogadro\n(D) James Joule"
+                }
+              ]
+            },
+            {
+              "id": "q_psi9",
+              "label": "PSI-9",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 4",
+                "(B) 40",
+                "(C) 2",
+                "(D) 20"
+              ],
+              "correct_option": "(B) 40",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 2,
+                  "bbox": [
+                    0.256,
+                    0.432,
+                    0.766,
+                    0.693
+                  ],
+                  "caption": "Hydraulic lift (small and large pistons)",
+                  "alt": "Hydraulic-lift diagram with a small input piston and a large output piston"
+                },
+                {
+                  "type": "text",
+                  "value": "In a hydraulic lift the small piston has an area of 2 cm² and the large piston has an area of 80 cm². What is the mechanical advantage of the hydraulic lift?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 4\n(B) 40\n(C) 2\n(D) 20"
+                }
+              ]
+            },
+            {
+              "id": "q_psi10",
+              "label": "PSI-10",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 88 N",
+                "(B) 880 N",
+                "(C) 8800 N",
+                "(D) 88000 N"
+              ],
+              "correct_option": "(C) 8800 N",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 3,
+                  "bbox": [
+                    0.236,
+                    0.036,
+                    0.676,
+                    0.339
+                  ],
+                  "caption": "Hydraulic lift — car on large piston",
+                  "alt": "Hydraulic-lift diagram supporting a car on the large piston"
+                },
+                {
+                  "type": "text",
+                  "value": "A hydraulic lift is used to lift a car. The small piston has a radius of 5 cm and the large piston has a radius of 50 cm. If a driver applies a force of 88 N to the small piston, what is the weight of the car the large piston can support?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 88 N\n(B) 880 N\n(C) 8800 N\n(D) 88000 N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt5",
+          "label": "Buoyant force on fully submerged objects (F_b = ρVg)",
+          "section_ref": "8.3.B",
+          "primary_slo": "8.3.B.3",
+          "notes": "Members use F_b = ρ_fluid · V_displaced · g for fully submerged objects and combine with Newton's 2nd law / apparent-weight scenarios.",
+          "slo_weights": [
+            {
+              "slo": "8.3.B.3",
+              "weight": 0.5
+            },
+            {
+              "slo": "8.3.B.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "8.1.A.3",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.4.A.2",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [
+            "8.3.B.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "8.1.A.3",
+              "weight": 0.15
+            },
+            {
+              "slo": "2.4.A.2",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_psi11",
+              "label": "PSI-11",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) $F_{Al} = F_{Fe} = F_{Pb}$",
+                "(B) $F_{Al} > F_{Fe} > F_{Pb}$",
+                "(C) $F_{Al} < F_{Fe} < F_{Pb}$",
+                "(D) $F_{Al} < F_{Fe} > F_{Pb}$"
+              ],
+              "correct_option": "(A) $F_{Al} = F_{Fe} = F_{Pb}$",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 4,
+                  "bbox": [
+                    0.451,
+                    0.053,
+                    0.58,
+                    0.234
+                  ],
+                  "caption": "Three blocks of equal volume fully submerged",
+                  "alt": "Three blocks of different densities hanging submerged from strings in a water tank"
+                },
+                {
+                  "type": "text",
+                  "value": "Three blocks of equal volume are completely submerged in water. The blocks are made of different materials: aluminum, iron, and lead (ρ_Al = 2700 kg/m³, ρ_Fe = 7800 kg/m³, ρ_Pb = 11300 kg/m³). Which of the following is the correct statement about the buoyant force on each block?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $F_{Al} = F_{Fe} = F_{Pb}$\n(B) $F_{Al} > F_{Fe} > F_{Pb}$\n(C) $F_{Al} < F_{Fe} < F_{Pb}$\n(D) $F_{Al} < F_{Fe} > F_{Pb}$"
+                }
+              ]
+            },
+            {
+              "id": "q_psi12",
+              "label": "PSI-12",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 2.0 N",
+                "(B) 3.5 N",
+                "(C) 1.5 N",
+                "(D) 0.5 N"
+              ],
+              "correct_option": "(C) 1.5 N",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A piece of iron has a weight of 3.5 N when it is in air and 2.0 N when it is submerged into water. What is the buoyant force on the piece of iron?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 2.0 N\n(B) 3.5 N\n(C) 1.5 N\n(D) 0.5 N"
+                }
+              ]
+            },
+            {
+              "id": "q_psi13",
+              "label": "PSI-13",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 50 N",
+                "(B) 5.0 N",
+                "(C) 0.5 N",
+                "(D) 0 N"
+              ],
+              "correct_option": "(C) 0.5 N",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 4,
+                  "bbox": [
+                    0.441,
+                    0.319,
+                    0.571,
+                    0.5
+                  ],
+                  "caption": "Spring scale weighs a block submerged in water",
+                  "alt": "Spring scale measurement of a lead block suspended into a container of water"
+                },
+                {
+                  "type": "text",
+                  "value": "Physics students use a spring scale to measure the weight of a piece of lead. The experiment was performed two times, once in air and the other in water. If the volume of lead is 50 cm³, what is the difference between the two readings on the scale?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 50 N\n(B) 5.0 N\n(C) 0.5 N\n(D) 0 N"
+                }
+              ]
+            },
+            {
+              "id": "q_psi14",
+              "label": "PSI-14",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 50 N",
+                "(B) 5 N",
+                "(C) 45 N",
+                "(D) 0.5 N"
+              ],
+              "correct_option": "(C) 45 N",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 4,
+                  "bbox": [
+                    0.415,
+                    0.589,
+                    0.555,
+                    0.79
+                  ],
+                  "caption": "Solid cylinder submerged, hanging from a string",
+                  "alt": "Cylinder of mass 5 kg fully submerged in water, suspended by a string"
+                },
+                {
+                  "type": "text",
+                  "value": "A solid cylinder of mass 5 kg is completely submerged into water and hangs from a string. What is the tension in the string supporting the cylinder if the specific gravity of the cylinder's material is 10? Use g = 10 m/s²."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 50 N\n(B) 5 N\n(C) 45 N\n(D) 0.5 N"
+                }
+              ]
+            },
+            {
+              "id": "q_psi15",
+              "label": "PSI-15",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 6",
+                "(B) 5",
+                "(C) 7",
+                "(D) 8"
+              ],
+              "correct_option": "(B) 5",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "An object has a weight of 9 N when it is in air and 7.2 N when it is submerged into water. What is the specific gravity of the object's material?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 6\n(B) 5\n(C) 7\n(D) 8"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_ap2021_c",
+              "label": "AP2021-Q2c",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Adapted from AP Physics 2 2021 Q2(c): balloon held underwater by a student pushing down. Derive force from Fb - (mb + mg) g pushing up; student must push down with that net.",
+              "options": [
+                "(A) $F_{student} = V_b \\rho_w g + m_b g$",
+                "(B) $F_{student} = V_b \\rho_w g - m_b g - \\rho_g V_b g$",
+                "(C) $F_{student} = m_b g - V_b \\rho_w g$",
+                "(D) $F_{student} = \\rho_g V_b g - V_b \\rho_w g$"
+              ],
+              "correct_option": "(B) $F_{student} = V_b \\rho_w g - m_b g - \\rho_g V_b g$",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A balloon of volume V_b contains gas of density ρ_g; the balloon material itself (not including the gas) has mass m_b. The balloon is held underwater in a deep pool by a student pushing straight down on it. The surrounding water has density ρ_w. Derive an expression for the downward force the student must exert on the balloon to hold it at rest underwater, in terms of the quantities given and fundamental constants."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $F_{student} = V_b \\rho_w g + m_b g$\n(B) $F_{student} = V_b \\rho_w g - m_b g - \\rho_g V_b g$\n(C) $F_{student} = m_b g - V_b \\rho_w g$\n(D) $F_{student} = \\rho_g V_b g - V_b \\rho_w g$"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_ap2022_a_ii",
+              "label": "AP2022-Q1a-ii",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Adapted from AP Physics 2 2022 Q1(a)(ii): block of mass m_b, volume V_b, density ρ_b submerged and held stationary by a string from above in water of density ρ_w. Derive the string tension (assuming ρ_b > ρ_w so tension supports downward).",
+              "options": [
+                "(A) $T = \\rho_w V_b g$",
+                "(B) $T = \\rho_w V_b g - m_b g$",
+                "(C) $T = m_b g + \\rho_w V_b g$",
+                "(D) $T = m_b g - \\rho_w V_b g$"
+              ],
+              "correct_option": "(D) $T = m_b g - \\rho_w V_b g$",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A stationary rectangular block of mass m_b, volume V_b, and density ρ_b is held in place by a string. The block is submerged in a tank containing water of density ρ_w. Derive an expression for the tension in the string in terms of the given quantities and physical constants (assume ρ_b > ρ_w so the string hangs the block from above)."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $T = \\rho_w V_b g$\n(B) $T = \\rho_w V_b g - m_b g$\n(C) $T = m_b g + \\rho_w V_b g$\n(D) $T = m_b g - \\rho_w V_b g$"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_ap2023_a_ii",
+              "label": "AP2023-Q3a-ii",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Adapted from AP Physics 2 2023 Q3(a)(ii): two blocks A and B with identical dimensions float in water; A sinks first as water level drops. Which has greater density?",
+              "options": [
+                "(A) They have equal densities, because they have identical dimensions",
+                "(B) Block B has greater density, because it floats higher",
+                "(C) Block A has greater density, because it has a larger submerged fraction and therefore displaces more water per unit volume",
+                "(D) Block A has greater density only if its mass is greater; otherwise B is denser"
+              ],
+              "correct_option": "(C) Block A has greater density, because it has a larger submerged fraction and therefore displaces more water per unit volume",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Two blocks, A and B, have identical dimensions and are placed in a partially filled cylindrical tank. Both blocks float at rest, partially submerged. The valve at the bottom of the tank is then opened and water flows out; the surface of the water moves downward. Block A touches the bottom of the tank while Block B is still above the bottom of the tank. Which block has a greater density, and why?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) They have equal densities, because they have identical dimensions\n(B) Block B has greater density, because it floats higher\n(C) Block A has greater density, because it has a larger submerged fraction and therefore displaces more water per unit volume\n(D) Block A has greater density only if its mass is greater; otherwise B is denser"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt6",
+          "label": "Floating objects: displaced-fluid weight equals object weight",
+          "section_ref": "8.3.B",
+          "primary_slo": "8.3.B.3",
+          "notes": "Members apply F_b = W_object for floating objects to find submerged-volume fractions, displaced volumes, or maximum loads.",
+          "slo_weights": [
+            {
+              "slo": "8.3.B.3",
+              "weight": 0.45
+            },
+            {
+              "slo": "8.3.B.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "8.1.A.3",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.4.A.2",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [
+            "8.3.B.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "8.1.A.3",
+              "weight": 0.2
+            },
+            {
+              "slo": "2.4.A.2",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_psi16",
+              "label": "PSI-16",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 7.5 N",
+                "(B) 5.0 N",
+                "(C) 5.5 N",
+                "(D) 7.0 N"
+              ],
+              "correct_option": "(A) 7.5 N",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A wooden block with a weight of 7.5 N is placed on water. When the block floats on the surface of water it is partially submerged in water. What is the weight of the displaced water?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 7.5 N\n(B) 5.0 N\n(C) 5.5 N\n(D) 7.0 N"
+                }
+              ]
+            },
+            {
+              "id": "q_psi17",
+              "label": "PSI-17",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 900 cm³",
+                "(B) 500 cm³",
+                "(C) 400 cm³",
+                "(D) 300 cm³"
+              ],
+              "correct_option": "(A) 900 cm³",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A wooden block with a weight of 9 N is placed on water. When the block floats on the surface of water it is partially submerged in water. What is the volume of the displaced water?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 900 cm³\n(B) 500 cm³\n(C) 400 cm³\n(D) 300 cm³"
+                }
+              ]
+            },
+            {
+              "id": "q_psi_frq4_bc",
+              "label": "PSI-FRQ4-b/c",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "PSI FRQ4 parts (b) and (c): ice slab V = 20 m³, top area 14 m², ρ_ice = 900, ρ_sea = 1030 kg/m³. Find buoyant force on slab (floating) and height above water.",
+              "options": [
+                "(A) F_b ≈ 2.0 × 10⁵ N; h ≈ 1.3 m",
+                "(B) F_b ≈ 1.8 × 10⁵ N; h ≈ 0.15 m",
+                "(C) F_b ≈ 1.8 × 10⁵ N; h ≈ 1.3 m",
+                "(D) F_b ≈ 2.0 × 10⁵ N; h ≈ 0.15 m"
+              ],
+              "correct_option": "(B) F_b ≈ 1.8 × 10⁵ N; h ≈ 0.15 m",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 9,
+                  "bbox": [
+                    0.362,
+                    0.076,
+                    0.743,
+                    0.25
+                  ],
+                  "caption": "Rectangular ice slab floating on sea water",
+                  "alt": "Rectangular slab of ice partially submerged in sea water"
+                },
+                {
+                  "type": "text",
+                  "value": "A rectangular slab of ice floats on sea water with a large portion submerged. The volume of the slab is 20 m³ and the top surface area is 14 m². The density of ice is 900 kg/m³ and sea water is 1030 kg/m³. Using g = 10 m/s², calculate (a) the buoyant force on the slab and (b) the height h of the portion of the slab above the water surface."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) F_b ≈ 2.0 × 10⁵ N; h ≈ 1.3 m\n(B) F_b ≈ 1.8 × 10⁵ N; h ≈ 0.15 m\n(C) F_b ≈ 1.8 × 10⁵ N; h ≈ 1.3 m\n(D) F_b ≈ 2.0 × 10⁵ N; h ≈ 0.15 m"
+                }
+              ]
+            },
+            {
+              "id": "q_psi_frq4_e",
+              "label": "PSI-FRQ4-e",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "PSI FRQ4 part (e): how many 500 kg polar bears can sit on the ice slab before it sinks.",
+              "options": [
+                "(A) 7",
+                "(B) 3",
+                "(C) 5",
+                "(D) 10"
+              ],
+              "correct_option": "(C) 5",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 9,
+                  "bbox": [
+                    0.362,
+                    0.076,
+                    0.743,
+                    0.25
+                  ],
+                  "caption": "Rectangular ice slab floating on sea water",
+                  "alt": "Rectangular slab of ice floating with large portion submerged"
+                },
+                {
+                  "type": "text",
+                  "value": "Continuing from the previous problem: the same ice slab (V = 20 m³, top area 14 m², ρ_ice = 900 kg/m³, ρ_sea = 1030 kg/m³, with 0.15 m of its height initially above the water) is loaded with polar bears of average mass 500 kg. Calculate the maximum number of bears that can sit on the slab without it sinking (i.e. without the top going under)."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 7\n(B) 3\n(C) 5\n(D) 10"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_ap2018_a",
+              "label": "AP2018-Q4a",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Adapted from AP Physics 2 2018 Q4(a): boat of mass M_b, max displaced volume V_0, loaded with steel beams (ρ_steel, V_steel each). Find max number N without exceeding V_0.",
+              "options": [
+                "(A) $N = \\frac{\\rho_{water} V_0 - M_b}{(\\rho_{steel} - \\rho_{water}) V_{steel}}$",
+                "(B) $N = \\frac{\\rho_{water} V_0 - M_b}{\\rho_{steel} V_{steel}}$",
+                "(C) $N = \\frac{V_0}{V_{steel}}$",
+                "(D) $N = \\frac{M_b}{\\rho_{steel} V_{steel}}$"
+              ],
+              "correct_option": "(A) $N = \\frac{\\rho_{water} V_0 - M_b}{(\\rho_{steel} - \\rho_{water}) V_{steel}}$",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A large boat of mass M_b can displace a maximum volume V_0 of river water (of density ρ_water). The boat is being loaded with identical steel beams, each of density ρ_steel and volume V_steel. Derive an expression for the maximum number N of steel beams that can be loaded on the boat without exceeding its maximum displaced volume, in terms of the given quantities and physical constants."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $N = \\frac{\\rho_{water} V_0 - M_b}{(\\rho_{steel} - \\rho_{water}) V_{steel}}$\n(B) $N = \\frac{\\rho_{water} V_0 - M_b}{\\rho_{steel} V_{steel}}$\n(C) $N = \\frac{V_0}{V_{steel}}$\n(D) $N = \\frac{M_b}{\\rho_{steel} V_{steel}}$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt7",
+          "label": "Continuity equation (A₁v₁ = A₂v₂)",
+          "section_ref": "8.4.A",
+          "primary_slo": "8.4.A.2",
+          "notes": "Members apply conservation of mass flow rate for incompressible fluids to relate velocities and cross-sectional areas at different points in a pipe or channel.",
+          "slo_weights": [
+            {
+              "slo": "8.4.A.2",
+              "weight": 0.6
+            },
+            {
+              "slo": "8.4.A.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "8.1.A.4",
+              "weight": 0.1
+            },
+            {
+              "slo": "8.1.A.3",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [
+            "8.4.A.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "8.1.A.4",
+              "weight": 0.1
+            },
+            {
+              "slo": "8.1.A.3",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_psi18",
+              "label": "PSI-18",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) 2 m/s",
+                "(B) 16 m/s",
+                "(C) 8 m/s",
+                "(D) 4 m/s"
+              ],
+              "correct_option": "(D) 4 m/s",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Water flows at a constant speed of 16 m/s through a narrow section of a pipe. What is the speed of water in the section of the pipe where its radius is twice the initial radius?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 2 m/s\n(B) 16 m/s\n(C) 8 m/s\n(D) 4 m/s"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_ap2018_c",
+              "label": "AP2018-Q4c",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "AP Physics 2 2018 Q4(c): river 60 m wide at 5 km/h narrows to 30 m width, same depth. Find speed in narrow section.",
+              "options": [
+                "(A) 15 km/h",
+                "(B) 2.5 km/h",
+                "(C) 5 km/h",
+                "(D) 10 km/h"
+              ],
+              "correct_option": "(D) 10 km/h",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A river has a width of 60 m, a constant depth, and flows at a speed of 5 km/h. Partway downstream, the river narrows to a width of 30 m while its depth remains the same. Using the continuity equation for incompressible fluids, calculate the speed of the water in the narrow section."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) 15 km/h\n(B) 2.5 km/h\n(C) 5 km/h\n(D) 10 km/h"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_ap2023_b_ii",
+              "label": "AP2023-Q3b-ii",
+              "kind": "single_function",
+              "question_format": "mcq",
+              "notes": "AP Physics 2 2023 Q3(b)(ii): tank Y has pipe of radius r at bottom; top surface at radius R moves down at speed v_s. Relate v_s to v_p (speed at pipe) via continuity.",
+              "options": [
+                "(A) $v_s = \\frac{r}{R} v_p$",
+                "(B) $v_s = \\frac{R^2}{r^2} v_p$",
+                "(C) $v_s = \\frac{r^2}{R^2} v_p$",
+                "(D) $v_s = v_p$"
+              ],
+              "correct_option": "(C) $v_s = \\frac{r^2}{R^2} v_p$",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Tank Y is a large tank open to the air. The bottom of Tank Y is connected to a short horizontal pipe of radius r. The top surface of the water (where the water level is falling as the tank drains) has a radius R. If v_p is the speed at which water exits the pipe and v_s is the downward speed of the top surface of the water, derive the relationship between v_s, v_p, R, and r using the continuity equation."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $v_s = \\frac{r}{R} v_p$\n(B) $v_s = \\frac{R^2}{r^2} v_p$\n(C) $v_s = \\frac{r^2}{R^2} v_p$\n(D) $v_s = v_p$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt8",
+          "label": "Bernoulli's equation: pressure, speed, and elevation",
+          "section_ref": "8.4.B",
+          "primary_slo": "8.4.B.2",
+          "notes": "Members apply P + ½ρv² + ρgh = constant (Bernoulli) to relate pressure changes to speed changes and/or elevation changes along a streamline.",
+          "slo_weights": [
+            {
+              "slo": "8.4.B.2",
+              "weight": 0.5
+            },
+            {
+              "slo": "8.4.B.1",
+              "weight": 0.2
+            },
+            {
+              "slo": "8.4.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "8.2.B.3",
+              "weight": 0.15
+            }
+          ],
+          "aligned_slos": [
+            "8.4.B.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "8.4.A.2",
+              "weight": 0.15
+            },
+            {
+              "slo": "8.2.B.3",
+              "weight": 0.15
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_psi19",
+              "label": "PSI-19",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Venturi tube: wide–narrow–wide. Section 2 is the narrowest (highest v, lowest P); sections 1 and 3 equal area (so P₁ ≈ P₃ if same height, both > P₂).",
+              "options": [
+                "(A) $P_1 < P_2 < P_3$",
+                "(B) $P_1 > P_2 > P_3$",
+                "(C) $P_2 < P_1 < P_3$",
+                "(D) $P_1 < P_2 > P_3$"
+              ],
+              "correct_option": "(C) $P_2 < P_1 < P_3$",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 5,
+                  "bbox": [
+                    0.257,
+                    0.395,
+                    0.843,
+                    0.54
+                  ],
+                  "caption": "Venturi tube — three sections of different radii",
+                  "alt": "Horizontal Venturi-like pipe with three sections of medium, small, and large radius"
+                },
+                {
+                  "type": "text",
+                  "value": "A Venturi-like tube has three sections of different radii: section 1 has medium radius, section 2 is the narrowest, and section 3 is the widest, in that order along the flow. For an incompressible, frictionless fluid flowing through the tube, which of the following best describes the relationship between the pressures at the three manometers?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $P_1 < P_2 < P_3$\n(B) $P_1 > P_2 > P_3$\n(C) $P_2 < P_1 < P_3$\n(D) $P_1 < P_2 > P_3$"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_ap2017_b",
+              "label": "AP2017-Q1b",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "Adapted from AP Physics 2 2017 Q1(b): water flows from wide pipe (A, d=2.5 cm, v=0.50 m/s, P=2.0×10⁵ Pa, at lower elevation) to narrower pipe (B, d=1.5 cm, 5 m higher). Find v_B and P_B.",
+              "options": [
+                "(A) v_B ≈ 1.39 m/s; P_B ≈ 1.51 × 10⁵ Pa",
+                "(B) v_B ≈ 0.50 m/s; P_B ≈ 2.0 × 10⁵ Pa",
+                "(C) v_B ≈ 1.39 m/s; P_B ≈ 2.51 × 10⁵ Pa",
+                "(D) v_B ≈ 0.83 m/s; P_B ≈ 1.01 × 10⁵ Pa"
+              ],
+              "correct_option": "(A) v_B ≈ 1.39 m/s; P_B ≈ 1.51 × 10⁵ Pa",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Water flows through a section of pipe that decreases in diameter and increases in elevation. At point A (diameter 2.5 cm, lower elevation), the water has speed 0.50 m/s and pressure 2.0 × 10⁵ Pa. Point B is 5 m higher than A, with diameter 1.5 cm. The density of water is 1000 kg/m³. Using the continuity equation and Bernoulli's equation, calculate (a) the speed of the water at point B and (b) the absolute pressure at point B."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) v_B ≈ 1.39 m/s; P_B ≈ 1.51 × 10⁵ Pa\n(B) v_B ≈ 0.50 m/s; P_B ≈ 2.0 × 10⁵ Pa\n(C) v_B ≈ 1.39 m/s; P_B ≈ 2.51 × 10⁵ Pa\n(D) v_B ≈ 0.83 m/s; P_B ≈ 1.01 × 10⁵ Pa"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_ap2023_c",
+              "label": "AP2023-Q3c",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "AP Physics 2 2023 Q3(c): Tank Z is a cone-shaped tank (narrow at top, wide at bottom). As water drains, does the speed v_s of the top surface increase, decrease, or remain same?",
+              "options": [
+                "(A) v_s decreases, because as the water level falls, h decreases (so v_p ∝ √h decreases), and simultaneously R at the falling top surface increases, both of which reduce v_s via v_s = (r²/R²) v_p",
+                "(B) v_s increases, because as the water level falls, the outlet speed grows",
+                "(C) v_s remains constant, because Tank Z is specifically designed for constant surface speed",
+                "(D) v_s increases, because R at the top decreases as the water level falls"
+              ],
+              "correct_option": "(A) v_s decreases, because as the water level falls, h decreases (so v_p ∝ √h decreases), and simultaneously R at the falling top surface increases, both of which reduce v_s via v_s = (r²/R²) v_p",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Tank Z is a large tank whose top is open to the air and is shaped like an inverted cone with the point at the bottom and the wide part at the top. The bottom is connected to a short horizontal pipe of radius r. The tank is filled with water to height h₀ above the pipe. At time t = 0, the valve is opened. Using (i) the Torricelli-type relation v_p ≈ √(2gh) and (ii) the continuity relation v_s = (r²/R²) v_p, justify whether the speed v_s at which the top surface of the water moves downward increases, decreases, or remains the same over time as water exits."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) v_s decreases, because as the water level falls, h decreases (so v_p ∝ √h decreases), and simultaneously R at the falling top surface increases, both of which reduce v_s via v_s = (r²/R²) v_p\n(B) v_s increases, because as the water level falls, the outlet speed grows\n(C) v_s remains constant, because Tank Z is specifically designed for constant surface speed\n(D) v_s increases, because R at the top decreases as the water level falls"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_ap2017_a",
+              "label": "AP2017-Q1a",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "AP Physics 2 2017 Q1(a): evaluate two students' competing claims about pressure & speed at point B (higher, narrower) vs A. Student Y: P_B > P_A because v_B > v_A. Student Z: v_B < v_A because KE → PE.",
+              "options": [
+                "(A) Both students are fully correct",
+                "(B) Student Y is correct that the water is moving faster at B, but incorrect that the pressure is greater; Bernoulli + elevation change gives P_B < P_A. Student Z is incorrect that v_B < v_A — continuity requires v_B > v_A (narrower pipe), though Z is right that some KE has been converted to gravitational PE.",
+                "(C) Student Y is fully correct; Student Z is fully incorrect",
+                "(D) Student Z is fully correct; Student Y is fully incorrect"
+              ],
+              "correct_option": "(B) Student Y is correct that the water is moving faster at B, but incorrect that the pressure is greater; Bernoulli + elevation change gives P_B < P_A. Student Z is incorrect that v_B < v_A — continuity requires v_B > v_A (narrower pipe), though Z is right that some KE has been converted to gravitational PE.",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Water flows from point A (diameter 2.5 cm, lower elevation) through a pipe to point B (diameter 1.5 cm, higher elevation). Two students make claims: Student Y says the pressure at B is greater than at A because the water is moving faster at B. Student Z says the speed at B is less than at A because, by conservation of energy, some of the water's kinetic energy has been converted to gravitational potential energy. Evaluate the correctness of each student's claim using appropriate physics principles."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) Both students are fully correct\n(B) Student Y is correct that the water is moving faster at B, but incorrect that the pressure is greater; Bernoulli + elevation change gives P_B < P_A. Student Z is incorrect that v_B < v_A — continuity requires v_B > v_A (narrower pipe), though Z is right that some KE has been converted to gravitational PE.\n(C) Student Y is fully correct; Student Z is fully incorrect\n(D) Student Z is fully correct; Student Y is fully incorrect"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt9",
+          "label": "Torricelli's theorem: exit speed from an opening",
+          "section_ref": "8.4.B",
+          "primary_slo": "8.4.B.3",
+          "notes": "Members derive or apply v = √(2gh) for fluid exiting an opening at depth h below the surface (Torricelli's theorem).",
+          "slo_weights": [
+            {
+              "slo": "8.4.B.3",
+              "weight": 0.55
+            },
+            {
+              "slo": "8.4.B.2",
+              "weight": 0.25
+            },
+            {
+              "slo": "8.4.A.2",
+              "weight": 0.1
+            },
+            {
+              "slo": "8.4.B.1",
+              "weight": 0.1
+            }
+          ],
+          "aligned_slos": [
+            "8.4.B.2",
+            "8.4.B.1"
+          ],
+          "reinforcement_slos": [
+            {
+              "slo": "8.4.A.2",
+              "weight": 0.1
+            }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q_psi20",
+              "label": "PSI-20",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "options": [
+                "(A) $v = \\sqrt{gh}$",
+                "(B) $v = \\sqrt{2gh}$",
+                "(C) $v = 2gh$",
+                "(D) $v = \\rho g h$"
+              ],
+              "correct_option": "(B) $v = \\sqrt{2gh}$",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 5,
+                  "bbox": [
+                    0.433,
+                    0.655,
+                    0.569,
+                    0.848
+                  ],
+                  "caption": "Open bottle with a side spigot",
+                  "alt": "Open bottle filled with liquid; spigot at height below the surface"
+                },
+                {
+                  "type": "text",
+                  "value": "An open bottle is filled with a liquid which flows out through a spigot located a distance h below the surface of the liquid. What is the velocity of the liquid leaving the bottle?"
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $v = \\sqrt{gh}$\n(B) $v = \\sqrt{2gh}$\n(C) $v = 2gh$\n(D) $v = \\rho g h$"
+                }
+              ]
+            },
+            {
+              "id": "q_psi_frq2_d",
+              "label": "PSI-FRQ2-d",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "PSI FRQ2 part (d): pump produces P₁ = 9×10⁵ Pa in submerged pipe, second section at ground level. Use Bernoulli's equation assuming exit is to atmosphere.",
+              "options": [
+                "(A) ≈ 4.0 m/s",
+                "(B) ≈ 39.4 m/s",
+                "(C) ≈ 9.0 m/s",
+                "(D) ≈ 42.4 m/s"
+              ],
+              "correct_option": "(B) ≈ 39.4 m/s",
+              "ordered_content": [
+                {
+                  "type": "image",
+                  "page": 7,
+                  "bbox": [
+                    0.305,
+                    0.066,
+                    0.784,
+                    0.188
+                  ],
+                  "caption": "Pool emptied by pump — two pipes",
+                  "alt": "Pool of area A and depth h; pump with two pipes moving water out"
+                },
+                {
+                  "type": "text",
+                  "value": "A pool is being emptied by a pump. The pump produces a pressure P₁ = 9 × 10⁵ Pa in the submerged pipe (radius 4 cm) with the water speed there being 1.38 m/s. The second section of the pipe (radius 2.5 cm) lies on the ground at the same elevation as the water surface and exits to the atmosphere. Using Bernoulli's equation with ρ_water = 1000 kg/m³, P_atm = 1.0 × 10⁵ Pa, and ignoring friction and viscosity, calculate the speed of the water flow in the second section of the pipe where it exits to atmosphere."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) ≈ 4.0 m/s\n(B) ≈ 39.4 m/s\n(C) ≈ 9.0 m/s\n(D) ≈ 42.4 m/s"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_ap2023_b_i",
+              "label": "AP2023-Q3b-i",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "AP Physics 2 2023 Q3(b)(i): derive v_p = √(v_s² + 2gh) where v_s is the downward speed of the top surface and h is the height of water above the pipe.",
+              "options": [
+                "(A) $v_p = \\sqrt{v_s^2 + 2gh}$",
+                "(B) $v_p = \\sqrt{2gh}$",
+                "(C) $v_p = v_s + 2gh$",
+                "(D) $v_p = \\sqrt{v_s^2 + gh}$"
+              ],
+              "correct_option": "(A) $v_p = \\sqrt{v_s^2 + 2gh}$",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Tank Y has an open top; the surface of the water is falling at constant speed v_s, and water is exiting a pipe at the bottom with speed v_p. The surface is at height h above the pipe. Applying Bernoulli's equation between the top surface (pressure P_atm, speed v_s, height h) and the pipe exit (pressure P_atm, speed v_p, height 0), derive the relationship between v_p, v_s, and h."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) $v_p = \\sqrt{v_s^2 + 2gh}$\n(B) $v_p = \\sqrt{2gh}$\n(C) $v_p = v_s + 2gh$\n(D) $v_p = \\sqrt{v_s^2 + gh}$"
+                }
+              ]
+            },
+            {
+              "id": "q_frq_ap2023_b_iii",
+              "label": "AP2023-Q3b-iii",
+              "kind": "single_question",
+              "question_format": "mcq",
+              "notes": "AP Physics 2 2023 Q3(b)(iii): when R >> r, v_s = (r²/R²)v_p becomes very small, so v_s² is negligible compared to 2gh, giving v_p ≈ √(2gh).",
+              "options": [
+                "(A) From continuity v_s = (r²/R²)v_p. When R >> r, v_s becomes very small, so v_s² is negligible compared to 2gh. Thus v_p = √(v_s² + 2gh) reduces to v_p ≈ √(2gh).",
+                "(B) Because the pipe is horizontal, Bernoulli gives v_p = √(2gh) directly",
+                "(C) Because the top of Tank Y is closed, v_s = 0 exactly",
+                "(D) Because the radius R cancels in the continuity equation when it is large"
+              ],
+              "correct_option": "(A) From continuity v_s = (r²/R²)v_p. When R >> r, v_s becomes very small, so v_s² is negligible compared to 2gh. Thus v_p = √(v_s² + 2gh) reduces to v_p ≈ √(2gh).",
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "For Tank Y, the relationships v_p = √(v_s² + 2gh) and v_s = (r²/R²)v_p have been derived, where R is the radius of the water surface at the top, r is the radius of the exit pipe, and h is the height of the surface above the pipe. Justify the claim that when the radius R of the tank's top surface is sufficiently greater than r, the speed v_p of the water exiting the pipe can be approximated as v_p ≈ √(2gh)."
+                },
+                {
+                  "type": "text",
+                  "value": "(A) From continuity v_s = (r²/R²)v_p. When R >> r, v_s becomes very small, so v_s² is negligible compared to 2gh. Thus v_p = √(v_s² + 2gh) reduces to v_p ≈ √(2gh).\n(B) Because the pipe is horizontal, Bernoulli gives v_p = √(2gh) directly\n(C) Because the top of Tank Y is closed, v_s = 0 exactly\n(D) Because the radius R cancels in the continuity equation when it is large"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

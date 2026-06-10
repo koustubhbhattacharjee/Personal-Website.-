@@ -1,0 +1,359 @@
+{
+  "schema_version": "2.0",
+  "source_type": "textbook",
+  "source_label": "Pearson Edexcel Year 2 Pure",
+  "textbook_key": "pearson-9ma0-y2",
+  "overlay_key": "pearson-9ma0-full",
+  "subject": "9MA0",
+  "question_types": [
+    {
+      "title": "Exercise 5A — Roots of Transformed Trig Graphs",
+      "section_ref": "5.1",
+      "unit_label": "Chapter 5 — Radians",
+      "primary_slo": "9MA0.P1.4.3.1",
+      "aligned_slos": [
+        "9MA0.P1.4.3.2"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The diagram shows the curve with equation $y = \\cos\\left(x - \\frac{2\\pi}{3}\\right)$ for $-2\\pi \\le x \\le 2\\pi$. Identify the $x$-coordinates where the curve meets the $x$-axis within this interval.",
+          "options": [
+            "$-\\frac{11\\pi}{6}, -\\frac{5\\pi}{6}, \\frac{\\pi}{6}, \\frac{7\\pi}{6}$",
+            "$-\\frac{5\\pi}{6}, -\\frac{\\pi}{6}, \\frac{\\pi}{6}, \\frac{5\\pi}{6}$",
+            "$-\\frac{2\\pi}{3}, 0, \\frac{2\\pi}{3}, \\frac{4\\pi}{3}$",
+            "$\\frac{\\pi}{6}, \\frac{7\\pi}{6}, \\frac{13\\pi}{6}$"
+          ],
+          "correct_option": "A",
+          "explanation": "Set $y=0$: $\\cos(x - \\frac{2\\pi}{3}) = 0$. Solutions occur when $x - \\frac{2\\pi}{3} = -\\frac{3\\pi}{2}, -\\frac{\\pi}{2}, \\frac{\\pi}{2}, \\frac{3\\pi}{2}$. Adding $\\frac{2\\pi}{3}$ gives $x = -\\frac{11\\pi}{6}, -\\frac{5\\pi}{6}, \\frac{\\pi}{6}, \\frac{7\\pi}{6}$.",
+          "diagram_required": "graph"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 5A — Transformed Intercepts",
+      "section_ref": "5.1",
+      "unit_label": "Chapter 5 — Radians",
+      "primary_slo": "9MA0.P1.1.4.2",
+      "aligned_slos": [
+        "9MA0.P1.4.3.1"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "For the curve $y = \\cos\\left(x - \\frac{2\\pi}{3}\\right)$, calculate the $y$-coordinate of the point where the curve meets the $y$-axis.",
+          "options": [
+            "$-0.5$",
+            "$0.5$",
+            "$-1$",
+            "$\\frac{\\sqrt{3}}{2}$"
+          ],
+          "correct_option": "A",
+          "explanation": "To find the $y$-intercept, set $x=0$. $y = \\cos(-\\frac{2\\pi}{3})$. Since $\\cos(-\\theta) = \\cos\\theta$, $y = \\cos(\\frac{2\\pi}{3}) = -0.5$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 5A — Periodic Patterns in Radians",
+      "section_ref": "5.1",
+      "unit_label": "Chapter 5 — Radians",
+      "primary_slo": "9MA0.P1.4.3.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Which set of values describes all angles $\\theta$ in radians that satisfy $\\sin\\theta = -1$, where $n$ is an integer?",
+          "options": [
+            "$\\frac{3\\pi}{2} + 2n\\pi$",
+            "$\\frac{\\pi}{2} + 2n\\pi$",
+            "$\\pi + 2n\\pi$",
+            "$\\frac{3\\pi}{2} + n\\pi$"
+          ],
+          "correct_option": "A",
+          "explanation": "The primary value for $\\sin\\theta = -1$ is $\\frac{3\\pi}{2}$. Since the sine graph has a period of $2\\pi$, all solutions are found by adding multiples of $2\\pi$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 5C — Perimeter and Arc Length Ratios",
+      "section_ref": "5.2",
+      "unit_label": "Chapter 5 — Radians",
+      "primary_slo": "9MA0.P1.4.2.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A sector of a circle has radius $r$. The perimeter of the sector is exactly twice the length of the arc $AB$. Determine the size of the angle subtended at the centre, $\\angle AOB$, in radians.",
+          "options": [
+            "2",
+            "1",
+            "0.5",
+            "4"
+          ],
+          "correct_option": "A",
+          "explanation": "Perimeter $P = r\\theta + 2r$ and Arc length $l = r\\theta$. Given $P = 2l$, we have $r\\theta + 2r = 2r\\theta \\implies 2r = r\\theta \\implies \\theta = 2$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 5C — Modelling Geometric Arcs",
+      "section_ref": "5.2",
+      "unit_label": "Chapter 5 — Radians",
+      "primary_slo": "9MA0.P1.4.2.3",
+      "aligned_slos": [
+        "9MA0.P1.2.2.5"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "In a diagram where $AB$ is the diameter of a circle with centre $O$ and radius 2 cm, a point $C$ lies on the circumference such that $\\angle COB = \\frac{2}{3}\\pi$ radians. Find the value of $\\angle COA$.",
+          "options": [
+            "$\\frac{\\pi}{3}$",
+            "$\\frac{4\\pi}{3}$",
+            "$\\frac{\\pi}{6}$",
+            "$\\frac{2\\pi}{3}$"
+          ],
+          "correct_option": "A",
+          "explanation": "Since $AB$ is a straight line through the centre $O$, the angles $\\angle COB$ and $\\angle COA$ must sum to $\\pi$ radians. $\\pi - \\frac{2}{3}\\pi = \\frac{1}{3}\\pi$.",
+          "diagram_required": "geometry"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 5C — Constrained Circle Radii",
+      "section_ref": "5.2",
+      "unit_label": "Chapter 5 — Radians",
+      "primary_slo": "9MA0.P1.4.2.3",
+      "aligned_slos": [
+        "9MA0.P1.4.1.5"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A sector $OAB$ of a circle with radius $R$ and $\\angle AOB = 2\\theta$ contains an inscribed circle of radius $r$ that touches the arc $AB$ and both radii $OA$ and $OB$. Which expression correctly relates $R, r,$ and $\\theta$?",
+          "options": [
+            "$R\\sin\\theta = r(1 + \\sin\\theta)$",
+            "$r\\sin\\theta = R(1 + \\sin\\theta)$",
+            "$R\\cos\\theta = r(1 + \\sin\\theta)$",
+            "$R\\sin\\theta = r$"
+          ],
+          "correct_option": "A",
+          "explanation": "Let $C$ be the centre of the small circle. The distance $OC = R - r$. From the right-angled triangle formed by the radius to the point of tangency on $OA$, $\\sin\\theta = \\frac{r}{OC} = \\frac{r}{R - r}$. Rearranging: $r = (R-r)\\sin\\theta \\implies R\\sin\\theta = r + r\\sin\\theta = r(1 + \\sin\\theta)$.",
+          "diagram_required": "geometry"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 5D — Inverse Area Parameters",
+      "section_ref": "5.3",
+      "unit_label": "Chapter 5 — Radians",
+      "primary_slo": "9MA0.P1.4.2.4",
+      "aligned_slos": [
+        "9MA0.P1.4.2.3"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A sector of a circle with radius 28 cm has perimeter $P$ cm and area $A$ cm$^2$. Given that $A = 4P$, find the value of the angle $\\theta$ in radians.",
+          "options": [
+            "0.8",
+            "1.25",
+            "2.24",
+            "0.4"
+          ],
+          "correct_option": "A",
+          "explanation": "$A = \\frac{1}{2}(28^2)\\theta = 392\\theta$. $P = 28\\theta + 56$. Set $392\\theta = 4(28\\theta + 56) \\implies 392\\theta = 112\\theta + 224 \\implies 280\\theta = 224 \\implies \\theta = 0.8$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 5D — Geometric Comparisons of Regions",
+      "section_ref": "5.3",
+      "unit_label": "Chapter 5 — Radians",
+      "primary_slo": "9MA0.P1.4.2.5",
+      "aligned_slos": [
+        "9MA0.P1.4.2.4"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "In a circle where $AB$ is the diameter, $\\angle BOC = \\theta$ radians. Given that the area of $\\triangle COB$ is equal to the area of the shaded segment bounded by the chord $AC$ and arc $AC$, which equation must $\\theta$ satisfy?",
+          "options": [
+            "$\\theta + 2\\sin\\theta = \\pi$",
+            "$\\theta - \\sin\\theta = \\pi$",
+            "$\\sin\\theta = 3\\theta$",
+            "$3\\theta - 4\\sin\\theta = 0$"
+          ],
+          "correct_option": "A",
+          "explanation": "Area $\\triangle COB = \\frac{1}{2}r^2\\sin\\theta$. $\\angle AOC = \\pi - \\theta$. Segment area $= \\frac{1}{2}r^2(\\pi - \\theta) - \\frac{1}{2}r^2\\sin(\\pi-\\theta) = \\frac{1}{2}r^2(\\pi - \\theta - \\sin\\theta)$. Setting equal: $\\sin\\theta = \\pi - \\theta - \\sin\\theta \\implies \\theta + 2\\sin\\theta = \\pi$.",
+          "diagram_required": "geometry"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 5D — Regions Bounded by Tangents",
+      "section_ref": "5.3",
+      "unit_label": "Chapter 5 — Radians",
+      "primary_slo": "9MA0.P1.4.2.5",
+      "aligned_slos": [
+        "9MA0.P1.2.2.4",
+        "9MA0.P1.4.2.4"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A sector $OAB$ has radius 12 cm and angle 1.2 radians. The line $AC$ is a tangent to the circle at $A$, and $OBC$ is a straight line. Calculate the area of the region $R$ bounded by the arc $AB$ and the lines $AC$ and $CB$ to 2 decimal places.",
+          "options": [
+            "98.79 cm$^2$",
+            "185.19 cm$^2$",
+            "86.40 cm$^2$",
+            "12.39 cm$^2$"
+          ],
+          "correct_option": "A",
+          "explanation": "In $\\triangle OAC$, $AC = 12\\tan(1.2) \\approx 30.865$. Area $\\triangle OAC = \\frac{1}{2} \\times 12 \\times 30.865 \\approx 185.19$. Area sector $OAB = \\frac{1}{2} \\times 12^2 \\times 1.2 = 86.4$. Shaded area $R = 185.19 - 86.4 = 98.79$ cm$^2$.",
+          "diagram_required": "geometry"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 5E — Quadratic Trigonometric Identities",
+      "section_ref": "5.4",
+      "unit_label": "Chapter 5 — Trigonometric identities and equations",
+      "primary_slo": "9MA0.P1.4.3.5",
+      "aligned_slos": [
+        "9MA0.P1.4.3.4"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Solve the equation $8\\cos^2 x + 6\\sin x - 6 = 3$ for $0 \\le x \\le 2\\pi$. Give all solutions to 1 decimal place.",
+          "options": [
+            "$0.3, 0.5, 2.6, 2.9$",
+            "$0.5, 2.6$ only",
+            "$0.3, 2.9$ only",
+            "$0.8, 2.3, 3.8, 5.5$"
+          ],
+          "correct_option": "A",
+          "explanation": "Substitute $\\cos^2 x = 1 - \\sin^2 x$: $8 - 8\\sin^2 x + 6\\sin x - 9 = 0 \\implies 8\\sin^2 x - 6\\sin x + 1 = 0$. Factorising: $(4\\sin x - 1)(2\\sin x - 1) = 0$. So $\\sin x = 0.25$ or $\\sin x = 0.5$. For $\\sin x = 0.5$: $x \\approx 0.5, 2.6$. For $\\sin x = 0.25$: $x \\approx 0.3, 2.9$. All four solutions: $0.3, 0.5, 2.6, 2.9$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 5E — Factorised Trigonometric Equations",
+      "section_ref": "5.4",
+      "unit_label": "Chapter 5 — Trigonometric identities and equations",
+      "primary_slo": "9MA0.P1.4.3.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Solve the equation $(1 + \\tan\\theta)(5\\sin\\theta - 2) = 0$ in the interval $-\\pi \\le \\theta \\le \\pi$.",
+          "options": [
+            "$-0.79, 0.41, 2.36, 2.73$",
+            "$-0.79, 0.41, 2.36$",
+            "$0.41, 2.36$",
+            "$-2.36, -0.79, 0.41, 2.73$"
+          ],
+          "correct_option": "A",
+          "explanation": "Either $\\tan\\theta = -1$ or $\\sin\\theta = 0.4$. For $\\tan\\theta = -1$ in $[-\\pi, \\pi]$: $\\theta = -\\frac{\\pi}{4} \\approx -0.79$ and $\\frac{3\\pi}{4} \\approx 2.36$. For $\\sin\\theta = 0.4$: $\\theta \\approx 0.41$ and $\\pi - 0.41 \\approx 2.73$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 5E — Applied Triangle Equations",
+      "section_ref": "5.4",
+      "unit_label": "Chapter 5 — Trigonometric identities and equations",
+      "primary_slo": "9MA0.P1.4.1.1",
+      "aligned_slos": [
+        "9MA0.P1.4.3.3"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "In triangle $ABC$, $AB = 5$ cm, $AC = 4$ cm, and $\\angle ABC = 0.5$ radians. Using the sine rule, find the two possible values of angle $\\angle ACB$ in radians.",
+          "options": [
+            "0.60 and 2.54",
+            "0.50 and 2.64",
+            "0.60 and 1.20",
+            "0.30 and 2.84"
+          ],
+          "correct_option": "A",
+          "explanation": "$\\frac{\\sin C}{5} = \\frac{\\sin(0.5)}{4} \\implies \\sin C = \\frac{5\\sin(0.5)}{4} \\approx 0.599$. $C = \\arcsin(0.599) \\approx 0.60$ rad. The second possible value is $\\pi - 0.60 \\approx 2.54$ rad. Both are valid as $0.60 + 0.5 < \\pi$ and $2.54 + 0.5 < \\pi$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 5F — Small Angle Approximation Values",
+      "section_ref": "5.5",
+      "unit_label": "Chapter 5 — Radians",
+      "primary_slo": "9MA0.P3.3.1.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "When $\\theta$ is small, find the approximate value of $\\frac{4\\cos 3\\theta - 2 + 5\\sin\\theta}{1 - \\sin 2\\theta}$.",
+          "options": [
+            "2",
+            "0",
+            "5",
+            "$9\\theta + 2$"
+          ],
+          "correct_option": "A",
+          "explanation": "Approximating: $\\cos 3\\theta \\approx 1 - \\frac{9\\theta^2}{2}$, $\\sin\\theta \\approx \\theta$, $\\sin 2\\theta \\approx 2\\theta$. Numerator $\\approx 4(1 - \\frac{9\\theta^2}{2}) - 2 + 5\\theta = 2 + 5\\theta - 18\\theta^2$. Denominator $\\approx 1 - 2\\theta$. As $\\theta \\to 0$, the expression $\\to \\frac{2}{1} = 2$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 5F — Small Angle Simplification",
+      "section_ref": "5.5",
+      "unit_label": "Chapter 5 — Radians",
+      "primary_slo": "9MA0.P3.3.1.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Given $\\theta$ is small such that $\\theta^2$ terms are negligible, the expression $\\frac{4\\cos 3\\theta - 2 + 5\\sin\\theta}{1 - \\sin 2\\theta}$ can be written in the form $a\\theta + b$. Identify $a$ and $b$.",
+          "options": [
+            "$a=9, b=2$",
+            "$a=5, b=2$",
+            "$a=3, b=2$",
+            "$a=13, b=2$"
+          ],
+          "correct_option": "A",
+          "explanation": "The expression reduces to $\\frac{2+5\\theta}{1-2\\theta}$. Using binomial expansion $(1-2\\theta)^{-1} \\approx 1 + 2\\theta$: $(2+5\\theta)(1+2\\theta) = 2 + 4\\theta + 5\\theta + 10\\theta^2 \\approx 2 + 9\\theta$. So $a=9, b=2$.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 5F — Sensitivity of Approximations",
+      "section_ref": "5.5",
+      "unit_label": "Chapter 5 — Radians",
+      "primary_slo": "9MA0.P3.3.1.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "If the percentage error for $\\sin\\theta \\approx \\theta$ for a given value of $\\theta$ is $1\\%$, which of the following equations must $\\theta$ satisfy?",
+          "options": [
+            "$100\\theta = 101\\sin\\theta$",
+            "$101\\theta = 100\\sin\\theta$",
+            "$\\theta - \\sin\\theta = 0.01$",
+            "$\\theta - \\sin\\theta = 0.01\\theta$"
+          ],
+          "correct_option": "A",
+          "explanation": "Percentage error $= \\frac{\\theta - \\sin\\theta}{\\sin\\theta} \\times 100 = 1 \\implies \\frac{\\theta}{\\sin\\theta} - 1 = 0.01 \\implies \\frac{\\theta}{\\sin\\theta} = 1.01 \\implies 100\\theta = 101\\sin\\theta$. Option D uses $\\theta$ (the approximation) as the denominator, which is incorrect.",
+          "diagram_required": "none"
+        }
+      ]
+    }
+  ]
+}

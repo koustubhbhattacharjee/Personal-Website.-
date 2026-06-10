@@ -1,0 +1,179 @@
+{
+  "version": 2,
+  "source_label": "5 Steps AP Physics C (2024) — Chapter 9 Kinematics (pages 147–168) — extracted 2026-05",
+  "source_type": "external",
+  "textbook_key": "5steps_appc_2024",
+  "units": [
+    {
+      "id": "u1",
+      "label": "APPC.1 Kinematics",
+      "question_types": [
+        {
+          "id": "qt1",
+          "label": "Apply 1D constant-acceleration kinematics in free fall",
+          "section_ref": "",
+          "primary_slo": "1.3.A.2",
+          "notes": "Both questions are 1D vertical free-fall problems solved by selecting and substituting into the kinematic equations; 1.3.A.3 supplies the value of g, and 1.1.A.5 supplies the sign convention.",
+          "slo_weights": [
+            { "slo": "1.3.A.2", "weight": 0.60 },
+            { "slo": "1.3.A.3", "weight": 0.25 },
+            { "slo": "1.1.A.5", "weight": 0.15 }
+          ],
+          "aligned_slos": ["1.3.A.3"],
+          "reinforcement_slos": [
+            { "slo": "1.1.A.5", "weight": 0.15 }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q1",
+              "label": "1",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.92,
+              "notes": "Source page prints 5 options (A–E) instead of the standard 4. Verbatim transcription preserved per format rule; tutor should confirm correct option in /admin.",
+              "question_format": "mcq",
+              "options": [
+                "(A) 12.5 m",
+                "(B) 25 m",
+                "(C) 125 m",
+                "(D) 250 m",
+                "(E) 1250 m"
+              ],
+              "correct_option": "(C) 125 m",
+              "source_reference": {
+                "worksheet_name": "5 Steps AP Physics C (2024) — Chapter 9 Kinematics (pages 147–168) — extracted 2026-05",
+                "textbook_key": "5steps_appc_2024",
+                "page": 163,
+                "section": "Practice Problems — Multiple Choice",
+                "exercise_ref": "1"
+              },
+              "ordered_content": [
+                { "type": "text", "value": "A firework is shot straight up in the air with an initial speed of 50 m/s. What is the maximum height it reaches?" },
+                { "type": "text", "value": "(A) 12.5 m\n(B) 25 m\n(C) 125 m\n(D) 250 m\n(E) 1250 m" }
+              ]
+            },
+            {
+              "id": "q2",
+              "label": "2",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "Source page prints 5 options (A–E).",
+              "question_format": "mcq",
+              "options": [
+                "(A) 2 m/s^2",
+                "(B) 4 m/s^2",
+                "(C) 6 m/s^2",
+                "(D) 8 m/s^2",
+                "(E) 10 m/s^2"
+              ],
+              "correct_option": "(B) 4 m/s^2",
+              "source_reference": {
+                "worksheet_name": "5 Steps AP Physics C (2024) — Chapter 9 Kinematics (pages 147–168) — extracted 2026-05",
+                "textbook_key": "5steps_appc_2024",
+                "page": 163,
+                "section": "Practice Problems — Multiple Choice",
+                "exercise_ref": "2"
+              },
+              "ordered_content": [
+                { "type": "text", "value": "On a strange, airless planet, a ball is thrown downward from a height of 17 m. The ball initially travels at 15 m/s. If the ball hits the ground in 1 s, what is this planet's gravitational acceleration?" },
+                { "type": "text", "value": "(A) 2 m/s^2\n(B) 4 m/s^2\n(C) 6 m/s^2\n(D) 8 m/s^2\n(E) 10 m/s^2" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt2",
+          "label": "Differentiate position function to find instantaneous velocity",
+          "section_ref": "",
+          "primary_slo": "1.2.C.1.i",
+          "notes": "Core skill is taking dx/dt to recover v(t); 1.2.C.2 covers the broader 'use differentiation to find instantaneous values' framing; 1.1.A.5 supports interpreting the sign of v relative to the original direction of motion.",
+          "slo_weights": [
+            { "slo": "1.2.C.1.i", "weight": 0.55 },
+            { "slo": "1.2.C.2", "weight": 0.25 },
+            { "slo": "1.1.A.5", "weight": 0.20 }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            { "slo": "1.2.C.2", "weight": 0.25 },
+            { "slo": "1.1.A.5", "weight": 0.20 }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q3",
+              "label": "3",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.93,
+              "notes": "Source page prints 5 options (A–E).",
+              "question_format": "mcq",
+              "options": [
+                "(A) 32 m/s in the original direction of motion",
+                "(B) 16 m/s in the original direction of motion",
+                "(C) 0 m/s",
+                "(D) 16 m/s opposite the original direction of motion",
+                "(E) 32 m/s opposite the original direction of motion"
+              ],
+              "correct_option": "(E) 32 m/s opposite the original direction of motion",
+              "source_reference": {
+                "worksheet_name": "5 Steps AP Physics C (2024) — Chapter 9 Kinematics (pages 147–168) — extracted 2026-05",
+                "textbook_key": "5steps_appc_2024",
+                "page": 163,
+                "section": "Practice Problems — Multiple Choice",
+                "exercise_ref": "3"
+              },
+              "ordered_content": [
+                { "type": "text", "value": "An object moves such that its position is given by the function x(t) = 3t^2 − 4t + 1. The units of t are seconds, and the units of x are meters. After 6 s, how fast and in what direction is this object moving?" },
+                { "type": "text", "value": "(A) 32 m/s in the original direction of motion\n(B) 16 m/s in the original direction of motion\n(C) 0 m/s\n(D) 16 m/s opposite the original direction of motion\n(E) 32 m/s opposite the original direction of motion" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt3",
+          "label": "Decompose 2D projectile motion and solve coupled vertical/horizontal kinematics",
+          "section_ref": "",
+          "primary_slo": "1.5.A.4",
+          "notes": "Projectile motion is the canonical 2D-kinematics setup (1.5.A.4); the solution requires decomposing motion into independent components (1.5.A.1), applying the constant-acceleration kinematic equations to each axis (1.3.A.2), and resolving the initial velocity vector into components (1.1.A.4).",
+          "slo_weights": [
+            { "slo": "1.5.A.4", "weight": 0.45 },
+            { "slo": "1.5.A.1", "weight": 0.20 },
+            { "slo": "1.3.A.2", "weight": 0.20 },
+            { "slo": "1.1.A.4", "weight": 0.15 }
+          ],
+          "aligned_slos": ["1.5.A.1"],
+          "reinforcement_slos": [
+            { "slo": "1.3.A.2", "weight": 0.20 },
+            { "slo": "1.1.A.4", "weight": 0.15 }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q4",
+              "label": "4",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "Multi-part FRQ (parts a–d) under one stem and one figure. Kept as a single free_response question because the source numbers it as one problem (not as 4(a)/4(b)/4(c)/4(d) separately).",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "5 Steps AP Physics C (2024) — Chapter 9 Kinematics (pages 147–168) — extracted 2026-05",
+                "textbook_key": "5steps_appc_2024",
+                "page": 164,
+                "section": "Practice Problems — Free Response",
+                "exercise_ref": "4"
+              },
+              "ordered_content": [
+                { "type": "text", "value": "An airplane attempts to drop a bomb on a target. When the bomb is released, the plane is flying upward at an angle of 30° above the horizontal at a speed of 200 m/s, as shown below. At the point of release, the plane's altitude is 2.0 km. The bomb hits the target." },
+                { "type": "image", "page": 164, "bbox": [0.22, 0.18, 0.85, 0.42], "caption": "", "alt": "An airplane in side view climbing to the upper right at 30° above the horizontal (dashed reference line). A velocity arrow labeled v = 200 m/s points along the plane's direction of motion." },
+                { "type": "text", "value": "(a) Determine the magnitude and direction of the vertical component of the bomb's velocity at the point of release.\n(b) Determine the magnitude and direction of the horizontal component of the bomb's velocity at the point when the bomb contacts the target.\n(c) Determine how much time it takes for the bomb to hit the target after it is released.\n(d) At the point of release, what angle below the horizontal does the pilot have to look in order to see the target?" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

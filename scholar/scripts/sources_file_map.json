@@ -1,0 +1,109 @@
+{
+  "_comment": "Maps textbook_key (the same string stamped on questions.metadata.source_reference.textbook_key) to a local PDF that should be uploaded to R2 under sources/<textbook_key>/source.pdf. Keys here become rows in public.sources. Add new entries when authoring a new tree.",
+
+  "tutor_ap1_workbook_book1_2014": {
+    "path": "data/AP Physics 1/WORKBOOK 1 FULL (1).pdf",
+    "label": "AP Physics 1 Practice Workbook — Book 1 (Mechanics, Waves, Electrostatics) — 2014 compilation",
+    "source_type": "worksheet_pack",
+    "metadata": {
+      "authors": "Compiled by Tony Wayne / Mr. Bigler / B. Surowski (College Board AP B/C reuse)",
+      "edition": "2014 print",
+      "notes": "Released-exam compilation reused under fair-use for tutoring. Pages 39–98 are Chapter 2 Dynamics + Circular Motion."
+    }
+  },
+
+  "ap_phys1_released_2014": {
+    "path": "data/AP Physics 1/AP Physics 1_ Algebra Based/AP Physics 1 2014.pdf",
+    "label": "AP Physics 1 — Released Free-Response Questions, 2014",
+    "source_type": "external",
+    "metadata": {
+      "publisher": "College Board",
+      "year": 2014,
+      "notes": "Official released FRQs; used for AP-style practice items."
+    }
+  },
+  "ap_phys1_released_2015": {
+    "path": "data/AP Physics 1/AP Physics 1_ Algebra Based/AP Physics 1 2015.pdf",
+    "label": "AP Physics 1 — Released Free-Response Questions, 2015",
+    "source_type": "external",
+    "metadata": {
+      "publisher": "College Board",
+      "year": 2015
+    }
+  },
+  "ap_phys1_released_2016": {
+    "path": "data/AP Physics 1/AP Physics 1_ Algebra Based/AP Physics 1 2016.pdf",
+    "label": "AP Physics 1 — Released Free-Response Questions, 2016",
+    "source_type": "external",
+    "metadata": {
+      "publisher": "College Board",
+      "year": 2016
+    }
+  },
+  "ap_phys1_released_2017": {
+    "path": "data/AP Physics 1/AP Physics 1_ Algebra Based/AP Physics 1 2017.pdf",
+    "label": "AP Physics 1 — Released Free-Response Questions, 2017",
+    "source_type": "external",
+    "metadata": {
+      "publisher": "College Board",
+      "year": 2017
+    }
+  },
+  "ap_phys1_released_2018": {
+    "path": "data/AP Physics 1/AP Physics 1_ Algebra Based/AP Physics 1 2018.pdf",
+    "label": "AP Physics 1 — Released Free-Response Questions, 2018",
+    "source_type": "external",
+    "metadata": {
+      "publisher": "College Board",
+      "year": 2018
+    }
+  },
+
+  "njctl_ap_physics_fluids_2009": {
+    "path": "data/AP Physics 1/fluids-practice-problems-2009-05-13.pdf",
+    "label": "NJCTL AP Physics — Fluids Practice Problems (2009-05-13)",
+    "source_type": "worksheet_pack",
+    "metadata": {
+      "publisher": "New Jersey Center for Teaching and Learning",
+      "subject_focus": "fluids",
+      "notes": "Fluids problem pack used for AP Physics 1 fluids unit (and AP Physics 2 overlap)."
+    }
+  },
+
+  "ap_phys1_5steps_2024": {
+    "path": "data/AP Physics 1/5stepsAPPhysics.pdf",
+    "label": "5 Steps to a 5 — AP Physics 1 (2024 ed.)",
+    "source_type": "external",
+    "metadata": {
+      "publisher": "McGraw-Hill",
+      "edition": "2024",
+      "notes": "Test-prep workbook. Practice-Problems sections per chapter, plus 2 full practice exams."
+    }
+  },
+
+  "barrons_ap_phys1_premium_2024": {
+    "path": "",
+    "label": "Barron's AP Physics 1 Premium 2024 (Rideout & Wolf)",
+    "source_type": "external",
+    "metadata": {
+      "publisher": "Barron's Educational Services",
+      "edition": "2024 Premium",
+      "authors": "Kenneth Rideout, Jonathan Wolf",
+      "isbn": "9781506287942",
+      "notes": "EPUB source — no PDF storage key. Practice Exercises per chapter; 4 full practice tests."
+    }
+  },
+
+  "larson_precalc_with_limits_4e": {
+    "path": "canonicalprompts/sources/PreCal/Precalculus_with_Limits_4e.pdf",
+    "label": "Larson — Precalculus with Limits (4th edition)",
+    "source_type": "textbook",
+    "metadata": {
+      "publisher": "Cengage Learning",
+      "edition": "4th",
+      "authors": "Ron Larson",
+      "subject_focus": "South Carolina Precalculus (SCCCR)",
+      "notes": "Used for the SC Precalculus content bank. Sections 10.2 (Parabolas), 10.3 (Ellipses), 10.4 (Hyperbolas) imported May 2026."
+    }
+  }
+}

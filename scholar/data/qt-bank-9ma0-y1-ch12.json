@@ -1,0 +1,612 @@
+{
+  "schema_version": "2.0",
+  "source_type": "textbook",
+  "source_label": "Pearson Edexcel Year 1 Pure",
+  "textbook_key": "pearson-9ma0-y1",
+  "overlay_key": "pearson-9ma0-full",
+  "subject": "9MA0",
+  "question_types": [
+    {
+      "title": "Exercise 12A — Gradient of a Chord",
+      "section_ref": "12.1",
+      "unit_label": "Chapter 12 — Differentiation",
+      "primary_slo": "9MA0.P1.6.1.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The point A(3, 9) lies on the curve y = x². The point B has x-coordinate 3.1. Calculate the gradient of the chord AB.",
+          "options": [
+            "6.1",
+            "3.1",
+            "6",
+            "0.61"
+          ],
+          "correct_option": "A",
+          "explanation": "At x=3.1, y=9.61. Gradient = (9.61 - 9) / (3.1 - 3) = 0.61 / 0.1 = 6.1.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 12A — Estimating Gradients using Limits",
+      "section_ref": "12.1",
+      "unit_label": "Chapter 12 — Differentiation",
+      "primary_slo": "9MA0.P1.6.1.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The gradient of the chord joining (3, 9) to (3+h, (3+h)²) is 6 + h. What is the gradient of the curve at x = 3?",
+          "options": [
+            "6",
+            "3",
+            "9",
+            "0"
+          ],
+          "correct_option": "A",
+          "explanation": "As h → 0, the chord gradient 6 + h tends to 6, which is the gradient of the tangent at x = 3.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 12A — Gradients of Tangents on Curves",
+      "section_ref": "12.1",
+      "unit_label": "Chapter 12 — Differentiation",
+      "primary_slo": "9MA0.P1.6.1.1",
+      "aligned_slos": [
+        "9MA0.P1.2.2.4"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The point A(0.6, 0.8) lies on y = √(1 - x²). Using dy/dx = -x/√(1-x²), find the gradient of the tangent at A.",
+          "options": [
+            "-0.75",
+            "0.75",
+            "-1.25",
+            "0.8"
+          ],
+          "correct_option": "A",
+          "explanation": "dy/dx = -0.6/√(1-0.36) = -0.6/0.8 = -0.75.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 12B — Limits in First Principles",
+      "section_ref": "12.2",
+      "unit_label": "Chapter 12 — Differentiation",
+      "primary_slo": "9MA0.P1.6.1.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "When differentiating f(x) = 10x² from first principles, which expression represents the chord gradient before taking h → 0?",
+          "options": [
+            "20x + 10h",
+            "10x + 20h",
+            "20x",
+            "10x² + h"
+          ],
+          "correct_option": "A",
+          "explanation": "(f(x+h) - f(x)) / h = (10(x+h)² - 10x²) / h = (20xh + 10h²) / h = 20x + 10h.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 12B — Derivative of Quadratic Functions",
+      "section_ref": "12.2",
+      "unit_label": "Chapter 12 — Differentiation",
+      "primary_slo": "9MA0.P1.6.1.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Using first principles, find f'(x) for f(x) = 10x².",
+          "options": [
+            "20x",
+            "10x",
+            "20",
+            "x"
+          ],
+          "correct_option": "A",
+          "explanation": "Taking the limit as h → 0 of 20x + 10h gives f'(x) = 20x.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 12B — First Principles at a Point",
+      "section_ref": "12.2",
+      "unit_label": "Chapter 12 — Differentiation",
+      "primary_slo": "9MA0.P1.6.1.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A first principles calculation gives the chord gradient as 6 + 3x + (δx)². What is the gradient of the curve at x = 1?",
+          "options": [
+            "9",
+            "6",
+            "3",
+            "1"
+          ],
+          "correct_option": "A",
+          "explanation": "As δx → 0, the gradient → 6 + 3x. At x = 1: 6 + 3(1) = 9.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 12C — Power Rule Differentiation",
+      "section_ref": "12.3",
+      "unit_label": "Chapter 12 — Differentiation",
+      "primary_slo": "9MA0.P1.6.2.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Differentiate y = x³ with respect to x.",
+          "options": [
+            "3x²",
+            "x²",
+            "3x",
+            "⅓x⁴"
+          ],
+          "correct_option": "A",
+          "explanation": "Using dy/dx = nx^(n-1): for n=3, dy/dx = 3x².",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 12C — Negative Indices",
+      "section_ref": "12.3",
+      "unit_label": "Chapter 12 — Differentiation",
+      "primary_slo": "9MA0.P1.6.2.1",
+      "aligned_slos": [
+        "9MA0.P1.1.1.2"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find f'(x) given f(x) = 9/x.",
+          "options": [
+            "-9/x²",
+            "9/x²",
+            "-9x",
+            "9 ln x"
+          ],
+          "correct_option": "A",
+          "explanation": "f(x) = 9x⁻¹. f'(x) = -1 × 9x⁻² = -9/x².",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 12C — Determining Gradient Parameters",
+      "section_ref": "12.3",
+      "unit_label": "Chapter 12 — Differentiation",
+      "primary_slo": "9MA0.P1.6.2.1",
+      "aligned_slos": [
+        "9MA0.P1.6.3.3"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "For the curve y = x³ - 11x + 1, find the values of x at which the gradient equals 1.",
+          "options": [
+            "±2",
+            "±1",
+            "2 only",
+            "0"
+          ],
+          "correct_option": "A",
+          "explanation": "dy/dx = 3x² - 11 = 1 → 3x² = 12 → x² = 4 → x = ±2.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 12D — Differentiating Quadratics",
+      "section_ref": "12.4",
+      "unit_label": "Chapter 12 — Differentiation",
+      "primary_slo": "9MA0.P1.6.2.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "If y = 3x² - 5x + 6, find dy/dx.",
+          "options": [
+            "6x - 5",
+            "3x - 5",
+            "6x",
+            "6x² - 5"
+          ],
+          "correct_option": "A",
+          "explanation": "Differentiate term by term: d/dx(3x²) = 6x, d/dx(-5x) = -5, d/dx(6) = 0. So dy/dx = 6x - 5.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 12D — Evaluating Gradients at Points",
+      "section_ref": "12.4",
+      "unit_label": "Chapter 12 — Differentiation",
+      "primary_slo": "9MA0.P1.6.2.2",
+      "aligned_slos": [
+        "9MA0.P1.6.3.1"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the gradient of the curve y = 7x² - x³ at x = 2.",
+          "options": [
+            "16",
+            "14",
+            "20",
+            "28"
+          ],
+          "correct_option": "A",
+          "explanation": "dy/dx = 14x - 3x². At x=2: 14(2) - 3(4) = 28 - 12 = 16.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 12D — Solving for Zero Gradient",
+      "section_ref": "12.4",
+      "unit_label": "Chapter 12 — Differentiation",
+      "primary_slo": "9MA0.P1.6.2.2",
+      "aligned_slos": [
+        "9MA0.P1.6.3.3"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "For y = 3x² - 9x + 2, at what x-coordinate is the gradient equal to 0?",
+          "options": [
+            "1.5",
+            "3",
+            "0",
+            "-1.5"
+          ],
+          "correct_option": "A",
+          "explanation": "dy/dx = 6x - 9 = 0 → x = 1.5.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 12E — Sums and Differences of Terms",
+      "section_ref": "12.5",
+      "unit_label": "Chapter 12 — Differentiation",
+      "primary_slo": "9MA0.P1.6.2.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Differentiate f(x) = x + 9/x.",
+          "options": [
+            "1 - 9/x²",
+            "1 + 9/x²",
+            "x² - 9",
+            "9/x²"
+          ],
+          "correct_option": "A",
+          "explanation": "f(x) = x + 9x⁻¹. f'(x) = 1 - 9x⁻² = 1 - 9/x².",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 12E — Differentiating Rational Polynomials",
+      "section_ref": "12.5",
+      "unit_label": "Chapter 12 — Differentiation",
+      "primary_slo": "9MA0.P1.6.2.2",
+      "aligned_slos": [
+        "9MA0.P1.6.2.4"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find dy/dx for y = 3x² + 3 + 2/x².",
+          "options": [
+            "6x - 4/x³",
+            "6x + 4/x³",
+            "6x - 2/x³",
+            "6x + 3 - 4/x"
+          ],
+          "correct_option": "A",
+          "explanation": "y = 3x² + 3 + 2x⁻². dy/dx = 6x + 0 - 4x⁻³ = 6x - 4/x³.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 12E — Applied Gradient Calculations",
+      "section_ref": "12.5",
+      "unit_label": "Chapter 12 — Differentiation",
+      "primary_slo": "9MA0.P1.6.2.2",
+      "aligned_slos": [
+        "9MA0.P1.6.3.1"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "f(x) = (2x² - 3x - 2) / (x - 2) simplifies to 2x + 1 for x ≠ 2. What is the gradient of this curve at any point in its domain?",
+          "options": [
+            "2",
+            "1",
+            "2x",
+            "0"
+          ],
+          "correct_option": "A",
+          "explanation": "Differentiating f(x) = 2x + 1 gives f'(x) = 2, a constant gradient.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 12F — Tangent and Normal Calculations",
+      "section_ref": "12.6",
+      "unit_label": "Chapter 12 — Differentiation",
+      "primary_slo": "9MA0.P1.6.3.2",
+      "aligned_slos": [
+        "9MA0.P1.6.3.1"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The point P(4, 6) lies on y = √x + x²/4. Calculate the gradient of the tangent at P.",
+          "options": [
+            "2.25",
+            "0.25",
+            "2",
+            "4.25"
+          ],
+          "correct_option": "A",
+          "explanation": "dy/dx = 1/(2√x) + x/2. At x=4: 1/4 + 2 = 2.25.",
+          "diagram_required": "none"
+        },
+        {
+          "question_format": "mcq",
+          "question": "A curve has equation y = 16x - 3/x². Find the gradient of the normal at x = 0.5.",
+          "options": [
+            "-1/64",
+            "64",
+            "16",
+            "-1/16"
+          ],
+          "correct_option": "A",
+          "explanation": "dy/dx = 16 + 6x⁻³. At x=0.5: 16 + 6/0.125 = 16 + 48 = 64. Normal gradient = -1/64.",
+          "diagram_required": "none"
+        },
+        {
+          "question_format": "mcq",
+          "question": "For y = x³ - 11x + 1, find the x-coordinates where the gradient equals 1.",
+          "options": [
+            "x = ±2",
+            "x = 2 only",
+            "x = ±4",
+            "x = 0"
+          ],
+          "correct_option": "A",
+          "explanation": "3x² - 11 = 1 → 3x² = 12 → x = ±2.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 12G — Increasing and Decreasing Intervals",
+      "section_ref": "12.7",
+      "unit_label": "Chapter 12 — Differentiation",
+      "primary_slo": "9MA0.P1.6.4.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A function f(x) is decreasing on [a, b]. Which must be true for all x in this interval?",
+          "options": [
+            "f'(x) ≤ 0",
+            "f'(x) ≥ 0",
+            "f''(x) < 0",
+            "f(x) < 0"
+          ],
+          "correct_option": "A",
+          "explanation": "A function is decreasing where its gradient f'(x) ≤ 0.",
+          "diagram_required": "none"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Find the set of values of x for which f(x) = x³ - 3x² is decreasing.",
+          "options": [
+            "0 ≤ x ≤ 2",
+            "x ≤ 0 or x ≥ 2",
+            "x ≥ 2",
+            "x ≤ 0"
+          ],
+          "correct_option": "A",
+          "explanation": "f'(x) = 3x² - 6x = 3x(x-2) ≤ 0. This holds between the roots x=0 and x=2.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 12H — Second Order Derivatives",
+      "section_ref": "12.8",
+      "unit_label": "Chapter 12 — Differentiation",
+      "primary_slo": "9MA0.P1.6.2.3",
+      "aligned_slos": [
+        "9MA0.P1.6.2.1"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Given y = 2x³ - 3/x, find d²y/dx².",
+          "options": [
+            "12x - 6/x³",
+            "12x + 6/x³",
+            "6x² + 3/x²",
+            "12x"
+          ],
+          "correct_option": "A",
+          "explanation": "y = 2x³ - 3x⁻¹. dy/dx = 6x² + 3x⁻². d²y/dx² = 12x - 6x⁻³ = 12x - 6/x³.",
+          "diagram_required": "none"
+        },
+        {
+          "question_format": "mcq",
+          "question": "For a function where f''(x) = 12x + 4, what does f''(1) = 16 tell you?",
+          "options": [
+            "The gradient is increasing at x=1",
+            "The gradient is decreasing at x=1",
+            "There is a maximum at x=1",
+            "The function is negative at x=1"
+          ],
+          "correct_option": "A",
+          "explanation": "f''(x) > 0 means the first derivative f'(x) is increasing — i.e. the gradient is increasing.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 12I — Locating Stationary Points",
+      "section_ref": "12.9",
+      "unit_label": "Chapter 12 — Differentiation",
+      "primary_slo": "9MA0.P1.6.4.1",
+      "aligned_slos": [
+        "9MA0.P1.6.4.2"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the coordinates of the stationary points of y = x³ - 3x² + 1.",
+          "options": [
+            "(0, 1) and (2, -3)",
+            "(0, 1) and (2, 3)",
+            "(1, -1) and (0, 0)",
+            "(0, 1) and (-2, -19)"
+          ],
+          "correct_option": "A",
+          "explanation": "dy/dx = 3x² - 6x = 3x(x-2) = 0 → x=0 (y=1) and x=2 (y=8-12+1=-3).",
+          "diagram_required": "none"
+        },
+        {
+          "question_format": "mcq",
+          "question": "For y = x³ - 3x² + 1, classify the stationary point at x = 2 using the second derivative.",
+          "options": [
+            "Local minimum",
+            "Local maximum",
+            "Point of inflection",
+            "Stationary point of inflection"
+          ],
+          "correct_option": "A",
+          "explanation": "d²y/dx² = 6x - 6. At x=2: 6(2)-6 = 6 > 0, so it is a local minimum.",
+          "diagram_required": "none"
+        },
+        {
+          "question_format": "mcq",
+          "question": "y = ax² + bx + 5 has a stationary point at (1, 3). Find a and b.",
+          "options": [
+            "a = 2, b = -4",
+            "a = -2, b = 4",
+            "a = 1, b = -2",
+            "a = -1, b = 2"
+          ],
+          "correct_option": "A",
+          "explanation": "At (1,3): a+b+5=3 → a+b=-2. dy/dx=2ax+b=0 at x=1 → 2a+b=0. Subtracting: a=2, b=-4.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 12J — Sketching Gradient Functions",
+      "section_ref": "12.10",
+      "unit_label": "Chapter 12 — Differentiation",
+      "primary_slo": "9MA0.P1.6.4.4",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "y = f(x) is a parabola with a minimum at x = 3. What is the x-intercept of y = f'(x)?",
+          "options": [
+            "3",
+            "0",
+            "-3",
+            "It has no intercept"
+          ],
+          "correct_option": "A",
+          "explanation": "At a minimum, f'(x) = 0. So the derivative graph crosses the x-axis at x = 3.",
+          "diagram_required": "none"
+        },
+        {
+          "question_format": "mcq",
+          "question": "A cubic y = f(x) has two stationary points. What is the shape of y = f'(x)?",
+          "options": [
+            "Quadratic (parabola)",
+            "Cubic",
+            "Straight line",
+            "Reciprocal"
+          ],
+          "correct_option": "A",
+          "explanation": "Differentiating a degree-3 polynomial gives a degree-2 polynomial — a quadratic.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Exercise 12K — Optimisation and Modelling",
+      "section_ref": "12.11",
+      "unit_label": "Chapter 12 — Differentiation",
+      "primary_slo": "9MA0.P1.6.5.1",
+      "aligned_slos": [
+        "9MA0.P1.6.5.2",
+        "9MA0.P1.6.5.3"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "A rectangle has perimeter 40 cm. Find its maximum possible area.",
+          "options": [
+            "100 cm²",
+            "400 cm²",
+            "80 cm²",
+            "25 cm²"
+          ],
+          "correct_option": "A",
+          "explanation": "y = 20-x. A = x(20-x). dA/dx = 20-2x = 0 → x=10. Max area = 10×10 = 100 cm².",
+          "diagram_required": "none"
+        },
+        {
+          "question_format": "mcq",
+          "question": "A cylinder has fixed volume 128π cm³. Which gives its surface area S in terms of radius r?",
+          "options": [
+            "S = 2πr² + 256π/r",
+            "S = 2πr² + 128π/r",
+            "S = πr² + 256π/r",
+            "S = 2πr² + 128πr"
+          ],
+          "correct_option": "A",
+          "explanation": "h = 128/r². S = 2πr² + 2πrh = 2πr² + 2πr(128/r²) = 2πr² + 256π/r.",
+          "diagram_required": "none"
+        },
+        {
+          "question_format": "mcq",
+          "question": "For C = 2x + 50/x, at what value of x is the cost minimised?",
+          "options": [
+            "5",
+            "25",
+            "10",
+            "2"
+          ],
+          "correct_option": "A",
+          "explanation": "dC/dx = 2 - 50/x² = 0 → x² = 25 → x = 5.",
+          "diagram_required": "none"
+        }
+      ]
+    }
+  ]
+}

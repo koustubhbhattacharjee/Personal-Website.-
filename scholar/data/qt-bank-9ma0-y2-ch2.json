@@ -1,0 +1,222 @@
+{
+  "schema_version": "2.0",
+  "source_type": "textbook",
+  "source_label": "Pearson Edexcel Year 2 Pure",
+  "textbook_key": "pearson-9ma0-y2",
+  "overlay_key": "pearson-9ma0-full",
+  "subject": "9MA0",
+  "question_types": [
+    {
+      "title": "Functions and mappings 2B — Mapping Classifications",
+      "section_ref": "2.2",
+      "unit_label": "Chapter 2 — Functions and graphs",
+      "primary_slo": "9MA0.P2.1.3.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "State whether the function f(x) = 5x – 3 with domain {x = 3, 4, 5, 6} is one-to-one or many-to-one.",
+          "options": [
+            "One-to-one",
+            "Many-to-one",
+            "One-to-many",
+            "Not a function"
+          ],
+          "correct_option": "A",
+          "explanation": "Every input in the domain maps to a distinct output in the range.",
+          "diagram_required": "none"
+        },
+        {
+          "question_format": "mcq",
+          "question": "State whether the function g(x) = x² – 3 with domain {x = –3, –2, –1, 0, 1, 2, 3} is one-to-one or many-to-one.",
+          "options": [
+            "One-to-one",
+            "Many-to-one",
+            "One-to-many",
+            "Not a function"
+          ],
+          "correct_option": "B",
+          "explanation": "Since g(3) = 6 and g(–3) = 6, two different inputs map to the same output.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Functions and mappings 2B — Finding Ranges",
+      "section_ref": "2.2",
+      "unit_label": "Chapter 2 — Functions and graphs",
+      "primary_slo": "9MA0.P2.1.3.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the range of the function f(x) = 5x – 3 with domain {x = 3, 4, 5, 6}.",
+          "explanation": "Substitute each domain value: f(3)=12, f(4)=17, f(5)=22, f(6)=27.",
+          "diagram_required": "none",
+          "options": [
+            "{12, 17, 22, 27}",
+            "{15, 20, 25, 30}",
+            "{9, 14, 19, 24}",
+            "{12, 17, 22, 27, 32}"
+          ],
+          "correct_option": "A"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Find the range of the function h(x) = 7 / (4 – 3x) with domain {x = –1, 0, 1}.",
+          "explanation": "Substitute domain values: h(–1)=7/7=1, h(0)=7/4=1.75, h(1)=7/1=7.",
+          "diagram_required": "none",
+          "options": [
+            "{1, 1.5, 7}",
+            "{1, 1.75, 7}",
+            "{1.75, 3.5, 7}",
+            "{0.5, 1.75, 7}"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Composite functions 2C — Numerical Evaluation",
+      "section_ref": "2.3",
+      "unit_label": "Chapter 2 — Functions and graphs",
+      "primary_slo": "9MA0.P2.1.3.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Given p(x) = 1 – 3x and q(x) = x/4, find pq(–8).",
+          "explanation": "q(–8) = –8/4 = –2. p(–2) = 1 – 3(–2) = 1 + 6 = 7. (Correction based on verbatim numbers: 1 - 3(-2) = 7).",
+          "diagram_required": "none",
+          "options": [
+            "25",
+            "−5",
+            "7",
+            "4"
+          ],
+          "correct_option": "C"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Given q(x) = x/4 and r(x) = (x – 2)², find qr(5).",
+          "explanation": "r(5) = (5 – 2)² = 3² = 9. q(9) = 9/4 = 2.25.",
+          "diagram_required": "none",
+          "options": [
+            "9",
+            "4.5",
+            "6.25",
+            "2.25"
+          ],
+          "correct_option": "D"
+        }
+      ]
+    },
+    {
+      "title": "Composite functions 2C — Forming Expressions",
+      "section_ref": "2.3",
+      "unit_label": "Chapter 2 — Functions and graphs",
+      "primary_slo": "9MA0.P2.1.3.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Given f(x) = 4x + 1 and g(x) = x² – 4, find an expression for fg(x).",
+          "explanation": "fg(x) = f(x² – 4) = 4(x² – 4) + 1 = 4x² – 16 + 1 = 4x² – 15.",
+          "diagram_required": "none",
+          "options": [
+            "4x² – 15",
+            "4x² + 1",
+            "4x² − 16",
+            "(4x + 1)(x² − 4)"
+          ],
+          "correct_option": "A"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Given g(x) = x² – 4 and h(x) = 1/x, find an expression for gh(x).",
+          "explanation": "gh(x) = g(1/x) = (1/x)² – 4.",
+          "diagram_required": "none",
+          "options": [
+            "x² − 4",
+            "(1/x)² – 4",
+            "1/(x² − 4)",
+            "1/x − 4"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Inverse functions 2D — Deriving Inverse Functions",
+      "section_ref": "2.4",
+      "unit_label": "Chapter 2 — Functions and graphs",
+      "primary_slo": "9MA0.P2.1.3.4",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the inverse of the function f(x) = 10 – x, x ∈ ℝ.",
+          "explanation": "Let y = 10 – x, then x = 10 – y. Switching variables gives f⁻¹(x) = 10 – x.",
+          "diagram_required": "none",
+          "options": [
+            "f⁻¹(x) = x − 10",
+            "f⁻¹(x) = 10 + x",
+            "f⁻¹(x) = 10 – x",
+            "f⁻¹(x) = 1/(10 − x)"
+          ],
+          "correct_option": "C"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Find the inverse of the function g(x) = x/5, x ∈ ℝ.",
+          "explanation": "Let y = x/5, then x = 5y. Switching variables gives g⁻¹(x) = 5x.",
+          "diagram_required": "none",
+          "options": [
+            "g⁻¹(x) = x + 5",
+            "g⁻¹(x) = x/5",
+            "g⁻¹(x) = 5/x",
+            "g⁻¹(x) = 5x"
+          ],
+          "correct_option": "D"
+        }
+      ]
+    },
+    {
+      "title": "Inverse functions 2D — Function Mapping Analysis",
+      "section_ref": "2.4",
+      "unit_label": "Chapter 2 — Functions and graphs",
+      "primary_slo": "9MA0.P2.1.3.4",
+      "aligned_slos": [
+        "9MA0.P2.1.3.1"
+      ],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "For the function f: x ↦ 2x + 3, x ∈ ℝ, state the range of f(x).",
+          "explanation": "A linear function with domain ℝ has a range of all real numbers.",
+          "diagram_required": "none",
+          "options": [
+            "f(x) ∈ ℝ",
+            "f(x) ≥ 3",
+            "f(x) > 0",
+            "f(x) ≥ 0"
+          ],
+          "correct_option": "A"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Explain why the function g: x ↦ 4 – x, {x ∈ ℝ, x > 0} is not identical to its inverse.",
+          "options": [
+            "The domains are different",
+            "The expressions are different",
+            "It is not one-to-one",
+            "The ranges are different"
+          ],
+          "correct_option": "A",
+          "explanation": "While g⁻¹(x) = 4 - x, the domain of g is x > 0 and the domain of g⁻¹ (the range of g) is x < 4.",
+          "diagram_required": "none"
+        }
+      ]
+    }
+  ]
+}

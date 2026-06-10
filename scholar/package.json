@@ -1,0 +1,45 @@
+{
+  "name": "scholar-tutoring-portal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:clean": "rm -rf .next && next dev",
+    "dev:fresh": "bash -lc 'pids=$(pgrep -f \"[n]ext dev\" || true); if [ -n \"$pids\" ]; then kill $pids || true; fi; rm -rf .next; next dev'",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.758.0",
+    "@excalidraw/excalidraw": "^0.18.0",
+    "@fullcalendar/core": "^6.1.20",
+    "@fullcalendar/interaction": "^6.1.20",
+    "@fullcalendar/react": "^6.1.20",
+    "@fullcalendar/timegrid": "^6.1.20",
+    "@notionhq/client": "^2.2.14",
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.17.14",
+    "googleapis": "^128.0.0",
+    "jspdf": "^4.2.0",
+    "mammoth": "*",
+    "next": "^14.2.35",
+    "next-auth": "^4.24.5",
+    "nodemailer": "^7.0.13",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^2.4.5",
+    "pdfjs-dist": "^4.0.379",
+    "react": "^18",
+    "react-dom": "^18",
+    "sharp": "^0.34.5",
+    "three": "^0.159.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/nodemailer": "^6.4.14",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "playwright": "^1.58.2",
+    "typescript": "^5"
+  }
+}

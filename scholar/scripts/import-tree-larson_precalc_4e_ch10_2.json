@@ -1,0 +1,2702 @@
+{
+  "version": 2,
+  "source_label": "Larson — Precalculus with Limits (4th edition) — Section 10.2 Introduction to Conics: Parabolas",
+  "source_type": "textbook",
+  "textbook_key": "larson_precalc_with_limits_4e",
+  "content_bank_id": "ddab656f-2f95-42d6-87d3-60c7e57b7a24",
+  "units": [
+    {
+      "id": "u10",
+      "label": "Chapter 10: Topics in Analytic Geometry",
+      "question_types": [
+        {
+          "label": "Conics and Parabolas Vocabulary",
+          "section_ref": "10.2",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.2.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.2.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Fill-in-the-blank vocabulary on conic sections, parabolas, focus, directrix, vertex, axis, focal chord, and tangent lines.",
+          "questions": [
+            {
+              "id": "q1",
+              "label": "1",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "general conics vocab, no specific subtopic",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "medium",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 722,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "1"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A ________ is the intersection of a plane and a double-napped cone."
+                }
+              ]
+            },
+            {
+              "id": "q2",
+              "label": "2",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "medium",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 722,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "2"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "When a plane passes through the vertex of a double-napped cone, the intersection is a ________ ________."
+                }
+              ]
+            },
+            {
+              "id": "q3",
+              "label": "3",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "vocabulary 'locus'; only loosely tied to GGPE.2",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "low",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 722,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "3"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A ________ of points is a collection of points satisfying a given geometric property."
+                }
+              ]
+            },
+            {
+              "id": "q4",
+              "label": "4",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 722,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "4"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A ________ is the set of all points (x, y) in a plane that are equidistant from a fixed line, called the ________, and a fixed point, called the ________, not on the line."
+                }
+              ]
+            },
+            {
+              "id": "q5",
+              "label": "5",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 722,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "5"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The line that passes through the focus and the vertex of a parabola is the ________ of the parabola."
+                }
+              ]
+            },
+            {
+              "id": "q6",
+              "label": "6",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 722,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "6"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The ________ of a parabola is the midpoint between the focus and the directrix."
+                }
+              ]
+            },
+            {
+              "id": "q7",
+              "label": "7",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 722,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "7"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A line segment that passes through the focus of a parabola and has endpoints on the parabola is a ________ ________."
+                }
+              ]
+            },
+            {
+              "id": "q8",
+              "label": "8",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 722,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "8"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "A line is ________ to a parabola at a point on the parabola when the line intersects, but does not cross, the parabola at the point."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Matching Parabola Equations to Their Graphs",
+          "section_ref": "10.2",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.2.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.2.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Visually match a parabola equation in standard form (vertex at origin) with one of four labeled graphs.",
+          "questions": [
+            {
+              "id": "q9_12",
+              "label": "9–12",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q9_12",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 722,
+                  "bbox": [
+                    0.04,
+                    0.36,
+                    0.5,
+                    0.72
+                  ],
+                  "caption": "Graphs (a)–(d) for Exercises 9–12",
+                  "alt": "Four parabola graphs labeled (a),(b),(c),(d): (a) opens up, vertex at origin; (b) opens down, vertex near origin; (c) opens left, vertex on y-axis; (d) opens right (or similar), vertex near origin."
+                },
+                {
+                  "type": "text",
+                  "value": "Matching In Exercises 9–12, match the equation with its graph. [The graphs are labeled (a), (b), (c), and (d).]"
+                }
+              ],
+              "children": [
+                {
+                  "id": "q9",
+                  "label": "9",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "9"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$y^2 = 4x$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q10",
+                  "label": "10",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "10"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$x^2 = 2y$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q11",
+                  "label": "11",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "11"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$x^2 = -8y$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q12",
+                  "label": "12",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "12"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$y^2 = -12x$"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Writing the Standard Equation of a Parabola with Vertex at the Origin",
+          "section_ref": "10.2",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.2.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.2.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Given focus, directrix, point on parabola, or a graph showing vertex at origin, write x² = 4py or y² = 4px form.",
+          "questions": [
+            {
+              "id": "q13_26",
+              "label": "13–26",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q13_26",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "Finding the Standard Equation of a Parabola In Exercises 13–26, find the standard form of the equation of the parabola with the given characteristic(s) and vertex at the origin."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q13",
+                  "label": "13",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "13"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "image",
+                      "page": 722,
+                      "bbox": [
+                        0.04,
+                        0.85,
+                        0.3,
+                        0.99
+                      ],
+                      "caption": "Figure for Exercise 13",
+                      "alt": "Parabola opening upward, vertex at origin, focus marked at (0,1)."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(See figure: vertex at origin, focus (0, 1).)"
+                    }
+                  ]
+                },
+                {
+                  "id": "q14",
+                  "label": "14",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "14"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "image",
+                      "page": 722,
+                      "bbox": [
+                        0.3,
+                        0.83,
+                        0.5,
+                        0.99
+                      ],
+                      "caption": "Figure for Exercise 14",
+                      "alt": "Parabola opening to the left, vertex at origin, focus at (−4.5, 0)."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(See figure: vertex at origin, focus (−4.5, 0).)"
+                    }
+                  ]
+                },
+                {
+                  "id": "q15",
+                  "label": "15",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "15"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Focus: $(0, \\tfrac{1}{2})$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q16",
+                  "label": "16",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "16"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Focus: $(\\tfrac{3}{2}, 0)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q17",
+                  "label": "17",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "17"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Focus: $(-2, 0)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q18",
+                  "label": "18",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "18"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Focus: $(0, -1)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q19",
+                  "label": "19",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "19"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Directrix: $y = 2$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q20",
+                  "label": "20",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "20"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Directrix: $y = -4$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q21",
+                  "label": "21",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "21"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Directrix: $x = -1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q22",
+                  "label": "22",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "22"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Directrix: $x = 3$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q23",
+                  "label": "23",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "23"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertical axis; passes through the point $(4, 6)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q24",
+                  "label": "24",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "24"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertical axis; passes through the point $(-3, -3)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q25",
+                  "label": "25",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "25"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Horizontal axis; passes through the point $(-2, 5)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q26",
+                  "label": "26",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "26"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Horizontal axis; passes through the point $(3, -2)$"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Writing the Standard Equation of a Parabola with a General Vertex",
+          "section_ref": "10.2",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.2.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.2.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Given vertex, focus, and/or directrix not at the origin, write the standard equation (x − h)² = 4p(y − k) or (y − k)² = 4p(x − h).",
+          "questions": [
+            {
+              "id": "q27_36",
+              "label": "27–36",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q27_36",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "Finding the Standard Equation of a Parabola In Exercises 27–36, find the standard form of the equation of the parabola with the given characteristics."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q27",
+                  "label": "27",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "27"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "image",
+                      "page": 722,
+                      "bbox": [
+                        0.5,
+                        0.49,
+                        0.74,
+                        0.66
+                      ],
+                      "caption": "Figure for Exercise 27",
+                      "alt": "Parabola opening downward; vertex labeled (2, 6); focus labeled (2, 4)."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(See figure: vertex (2, 6), focus (2, 4).)"
+                    }
+                  ]
+                },
+                {
+                  "id": "q28",
+                  "label": "28",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "28"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "image",
+                      "page": 722,
+                      "bbox": [
+                        0.72,
+                        0.49,
+                        0.97,
+                        0.66
+                      ],
+                      "caption": "Figure for Exercise 28",
+                      "alt": "Parabola opening to the right; focus labeled (−3, 0); vertex labeled (−4, 0)."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(See figure: vertex (−4, 0), focus (−3, 0).)"
+                    }
+                  ]
+                },
+                {
+                  "id": "q29",
+                  "label": "29",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "29"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertex: $(6, 3)$; focus: $(4, 3)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q30",
+                  "label": "30",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "30"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertex: $(1, -8)$; focus: $(3, -8)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q31",
+                  "label": "31",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "31"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertex: $(0, 2)$; directrix: $y = 4$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q32",
+                  "label": "32",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "32"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertex: $(1, 2)$; directrix: $y = -1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q33",
+                  "label": "33",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "33"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Focus: $(2, 2)$; directrix: $x = -2$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q34",
+                  "label": "34",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "34"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Focus: $(0, 0)$; directrix: $y = 8$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q35",
+                  "label": "35",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "35"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertex: $(3, -3)$; vertical axis; passes through the point $(0, 0)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q36",
+                  "label": "36",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 722,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "36"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertex: $(-1, 6)$; horizontal axis; passes through the point $(-9, 2)$"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Finding the Vertex, Focus, and Directrix from Standard Form",
+          "section_ref": "10.2",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.2.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.2.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Read off vertex, focus, and directrix directly from standard-form equations and sketch the parabola.",
+          "questions": [
+            {
+              "id": "q37_50",
+              "label": "37–50",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q37_50",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "Finding the Vertex, Focus, and Directrix of a Parabola In Exercises 37–50, find the vertex, focus, and directrix of the parabola. Then sketch the parabola."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q37",
+                  "label": "37",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "37"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$y = \\tfrac{1}{2}x^2$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q38",
+                  "label": "38",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "38"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$y = -4x^2$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q39",
+                  "label": "39",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "39"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$y^2 = -6x$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q40",
+                  "label": "40",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "40"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$y^2 = 3x$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q41",
+                  "label": "41",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "41"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$x^2 + 12y = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q42",
+                  "label": "42",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "42"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$x + y^2 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q43",
+                  "label": "43",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "43"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$(x - 1)^2 + 8(y + 2) = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q44",
+                  "label": "44",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "44"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$(x + 5) + (y - 1)^2 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q45",
+                  "label": "45",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "45"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$(y + 7)^2 = 4(x - \\tfrac{3}{2})$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q46",
+                  "label": "46",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "46"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$(x + \\tfrac{1}{2})^2 = 4(y - 1)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q47",
+                  "label": "47",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "47"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$y = \\tfrac{1}{4}(x^2 - 2x + 5)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q48",
+                  "label": "48",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "48"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$x = \\tfrac{1}{4}(y^2 + 2y + 33)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q49",
+                  "label": "49",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "49"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$y^2 + 6y + 8x + 25 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q50",
+                  "label": "50",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "50"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$x^2 - 4x - 4y = 0$"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Completing the Square to Find Vertex, Focus, and Directrix",
+          "section_ref": "10.2",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.2.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.2.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Convert a parabola equation in general form (Ax² + Dx + Ey + F = 0) to standard form by completing the square, then identify vertex/focus/directrix and graph with a utility.",
+          "questions": [
+            {
+              "id": "q51_54",
+              "label": "51–54",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q51_54",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "Finding the Vertex, Focus, and Directrix of a Parabola In Exercises 51–54, find the vertex, focus, and directrix of the parabola. Use a graphing utility to graph the parabola."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q51",
+                  "label": "51",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "51"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$x^2 + 4x - 6y = -10$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q52",
+                  "label": "52",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "52"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$x^2 - 2x + 8y = -9$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q53",
+                  "label": "53",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "53"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$y^2 + x + y = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q54",
+                  "label": "54",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "54"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$y^2 - 4x - 4 = 0$"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Equation of the Tangent Line to a Parabola at a Point",
+          "section_ref": "10.2",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.2.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.2.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Find the equation of the tangent line to a parabola at a given point, including conceptual derivation of slope.",
+          "questions": [
+            {
+              "id": "q55_60",
+              "label": "55–60",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q55_60",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "Finding the Tangent Line at a Point on a Parabola In Exercises 55–60, find an equation of the tangent line to the parabola at the given point."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q55",
+                  "label": "55",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "55"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "image",
+                      "page": 723,
+                      "bbox": [
+                        0.04,
+                        0.5,
+                        0.27,
+                        0.66
+                      ],
+                      "caption": "Figure for Exercise 55",
+                      "alt": "Parabola $x^2 = 8y$ with point (6, 9/2) labeled on the curve."
+                    },
+                    {
+                      "type": "text",
+                      "value": "$x^2 = 8y$, $\\;(6, \\tfrac{9}{2})$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q56",
+                  "label": "56",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "56"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "image",
+                      "page": 723,
+                      "bbox": [
+                        0.27,
+                        0.5,
+                        0.5,
+                        0.66
+                      ],
+                      "caption": "Figure for Exercise 56",
+                      "alt": "Parabola $x^2 = -4y$ with point (−6, −9) labeled on the curve."
+                    },
+                    {
+                      "type": "text",
+                      "value": "$x^2 = -4y$, $\\;(-6, -9)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q57",
+                  "label": "57",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "57"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$x^2 = 2y$, $\\;(4, 8)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q58",
+                  "label": "58",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "58"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$x^2 = 2y$, $\\;(-3, \\tfrac{9}{2})$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q59",
+                  "label": "59",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "59"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$y = -2x^2$, $\\;(-1, -2)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q60",
+                  "label": "60",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 723,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "60"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$y = -2x^2$, $\\;(2, -8)$"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "q80",
+              "label": "80",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 725,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "80"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Slope of a Tangent Line Let $(x_1, y_1)$ be the coordinates of a point on the parabola $x^2 = 4py$. The equation of the line tangent to the parabola at the point is\n$$y - y_1 = \\frac{x_1}{2p}(x - x_1).$$\nWhat is the slope of the tangent line?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Modeling Real-World Objects with Parabolas",
+          "section_ref": "10.2",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.2.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.2.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Application problems in which a parabola models a physical object: reflectors, satellite dishes, road surfaces, beam deflection, fluid streams, archways, suspension bridges, and orbits.",
+          "questions": [
+            {
+              "id": "q61",
+              "label": "61",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 723,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "61"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Flashlight The light bulb in a flashlight is at the focus of the parabolic reflector, 1.5 centimeters from the vertex of the reflector (see figure). Write an equation for a cross section of the flashlight's reflector with its focus on the positive x-axis and its vertex at the origin."
+                },
+                {
+                  "type": "image",
+                  "page": 723,
+                  "bbox": [
+                    0.04,
+                    0.78,
+                    0.27,
+                    0.95
+                  ],
+                  "caption": "Figure for 61",
+                  "alt": "Cross-section of flashlight reflector: parabola opening to the right with vertex at origin and focus 1.5 cm from vertex on positive x-axis."
+                }
+              ]
+            },
+            {
+              "id": "q62",
+              "label": "62",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 723,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "62"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Satellite Dish The receiver of a parabolic satellite dish is at the focus of the parabola (see figure). Write an equation for a cross section of the satellite dish."
+                },
+                {
+                  "type": "image",
+                  "page": 723,
+                  "bbox": [
+                    0.27,
+                    0.78,
+                    0.5,
+                    0.95
+                  ],
+                  "caption": "Figure for 62",
+                  "alt": "Cross-section of satellite dish: parabola opening upward with the receiver labeled and a vertical span of 3.5 ft indicated."
+                }
+              ]
+            },
+            {
+              "id": "q63",
+              "label": "63",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 723,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "63"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Highway Design Highway engineers use a parabolic curve to design an entrance ramp from a straight street to an interstate highway (see figure). Write an equation of the parabola."
+                },
+                {
+                  "type": "image",
+                  "page": 723,
+                  "bbox": [
+                    0.51,
+                    0.04,
+                    0.97,
+                    0.36
+                  ],
+                  "caption": "Figure for Exercise 63",
+                  "alt": "Parabola opening to the left with points (1000, 800) on the 'Interstate' end and (1000, -800) on the 'Street' end."
+                }
+              ]
+            },
+            {
+              "id": "q64",
+              "label": "64",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 723,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "64"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Road Design Roads are often designed with parabolic surfaces to allow rain to drain off. A particular road is 32 feet wide and 0.4 foot higher in the center than it is on the sides (see figure)."
+                },
+                {
+                  "type": "image",
+                  "page": 723,
+                  "bbox": [
+                    0.51,
+                    0.36,
+                    0.97,
+                    0.55
+                  ],
+                  "caption": "Figure for Exercise 64",
+                  "alt": "Cross-section of a crowned road, 32 ft wide, 0.4 ft higher at the center than at the edges. 'Not drawn to scale.'"
+                },
+                {
+                  "type": "text",
+                  "value": "(a) Write an equation of the parabola with its vertex at the origin that models the road surface.\n(b) How far from the center of the road is the road surface 0.1 foot lower than the center?"
+                }
+              ]
+            },
+            {
+              "id": "q65",
+              "label": "65",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 723,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "65"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Beam Deflection A simply supported beam is 64 feet long and has a load at the center (see figure). The deflection of the beam at its center is 1 inch. The shape of the deflected beam is parabolic."
+                },
+                {
+                  "type": "image",
+                  "page": 723,
+                  "bbox": [
+                    0.51,
+                    0.55,
+                    0.97,
+                    0.79
+                  ],
+                  "caption": "Figure for Exercise 65",
+                  "alt": "A wooden beam 64 ft long, simply supported, with a load at the center causing 1-inch deflection at the midpoint."
+                },
+                {
+                  "type": "text",
+                  "value": "(a) Write an equation of the parabola with its vertex at the origin that models the shape of the beam.\n(b) How far from the center of the beam is the deflection $\\tfrac{1}{2}$ inch?"
+                }
+              ]
+            },
+            {
+              "id": "q66",
+              "label": "66",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 723,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "66"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Beam Deflection Repeat Exercise 65 when the length of the beam is 36 feet and the deflection at its center is 2 inches."
+                }
+              ]
+            },
+            {
+              "id": "q67",
+              "label": "67",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 724,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "67"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Fluid Flow Water is flowing from a horizontal pipe 48 feet above the ground. The falling stream of water has the shape of a parabola whose vertex (0, 48) is at the end of the pipe (see figure). The stream of water strikes the ocean at the point $(10\\sqrt{3}, 0)$. Write an equation for the path of the water."
+                },
+                {
+                  "type": "image",
+                  "page": 724,
+                  "bbox": [
+                    0.04,
+                    0.1,
+                    0.27,
+                    0.3
+                  ],
+                  "caption": "Figure for 67",
+                  "alt": "Parabolic stream of water from a pipe at height 48 ft, curving down to ocean level. Vertical scale 0–40."
+                }
+              ]
+            },
+            {
+              "id": "q68",
+              "label": "68",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 724,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "68"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Window Design A church window is bounded above by a parabola (see figure). Write an equation of the parabola."
+                },
+                {
+                  "type": "image",
+                  "page": 724,
+                  "bbox": [
+                    0.25,
+                    0.1,
+                    0.5,
+                    0.3
+                  ],
+                  "caption": "Figure for 68",
+                  "alt": "Stained-glass church window: rectangular base 8 ft wide topped by a parabolic arch 4 ft tall."
+                }
+              ]
+            },
+            {
+              "id": "q69",
+              "label": "69",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 724,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "69"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Archway A parabolic archway is 12 meters high at the vertex. At a height of 10 meters, the width of the archway is 8 meters (see figure). How wide is the archway at ground level?"
+                },
+                {
+                  "type": "image",
+                  "page": 724,
+                  "bbox": [
+                    0.04,
+                    0.34,
+                    0.27,
+                    0.55
+                  ],
+                  "caption": "Figure for 69",
+                  "alt": "Parabolic brick archway with vertex (0, 12) and points (−4, 10), (4, 10) labeled on the curve."
+                }
+              ]
+            },
+            {
+              "id": "q70",
+              "label": "70",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 724,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "70"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Lattice Arch A parabolic lattice arch is 8 feet high at the vertex. At a height of 4 feet, the width of the lattice arch is 4 feet (see figure). How wide is the lattice arch at ground level?"
+                },
+                {
+                  "type": "image",
+                  "page": 724,
+                  "bbox": [
+                    0.27,
+                    0.34,
+                    0.5,
+                    0.55
+                  ],
+                  "caption": "Figure for 70",
+                  "alt": "Parabolic lattice arch with vertex (0, 8) and points (−2, 4), (2, 4) labeled on the curve."
+                }
+              ]
+            },
+            {
+              "id": "q71",
+              "label": "71",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 724,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "71"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Suspension Bridge Each cable of a suspension bridge is suspended (in the shape of a parabola) between two towers (see figure). (a) Find the coordinates of the focus.\n(b) Write an equation that models the cables."
+                },
+                {
+                  "type": "image",
+                  "page": 724,
+                  "bbox": [
+                    0.04,
+                    0.66,
+                    0.5,
+                    0.86
+                  ],
+                  "caption": "Figure for Exercise 71",
+                  "alt": "Suspension bridge cable shaped as a parabola: anchored at (−60, 20) and (60, 20), spanning x from -60 to 60 with vertex near origin."
+                }
+              ]
+            },
+            {
+              "id": "q72",
+              "label": "72",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 724,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "72"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Suspension Bridge Each cable of the Golden Gate Bridge is suspended (in the shape of a parabola) between two towers that are 1280 meters apart. The top of each tower is 152 meters above the roadway. The cables touch the roadway at the midpoint between the towers."
+                },
+                {
+                  "type": "image",
+                  "page": 724,
+                  "bbox": [
+                    0.51,
+                    0.04,
+                    0.97,
+                    0.2
+                  ],
+                  "caption": "Figure for Exercise 72",
+                  "alt": "Photograph of the Golden Gate Bridge showing red towers and suspension cables."
+                },
+                {
+                  "type": "text",
+                  "value": "(a) Sketch the bridge on a rectangular coordinate system with the cables touching the roadway at the origin. Label the coordinates of the known points.\n(b) Write an equation that models the cables.\n(c) Complete the table by finding the height $y$ of the cables over the roadway at a distance of $x$ meters from the point where the cables touch the roadway.\n\n| Distance, $x$ | Height, $y$ |\n|---|---|\n| 0 | |\n| 100 | |\n| 250 | |\n| 400 | |\n| 500 | |"
+                }
+              ]
+            },
+            {
+              "id": "q73",
+              "label": "73",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 724,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "73"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Satellite Orbit A satellite in a 100-mile-high circular orbit around Earth has a velocity of approximately 17,500 miles per hour. When this velocity is multiplied by $\\sqrt{2}$, the satellite has the minimum velocity necessary to escape Earth's gravity and follow a parabolic path with the center of Earth as the focus (see figure)."
+                },
+                {
+                  "type": "image",
+                  "page": 724,
+                  "bbox": [
+                    0.51,
+                    0.65,
+                    0.97,
+                    0.92
+                  ],
+                  "caption": "Figure for Exercise 73",
+                  "alt": "Diagram of Earth (sphere) with a circular orbit of radius 4100 miles and a parabolic escape path tangent to the orbit. 'Not drawn to scale.'"
+                },
+                {
+                  "type": "text",
+                  "value": "(a) Find the escape velocity of the satellite.\n(b) Write an equation for the parabolic path of the satellite. (Assume that the radius of Earth is 4000 miles.)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Modeling Parabolic Trajectories (Projectile Motion)",
+          "section_ref": "10.2",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.2.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.2.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Use a parabolic model x² = −(v²/16)(y − s) to find horizontal range, height, and trajectory of a projectile.",
+          "questions": [
+            {
+              "id": "q74",
+              "label": "74",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 725,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "74"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Path of a Softball The path of a softball is modeled by\n$$-12.5(y - 7.125) = (x - 6.25)^2$$\nwhere $x$ and $y$ are measured in feet, with $x = 0$ corresponding to the position from which the ball was thrown.\n(a) Use a graphing utility to graph the trajectory of the softball.\n(b) Use the *trace* feature of the graphing utility to approximate the highest point and the range of the trajectory."
+                }
+              ]
+            },
+            {
+              "id": "q75_76",
+              "label": "75–76",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q75_76",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "Projectile Motion In Exercises 75 and 76, consider the path of an object projected horizontally with a velocity of $v$ feet per second at a height of $s$ feet, where the model for the path is\n$$x^2 = -\\frac{v^2}{16}(y - s).$$\nIn this model (in which air resistance is disregarded), $y$ is the height (in feet) of the projectile and $x$ is the horizontal distance (in feet) the projectile travels."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q75",
+                  "label": "75",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 725,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "75"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "A ball is thrown from the top of a 100-foot tower with a velocity of 28 feet per second.\n(a) Write an equation for the parabolic path.\n(b) How far does the ball travel horizontally before it strikes the ground?"
+                    }
+                  ]
+                },
+                {
+                  "id": "q76",
+                  "label": "76",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 725,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "76"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "A cargo plane is flying at an altitude of 500 feet and a speed of 255 miles per hour. A supply crate is dropped from the plane. How many *feet* will the crate travel horizontally before it hits the ground?"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Conceptual Reasoning About Parabolas and Conics",
+          "section_ref": "10.2",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.2.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.2.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "True/false reasoning, equivalence of parabola forms, plane–cone intersections that produce each conic, degenerate conics, latus rectum, and area arguments.",
+          "questions": [
+            {
+              "id": "q77_79",
+              "label": "77–79",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q77_79",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "True or False? In Exercises 77–79, determine whether the statement is true or false. Justify your answer."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q77",
+                  "label": "77",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 725,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "77"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "It is possible for a parabola to intersect its directrix."
+                    }
+                  ]
+                },
+                {
+                  "id": "q78",
+                  "label": "78",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 725,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "78"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "A tangent line to a parabola always intersects the directrix."
+                    }
+                  ]
+                },
+                {
+                  "id": "q79",
+                  "label": "79",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.2.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 725,
+                    "section": "10.2 Introduction to Conics: Parabolas",
+                    "exercise_ref": "79"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "When the vertex and focus of a parabola are on a horizontal line, the directrix of the parabola is vertical."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "q81",
+              "label": "81",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 725,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "81"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Think About It Explain what each equation represents, and how equations (a) and (b) are equivalent.\n(a) $y = a(x - h)^2 + k,\\;\\;a \\ne 0$\n(b) $(x - h)^2 = 4p(y - k),\\;\\;p \\ne 0$\n(c) $(y - k)^2 = 4p(x - h),\\;\\;p \\ne 0$"
+                }
+              ]
+            },
+            {
+              "id": "q82",
+              "label": "82",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "general conic-formation question; broader than just parabolas but lives in section 10.2",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "medium",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 725,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "82"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "HOW DO YOU SEE IT? In parts (a)–(d), describe how a plane could intersect the double-napped cone to form each conic section (see figure).\n(a) Circle\n(b) Ellipse\n(c) Parabola\n(d) Hyperbola"
+                },
+                {
+                  "type": "image",
+                  "page": 725,
+                  "bbox": [
+                    0.51,
+                    0.04,
+                    0.97,
+                    0.18
+                  ],
+                  "caption": "Figure for Exercise 82",
+                  "alt": "A double-napped cone shown in three dimensions, used to illustrate conic sections."
+                }
+              ]
+            },
+            {
+              "id": "q83",
+              "label": "83",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "medium",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 725,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "83"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Think About It The graph of $x^2 + y^2 = 0$ is a degenerate conic. Sketch the graph of this equation and identify the degenerate conic. Describe the intersection of the plane and the double-napped cone for this conic."
+                }
+              ]
+            },
+            {
+              "id": "q84",
+              "label": "84",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 725,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "84"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Graphical Reasoning Consider the parabola $x^2 = 4py$.\n(a) Use a graphing utility to graph the parabola for $p = 1$, $p = 2$, $p = 3$, and $p = 4$. Describe the effect on the graph when $p$ increases.\n(b) Find the focus for each parabola in part (a).\n(c) For each parabola in part (a), find the length of the latus rectum (see figure). How can the length of the latus rectum be determined directly from the standard form of the equation of the parabola?\n(d) How can you use the result of part (c) as a sketching aid when graphing parabolas?"
+                },
+                {
+                  "type": "image",
+                  "page": 725,
+                  "bbox": [
+                    0.51,
+                    0.4,
+                    0.97,
+                    0.62
+                  ],
+                  "caption": "Figure for Exercise 84",
+                  "alt": "Graph of a parabola $x^2 = 4py$ opening upward with the latus rectum drawn through the focus as a horizontal segment connecting two points on the curve."
+                }
+              ]
+            },
+            {
+              "id": "q85",
+              "label": "85",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.2.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 725,
+                "section": "10.2 Introduction to Conics: Parabolas",
+                "exercise_ref": "85"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Geometry The area of the shaded region in the figure is $A = \\dfrac{8}{3}p^{1/2}b^{3/2}$.\n(a) Find the area when $p = 2$ and $b = 4$.\n(b) Give a geometric explanation of why the area approaches 0 as $p$ approaches 0."
+                },
+                {
+                  "type": "image",
+                  "page": 725,
+                  "bbox": [
+                    0.51,
+                    0.66,
+                    0.97,
+                    0.97
+                  ],
+                  "caption": "Figure for Exercise 85",
+                  "alt": "Parabola $x^2 = 4py$ opening upward with horizontal line $y = b$; the region bounded above by $y = b$ and below by the parabola is shaded."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

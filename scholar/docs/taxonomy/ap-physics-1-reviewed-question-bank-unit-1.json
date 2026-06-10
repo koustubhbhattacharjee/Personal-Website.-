@@ -1,0 +1,1223 @@
+{
+  "subject": "AP Physics 1",
+  "source": "NotebookLM",
+  "source_label": "Official PYQ + reference synthesis",
+  "custom_notes": "Reviewed Unit 1 Kinematics bank with answer-only formatting for import and minor question cleanup.",
+  "questionTypes": [
+    {
+      "type": "Distinguish between scalar and vector quantities in kinematics",
+      "unit": "Unit 1: Kinematics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A student walks 5 meters East and then 5 meters West. Which statement correctly describes the student's distance and displacement?",
+          "options": [
+            "Distance is 10 m; Displacement is 10 m",
+            "Distance is 0 m; Displacement is 0 m",
+            "Distance is 10 m; Displacement is 0 m",
+            "Distance is 0 m; Displacement is 10 m"
+          ],
+          "correct_option": "Distance is 10 m; Displacement is 0 m",
+          "answer": "C. Distance is 10 m; Displacement is 0 m",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 10",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which of the following is a vector quantity?",
+          "options": ["Distance", "Speed", "Acceleration", "Time"],
+          "correct_option": "Acceleration",
+          "answer": "C. Acceleration",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An object moves along a path such that its speed is constant. Does this necessarily mean its velocity is constant?",
+          "options": [
+            "Yes, speed and velocity are the same.",
+            "No, because the direction could be changing.",
+            "Yes, if the path is a straight line.",
+            "No, because the acceleration must be zero."
+          ],
+          "correct_option": "No, because the direction could be changing.",
+          "answer": "B. No, because the direction could be changing.",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Kinematics",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In one-dimensional motion, how is the direction of a vector component usually represented?",
+          "options": [
+            "With an arrow only",
+            "With a degree angle",
+            "Using positive and negative signs",
+            "It cannot be represented"
+          ],
+          "correct_option": "Using positive and negative signs",
+          "answer": "C. Using positive and negative signs",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Calculate average velocity and speed from displacement/distance and time",
+      "unit": "Unit 1: Kinematics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "An object travels 20 meters in 4 seconds. What is its average speed?",
+          "options": ["0.2 m/s", "5 m/s", "80 m/s", "10 m/s"],
+          "correct_option": "5 m/s",
+          "answer": "B. 5 m/s",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 4",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If an object ends up back at its starting position after 10 seconds of motion, its average velocity is:",
+          "options": ["Maximum", "Dependent on the path", "Zero", "10 m/s"],
+          "correct_option": "Zero",
+          "answer": "C. Zero",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 4",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A sprinter runs 100 m in 10 s. What is their average velocity?",
+          "options": ["1 m/s", "10 m/s", "100 m/s", "0.1 m/s"],
+          "correct_option": "10 m/s",
+          "answer": "B. 10 m/s",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Kinematics",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Average velocity over a very small time interval is approximately equal to:",
+          "options": [
+            "Total displacement",
+            "Average acceleration",
+            "Instantaneous velocity",
+            "Zero"
+          ],
+          "correct_option": "Instantaneous velocity",
+          "answer": "C. Instantaneous velocity",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Interpret velocity from the slope of a position-time graph",
+      "unit": "Unit 1: Kinematics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "On a position-time graph, a horizontal line indicates that the object is:",
+          "options": ["Speeding up", "Moving at constant velocity", "At rest", "Slowing down"],
+          "correct_option": "At rest",
+          "answer": "C. At rest",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Kinematics",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The slope of a line tangent to a curve on a position vs. time graph represents:",
+          "options": ["Average acceleration", "Displacement", "Instantaneous velocity", "Total distance"],
+          "correct_option": "Instantaneous velocity",
+          "answer": "C. Instantaneous velocity",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a position-time graph is a straight line with a negative slope, the object is:",
+          "options": [
+            "Moving in the negative direction at constant speed",
+            "Slowing down",
+            "Moving in the positive direction",
+            "At rest"
+          ],
+          "correct_option": "Moving in the negative direction at constant speed",
+          "answer": "A. Moving in the negative direction at constant speed",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 10",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A position-time graph curves upward (becoming steeper). This indicates the object is:",
+          "options": ["Moving at constant speed", "Slowing down", "Speeding up", "Changing direction"],
+          "correct_option": "Speeding up",
+          "answer": "C. Speeding up",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 10",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Interpret acceleration from the slope of a velocity-time graph",
+      "unit": "Unit 1: Kinematics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "What does the slope of a velocity vs. time graph represent?",
+          "options": ["Displacement", "Acceleration", "Force", "Speed"],
+          "correct_option": "Acceleration",
+          "answer": "B. Acceleration",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A horizontal line on a velocity-time graph (not at zero) indicates:",
+          "options": ["Zero acceleration", "Constant velocity", "Both A and B", "The object is at rest"],
+          "correct_option": "Both A and B",
+          "answer": "C. Both A and B",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2015",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "On a v-t graph, a line crossing the time axis indicates:",
+          "options": ["The object stopped instantly", "The object changed direction", "Maximum acceleration", "The object is speeding up"],
+          "correct_option": "The object changed direction",
+          "answer": "B. The object changed direction",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Kinematics",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the slope of a velocity-time graph is constant and positive, the acceleration is:",
+          "options": ["Increasing", "Decreasing", "Constant and positive", "Zero"],
+          "correct_option": "Constant and positive",
+          "answer": "C. Constant and positive",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Kinematics",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Calculate displacement from the area under a velocity-time graph",
+      "unit": "Unit 1: Kinematics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "How can the displacement of an object be determined from a velocity vs. time graph?",
+          "options": [
+            "Finding the slope",
+            "Reading the y-intercept",
+            "Calculating the area under the curve",
+            "Finding the highest point"
+          ],
+          "correct_option": "Calculating the area under the curve",
+          "answer": "C. Calculating the area under the curve",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An object's velocity-time graph is a triangle with base 4s and height 10m/s. What is its displacement?",
+          "options": ["40 m", "20 m", "2.5 m", "14 m"],
+          "correct_option": "20 m",
+          "answer": "B. 20 m",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 10",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a velocity-time graph has a section below the time axis, that area represents:",
+          "options": ["Positive displacement", "Negative displacement", "Total distance", "Speed"],
+          "correct_option": "Negative displacement",
+          "answer": "B. Negative displacement",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Kinematics",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Two objects, A and B, have the same area under their v-t graphs over the same time interval. This means they have the same:",
+          "options": ["Acceleration", "Final velocity", "Displacement", "Initial position"],
+          "correct_option": "Displacement",
+          "answer": "C. Displacement",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2015",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Predict speeding up or slowing down from velocity and acceleration signs",
+      "unit": "Unit 1: Kinematics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "An object has a negative velocity and a negative acceleration. The object is:",
+          "options": ["Speeding up", "Slowing down", "At rest", "Moving at constant speed"],
+          "correct_option": "Speeding up",
+          "answer": "A. Speeding up",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 10",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If an object is moving to the right and slowing down, the direction of its acceleration is:",
+          "options": ["Right", "Left", "Up", "Zero"],
+          "correct_option": "Left",
+          "answer": "B. Left",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 10",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A common misconception is that negative acceleration always means 'slowing down.' In which case is this FALSE?",
+          "options": [
+            "Moving positive and slowing down",
+            "Moving negative and speeding up",
+            "Moving negative and slowing down",
+            "At rest"
+          ],
+          "correct_option": "Moving negative and speeding up",
+          "answer": "B. Moving negative and speeding up",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A cart's velocity-time graph has a negative slope (backslash shape) but is entirely above the time axis. The cart is:",
+          "options": ["Speeding up in the positive direction", "Slowing down in the positive direction", "Speeding up in the negative direction", "Slowing down in the negative direction"],
+          "correct_option": "Slowing down in the positive direction",
+          "answer": "B. Slowing down in the positive direction",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 10",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Solve 1D motion problems using kinematic equations",
+      "unit": "Unit 1: Kinematics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "An object starts from rest and accelerates at 2 m/s² for 5 seconds. How far does it travel?",
+          "options": ["5 m", "10 m", "25 m", "50 m"],
+          "correct_option": "25 m",
+          "answer": "C. 25 m",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Kinematics",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A car traveling at 10 m/s comes to a stop in 2 seconds. What is its acceleration?",
+          "options": ["-5 m/s²", "5 m/s²", "-20 m/s²", "20 m/s²"],
+          "correct_option": "-5 m/s²",
+          "answer": "A. -5 m/s²",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 10",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which kinematic equation is most useful when time (t) is unknown?",
+          "options": [
+            "v = v0 + at",
+            "x = x0 + v0t + 1/2at²",
+            "v² = v0² + 2aΔx",
+            "v_avg = Δx / Δt"
+          ],
+          "correct_option": "v² = v0² + 2aΔx",
+          "answer": "C. v² = v0² + 2aΔx",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A rock is thrown upward with initial speed v. To find the maximum height reached, one should set:",
+          "options": ["Initial velocity to zero", "Final velocity to zero", "Acceleration to zero", "Displacement to zero"],
+          "correct_option": "Final velocity to zero",
+          "answer": "B. Final velocity to zero",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Answers",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Analyze objects in free fall",
+      "unit": "Unit 1: Kinematics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Two balls, one heavy and one light, are dropped from the same height in a vacuum. Which hits the ground first?",
+          "options": ["The heavy ball", "The light ball", "They hit at the same time", "It depends on their size"],
+          "correct_option": "They hit at the same time",
+          "answer": "C. They hit at the same time",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2014",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "At the highest point of a ball's upward flight, its acceleration is:",
+          "options": ["Zero", "Maximum", "9.8 m/s² downward", "9.8 m/s² upward"],
+          "correct_option": "9.8 m/s² downward",
+          "answer": "C. 9.8 m/s² downward",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Answers",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A ball is thrown up and caught at the same height. If the upward trip took 2 seconds, the total time in the air was:",
+          "options": ["2 s", "4 s", "8 s", "1 s"],
+          "correct_option": "4 s",
+          "answer": "B. 4 s",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Kinematics",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An object is thrown vertically upward with speed v. If the initial speed is doubled to 2v, the maximum height reached will increase by a factor of:",
+          "options": ["2", "sqrt(2)", "4", "8"],
+          "correct_option": "4",
+          "answer": "C. 4",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2014",
+            "chapter": "Answers",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Solve relative motion problems in 1D",
+      "unit": "Unit 1: Kinematics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A person on a bus moving at 10 m/s East walks toward the front of the bus at 2 m/s. What is their velocity relative to the ground?",
+          "options": ["8 m/s East", "12 m/s East", "2 m/s East", "10 m/s East"],
+          "correct_option": "12 m/s East",
+          "answer": "B. 12 m/s East",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Vectors",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Observer A sees a car moving at +20 m/s. Observer B is in a car moving at +15 m/s. What velocity does Observer B measure for the first car?",
+          "options": ["+35 m/s", "+20 m/s", "+5 m/s", "-5 m/s"],
+          "correct_option": "+5 m/s",
+          "answer": "C. +5 m/s",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If two people tell different but true 'truths' about an object's speed, it is usually because they are using different:",
+          "options": ["Units", "Stopwatches", "Frames of reference", "Equations"],
+          "correct_option": "Frames of reference",
+          "answer": "C. Frames of reference",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A train passes a station platform. To a passenger on the train, a person standing on the platform appears to be:",
+          "options": ["Stationary", "Moving forward", "Moving backward", "Accelerating"],
+          "correct_option": "Moving backward",
+          "answer": "C. Moving backward",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Vectors",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Resolve 2D vectors into perpendicular components",
+      "unit": "Unit 1: Kinematics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A vector has a magnitude of 10 and makes an angle of 30° with the horizontal. What is its horizontal component?",
+          "options": ["5", "8.7", "10", "Zero"],
+          "correct_option": "8.7",
+          "answer": "B. 8.7",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2014",
+            "chapter": "Constants",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which trigonometric function is used to find the vertical component of a vector given the angle with the horizontal?",
+          "options": ["Sine", "Cosine", "Tangent", "Secant"],
+          "correct_option": "Sine",
+          "answer": "A. Sine",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the components of a vector are x = 3 and y = 4, what is the magnitude of the vector?",
+          "options": ["3", "4", "5", "7"],
+          "correct_option": "5",
+          "answer": "C. 5",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2014",
+            "chapter": "Geometry",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A vector points directly North. Its East-West component is:",
+          "options": ["Positive", "Negative", "Zero", "Maximum"],
+          "correct_option": "Zero",
+          "answer": "C. Zero",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Vectors",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Analyze horizontal projectile motion (launched horizontally)",
+      "unit": "Unit 1: Kinematics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A ball is rolled off a horizontal table. While it is in the air, its horizontal velocity:",
+          "options": ["Increases", "Decreases", "Remains constant", "Becomes zero"],
+          "correct_option": "Remains constant",
+          "answer": "C. Remains constant",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Kinematics",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Two identical balls are released from the same height. Ball A is dropped; Ball B is thrown horizontally. Which hits the ground first?",
+          "options": ["Ball A", "Ball B", "They hit at the same time", "Ball B, because it is faster"],
+          "correct_option": "They hit at the same time",
+          "answer": "C. They hit at the same time",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 10",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The time it takes for a horizontally-launched projectile to hit the ground depends only on:",
+          "options": ["Launch speed", "Mass", "Height of launch", "Horizontal distance"],
+          "correct_option": "Height of launch",
+          "answer": "C. Height of launch",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2016",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the launch speed of a horizontal projectile is doubled, the horizontal range will:",
+          "options": ["Stay same", "Double", "Quadruple", "Be halved"],
+          "correct_option": "Double",
+          "answer": "B. Double",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Introduction",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Linearize kinematic data to determine physical constants",
+      "unit": "Unit 1: Kinematics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "To determine acceleration 'g' from a set of fall distances (d) and times (t), a student should graph d vs:",
+          "options": ["t", "sqrt(t)", "t²", "1/t"],
+          "correct_option": "t²",
+          "answer": "C. t²",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a student graphs v² vs. displacement (Δx) for a cart, the slope of the best-fit line represents:",
+          "options": ["Acceleration", "2 * Acceleration", "Velocity", "Time"],
+          "correct_option": "2 * Acceleration",
+          "answer": "B. 2 * Acceleration",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 1",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "To determine acceleration from a velocity-time graph, which quantity should be measured from the best-fit line?",
+          "options": ["Area under the graph", "Slope of the graph", "The y-intercept", "The maximum velocity"],
+          "correct_option": "Slope of the graph",
+          "answer": "B. Slope of the graph",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Kinematics",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A student measures the time a car takes to pass strips of paper 0.5m apart. Plotting x vs. t results in a parabola. This indicates:",
+          "options": ["Constant velocity", "Constant acceleration", "Zero velocity", "Changing acceleration"],
+          "correct_option": "Constant acceleration",
+          "answer": "B. Constant acceleration",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Design experiments to determine motion parameters",
+      "unit": "Unit 1: Kinematics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Which tool is most essential for measuring the instantaneous velocity of a cart in a kinematics lab?",
+          "options": ["Meterstick", "Stopwatch", "Sonic motion detector", "Spring scale"],
+          "correct_option": "Sonic motion detector",
+          "answer": "C. Sonic motion detector",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 10",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "To determine the uniform acceleration of a runner, which of the following is the MINIMUM set of data needed?",
+          "options": [
+            "Total distance and total time",
+            "Final speed and total distance",
+            "Time and distance for multiple points along the path",
+            "The runner's mass and height"
+          ],
+          "correct_option": "Time and distance for multiple points along the path",
+          "answer": "C. Time and distance for multiple points along the path",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Kinematics",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A student wants to measure 'g' by dropping a ball. Why is it better to use a heavy ball than a coffee filter?",
+          "options": [
+            "Heavy balls fall faster in a vacuum.",
+            "Heavy balls have less mass.",
+            "Air resistance is more negligible for the heavy ball.",
+            "Coffee filters don't accelerate."
+          ],
+          "correct_option": "Air resistance is more negligible for the heavy ball.",
+          "answer": "C. Air resistance is more negligible for the heavy ball.",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 Practice Exam",
+            "chapter": "Unit 1",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "When measuring the time for a ball to fall, what is a likely source of human error?",
+          "options": ["The value of g", "Reaction time when starting/stopping the watch", "The mass of the ball", "The color of the ball"],
+          "correct_option": "Reaction time when starting/stopping the watch",
+          "answer": "B. Reaction time when starting/stopping the watch",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Teacher's Manual",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Identify properties of motion from dot diagrams (motion maps)",
+      "unit": "Unit 1: Kinematics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "In a motion diagram, dots that are equally spaced indicate:",
+          "options": ["Acceleration", "Constant velocity", "Increasing speed", "The object is at rest"],
+          "correct_option": "Constant velocity",
+          "answer": "B. Constant velocity",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2014",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Dots that get progressively further apart in a motion diagram indicate:",
+          "options": ["Slowing down", "Moving at constant speed", "Speeding up", "Changing direction"],
+          "correct_option": "Speeding up",
+          "answer": "C. Speeding up",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2014",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a motion diagram shows dots moving to the right and getting closer together, the acceleration is directed to the:",
+          "options": ["Right", "Left", "Up", "Down"],
+          "correct_option": "Left",
+          "answer": "B. Left",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 10",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A ticker-tape timer produces 60 dots per second. If the distance between two dots is 2 cm, the average speed between those dots is:",
+          "options": ["120 cm/s", "30 cm/s", "2 cm/s", "0.03 cm/s"],
+          "correct_option": "120 cm/s",
+          "answer": "A. 120 cm/s",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Kinematics",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Predict the peak velocity and acceleration of a projectile",
+      "unit": "Unit 1: Kinematics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A ball is thrown at an angle. At the very top of its path, its vertical velocity is:",
+          "options": ["Maximum", "g", "Zero", "The same as the initial vertical velocity"],
+          "correct_option": "Zero",
+          "answer": "C. Zero",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Kinematics",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A ball is thrown at an angle. At the very top of its path, its total velocity is:",
+          "options": ["Zero", "Equal to its horizontal component", "Maximum", "Directed downward"],
+          "correct_option": "Equal to its horizontal component",
+          "answer": "B. Equal to its horizontal component",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Kinematics",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "At the top of a projectile's path, its acceleration is:",
+          "options": ["Zero", "Changing direction", "g directed downward", "Directed horizontally"],
+          "correct_option": "g directed downward",
+          "answer": "C. g directed downward",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Answers",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "For a projectile launched at 45°, how does the speed at the peak compare to the initial speed?",
+          "options": ["It is zero", "It is the same", "It is smaller", "It is larger"],
+          "correct_option": "It is smaller",
+          "answer": "C. It is smaller",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Introduction",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Translate motion between narrative and graphical representations",
+      "unit": "Unit 1: Kinematics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A cart starts at a negative position and moves toward the origin at a constant speed. Which position-time graph describes this?",
+          "options": [
+            "Straight line starting below axis with positive slope",
+            "Straight line starting above axis with negative slope",
+            "Curve opening up",
+            "Horizontal line below axis"
+          ],
+          "correct_option": "Straight line starting below axis with positive slope",
+          "answer": "A. Straight line starting below axis with positive slope",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 10",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A velocity-time graph is a horizontal line at v = +5 m/s. The corresponding position-time graph is:",
+          "options": ["A horizontal line", "A straight line with slope +5", "A parabola", "A vertical line"],
+          "correct_option": "A straight line with slope +5",
+          "answer": "B. A straight line with slope +5",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which of the following describes an object that has zero velocity but non-zero acceleration?",
+          "options": ["A parked car", "A ball at the peak of its upward throw", "A jet cruising at steady speed", "This is physically impossible"],
+          "correct_option": "A ball at the peak of its upward throw",
+          "answer": "B. A ball at the peak of its upward throw",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Answers",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A position-time graph shows a 'V' shape. This indicates the object:",
+          "options": ["Stopped and stayed rest", "Changed direction instantly", "Maintained constant acceleration", "Traveled in a circle"],
+          "correct_option": "Changed direction instantly",
+          "answer": "B. Changed direction instantly",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 10",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Determine the effect of frames of reference on measured quantities",
+      "unit": "Unit 1: Kinematics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "An observer in an inertial frame measures an object's acceleration. If the observer moves to a different inertial frame, the measured acceleration will:",
+          "options": ["Be different", "Be the same", "Become zero", "Be negative"],
+          "correct_option": "Be the same",
+          "answer": "B. Be the same",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A ball is dropped inside a moving train. To a passenger on the train, the ball falls:",
+          "options": ["Straight down", "In a parabola", "Backward", "Forward"],
+          "correct_option": "Straight down",
+          "answer": "A. Straight down",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Vectors",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "To an observer on the ground, the ball dropped inside the moving train follows a path that is:",
+          "options": ["Straight down", "Straight horizontal", "Parabolic", "Circular"],
+          "correct_option": "Parabolic",
+          "answer": "C. Parabolic",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Barron's AP Physics 1",
+            "chapter": "Vectors",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The direction of motion of an object is always measured relative to a chosen:",
+          "options": ["Origin", "Stopwatch", "Frame of reference", "Vector sum"],
+          "correct_option": "Frame of reference",
+          "answer": "C. Frame of reference",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Calculate the range of an angled projectile",
+      "unit": "Unit 1: Kinematics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A ball is kicked with initial velocity 20 m/s at 37°. What is its initial horizontal velocity component?",
+          "options": ["12 m/s", "16 m/s", "20 m/s", "10 m/s"],
+          "correct_option": "16 m/s",
+          "answer": "B. 16 m/s",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Kinematics",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "For a projectile launched and landing at the same height, which launch angle provides the maximum range?",
+          "options": ["30°", "45°", "60°", "90°"],
+          "correct_option": "45°",
+          "answer": "B. 45°",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Kinematics",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If air resistance is taken into account, the actual range of a projectile will be:",
+          "options": ["Greater", "Smaller", "The same", "Zero"],
+          "correct_option": "Smaller",
+          "answer": "B. Smaller",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A projectile is launched from a point 32 m from a fence. To calculate if it clears the fence, one must determine:",
+          "options": ["Total distance traveled", "Time to reach horizontal position 32m", "The launch mass", "The force of the kick"],
+          "correct_option": "Time to reach horizontal position 32m",
+          "answer": "B. Time to reach horizontal position 32m",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "Workbook 1 Full",
+            "chapter": "Kinematics",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Identify acceleration of a complex system using the object model",
+      "unit": "Unit 1: Kinematics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A kitten falls while rolling and turning in a basket. The acceleration of the kitten-basket system center of mass is:",
+          "options": ["Zero", "Less than g", "Exactly g", "More than g"],
+          "correct_option": "Exactly g",
+          "answer": "C. Exactly g",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2016",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "When using the object model, which properties of a system are generally ignored?",
+          "options": ["Mass", "Charge", "Internal structure and configuration", "Velocity"],
+          "correct_option": "Internal structure and configuration",
+          "answer": "C. Internal structure and configuration",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An exploding firework is falling. The center of mass of the fragments follows a path that is:",
+          "options": ["Parabolic", "Linear", "Random", "Stationary"],
+          "correct_option": "Parabolic",
+          "answer": "A. Parabolic",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Instructional Strategies",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "For a rigid rotating toy launched as a projectile, the point that follows the standard kinematic equations is:",
+          "options": ["The tip", "The center of mass", "The heaviest part", "No single point"],
+          "correct_option": "The center of mass",
+          "answer": "B. The center of mass",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2018",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Predict changes in stop distance based on speed (Scaling)",
+      "unit": "Unit 1: Kinematics",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "If you double your speed while driving, your stopping distance (with constant acceleration) will:",
+          "options": ["Stay same", "Double", "Quadruple", "Be halved"],
+          "correct_option": "Quadruple",
+          "answer": "C. Quadruple",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 1",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A car stops in distance D from speed v. How far will it take to stop from speed 3v?",
+          "options": ["3D", "6D", "9D", "sqrt(3)D"],
+          "correct_option": "9D",
+          "answer": "C. 9D",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Chapter 10",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If an object's acceleration is doubled, the time it takes to reach a certain speed from rest is:",
+          "options": ["Doubled", "Halved", "Quadrupled", "Stays same"],
+          "correct_option": "Halved",
+          "answer": "B. Halved",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Step 1",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "To reach the same height as a ball thrown at speed v, a ball with twice the mass must be thrown with speed:",
+          "options": ["v/2", "v", "2v", "4v"],
+          "correct_option": "v",
+          "answer": "B. v",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Answers",
+            "generated": false
+          }
+        }
+      ]
+    }
+  ]
+}

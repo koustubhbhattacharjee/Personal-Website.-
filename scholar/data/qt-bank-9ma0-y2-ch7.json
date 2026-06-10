@@ -1,0 +1,194 @@
+{
+  "schema_version": "2.0",
+  "source_type": "textbook",
+  "source_label": "Pearson Edexcel Year 2 Pure",
+  "textbook_key": "pearson-9ma0-y2",
+  "overlay_key": "pearson-9ma0-full",
+  "subject": "9MA0",
+  "question_types": [
+    {
+      "title": "Addition formulae 7A — Simplifying Compound Expressions",
+      "section_ref": "7.1",
+      "unit_label": "Chapter 7 — Trigonometry and modelling",
+      "primary_slo": "9MA0.P2.2.3.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Express the following as a single sine, cosine or tangent: sin 15° cos 20° + cos 15° sin 20°",
+          "explanation": "Use the identity sin(A + B) = sin A cos B + cos A sin B. Here A = 15° and B = 20°, so sin(15° + 20°) = sin 35°.",
+          "diagram_required": "none",
+          "options": [
+            "sin 35°",
+            "cos 35°",
+            "sin 5°",
+            "cos 5°"
+          ],
+          "correct_option": "A"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Express the following as a single sine, cosine or tangent: cos 130° cos 80° – sin 130° sin 80°",
+          "explanation": "Use the identity cos(A + B) = cos A cos B – sin A sin B. Here A = 130° and B = 80°, so cos(130° + 80°) = cos 210°.",
+          "diagram_required": "none",
+          "options": [
+            "cos 50°",
+            "cos 210°",
+            "sin 210°",
+            "cos(−50°)"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Addition formulae 7A — Verifying Trig Identities",
+      "section_ref": "7.1",
+      "unit_label": "Chapter 7 — Trigonometry and modelling",
+      "primary_slo": "9MA0.P2.2.3.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Use the formulae for sin(A – B) and cos(A – B) to show that tan(A – B) = (tan A – tan B) / (1 + tan A tan B)",
+          "explanation": "Substitute addition expansions for sine and cosine, then divide every term by (cos A cos B) to convert to tangents.",
+          "diagram_required": "none",
+          "options": [
+            "Multiply numerator and denominator by sin A sin B",
+            "Divide numerator and denominator by sin A cos B",
+            "LHS = sin(A-B)/cos(A-B) = (sin A cos B - cos A sin B) / (cos A cos B + sin A sin B). Dividing numerator and denominator by cos A cos B gives the result.",
+            "Substitute sin(A−B) = sin A + sin B − 2cos A cos B"
+          ],
+          "correct_option": "C"
+        }
+      ]
+    },
+    {
+      "title": "Using the angle addition formulae 7B — Exact Trigonometric Values",
+      "section_ref": "7.2",
+      "unit_label": "Chapter 7 — Trigonometry and modelling",
+      "primary_slo": "9MA0.P2.2.3.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Without using your calculator, find the exact value of cos 15°",
+          "explanation": "cos 15° = cos(45° – 30°) = cos 45° cos 30° + sin 45° sin 30° = (1/√2)(√3/2) + (1/√2)(1/2) = (√3 + 1) / 2√2. Rationalising gives (√6 + √2) / 4.",
+          "diagram_required": "none",
+          "options": [
+            "(√6 − √2) / 4",
+            "(√3 + 1) / 2",
+            "√3 / 2",
+            "(√6 + √2) / 4"
+          ],
+          "correct_option": "D"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Without using your calculator, find the exact value of sin 75°",
+          "explanation": "sin 75° = sin(45° + 30°) = sin 45° cos 30° + cos 45° sin 30° = (1/√2)(√3/2) + (1/√2)(1/2) = (√6 + √2) / 4.",
+          "diagram_required": "none",
+          "options": [
+            "(√6 + √2) / 4",
+            "(√6 − √2) / 4",
+            "(√2 + 1) / 4",
+            "√3 / 2"
+          ],
+          "correct_option": "A"
+        }
+      ]
+    },
+    {
+      "title": "Using the angle addition formulae 7B — Evaluating Multi-part Expressions",
+      "section_ref": "7.2",
+      "unit_label": "Chapter 7 — Trigonometry and modelling",
+      "primary_slo": "9MA0.P2.2.3.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Given that sin A = –3/5 and 180° < A < 270°, and that cos B = –12/13 and B is obtuse, find the value of cos(A – B)",
+          "explanation": "In 3rd quadrant, cos A = –4/5. Since B is obtuse (2nd quadrant), sin B = 5/13. cos(A – B) = cos A cos B + sin A sin B = (–4/5)(–12/13) + (–3/5)(5/13) = 48/65 – 15/65 = 33/65.",
+          "diagram_required": "none",
+          "options": [
+            "16/65",
+            "33/65",
+            "48/65",
+            "−33/65"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Double-angle formulae 7C — Simplifying to Single Ratios",
+      "section_ref": "7.3",
+      "unit_label": "Chapter 7 — Trigonometry and modelling",
+      "primary_slo": "9MA0.P2.2.3.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Write the expression as a single trigonometric ratio: 2 sin 10° cos 10°",
+          "explanation": "Using sin 2A = 2 sin A cos A with A = 10°, we get sin(2 × 10°) = sin 20°.",
+          "diagram_required": "none",
+          "options": [
+            "cos 20°",
+            "sin 5°",
+            "sin 20°",
+            "2 sin 20°"
+          ],
+          "correct_option": "C"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Write the expression as a single trigonometric ratio: cos² 40° – sin² 40°",
+          "explanation": "Using cos 2A = cos² A – sin² A with A = 40°, we get cos(2 × 40°) = cos 80°.",
+          "diagram_required": "none",
+          "options": [
+            "sin 80°",
+            "cos 20°",
+            "2 cos 40°",
+            "cos 80°"
+          ],
+          "correct_option": "D"
+        }
+      ]
+    },
+    {
+      "title": "Double-angle formulae 7C — Exact Numerical Values",
+      "section_ref": "7.3",
+      "unit_label": "Chapter 7 — Trigonometry and modelling",
+      "primary_slo": "9MA0.P2.2.3.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Without using your calculator, find the exact value of 2 sin 22.5° cos 22.5°",
+          "explanation": "This is in the form 2 sin A cos A = sin 2A. sin(2 × 22.5°) = sin 45° = 1/√2 (or √2/2).",
+          "diagram_required": "none",
+          "options": [
+            "1/√2",
+            "√3 / 2",
+            "1/2",
+            "√2"
+          ],
+          "correct_option": "A"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Without using your calculator, find the exact value of 2 cos² 15° – 1",
+          "explanation": "This is in the form 2 cos² A – 1 = cos 2A. cos(2 × 15°) = cos 30° = √3/2.",
+          "diagram_required": "none",
+          "options": [
+            "1/2",
+            "√3/2",
+            "√3",
+            "(√6 + √2) / 4"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "schema_version": "2.0",
+  "source_type": "textbook",
+  "source_label": "Pearson Edexcel Year 1 Pure",
+  "textbook_key": "pearson-9ma0-y1",
+  "overlay_key": "pearson-9ma0-full",
+  "subject": "9MA0",
+  "question_types": [
+    {
+      "title": "Algebraic fractions 7A — Simplification by Term Division",
+      "section_ref": "7.1",
+      "unit_label": "Chapter 7 — Algebraic methods",
+      "primary_slo": "9MA0.P1.1.3.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Simplify the fraction: (4x^4 + 5x^2 - 7x) / x",
+          "options": [
+            "4x^3 + 5x - 7",
+            "4x^4 + 5x^2 - 7",
+            "4x^3 + 5x^2 - 7x",
+            "4x^3 + 5x - 7x"
+          ],
+          "correct_option": "A",
+          "explanation": "Divide each term in the numerator by the denominator x: 4x^4/x = 4x^3, 5x^2/x = 5x, -7x/x = -7.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Algebraic fractions 7A — Factoring and Cancelling",
+      "section_ref": "7.1",
+      "unit_label": "Chapter 7 — Algebraic methods",
+      "primary_slo": "9MA0.P1.1.3.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Simplify as far as possible: (x^2 + 10x + 21) / (x + 3)",
+          "options": [
+            "x + 7",
+            "x + 3",
+            "x - 7",
+            "x + 10"
+          ],
+          "correct_option": "A",
+          "explanation": "Factorise the numerator: x^2 + 10x + 21 = (x + 7)(x + 3). Cancelling (x + 3) leaves x + 7.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Algebraic fractions 7A — Multiplication of Rational Expressions",
+      "section_ref": "7.1",
+      "unit_label": "Chapter 7 — Algebraic methods",
+      "primary_slo": "9MA0.P1.1.3.3",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Simplify: (x + 2) × (1 / (x^2 - 4))",
+          "options": [
+            "1 / (x - 2)",
+            "1 / (x + 2)",
+            "x - 2",
+            "1 / (x^2 - 2)"
+          ],
+          "correct_option": "A",
+          "explanation": "Factorise the denominator: x^2 - 4 = (x + 2)(x - 2). The (x + 2) terms cancel, leaving 1 / (x - 2).",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Dividing polynomials 7B — Finding Quotients",
+      "section_ref": "7.2",
+      "unit_label": "Chapter 7 — Algebraic methods",
+      "primary_slo": "9MA0.P1.1.5.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the quotient when x^3 + 6x^2 + 8x + 3 is divided by (x + 1).",
+          "options": [
+            "x^2 + 5x + 3",
+            "x^2 + 6x + 8",
+            "x^2 + x + 3",
+            "x^2 - 5x - 3"
+          ],
+          "correct_option": "A",
+          "explanation": "Performing algebraic long division: (x + 1)(x^2 + 5x + 3) = x^3 + 6x^2 + 8x + 3.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Dividing polynomials 7B — Remainder Finding",
+      "section_ref": "7.2",
+      "unit_label": "Chapter 7 — Algebraic methods",
+      "primary_slo": "9MA0.P1.1.5.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Find the remainder when x^3 + x + 10 is divided by (x + 2).",
+          "options": [
+            "0",
+            "-2",
+            "10",
+            "20"
+          ],
+          "correct_option": "A",
+          "explanation": "By the remainder theorem, substitute x = -2: (-2)^3 + (-2) + 10 = -8 - 2 + 10 = 0. The remainder is 0.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Dividing polynomials 7B — Identity Analysis",
+      "section_ref": "7.2",
+      "unit_label": "Chapter 7 — Algebraic methods",
+      "primary_slo": "9MA0.P1.1.5.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "If x^3 + 2x^2 - 5x - 10 ≡ (x + 2)(ax^2 + b), find the values of a and b.",
+          "options": [
+            "a = 1, b = -5",
+            "a = 1, b = 5",
+            "a = 2, b = -10",
+            "a = 1, b = -10"
+          ],
+          "correct_option": "A",
+          "explanation": "Dividing the polynomial by (x + 2) gives x^2 - 5. Thus a = 1 and b = -5.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "The factor theorem 7C — Verifying Factors",
+      "section_ref": "7.3",
+      "unit_label": "Chapter 7 — Algebraic methods",
+      "primary_slo": "9MA0.P1.1.5.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Which calculation proves that (x - 1) is a factor of 4x^3 - 3x^2 - 1?",
+          "options": [
+            "4(1)^3 - 3(1)^2 - 1 = 0",
+            "4(-1)^3 - 3(-1)^2 - 1 = -8",
+            "4(0)^3 - 3(0)^2 - 1 = -1",
+            "4(1)^3 + 3(1)^2 + 1 = 8"
+          ],
+          "correct_option": "A",
+          "explanation": "By the factor theorem, if f(p) = 0 then (x - p) is a factor. f(1) = 4 - 3 - 1 = 0.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "The factor theorem 7C — Solving for Unknowns",
+      "section_ref": "7.3",
+      "unit_label": "Chapter 7 — Algebraic methods",
+      "primary_slo": "9MA0.P1.1.5.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Given that (x + 1) is a factor of 4x^4 - 3x^2 + a, find the value of a.",
+          "options": [
+            "-1",
+            "1",
+            "0",
+            "-7"
+          ],
+          "correct_option": "A",
+          "explanation": "Set f(-1) = 0: 4(-1)^4 - 3(-1)^2 + a = 0 → 4 - 3 + a = 0 → a = -1.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "The factor theorem 7C — Full Polynomial Factorisation",
+      "section_ref": "7.3",
+      "unit_label": "Chapter 7 — Algebraic methods",
+      "primary_slo": "9MA0.P1.1.5.2",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Factorise x^3 - 10x^2 + 19x + 30 completely.",
+          "options": [
+            "(x + 1)(x - 5)(x - 6)",
+            "(x - 1)(x + 5)(x + 6)",
+            "(x + 1)(x + 5)(x - 6)",
+            "(x - 1)(x - 5)(x - 6)"
+          ],
+          "correct_option": "A",
+          "explanation": "f(-1) = -1 - 10 - 19 + 30 = 0, so (x + 1) is a factor. Dividing gives x^2 - 11x + 30 = (x - 5)(x - 6).",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Mathematical proof 7D — Identity Verification",
+      "section_ref": "7.4",
+      "unit_label": "Chapter 7 — Algebraic methods",
+      "primary_slo": "9MA0.P3.1.1.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Select the correct expansion that proves (x + √y)(x - √y) ≡ x^2 - y.",
+          "options": [
+            "x^2 - x√y + x√y - (√y)^2",
+            "x^2 + x√y - x√y + y",
+            "x^2 - 2x√y + y",
+            "x^2 - √y^2"
+          ],
+          "correct_option": "A",
+          "explanation": "Expanding: x² - x√y + x√y - (√y)² = x² - y. The middle terms cancel and (√y)² = y.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Mathematical proof 7D — Inequality Proofs",
+      "section_ref": "7.4",
+      "unit_label": "Chapter 7 — Algebraic methods",
+      "primary_slo": "9MA0.P3.1.1.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "To prove 3n^2 - 4n + 10 is positive for all values of n, what is the correct completed square form?",
+          "options": [
+            "3(n - 2/3)^2 + 26/3",
+            "3(n + 2/3)^2 - 26/3",
+            "(3n - 2)^2 + 6",
+            "3(n - 4/3)^2 + 10"
+          ],
+          "correct_option": "A",
+          "explanation": "3(n² - 4n/3) + 10 = 3[(n - 2/3)² - 4/9] + 10 = 3(n - 2/3)² - 4/3 + 10 = 3(n - 2/3)² + 26/3. This is always ≥ 26/3 > 0.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Mathematical proof 7D — Geometric Triangle Proof",
+      "section_ref": "7.4",
+      "unit_label": "Chapter 7 — Algebraic methods",
+      "primary_slo": "9MA0.P3.1.1.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Prove that A(3, 1), B(1, 2) and C(2, 4) form a right-angled triangle. What are the gradients of AB and BC?",
+          "options": [
+            "mAB = -1/2, mBC = 2",
+            "mAB = 1/2, mBC = -2",
+            "mAB = -2, mBC = 1/2",
+            "mAB = 1, mBC = -1"
+          ],
+          "correct_option": "A",
+          "explanation": "mAB = (2-1)/(1-3) = -1/2. mBC = (4-2)/(2-1) = 2. Since (-1/2) × 2 = -1, the lines are perpendicular, confirming a right angle at B.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Methods of proof 7E — Proof by Exhaustion",
+      "section_ref": "7.5",
+      "unit_label": "Chapter 7 — Algebraic methods",
+      "primary_slo": "9MA0.P3.1.1.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Prove that when n is an integer and 1 ≤ n ≤ 6, then m = n + 2 is not divisible by 10. Which list shows all possible values for m?",
+          "options": [
+            "3, 4, 5, 6, 7, 8",
+            "1, 2, 3, 4, 5, 6",
+            "2, 3, 4, 5, 6, 7",
+            "3, 5, 7, 9, 11, 13"
+          ],
+          "correct_option": "A",
+          "explanation": "By exhaustion: 1+2=3, 2+2=4, 3+2=5, 4+2=6, 5+2=7, 6+2=8. None are divisible by 10.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Methods of proof 7E — Disproof by Counter-example",
+      "section_ref": "7.5",
+      "unit_label": "Chapter 7 — Algebraic methods",
+      "primary_slo": "9MA0.P3.1.1.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Provide a counter-example to show that the statement 1 + x^2 < (1 + x)^2 is not always true.",
+          "options": [
+            "x = -1",
+            "x = 1",
+            "x = 2",
+            "x = 0.5"
+          ],
+          "correct_option": "A",
+          "explanation": "If x = -1: LHS = 1 + 1 = 2, RHS = (1 - 1)² = 0. Since 2 < 0 is false, x = -1 is a valid counter-example.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Methods of proof 7E — Prime Number Properties",
+      "section_ref": "7.5",
+      "unit_label": "Chapter 7 — Algebraic methods",
+      "primary_slo": "9MA0.P3.1.1.1",
+      "aligned_slos": [],
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Prove that every odd integer between 2 and 26 is either prime or the product of two primes. Which value is the product of two primes?",
+          "options": [
+            "15",
+            "11",
+            "13",
+            "23"
+          ],
+          "correct_option": "A",
+          "explanation": "Testing odd integers: 3(P), 5(P), 7(P), 9=3×3, 11(P), 13(P), 15=3×5, 17(P), 19(P), 21=3×7, 23(P), 25=5×5. 15 = 3 × 5 is a product of two primes.",
+          "diagram_required": "none"
+        }
+      ]
+    }
+  ]
+}

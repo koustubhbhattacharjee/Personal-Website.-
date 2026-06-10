@@ -1,0 +1,966 @@
+{
+  "_meta": {
+    "description": "SC Precalculus section 5.2 question types — standalone import file.",
+    "sections_included": ["5.2"],
+    "textbook": "Precalculus with Limits 4E (Larson)",
+    "last_updated": "2026-04-13"
+  },
+  "schema_version": "2.0",
+  "subject": "south_carolina::precalculus",
+  "source": "larson_precalc_4e",
+  "source_label": "Precalculus with Limits 4E (Larson)",
+  "source_type": "textbook",
+  "textbook_key": "larson_precalc_4e",
+  "overlay_key": "sc-precalculus-standard",
+  "question_types": [
+    {
+      "title": "Fundamental Identity Vocabulary",
+      "unit_label": "Chapter 5: Analytic Trigonometry",
+      "source_type": "textbook",
+      "section_ref": "5.2",
+      "slo_weights": [
+        { "slo": "PC.FT.3.2", "weight": 1.0 }
+      ],
+      "primary_slo": "PC.FT.3.2",
+      "aligned_slos": [],
+      "reinforcement_slos": [],
+      "lo_confidence": "high",
+      "mapping_rationale": "Assesses foundational vocabulary and conceptual understanding required before verifying trigonometric identities.",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Fill in the blank: An equation that is true for all real values in the domain of the variable is an ________.",
+          "options": [
+            "A) identity",
+            "B) expression",
+            "C) inverse",
+            "D) asymptote"
+          ],
+          "correct_option": "A) identity",
+          "answer": "A) identity",
+          "explanation": "An identity is an equation that holds true for every value in its domain.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "1" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Fill in the blank: An equation that is true for only some values in the domain of the variable is a ________ ________.",
+          "options": [
+            "A) conditional equation",
+            "B) verified identity",
+            "C) absolute relation",
+            "D) periodic equation"
+          ],
+          "correct_option": "A) conditional equation",
+          "answer": "A) conditional equation",
+          "explanation": "Conditional equations are true for specific solutions but not universally.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "2" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Fill in the blank to complete the fundamental trigonometric identity: $\\frac{\\cos u}{\\sin u} = \\text{\\underline{\\hspace{1cm}}}$",
+          "options": [
+            "A) $\\cot u$",
+            "B) $\\tan u$",
+            "C) $\\sec u$",
+            "D) $\\csc u$"
+          ],
+          "correct_option": "A) $\\cot u$",
+          "answer": "A) $\\cot u$",
+          "explanation": "By the quotient identity, cosine divided by sine is cotangent.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "4" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Fill in the blank to complete the fundamental trigonometric identity: $\\csc(-u) = \\text{\\underline{\\hspace{1cm}}}$",
+          "options": [
+            "A) $-\\csc u$",
+            "B) $\\csc u$",
+            "C) $\\sec u$",
+            "D) $-\\sec u$"
+          ],
+          "correct_option": "A) $-\\csc u$",
+          "answer": "A) $-\\csc u$",
+          "explanation": "The cosecant function is an odd function, so it pulls the negative sign to the front.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "7" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        }
+      ]
+    },
+    {
+      "title": "Verifying Basic Identities I",
+      "unit_label": "Chapter 5: Analytic Trigonometry",
+      "source_type": "textbook",
+      "section_ref": "5.2",
+      "slo_weights": [
+        { "slo": "PC.FT.3.2", "weight": 0.80 },
+        { "slo": "PC.ASE.2.1", "weight": 0.20 }
+      ],
+      "primary_slo": "PC.FT.3.2",
+      "aligned_slos": [],
+      "reinforcement_slos": [
+        { "slo": "PC.ASE.2.1", "weight": 0.20 }
+      ],
+      "lo_confidence": "high",
+      "mapping_rationale": "Requires applying reciprocal and Pythagorean identities with basic polynomial expansion.",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $\\tan t \\cot t = 1$?",
+          "options": [
+            "A) Substitute $\\frac{\\sin t}{\\cos t}$ for $\\tan t$ and $\\frac{\\cos t}{\\sin t}$ for $\\cot t$, then cancel common terms.",
+            "B) Substitute $\\sec t$ for $\\tan t$ and use the Pythagorean identity.",
+            "C) Add the two functions to get $\\csc t \\sec t$.",
+            "D) Square both sides and convert to sines."
+          ],
+          "correct_option": "A) Substitute $\\frac{\\sin t}{\\cos t}$ for $\\tan t$ and $\\frac{\\cos t}{\\sin t}$ for $\\cot t$, then cancel common terms.",
+          "answer": "A) Substitute $\\frac{\\sin t}{\\cos t}$ for $\\tan t$ and $\\frac{\\cos t}{\\sin t}$ for $\\cot t$, then cancel common terms.",
+          "explanation": "Tangent and cotangent are reciprocals, so their product simplifies algebraically to $1$.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "9" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $\\frac{\\tan x \\cot x}{\\cos x} = \\sec x$?",
+          "options": [
+            "A) Recognize that the numerator $\\tan x \\cot x$ equals $1$, leaving $\\frac{1}{\\cos x}$, which is $\\sec x$.",
+            "B) Cross-multiply by $\\cos x$ and square the tangent term.",
+            "C) Convert the denominator to $\\sin x$ using cofunction rules.",
+            "D) Multiply the numerator and denominator by $\\tan x$."
+          ],
+          "correct_option": "A) Recognize that the numerator $\\tan x \\cot x$ equals $1$, leaving $\\frac{1}{\\cos x}$, which is $\\sec x$.",
+          "answer": "A) Recognize that the numerator $\\tan x \\cot x$ equals $1$, leaving $\\frac{1}{\\cos x}$, which is $\\sec x$.",
+          "explanation": "Since tangent and cotangent are reciprocals, their product is $1$. The expression simplifies to $1/\\cos x = \\sec x$.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "10" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $\\cos^2 \\beta - \\sin^2 \\beta = 2\\cos^2 \\beta - 1$?",
+          "options": [
+            "A) Substitute $1 - \\cos^2 \\beta$ for $\\sin^2 \\beta$ and simplify.",
+            "B) Substitute $1 - \\sin^2 \\beta$ for $\\cos^2 \\beta$ and simplify.",
+            "C) Divide both sides by $\\cos^2 \\beta$.",
+            "D) Factor as a difference of squares."
+          ],
+          "correct_option": "A) Substitute $1 - \\cos^2 \\beta$ for $\\sin^2 \\beta$ and simplify.",
+          "answer": "A) Substitute $1 - \\cos^2 \\beta$ for $\\sin^2 \\beta$ and simplify.",
+          "explanation": "$\\cos^2 \\beta - (1 - \\cos^2 \\beta) = \\cos^2 \\beta - 1 + \\cos^2 \\beta = 2\\cos^2 \\beta - 1$.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "12" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $\\cos^2 \\beta - \\sin^2 \\beta = 1 - 2\\sin^2 \\beta$?",
+          "options": [
+            "A) Substitute $1 - \\sin^2 \\beta$ for $\\cos^2 \\beta$ and combine like terms.",
+            "B) Substitute $1 - \\cos^2 \\beta$ for $\\sin^2 \\beta$ and combine like terms.",
+            "C) Add $2\\sin^2 \\beta$ to both sides.",
+            "D) Divide both sides by $\\cos^2 \\beta$."
+          ],
+          "correct_option": "A) Substitute $1 - \\sin^2 \\beta$ for $\\cos^2 \\beta$ and combine like terms.",
+          "answer": "A) Substitute $1 - \\sin^2 \\beta$ for $\\cos^2 \\beta$ and combine like terms.",
+          "explanation": "$(1 - \\sin^2 \\beta) - \\sin^2 \\beta = 1 - 2\\sin^2 \\beta$.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "13" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        }
+      ]
+    },
+    {
+      "title": "Applying Cofunction and Even/Odd Identities",
+      "unit_label": "Chapter 5: Analytic Trigonometry",
+      "source_type": "textbook",
+      "section_ref": "5.2",
+      "slo_weights": [
+        { "slo": "PC.FT.3.2", "weight": 0.80 },
+        { "slo": "PC.FT.2.3", "weight": 0.20 }
+      ],
+      "primary_slo": "PC.FT.3.2",
+      "aligned_slos": ["PC.FT.2.3"],
+      "reinforcement_slos": [],
+      "lo_confidence": "high",
+      "mapping_rationale": "Verifying these identities requires applying cofunction definitions to convert angles like (pi/2 - x) into standard trig functions.",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $\\sin^2 \\alpha - \\sin^4 \\alpha = \\cos^2 \\alpha - \\cos^4 \\alpha$?",
+          "options": [
+            "A) Factor out $\\sin^2 \\alpha$ on the left, use the Pythagorean identity, and distribute.",
+            "B) Divide by $\\sin^2 \\alpha$ and use reciprocal identities.",
+            "C) Add $\\sin^4 \\alpha$ to both sides and take the square root.",
+            "D) Use the cofunction identity to flip sine to cosine directly."
+          ],
+          "correct_option": "A) Factor out $\\sin^2 \\alpha$ on the left, use the Pythagorean identity, and distribute.",
+          "answer": "A) Factor out $\\sin^2 \\alpha$ on the left, use the Pythagorean identity, and distribute.",
+          "explanation": "Factoring yields $\\sin^2 \\alpha(1 - \\sin^2 \\alpha) = \\sin^2 \\alpha \\cos^2 \\alpha$. Convert the remaining sine to cosine: $(1 - \\cos^2 \\alpha)\\cos^2 \\alpha = \\cos^2 \\alpha - \\cos^4 \\alpha$.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "14" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $\\tan\\left(\\frac{\\pi}{2} - \\theta\\right)\\tan \\theta = 1$?",
+          "options": [
+            "A) Apply the cofunction identity to change the first term to $\\cot \\theta$, then multiply by $\\tan \\theta$.",
+            "B) Distribute the tangent across the subtraction.",
+            "C) Convert $\\tan \\theta$ to $\\sin \\theta / \\cos \\theta$ and cancel terms.",
+            "D) Use the even/odd property to pull out the negative sign."
+          ],
+          "correct_option": "A) Apply the cofunction identity to change the first term to $\\cot \\theta$, then multiply by $\\tan \\theta$.",
+          "answer": "A) Apply the cofunction identity to change the first term to $\\cot \\theta$, then multiply by $\\tan \\theta$.",
+          "explanation": "By definition, $\\tan(\\pi/2 - \\theta) = \\cot \\theta$. Since $\\cot \\theta \\tan \\theta = 1$, the identity is verified.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "15" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $\\frac{\\cos[(\\pi/2) - x]}{\\sin[(\\pi/2) - x]} = \\tan x$?",
+          "options": [
+            "A) Apply cofunction identities to get $\\frac{\\sin x}{\\cos x}$, which equals $\\tan x$.",
+            "B) Cancel the $(\\pi/2) - x$ terms directly.",
+            "C) Cross-multiply and use the Pythagorean theorem.",
+            "D) Invert both fractions to get $\\cot x$."
+          ],
+          "correct_option": "A) Apply cofunction identities to get $\\frac{\\sin x}{\\cos x}$, which equals $\\tan x$.",
+          "answer": "A) Apply cofunction identities to get $\\frac{\\sin x}{\\cos x}$, which equals $\\tan x$.",
+          "explanation": "The numerator $\\cos(\\pi/2 - x) = \\sin x$, and the denominator $\\sin(\\pi/2 - x) = \\cos x$. $\\sin x / \\cos x = \\tan x$.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "16" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $\\sin t \\csc\\left(\\frac{\\pi}{2} - t\\right) = \\tan t$?",
+          "options": [
+            "A) Apply the cofunction identity to get $\\sin t \\sec t$, which equals $\\tan t$.",
+            "B) Use the reciprocal identity for $\\csc t$ and cross-multiply.",
+            "C) Subtract $\\pi/2$ from both sides.",
+            "D) Convert the expression to cosines and factor."
+          ],
+          "correct_option": "A) Apply the cofunction identity to get $\\sin t \\sec t$, which equals $\\tan t$.",
+          "answer": "A) Apply the cofunction identity to get $\\sin t \\sec t$, which equals $\\tan t$.",
+          "explanation": "$\\csc(\\pi/2 - t) = \\sec t$. Thus, $\\sin t \\sec t = \\sin t(1/\\cos t) = \\tan t$.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "17" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        }
+      ]
+    },
+    {
+      "title": "Algebraic Verification Techniques I",
+      "unit_label": "Chapter 5: Analytic Trigonometry",
+      "source_type": "textbook",
+      "section_ref": "5.2",
+      "slo_weights": [
+        { "slo": "PC.FT.3.2", "weight": 0.60 },
+        { "slo": "PC.ASE.2.1", "weight": 0.40 }
+      ],
+      "primary_slo": "PC.FT.3.2",
+      "aligned_slos": [],
+      "reinforcement_slos": [
+        { "slo": "PC.ASE.2.1", "weight": 0.40 }
+      ],
+      "lo_confidence": "high",
+      "mapping_rationale": "Verifying these identities demands combining fractions with common denominators and applying algebraic simplification techniques.",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $\\frac{1}{\\tan x} + \\frac{1}{\\cot x} = \\tan x + \\cot x$?",
+          "options": [
+            "A) Apply reciprocal identities directly to both fractions.",
+            "B) Find a common denominator of $\\tan x \\cot x$.",
+            "C) Multiply the entire equation by $\\tan x$.",
+            "D) Convert both fractions to sines and cosines."
+          ],
+          "correct_option": "A) Apply reciprocal identities directly to both fractions.",
+          "answer": "A) Apply reciprocal identities directly to both fractions.",
+          "explanation": "Since $1/\\tan x = \\cot x$ and $1/\\cot x = \\tan x$, the left side immediately becomes $\\cot x + \\tan x$.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "19" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $\\frac{1}{\\sin x} - \\frac{1}{\\csc x} = \\csc x - \\sin x$?",
+          "options": [
+            "A) Apply reciprocal identities directly to both terms.",
+            "B) Square both sides of the equation.",
+            "C) Find a common denominator of $\\sin x \\csc x$.",
+            "D) Convert completely to cosines."
+          ],
+          "correct_option": "A) Apply reciprocal identities directly to both terms.",
+          "answer": "A) Apply reciprocal identities directly to both terms.",
+          "explanation": "Because $1/\\sin x = \\csc x$ and $1/\\csc x = \\sin x$, the expression translates immediately.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "20" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $\\frac{\\cos \\theta \\cot \\theta}{1 - \\sin \\theta} - 1 = \\csc \\theta$?",
+          "options": [
+            "A) Substitute $\\frac{\\cos \\theta}{\\sin \\theta}$ for $\\cot \\theta$, replace $\\cos^2 \\theta$ with $1 - \\sin^2 \\theta$, cancel $(1 - \\sin \\theta)$, and simplify.",
+            "B) Multiply numerator and denominator by $1 + \\sin \\theta$, then convert to secants.",
+            "C) Find a common denominator for the entire left side first, then factor.",
+            "D) Move the $1$ to the right side and square both sides."
+          ],
+          "correct_option": "A) Substitute $\\frac{\\cos \\theta}{\\sin \\theta}$ for $\\cot \\theta$, replace $\\cos^2 \\theta$ with $1 - \\sin^2 \\theta$, cancel $(1 - \\sin \\theta)$, and simplify.",
+          "answer": "A) Substitute $\\frac{\\cos \\theta}{\\sin \\theta}$ for $\\cot \\theta$, replace $\\cos^2 \\theta$ with $1 - \\sin^2 \\theta$, cancel $(1 - \\sin \\theta)$, and simplify.",
+          "explanation": "Numerator becomes $\\frac{\\cos^2 \\theta}{\\sin \\theta} = \\frac{1 - \\sin^2 \\theta}{\\sin \\theta}$. The fraction is $\\frac{(1 - \\sin \\theta)(1 + \\sin \\theta)}{\\sin \\theta(1 - \\sin \\theta)} = \\frac{1 + \\sin \\theta}{\\sin \\theta} = \\csc \\theta + 1$. Subtracting $1$ leaves $\\csc \\theta$.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "22" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $\\frac{1}{\\cos x + 1} + \\frac{1}{\\cos x - 1} = -2\\csc x \\cot x$?",
+          "options": [
+            "A) Find a common denominator, combine numerators to get $2\\cos x$, replace denominator with $-\\sin^2 x$, and separate.",
+            "B) Multiply both fractions by $\\cos x - 1$.",
+            "C) Substitute $\\sec x$ into the denominators first.",
+            "D) Square the entire expression and use the Pythagorean identity."
+          ],
+          "correct_option": "A) Find a common denominator, combine numerators to get $2\\cos x$, replace denominator with $-\\sin^2 x$, and separate.",
+          "answer": "A) Find a common denominator, combine numerators to get $2\\cos x$, replace denominator with $-\\sin^2 x$, and separate.",
+          "explanation": "Common denominator is $\\cos^2 x - 1 = -\\sin^2 x$. Numerators sum to $(\\cos x - 1) + (\\cos x + 1) = 2\\cos x$. The fraction is $\\frac{2\\cos x}{-\\sin^2 x} = -2\\left(\\frac{1}{\\sin x}\\right)\\left(\\frac{\\cos x}{\\sin x}\\right) = -2\\csc x \\cot x$.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "23" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        }
+      ]
+    },
+    {
+      "title": "Algebraic Verification Techniques II",
+      "unit_label": "Chapter 5: Analytic Trigonometry",
+      "source_type": "textbook",
+      "section_ref": "5.2",
+      "slo_weights": [
+        { "slo": "PC.FT.3.2", "weight": 0.60 },
+        { "slo": "PC.ASE.2.1", "weight": 0.40 }
+      ],
+      "primary_slo": "PC.FT.3.2",
+      "aligned_slos": [],
+      "reinforcement_slos": [
+        { "slo": "PC.ASE.2.1", "weight": 0.40 }
+      ],
+      "lo_confidence": "high",
+      "mapping_rationale": "Verifying these equations requires factoring out common trigonometric terms or breaking apart fractional expressions algebraically.",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Which step best verifies the identity $\\sec y \\cos y = 1$?",
+          "options": [
+            "A) Substitute $\\frac{1}{\\cos y}$ for $\\sec y$ and multiply.",
+            "B) Use the Pythagorean identity for $\\sec^2 y$.",
+            "C) Square both sides.",
+            "D) Convert to tangent and cotangent."
+          ],
+          "correct_option": "A) Substitute $\\frac{1}{\\cos y}$ for $\\sec y$ and multiply.",
+          "answer": "A) Substitute $\\frac{1}{\\cos y}$ for $\\sec y$ and multiply.",
+          "explanation": "Secant and cosine are reciprocals, so their product is $1$.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "25" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $\\frac{\\tan^2 \\theta}{\\sec \\theta} = \\sin \\theta \\tan \\theta$?",
+          "options": [
+            "A) Expand $\\tan^2 \\theta$ as $\\tan \\theta \\cdot \\left(\\frac{\\sin \\theta}{\\cos \\theta}\\right)$, then multiply by $\\cos \\theta$.",
+            "B) Replace $\\tan^2 \\theta$ with $\\sec^2 \\theta - 1$ and separate fractions.",
+            "C) Square both sides of the equation.",
+            "D) Convert the right side to $\\sec^2 \\theta$."
+          ],
+          "correct_option": "A) Expand $\\tan^2 \\theta$ as $\\tan \\theta \\cdot \\left(\\frac{\\sin \\theta}{\\cos \\theta}\\right)$, then multiply by $\\cos \\theta$.",
+          "answer": "A) Expand $\\tan^2 \\theta$ as $\\tan \\theta \\cdot \\left(\\frac{\\sin \\theta}{\\cos \\theta}\\right)$, then multiply by $\\cos \\theta$.",
+          "explanation": "$\\frac{\\tan^2 \\theta}{\\sec \\theta} = \\tan \\theta \\cdot \\frac{\\tan \\theta}{\\sec \\theta} = \\tan \\theta \\cdot \\frac{\\sin \\theta / \\cos \\theta}{1 / \\cos \\theta} = \\tan \\theta \\sin \\theta$.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "27" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $\\frac{1}{\\tan \\beta} + \\tan \\beta = \\frac{\\sec^2 \\beta}{\\tan \\beta}$?",
+          "options": [
+            "A) Find a common denominator of $\\tan \\beta$, combine numerators, and use the Pythagorean identity.",
+            "B) Cross-multiply the terms.",
+            "C) Convert $\\tan \\beta$ to $\\sin \\beta / \\cos \\beta$ and flip.",
+            "D) Multiply the entire equation by $\\cos^2 \\beta$."
+          ],
+          "correct_option": "A) Find a common denominator of $\\tan \\beta$, combine numerators, and use the Pythagorean identity.",
+          "answer": "A) Find a common denominator of $\\tan \\beta$, combine numerators, and use the Pythagorean identity.",
+          "explanation": "$\\frac{1}{\\tan \\beta} + \\frac{\\tan^2 \\beta}{\\tan \\beta} = \\frac{1 + \\tan^2 \\beta}{\\tan \\beta} = \\frac{\\sec^2 \\beta}{\\tan \\beta}$.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "29" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Which step verifies the identity $\\frac{\\sec \\theta - 1}{1 - \\cos \\theta} = \\sec \\theta$?",
+          "options": [
+            "A) Substitute $\\frac{1}{\\cos \\theta}$ for $\\sec \\theta$ in the numerator, find a common denominator, and cancel $(1 - \\cos \\theta)$.",
+            "B) Multiply the numerator and denominator by $\\sec \\theta + 1$.",
+            "C) Square both sides and use Pythagorean identities.",
+            "D) Cross-multiply and solve for zero."
+          ],
+          "correct_option": "A) Substitute $\\frac{1}{\\cos \\theta}$ for $\\sec \\theta$ in the numerator, find a common denominator, and cancel $(1 - \\cos \\theta)$.",
+          "answer": "A) Substitute $\\frac{1}{\\cos \\theta}$ for $\\sec \\theta$ in the numerator, find a common denominator, and cancel $(1 - \\cos \\theta)$.",
+          "explanation": "Numerator is $\\frac{1 - \\cos \\theta}{\\cos \\theta}$. Dividing by $(1 - \\cos \\theta)$ leaves $\\frac{1}{\\cos \\theta}$, which is $\\sec \\theta$.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "30" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        }
+      ]
+    },
+    {
+      "title": "Converting to Sines and Cosines",
+      "unit_label": "Chapter 5: Analytic Trigonometry",
+      "source_type": "textbook",
+      "section_ref": "5.2",
+      "slo_weights": [
+        { "slo": "PC.FT.3.2", "weight": 0.80 },
+        { "slo": "PC.ASE.2.1", "weight": 0.20 }
+      ],
+      "primary_slo": "PC.FT.3.2",
+      "aligned_slos": [],
+      "reinforcement_slos": [
+        { "slo": "PC.ASE.2.1", "weight": 0.20 }
+      ],
+      "lo_confidence": "high",
+      "mapping_rationale": "Evaluates a specific, highly useful strategy for identity verification: translating all functions into standard sine and cosine components before manipulating.",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Verify the identity by converting to sines and cosines: $\\cos x + \\sin x \\tan x = \\sec x$",
+          "options": [
+            "A) Substitute $\\frac{\\sin x}{\\cos x}$ for $\\tan x$, get a common denominator, and use $\\sin^2 x + \\cos^2 x = 1$.",
+            "B) Factor out $\\cos x$ and replace $1 + \\tan x$ with $\\sec x$.",
+            "C) Multiply the entire equation by $\\cos x$.",
+            "D) Square both sides."
+          ],
+          "correct_option": "A) Substitute $\\frac{\\sin x}{\\cos x}$ for $\\tan x$, get a common denominator, and use $\\sin^2 x + \\cos^2 x = 1$.",
+          "answer": "A) Substitute $\\frac{\\sin x}{\\cos x}$ for $\\tan x$, get a common denominator, and use $\\sin^2 x + \\cos^2 x = 1$.",
+          "explanation": "$\\cos x + \\sin x\\left(\\frac{\\sin x}{\\cos x}\\right) = \\frac{\\cos^2 x + \\sin^2 x}{\\cos x} = \\frac{1}{\\cos x} = \\sec x$.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "32" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Verify the identity by converting to sines and cosines: $\\sec x - \\cos x = \\sin x \\tan x$",
+          "options": [
+            "A) Substitute $\\frac{1}{\\cos x}$ for $\\sec x$, find a common denominator, and factor the numerator as $\\sin^2 x$.",
+            "B) Multiply by $\\cos x$ to get $1 - \\cos^2 x = \\sin^2 x$.",
+            "C) Add $\\cos x$ to both sides and divide by $\\tan x$.",
+            "D) Convert the right side to $\\sec x$ directly."
+          ],
+          "correct_option": "A) Substitute $\\frac{1}{\\cos x}$ for $\\sec x$, find a common denominator, and factor the numerator as $\\sin^2 x$.",
+          "answer": "A) Substitute $\\frac{1}{\\cos x}$ for $\\sec x$, find a common denominator, and factor the numerator as $\\sin^2 x$.",
+          "explanation": "$\\frac{1}{\\cos x} - \\frac{\\cos^2 x}{\\cos x} = \\frac{1 - \\cos^2 x}{\\cos x} = \\frac{\\sin^2 x}{\\cos x} = \\sin x \\cdot \\frac{\\sin x}{\\cos x} = \\sin x \\tan x$.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "33" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Verify the identity by converting to sines and cosines: $\\cot x - \\tan x = \\sec x(\\csc x - 2\\sin x)$",
+          "options": [
+            "A) Expand the right side into $\\frac{1}{\\sin x \\cos x} - \\frac{2\\sin x}{\\cos x}$ and verify it equals the expanded left side $\\frac{\\cos^2 x - \\sin^2 x}{\\sin x \\cos x}$.",
+            "B) Cross-multiply the terms and set them equal to zero.",
+            "C) Substitute $1$ for $\\cot x - \\tan x$ using Pythagorean identities.",
+            "D) Factor $\\sec x$ out of the left side."
+          ],
+          "correct_option": "A) Expand the right side into $\\frac{1}{\\sin x \\cos x} - \\frac{2\\sin x}{\\cos x}$ and verify it equals the expanded left side $\\frac{\\cos^2 x - \\sin^2 x}{\\sin x \\cos x}$.",
+          "answer": "A) Expand the right side into $\\frac{1}{\\sin x \\cos x} - \\frac{2\\sin x}{\\cos x}$ and verify it equals the expanded left side $\\frac{\\cos^2 x - \\sin^2 x}{\\sin x \\cos x}$.",
+          "explanation": "Left side: $\\frac{\\cos^2 x - \\sin^2 x}{\\sin x \\cos x}$. Right side: $\\frac{1}{\\cos x}\\left(\\frac{1}{\\sin x} - \\frac{2\\sin^2 x}{\\sin x}\\right) = \\frac{1 - 2\\sin^2 x}{\\cos x \\sin x} = \\frac{\\cos^2 x - \\sin^2 x}{\\sin x \\cos x}$. Both match.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "34" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Verify the identity by converting to sines and cosines: $\\frac{\\cot x}{\\sec x} = \\csc x - \\sin x$",
+          "options": [
+            "A) Left side becomes $\\frac{\\cos^2 x}{\\sin x}$. Right side becomes $\\frac{1 - \\sin^2 x}{\\sin x}$. They match via Pythagorean identity.",
+            "B) Multiply both sides by $\\sin x \\cos x$ to clear fractions.",
+            "C) Substitute $\\tan x$ for the left side and differentiate.",
+            "D) Square the right side to get $\\csc^2 x - 2 + \\sin^2 x$."
+          ],
+          "correct_option": "A) Left side becomes $\\frac{\\cos^2 x}{\\sin x}$. Right side becomes $\\frac{1 - \\sin^2 x}{\\sin x}$. They match via Pythagorean identity.",
+          "answer": "A) Left side becomes $\\frac{\\cos^2 x}{\\sin x}$. Right side becomes $\\frac{1 - \\sin^2 x}{\\sin x}$. They match via Pythagorean identity.",
+          "explanation": "Left side: $\\frac{\\cos x / \\sin x}{1 / \\cos x} = \\frac{\\cos^2 x}{\\sin x}$. Right side: $\\frac{1}{\\sin x} - \\frac{\\sin^2 x}{\\sin x} = \\frac{1 - \\sin^2 x}{\\sin x} = \\frac{\\cos^2 x}{\\sin x}$.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "35" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        }
+      ]
+    },
+    {
+      "title": "Verifying Advanced Identities",
+      "unit_label": "Chapter 5: Analytic Trigonometry",
+      "source_type": "textbook",
+      "section_ref": "5.2",
+      "slo_weights": [
+        { "slo": "PC.FT.3.2", "weight": 0.60 },
+        { "slo": "PC.ASE.2.1", "weight": 0.40 }
+      ],
+      "primary_slo": "PC.FT.3.2",
+      "aligned_slos": [],
+      "reinforcement_slos": [
+        { "slo": "PC.ASE.2.1", "weight": 0.40 }
+      ],
+      "lo_confidence": "high",
+      "mapping_rationale": "Involves complex algebraic structures like fractional exponents, nested fractions, and multiple variable arguments.",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $\\sin^{1/2} x \\cos x - \\sin^{5/2} x \\cos x = \\cos^3 x \\sqrt{\\sin x}$?",
+          "options": [
+            "A) Factor out $\\sin^{1/2} x \\cos x$, convert $(1 - \\sin^2 x)$ to $\\cos^2 x$, and multiply.",
+            "B) Divide by $\\cos x$, then square both sides.",
+            "C) Convert the fractional exponents to negative exponents.",
+            "D) Substitute $\\sec x$ for the $\\cos x$ terms."
+          ],
+          "correct_option": "A) Factor out $\\sin^{1/2} x \\cos x$, convert $(1 - \\sin^2 x)$ to $\\cos^2 x$, and multiply.",
+          "answer": "A) Factor out $\\sin^{1/2} x \\cos x$, convert $(1 - \\sin^2 x)$ to $\\cos^2 x$, and multiply.",
+          "explanation": "Factoring yields $\\sin^{1/2} x \\cos x (1 - \\sin^2 x) = \\sqrt{\\sin x} \\cos x (\\cos^2 x) = \\cos^3 x \\sqrt{\\sin x}$.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "37" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $\\sec^6 x(\\sec x \\tan x) - \\sec^4 x(\\sec x \\tan x) = \\sec^5 x \\tan^3 x$?",
+          "options": [
+            "A) Factor out $\\sec^5 x \\tan x$, replace $(\\sec^2 x - 1)$ with $\\tan^2 x$, and multiply.",
+            "B) Divide the entire equation by $\\tan x$.",
+            "C) Add the exponents to get $\\sec^{10} x$.",
+            "D) Convert everything to sines and cosines before factoring."
+          ],
+          "correct_option": "A) Factor out $\\sec^5 x \\tan x$, replace $(\\sec^2 x - 1)$ with $\\tan^2 x$, and multiply.",
+          "answer": "A) Factor out $\\sec^5 x \\tan x$, replace $(\\sec^2 x - 1)$ with $\\tan^2 x$, and multiply.",
+          "explanation": "Factoring gives $\\sec^5 x \\tan x (\\sec^2 x - 1)$. Using the Pythagorean identity, this becomes $\\sec^5 x \\tan x (\\tan^2 x) = \\sec^5 x \\tan^3 x$.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "38" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $(1 + \\sin y)[1 + \\sin(-y)] = \\cos^2 y$?",
+          "options": [
+            "A) Use the odd property to change $\\sin(-y)$ to $-\\sin y$, multiply the binomials to get $1 - \\sin^2 y$, and use the Pythagorean identity.",
+            "B) Distribute the terms directly to get $1 + \\sin^2 y$.",
+            "C) Cancel the $\\sin y$ terms because they are opposites.",
+            "D) Factor out a $y$ from the angle brackets."
+          ],
+          "correct_option": "A) Use the odd property to change $\\sin(-y)$ to $-\\sin y$, multiply the binomials to get $1 - \\sin^2 y$, and use the Pythagorean identity.",
+          "answer": "A) Use the odd property to change $\\sin(-y)$ to $-\\sin y$, multiply the binomials to get $1 - \\sin^2 y$, and use the Pythagorean identity.",
+          "explanation": "Since sine is odd, $\\sin(-y) = -\\sin y$. The expression becomes $(1 + \\sin y)(1 - \\sin y) = 1 - \\sin^2 y = \\cos^2 y$.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "39" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $\\frac{\\tan x + \\tan y}{1 - \\tan x \\tan y} = \\frac{\\cot x + \\cot y}{\\cot x \\cot y - 1}$?",
+          "options": [
+            "A) Divide the numerator and denominator of the left side by $\\tan x \\tan y$ and substitute reciprocals.",
+            "B) Multiply the left side by its conjugate.",
+            "C) Cross-multiply the terms and set equal to zero.",
+            "D) Convert completely to sines and cosines."
+          ],
+          "correct_option": "A) Divide the numerator and denominator of the left side by $\\tan x \\tan y$ and substitute reciprocals.",
+          "answer": "A) Divide the numerator and denominator of the left side by $\\tan x \\tan y$ and substitute reciprocals.",
+          "explanation": "Dividing every term on the left by $\\tan x \\tan y$ gives $\\frac{1/\\tan y + 1/\\tan x}{1/(\\tan x \\tan y) - 1}$. Substituting cotangents yields the right side.",
+          "source_reference": { "page": 360, "section": "5.2", "exercise_ref": "40" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        }
+      ]
+    },
+    {
+      "title": "Error Analysis and Determining Identities",
+      "unit_label": "Chapter 5: Analytic Trigonometry",
+      "source_type": "textbook",
+      "section_ref": "5.2",
+      "slo_weights": [
+        { "slo": "PC.FT.3.2", "weight": 0.80 },
+        { "slo": "PC.ASE.2.1", "weight": 0.20 }
+      ],
+      "primary_slo": "PC.FT.3.2",
+      "aligned_slos": [],
+      "reinforcement_slos": [
+        { "slo": "PC.ASE.2.1", "weight": 0.20 }
+      ],
+      "lo_confidence": "high",
+      "mapping_rationale": "Requires identifying logical flaws in incorrect verifications and determining if a given complex algebraic statement is actually an identity.",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Describe the error in the verification: $\\frac{1}{\\tan x} + \\cot(-x) = \\cot x + \\cot x = 2\\cot x$",
+          "options": [
+            "A) The cotangent function is odd, so $\\cot(-x) = -\\cot x$. The expression should simplify to $0$.",
+            "B) The reciprocal of tangent is secant, not cotangent.",
+            "C) You cannot add cotangents together.",
+            "D) The tangent function is even."
+          ],
+          "correct_option": "A) The cotangent function is odd, so $\\cot(-x) = -\\cot x$. The expression should simplify to $0$.",
+          "answer": "A) The cotangent function is odd, so $\\cot(-x) = -\\cot x$. The expression should simplify to $0$.",
+          "explanation": "Because cotangent is an odd function, the second term is negative, making the sum $\\cot x - \\cot x = 0$.",
+          "source_reference": { "page": 361, "section": "5.2", "exercise_ref": "43" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Describe the error in the first step of this verification: $\\frac{1 + \\sec(-\\theta)}{\\sin(-\\theta) + \\tan(-\\theta)} = \\frac{1 - \\sec \\theta}{\\sin \\theta - \\tan \\theta}$",
+          "options": [
+            "A) The secant function is even, so $\\sec(-\\theta) = \\sec \\theta$, not $-\\sec \\theta$.",
+            "B) The sine function is even, so it should remain positive.",
+            "C) The tangent function is even, so it should remain positive.",
+            "D) You cannot pull negative signs out of a fraction."
+          ],
+          "correct_option": "A) The secant function is even, so $\\sec(-\\theta) = \\sec \\theta$, not $-\\sec \\theta$.",
+          "answer": "A) The secant function is even, so $\\sec(-\\theta) = \\sec \\theta$, not $-\\sec \\theta$.",
+          "explanation": "While sine and tangent are odd, secant is an even function. Therefore, the numerator should be $1 + \\sec \\theta$.",
+          "source_reference": { "page": 361, "section": "5.2", "exercise_ref": "44" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Verify whether the equation is an identity: $(1 + \\cot^2 x)(\\cos^2 x) = \\cot^2 x$",
+          "options": [
+            "A) Yes, it is an identity. Substitute $\\csc^2 x$ for $(1 + \\cot^2 x)$, resulting in $\\frac{\\cos^2 x}{\\sin^2 x} = \\cot^2 x$.",
+            "B) No, it simplifies to $\\sec^2 x$.",
+            "C) No, it simplifies to $\\sin^2 x$.",
+            "D) Yes, it is an identity, but only in Quadrant I."
+          ],
+          "correct_option": "A) Yes, it is an identity. Substitute $\\csc^2 x$ for $(1 + \\cot^2 x)$, resulting in $\\frac{\\cos^2 x}{\\sin^2 x} = \\cot^2 x$.",
+          "answer": "A) Yes, it is an identity. Substitute $\\csc^2 x$ for $(1 + \\cot^2 x)$, resulting in $\\frac{\\cos^2 x}{\\sin^2 x} = \\cot^2 x$.",
+          "explanation": "Using the Pythagorean identity, the left side becomes $\\csc^2 x \\cos^2 x = \\frac{1}{\\sin^2 x} \\cos^2 x = \\cot^2 x$.",
+          "source_reference": { "page": 361, "section": "5.2", "exercise_ref": "45" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Verify whether the equation is an identity: $2 + \\cos^2 x - 3\\cos^4 x = \\sin^2 x(3 + 2\\cos^2 x)$",
+          "options": [
+            "A) Yes, it is an identity. Factor the left side as $(2 + 3\\cos^2 x)(1 - \\cos^2 x)$ and substitute $\\sin^2 x$.",
+            "B) No, the left side factors to $(1 + \\cos^2 x)(2 - 3\\cos^2 x)$.",
+            "C) No, it only works if $\\cos x = 0$.",
+            "D) Yes, it is an identity by substituting $1 - \\sin^2 x$ for every $\\cos^2 x$ term."
+          ],
+          "correct_option": "A) Yes, it is an identity. Factor the left side as $(2 + 3\\cos^2 x)(1 - \\cos^2 x)$ and substitute $\\sin^2 x$.",
+          "answer": "A) Yes, it is an identity. Factor the left side as $(2 + 3\\cos^2 x)(1 - \\cos^2 x)$ and substitute $\\sin^2 x$.",
+          "explanation": "Expanding the right side gives $3\\sin^2 x + 2\\sin^2 x \\cos^2 x$. The factored form of the left side perfectly matches the expanded right side when using Pythagorean substitution.",
+          "source_reference": { "page": 361, "section": "5.2", "exercise_ref": "47" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        }
+      ]
+    },
+    {
+      "title": "Higher Power Identities",
+      "unit_label": "Chapter 5: Analytic Trigonometry",
+      "source_type": "textbook",
+      "section_ref": "5.2",
+      "slo_weights": [
+        { "slo": "PC.FT.3.2", "weight": 0.70 },
+        { "slo": "PC.ASE.2.1", "weight": 0.30 }
+      ],
+      "primary_slo": "PC.FT.3.2",
+      "aligned_slos": [],
+      "reinforcement_slos": [
+        { "slo": "PC.ASE.2.1", "weight": 0.30 }
+      ],
+      "lo_confidence": "high",
+      "mapping_rationale": "Verifying these equations requires factoring and manipulating trigonometric terms raised to powers of 3, 4, or 5.",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $\\tan^5 x = \\tan^3 x \\sec^2 x - \\tan^3 x$?",
+          "options": [
+            "A) Factor out $\\tan^3 x$ on the right side and apply the Pythagorean identity.",
+            "B) Divide both sides by $\\tan^3 x$ and take the square root.",
+            "C) Add $\\tan^3 x$ to the left side and factor.",
+            "D) Convert everything to sines and cosines."
+          ],
+          "correct_option": "A) Factor out $\\tan^3 x$ on the right side and apply the Pythagorean identity.",
+          "answer": "A) Factor out $\\tan^3 x$ on the right side and apply the Pythagorean identity.",
+          "explanation": "Right side: $\\tan^3 x(\\sec^2 x - 1) = \\tan^3 x(\\tan^2 x) = \\tan^5 x$.",
+          "source_reference": { "page": 361, "section": "5.2", "exercise_ref": "51" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $\\sec^4 x \\tan^2 x = (\\tan^2 x + \\tan^4 x)\\sec^2 x$?",
+          "options": [
+            "A) Factor $\\tan^2 x$ from the parentheses on the right, use Pythagorean identity, and combine.",
+            "B) Divide both sides by $\\sec^2 x$ and distribute.",
+            "C) Square both sides of the equation.",
+            "D) Move all terms to the left side and factor."
+          ],
+          "correct_option": "A) Factor $\\tan^2 x$ from the parentheses on the right, use Pythagorean identity, and combine.",
+          "answer": "A) Factor $\\tan^2 x$ from the parentheses on the right, use Pythagorean identity, and combine.",
+          "explanation": "Right side: $\\tan^2 x(1 + \\tan^2 x)\\sec^2 x = \\tan^2 x(\\sec^2 x)\\sec^2 x = \\tan^2 x \\sec^4 x$.",
+          "source_reference": { "page": 361, "section": "5.2", "exercise_ref": "52" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $\\cos^3 x \\sin^2 x = (\\sin^2 x - \\sin^4 x)\\cos x$?",
+          "options": [
+            "A) Factor out $\\sin^2 x$ on the right side, replace $(1 - \\sin^2 x)$ with $\\cos^2 x$, and multiply.",
+            "B) Divide both sides by $\\cos x \\sin^2 x$.",
+            "C) Substitute $\\sec x$ for the inverse functions.",
+            "D) Expand $\\cos^3 x$ into $\\cos x(1 - \\sin^2 x)$ and distribute."
+          ],
+          "correct_option": "A) Factor out $\\sin^2 x$ on the right side, replace $(1 - \\sin^2 x)$ with $\\cos^2 x$, and multiply.",
+          "answer": "A) Factor out $\\sin^2 x$ on the right side, replace $(1 - \\sin^2 x)$ with $\\cos^2 x$, and multiply.",
+          "explanation": "Right side: $\\sin^2 x(1 - \\sin^2 x)\\cos x = \\sin^2 x(\\cos^2 x)\\cos x = \\sin^2 x \\cos^3 x$.",
+          "source_reference": { "page": 361, "section": "5.2", "exercise_ref": "53" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Which sequence of steps verifies the identity $\\sin^4 x + \\cos^4 x = 1 - 2\\cos^2 x + 2\\cos^4 x$?",
+          "options": [
+            "A) Substitute $(1 - \\cos^2 x)^2$ for $\\sin^4 x$, expand the binomial, and combine like terms.",
+            "B) Divide the equation by $\\sin^4 x$.",
+            "C) Replace $1$ with $\\sin^2 x + \\cos^2 x$ and factor.",
+            "D) Take the square root of both sides."
+          ],
+          "correct_option": "A) Substitute $(1 - \\cos^2 x)^2$ for $\\sin^4 x$, expand the binomial, and combine like terms.",
+          "answer": "A) Substitute $(1 - \\cos^2 x)^2$ for $\\sin^4 x$, expand the binomial, and combine like terms.",
+          "explanation": "$\\sin^4 x = (\\sin^2 x)^2 = (1 - \\cos^2 x)^2 = 1 - 2\\cos^2 x + \\cos^4 x$. Adding the remaining $\\cos^4 x$ yields the right side.",
+          "source_reference": { "page": 361, "section": "5.2", "exercise_ref": "54" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        }
+      ]
+    },
+    {
+      "title": "Inverse Trig and Cofunction Applications",
+      "unit_label": "Chapter 5: Analytic Trigonometry",
+      "source_type": "textbook",
+      "section_ref": "5.2",
+      "slo_weights": [
+        { "slo": "PC.FT.3.2", "weight": 0.60 },
+        { "slo": "PC.FT.6.1", "weight": 0.40 }
+      ],
+      "primary_slo": "PC.FT.3.2",
+      "aligned_slos": [],
+      "reinforcement_slos": [
+        { "slo": "PC.FT.6.1", "weight": 0.40 }
+      ],
+      "lo_confidence": "high",
+      "mapping_rationale": "Combines fundamental identity verification with the geometric definition of inverse trigonometric functions and basic cofunction rules.",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Evaluate the expression using cofunction identities without a calculator: $\\sin^2 25^\\circ + \\sin^2 65^\\circ$",
+          "options": [
+            "A) $1$",
+            "B) $0$",
+            "C) $\\cos^2 90^\\circ$",
+            "D) $\\tan 40^\\circ$"
+          ],
+          "correct_option": "A) $1$",
+          "answer": "A) $1$",
+          "explanation": "Because $25^\\circ$ and $65^\\circ$ are complementary, $\\sin 65^\\circ = \\cos 25^\\circ$. The expression becomes $\\sin^2 25^\\circ + \\cos^2 25^\\circ = 1$.",
+          "source_reference": { "page": 361, "section": "5.2", "exercise_ref": "55" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Evaluate the expression using cofunction identities without a calculator: $\\tan^2 63^\\circ + \\cot^2 16^\\circ - \\sec^2 74^\\circ - \\csc^2 27^\\circ$",
+          "options": [
+            "A) $-2$",
+            "B) $0$",
+            "C) $2$",
+            "D) $1$"
+          ],
+          "correct_option": "A) $-2$",
+          "answer": "A) $-2$",
+          "explanation": "Use cofunction identities: $\\cot 16^\\circ = \\tan 74^\\circ$ and $\\csc 27^\\circ = \\sec 63^\\circ$. Reorder: $(\\tan^2 63^\\circ - \\sec^2 63^\\circ) + (\\tan^2 74^\\circ - \\sec^2 74^\\circ) = -1 + -1 = -2$.",
+          "source_reference": { "page": 361, "section": "5.2", "exercise_ref": "56" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Verify the identity involving inverse trigonometric functions: $\\tan\\left(\\sin^{-1}\\left(\\frac{x-1}{4}\\right)\\right) = \\frac{x-1}{\\sqrt{16-(x-1)^2}}$",
+          "options": [
+            "A) Let $\\theta = \\sin^{-1}((x-1)/4)$. Draw a right triangle with opposite side $x-1$ and hypotenuse $4$. Find the adjacent side and evaluate $\\tan \\theta$.",
+            "B) Take the sine of both sides.",
+            "C) Substitute $x=5$ and evaluate numerically.",
+            "D) Expand using sum and difference formulas."
+          ],
+          "correct_option": "A) Let $\\theta = \\sin^{-1}((x-1)/4)$. Draw a right triangle with opposite side $x-1$ and hypotenuse $4$. Find the adjacent side and evaluate $\\tan \\theta$.",
+          "answer": "A) Let $\\theta = \\sin^{-1}((x-1)/4)$. Draw a right triangle with opposite side $x-1$ and hypotenuse $4$. Find the adjacent side and evaluate $\\tan \\theta$.",
+          "explanation": "The adjacent side is $\\sqrt{4^2 - (x-1)^2} = \\sqrt{16-(x-1)^2}$. Then $\\tan \\theta = \\text{opp}/\\text{adj} = (x-1) / \\sqrt{16-(x-1)^2}$.",
+          "source_reference": { "page": 361, "section": "5.2", "exercise_ref": "59" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Verify the identity involving inverse trigonometric functions: $\\tan\\left(\\cos^{-1}\\left(\\frac{x+1}{2}\\right)\\right) = \\frac{\\sqrt{4-(x+1)^2}}{x+1}$",
+          "options": [
+            "A) Let $\\theta = \\cos^{-1}((x+1)/2)$. Draw a right triangle with adjacent side $x+1$ and hypotenuse $2$. Find the opposite side and evaluate $\\tan \\theta$.",
+            "B) Take the cosine of both sides.",
+            "C) Multiply both sides by $x+1$.",
+            "D) Square the entire expression and factor."
+          ],
+          "correct_option": "A) Let $\\theta = \\cos^{-1}((x+1)/2)$. Draw a right triangle with adjacent side $x+1$ and hypotenuse $2$. Find the opposite side and evaluate $\\tan \\theta$.",
+          "answer": "A) Let $\\theta = \\cos^{-1}((x+1)/2)$. Draw a right triangle with adjacent side $x+1$ and hypotenuse $2$. Find the opposite side and evaluate $\\tan \\theta$.",
+          "explanation": "The opposite side is $\\sqrt{2^2 - (x+1)^2} = \\sqrt{4-(x+1)^2}$. Then $\\tan \\theta = \\text{opp}/\\text{adj} = \\sqrt{4-(x+1)^2} / (x+1)$.",
+          "source_reference": { "page": 361, "section": "5.2", "exercise_ref": "60" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        }
+      ]
+    },
+    {
+      "title": "Conceptual True/False and Reasoning",
+      "unit_label": "Chapter 5: Analytic Trigonometry",
+      "source_type": "textbook",
+      "section_ref": "5.2",
+      "slo_weights": [
+        { "slo": "PC.FT.3.2", "weight": 1.0 }
+      ],
+      "primary_slo": "PC.FT.3.2",
+      "aligned_slos": [],
+      "reinforcement_slos": [],
+      "lo_confidence": "high",
+      "mapping_rationale": "Requires deep conceptual understanding of what constitutes an identity versus a conditional equation.",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "True or False: $\\tan x^2 = \\tan^2 x$. Justify your answer.",
+          "options": [
+            "A) False; $\\tan x^2$ squares the angle, while $\\tan^2 x$ squares the entire tangent function.",
+            "B) True; exponents can be moved outside the function.",
+            "C) False; it should be $\\sec^2 x$.",
+            "D) True; they evaluate to the same value for all $x$."
+          ],
+          "correct_option": "A) False; $\\tan x^2$ squares the angle, while $\\tan^2 x$ squares the entire tangent function.",
+          "answer": "A) False; $\\tan x^2$ squares the angle, while $\\tan^2 x$ squares the entire tangent function.",
+          "explanation": "The notation $\\tan^2 x$ is shorthand for $(\\tan x)^2$. This is fundamentally different from taking the tangent of $x$ squared.",
+          "source_reference": { "page": 361, "section": "5.2", "exercise_ref": "63" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "True or False: $\\cos\\left(\\theta - \\frac{\\pi}{2}\\right) = \\sin \\theta$. Justify your answer.",
+          "options": [
+            "A) True; because cosine is an even function, $\\cos(\\theta - \\pi/2) = \\cos(-(\\pi/2 - \\theta)) = \\cos(\\pi/2 - \\theta) = \\sin \\theta$.",
+            "B) False; it equals $-\\sin \\theta$.",
+            "C) False; the cofunction identity requires $\\pi/2 - \\theta$, not the other way around.",
+            "D) True; all phase shifts of $\\pi/2$ yield the same function."
+          ],
+          "correct_option": "A) True; because cosine is an even function, $\\cos(\\theta - \\pi/2) = \\cos(-(\\pi/2 - \\theta)) = \\cos(\\pi/2 - \\theta) = \\sin \\theta$.",
+          "answer": "A) True; because cosine is an even function, $\\cos(\\theta - \\pi/2) = \\cos(-(\\pi/2 - \\theta)) = \\cos(\\pi/2 - \\theta) = \\sin \\theta$.",
+          "explanation": "Using the even property of cosine, the argument can be reversed to match the standard cofunction identity.",
+          "source_reference": { "page": 361, "section": "5.2", "exercise_ref": "64" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Determine whether the statement is true or false: The equation $\\sin^2 \\theta + \\cos^2 \\theta = 1 + \\tan^2 \\theta$ is an identity because $\\sin^2(0) + \\cos^2(0) = 1$ and $1 + \\tan^2(0) = 1$.",
+          "options": [
+            "A) True; testing $\\theta=0$ proves it.",
+            "B) False; the equation simplifies to $1 = \\sec^2 \\theta$, which is not true for all $\\theta$.",
+            "C) True; any value that makes both sides equal proves it is an identity.",
+            "D) False; you must prove it for all values in the domain, not just one."
+          ],
+          "correct_option": "B) False; the equation simplifies to $1 = \\sec^2 \\theta$, which is not true for all $\\theta$.",
+          "answer": "B) False; the equation simplifies to $1 = \\sec^2 \\theta$, which is not true for all $\\theta$.",
+          "explanation": "An identity must hold for *all* values where it is defined, not just a single test value. Simplifying the equation gives $1 = \\sec^2 \\theta$, which is clearly false for $\\theta = \\pi/4$.",
+          "source_reference": { "page": 361, "section": "5.2", "exercise_ref": "65" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        },
+        {
+          "question_format": "mcq",
+          "question": "Explain why the equation $\\sin \\theta = \\sqrt{1 - \\cos^2 \\theta}$ is not an identity.",
+          "options": [
+            "A) It is false for values where $\\sin \\theta$ is negative (e.g., $\\pi < \\theta < 2\\pi$), because the principal square root is always non-negative.",
+            "B) It violates the Pythagorean identity.",
+            "C) It is actually an identity.",
+            "D) The square root of $\\cos^2 \\theta$ is not defined."
+          ],
+          "correct_option": "A) It is false for values where $\\sin \\theta$ is negative (e.g., $\\pi < \\theta < 2\\pi$), because the principal square root is always non-negative.",
+          "answer": "A) It is false for values where $\\sin \\theta$ is negative (e.g., $\\pi < \\theta < 2\\pi$), because the principal square root is always non-negative.",
+          "explanation": "The principal square root returns a non-negative value, so $\\sqrt{\\sin^2 \\theta} = |\\sin \\theta|$. When $\\theta$ is in quadrants III or IV, $\\sin \\theta$ is negative, causing the equation to fail.",
+          "source_reference": { "page": 361, "section": "5.2", "exercise_ref": "67" },
+          "diagram_required": "none",
+          "context_snippets": [],
+          "candidate_image_refs": []
+        }
+      ]
+    }
+  ]
+}

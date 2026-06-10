@@ -1,0 +1,324 @@
+[
+  {
+    "id": "d5c7661b-a56d-41b1-becc-81bbe4d08ddc",
+    "title": "Gravitational vs inertial mass (operational definitions)",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.1.A.1",
+    "source_label": null
+  },
+  {
+    "id": "c3845131-ee4b-4d41-8a0f-1ac34c571616",
+    "title": "Slope of x-t graph as instantaneous velocity",
+    "unit_label": "Unit 1: Kinematics",
+    "primary_slo_id": "1.3.A.4",
+    "source_label": "AP Physics 1 Unit 1 Kinematics MCQ — 2026-04-21"
+  },
+  {
+    "id": "69d76ea7-337e-405f-834d-ba0d9ad3529d",
+    "title": "Slope of v-t graph as acceleration",
+    "unit_label": "Unit 1: Kinematics",
+    "primary_slo_id": "1.3.A.4",
+    "source_label": "AP Physics 1 Unit 1 Kinematics MCQ — 2026-04-21"
+  },
+  {
+    "id": "5b76e395-6460-4ae6-b5ad-9d1ae185c10d",
+    "title": "Translating between x-t, v-t, and a-t graph shapes",
+    "unit_label": "Unit 1: Kinematics",
+    "primary_slo_id": "1.3.A.1",
+    "source_label": "AP Physics 1 Unit 1 Kinematics MCQ — 2026-04-21"
+  },
+  {
+    "id": "bfe85965-9895-4378-9820-5af52a16e29a",
+    "title": "Interpreting sign of acceleration from graph curvature",
+    "unit_label": "Unit 1: Kinematics",
+    "primary_slo_id": "1.3.A.4",
+    "source_label": "AP Physics 1 Unit 1 Kinematics MCQ — 2026-04-21"
+  },
+  {
+    "id": "26dee3c9-7cee-469f-8a51-fa2e4e63ed2b",
+    "title": "Area under a-t graph as change in velocity",
+    "unit_label": "Unit 1: Kinematics",
+    "primary_slo_id": "1.3.A.4",
+    "source_label": "AP Physics 1 Unit 1 Kinematics MCQ — 2026-04-21"
+  },
+  {
+    "id": "5a8c81d4-4f87-4e64-ab24-c31c4c8cde57",
+    "title": "Constant-acceleration 1D kinematics (algebraic)",
+    "unit_label": "Unit 1: Kinematics",
+    "primary_slo_id": "1.3.A.2",
+    "source_label": "AP Physics 1 Unit 1 Kinematics MCQ — 2026-04-21"
+  },
+  {
+    "id": "6a01083f-3628-4fde-8733-7e4619b10de9",
+    "title": "Free-fall from rest: distance scales as t²",
+    "unit_label": "Unit 1: Kinematics",
+    "primary_slo_id": "1.3.A.3",
+    "source_label": "AP Physics 1 Unit 1 Kinematics MCQ — 2026-04-21"
+  },
+  {
+    "id": "2f18b2a4-f3a9-46ec-883f-03e9d54a33d9",
+    "title": "Stopping distance depends on initial speed squared",
+    "unit_label": "Unit 1: Kinematics",
+    "primary_slo_id": "1.3.A.2",
+    "source_label": "AP Physics 1 Unit 1 Kinematics MCQ — 2026-04-21"
+  },
+  {
+    "id": "2326880d-363a-428e-b280-54f7cf74f54a",
+    "title": "Vertical throw: maximum height proportional to v²/(2g)",
+    "unit_label": "Unit 1: Kinematics",
+    "primary_slo_id": "1.3.A.2",
+    "source_label": "AP Physics 1 Unit 1 Kinematics MCQ — 2026-04-21"
+  },
+  {
+    "id": "b6a4a3d2-32de-4d3d-b5a9-0dc9a9f7d543",
+    "title": "Area under v-t graph to find displacement/position",
+    "unit_label": "Unit 1: Kinematics",
+    "primary_slo_id": "1.3.A.4",
+    "source_label": "AP Physics 1 Unit 1 Kinematics MCQ — 2026-04-21"
+  },
+  {
+    "id": "eb845e08-5bbb-476d-8524-093df1e68971",
+    "title": "Free-fall conceptual: acceleration is constant regardless of mass/location",
+    "unit_label": "Unit 1: Kinematics",
+    "primary_slo_id": "1.3.A.3",
+    "source_label": "AP Physics 1 Unit 1 Kinematics MCQ — 2026-04-21"
+  },
+  {
+    "id": "0585aefe-9c76-4e2a-921b-b8ce0dbc1418",
+    "title": "Horizontal projectile: range & time-of-flight from a height",
+    "unit_label": "Unit 1: Kinematics",
+    "primary_slo_id": "1.5.B.2",
+    "source_label": "AP Physics 1 Unit 1 Kinematics MCQ — 2026-04-21"
+  },
+  {
+    "id": "86e85fea-9a0a-4219-a451-bcb643c79250",
+    "title": "Projectile launch angle: range and speed dependence on α",
+    "unit_label": "Unit 1: Kinematics",
+    "primary_slo_id": "1.5.B.2",
+    "source_label": "AP Physics 1 Unit 1 Kinematics MCQ — 2026-04-21"
+  },
+  {
+    "id": "eeb5a802-5620-4078-85b1-c56f80916077",
+    "title": "Symmetric projectile: velocity & acceleration at labeled points",
+    "unit_label": "Unit 1: Kinematics",
+    "primary_slo_id": "1.5.B.2",
+    "source_label": "AP Physics 1 Unit 1 Kinematics MCQ — 2026-04-21"
+  },
+  {
+    "id": "fe873d0c-92ef-47dc-9aa2-f11c3fbdd4d5",
+    "title": "Relative motion, average speed/velocity, and 1D sign conventions",
+    "unit_label": "Unit 1: Kinematics",
+    "primary_slo_id": "1.4.B.2",
+    "source_label": "AP Physics 1 Unit 1 Kinematics MCQ — 2026-04-21"
+  },
+  {
+    "id": "4975008a-b484-4a41-b2b9-6c371ecf6d8b",
+    "title": "Block on inclined plane with friction (weight components)",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.5.A.2",
+    "source_label": "AP Physics 1 Unit 2 Force and Translational Dynamics MCQ — 2026-04-21"
+  },
+  {
+    "id": "9f846fa0-b34b-403c-9b5c-0c7ae1a879f1",
+    "title": "Density, mass, and volume relationships",
+    "unit_label": "Unit 8: Fluids",
+    "primary_slo_id": "8.1.A.3",
+    "source_label": "AP Physics 1 Unit 8 Fluids MCQ — 2026-04-21"
+  },
+  {
+    "id": "721e5ffa-5d8d-4965-b479-22e9bc6c9035",
+    "title": "Connected blocks via string/pulley (Atwood & variants)",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.5.A.2",
+    "source_label": "AP Physics 1 Unit 2 Force and Translational Dynamics MCQ — 2026-04-21"
+  },
+  {
+    "id": "f22af356-e937-49b1-b270-a3ee1411bec3",
+    "title": "Terminal velocity and velocity-dependent drag",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.5.A.1",
+    "source_label": "AP Physics 1 Unit 2 Force and Translational Dynamics MCQ — 2026-04-21"
+  },
+  {
+    "id": "d46cf597-b7d0-4b43-bd59-caa15f9b5129",
+    "title": "Net force from vector sum / impulse-direction reasoning",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.5.A.2",
+    "source_label": "AP Physics 1 Unit 2 Force and Translational Dynamics MCQ — 2026-04-21"
+  },
+  {
+    "id": "d99753dc-133b-4cf6-a4e9-f7406ed4bcf0",
+    "title": "Newton's third law (force pairs)",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.3.A.1",
+    "source_label": "AP Physics 1 Unit 2 Force and Translational Dynamics MCQ — 2026-04-21"
+  },
+  {
+    "id": "2d698944-c5ae-486d-ab3d-fbb4335131ed",
+    "title": "Translational equilibrium concept & net-force conditions",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.4.A.2",
+    "source_label": "AP Physics 1 Unit 2 Force and Translational Dynamics MCQ — 2026-04-21"
+  },
+  {
+    "id": "bbb55c91-193b-4fdb-a7d0-fd44400515a9",
+    "title": "Apparent weight in an accelerating elevator",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.6.C.1",
+    "source_label": "AP Physics 1 Unit 2 Force and Translational Dynamics MCQ — 2026-04-21"
+  },
+  {
+    "id": "3de57203-070c-41b7-9f45-7ed8e18261bb",
+    "title": "Horizontal kinetic friction numerical comparison",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.7.A.2",
+    "source_label": "AP Physics 1 Unit 2 Force and Translational Dynamics MCQ — 2026-04-21"
+  },
+  {
+    "id": "b743c003-5094-41b2-9fc1-9c90e718c9a1",
+    "title": "Balance of forces on a supported horizontal board",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.4.A.2",
+    "source_label": "AP Physics 1 Unit 2 Force and Translational Dynamics MCQ — 2026-04-21"
+  },
+  {
+    "id": "973667a0-e055-4dff-b586-92f3389e905d",
+    "title": "Reading F-t or v-t graphs to determine force/acceleration",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.5.A.2",
+    "source_label": "AP Physics 1 Unit 2 Force and Translational Dynamics MCQ — 2026-04-21"
+  },
+  {
+    "id": "bb78f05e-de80-495a-a5ea-0541171a0769",
+    "title": "Stacked blocks & friction-limited acceleration",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.7.B.2",
+    "source_label": "AP Physics 1 Unit 2 Force and Translational Dynamics MCQ — 2026-04-21"
+  },
+  {
+    "id": "70981d06-64f6-4ec2-aeef-8a79127e7ee0",
+    "title": "Floating objects: displaced-fluid weight equals object weight",
+    "unit_label": "Unit 8: Fluids",
+    "primary_slo_id": "8.3.B.3",
+    "source_label": "AP Physics 1 Unit 8 Fluids MCQ — 2026-04-21"
+  },
+  {
+    "id": "f3230b7c-3712-468c-a7a6-43f680750722",
+    "title": "Source of centripetal force (friction/normal/tension provides Fc)",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.9.A.2",
+    "source_label": "AP Physics 1 Unit 2 Force and Translational Dynamics MCQ — 2026-04-21"
+  },
+  {
+    "id": "b1dffc3c-32f4-4126-bfaa-45375beec9a6",
+    "title": "Centripetal acceleration and force calculations (a = v²/r)",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.9.A.1",
+    "source_label": "AP Physics 1 Unit 2 Force and Translational Dynamics MCQ — 2026-04-21"
+  },
+  {
+    "id": "6f861ffb-0e34-4fce-b760-5f60ceddf0a8",
+    "title": "Continuity equation (A₁v₁ = A₂v₂)",
+    "unit_label": "Unit 8: Fluids",
+    "primary_slo_id": "8.4.A.2",
+    "source_label": "AP Physics 1 Unit 8 Fluids MCQ — 2026-04-21"
+  },
+  {
+    "id": "dc100bed-7afd-4632-8c1b-8ad53efc61e1",
+    "title": "Bernoulli's equation: pressure, speed, and elevation",
+    "unit_label": "Unit 8: Fluids",
+    "primary_slo_id": "8.4.B.2",
+    "source_label": "AP Physics 1 Unit 8 Fluids MCQ — 2026-04-21"
+  },
+  {
+    "id": "909bff58-644c-4423-954f-0eb27dcde525",
+    "title": "Velocity & acceleration direction in circular motion (conceptual)",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.9.A.1",
+    "source_label": "AP Physics 1 Unit 2 Force and Translational Dynamics MCQ — 2026-04-21"
+  },
+  {
+    "id": "41bca3e2-c8ce-409c-a321-c89763c254ac",
+    "title": "Tension at top/bottom of vertical circle",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.9.A.2",
+    "source_label": "AP Physics 1 Unit 2 Force and Translational Dynamics MCQ — 2026-04-21"
+  },
+  {
+    "id": "08af44c8-7071-4d00-b9e1-0d0d84c144d5",
+    "title": "Object leaving a circular path (projectile after release)",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.4.A.3",
+    "source_label": "AP Physics 1 Unit 2 Force and Translational Dynamics MCQ — 2026-04-21"
+  },
+  {
+    "id": "3c7a84f6-6cb3-4a12-bd32-6a0a7a78c31f",
+    "title": "Static equilibrium of a hanging mass with strings at angles",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.4.A.2",
+    "source_label": "AP Physics 1 Unit 2 Force and Translational Dynamics MCQ — 2026-04-21"
+  },
+  {
+    "id": "54c6cfca-d95b-4c5f-b789-bdd760a079b8",
+    "title": "Horizontal pull at an angle affecting normal force",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.2.B.4",
+    "source_label": "AP Physics 1 Unit 2 Force and Translational Dynamics MCQ — 2026-04-21"
+  },
+  {
+    "id": "665c502a-a8bf-47bb-9ec1-20afb9ca37a3",
+    "title": "Ideal spring / Hooke's law and effective spring constant",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.8.A.1",
+    "source_label": "AP Physics 1 Unit 2 Force and Translational Dynamics MCQ — 2026-04-21"
+  },
+  {
+    "id": "8c49e5bd-98d3-4fd2-a0f8-6ed7ba0fd0f7",
+    "title": "Banked / rotating wall & friction for circular motion",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.9.A.2",
+    "source_label": "AP Physics 1 Unit 2 Force and Translational Dynamics MCQ — 2026-04-21"
+  },
+  {
+    "id": "87d55c67-df68-453c-bbe4-b8f9b1a39790",
+    "title": "Pressure definition (P = F/A) and scaling with area",
+    "unit_label": "Unit 8: Fluids",
+    "primary_slo_id": "8.2.A.2",
+    "source_label": "AP Physics 1 Unit 8 Fluids MCQ — 2026-04-21"
+  },
+  {
+    "id": "861f6365-4b70-4a76-b263-c32c4a22d69f",
+    "title": "Hydrostatic pressure with depth (P = P₀ + ρgh)",
+    "unit_label": "Unit 8: Fluids",
+    "primary_slo_id": "8.2.B.3",
+    "source_label": "AP Physics 1 Unit 8 Fluids MCQ — 2026-04-21"
+  },
+  {
+    "id": "4ca41423-8706-4e1c-a43a-ec5449918f2c",
+    "title": "Pascal's principle and the hydraulic lift",
+    "unit_label": "Unit 8: Fluids",
+    "primary_slo_id": "8.2.A.2",
+    "source_label": "AP Physics 1 Unit 8 Fluids MCQ — 2026-04-21"
+  },
+  {
+    "id": "404c199d-ccd0-46cc-a063-25f1b3e06637",
+    "title": "Buoyant force on fully submerged objects (F_b = ρVg)",
+    "unit_label": "Unit 8: Fluids",
+    "primary_slo_id": "8.3.B.3",
+    "source_label": "AP Physics 1 Unit 8 Fluids MCQ — 2026-04-21"
+  },
+  {
+    "id": "f79998e9-c91e-4232-925b-2127d3786da7",
+    "title": "Torricelli's theorem: exit speed from an opening",
+    "unit_label": "Unit 8: Fluids",
+    "primary_slo_id": "8.4.B.3",
+    "source_label": "AP Physics 1 Unit 8 Fluids MCQ — 2026-04-21"
+  },
+  {
+    "id": "03d07b16-39e7-4c19-8567-44e95bdee70d",
+    "title": "Newton's law of universal gravitation (g, F, 1/r^2 scaling)",
+    "unit_label": "Unit 2: Force and Translational Dynamics",
+    "primary_slo_id": "2.6.A.2",
+    "source_label": null
+  }
+]

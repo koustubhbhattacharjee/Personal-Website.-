@@ -1,0 +1,479 @@
+/* Practice — flat editorial / Observatory style.
+   Question header on top. Excalidraw in the main column, the five matte
+   scenes line the right column and the bottom row so every drill level
+   is visible at once. Hairline dividers, no bezels, no rounded corners. */
+
+.root {
+  min-height: 100dvh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  color: var(--fg);
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  overflow: hidden;
+  font-family: var(--font-body);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid var(--rule);
+  background: var(--bg);
+  flex-shrink: 0;
+}
+
+.headerTitle {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--fg-3);
+}
+
+.headerLink {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--fg-2);
+  background: transparent;
+  border: none;
+  padding: 8px 0;
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  transition: color 0.15s;
+  cursor: pointer;
+}
+
+.headerLink:hover:not(:disabled) {
+  color: var(--fg);
+}
+
+.headerLink:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.obsStrip {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  border-bottom: 1px solid var(--rule);
+  background: var(--bg);
+  flex-shrink: 0;
+}
+
+.obsLabel {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--fg-3);
+  margin-right: 4px;
+}
+
+.obsSpacer { flex: 1; }
+
+.obsPalette {
+  background: transparent;
+  border: none;
+  padding: 4px 8px;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--fg-3);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: color 0.15s;
+}
+.obsPalette:hover { color: var(--fg); }
+.obsPaletteActive { color: var(--fg); border-bottom: 1px solid var(--accent); }
+
+.obsPaletteSwatch {
+  display: inline-block;
+  width: 22px;
+  height: 6px;
+  border-radius: 0;
+}
+
+/* Question header: eyebrow + display-serif title, full width on top */
+.questionHeader {
+  padding: 14px 20px 16px;
+  border-bottom: 1px solid var(--rule);
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.questionHeaderLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+  flex: 1;
+}
+
+.cardEyebrow {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--fg-3);
+  font-weight: 500;
+}
+
+.cardTitleBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  animation: obsHeadIn 320ms cubic-bezier(0.22, 0.61, 0.36, 1);
+  min-width: 0;
+}
+
+.cardTitleFirst {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: clamp(24px, 2.6vw, 34px);
+  line-height: 0.98;
+  letter-spacing: -0.02em;
+  color: var(--fg);
+  word-break: break-word;
+}
+
+.cardTitleRest {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-style: italic;
+  font-size: clamp(13px, 1vw, 16px);
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--fg-2);
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+@keyframes obsHeadIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Middle workspace: Excalidraw + vertical right column of three panels */
+.workspace {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--rule);
+}
+
+.main {
+  position: relative;
+  flex: 1;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background: var(--bg);
+}
+
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  flex-shrink: 0;
+}
+
+@media (min-width: 900px) {
+  .workspace { flex-direction: row; }
+  .main { border-right: 1px solid var(--rule); min-height: 0; }
+  .rightColumn { width: 34%; min-width: 260px; }
+}
+
+/* Bottom row: two panels side by side (Arc + Question) */
+.bottomRow {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+@media (min-width: 900px) {
+  .bottomRow { flex-direction: row; height: 26vh; min-height: 220px; }
+}
+
+/* Panel cell — hairline label bar + stage surface */
+.panelCell {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  min-width: 0;
+  overflow: hidden;
+  border-bottom: 1px solid var(--rule);
+}
+
+.rightColumn .panelCell:last-child { border-bottom: none; }
+
+.bottomRow .panelCell { border-bottom: none; }
+
+@media (min-width: 900px) {
+  .bottomRow .panelCell {
+    min-height: 0;
+    border-right: 1px solid var(--rule);
+  }
+  .bottomRow .panelCell:last-child { border-right: none; }
+}
+
+.panelLabel {
+  padding: 6px 12px;
+  font-family: var(--font-mono);
+  font-size: 9.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--fg-3);
+  border-bottom: 1px solid var(--rule);
+  background: var(--bg);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.panelLabelActive { color: var(--accent); }
+
+.panelLabelKey { flex-shrink: 0; }
+
+.panelLabelName {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--fg-2);
+  text-transform: none;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  text-align: left;
+  padding-left: 4px;
+}
+
+.panelLabelActive .panelLabelName { color: var(--accent); }
+
+.panelLabelIndex { flex-shrink: 0; color: var(--fg-4); }
+
+.panelBody {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  background: var(--stage);
+  overflow: hidden;
+}
+
+.panelBody > :global(canvas),
+.panelBody > :global(div) {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.panelEmpty {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--fg-4);
+  background: var(--stage);
+}
+
+.panelCorners {
+  position: absolute;
+  inset: 6px;
+  pointer-events: none;
+  z-index: 2;
+}
+.panelCorners i {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 1px solid var(--fg-4);
+}
+.panelCorners i:nth-child(1) { top: 0; left: 0; border-right: 0; border-bottom: 0; }
+.panelCorners i:nth-child(2) { top: 0; right: 0; border-left: 0; border-bottom: 0; }
+.panelCorners i:nth-child(3) { bottom: 0; left: 0; border-right: 0; border-top: 0; }
+.panelCorners i:nth-child(4) { bottom: 0; right: 0; border-left: 0; border-top: 0; }
+
+/* Main Excalidraw container */
+.dockShell {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+}
+
+.dockShell > * {
+  flex: 1;
+  min-height: 0;
+}
+
+/* Split layout when a question is active AND scratchpad is open */
+.mainSplit {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.questionSide {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  min-width: 0;
+  flex: 1;
+  border-bottom: 1px solid var(--rule);
+}
+
+@media (min-width: 900px) {
+  .mainSplit { flex-direction: row; }
+  .questionSide {
+    flex: 1;
+    border-bottom: none;
+    border-right: 1px solid var(--rule);
+    min-width: 0;
+  }
+  .mainSplit .dockShell {
+    flex: 1;
+    min-width: 0;
+  }
+}
+
+/* ExcalidrawDock internals — flat editorial chrome */
+.dock {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+}
+
+.dockHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 14px;
+  border-bottom: 1px solid var(--rule);
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.dockLabel {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  color: var(--fg-3);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.dockActions {
+  display: flex;
+  gap: 8px;
+}
+
+.dockBtn {
+  min-height: 36px;
+  padding: 4px 12px;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  border: none;
+  background: transparent;
+  color: var(--fg-2);
+  transition: color 0.15s;
+  cursor: pointer;
+}
+.dockBtn:hover:not(:disabled) { color: var(--fg); }
+.dockBtn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.dockBtnPrimary {
+  color: var(--accent);
+  border-bottom: 1px solid var(--accent);
+}
+.dockBtnPrimary:hover:not(:disabled) { color: var(--accent-2); }
+
+.dockCanvas {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+  background: var(--stage);
+}
+
+.dockCanvas > * {
+  position: absolute;
+  inset: 0;
+}
+
+/* Gates / spinners */
+.gate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 32px;
+  min-height: 100dvh;
+  text-align: center;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.gate h1 {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+}
+
+.gate p {
+  font-size: 13px;
+  color: var(--fg-3);
+  max-width: 44ch;
+  line-height: 1.55;
+}
+
+.spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100dvh;
+  color: var(--fg-3);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  background: var(--bg);
+}

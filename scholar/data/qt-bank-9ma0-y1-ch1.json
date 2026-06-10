@@ -1,0 +1,403 @@
+{
+  "schema_version": "2.0",
+  "source_type": "textbook",
+  "source_label": "Pearson Edexcel Year 1 Pure",
+  "textbook_key": "pearson-9ma0-y1",
+  "overlay_key": "pearson-9ma0-full",
+  "subject": "9MA0",
+  "question_types": [
+    {
+      "title": "Index Laws — Multiplication and Division",
+      "section_ref": "1.1",
+      "unit_label": "Chapter 1 — Algebraic expressions",
+      "primary_slo": "9MA0.P1.1.1.1",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Simplify x³ × x⁴.",
+          "options": [
+            "x⁷",
+            "x¹²",
+            "x",
+            "2x⁷"
+          ],
+          "correct_option": "A",
+          "explanation": "When multiplying same base, add exponents: 3 + 4 = 7.",
+          "diagram_required": "none"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Simplify 2x³ × 3x².",
+          "options": [
+            "6x⁵",
+            "6x⁶",
+            "5x⁵",
+            "6x"
+          ],
+          "correct_option": "A",
+          "explanation": "Multiply coefficients (2 × 3 = 6) and add exponents (3 + 2 = 5).",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Index Laws — Power of a Power",
+      "section_ref": "1.1",
+      "unit_label": "Chapter 1 — Algebraic expressions",
+      "primary_slo": "9MA0.P1.1.1.1",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Simplify (y²)⁵.",
+          "options": [
+            "y¹⁰",
+            "y⁷",
+            "y³",
+            "2y¹⁰"
+          ],
+          "correct_option": "A",
+          "explanation": "When raising a power to a power, multiply exponents: 2 × 5 = 10.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Expanding Brackets — Binomial Expansion",
+      "section_ref": "1.2",
+      "unit_label": "Chapter 1 — Algebraic expressions",
+      "primary_slo": "9MA0.P1.1.1.4",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Expand and simplify (x + 4)(x + 7).",
+          "explanation": "x(x+7) + 4(x+7) = x² + 7x + 4x + 28 = x² + 11x + 28.",
+          "diagram_required": "none",
+          "options": [
+            "x² + 11x + 28",
+            "x² + 11x + 14",
+            "x² + 28x + 11",
+            "x² + 3x + 28"
+          ],
+          "correct_option": "A"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Expand and simplify (x - 3)(x + 2).",
+          "explanation": "x(x+2) - 3(x+2) = x² + 2x - 3x - 6 = x² - x - 6.",
+          "diagram_required": "none",
+          "options": [
+            "x² + x − 6",
+            "x² - x - 6",
+            "x² − 5x − 6",
+            "x² − x + 6"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Factorising — Linear and Common Factors",
+      "section_ref": "1.3",
+      "unit_label": "Chapter 1 — Algebraic expressions",
+      "primary_slo": "9MA0.P1.1.2.1",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Factorise completely: 4x + 8.",
+          "explanation": "4 is a common factor of 4x and 8.",
+          "diagram_required": "none",
+          "options": [
+            "2(x + 4)",
+            "8(x + 1)",
+            "4(x + 2)",
+            "4(x + 4)"
+          ],
+          "correct_option": "C"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Factorise completely: 3x² - 9xy.",
+          "explanation": "3x is a common factor.",
+          "diagram_required": "none",
+          "options": [
+            "3x(x + 3y)",
+            "3(x² − 3y)",
+            "9x(x − y)",
+            "3x(x - 3y)"
+          ],
+          "correct_option": "D"
+        }
+      ]
+    },
+    {
+      "title": "Factorising — Quadratics",
+      "section_ref": "1.3",
+      "unit_label": "Chapter 1 — Algebraic expressions",
+      "primary_slo": "9MA0.P1.1.2.1",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Factorise x² + 6x + 8.",
+          "explanation": "Find two numbers that multiply to 8 and add to 6: 2 and 4.",
+          "diagram_required": "none",
+          "options": [
+            "(x + 2)(x + 4)",
+            "(x + 1)(x + 8)",
+            "(x + 2)(x + 3)",
+            "(x − 2)(x − 4)"
+          ],
+          "correct_option": "A"
+        }
+      ]
+    },
+    {
+      "title": "Negative and Fractional Indices — Simplification",
+      "section_ref": "1.4",
+      "unit_label": "Chapter 1 — Algebraic expressions",
+      "primary_slo": "9MA0.P1.1.1.2",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Simplify x³ ÷ x⁻².",
+          "options": [
+            "x⁵",
+            "x",
+            "x⁻⁵",
+            "x⁻¹"
+          ],
+          "correct_option": "A",
+          "explanation": "3 - (-2) = 5.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Negative and Fractional Indices — Numerical Evaluation",
+      "section_ref": "1.4",
+      "unit_label": "Chapter 1 — Algebraic expressions",
+      "primary_slo": "9MA0.P1.1.1.2",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Evaluate 25^½.",
+          "options": [
+            "5",
+            "12.5",
+            "50",
+            "2.5"
+          ],
+          "correct_option": "A",
+          "explanation": "Power of 1/2 is the square root. √25 = 5.",
+          "diagram_required": "none"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Evaluate 64^⅓.",
+          "options": [
+            "4",
+            "8",
+            "16",
+            "21.3"
+          ],
+          "correct_option": "A",
+          "explanation": "Power of 1/3 is the cube root. ∛64 = 4.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Surds — Simplification",
+      "section_ref": "1.5",
+      "unit_label": "Chapter 1 — Algebraic expressions",
+      "primary_slo": "9MA0.P1.1.1.3",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Simplify √12.",
+          "explanation": "√12 = √(4 × 3) = √4 × √3 = 2√3.",
+          "diagram_required": "none",
+          "options": [
+            "3√2",
+            "2√3",
+            "√6",
+            "4√3"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Rationalising Denominators — Simple and Binomial",
+      "section_ref": "1.6",
+      "unit_label": "Chapter 1 — Algebraic expressions",
+      "primary_slo": "9MA0.P1.1.1.3",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Rationalise the denominator of 1 / √3.",
+          "explanation": "Multiply numerator and denominator by √3.",
+          "diagram_required": "none",
+          "options": [
+            "1/3",
+            "√3",
+            "√3 / 3",
+            "√3/9"
+          ],
+          "correct_option": "C"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Rationalise the denominator of 1 / (1 + √3).",
+          "explanation": "Multiply numerator and denominator by (1 - √3) or (√3 - 1). Result is (√3 - 1) / 2.",
+          "diagram_required": "none",
+          "options": [
+            "(√3 + 1) / 2",
+            "(1 − √3) / 2",
+            "(√3 − 1) / 4",
+            "(√3 - 1) / 2"
+          ],
+          "correct_option": "D"
+        }
+      ]
+    },
+    {
+      "title": "Solving Quadratic Equations — Factorisation",
+      "section_ref": "2.1",
+      "unit_label": "Chapter 2 — Quadratics",
+      "primary_slo": "9MA0.P1.1.2.1",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Solve x² + 3x + 2 = 0.",
+          "explanation": "(x + 1)(x + 2) = 0, so x = -1 or x = -2.",
+          "diagram_required": "none",
+          "options": [
+            "x = -1, x = -2",
+            "x = 1, x = 2",
+            "x = −1, x = 2",
+            "x = 1, x = −3"
+          ],
+          "correct_option": "A"
+        },
+        {
+          "question_format": "mcq",
+          "question": "Solve x² - x - 6 = 0.",
+          "explanation": "(x - 3)(x + 2) = 0, so x = 3 or x = -2.",
+          "diagram_required": "none",
+          "options": [
+            "x = −3, x = 2",
+            "x = 3, x = -2",
+            "x = 3, x = 2",
+            "x = −3, x = −2"
+          ],
+          "correct_option": "B"
+        }
+      ]
+    },
+    {
+      "title": "Completing the Square — Expression Form",
+      "section_ref": "2.2",
+      "unit_label": "Chapter 2 — Quadratics",
+      "primary_slo": "9MA0.P1.1.2.2",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Complete the square for the expression: x² + 4x.",
+          "explanation": "Halve 4 to get 2, subtract 2².",
+          "diagram_required": "none",
+          "options": [
+            "(x + 2)² + 4",
+            "(x + 4)² − 16",
+            "(x + 2)² - 4",
+            "(x − 2)² − 4"
+          ],
+          "correct_option": "C"
+        }
+      ]
+    },
+    {
+      "title": "Functions — Numerical Evaluation",
+      "section_ref": "2.3",
+      "unit_label": "Chapter 2 — Quadratics",
+      "primary_slo": "9MA0.P1.1.2.1",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The function f is given by f(x) = 2x - 10. Find the value of f(5).",
+          "options": [
+            "0",
+            "10",
+            "20",
+            "-10"
+          ],
+          "correct_option": "A",
+          "explanation": "f(5) = 2(5) - 10 = 10 - 10 = 0.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Quadratic Graphs — Sketching",
+      "section_ref": "2.4",
+      "unit_label": "Chapter 2 — Quadratics",
+      "primary_slo": "9MA0.P1.1.4.1",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Sketch the graph of y = x².",
+          "explanation": "Standard quadratic graph passing through the origin.",
+          "diagram_required": "graph",
+          "options": [
+            "n-shaped (inverted U) parabola through origin",
+            "U-shaped parabola with vertex at (1, 0)",
+            "U-shaped parabola with y-intercept at (0, 1)",
+            "U-shaped parabola crossing at (0,0)"
+          ],
+          "correct_option": "D"
+        }
+      ]
+    },
+    {
+      "title": "The Discriminant — Analysis of Roots",
+      "section_ref": "2.5",
+      "unit_label": "Chapter 2 — Quadratics",
+      "primary_slo": "9MA0.P1.1.2.3",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "Calculate the value of the discriminant for f(x) = x² + 8x + 3.",
+          "options": [
+            "52",
+            "64",
+            "12",
+            "76"
+          ],
+          "correct_option": "A",
+          "explanation": "b² - 4ac = 8² - 4(1)(3) = 64 - 12 = 52.",
+          "diagram_required": "none"
+        }
+      ]
+    },
+    {
+      "title": "Modelling with Quadratics — Constant Interpretation",
+      "section_ref": "2.6",
+      "unit_label": "Chapter 2 — Quadratics",
+      "primary_slo": "9MA0.P1.1.2.3",
+      "questions": [
+        {
+          "question_format": "mcq",
+          "question": "The height of the cables above water level in metres can be modelled by the function h(x) = 0.00012x² + 200. Interpret the meaning of the constant term 200 in the model.",
+          "explanation": "When x = 0, h(x) = 200.",
+          "diagram_required": "none",
+          "options": [
+            "The height of the cables above water level at the centre of the bridge (when x = 0).",
+            "The maximum cable height above the road surface",
+            "The height at the bridge towers",
+            "The total horizontal span of the bridge"
+          ],
+          "correct_option": "A"
+        }
+      ]
+    }
+  ]
+}

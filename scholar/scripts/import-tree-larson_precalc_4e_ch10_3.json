@@ -1,0 +1,2140 @@
+{
+  "version": 2,
+  "source_label": "Larson — Precalculus with Limits (4th edition) — Section 10.3 Ellipses",
+  "source_type": "textbook",
+  "textbook_key": "larson_precalc_with_limits_4e",
+  "content_bank_id": "ddab656f-2f95-42d6-87d3-60c7e57b7a24",
+  "units": [
+    {
+      "id": "u10",
+      "label": "Chapter 10: Topics in Analytic Geometry",
+      "question_types": [
+        {
+          "label": "Ellipse Vocabulary",
+          "section_ref": "10.3",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.3.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.3.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Fill-in-the-blank vocabulary on ellipses, foci, major/minor axes, center, and eccentricity.",
+          "questions": [
+            {
+              "id": "q1",
+              "label": "1",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 732,
+                "section": "10.3 Ellipses",
+                "exercise_ref": "1"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "An ________ is the set of all points $(x, y)$ in a plane, the sum of whose distances from two distinct fixed points, called ________, is constant."
+                }
+              ]
+            },
+            {
+              "id": "q2",
+              "label": "2",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 732,
+                "section": "10.3 Ellipses",
+                "exercise_ref": "2"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The chord joining the vertices of an ellipse is the ________ ________, and its midpoint is the ________ of the ellipse."
+                }
+              ]
+            },
+            {
+              "id": "q3",
+              "label": "3",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 732,
+                "section": "10.3 Ellipses",
+                "exercise_ref": "3"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "The chord perpendicular to the major axis at the center of an ellipse is the ________ ________ of the ellipse."
+                }
+              ]
+            },
+            {
+              "id": "q4",
+              "label": "4",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 732,
+                "section": "10.3 Ellipses",
+                "exercise_ref": "4"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "You can measure the \"ovalness\" of an ellipse by using the concept of ________."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Matching Ellipse Equations to Their Graphs",
+          "section_ref": "10.3",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.3.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.3.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Visually match an ellipse equation in standard form to one of four labeled graphs.",
+          "questions": [
+            {
+              "id": "q5_8",
+              "label": "5–8",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q5_8",
+              "stem_header_content": [
+                {
+                  "type": "image",
+                  "page": 732,
+                  "bbox": [
+                    0.04,
+                    0.18,
+                    0.5,
+                    0.55
+                  ],
+                  "caption": "Graphs (a)–(d) for Exercises 5–8",
+                  "alt": "Four ellipse graphs labeled (a),(b),(c),(d): (a) horizontal ellipse centered at origin; (b) vertical ellipse centered at origin; (c) horizontal ellipse centered above the x-axis; (d) ellipse centered to the left of the origin (negative x)."
+                },
+                {
+                  "type": "text",
+                  "value": "Matching In Exercises 5–8, match the equation with its graph. [The graphs are labeled (a), (b), (c), and (d).]"
+                }
+              ],
+              "children": [
+                {
+                  "id": "q5",
+                  "label": "5",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "5"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{x^2}{4} + \\dfrac{y^2}{9} = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q6",
+                  "label": "6",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "6"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{x^2}{9} + \\dfrac{y^2}{4} = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q7",
+                  "label": "7",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "7"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{(x - 2)^2}{16} + (y + 1)^2 = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q8",
+                  "label": "8",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "8"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{(x + 2)^2}{9} + \\dfrac{(y + 2)^2}{4} = 1$"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Writing the Standard Equation of an Ellipse Centered at the Origin",
+          "section_ref": "10.3",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.3.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.3.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Given vertices, covertices, foci, points on the curve, or a graph showing center at the origin, write x²/a² + y²/b² = 1 (orientation depending on major axis).",
+          "questions": [
+            {
+              "id": "q9_18",
+              "label": "9–18",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q9_18",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "An Ellipse Centered at the Origin In Exercises 9–18, find the standard form of the equation of the ellipse with the given characteristics and center at the origin."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q9",
+                  "label": "9",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "9"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "image",
+                      "page": 732,
+                      "bbox": [
+                        0.04,
+                        0.74,
+                        0.27,
+                        0.97
+                      ],
+                      "caption": "Figure for Exercise 9",
+                      "alt": "Horizontal ellipse centered at origin with vertices (−2, 0), (2, 0) on the major axis indicated by points (0, 4) and (0, −4) on the minor axis (covertices)."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(See figure: vertices on the y-axis at $(0, 4)$ and $(0, -4)$; covertices on the x-axis at $(-2, 0)$ and $(2, 0)$.)"
+                    }
+                  ]
+                },
+                {
+                  "id": "q10",
+                  "label": "10",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "10"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "image",
+                      "page": 732,
+                      "bbox": [
+                        0.27,
+                        0.74,
+                        0.5,
+                        0.97
+                      ],
+                      "caption": "Figure for Exercise 10",
+                      "alt": "Horizontal ellipse centered at origin with covertices (0, 3/2), (0, −3/2) and vertices (−2, 0), (2, 0)."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(See figure: vertices $(-2, 0)$, $(2, 0)$; covertices $(0, \\tfrac{3}{2})$, $(0, -\\tfrac{3}{2})$.)"
+                    }
+                  ]
+                },
+                {
+                  "id": "q11",
+                  "label": "11",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "11"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(\\pm 7, 0)$; foci: $(\\pm 2, 0)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q12",
+                  "label": "12",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "12"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(0, \\pm 8)$; foci: $(0, \\pm 4)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q13",
+                  "label": "13",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "13"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Foci: $(\\pm 4, 0)$; major axis of length 10"
+                    }
+                  ]
+                },
+                {
+                  "id": "q14",
+                  "label": "14",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "14"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Foci: $(0, \\pm 3)$; major axis of length 8"
+                    }
+                  ]
+                },
+                {
+                  "id": "q15",
+                  "label": "15",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "15"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertical major axis; passes through the points $(0, 6)$ and $(3, 0)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q16",
+                  "label": "16",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "16"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Horizontal major axis; passes through the points $(5, 0)$ and $(0, 2)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q17",
+                  "label": "17",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "17"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(\\pm 6, 0)$; passes through the point $(4, 1)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q18",
+                  "label": "18",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "18"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(0, \\pm 8)$; passes through the point $(3, 4)$"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Writing the Standard Equation of an Ellipse with a General Center",
+          "section_ref": "10.3",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.3.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.3.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Given vertices, covertices, foci, or graphs with the center not at the origin, write (x − h)²/a² + (y − k)²/b² = 1.",
+          "questions": [
+            {
+              "id": "q19_30",
+              "label": "19–30",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q19_30",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "Finding the Standard Equation of an Ellipse In Exercises 19–30, find the standard form of the equation of the ellipse with the given characteristics."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q19",
+                  "label": "19",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "19"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "image",
+                      "page": 732,
+                      "bbox": [
+                        0.5,
+                        0.4,
+                        0.74,
+                        0.58
+                      ],
+                      "caption": "Figure for Exercise 19",
+                      "alt": "Vertical ellipse with center near (2, 3); points labeled (1, 3), (2, 6), (3, 3), and (2, 0) marking the four axis endpoints."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(See figure: center $(2, 3)$; vertices $(2, 0)$ and $(2, 6)$; covertices $(1, 3)$ and $(3, 3)$.)"
+                    }
+                  ]
+                },
+                {
+                  "id": "q20",
+                  "label": "20",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "20"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "image",
+                      "page": 732,
+                      "bbox": [
+                        0.74,
+                        0.4,
+                        0.97,
+                        0.58
+                      ],
+                      "caption": "Figure for Exercise 20",
+                      "alt": "Horizontal ellipse with center (2, −1); axis endpoints labeled (0, −1), (2, 0), (4, −1), (2, −2)."
+                    },
+                    {
+                      "type": "text",
+                      "value": "(See figure: center $(2, -1)$; vertices $(0, -1)$ and $(4, -1)$; covertices $(2, 0)$ and $(2, -2)$.)"
+                    }
+                  ]
+                },
+                {
+                  "id": "q21",
+                  "label": "21",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "21"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(2, 0)$, $(10, 0)$; minor axis of length 4"
+                    }
+                  ]
+                },
+                {
+                  "id": "q22",
+                  "label": "22",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "22"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(3, 1)$, $(3, 11)$; minor axis of length 2"
+                    }
+                  ]
+                },
+                {
+                  "id": "q23",
+                  "label": "23",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "23"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Foci: $(0, 0)$, $(4, 0)$; major axis of length 6"
+                    }
+                  ]
+                },
+                {
+                  "id": "q24",
+                  "label": "24",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "24"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Foci: $(0, 0)$, $(0, 8)$; major axis of length 16"
+                    }
+                  ]
+                },
+                {
+                  "id": "q25",
+                  "label": "25",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "25"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Center: $(1, 3)$; vertex: $(-2, 3)$; minor axis of length 4"
+                    }
+                  ]
+                },
+                {
+                  "id": "q26",
+                  "label": "26",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "26"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Center: $(2, -1)$; vertex: $(2, \\tfrac{1}{2})$; minor axis of length 2"
+                    }
+                  ]
+                },
+                {
+                  "id": "q27",
+                  "label": "27",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "27"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Center: $(1, 4)$; $a = 2c$; vertices: $(1, 0)$, $(1, 8)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q28",
+                  "label": "28",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "28"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Center: $(3, 2)$; $a = 3c$; foci: $(1, 2)$, $(5, 2)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q29",
+                  "label": "29",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "29"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(0, 2)$, $(4, 2)$; endpoints of the minor axis: $(2, 3)$, $(2, 1)$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q30",
+                  "label": "30",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 732,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "30"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "Vertices: $(5, 0)$, $(5, 12)$; endpoints of the minor axis: $(1, 6)$, $(9, 6)$"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Finding Center, Vertices, Foci, and Eccentricity from Standard Form",
+          "section_ref": "10.3",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.3.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.3.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Read off center, vertices, foci, and eccentricity directly from a standard-form ellipse equation and sketch the graph.",
+          "questions": [
+            {
+              "id": "q31_46",
+              "label": "31–46",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q31_46",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "Sketching an Ellipse In Exercises 31–46, find the center, vertices, foci, and eccentricity of the ellipse. Then sketch the ellipse."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q31",
+                  "label": "31",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 733,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "31"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{x^2}{25} + \\dfrac{y^2}{16} = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q32",
+                  "label": "32",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 733,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "32"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{x^2}{16} + \\dfrac{y^2}{81} = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q33",
+                  "label": "33",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 733,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "33"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$9x^2 + y^2 = 36$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q34",
+                  "label": "34",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 733,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "34"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$x^2 + 16y^2 = 64$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q35",
+                  "label": "35",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 733,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "35"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{(x - 4)^2}{16} + \\dfrac{(y + 1)^2}{25} = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q36",
+                  "label": "36",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 733,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "36"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{(x + 3)^2}{12} + \\dfrac{(y - 2)^2}{16} = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q37",
+                  "label": "37",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 733,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "37"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{(x + 5)^2}{9/4} + (y - 1)^2 = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q38",
+                  "label": "38",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 733,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "38"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$(x + 2)^2 + \\dfrac{(y + 4)^2}{1/4} = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q39",
+                  "label": "39",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 733,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "39"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$9x^2 + 4y^2 + 36x - 24y + 36 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q40",
+                  "label": "40",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 733,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "40"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$9x^2 + 4y^2 - 54x + 40y + 37 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q41",
+                  "label": "41",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 733,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "41"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$x^2 + 5y^2 - 8x - 30y - 39 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q42",
+                  "label": "42",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 733,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "42"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$3x^2 + y^2 + 18x - 2y - 8 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q43",
+                  "label": "43",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 733,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "43"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$6x^2 + 2y^2 + 18x - 10y + 2 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q44",
+                  "label": "44",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 733,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "44"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$x^2 + 4y^2 - 6x + 20y - 2 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q45",
+                  "label": "45",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 733,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "45"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$12x^2 + 20y^2 - 12x + 40y - 37 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q46",
+                  "label": "46",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 733,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "46"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$36x^2 + 9y^2 + 48x - 36y + 43 = 0$"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Converting an Ellipse from General Form and Graphing with a Utility",
+          "section_ref": "10.3",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.3.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.3.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Convert a general-form ellipse equation (e.g. Ax² + Cy² + Dx + Ey + F = 0) to standard form, then identify center/foci/vertices and graph with a utility.",
+          "questions": [
+            {
+              "id": "q47_50",
+              "label": "47–50",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q47_50",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "Graphing an Ellipse In Exercises 47–50, use a graphing utility to graph the ellipse. Find the center, foci, and vertices."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q47",
+                  "label": "47",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 733,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "47"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$5x^2 + 3y^2 = 15$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q48",
+                  "label": "48",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 733,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "48"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$3x^2 + 4y^2 = 12$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q49",
+                  "label": "49",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 733,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "49"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$x^2 + 9y^2 - 10x + 36y + 52 = 0$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q50",
+                  "label": "50",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 733,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "50"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$4x^2 + 3y^2 - 8x + 18y + 19 = 0$"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Finding the Equation of an Ellipse Using Eccentricity",
+          "section_ref": "10.3",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.3.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.3.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Given vertices and an eccentricity value e = c/a, derive a and b and write the standard-form equation.",
+          "questions": [
+            {
+              "id": "q51",
+              "label": "51",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 733,
+                "section": "10.3 Ellipses",
+                "exercise_ref": "51"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Using Eccentricity Find an equation of the ellipse with vertices $(\\pm 5, 0)$ and eccentricity $e = \\dfrac{4}{5}$."
+                }
+              ]
+            },
+            {
+              "id": "q52",
+              "label": "52",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 733,
+                "section": "10.3 Ellipses",
+                "exercise_ref": "52"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Using Eccentricity Find an equation of the ellipse with vertices $(0, \\pm 8)$ and eccentricity $e = \\dfrac{1}{2}$."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Modeling Real-World Objects with Ellipses",
+          "section_ref": "10.3",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.3.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.3.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Application problems modeling rooms, archways, lithotripters, and orbital paths (planetary, comet, satellite) as ellipses.",
+          "questions": [
+            {
+              "id": "q53",
+              "label": "53",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 733,
+                "section": "10.3 Ellipses",
+                "exercise_ref": "53"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Architecture Statuary Hall is an elliptical room in the United States Capitol in Washington, D.C. The room is also called the Whispering Gallery because a person standing at one focus of the room can hear even a whisper spoken by a person standing at the other focus. The dimensions of Statuary Hall are 46 feet wide by 97 feet long.\n(a) Find an equation of the shape of the room.\n(b) Determine the distance between the foci."
+                }
+              ]
+            },
+            {
+              "id": "q54",
+              "label": "54",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 733,
+                "section": "10.3 Ellipses",
+                "exercise_ref": "54"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Architecture A mason is building a semielliptical fireplace arch that has a height of 2 feet at the center and a width of 6 feet along the base (see figure). The mason draws the semiellipse on the wall by the method shown on page 708. Find the positions of the thumbtacks and the length of the string."
+                },
+                {
+                  "type": "image",
+                  "page": 733,
+                  "bbox": [
+                    0.51,
+                    0.04,
+                    0.97,
+                    0.3
+                  ],
+                  "caption": "Figure for Exercise 54",
+                  "alt": "Brick wall with a semi-elliptical fireplace arch drawn on it: width 6 ft (from x = −3 to x = 3) along the base, height 1 unit shown at center."
+                }
+              ]
+            },
+            {
+              "id": "q55",
+              "label": "55",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 733,
+                "section": "10.3 Ellipses",
+                "exercise_ref": "55"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Lithotripter A lithotripter machine uses an elliptical reflector to break up kidney stones nonsurgically. A spark plug in the reflector generates energy waves at one focus of an ellipse. The reflector directs these waves toward the kidney stone, positioned at the other focus of the ellipse, with enough energy to break up the stone (see figure). The lengths of the major and minor axes of the ellipse are 280 millimeters and 160 millimeters, respectively. How far is the spark plug from the kidney stone?"
+                },
+                {
+                  "type": "image",
+                  "page": 733,
+                  "bbox": [
+                    0.51,
+                    0.31,
+                    0.97,
+                    0.5
+                  ],
+                  "caption": "Photograph for Exercise 55",
+                  "alt": "Photograph of medical staff with a lithotripter machine in a hospital setting."
+                },
+                {
+                  "type": "image",
+                  "page": 733,
+                  "bbox": [
+                    0.51,
+                    0.55,
+                    0.97,
+                    0.78
+                  ],
+                  "caption": "Diagram for Exercise 55",
+                  "alt": "Diagram of an elliptical reflector with the spark plug at one focus on the left and the kidney stone at the other focus on the right; dashed energy waves spread from the spark plug, reflect off the ellipse, and converge at the kidney stone."
+                }
+              ]
+            },
+            {
+              "id": "q56",
+              "label": "56",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 733,
+                "section": "10.3 Ellipses",
+                "exercise_ref": "56"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Astronomy Halley's comet has an elliptical orbit with the center of the sun at one focus. The eccentricity of the orbit is approximately 0.967. The length of the major axis of the orbit is approximately 35.88 astronomical units. (An astronomical unit is about 93 million miles.)\n(a) Find an equation of the orbit. Place the center of the orbit at the origin and place the major axis on the x-axis.\n(b) Use a graphing utility to graph the equation of the orbit.\n(c) Find the greatest and least distances (the aphelion and perihelion, respectively) from the sun's center to the comet's center."
+                }
+              ]
+            },
+            {
+              "id": "q57",
+              "label": "57",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 734,
+                "section": "10.3 Ellipses",
+                "exercise_ref": "57"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Astronomy The first artificial satellite to orbit Earth was Sputnik I (launched by the former Soviet Union in 1957). Its highest point above Earth's surface was 939 kilometers, and its lowest point was 215 kilometers (see figure). The center of Earth was at one focus of the elliptical orbit. Find the eccentricity of the orbit. (Assume the radius of Earth is 6378 kilometers.)"
+                },
+                {
+                  "type": "image",
+                  "page": 734,
+                  "bbox": [
+                    0.04,
+                    0.1,
+                    0.5,
+                    0.36
+                  ],
+                  "caption": "Figure for Exercise 57",
+                  "alt": "Diagram of Earth with an elliptical Sputnik orbit around it; the lowest point of the orbit is 215 km above Earth and the highest point is 939 km above Earth, with Earth's center marked as a focus."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Sketching an Ellipse Using the Latera Recta",
+          "section_ref": "10.3",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.3.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.3.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "Derive the length of a latus rectum (2b²/a) and use the latera recta as auxiliary points to sketch an ellipse.",
+          "questions": [
+            {
+              "id": "q58",
+              "label": "58",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 734,
+                "section": "10.3 Ellipses",
+                "exercise_ref": "58"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Geometry A line segment through a focus of an ellipse with endpoints on the ellipse and perpendicular to the major axis is called a **latus rectum** of the ellipse. An ellipse has two latera recta. Knowing the length of the latera recta is helpful in sketching an ellipse because it yields other points on the curve (see figure). Show that the length of each latus rectum is $2b^2/a$."
+                },
+                {
+                  "type": "image",
+                  "page": 734,
+                  "bbox": [
+                    0.04,
+                    0.4,
+                    0.5,
+                    0.62
+                  ],
+                  "caption": "Figure for Exercise 58",
+                  "alt": "Horizontal ellipse centered at origin with foci $F_1$, $F_2$ on the major axis and the two latera recta drawn as vertical chords through each focus."
+                }
+              ]
+            },
+            {
+              "id": "q59_62",
+              "label": "59–62",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q59_62",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "Using Latera Recta In Exercises 59–62, sketch the ellipse using the latera recta (see Exercise 58)."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q59",
+                  "label": "59",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 734,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "59"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{x^2}{9} + \\dfrac{y^2}{16} = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q60",
+                  "label": "60",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 734,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "60"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$\\dfrac{x^2}{4} + \\dfrac{y^2}{1} = 1$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q61",
+                  "label": "61",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 734,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "61"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$5x^2 + 3y^2 = 15$"
+                    }
+                  ]
+                },
+                {
+                  "id": "q62",
+                  "label": "62",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 734,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "62"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "$9x^2 + 4y^2 = 36$"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Conceptual Reasoning About Ellipses",
+          "section_ref": "10.3",
+          "primary_slo": "south_carolina::precalculus::PC.GGPE.3.1",
+          "slo_weights": [
+            {
+              "slo": "south_carolina::precalculus::PC.GGPE.3.1",
+              "weight": 1
+            }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [],
+          "lo_confidence": "high",
+          "notes": "True/false reasoning, applying the focus-distance definition to construct ellipses, conjectures about area and eccentricity, and proofs of relationships such as a² = b² + c².",
+          "questions": [
+            {
+              "id": "q63_64",
+              "label": "63–64",
+              "kind": "shared_stimulus_set",
+              "stem_group_key": "q63_64",
+              "stem_header_content": [
+                {
+                  "type": "text",
+                  "value": "True or False? In Exercises 63 and 64, determine whether the statement is true or false. Justify your answer."
+                }
+              ],
+              "children": [
+                {
+                  "id": "q63",
+                  "label": "63",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 734,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "63"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "The graph of $x^2 + 4y^4 - 4 = 0$ is an ellipse."
+                    }
+                  ]
+                },
+                {
+                  "id": "q64",
+                  "label": "64",
+                  "is_stem_child": true,
+                  "ambiguous": false,
+                  "confidence": 0.95,
+                  "notes": "",
+                  "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+                  "primary_slo_guess": "PC.GGPE.3.1",
+                  "slo_confidence": "high",
+                  "question_format": "free_response",
+                  "source_reference": {
+                    "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                    "textbook_key": "larson_precalc_with_limits_4e",
+                    "page": 734,
+                    "section": "10.3 Ellipses",
+                    "exercise_ref": "64"
+                  },
+                  "ordered_content": [
+                    {
+                      "type": "text",
+                      "value": "It is easier to distinguish the graph of an ellipse from the graph of a circle when the eccentricity of the ellipse is close to 1."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "q65",
+              "label": "65",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 734,
+                "section": "10.3 Ellipses",
+                "exercise_ref": "65"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Think About It Find an equation of an ellipse such that for any point on the ellipse, the sum of the distances from the point to the points $(2, 2)$ and $(10, 2)$ is 36."
+                }
+              ]
+            },
+            {
+              "id": "q66",
+              "label": "66",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 734,
+                "section": "10.3 Ellipses",
+                "exercise_ref": "66"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Think About It At the beginning of this section, you learned that an ellipse can be drawn using two thumbtacks, a string of fixed length (greater than the distance between the two thumbtacks), and a pencil. When the ends of the string are fastened to the thumbtacks and the string is drawn taut with the pencil, the path traced by the pencil is an ellipse.\n(a) What is the length of the string in terms of $a$?\n(b) Explain why the path is an ellipse."
+                }
+              ]
+            },
+            {
+              "id": "q67",
+              "label": "67",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 734,
+                "section": "10.3 Ellipses",
+                "exercise_ref": "67"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Conjecture Consider the ellipse\n$$\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1, \\quad a + b = 20.$$\n(a) The area of the ellipse is given by $A = \\pi ab$. Write the area of the ellipse as a function of $a$.\n(b) Find the equation of an ellipse with an area of 264 square centimeters.\n(c) Complete the table using your equation from part (a). Then make a conjecture about the shape of the ellipse with maximum area.\n\n| $a$ | 8 | 9 | 10 | 11 | 12 | 13 |\n|---|---|---|---|---|---|---|\n| $A$ | | | | | | |\n\n(d) Use a graphing utility to graph the area function and use the graph to support your conjecture in part (c)."
+                }
+              ]
+            },
+            {
+              "id": "q68",
+              "label": "68",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 734,
+                "section": "10.3 Ellipses",
+                "exercise_ref": "68"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "HOW DO YOU SEE IT? Without performing any calculations, order the eccentricities of the ellipses from least to greatest."
+                },
+                {
+                  "type": "image",
+                  "page": 734,
+                  "bbox": [
+                    0.51,
+                    0.4,
+                    0.97,
+                    0.78
+                  ],
+                  "caption": "Figure for Exercise 68",
+                  "alt": "Three ellipses on the same axes: Ellipse A is a tall vertical ellipse, Ellipse B is a wide horizontal ellipse, Ellipse C is a tall vertical ellipse smaller than A. All centered at the origin."
+                }
+              ]
+            },
+            {
+              "id": "q69",
+              "label": "69",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "",
+              "unit_guess": "Topic PC.GGPE: Expressing Geometric Properties with Equations",
+              "primary_slo_guess": "PC.GGPE.3.1",
+              "slo_confidence": "high",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "Larson — Precalculus with Limits (4th edition)",
+                "textbook_key": "larson_precalc_with_limits_4e",
+                "page": 734,
+                "section": "10.3 Ellipses",
+                "exercise_ref": "69"
+              },
+              "ordered_content": [
+                {
+                  "type": "text",
+                  "value": "Proof Show that $a^2 = b^2 + c^2$ for the ellipse\n$$\\dfrac{x^2}{a^2} + \\dfrac{y^2}{b^2} = 1$$\nwhere $a > 0$, $b > 0$, and the distance from the center of the ellipse $(0, 0)$ to a focus is $c$."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

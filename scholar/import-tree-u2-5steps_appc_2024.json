@@ -1,0 +1,303 @@
+{
+  "version": 2,
+  "source_label": "5 Steps AP Physics C (2024) — Chapter 10 Forces and Newton's Laws (pages 169–190) — extracted 2026-05",
+  "source_type": "external",
+  "textbook_key": "5steps_appc_2024",
+  "units": [
+    {
+      "id": "u1",
+      "label": "APPC.2 Force and Translational Dynamics",
+      "question_types": [
+        {
+          "id": "qt1",
+          "label": "Apply Newton's second law on a frictionless incline using component decomposition",
+          "section_ref": "",
+          "primary_slo": "2.5.A.2",
+          "notes": "Both questions resolve weight on a smooth incline into parallel/perpendicular components and apply F=ma. Q1 uses the parallel component for acceleration; Q2 uses the perpendicular component to compare normal force to weight. 2.2.B.4 (coordinate system aligned to acceleration) is the prerequisite decomposition skill.",
+          "slo_weights": [
+            { "slo": "2.5.A.2", "weight": 0.50 },
+            { "slo": "2.2.B.4", "weight": 0.30 },
+            { "slo": "2.6.B.2", "weight": 0.20 }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            { "slo": "2.2.B.4", "weight": 0.30 },
+            { "slo": "2.6.B.2", "weight": 0.20 }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q1",
+              "label": "1",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.92,
+              "notes": "Stem split across pages 183–184; choices on page 184. 5-option MCQ.",
+              "question_format": "mcq",
+              "options": [
+                "(A) 1.6 s",
+                "(B) 3.2 s",
+                "(C) 4.0 s",
+                "(D) 6.0 s",
+                "(E) 8.0 s"
+              ],
+              "correct_option": "(B) 3.2 s",
+              "source_reference": {
+                "worksheet_name": "5 Steps AP Physics C (2024) — Chapter 10 Forces and Newton's Laws (pages 169–190) — extracted 2026-05",
+                "textbook_key": "5steps_appc_2024",
+                "page": 183,
+                "section": "Practice Problems — Multiple Choice",
+                "exercise_ref": "1"
+              },
+              "ordered_content": [
+                { "type": "text", "value": "A 2.0-kg cart is given a shove up a long, smooth 30° incline. If the cart is traveling 8.0 m/s after the shove, how much time elapses until the cart returns to its initial position?" },
+                { "type": "text", "value": "(A) 1.6 s\n(B) 3.2 s\n(C) 4.0 s\n(D) 6.0 s\n(E) 8.0 s" }
+              ]
+            },
+            {
+              "id": "q2",
+              "label": "2",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "5-option MCQ.",
+              "question_format": "mcq",
+              "options": [
+                "(A) The normal force must be equal to the car's weight.",
+                "(B) The normal force must be less than the car's weight.",
+                "(C) The normal force must be greater than the car's weight.",
+                "(D) The normal force must be zero.",
+                "(E) The normal force could have any value relative to the car's weight."
+              ],
+              "correct_option": "(B) The normal force must be less than the car's weight.",
+              "source_reference": {
+                "worksheet_name": "5 Steps AP Physics C (2024) — Chapter 10 Forces and Newton's Laws (pages 169–190) — extracted 2026-05",
+                "textbook_key": "5steps_appc_2024",
+                "page": 184,
+                "section": "Practice Problems — Multiple Choice",
+                "exercise_ref": "2"
+              },
+              "ordered_content": [
+                { "type": "text", "value": "A car slides up a frictionless inclined plane. How does the normal force of the incline on the car compare with the weight of the car?" },
+                { "type": "text", "value": "(A) The normal force must be equal to the car's weight.\n(B) The normal force must be less than the car's weight.\n(C) The normal force must be greater than the car's weight.\n(D) The normal force must be zero.\n(E) The normal force could have any value relative to the car's weight." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt2",
+          "label": "Solve connected-object Newton's second law systems by writing F=ma per object",
+          "section_ref": "",
+          "primary_slo": "2.5.A.2",
+          "notes": "Both questions involve two objects sharing one rope (same tension, same acceleration magnitude). Solve by writing F=ma per object then combining algebraically. Q6 adds kinetic friction (2.7.A.1).",
+          "slo_weights": [
+            { "slo": "2.5.A.2", "weight": 0.45 },
+            { "slo": "2.3.A.3.ii", "weight": 0.25 },
+            { "slo": "2.2.B.1", "weight": 0.15 },
+            { "slo": "2.7.A.1", "weight": 0.15 }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            { "slo": "2.3.A.3.ii", "weight": 0.25 },
+            { "slo": "2.2.B.1", "weight": 0.15 },
+            { "slo": "2.7.A.1", "weight": 0.15 }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q3",
+              "label": "3",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.93,
+              "notes": "5-option MCQ; figure precedes stem ('In the diagram above').",
+              "question_format": "mcq",
+              "options": [
+                "(A) 30 N",
+                "(B) 10 N",
+                "(C) 6.7 N",
+                "(D) 5.0 N",
+                "(E) 3.3 N"
+              ],
+              "correct_option": "(E) 3.3 N",
+              "source_reference": {
+                "worksheet_name": "5 Steps AP Physics C (2024) — Chapter 10 Forces and Newton's Laws (pages 169–190) — extracted 2026-05",
+                "textbook_key": "5steps_appc_2024",
+                "page": 184,
+                "section": "Practice Problems — Multiple Choice",
+                "exercise_ref": "3"
+              },
+              "ordered_content": [
+                { "type": "image", "page": 184, "bbox": [0.13, 0.39, 0.74, 0.49], "caption": "", "alt": "Two carts on a horizontal track, connected by a rope. The 1.0-kg cart on the left is connected by a rope to the 2.0-kg cart on the right; the 2.0-kg cart is connected on its right side to a spring scale, which is being pulled to the right by an external force labeled 'Pull'." },
+                { "type": "text", "value": "In the diagram above, a 1.0-kg cart and a 2.0-kg cart are connected by a rope. The spring scale reads 10 N. What is the tension in the rope connecting the two carts? Neglect any friction." },
+                { "type": "text", "value": "(A) 30 N\n(B) 10 N\n(C) 6.7 N\n(D) 5.0 N\n(E) 3.3 N" }
+              ]
+            },
+            {
+              "id": "q6",
+              "label": "6",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.95,
+              "notes": "Multi-part FRQ ((a) acceleration, (b) tension) on a 5-kg block on table connected via pulley to a 2-kg hanging block, with friction.",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "5 Steps AP Physics C (2024) — Chapter 10 Forces and Newton's Laws (pages 169–190) — extracted 2026-05",
+                "textbook_key": "5steps_appc_2024",
+                "page": 186,
+                "section": "Practice Problems — Free Response",
+                "exercise_ref": "6"
+              },
+              "ordered_content": [
+                { "type": "image", "page": 186, "bbox": [0.28, 0.22, 0.74, 0.46], "caption": "", "alt": "A 5-kg block sits on a horizontal table. A rope attached to the 5-kg block runs horizontally across the table, passes over a pulley at the right edge of the table, and hangs down vertically; a 2-kg block hangs from the lower end of the rope off the right edge of the table." },
+                { "type": "text", "value": "A 2-kg block and a 5-kg block are connected as shown above. The coefficient of friction between the 5-kg block and the flat surface is μ = 0.2.\n\n(a) Calculate the magnitude of the acceleration of the 5-kg block.\n(b) Calculate the tension in the rope connecting the two blocks." }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt3",
+          "label": "Extract acceleration from a kinematic graph and apply F=ma",
+          "section_ref": "",
+          "primary_slo": "2.5.A.2",
+          "notes": "Read the slope of a v–t graph to get acceleration (1.3.A.4 from Unit 1 supplies the graph-reading skill), then multiply by mass to find net force per F=ma; sign of slope gives direction.",
+          "slo_weights": [
+            { "slo": "2.5.A.2", "weight": 0.55 },
+            { "slo": "1.3.A.4", "weight": 0.30 },
+            { "slo": "1.1.A.5", "weight": 0.15 }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            { "slo": "1.3.A.4", "weight": 0.30 },
+            { "slo": "1.1.A.5", "weight": 0.15 }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q4",
+              "label": "4",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.93,
+              "notes": "5-option MCQ; figure precedes stem ('velocity-time graph above').",
+              "question_format": "mcq",
+              "options": [
+                "(A) 2.0 N, right",
+                "(B) 2.0 N, left",
+                "(C) 0.4 N, right",
+                "(D) 0.4 N, left",
+                "(E) 12.5 N, left"
+              ],
+              "correct_option": "(B) 2.0 N, left",
+              "source_reference": {
+                "worksheet_name": "5 Steps AP Physics C (2024) — Chapter 10 Forces and Newton's Laws (pages 169–190) — extracted 2026-05",
+                "textbook_key": "5steps_appc_2024",
+                "page": 185,
+                "section": "Practice Problems — Multiple Choice",
+                "exercise_ref": "4"
+              },
+              "ordered_content": [
+                { "type": "image", "page": 185, "bbox": [0.18, 0.04, 0.74, 0.38], "caption": "", "alt": "A velocity-versus-time graph. Vertical axis labeled v (m/s) with marks at 2 and 4. Horizontal axis labeled t (s) with marks at 5 and 10. A straight line decreases linearly from v = 4 m/s at t = 0 to v = 0 at t = 10 s." },
+                { "type": "text", "value": "The velocity–time graph above represents the motion of a 5-kg box. The only force applied to this box is a person pushing. Assuming that the box is moving to the right, what is the magnitude and direction of the force applied by the person pushing?" },
+                { "type": "text", "value": "(A) 2.0 N, right\n(B) 2.0 N, left\n(C) 0.4 N, right\n(D) 0.4 N, left\n(E) 12.5 N, left" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "qt4",
+          "label": "Evaluate qualitative reasoning about Newton's second law in everyday contexts",
+          "section_ref": "",
+          "primary_slo": "2.4.A.2",
+          "notes": "Q7 hinges on recognizing that constant velocity means net force = 0, NOT that the engine produces zero force — the engine must balance air resistance/friction. Core SLO is translational equilibrium (2.4.A.2). 2.5.A.1 (unbalanced forces produce acceleration) is the parallel concept students must apply correctly to the in-town case.",
+          "slo_weights": [
+            { "slo": "2.4.A.2", "weight": 0.50 },
+            { "slo": "2.5.A.1", "weight": 0.30 },
+            { "slo": "2.4.A.1", "weight": 0.20 }
+          ],
+          "aligned_slos": ["2.4.A.1"],
+          "reinforcement_slos": [
+            { "slo": "2.5.A.1", "weight": 0.30 }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q7",
+              "label": "7",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.92,
+              "notes": "Conceptual qualitative-justification FRQ: pick which student's reasoning is correct and explain why. Stem spans pages 186–187.",
+              "question_format": "free_response",
+              "source_reference": {
+                "worksheet_name": "5 Steps AP Physics C (2024) — Chapter 10 Forces and Newton's Laws (pages 169–190) — extracted 2026-05",
+                "textbook_key": "5steps_appc_2024",
+                "page": 186,
+                "section": "Practice Problems — Free Response",
+                "exercise_ref": "7"
+              },
+              "ordered_content": [
+                { "type": "text", "value": "Bert, Ernie, and Oscar are discussing the gas mileage of cars. Specifically, they are wondering whether a car gets better mileage on a city street or on a freeway. All agree (correctly) that the gas mileage of a car depends on the force that is produced by the car's engine—the car gets fewer miles per gallon if the engine must produce more force. Whose explanation is completely correct?\n\nBert says: Gas mileage is better on the freeway. In town the car is always speeding up and slowing down because of the traffic lights, so because F_net = ma and acceleration is large, the engine must produce a lot of force. However, on the freeway, the car moves with constant velocity, and acceleration is zero. So the engine produces no force, allowing for better gas mileage.\n\nErnie says: Gas mileage is better in town. In town, the speed of the car is slower than the speed on the freeway. Acceleration is velocity divided by time, so the acceleration in town is smaller. Because F_net = ma, then, the force of the engine is smaller in town giving better gas mileage.\n\nOscar says: Gas mileage is better on the freeway. The force of the engine only has to be enough to equal the force of air resistance—the engine doesn't have to accelerate the car because the car maintains a constant speed. Whereas in town, the force of the engine must often be greater than the force of friction and air resistance in order to let the car speed up." }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u2",
+      "label": "APPC.5 Torque and Rotational Dynamics",
+      "question_types": [
+        {
+          "id": "qt5",
+          "label": "Apply rotational equilibrium (net torque = 0) to find a balance point",
+          "section_ref": "",
+          "primary_slo": "5.5.A.1.ii",
+          "notes": "Static equilibrium of a meterstick: choose pivot at string attachment, set sum of torques = 0. 5.3.B.2 supplies the torque equation; 5.3.A.2 supplies the lever-arm concept.",
+          "slo_weights": [
+            { "slo": "5.5.A.1.ii", "weight": 0.45 },
+            { "slo": "5.3.B.2", "weight": 0.30 },
+            { "slo": "5.3.A.2", "weight": 0.25 }
+          ],
+          "aligned_slos": [],
+          "reinforcement_slos": [
+            { "slo": "5.3.B.2", "weight": 0.30 },
+            { "slo": "5.3.A.2", "weight": 0.25 }
+          ],
+          "lo_confidence": "high",
+          "questions": [
+            {
+              "id": "q5",
+              "label": "5",
+              "kind": "single_question",
+              "ambiguous": false,
+              "confidence": 0.90,
+              "notes": "5-option MCQ. Figure on page 185 (above stem); choices on page 186. Despite appearing in the 'Forces and Newton's Laws' chapter, this is a rotational-equilibrium / torque problem and lands in CED Unit APPC.5.",
+              "question_format": "mcq",
+              "options": [
+                "(A) at the left-hand edge",
+                "(B) 40 cm from left-hand edge",
+                "(C) 30 cm from right-hand edge",
+                "(D) 17 cm from left-hand edge",
+                "(E) at the midpoint of the meterstick"
+              ],
+              "correct_option": "(D) 17 cm from left-hand edge",
+              "source_reference": {
+                "worksheet_name": "5 Steps AP Physics C (2024) — Chapter 10 Forces and Newton's Laws (pages 169–190) — extracted 2026-05",
+                "textbook_key": "5steps_appc_2024",
+                "page": 185,
+                "section": "Practice Problems — Multiple Choice",
+                "exercise_ref": "5"
+              },
+              "ordered_content": [
+                { "type": "image", "page": 185, "bbox": [0.16, 0.53, 0.74, 0.78], "caption": "", "alt": "A meterstick hanging horizontally from a string attached to a hatched ceiling. A double-headed arrow labeled '?' indicates an unknown distance from the left-hand edge of the meterstick to the attachment point of the string. A 100-g ball hangs from the left-hand edge of the meterstick." },
+                { "type": "text", "value": "A 50-g meterstick is to be suspended by a single string. A 100-g ball hangs from the left-hand edge of the meterstick. Where should the string be attached so that the meterstick hangs in equilibrium?" },
+                { "type": "text", "value": "(A) at the left-hand edge\n(B) 40 cm from left-hand edge\n(C) 30 cm from right-hand edge\n(D) 17 cm from left-hand edge\n(E) at the midpoint of the meterstick" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

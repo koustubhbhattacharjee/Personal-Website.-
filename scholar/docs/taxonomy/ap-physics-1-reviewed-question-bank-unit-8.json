@@ -1,0 +1,1568 @@
+{
+  "subject": "AP Physics 1",
+  "source": "NotebookLM",
+  "source_label": "Official Course Framework + Reference Synthesis",
+  "custom_notes": "Reviewed Unit 8 Fluids bank with answer-only formatting for import and minor question cleanup.",
+  "questionTypes": [
+    {
+      "type": "Characterize properties of phases and ideal fluids",
+      "unit": "Unit 8: Fluids",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Which of the following describes the microscopic behavior of a liquid compared to a solid?",
+          "options": [
+            "Molecules are in fixed positions and cannot flow.",
+            "Interactions between molecules are weak enough to allow flow but strong enough to maintain a fixed volume.",
+            "Molecules have no interactions and expand to fill any container.",
+            "Molecules are closer together than in a solid, increasing density."
+          ],
+          "correct_option": "Interactions between molecules are weak enough to allow flow but strong enough to maintain a fixed volume.",
+          "answer": "B. Interactions between molecules are weak enough to allow flow but strong enough to maintain a fixed volume.",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An ideal fluid is defined by which of the following characteristics?",
+          "options": [
+            "It is compressible and has high viscosity.",
+            "It is incompressible and has no viscosity.",
+            "It has a fixed shape and cannot flow.",
+            "Its density changes significantly with pressure."
+          ],
+          "correct_option": "It is incompressible and has no viscosity.",
+          "answer": "B. It is incompressible and has no viscosity.",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In the context of fluid mechanics, what does it mean for a fluid to be 'incompressible'?",
+          "options": [
+            "The fluid cannot exert pressure.",
+            "The fluid's volume and density remain constant under pressure.",
+            "The fluid flows without any internal friction.",
+            "The fluid molecules are at absolute zero."
+          ],
+          "correct_option": "The fluid's volume and density remain constant under pressure.",
+          "answer": "B. The fluid's volume and density remain constant under pressure.",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which state of matter is characterized by having no fixed shape but maintaining a fixed volume?",
+          "options": [
+            "Solid",
+            "Liquid",
+            "Gas",
+            "Plasma"
+          ],
+          "correct_option": "Liquid",
+          "answer": "B. Liquid.",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Calculate density from mass and volume",
+      "unit": "Unit 8: Fluids",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A sample of an unknown liquid has a mass of 2.0 kg and occupies a volume of 0.0025 m³. What is its density?",
+          "options": [
+            "0.005 kg/m³",
+            "80 kg/m³",
+            "800 kg/m³",
+            "1250 kg/m³"
+          ],
+          "correct_option": "800 kg/m³",
+          "answer": "C. 800 kg/m³",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If an object's mass is doubled and its volume is halved, its density:",
+          "options": [
+            "Remains the same",
+            "Doubles",
+            "Quadruples",
+            "Is halved"
+          ],
+          "correct_option": "Quadruples",
+          "answer": "C. Quadruples",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A uniform cylinder has a radius R, height H, and mass M. What is the correct expression for its density rho?",
+          "options": [
+            "M / (2πRH)",
+            "M / (πR²H)",
+            "M / (4/3 πR³)",
+            "M / (RH)"
+          ],
+          "correct_option": "M / (πR²H)",
+          "answer": "B. M / (πR²H)",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "AP Physics CED",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Two objects have the same mass. Object A has a density of 2000 kg/m³ and Object B has a density of 4000 kg/m³. How do their volumes compare?",
+          "options": [
+            "Volume A is half of Volume B",
+            "Volume A is the same as Volume B",
+            "Volume A is twice Volume B",
+            "Volume A is four times Volume B"
+          ],
+          "correct_option": "Volume A is twice Volume B",
+          "answer": "C. Volume A is twice Volume B",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Calculate pressure from force and area",
+      "unit": "Unit 8: Fluids",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A force of 100 N is applied perpendicularly to a circular surface with a radius of 0.1 m. What is the pressure exerted on the surface?",
+          "options": [
+            "318 Pa",
+            "1000 Pa",
+            "3183 Pa",
+            "10000 Pa"
+          ],
+          "correct_option": "3183 Pa",
+          "answer": "C. 3183 Pa",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the area over which a constant force is applied is doubled, the pressure:",
+          "options": [
+            "Doubles",
+            "Quadruples",
+            "Is halved",
+            "Remains the same"
+          ],
+          "correct_option": "Is halved",
+          "answer": "C. Is halved",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Pressure is defined as the magnitude of which component of force per unit area?",
+          "options": [
+            "Parallel component",
+            "Perpendicular component",
+            "Net resultant force",
+            "Centripetal component"
+          ],
+          "correct_option": "Perpendicular component",
+          "answer": "B. Perpendicular component",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which of the following is a scalar quantity?",
+          "options": [
+            "Force",
+            "Acceleration",
+            "Pressure",
+            "Velocity"
+          ],
+          "correct_option": "Pressure",
+          "answer": "C. Pressure",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "Calculate gauge pressure from fluid depth",
+      "unit": "Unit 8: Fluids",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "What is the gauge pressure at a depth of 10 m in a lake? (Assume density of water is 1000 kg/m³ and g = 10 m/s²)",
+          "options": [
+            "1,000 Pa",
+            "10,000 Pa",
+            "100,000 Pa",
+            "200,000 Pa"
+          ],
+          "correct_option": "100,000 Pa",
+          "answer": "C. 100,000 Pa",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "How does the gauge pressure change if you swim twice as deep in the same fluid?",
+          "options": [
+            "It is halved",
+            "It remains the same",
+            "It doubles",
+            "It quadruples"
+          ],
+          "correct_option": "It doubles",
+          "answer": "C. It doubles",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The gauge pressure of a vertical column of fluid depends on all of the following EXCEPT:",
+          "options": [
+            "Density of the fluid",
+            "Acceleration due to gravity",
+            "Height of the column",
+            "Cross-sectional area of the container"
+          ],
+          "correct_option": "Cross-sectional area of the container",
+          "answer": "D. Cross-sectional area of the container",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A container holds two immiscible liquids. Liquid 1 (density rho) is on top with height H, and Liquid 2 (density 2*rho) is on bottom with height H. What is the gauge pressure at the very bottom?",
+          "options": [
+            "rho*g*H",
+            "2*rho*g*H",
+            "3*rho*g*H",
+            "4*rho*g*H"
+          ],
+          "correct_option": "3*rho*g*H",
+          "answer": "C. 3*rho*g*H",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Relate absolute and gauge pressure",
+      "unit": "Unit 8: Fluids",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "The gauge pressure in a tire is 200 kPa. If atmospheric pressure is 100 kPa, what is the absolute pressure inside the tire?",
+          "options": [
+            "100 kPa",
+            "200 kPa",
+            "300 kPa",
+            "400 kPa"
+          ],
+          "correct_option": "300 kPa",
+          "answer": "C. 300 kPa",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a pressure sensor at the bottom of a pool reads an absolute pressure of 1.5 atm, what is the gauge pressure? (Assume P_atm = 1.0 atm)",
+          "options": [
+            "0.5 atm",
+            "1.0 atm",
+            "1.5 atm",
+            "2.5 atm"
+          ],
+          "correct_option": "0.5 atm",
+          "answer": "A. 0.5 atm",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "At the surface of an open container of liquid, which statement is correct?",
+          "options": [
+            "Absolute pressure is zero and gauge pressure is atmospheric pressure.",
+            "Absolute pressure equals atmospheric pressure and gauge pressure is zero.",
+            "Both absolute pressure and gauge pressure are zero.",
+            "Gauge pressure equals absolute pressure."
+          ],
+          "correct_option": "Absolute pressure equals atmospheric pressure and gauge pressure is zero.",
+          "answer": "B. Absolute pressure equals atmospheric pressure and gauge pressure is zero.",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Why don't we feel the 'miles of air' above us pushing us down?",
+          "options": [
+            "Air has zero density.",
+            "The pressure is exerted equally in all directions, including from within our bodies.",
+            "Gravity does not act on gases.",
+            "Atmospheric pressure only exists at high altitudes."
+          ],
+          "correct_option": "The pressure is exerted equally in all directions, including from within our bodies.",
+          "answer": "B. The pressure is exerted equally in all directions, including from within our bodies.",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "AP Physics CED",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Calculate buoyant force using Archimedes' principle",
+      "unit": "Unit 8: Fluids",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A 2.0 kg block with a volume of 0.001 m³ is completely submerged in water (density 1000 kg/m³). What is the buoyant force on the block?",
+          "options": [
+            "2 N",
+            "10 N",
+            "20 N",
+            "1000 N"
+          ],
+          "correct_option": "10 N",
+          "answer": "B. 10 N",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "According to Archimedes' principle, the buoyant force on an object is equal to:",
+          "options": [
+            "The weight of the object",
+            "The density of the object times g",
+            "The weight of the fluid displaced by the object",
+            "The pressure at the bottom of the object"
+          ],
+          "correct_option": "The weight of the fluid displaced by the object",
+          "answer": "C. The weight of the fluid displaced by the object",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Two objects of different shapes but the same volume are submerged in the same fluid. How do the buoyant forces compare?",
+          "options": [
+            "The more aerodynamic shape has less buoyant force",
+            "The denser object has more buoyant force",
+            "The buoyant forces are equal",
+            "The object deeper in the fluid has more buoyant force"
+          ],
+          "correct_option": "The buoyant forces are equal",
+          "answer": "C. The buoyant forces are equal",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If an object is only 50% submerged, the buoyant force it experiences is:",
+          "options": [
+            "Half of its total weight",
+            "Equal to its total weight (if floating)",
+            "Half of the force it would experience if fully submerged",
+            "Both B and C"
+          ],
+          "correct_option": "Both B and C",
+          "answer": "D. Both B and C",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Determine floating or sinking behavior from density",
+      "unit": "Unit 8: Fluids",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "An object has a density of 1200 kg/m³. If placed in water (density 1000 kg/m³), the object will:",
+          "options": [
+            "Float on the surface",
+            "Sink to the bottom",
+            "Stay suspended at any depth",
+            "Rise to the top"
+          ],
+          "correct_option": "Sink to the bottom",
+          "answer": "B. Sink to the bottom",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A wood block (density 600 kg/m³) is placed in water. What fraction of the block's volume is submerged?",
+          "options": [
+            "40%",
+            "50%",
+            "60%",
+            "100%"
+          ],
+          "correct_option": "60%",
+          "answer": "C. 60%",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If an object is 'neutrally buoyant' in a fluid, which is true?",
+          "options": [
+            "Its density is zero",
+            "Its density is equal to the fluid density",
+            "The buoyant force is zero",
+            "It must be at the surface"
+          ],
+          "correct_option": "Its density is equal to the fluid density",
+          "answer": "B. Its density is equal to the fluid density",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A ship moves from a freshwater river (density 1000 kg/m³) to the saltwater ocean (density 1025 kg/m³). What happens to the ship?",
+          "options": [
+            "It sinks deeper into the water.",
+            "It rises slightly higher in the water.",
+            "The buoyant force on it increases.",
+            "The buoyant force on it decreases."
+          ],
+          "correct_option": "It rises slightly higher in the water.",
+          "answer": "B. It rises slightly higher in the water.",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Determine apparent weight of a submerged object",
+      "unit": "Unit 8: Fluids",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "An object weighs 50 N in air. When fully submerged in water, it experiences a buoyant force of 20 N. What is its apparent weight?",
+          "options": [
+            "20 N",
+            "30 N",
+            "50 N",
+            "70 N"
+          ],
+          "correct_option": "30 N",
+          "answer": "B. 30 N",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A spring scale measures 15 N for a submerged object. If the object has a mass of 2 kg, what is the buoyant force acting on it? (g = 10 m/s²)",
+          "options": [
+            "2 N",
+            "5 N",
+            "15 N",
+            "35 N"
+          ],
+          "correct_option": "5 N",
+          "answer": "B. 5 N",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If an object's apparent weight is zero, the object is:",
+          "options": [
+            "In free fall",
+            "Weightless",
+            "Floating or neutrally buoyant",
+            "Sinking rapidly"
+          ],
+          "correct_option": "Floating or neutrally buoyant",
+          "answer": "C. Floating or neutrally buoyant",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A heavy metal statue is raised from the bottom of a pool. How does the tension in the rope change when the statue breaks the surface?",
+          "options": [
+            "Tension decreases.",
+            "Tension increases.",
+            "Tension remains the same.",
+            "Tension becomes zero."
+          ],
+          "correct_option": "Tension increases.",
+          "answer": "B. Tension increases.",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "AP Physics CED",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Apply the continuity equation for flow",
+      "unit": "Unit 8: Fluids",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Water flows through a pipe that narrows from an area of 4.0 cm² to 1.0 cm². If the speed in the wide section is 2.0 m/s, what is the speed in the narrow section?",
+          "options": [
+            "0.5 m/s",
+            "2.0 m/s",
+            "4.0 m/s",
+            "8.0 m/s"
+          ],
+          "correct_option": "8.0 m/s",
+          "answer": "D. 8.0 m/s",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the radius of a circular pipe is doubled, how does the flow velocity change for a constant volumetric flow rate?",
+          "options": [
+            "Velocity is doubled",
+            "Velocity remains the same",
+            "Velocity is halved",
+            "Velocity is reduced to one-fourth"
+          ],
+          "correct_option": "Velocity is reduced to one-fourth",
+          "answer": "D. Velocity is reduced to one-fourth",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Conservation of mass in an incompressible fluid leads to which governing principle?",
+          "options": [
+            "Bernoulli's Principle",
+            "Archimedes' Principle",
+            "The Continuity Equation",
+            "Pascal's Principle"
+          ],
+          "correct_option": "The Continuity Equation",
+          "answer": "C. The Continuity Equation",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A garden hose with a cross-sectional area of A is used to fill a bucket. If a thumb is placed over the opening to cover half the area, the speed of the water leaving the hose:",
+          "options": [
+            "Decreases by half",
+            "Remains the same",
+            "Doubles",
+            "Quadruples"
+          ],
+          "correct_option": "Doubles",
+          "answer": "C. Doubles",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Apply Bernoulli's principle to relate pressure and velocity",
+      "unit": "Unit 8: Fluids",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "According to Bernoulli's principle, in a horizontal pipe where the fluid speed increases, the internal pressure:",
+          "options": [
+            "Increases",
+            "Decreases",
+            "Remains the same",
+            "Becomes zero"
+          ],
+          "correct_option": "Decreases",
+          "answer": "B. Decreases",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Bernoulli's equation is essentially a statement of which conservation law applied to fluids?",
+          "options": [
+            "Conservation of Mass",
+            "Conservation of Momentum",
+            "Conservation of Energy",
+            "Conservation of Charge"
+          ],
+          "correct_option": "Conservation of Energy",
+          "answer": "C. Conservation of Energy",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A large tank of water has a small hole near the bottom. The speed at which water exits the hole depends on:",
+          "options": [
+            "The area of the tank's top surface",
+            "The density of the water",
+            "The vertical distance from the water surface to the hole",
+            "The atmospheric pressure only"
+          ],
+          "correct_option": "The vertical distance from the water surface to the hole",
+          "answer": "C. The vertical distance from the water surface to the hole",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Why does a shower curtain sometimes get 'sucked' into the tub when the water is running?",
+          "options": [
+            "The water molecules attract the plastic curtain.",
+            "The high-speed air/water inside the shower has lower pressure than the stationary air outside.",
+            "Static electricity from the falling water.",
+            "The water creates a vacuum."
+          ],
+          "correct_option": "The high-speed air/water inside the shower has lower pressure than the stationary air outside.",
+          "answer": "B. The high-speed air/water inside the shower has lower pressure than the stationary air outside.",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Identify forces in static fluid systems (Buoyancy and Tension)",
+      "unit": "Unit 8: Fluids",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A balloon is held underwater by a string attached to the bottom of a tank. Which of the following is true about the tension in the string?",
+          "options": [
+            "Tension = Weight + Buoyant Force",
+            "Tension = Buoyant Force - Weight",
+            "Tension = Weight - Buoyant Force",
+            "Tension = Buoyant Force"
+          ],
+          "correct_option": "Tension = Buoyant Force - Weight",
+          "answer": "B. Tension = Buoyant Force - Weight",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 CED",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An object sinks in water. Which of the following force diagrams is correct for the object while it is sinking?",
+          "options": [
+            "Weight arrow is shorter than Buoyant Force arrow",
+            "Weight arrow and Buoyant Force arrow are equal",
+            "Weight arrow is longer than Buoyant Force arrow",
+            "Weight arrow is the only force acting"
+          ],
+          "correct_option": "Weight arrow is longer than Buoyant Force arrow",
+          "answer": "C. Weight arrow is longer than Buoyant Force arrow",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A cube is submerged in a fluid. The pressure on the bottom face is P_bot and the pressure on the top face is P_top. The buoyant force is equal to:",
+          "options": [
+            "P_bot + P_top",
+            "(P_bot - P_top) * Area",
+            "P_bot / P_top",
+            "rho * g * h_avg"
+          ],
+          "correct_option": "(P_bot - P_top) * Area",
+          "answer": "B. (P_bot - P_top) * Area",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A 10 N object floats in water. What is the magnitude of the buoyant force?",
+          "options": [
+            "Less than 10 N",
+            "Exactly 10 N",
+            "Greater than 10 N",
+            "Zero"
+          ],
+          "correct_option": "Exactly 10 N",
+          "answer": "B. Exactly 10 N",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Design experiments to determine fluid properties",
+      "unit": "Unit 8: Fluids",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "To determine the density of an irregularly shaped metal object using buoyancy, which set of measurements is sufficient?",
+          "options": [
+            "Object weight in air and volume of the container",
+            "Object weight in air and object weight while submerged in water",
+            "Object weight in air and depth of the pool",
+            "Object volume and atmospheric pressure"
+          ],
+          "correct_option": "Object weight in air and object weight while submerged in water",
+          "answer": "B. Object weight in air and object weight while submerged in water",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "AP Physics CED",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In a lab to determine 'g' using a fluid, a student plots absolute pressure vs. depth. The slope of the best-fit line represents:",
+          "options": [
+            "Atmospheric pressure",
+            "Density of the fluid",
+            "The product of density and g",
+            "The height of the fluid"
+          ],
+          "correct_option": "The product of density and g",
+          "answer": "C. The product of density and g",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2017 FRQ Rubric",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which tool is best for measuring the 'gauge pressure' at various depths in a graduated cylinder?",
+          "options": [
+            "Sonic motion detector",
+            "Pressure sensor with a probe",
+            "Meterstick and stopwatch",
+            "Spring scale and a block"
+          ],
+          "correct_option": "Pressure sensor with a probe",
+          "answer": "B. Pressure sensor with a probe",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "AP Physics CED",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "To linearize data for flow velocity v vs. pipe radius R at a constant flow rate, a student should graph:",
+          "options": [
+            "v vs R",
+            "v vs R²",
+            "v vs 1/R",
+            "v vs 1/R²"
+          ],
+          "correct_option": "v vs 1/R²",
+          "answer": "D. v vs 1/R²",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Analyze the effect of internal structure on fluid behavior",
+      "unit": "Unit 8: Fluids",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Which property of a fluid explains why it has no fixed shape?",
+          "options": [
+            "High density",
+            "Incompressibility",
+            "Weak intermolecular interactions allowing molecules to slide past each other",
+            "High viscosity"
+          ],
+          "correct_option": "Weak intermolecular interactions allowing molecules to slide past each other",
+          "answer": "C. Weak intermolecular interactions allowing molecules to slide past each other",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The pressure exerted by a fluid is a result of:",
+          "options": [
+            "The weight of the atoms only",
+            "The sum of all interactions between fluid particles and a surface",
+            "The temperature gradient within the fluid",
+            "The magnetic properties of the molecules"
+          ],
+          "correct_option": "The sum of all interactions between fluid particles and a surface",
+          "answer": "B. The sum of all interactions between fluid particles and a surface",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In an ideal gas model of a fluid, collisions between particles and container walls are assumed to be:",
+          "options": [
+            "Inelastic",
+            "Elastic",
+            "Non-existent",
+            "Dependent on viscosity"
+          ],
+          "correct_option": "Elastic",
+          "answer": "B. Elastic",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Which phase of matter is usually the least dense for a given substance? (Excluding water exception)",
+          "options": [
+            "Solid",
+            "Liquid",
+            "Gas",
+            "Plasma"
+          ],
+          "correct_option": "Gas",
+          "answer": "C. Gas",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Predict new values using functional dependence in fluids",
+      "unit": "Unit 8: Fluids",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A pipe's diameter is tripled. If the volumetric flow rate remains constant, the speed of the fluid becomes:",
+          "options": [
+            "One-third",
+            "Three times",
+            "Nine times",
+            "One-ninth"
+          ],
+          "correct_option": "One-ninth",
+          "answer": "D. One-ninth",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If you double the depth in a fluid and also use a fluid with twice the density, the gauge pressure:",
+          "options": [
+            "Remains the same",
+            "Doubles",
+            "Quadruples",
+            "Is halved"
+          ],
+          "correct_option": "Quadruples",
+          "answer": "C. Quadruples",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "To double the buoyant force on a submerged object, you should:",
+          "options": [
+            "Submerge it twice as deep",
+            "Use an object with twice the volume",
+            "Use an object with twice the mass",
+            "Decrease the fluid density by half"
+          ],
+          "correct_option": "Use an object with twice the volume",
+          "answer": "B. Use an object with twice the volume",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the pressure on a circular seal of radius R is P, and the radius is doubled while pressure is kept constant, the total force on the seal:",
+          "options": [
+            "Doubles",
+            "Quadruples",
+            "Remains the same",
+            "Is halved"
+          ],
+          "correct_option": "Quadruples",
+          "answer": "B. Quadruples",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Analyze pressure-height graphs for fluids",
+      "unit": "Unit 8: Fluids",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A graph shows air pressure vs. elevation. Why does the slope decrease as elevation increases?",
+          "options": [
+            "The air gets warmer.",
+            "The air gets less dense.",
+            "Gravity is stronger at higher altitudes.",
+            "The graph is incorrect; pressure should increase."
+          ],
+          "correct_option": "The air gets less dense.",
+          "answer": "B. The air gets less dense.",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "AP Physics CED",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "For a container of incompressible liquid, the graph of Gauge Pressure vs. Depth is:",
+          "options": [
+            "A horizontal line",
+            "A parabola opening up",
+            "A straight line with positive slope starting at the origin",
+            "A straight line with positive slope starting above the origin"
+          ],
+          "correct_option": "A straight line with positive slope starting at the origin",
+          "answer": "C. A straight line with positive slope starting at the origin",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "On a graph of Absolute Pressure vs. Depth for water, what does the y-intercept represent?",
+          "options": [
+            "The density of water",
+            "The depth of the pool",
+            "Atmospheric pressure",
+            "The weight of the sensor"
+          ],
+          "correct_option": "Atmospheric pressure",
+          "answer": "C. Atmospheric pressure",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 2017 Practice Exam",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the slope of a P-depth graph for Fluid A is steeper than Fluid B, it means:",
+          "options": [
+            "Fluid A is deeper",
+            "Fluid A is more dense",
+            "Fluid A is under more atmospheric pressure",
+            "Fluid A is hotter"
+          ],
+          "correct_option": "Fluid A is more dense",
+          "answer": "B. Fluid A is more dense",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Identify volumetric flow rate and conservation of mass",
+      "unit": "Unit 8: Fluids",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "What are the standard MKS units for volumetric flow rate?",
+          "options": [
+            "kg/s",
+            "m/s",
+            "m³/s",
+            "N/m²"
+          ],
+          "correct_option": "m³/s",
+          "answer": "C. m³/s",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "In a closed pipe system with no leaks, the volumetric flow rate at point A is 2 L/s. What is the flow rate at point B where the pipe is wider?",
+          "options": [
+            "Less than 2 L/s",
+            "Exactly 2 L/s",
+            "More than 2 L/s",
+            "Zero"
+          ],
+          "correct_option": "Exactly 2 L/s",
+          "answer": "B. Exactly 2 L/s",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "The Continuity Equation (A1v1 = A2v2) is valid for:",
+          "options": [
+            "All fluids",
+            "Only ideal gases",
+            "Only incompressible fluids",
+            "Only static fluids"
+          ],
+          "correct_option": "Only incompressible fluids",
+          "answer": "C. Only incompressible fluids",
+          "source_reference": {
+            "source_tier": "official_pyq",
+            "source_name": "AP Physics 1 taxonomy",
+            "chapter": "Unit 8: Fluids",
+            "generated": false
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A faucet fills a 10 L bucket in 20 s. What is the average flow speed if the faucet opening has an area of 2 cm²?",
+          "options": [
+            "0.25 m/s",
+            "0.50 m/s",
+            "2.5 m/s",
+            "5.0 m/s"
+          ],
+          "correct_option": "2.5 m/s",
+          "answer": "C. 2.5 m/s",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Analyze fluid behavior using Bernoulli bar charts",
+      "unit": "Unit 8: Fluids",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "In a Bernoulli bar chart for a horizontal pipe that narrows, which bars must change between the wide and narrow sections?",
+          "options": [
+            "Pressure (P) and Potential Energy (rho*g*h)",
+            "Kinetic Energy (1/2 rho*v²) and Potential Energy",
+            "Pressure (P) and Kinetic Energy (1/2 rho*v²)",
+            "All bars remain constant"
+          ],
+          "correct_option": "Pressure (P) and Kinetic Energy (1/2 rho*v²)",
+          "answer": "C. Pressure (P) and Kinetic Energy (1/2 rho*v²)",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "AP Physics CED",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "When drinking from a straw, how do the pressure bars inside and outside the straw compare?",
+          "options": [
+            "Pressure inside is higher",
+            "Pressure outside is higher",
+            "They are equal",
+            "Pressure inside is zero"
+          ],
+          "correct_option": "Pressure outside is higher",
+          "answer": "B. Pressure outside is higher",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "AP Physics CED",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Water shoots horizontally out of a hole in a tank. Just inside the hole, the water has high pressure and low speed. Just outside the hole, it has:",
+          "options": [
+            "High pressure and high speed",
+            "Atmospheric pressure and low speed",
+            "Atmospheric pressure and high speed",
+            "Zero pressure and high speed"
+          ],
+          "correct_option": "Atmospheric pressure and high speed",
+          "answer": "C. Atmospheric pressure and high speed",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A vertical pipe has a constant cross-section. As fluid flows UP the pipe, how do the Bernoulli bars change?",
+          "options": [
+            "Kinetic energy increases",
+            "Potential energy increases and Pressure decreases",
+            "Pressure increases",
+            "Potential energy increases and Kinetic energy increases"
+          ],
+          "correct_option": "Potential energy increases and Pressure decreases",
+          "answer": "B. Potential energy increases and Pressure decreases",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Calculate exit velocity using Torricelli's Law",
+      "unit": "Unit 8: Fluids",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "Water is 5.0 m deep in a large open tank. A small hole is drilled at the very bottom. What is the exit speed of the water?",
+          "options": [
+            "5 m/s",
+            "7.1 m/s",
+            "10 m/s",
+            "50 m/s"
+          ],
+          "correct_option": "10 m/s",
+          "answer": "C. 10 m/s",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If the water level in a tank drops to one-fourth of its original height, the exit speed from a hole at the bottom will:",
+          "options": [
+            "Decrease by half",
+            "Decrease to one-fourth",
+            "Remains the same",
+            "Double"
+          ],
+          "correct_option": "Decrease by half",
+          "answer": "A. Decrease by half",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Two identical tanks are filled with water and oil (rho_oil < rho_water). Small holes are drilled at the same depth. How do the exit speeds compare?",
+          "options": [
+            "Water exits faster",
+            "Oil exits faster",
+            "They exit at the same speed",
+            "It depends on the hole size"
+          ],
+          "correct_option": "They exit at the same speed",
+          "answer": "C. They exit at the same speed",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A tank is pressurized with air such that the internal pressure P is much greater than P_atm. The exit velocity from a hole at the bottom will be:",
+          "options": [
+            "Same as an open tank",
+            "Zero",
+            "Greater than sqrt(2gh)",
+            "Smaller than sqrt(2gh)"
+          ],
+          "correct_option": "Greater than sqrt(2gh)",
+          "answer": "C. Greater than sqrt(2gh)",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Solve static fluid equilibrium with buoyant force",
+      "unit": "Unit 8: Fluids",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "An object floats in water with exactly half its volume submerged. What is the density of the object?",
+          "options": [
+            "250 kg/m³",
+            "500 kg/m³",
+            "1000 kg/m³",
+            "2000 kg/m³"
+          ],
+          "correct_option": "500 kg/m³",
+          "answer": "B. 500 kg/m³",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "AP Physics CED",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A 1.0 kg block floats in water. A second 1.0 kg block is placed on top of it, and the system still floats. The total buoyant force is now:",
+          "options": [
+            "10 N",
+            "20 N",
+            "40 N",
+            "1000 N"
+          ],
+          "correct_option": "20 N",
+          "answer": "B. 20 N",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A block floats in a fluid. If the fluid is replaced by one with twice the density, the buoyant force on the block:",
+          "options": [
+            "Doubles",
+            "Is halved",
+            "Remains the same",
+            "Is zero"
+          ],
+          "correct_option": "Remains the same",
+          "answer": "C. Remains the same",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "An object sinks and rests on the bottom of a tank. The normal force from the floor is:",
+          "options": [
+            "Weight",
+            "Weight - Buoyant Force",
+            "Buoyant Force",
+            "Weight + Buoyant Force"
+          ],
+          "correct_option": "Weight - Buoyant Force",
+          "answer": "B. Weight - Buoyant Force",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        }
+      ]
+    },
+    {
+      "type": "Analyze fluids in non-inertial or changing states",
+      "unit": "Unit 8: Fluids",
+      "questions": [
+        {
+          "question_format": "native_mcq",
+          "question": "A container of water is on an elevator accelerating UPWARD at 2 m/s². The pressure at a depth h is:",
+          "options": [
+            "rho * g * h",
+            "rho * (g + 2) * h",
+            "rho * (g - 2) * h",
+            "Zero"
+          ],
+          "correct_option": "rho * (g + 2) * h",
+          "answer": "B. rho * (g + 2) * h",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "If a container of fluid is in free fall, the gauge pressure at any depth is:",
+          "options": [
+            "rho * g * h",
+            "P_atm",
+            "Zero",
+            "Infinite"
+          ],
+          "correct_option": "Zero",
+          "answer": "C. Zero",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "A block floats in a beaker of water. If the beaker is dropped and falls freely, what happens to the block relative to the water?",
+          "options": [
+            "It sinks further.",
+            "It pops out of the water.",
+            "It maintains the same submerged volume.",
+            "It becomes neutrally buoyant at any depth it was at the moment of release."
+          ],
+          "correct_option": "It becomes neutrally buoyant at any depth it was at the moment of release.",
+          "answer": "D. It becomes neutrally buoyant at any depth it was at the moment of release.",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "5 Steps",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        },
+        {
+          "question_format": "native_mcq",
+          "question": "Water is being stirred in a beaker. Does the absolute pressure at the bottom change?",
+          "options": [
+            "No, it depends only on depth.",
+            "Yes, if the stirring creates a vortex, changing the height of the water above the center.",
+            "No, because the volume is constant.",
+            "Yes, because the atoms are moving faster."
+          ],
+          "correct_option": "Yes, if the stirring creates a vortex, changing the height of the water above the center.",
+          "answer": "B. Yes, if the stirring creates a vortex, changing the height of the water above the center.",
+          "source_reference": {
+            "source_tier": "reference_book",
+            "source_name": "AP Physics CED",
+            "chapter": "Unit 8: Fluids",
+            "generated": true
+          }
+        }
+      ]
+    }
+  ]
+}
