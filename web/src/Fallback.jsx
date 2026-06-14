@@ -21,11 +21,9 @@ export default function Fallback() {
   return (
     <div className="tour-fallback">
       <div className="fb-hero">
-        <img className="hero-photo" src="/assets/portrait-warm.jpg" alt="Koustubh Bhattacharjee" style={{ border: "1px solid var(--red)" }} />
-        <h1 className="caslon">Classroom rigour.<br /><span className="it">One&#8209;to&#8209;one focus.</span></h1>
-        <p style={{ color: "var(--muted)", maxWidth: 480, fontSize: 15.5 }}>
-          I teach AP Physics and Math on software I built — <b style={{ color: "var(--off)" }}>Scholar</b>.
-          Here's how a lesson actually works, on any device your student picks up.
+        <img className="hero-photo" src="/assets/portrait-warm.jpg" alt="Koustubh Bhattacharjee" />
+        <p className="hero-desc">
+          Hi, I'm Koustubh — a former lead high&#8209;school physics teacher in Washington, DC, US. I teach physics and math for high school and specialize in AP courses. I use my own product, <b>Scholar</b>, to structure my lessons. Scroll to learn more.
         </p>
       </div>
       {CALLOUTS.map((c, i) => (

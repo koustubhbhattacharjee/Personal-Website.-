@@ -46,7 +46,7 @@ async function writeLocalStore(data) {
   // Atomic write: concurrent API calls read this file in parallel — a plain
   // writeFile can be observed half-written, which makes readLocalStore fall
   // back to an empty store and silently reset all viewer progress.
-  const tmp = `${LOCAL_STORE_FILE}.${process.pid}.${Date.now()}.tmp`
+  const tmp = `${LOCAL_STORE_FILE}.${process.pid}.${Date.now()}.${crypto.randomUUID()}.tmp`
   await fs.writeFile(tmp, JSON.stringify(data, null, 2) + "\n", "utf8")
   await fs.rename(tmp, LOCAL_STORE_FILE)
 }

@@ -1,7 +1,7 @@
 import { getServerSession } from "next-auth"
 import { authOptions } from "../auth/[...nextauth]"
 import { getSubjectById, getTodayTopicsAny, getStudentById } from "../../../lib/db"
-import { isShowcaseDemo } from "../../../lib/showcase"
+import { getShowcaseStudentId, isShowcaseDemo } from "../../../lib/showcase"
 import { getShowcaseTodayTopics } from "../../../lib/showcase-demo"
 
 const ADMIN_EMAIL = "kbohuastt@gmail.com"

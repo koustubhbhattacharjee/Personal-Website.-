@@ -1673,6 +1673,87 @@ export default function DashboardPage() {
     return () => { cancelled = true; clearTimeout(t) }
   }, [questionSearchQuery, dashData, selectedSubject, progressQuestionTypes, progressGraphSubjectId, showcaseTaxonomy])
 
+  useEffect(() => {
+    if (typeof window === "undefined") return undefined
+
+    window.__scholarPanelCaptureSelect = ({
+      unitName = "",
+      ringName = "",
+      arcId = "",
+      questionIdx = null,
+    } = {}) => {
+      const student = dashData?.student
+      const subject = selectedSubject
+      const ready = subject?.id != null && progressGraphSubjectId === subject.id && progressQuestionTypes.length > 0
+      if (!student || !subject || !ready) return false
+
+      const objectives = showcaseTaxonomy || getAllObjectives(student.state, subject?.name || "")
+      const rawUnits = buildCylinderData(objectives, progressQuestionTypes)
+      const normalized = normalizeUnitsForScenes(rawUnits, shapeMode)
+      const units = normalized.units || []
+      const hasText = (value, needle) =>
+        !needle || String(value || "").toLowerCase().replace(/\s+/g, " ").includes(String(needle).toLowerCase().replace(/\s+/g, " "))
+
+      const unitIdx = units.findIndex((unit) => hasText(unit?.name, unitName))
+      if (unitIdx < 0) return false
+
+      const unit = units[unitIdx]
+      let loIdx = null
+      let qtIdx = null
+
+      if (ringName || arcId) {
+        loIdx = (unit.rings || []).findIndex((ring) => {
+          if (ringName && hasText(ring?.name, ringName)) return true
+          return !!arcId && (ring.arcs || []).some((arc) => arc?.questionTypeId === arcId)
+        })
+        if (loIdx < 0) return false
+      }
+
+      const ring = loIdx != null ? unit.rings?.[loIdx] : null
+      if (arcId) {
+        qtIdx = (ring?.arcs || []).findIndex((arc) =>
+          arc?.questionTypeId === arcId || hasText(arc?.type || arc?.name, arcId)
+        )
+        if (qtIdx < 0) return false
+      }
+
+      setActiveSection("overview")
+      setShapeMode("cylinder")
+      setPaletteOverride("ember")
+      setDrillUnitIdx(unitIdx)
+      setDrillLoIdx(loIdx)
+      setDrillQtypeIdx(qtIdx)
+      setDrillQuestionIdx(Number.isInteger(questionIdx) ? questionIdx : null)
+      return true
+    }
+
+    window.__scholarPanelCaptureDebug = () => {
+      const student = dashData?.student
+      const subject = selectedSubject
+      const ready = subject?.id != null && progressGraphSubjectId === subject.id && progressQuestionTypes.length > 0
+      if (!student || !subject || !ready) return []
+      const objectives = showcaseTaxonomy || getAllObjectives(student.state, subject?.name || "")
+      const rawUnits = buildCylinderData(objectives, progressQuestionTypes)
+      const normalized = normalizeUnitsForScenes(rawUnits, shapeMode)
+      return (normalized.units || []).map((unit) => ({
+        name: unit?.name || "",
+        rings: (unit?.rings || []).map((ring) => ({
+          name: ring?.name || "",
+          code: ring?.code || "",
+          arcs: (ring?.arcs || []).map((arc) => ({
+            id: arc?.questionTypeId || "",
+            type: arc?.type || arc?.name || "",
+          })),
+        })),
+      }))
+    }
+
+    return () => {
+      delete window.__scholarPanelCaptureSelect
+      delete window.__scholarPanelCaptureDebug
+    }
+  }, [dashData, selectedSubject, progressGraphSubjectId, progressQuestionTypes, showcaseTaxonomy, shapeMode])
+
   if ((!demoMode && status === "loading") || loading) return <LoadingScreen />
   if (!dashData || dashData.error) return <ErrorScreen message={loadError} onRetry={() => router.reload()} />
 

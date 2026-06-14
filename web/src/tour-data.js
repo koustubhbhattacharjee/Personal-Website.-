@@ -7,11 +7,11 @@ export const CALLOUTS = [
     id: "what",
     device: "mac",
     anchor: { u: 0.3, v: 0.22 },
-    side: "right",
+    side: "left",
     kicker: "01 · What is Scholar?",
     title: "Software behind every lesson.",
     body:
-      "Scholar is the platform I built for my tutoring. It models the whole course — and your student's knowledge of it — as one living structure: what they know, how well they'll remember it, and what to teach next. Every lesson runs on it.",
+      "This is the platform where I manage my students' learning. Homework, quizzes, assessments, strengths, weaknesses, retention. All in one place.",
   },
   {
     id: "shapes",
@@ -19,9 +19,9 @@ export const CALLOUTS = [
     anchor: { u: 0.56, v: 0.6 },
     side: "left",
     kicker: "02 · The map",
-    title: "The course is a solid you can read.",
+    title: "The course is a shape you can read.",
     body:
-      "Cylinder, torus or cube — the whole curriculum becomes one 3D object. Slices are chapters, rings are units of skill, and every wedge is a question type. Colour is mastery: one glance shows exactly where the course stands.",
+      "Students start by solving questions, which group into question types, then learning objectives, then units, and finally the whole subject. These are shown by the different shapes here.",
   },
   {
     id: "unit",
@@ -31,7 +31,7 @@ export const CALLOUTS = [
     kicker: "03 · Drill in",
     title: "Double-click a band — the unit lifts out.",
     body:
-      "Every band of the cylinder is a unit. Double-click one and it unfolds into a disk: Unit 4, Memory and Data Structures. Each ring of the disk is a learning objective, and the colour still means mastery.",
+      "Every band of the cylinder is a unit. Double-click one and it unfolds into a disk: Unit 5, Python and SQL. Each ring of the disk is a learning objective, and the color still means mastery.",
   },
   {
     id: "ring",
@@ -41,7 +41,7 @@ export const CALLOUTS = [
     kicker: "04 · Keep drilling",
     title: "Rings are learning objectives.",
     body:
-      "One more double-click isolates a ring — “use pointers and manage dynamic memory in C.” The arcs around it are the question types that prove the objective. The breadcrumb at the top tracks exactly where you are.",
+      "One more double-click isolates a ring: query and design relational databases with SQL. The arcs around it are the question types that prove the objective. The breadcrumb at the top tracks exactly where you are.",
   },
   {
     id: "qt",
@@ -51,7 +51,7 @@ export const CALLOUTS = [
     kicker: "05 · The atom",
     title: "A single question type.",
     body:
-      "Pointer arithmetic and memory safety — one teachable atom of the course, tested by five questions. Its colour is how reliably your student solves it. This is the level where Scholar decides what to teach next.",
+      "SQL schema design is one teachable atom of the course, tested by a small set of questions. Its color is how reliably your student solves it. This is the level where Scholar decides what to teach next.",
   },
   {
     id: "question",
@@ -65,7 +65,7 @@ export const CALLOUTS = [
   },
   {
     id: "mcq",
-    device: "mac",
+    device: "pad",
     anchor: { u: 0.3, v: 0.34 },
     side: "right",
     kicker: "07 · Practice",
@@ -75,7 +75,7 @@ export const CALLOUTS = [
   },
   {
     id: "colour",
-    device: "mac",
+    device: "pad",
     anchor: { u: 0.25, v: 0.62 },
     side: "left",
     kicker: "08 · Proof",
@@ -85,7 +85,7 @@ export const CALLOUTS = [
   },
   {
     id: "decay",
-    device: "mac",
+    device: "pad",
     anchor: { u: 0.55, v: 0.55 },
     side: "left",
     kicker: "09 · The forgetting curve",

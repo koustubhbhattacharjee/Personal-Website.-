@@ -1,4 +1,4 @@
-import React, { useMemo, useRef } from "react";
+import React, { useEffect, useMemo, useRef } from "react";
 import { RoundedBox, useGLTF } from "@react-three/drei";
 import * as THREE from "three";
 import { SCREENS } from "./rig";
@@ -6,19 +6,58 @@ import { SCREENS } from "./rig";
 const MAC_GLB = "/models/mac-draco.glb";
 const DRACO_PATH = "/draco/";
 
-const ALU = "#dcd9d3";
 const ALU_DARK = "#c8c4bd";
 const GLASS = "#14120f";
 
+/* A rounded-rectangle plane (centred, facing +z) with UVs remapped to [0,1] so
+   a screenshot maps across it with the corners clipped — used to round the
+   phone's display + bezel to match the device's corner radius. */
+function roundedPlane(w, h, r, seg = 8) {
+  r = Math.min(r, w / 2, h / 2);
+  const x = -w / 2, y = -h / 2;
+  const s = new THREE.Shape();
+  s.moveTo(x + r, y);
+  s.lineTo(x + w - r, y);
+  s.quadraticCurveTo(x + w, y, x + w, y + r);
+  s.lineTo(x + w, y + h - r);
+  s.quadraticCurveTo(x + w, y + h, x + w - r, y + h);
+  s.lineTo(x + r, y + h);
+  s.quadraticCurveTo(x, y + h, x, y + h - r);
+  s.lineTo(x, y + r);
+  s.quadraticCurveTo(x, y, x + r, y);
+  const g = new THREE.ShapeGeometry(s, seg);
+  const p = g.attributes.position;
+  const uv = new Float32Array(p.count * 2);
+  for (let i = 0; i < p.count; i++) {
+    uv[i * 2] = (p.getX(i) - x) / w;
+    uv[i * 2 + 1] = (p.getY(i) - y) / h;
+  }
+  g.setAttribute("uv", new THREE.BufferAttribute(uv, 2));
+  return g;
+}
+
 /* A stack of screenshot layers on one plane. Layer opacities are driven by
    the rig each frame (Scene.jsx), here we just build the meshes. */
-export function ScreenStack({ device, layers, screenRef, layerRefs }) {
+export function ScreenStack({ device, layers, screenRef, layerRefs, cornerRadius = 0 }) {
   const { w, h } = SCREENS[device];
+  const screenGeom = useMemo(
+    () => (cornerRadius > 0 ? roundedPlane(w, h, cornerRadius) : null),
+    [w, h, cornerRadius]
+  );
+  const bezelGeom = useMemo(
+    () => (cornerRadius > 0 ? roundedPlane(w + 0.1, h + 0.1, cornerRadius + 0.05) : null),
+    [w, h, cornerRadius]
+  );
+  // custom ShapeGeometries aren't auto-disposed (they're attached via <primitive>)
+  useEffect(() => () => { screenGeom?.dispose(); bezelGeom?.dispose(); }, [screenGeom, bezelGeom]);
+  // the MacBook keeps only a hairline bezel (its thick dark frame read as a
+  // drop shadow); the iPad/phone keep a real device bezel
+  const bez = device === "mac" ? 0.012 : 0.1;
   return (
     <group>
       {/* glass bezel */}
       <mesh position={[0, 0, 0]}>
-        <planeGeometry args={[w + 0.1, h + 0.1]} />
+        {bezelGeom ? <primitive object={bezelGeom} attach="geometry" /> : <planeGeometry args={[w + bez, h + bez]} />}
         <meshBasicMaterial color={GLASS} />
       </mesh>
       {/* the tracked screen plane (invisible, used for projection) */}
@@ -33,7 +72,7 @@ export function ScreenStack({ device, layers, screenRef, layerRefs }) {
           position={[0, 0, 0.006 + i * 0.0022]}
           renderOrder={10 + i}
         >
-          <planeGeometry args={[w, h]} />
+          {screenGeom ? <primitive object={screenGeom} attach="geometry" /> : <planeGeometry args={[w, h]} />}
           <meshBasicMaterial map={tex} transparent opacity={i === 0 ? 1 : 0} toneMapped={false} />
         </mesh>
       ))}
@@ -107,14 +146,20 @@ export function MacBook({ groupRef, lidRef, screenRef, layerRefs, layers }) {
 
   return (
     <group ref={groupRef}>
-      {/* offset puts the open-lid display plane where the camera choreography
-          expects it: centred near (0, 0.15, -0.6) in mac-group space */}
-      <group scale={scale} position={[0, -1.05, -0.54]}>
+      {/* MacBook at 36% of the original model; offset keeps the screen centred
+          at (0, 0.15, -0.6) so the existing camera choreography still frames it
+          (offY = 0.15 - 1.2*f, offZ = -0.6 + 0.06*f, f = 0.36) */}
+      <group scale={scale * 0.36} position={[0, -0.282, -0.5784]}>
         {/* the lid; Scene.jsx drives its rotation.x through lidRef */}
         <primitive ref={lidRef} object={lid}>
           {/* screenshot stack glued onto the display face */}
           <group position={stack.center} rotation={stack.rot} scale={[stack.sw, stack.sh, 1]}>
-            <ScreenStack device="mac" layers={layers} screenRef={screenRef} layerRefs={layerRefs} />
+            <ScreenStack
+              device="mac"
+              layers={layers}
+              screenRef={screenRef}
+              layerRefs={layerRefs}
+            />
           </group>
         </primitive>
         {rest.map((n) => (
@@ -130,13 +175,27 @@ useGLTF.preload(MAC_GLB, DRACO_PATH);
 /* iPad: floating landscape slab */
 export function Pad({ groupRef, screenRef, layerRefs, layers }) {
   const S = SCREENS.pad;
+  const bw = S.w + 0.18, bh = S.h + 0.18;
   return (
-    <group ref={groupRef}>
-      <RoundedBox args={[S.w + 0.18, S.h + 0.18, 0.075]} radius={0.05} smoothness={3}>
-        <meshStandardMaterial color={ALU} roughness={0.6} metalness={0.25} />
+    <group ref={groupRef} scale={0.36}>
+      {/* iPad Pro 12.9" — space black */}
+      <RoundedBox args={[bw, bh, 0.075]} radius={0.05} smoothness={3}>
+        <meshStandardMaterial color={"#1b1b1d"} roughness={0.48} metalness={0.6} />
       </RoundedBox>
       <group position={[0, 0, 0.042]}>
         <ScreenStack device="pad" layers={layers} screenRef={screenRef} layerRefs={layerRefs} />
+      </group>
+      {/* Apple Pencil, magnetically stuck along the top edge */}
+      <group position={[0, bh / 2 + 0.022, 0.004]} rotation={[0, 0, Math.PI / 2]}>
+        <mesh>
+          <cylinderGeometry args={[0.028, 0.028, 1.35, 24]} />
+          <meshStandardMaterial color={"#f4f3f0"} roughness={0.55} metalness={0.05} />
+        </mesh>
+        {/* matte writing tip */}
+        <mesh position={[0, 0.735, 0]}>
+          <coneGeometry args={[0.028, 0.12, 24]} />
+          <meshStandardMaterial color={"#d9d7d2"} roughness={0.6} />
+        </mesh>
       </group>
     </group>
   );
@@ -145,13 +204,16 @@ export function Pad({ groupRef, screenRef, layerRefs, layers }) {
 /* iPhone: floating portrait slab */
 export function Phone({ groupRef, screenRef, layerRefs, layers }) {
   const S = SCREENS.phone;
+  // iPhone 16 Pro: 62pt display corner radius on a 390pt-wide screen
+  const screenRadius = 62 * (S.w / 390);            // ≈ 0.173 world units
+  const bodyRadius = screenRadius + 0.06;           // concentric with the bezel
   return (
-    <group ref={groupRef}>
-      <RoundedBox args={[S.w + 0.12, S.h + 0.12, 0.07]} radius={0.085} smoothness={4}>
+    <group ref={groupRef} scale={0.36}>
+      <RoundedBox args={[S.w + 0.12, S.h + 0.12, 0.07]} radius={bodyRadius} smoothness={6}>
         <meshStandardMaterial color={"#cfccc6"} roughness={0.55} metalness={0.3} />
       </RoundedBox>
       <group position={[0, 0, 0.04]}>
-        <ScreenStack device="phone" layers={layers} screenRef={screenRef} layerRefs={layerRefs} />
+        <ScreenStack device="phone" layers={layers} screenRef={screenRef} layerRefs={layerRefs} cornerRadius={screenRadius} />
       </group>
       {/* dynamic island hint */}
       <mesh position={[0, SCREENS.phone.h / 2 - 0.085, 0.085]} renderOrder={30}>

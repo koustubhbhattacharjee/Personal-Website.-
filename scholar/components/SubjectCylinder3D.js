@@ -2249,6 +2249,42 @@ export default function SubjectCylinder3D({
   const mobileArc = activeArc || null
   const mobileQuestionList = activeQuestionList
 
+  useEffect(() => {
+    if (typeof window === "undefined") return undefined
+    window.__scholarCaptureSelect = ({ unitName = "", ringName = "", arcId = "", questionKey = "" } = {}) => {
+      const unitIdx = normalizedUnits.findIndex((unit) =>
+        !unitName || String(unit?.name || "").toLowerCase().includes(String(unitName).toLowerCase())
+      )
+      if (unitIdx < 0) return false
+      const unit = normalizedUnits[unitIdx]
+      const ring = (unit.rings || []).find((candidate) =>
+        !ringName || String(candidate?.name || "").toLowerCase().includes(String(ringName).toLowerCase())
+      )
+      const arc = ring && (ring.arcs || []).find((candidate) =>
+        !arcId ||
+        candidate?.questionTypeId === arcId ||
+        String(candidate?.type || "").toLowerCase().includes(String(arcId).toLowerCase())
+      )
+      setSelectedUnitIdx(unitIdx)
+      setSelectedRingCode(ring?.code || "")
+      setActiveArcId(arc?.questionTypeId || "")
+      setSelectedQuestionKey(questionKey || arc?.questions?.[0]?.key || "")
+      return true
+    }
+    window.__scholarCaptureDebug = () => normalizedUnits.map((unit) => ({
+      name: unit?.name || "",
+      rings: (unit?.rings || []).map((ring) => ({
+        code: ring?.code || "",
+        name: ring?.name || "",
+        arcs: (ring?.arcs || []).map((arc) => ({ id: arc?.questionTypeId || "", type: arc?.type || "" })),
+      })),
+    }))
+    return () => {
+      if (window.__scholarCaptureSelect) delete window.__scholarCaptureSelect
+      if (window.__scholarCaptureDebug) delete window.__scholarCaptureDebug
+    }
+  }, [normalizedUnits])
+
   const handleHighlightUnit = (i) => {
     if (mobileStage) { handleSelectUnit(i); return }
     // Fallback double-click detection: R3F's onDoubleClick can miss when the
