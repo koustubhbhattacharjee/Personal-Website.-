@@ -21,9 +21,9 @@ export default function Fallback() {
   return (
     <div className="tour-fallback">
       <div className="fb-hero">
-        <img className="hero-photo" src="/assets/portrait-warm.jpg" alt="Koustubh Bhattacharjee" />
+        <h1 className="hero-greet caslon">Hi, I'm Koustubh.</h1>
         <p className="hero-desc">
-          Hi, I'm Koustubh — a former lead high&#8209;school physics teacher in Washington, DC, US. I teach physics and math for high school and specialize in AP courses. I use my own product, <b>Scholar</b>, to structure my lessons. Scroll to learn more.
+          I was the lead physics teacher at <b>KIPP DC College Prep</b> in Washington, DC, USA, and I tutor physics and math. I use my own product, <b>Scholar</b>, to track student progress.
         </p>
       </div>
       {CALLOUTS.map((c, i) => (

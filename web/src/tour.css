@@ -284,26 +284,25 @@
   padding: 60px 0 30px;
 }
 .fb-hero {
-  max-width: 720px;
+  max-width: 640px;
   margin: 0 auto;
-  padding: 4vh 28px 40px;
+  padding: 8vh 28px 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-.fb-hero .hero-photo { width: 84px; height: 84px; margin-bottom: 24px; }
-.fb-hero .hero-desc { font-size: clamp(19px, 4.6vw, 26px); }
+.fb-hero .hero-greet { font-size: clamp(34px, 9vw, 60px); margin-bottom: 16px; }
+.fb-hero .hero-desc { font-size: clamp(18px, 4.4vw, 24px); }
+/* mobile walkthrough: each device screenshot with its card content directly
+   below it — single column, card under the device */
 .fb-beat {
-  max-width: 1120px;
+  max-width: 600px;
   margin: 0 auto;
-  padding: 34px 28px;
-  display: grid;
-  gap: 22px;
-}
-@media (min-width: 700px) {
-  .fb-beat { grid-template-columns: 1.2fr 1fr; align-items: center; }
-  .fb-beat.flip .fb-shot { order: 2; }
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 .fb-shot img {
   width: 100%;
