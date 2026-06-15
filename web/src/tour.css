@@ -134,15 +134,16 @@
 #laptop-intro {
   position: absolute;
   left: 50%;
-  top: 24%;
+  top: 16%;
   transform: translateX(-50%);
-  width: min(560px, 82vw);
+  width: min(600px, 84vw);
   text-align: center;
   color: #fff;
-  font-size: clamp(20px, 2.6vw, 34px);
-  font-weight: 800;
-  letter-spacing: -0.015em;
-  line-height: 1.2;
+  font-family: var(--serif);
+  font-size: clamp(20px, 2.3vw, 30px);
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  line-height: 1.32;
   opacity: 0;
   pointer-events: none;
 }

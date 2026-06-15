@@ -77,7 +77,7 @@ function Hero() {
       <div className="hero-inner">
         <h1 className="hero-greet caslon">Hi, I'm Koustubh.</h1>
         <p className="hero-desc">
-          I'm Koustubh. I was the lead physics teacher at <b>KIPP DC College Prep</b> in Washington, DC, USA, and I tutor physics and math. Scroll to know more.
+          I was the lead physics teacher at <b>KIPP DC College Prep</b> in Washington, DC, USA, and I tutor physics and math. Scroll to know more.
         </p>
       </div>
       <div className="scroll-hint"><span className="label">scroll</span><span className="chev">⌄</span></div>
@@ -170,13 +170,14 @@ function buildTimeline(sectionEl) {
       { keyframes: [{ scale: 0.6, autoAlpha: 0.9, duration: 0.7 }, { scale: 1.6, autoAlpha: 0, duration: 1 }] }, at);
 
   /* 0–6: hero hands off, MacBook rises */
-  tl.to("#hero-block .hero-inner", { y: -120, autoAlpha: 0, duration: 4.6, ease: "power1.in" }, 0.8);
+  tl.to("#hero-block .hero-inner", { y: -120, autoAlpha: 0, duration: 3.2, ease: "power1.in" }, 0.8);
   tl.to(".scroll-hint", { autoAlpha: 0, duration: 1.5 }, 0.8);
   tl.to(rig, { macY: 0.1, duration: 6.4, ease: "power2.out" }, 0.4);
   tl.to(rig, { camZ: 4.6, duration: 6.4, ease: "power1.inOut" }, 0.4);
-  // white line above the laptop as it rises and opens (white on the orange)
-  tl.fromTo("#laptop-intro", { autoAlpha: 0, y: 16 }, { autoAlpha: 1, y: 0, duration: 2, ease: "power2.out" }, 4.4);
-  tl.to("#laptop-intro", { autoAlpha: 0, y: -16, duration: 1.6, ease: "power2.in" }, 9.6);
+  // white line above the laptop as it rises (white on the orange); it must clear
+  // out before the rising/opening laptop reaches it
+  tl.fromTo("#laptop-intro", { autoAlpha: 0, y: 16 }, { autoAlpha: 1, y: 0, duration: 1.4, ease: "power2.out" }, 4.4);
+  tl.to("#laptop-intro", { autoAlpha: 0, y: -18, duration: 1.2, ease: "power2.in" }, 6.6);
 
   /* Stage colour curtains. Each wipes up from the bottom, driven by a numeric
      proxy (robust under scrub, same pattern as `rig`) instead of a transform
@@ -409,7 +410,7 @@ export default function Tour() {
             ))}
           </svg>
           {CALLOUTS.map((c) => <Card key={c.id} c={c} />)}
-          <div id="laptop-intro" className="caslon">I use my own product — Scholar — to track student progress.</div>
+          <div id="laptop-intro">I use my own product — Scholar — to track student progress.</div>
           <Hero />
           <div id="end-hint">
             <span className="eyebrow">— and parents notice</span>
