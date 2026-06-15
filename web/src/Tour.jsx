@@ -75,9 +75,9 @@ function Hero() {
   return (
     <div id="hero-block">
       <div className="hero-inner">
-        <img className="hero-photo" src="/assets/portrait-warm.jpg" alt="Koustubh Bhattacharjee" />
+        <h1 className="hero-greet caslon">Hi, I'm Koustubh.</h1>
         <p className="hero-desc">
-          Hi, I'm Koustubh — a former lead high&#8209;school physics teacher in Washington, DC, US. I teach physics and math for high school and specialize in AP courses. I use my own product, <b>Scholar</b>, to structure my lessons. Scroll to learn more.
+          I'm Koustubh. I was the lead physics teacher at <b>KIPP DC College Prep</b> in Washington, DC, USA, and I tutor physics and math. Scroll to know more.
         </p>
       </div>
       <div className="scroll-hint"><span className="label">scroll</span><span className="chev">⌄</span></div>
@@ -174,6 +174,9 @@ function buildTimeline(sectionEl) {
   tl.to(".scroll-hint", { autoAlpha: 0, duration: 1.5 }, 0.8);
   tl.to(rig, { macY: 0.1, duration: 6.4, ease: "power2.out" }, 0.4);
   tl.to(rig, { camZ: 4.6, duration: 6.4, ease: "power1.inOut" }, 0.4);
+  // white line above the laptop as it rises and opens (white on the orange)
+  tl.fromTo("#laptop-intro", { autoAlpha: 0, y: 16 }, { autoAlpha: 1, y: 0, duration: 2, ease: "power2.out" }, 4.4);
+  tl.to("#laptop-intro", { autoAlpha: 0, y: -16, duration: 1.6, ease: "power2.in" }, 9.6);
 
   /* Stage colour curtains. Each wipes up from the bottom, driven by a numeric
      proxy (robust under scrub, same pattern as `rig`) instead of a transform
@@ -197,13 +200,19 @@ function buildTimeline(sectionEl) {
     const vh = window.innerHeight;
     const navH = clone.offsetHeight || 68;
     const clamp = (v) => Math.max(0, Math.min(v, navH));
-    const yO = clamp((cOrange.p.y / 100) * vh); // orange curtain top edge
-    const yW = clamp((cWhite.p.y / 100) * vh);  // off-white curtain top edge
-    clone.style.clipPath = `inset(${yO}px 0 ${navH - yW}px 0)`;
+    const yO = clamp((cOrange.p.y / 100) * vh); // orange top edge
+    const yY = clamp((cYellow.p.y / 100) * vh); // yellow top edge (rises over orange)
+    const yW = clamp((cWhite.p.y / 100) * vh);  // off-white top edge (rises over yellow)
+    // the white-text clone shows only where orange is the *topmost* colour; once
+    // yellow or off-white rises over the header, the base dark nav shows instead
+    // (so the header reads dark on yellow, not white-on-yellow)
+    const top = yO;
+    const bottom = Math.max(top, Math.min(yY, yW));
+    clone.style.clipPath = `inset(${top}px 0 ${navH - bottom}px 0)`;
   };
   const cOrange = makeWipe("stage-orange", paintNav);
   const cWhite = makeWipe("stage-white", paintNav);
-  const cYellow = makeWipe("stage-yellow");
+  const cYellow = makeWipe("stage-yellow", paintNav);
 
   /* orange floods up as the MacBook rises/opens — full by lid-open (~10.5) */
   tl.to(cOrange.p, { y: 0, duration: 9.3, ease: "power2.out", onUpdate: cOrange.paint }, 1.2);
@@ -217,9 +226,10 @@ function buildTimeline(sectionEl) {
   tl.to(rig, { camZ: 3.65, duration: 4 }, 11.6);
   calloutOut("what", 16.2);
 
-  /* 17–23: zoom into the subject stack — frame the shape area wide enough that
-     the accumulating shapes stay in view through the whole drill */
-  tl.to(rig, { camZ: 2.75, camX: 0.13, tgtX: 0.11, camY: 0.04, tgtY: 0.05, duration: 5, ease: "power2.inOut" }, 17.2);
+  /* 17–23: the laptop stays PINNED — instead of dollying the camera in, the
+     screen CONTENT zooms into the shape area so the drill-down reads clearly */
+  tl.to(rig, { camZ: 2.9, camX: 0, tgtX: 0, camY: 0.12, tgtY: 0.12, duration: 5, ease: "power2.inOut" }, 17.2);
+  tl.to(rig, { zoom: 0.46, zoomX: 0.52, zoomY: 0.4, duration: 5, ease: "power2.inOut" }, 17.2);
   // focus: darken the surrounding laptop UI through the drill-down and the card
   tl.to("#drill-focus", { autoAlpha: 1, duration: 2.5 }, 20.5);
 
@@ -229,8 +239,6 @@ function buildTimeline(sectionEl) {
   xfade("macUnit", "macRing", 25.6, 0.9);
   xfade("macRing", "macQt", 27.2, 0.9);
   xfade("macQt", "macQuestion", 28.8, 0.9);
-  // gentle settle on the finished stack while the card reads
-  tl.to(rig, { camZ: 2.6, duration: 20, ease: "power1.inOut" }, 30);
 
   /* 33–41: the single explanatory card, shown only once the build finishes */
   calloutIn("shapes", 33);
@@ -264,11 +272,12 @@ function buildTimeline(sectionEl) {
   /* 42–49: HANDOFF 1 — laptop hands the rest of the lesson to the iPad
      (orange band on top, yellow rising). */
   // settle dead-on (tgtY=camY=0) and raise the laptop into the top band
-  tl.to(rig, { camZ: 4.2, camX: 0, camY: 0, tgtX: 0, tgtY: 0, tgtZ: 0, macY: 0.22, duration: 2.4, ease: "power2.inOut" }, 42);
+  tl.to(rig, { camZ: 4.2, camX: 0, camY: 0, tgtX: 0, tgtY: 0, tgtZ: 0, macY: 0.22, zoom: 1, duration: 2.4, ease: "power2.inOut" }, 42);
   tl.set(rig, { padMcq: 1 }, 44.2); // iPad arrives already showing the practice room
   handoff({ at: 44.6, out: "mac", inn: "pad", rising: cYellow, inParkY: -0.3 });
-  // recentre the iPad and frame it for the content beats
+  // recentre the iPad and zoom its content into the MCQ (pinned device)
   tl.to(rig, { padY: 0, camZ: 2.95, camX: 0, tgtX: 0, camY: 0, tgtY: 0, duration: 1.6, ease: "power2.inOut" }, 49.3);
+  tl.to(rig, { zoom: 0.58, zoomX: 0.4, zoomY: 0.46, duration: 1.6, ease: "power2.inOut" }, 49.3);
 
   /* 51–57: practice room (now on the iPad) — MCQ answered correctly */
   calloutIn("mcq", 51);
@@ -277,7 +286,9 @@ function buildTimeline(sectionEl) {
   xfade("padMcqSel", "padMcqCorrect", 55.6, 1.2); // submit -> CORRECT
   calloutOut("mcq", 56.8);
 
-  /* 57–63: the wedge re-tints on the iPad's map */
+  /* 57–63: the wedge re-tints on the iPad's map — zoom back to the whole screen
+     so the highlight-band overlay lines up with the wedge */
+  tl.to(rig, { zoom: 1, duration: 1.4, ease: "power2.inOut" }, 56.8);
   xfade("padMcqCorrect", "padQtAfter", 57.4, 2.0);
   tl.fromTo("#hl-band", { autoAlpha: 0 }, { autoAlpha: 1, duration: 1 }, 59);
   tl.to("#hl-band", { autoAlpha: 0, duration: 1 }, 61);
@@ -302,8 +313,6 @@ function buildTimeline(sectionEl) {
     },
   }, 63.6);
   xfade("padQtAfter", "padQtDecayed", 63.6, 3);
-  // pull back to the whole faded course
-  tl.to(rig, { camZ: 3.3, duration: 3, ease: "power2.inOut" }, 66.4);
   xfade("padQtDecayed", "padDashDecayed", 66.8, 1.8);
   calloutOut("decay", 69.4);
 
@@ -322,11 +331,11 @@ function buildTimeline(sectionEl) {
   /* 78–84: HANDOFF 2 — iPad hands off to the iPhone. Same transition; this time
      the off-white floods up and removes the yellow. */
   // settle dead-on and raise the iPad into the top band
-  tl.to(rig, { camZ: 4.4, camX: 0, camY: 0, tgtX: 0, tgtY: 0, tgtZ: 0, padY: 0.3, duration: 2.0, ease: "power2.inOut" }, 77.2);
+  tl.to(rig, { camZ: 4.4, camX: 0, camY: 0, tgtX: 0, tgtY: 0, tgtZ: 0, padY: 0.3, zoom: 1, duration: 2.0, ease: "power2.inOut" }, 77.2);
   tl.set(rig, { phoneCards: 1 }, 78.6); // iPhone arrives showing the flashcard deck
   handoff({ at: 79, out: "pad", inn: "phone", rising: cWhite, inParkY: -0.42 });
-  // recentre the iPhone and frame it larger (it reads small from far back)
-  tl.to(rig, { phoneY: -0.04, camZ: 3.6, camY: -0.04, tgtY: -0.04, duration: 1.6, ease: "power2.inOut" }, 83.7);
+  // recentre the iPhone (pinned) and zoom its content for legibility
+  tl.to(rig, { phoneY: -0.04, camZ: 3.6, camY: -0.04, tgtY: -0.04, zoom: 0.82, zoomX: 0.5, zoomY: 0.56, duration: 1.6, ease: "power2.inOut" }, 83.7);
 
   /* 85–89: flashcards */
   calloutIn("cards", 85.4);
@@ -400,6 +409,7 @@ export default function Tour() {
             ))}
           </svg>
           {CALLOUTS.map((c) => <Card key={c.id} c={c} />)}
+          <div id="laptop-intro" className="caslon">I use my own product — Scholar — to track student progress.</div>
           <Hero />
           <div id="end-hint">
             <span className="eyebrow">— and parents notice</span>

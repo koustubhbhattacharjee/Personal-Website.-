@@ -32,6 +32,11 @@ export const rig = {
   divider: 1, clipActive: 0,
   macClipSide: 0, padClipSide: 0, phoneClipSide: 0,
 
+  // content zoom: scale/pan the screen TEXTURE (not the camera) so a pinned device
+  // can still show legible detail. zoom 1 = whole screen; <1 zooms in. zoomX/zoomY
+  // are the focus point in texture space (0..1; y is bottom→top due to flipY).
+  zoom: 1, zoomX: 0.5, zoomY: 0.5,
+
   // global fade of the 3d stage at the very end
   stageFade: 1,
 };

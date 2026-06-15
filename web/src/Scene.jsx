@@ -128,6 +128,8 @@ export default function Scene() {
       t.anisotropy = Math.min(8, maxAniso);
       t.minFilter = THREE.LinearMipmapLinearFilter;
       t.generateMipmaps = true;
+      // clamp so the content-zoom offset never wraps the screenshot
+      t.wrapS = t.wrapT = THREE.ClampToEdgeWrapping;
       t.needsUpdate = true;
     });
   }, [tex, gl]);
@@ -141,6 +143,7 @@ export default function Scene() {
     tex.macQtAfter, tex.macQtDecayed, tex.macDashDecayed,
     tex.padQ1, tex.padQ2,
   ];
+  const texList = Object.values(tex);
   const phoneLayerList = [tex.phoneCards, tex.phoneCardsBack, tex.phoneCheckin];
 
   useEffect(() => {
@@ -212,6 +215,16 @@ export default function Scene() {
     setOps(macLayers, MAC_LAYERS);
     setOps(padLayers, PAD_KEYS);
     setOps(phoneLayers, PHONE_KEYS);
+
+    // content zoom — pan/scale the screenshot inside the (pinned) screen so its
+    // text is legible without dollying the camera toward the device
+    const z = rig.zoom;
+    const ox = Math.max(0, Math.min(rig.zoomX - z / 2, 1 - z));
+    const oy = Math.max(0, Math.min(rig.zoomY - z / 2, 1 - z));
+    for (let i = 0; i < texList.length; i++) {
+      texList[i].repeat.set(z, z);
+      texList[i].offset.set(ox, oy);
+    }
 
     // ── project screens + anchors into the DOM layer ──────────────────────
     const size = state.size;
