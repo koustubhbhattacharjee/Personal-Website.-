@@ -172,7 +172,7 @@ function buildTimeline(sectionEl) {
   /* 0–6: hero hands off, MacBook rises */
   tl.to("#hero-block .hero-inner", { y: -120, autoAlpha: 0, duration: 3.2, ease: "power1.in" }, 0.8);
   tl.to(".scroll-hint", { autoAlpha: 0, duration: 1.5 }, 0.8);
-  tl.to(rig, { macY: 0.1, duration: 6.4, ease: "power2.out" }, 0.4);
+  tl.to(rig, { macY: -0.15, duration: 6.4, ease: "power2.out" }, 0.4); // rises to screen-centre (y≈0)
   tl.to(rig, { camZ: 4.6, duration: 6.4, ease: "power1.inOut" }, 0.4);
   // white line above the laptop as it rises (white on the orange); it must clear
   // out before the rising/opening laptop reaches it
@@ -218,18 +218,18 @@ function buildTimeline(sectionEl) {
   /* orange floods up as the MacBook rises/opens — full by lid-open (~10.5) */
   tl.to(cOrange.p, { y: 0, duration: 9.3, ease: "power2.out", onUpdate: cOrange.paint }, 1.2);
 
-  /* 6–10.5: the lid twists open */
+  /* 6–10.5: the lid twists open — camera settles to the ONE fixed framing
+     (dead-centre, tgtY=camY=0) used for the whole device sequence, so nothing
+     dollies/enlarges from here on */
   tl.to(rig, { lid: 1, duration: 4.5, ease: "power2.inOut" }, 6);
-  tl.to(rig, { camZ: 3.9, tgtY: 0.12, camY: 0.12, duration: 4, ease: "power1.inOut" }, 7);
+  tl.to(rig, { camZ: 3.2, tgtX: 0, tgtY: 0, camX: 0, camY: 0, duration: 4, ease: "power1.inOut" }, 7);
 
-  /* 11–17: callout 1 — what is Scholar */
+  /* 11–17: callout 1 — what is Scholar (camera held; no dolly) */
   calloutIn("what", 11.4);
-  tl.to(rig, { camZ: 3.65, duration: 4 }, 11.6);
   calloutOut("what", 16.2);
 
   /* 17–23: the laptop stays PINNED — instead of dollying the camera in, the
      screen CONTENT zooms into the shape area so the drill-down reads clearly */
-  tl.to(rig, { camZ: 2.9, camX: 0, tgtX: 0, camY: 0.12, tgtY: 0.12, duration: 5, ease: "power2.inOut" }, 17.2);
   tl.to(rig, { zoom: 0.46, zoomX: 0.52, zoomY: 0.4, duration: 5, ease: "power2.inOut" }, 17.2);
 
   /* 24–30: quick drill-down — zip through the accumulating shapes, no cards.
@@ -269,31 +269,28 @@ function buildTimeline(sectionEl) {
 
   /* 42–49: HANDOFF 1 — laptop hands the rest of the lesson to the iPad
      (orange band on top, yellow rising). */
-  // settle dead-on (tgtY=camY=0) and raise the laptop into the top band
-  tl.to(rig, { camZ: 4.2, camX: 0, camY: 0, tgtX: 0, tgtY: 0, tgtZ: 0, macY: 0.22, zoom: 1, duration: 2.4, ease: "power2.inOut" }, 42);
+  // reset the screen-zoom; camera/devices already dead-centre (no dolly, no raise)
+  tl.to(rig, { zoom: 1, duration: 2.4, ease: "power2.inOut" }, 42);
   tl.set(rig, { padMcq: 1 }, 44.2); // iPad arrives already showing the practice room
-  handoff({ at: 44.6, out: "mac", inn: "pad", rising: cYellow, inParkY: -0.3 });
-  // recentre the iPad and zoom its content into the MCQ (pinned device)
-  tl.to(rig, { padY: 0, camZ: 2.95, camX: 0, tgtX: 0, camY: 0, tgtY: 0, duration: 1.6, ease: "power2.inOut" }, 49.3);
-  tl.to(rig, { zoom: 0.58, zoomX: 0.4, zoomY: 0.46, duration: 1.6, ease: "power2.inOut" }, 49.3);
+  // both devices stay bang-centre — the handoff is pure rotation about the axis
+  handoff({ at: 44.6, out: "mac", inn: "pad", rising: cYellow, inParkY: 0 });
+  tl.to(rig, { zoom: 1, duration: 1.6, ease: "power2.inOut" }, 49.3);
+  tl.to(rig, { padMcq: 0.16, duration: 1.2, ease: "power1.inOut" }, 49.3);
+  tl.to(rig, { shapesOn: 1, duration: 1.4, ease: "power2.out" }, 49.6);
 
-  /* 51–57: practice room (now on the iPad) — MCQ answered correctly */
+  /* practice room — every correct answer rolls the colour up the hierarchy:
+     question (arc) → question type → learning objective → unit → subject (cylinder) */
   calloutIn("mcq", 51);
-  ripple("#ripple2", 53.8); // click the right option
-  xfade("padMcq", "padMcqSel", 54.2, 0.8);
-  xfade("padMcqSel", "padMcqCorrect", 55.6, 1.2); // submit -> CORRECT
-  calloutOut("mcq", 56.8);
+  // flip rapidly through the recolour frames as answers land (questions roll up)
+  tl.to(rig, { shapeFrame: 14, duration: 5.4, ease: "none" }, 50.6);
+  calloutOut("mcq", 56.4);
 
-  /* 57–63: the wedge re-tints on the iPad's map — zoom back to the whole screen
-     so the highlight-band overlay lines up with the wedge */
-  tl.to(rig, { zoom: 1, duration: 1.4, ease: "power2.inOut" }, 56.8);
-  xfade("padMcqCorrect", "padQtAfter", 57.4, 2.0);
-  tl.fromTo("#hl-band", { autoAlpha: 0 }, { autoAlpha: 1, duration: 1 }, 59);
-  tl.to("#hl-band", { autoAlpha: 0, duration: 1 }, 61);
-  calloutIn("colour", 58.2);
+  /* the roll-up reaches the unit and finally the whole subject (cylinder) */
+  calloutIn("colour", 57);
+  tl.to(rig, { shapeFrame: 23, duration: 4.4, ease: "none" }, 55.8); // → unit → subject
   calloutOut("colour", 61.6);
 
-  /* 63–70: decay — weeks later, the colours fade */
+  /* decay — without reinforcement the colours dim on a spaced-repetition schedule */
   calloutIn("decay", 63);
   tl.fromTo("#decay-path", { attr: { "stroke-dashoffset": 1 } }, { attr: { "stroke-dashoffset": 0 }, duration: 5, ease: "none" }, 63.6);
   tl.fromTo("#decay-dot", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.6 }, 63.6);
@@ -310,13 +307,13 @@ function buildTimeline(sectionEl) {
       dot.setAttribute("cy", p.y);
     },
   }, 63.6);
-  xfade("padQtAfter", "padQtDecayed", 63.6, 3);
-  xfade("padQtDecayed", "padDashDecayed", 66.8, 1.8);
+  // the colours dim back down — play the flipbook partway back (retention)
+  tl.to(rig, { shapeFrame: 11, duration: 4.5, ease: "power1.inOut" }, 63.6);
   calloutOut("decay", 69.4);
 
-  /* 70–77: exit ticket on the iPad — timed, worked by hand on the scratchpad */
-  tl.to(rig, { camZ: 2.95, duration: 1.6, ease: "power2.inOut" }, 69.6);
-  xfade("padDashDecayed", "padExit1", 70, 1.2);
+  /* 70–77: exit ticket on the iPad — shapes clear, the iPad screen returns */
+  tl.to(rig, { shapesOn: 0, duration: 1.2, ease: "power2.in" }, 69.2);
+  xfade("padMcq", "padExit1", 70, 1.2);
   calloutIn("exit", 71);
   gsap.utils.toArray("#pad-draw .stk").forEach((p, i) => {
     tl.fromTo(p, { attr: { "stroke-dashoffset": 1 } },
@@ -328,12 +325,12 @@ function buildTimeline(sectionEl) {
 
   /* 78–84: HANDOFF 2 — iPad hands off to the iPhone. Same transition; this time
      the off-white floods up and removes the yellow. */
-  // settle dead-on and raise the iPad into the top band
-  tl.to(rig, { camZ: 4.4, camX: 0, camY: 0, tgtX: 0, tgtY: 0, tgtZ: 0, padY: 0.3, zoom: 1, duration: 2.0, ease: "power2.inOut" }, 77.2);
+  // camera/devices already dead-centre — nothing to settle, just reset the zoom
+  tl.to(rig, { zoom: 1, duration: 2.0, ease: "power2.inOut" }, 77.2);
   tl.set(rig, { phoneCards: 1 }, 78.6); // iPhone arrives showing the flashcard deck
-  handoff({ at: 79, out: "pad", inn: "phone", rising: cWhite, inParkY: -0.42 });
-  // recentre the iPhone (pinned) and zoom its content for legibility
-  tl.to(rig, { phoneY: -0.04, camZ: 3.6, camY: -0.04, tgtY: -0.04, zoom: 0.82, zoomX: 0.5, zoomY: 0.56, duration: 1.6, ease: "power2.inOut" }, 83.7);
+  // both devices stay bang-centre — pure rotation
+  handoff({ at: 79, out: "pad", inn: "phone", rising: cWhite, inParkY: 0 });
+  tl.to(rig, { zoom: 1, duration: 1.6, ease: "power2.inOut" }, 83.7);
 
   /* 85–89: flashcards */
   calloutIn("cards", 85.4);
@@ -345,8 +342,9 @@ function buildTimeline(sectionEl) {
   calloutIn("log", 90.6);
   calloutOut("log", 93.6);
 
-  /* 95–100: iPhone zips off; the background is already off-white, hand off to reviews */
-  tl.to(rig, { phoneX: -9, phoneRotY: -0.45, duration: 1.6, ease: "power3.in" }, 95);
+  /* 95–100: iPhone turns away in place (no travel) as the stage fades to the
+     off-white reviews section */
+  tl.to(rig, { phoneRotY: -Math.PI, duration: 2.0, ease: "power2.in" }, 95);
   tl.to(".tour-canvas", { autoAlpha: 0, duration: 2 }, 95.6);
   tl.fromTo("#end-hint", { autoAlpha: 0, y: 26 }, { autoAlpha: 1, y: 0, duration: 2.2, ease: "power2.out" }, 95.8);
 

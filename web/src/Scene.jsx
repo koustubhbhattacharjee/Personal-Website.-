@@ -4,11 +4,26 @@ import { useTexture, PerspectiveCamera } from "@react-three/drei";
 import * as THREE from "three";
 import { RoomEnvironment } from "three/examples/jsm/environments/RoomEnvironment.js";
 import { MacBook, Pad, Phone } from "./devices";
+import { SHAPE_FRAMES } from "./shapes";
+
+// Practice Room recolour flipbook frames (captured small; played on the iPad)
+const FRAME_PATHS = Array.from(
+  { length: SHAPE_FRAMES },
+  (_, i) => `/shots/practice/p${String(i).padStart(2, "0")}.png`
+);
 import { rig, trackers, SCREENS, uvToLocal } from "./rig";
 import { SHOTS, CALLOUTS, MAC_LAYERS } from "./tour-data";
 
 const LID_CLOSED = Math.PI / 2;
 const LID_OPEN = -0.16;
+
+// On phones the canvas is a letterbox in the top half of the stage (tour.css),
+// so the portrait viewport is far narrower than desktop and the centred devices
+// would overflow the width. Pull the camera straight back by a constant factor —
+// a geometrically exact zoom-out that leaves every timeline value untouched. The
+// handoff clip-plane maths scales by the same factor so the divider stays aligned.
+const MOBILE = typeof window !== "undefined" && window.matchMedia("(max-width: 880px)").matches;
+const FIT = MOBILE ? 1.5 : 1;
 
 // The MacBook's display centre is offset from the model-group origin (the
 // (0, 0.15, -0.6) note in devices.jsx). During the handoff the laptop must spin
@@ -57,6 +72,7 @@ export default function Scene() {
   const macLayers = useRef([]);
   const padLayers = useRef([]);
   const phoneLayers = useRef([]);
+  const flipRef = useRef();
   const camRef = useRef();
 
   // Hard-clip planes for the rotational handoff. A horizontal world plane (normal
@@ -134,6 +150,17 @@ export default function Scene() {
     });
   }, [tex, gl]);
 
+  // Practice Room flipbook frames (separate from the screen-layer textures, so the
+  // content-zoom UV transform never touches them)
+  const frameTex = useTexture(FRAME_PATHS);
+  useEffect(() => {
+    frameTex.forEach((t) => { t.colorSpace = THREE.SRGBColorSpace; t.needsUpdate = true; });
+    if (flipRef.current) {
+      flipRef.current.material.map = frameTex[0];
+      flipRef.current.material.needsUpdate = true;
+    }
+  }, [frameTex]);
+
   // layer order must match the rig keys applied below
   const macLayerList = MAC_LAYERS.map((k) => tex[k]);
   // the iPad replays the (laptop-aspect) practice/mastery/decay screens, then its
@@ -157,8 +184,9 @@ export default function Scene() {
     const cam = camRef.current;
     if (!cam) return;
 
-    // camera
-    cam.position.set(rig.camX, rig.camY, rig.camZ);
+    // camera (FIT pulls it back on phones so the centred devices fit the
+    // narrower portrait canvas; 1 on desktop)
+    cam.position.set(rig.camX, rig.camY, rig.camZ * FIT);
     cam.lookAt(rig.tgtX, rig.tgtY, rig.tgtZ);
 
     // handoff hard-clip — map the divider's screen line to a world-Y plane. With
@@ -174,25 +202,24 @@ export default function Scene() {
     };
     const half = Math.tan((Math.PI / 180) * 15); // tan(fov/2), fov = 30°
     const ndcY = 1 - 2 * rig.divider;             // divider 1 → bottom, 0 → top
-    const yc = rig.camY + ndcY * half * rig.camZ;
+    const yc = rig.camY + ndcY * half * rig.camZ * FIT;
     setClip(macClip, rig.macClipSide, yc);
     setClip(padClip, rig.padClipSide, yc);
     setClip(phoneClip, rig.phoneClipSide, yc);
 
-    // devices — tiny ambient float so the white space feels alive
-    const float = Math.sin(t * 0.9) * 0.012;
+    // devices stay bang-centre — no x/y/z drift; handoffs are pure rotation
     if (macRef.current) {
       const ry = rig.macRotY;
       if (rig.macClipSide !== 0) {
-        // pivot about the screen centre so the edge-on laptop stays directly
-        // above the iPad (compensate x/z for the screen's z-offset from origin)
+        // spin about the screen centre so the screen stays put (the model origin
+        // is offset from the display; compensate x/z so only rotation is seen)
         macRef.current.position.set(
           -MAC_SCREEN_Z * Math.sin(ry),
-          rig.macY + float,
+          rig.macY,
           MAC_SCREEN_Z * (1 - Math.cos(ry))
         );
       } else {
-        macRef.current.position.set(rig.macX, rig.macY + float, 0);
+        macRef.current.position.set(rig.macX, rig.macY, 0);
       }
       macRef.current.rotation.y = ry;
       macRef.current.visible = rig.macX > -7.5;
@@ -201,12 +228,12 @@ export default function Scene() {
       lidRef.current.rotation.x = LID_CLOSED + (LID_OPEN - LID_CLOSED) * rig.lid;
     }
     if (padRef.current) {
-      padRef.current.position.set(rig.padX, rig.padY + Math.sin(t * 1.1 + 2) * 0.014, 0);
+      padRef.current.position.set(rig.padX, rig.padY, 0);
       padRef.current.rotation.y = rig.padRotY;
       padRef.current.visible = rig.padX > -7.5 && rig.padX < 7.5;
     }
     if (phoneRef.current) {
-      phoneRef.current.position.set(rig.phoneX, rig.phoneY + Math.sin(t * 1.3 + 4) * 0.016, 0);
+      phoneRef.current.position.set(rig.phoneX, rig.phoneY, 0);
       phoneRef.current.rotation.y = rig.phoneRotY;
       phoneRef.current.visible = rig.phoneX > -7.5 && rig.phoneX < 7.5;
     }
@@ -224,6 +251,18 @@ export default function Scene() {
     for (let i = 0; i < texList.length; i++) {
       texList[i].repeat.set(z, z);
       texList[i].offset.set(ox, oy);
+    }
+
+    // Practice Room flipbook: swap the iPad-screen frame to the scrubbed recolour
+    // step (played fast as the section scrolls), faded by shapesOn
+    if (flipRef.current) {
+      const on = rig.shapesOn;
+      flipRef.current.visible = on > 0.01;
+      if (on > 0.01) {
+        const idx = Math.max(0, Math.min(SHAPE_FRAMES - 1, Math.round(rig.shapeFrame)));
+        flipRef.current.material.map = frameTex[idx];
+        flipRef.current.material.opacity = on;
+      }
     }
 
     // ── project screens + anchors into the DOM layer ──────────────────────
@@ -276,6 +315,11 @@ export default function Scene() {
       />
       <Pad groupRef={padRef} screenRef={padScreenRef} layerRefs={padLayers} layers={padLayerList} />
       <Phone groupRef={phoneRef} screenRef={phoneScreenRef} layerRefs={phoneLayers} layers={phoneLayerList} />
+      {/* Practice Room recolour flipbook, playing on the iPad screen */}
+      <mesh ref={flipRef} position={[0, 0, 0.05]} visible={false} renderOrder={40}>
+        <planeGeometry args={[0.871, 0.608]} />
+        <meshBasicMaterial transparent opacity={0} toneMapped={false} depthTest={false} />
+      </mesh>
     </>
   );
 }

@@ -324,6 +324,33 @@
 }
 .fb-card p { font-size: 14.5px; line-height: 1.55; color: var(--muted); margin: 10px 0 0; }
 
+/* ── mobile: 3D devices on top, card content stacked below ─────────────────
+   The walkthrough keeps the full scroll-scrubbed 3D timeline; we only re-frame
+   it for portrait. The canvas is letterboxed into the top of the sticky stage
+   (Scene.jsx pulls the camera back to fit), and each callout card animates in
+   centred and full-width in the lower band instead of flying in beside the
+   device. Pointer lines are dropped — there's nothing beside the screen to
+   point from. */
 @media (max-width: 880px) {
-  .callout { width: min(320px, 84vw); }
+  .tour-canvas {
+    height: 52vh;
+    bottom: auto;
+  }
+  .ptr-layer { display: none; }
+
+  .callout,
+  .callout.left,
+  .callout.right {
+    top: auto;
+    bottom: 3vh;
+    left: 16px;
+    right: 16px;
+    width: auto;
+    transform: none;
+    padding: 18px 18px 16px;
+    border-radius: 12px;
+  }
+  .callout .ttl { font-size: clamp(19px, 5.4vw, 24px); }
+  .callout p { font-size: 14px; }
+  .decay-curve { max-width: 240px; margin-inline: auto; }
 }

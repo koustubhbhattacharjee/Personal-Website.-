@@ -66,32 +66,32 @@ export const CALLOUTS = [
   {
     id: "mcq",
     device: "pad",
-    anchor: { u: 0.3, v: 0.34 },
+    anchor: { u: 0.5, v: 0.5 },
     side: "right",
-    kicker: "07 · Practice",
-    title: "A real question, answered for real.",
+    kicker: "07 · Practice Room",
+    title: "Practice Room",
     body:
-      "Same breadcrumb, now in the practice room: a genuine MCQ from the course bank, with a scratchpad and the 3D map keeping context alongside. Pick the right pattern… and submit.",
+      "Students practice free-response and multiple-choice questions in the Practice Room. As correct answers come in, you see the colours of these shapes change — each correct answer pushes them further, all the way up to the cylinder.",
   },
   {
     id: "colour",
     device: "pad",
-    anchor: { u: 0.25, v: 0.62 },
+    anchor: { u: 0.5, v: 0.5 },
     side: "left",
-    kicker: "08 · Proof",
-    title: "Right answer — watch the map.",
+    kicker: "08 · Roll-up",
+    title: "It rolls all the way up.",
     body:
-      "The moment the answer lands, mastery is recomputed and the wedge re-tints. No vague grades, no waiting for a test: the map is the gradebook, and it just changed colour in front of you.",
+      "Each correct answer lifts the question's colour — and it rolls up the hierarchy: question, question type, learning objective, unit, and finally the whole subject. The cylinder shifts colour in front of you.",
   },
   {
     id: "decay",
     device: "pad",
-    anchor: { u: 0.55, v: 0.55 },
+    anchor: { u: 0.5, v: 0.5 },
     side: "left",
-    kicker: "09 · The forgetting curve",
-    title: "Leave it too long, and it fades.",
+    kicker: "09 · Spaced repetition",
+    title: "Colour doesn't lock in.",
     body:
-      "Memory decays — so does the map. Skip a topic for weeks and Scholar's spaced-repetition model quietly dims its colour until it's reinforced again. The map never lies about what's still remembered.",
+      "Solving a question once doesn't lock it in. A spaced-repetition model slowly dims each shape's colour over time, until the student reinforces it by practising again. The math never lies about what's still remembered.",
     curve: true,
   },
   {
@@ -100,9 +100,9 @@ export const CALLOUTS = [
     anchor: { u: 0.52, v: 0.09 },
     side: "left",
     kicker: "10 · Exit ticket",
-    title: "Ten minutes, on the clock, by hand.",
+    title: "By hand, only when it counts.",
     body:
-      "Every class ends with a timed exit ticket. Questions appear one at a time, and the student works them out by hand on the built-in scratchpad — real working, not multiple-choice guessing. Misses reshape the next session automatically.",
+      "Working by hand is optional — students can answer on the laptop if they prefer, but they don't have to. The exception is free-response questions, which they work by hand.",
   },
   {
     id: "cards",

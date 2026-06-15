@@ -37,6 +37,10 @@ export const rig = {
   // are the focus point in texture space (0..1; y is bottom→top due to flipY).
   zoom: 1, zoomX: 0.5, zoomY: 0.5,
 
+  // Practice Room recolour flipbook on the iPad screen. shapesOn fades it in;
+  // shapeFrame (0..SHAPE_FRAMES-1) scrubs through the captured recolour frames.
+  shapesOn: 0, shapeFrame: 0,
+
   // global fade of the 3d stage at the very end
   stageFade: 1,
 };
