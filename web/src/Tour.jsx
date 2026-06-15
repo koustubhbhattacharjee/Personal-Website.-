@@ -231,8 +231,6 @@ function buildTimeline(sectionEl) {
      screen CONTENT zooms into the shape area so the drill-down reads clearly */
   tl.to(rig, { camZ: 2.9, camX: 0, tgtX: 0, camY: 0.12, tgtY: 0.12, duration: 5, ease: "power2.inOut" }, 17.2);
   tl.to(rig, { zoom: 0.46, zoomX: 0.52, zoomY: 0.4, duration: 5, ease: "power2.inOut" }, 17.2);
-  // focus: darken the surrounding laptop UI through the drill-down and the card
-  tl.to("#drill-focus", { autoAlpha: 1, duration: 2.5 }, 20.5);
 
   /* 24–30: quick drill-down — zip through the accumulating shapes, no cards.
      cylinder -> +disk -> +ring -> +arc -> +small arc */
@@ -245,7 +243,6 @@ function buildTimeline(sectionEl) {
   calloutIn("shapes", 33);
   ripple("#ripple", 39.6); // click "Open Practice →" on the laptop
   calloutOut("shapes", 40.6);
-  tl.to("#drill-focus", { autoAlpha: 0, duration: 2 }, 40.6);
 
   /* Reusable rotational hard-clip handoff (clip math in Scene.jsx). A colour
      divider rises; the two devices are stacked (the OUT device raised into the
@@ -353,8 +350,14 @@ function buildTimeline(sectionEl) {
   tl.to(".tour-canvas", { autoAlpha: 0, duration: 2 }, 95.6);
   tl.fromTo("#end-hint", { autoAlpha: 0, y: 26 }, { autoAlpha: 1, y: 0, duration: 2.2, ease: "power2.out" }, 95.8);
 
+  // Hold the intro: push the lid-open and everything after it later, so the white
+  // "Scholar" line stays up much longer. Its fade-out shifts with the rest, so the
+  // relative timing (line gone before the laptop finishes opening) is preserved;
+  // the hero and the line's fade-in stay put (before the 5.5 split).
+  tl.shiftChildren(7, false, 5.5);
+
   /* keep total length round */
-  tl.set({}, {}, 100);
+  tl.set({}, {}, 105);
   if (import.meta.env.DEV) window.__tl = tl;
   return tl;
 }
@@ -399,7 +402,6 @@ export default function Tour() {
           </Canvas>
         </div>
         <div className="tour-dom">
-          <div id="drill-focus" aria-hidden />
           <ScreenOverlays />
           <svg className="ptr-layer" aria-hidden>
             {CALLOUTS.map((c) => (
