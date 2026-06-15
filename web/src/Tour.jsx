@@ -13,9 +13,10 @@ const SHOW_PERF = typeof location !== "undefined" && location.search.includes("p
 
 gsap.registerPlugin(ScrollTrigger);
 
-// On phones the smoothed scrub (0.7s catch-up) reads as laggy and the device
-// renders at a lower frame rate, so tie the timeline directly to the scrollbar
-// (scrub:true = no smoothing) and trim the render resolution for steadier fps.
+// On phones the smoothed scrub (0.7s catch-up) reads as laggy, so tie the
+// timeline directly to the scrollbar (scrub:true = no smoothing). Responsiveness
+// comes from that + the shorter scroll height, NOT from dropping resolution — the
+// device screenshots have to stay legible, so we render at up to 2x on mobile.
 const MOBILE = typeof window !== "undefined" && window.matchMedia("(max-width: 880px)").matches;
 
 const Scene = lazy(() => import("./Scene"));
@@ -81,6 +82,11 @@ function Hero() {
     <div id="hero-block">
       <div className="hero-inner">
         <h1 className="hero-greet caslon">Hi, I'm Koustubh.</h1>
+        <p className="hero-creds">
+          MS Physics (UT Dallas)<span className="sep">|</span>
+          MS Astronomy (IIST)<span className="sep">|</span>
+          B.Tech, ECE (NIT Silchar)
+        </p>
         <p className="hero-desc">
           I was the lead physics teacher at <b>KIPP DC College Prep</b> in Washington, DC, USA, and I tutor physics and math. Scroll to know more.
         </p>
@@ -397,7 +403,7 @@ export default function Tour() {
         <div id="stage-yellow" className="stage-curtain" style={{ background: "#f4c300" }} aria-hidden />
         <div id="stage-white" className="stage-curtain" style={{ background: "var(--bg)" }} aria-hidden />
         <div className="tour-canvas">
-          <Canvas frameloop={frameloop} dpr={MOBILE ? [1, 1.25] : [1, 1.5]} gl={{ antialias: true, alpha: true }} style={{ background: "transparent" }}>
+          <Canvas frameloop={frameloop} dpr={MOBILE ? [1, 2] : [1, 1.5]} gl={{ antialias: true, alpha: true }} style={{ background: "transparent" }}>
             <Suspense fallback={null}>
               <Scene />
             </Suspense>

@@ -22,6 +22,11 @@ export default function Fallback() {
     <div className="tour-fallback">
       <div className="fb-hero">
         <h1 className="hero-greet caslon">Hi, I'm Koustubh.</h1>
+        <p className="hero-creds">
+          MS Physics (UT Dallas)<span className="sep">|</span>
+          MS Astronomy (IIST)<span className="sep">|</span>
+          B.Tech, ECE (NIT Silchar)
+        </p>
         <p className="hero-desc">
           I was the lead physics teacher at <b>KIPP DC College Prep</b> in Washington, DC, USA, and I tutor physics and math. I use my own product, <b>Scholar</b>, to track student progress.
         </p>

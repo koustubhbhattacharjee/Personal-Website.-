@@ -91,7 +91,12 @@
   .cr h3 small{font-size:.58em;color:var(--muted);font-style:normal;font-weight:500;}
   .cr p{font-size:14px;line-height:1.5;color:var(--muted);margin:11px 0 0;}
   .cr p b{color:var(--red-soft);font-weight:600;}
-  @media(max-width:820px){.edu{grid-template-columns:1fr;gap:26px;}}
+  @media(max-width:820px){
+    .edu{grid-template-columns:1fr;gap:26px;}
+    /* degrees & background read centred on phones — nothing left-aligned */
+    .creds .inner{text-align:center;}
+    .cred-feature p{margin-inline:auto;}
+  }
 
   /* ---------- reviews ---------- */
   .reviews{display:grid;grid-template-columns:1.1fr 1fr;gap:26px;margin-top:56px;align-items:start;}
