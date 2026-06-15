@@ -332,8 +332,13 @@
    device. Pointer lines are dropped — there's nothing beside the screen to
    point from. */
 @media (max-width: 880px) {
+  /* Half the scroll distance of desktop so you get through the whole walkthrough
+     roughly twice as fast — the devices are the point on mobile, not a long pin. */
+  .tour { height: 900vh; }
+
+  /* the 3D devices own most of the screen; the card is a slim strip beneath */
   .tour-canvas {
-    height: 52vh;
+    height: 74vh;
     bottom: auto;
   }
   .ptr-layer { display: none; }
@@ -342,15 +347,18 @@
   .callout.left,
   .callout.right {
     top: auto;
-    bottom: 3vh;
-    left: 16px;
-    right: 16px;
+    bottom: 2vh;
+    left: 14px;
+    right: 14px;
     width: auto;
+    max-height: 22vh;
+    overflow: hidden;
     transform: none;
-    padding: 18px 18px 16px;
+    padding: 12px 14px 12px;
     border-radius: 12px;
   }
-  .callout .ttl { font-size: clamp(19px, 5.4vw, 24px); }
-  .callout p { font-size: 14px; }
-  .decay-curve { max-width: 240px; margin-inline: auto; }
+  .callout .kicker { margin-bottom: 5px; }
+  .callout .ttl { font-size: clamp(16px, 4.6vw, 20px); }
+  .callout p { font-size: 12.5px; line-height: 1.45; margin-top: 7px; }
+  .decay-curve { max-width: 180px; margin-inline: auto; margin-top: 8px; }
 }

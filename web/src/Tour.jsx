@@ -13,6 +13,11 @@ const SHOW_PERF = typeof location !== "undefined" && location.search.includes("p
 
 gsap.registerPlugin(ScrollTrigger);
 
+// On phones the smoothed scrub (0.7s catch-up) reads as laggy and the device
+// renders at a lower frame rate, so tie the timeline directly to the scrollbar
+// (scrub:true = no smoothing) and trim the render resolution for steadier fps.
+const MOBILE = typeof window !== "undefined" && window.matchMedia("(max-width: 880px)").matches;
+
 const Scene = lazy(() => import("./Scene"));
 
 /* ── DOM pieces ─────────────────────────────────────────────────────────── */
@@ -125,7 +130,7 @@ function buildTimeline(sectionEl) {
       trigger: sectionEl,
       start: "top top",
       end: "bottom bottom",
-      scrub: 0.7,
+      scrub: MOBILE ? true : 0.7,
     },
   });
 
@@ -392,7 +397,7 @@ export default function Tour() {
         <div id="stage-yellow" className="stage-curtain" style={{ background: "#f4c300" }} aria-hidden />
         <div id="stage-white" className="stage-curtain" style={{ background: "var(--bg)" }} aria-hidden />
         <div className="tour-canvas">
-          <Canvas frameloop={frameloop} dpr={[1, 1.5]} gl={{ antialias: true, alpha: true }} style={{ background: "transparent" }}>
+          <Canvas frameloop={frameloop} dpr={MOBILE ? [1, 1.25] : [1, 1.5]} gl={{ antialias: true, alpha: true }} style={{ background: "transparent" }}>
             <Suspense fallback={null}>
               <Scene />
             </Suspense>
