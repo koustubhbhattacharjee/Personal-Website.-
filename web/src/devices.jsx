@@ -38,7 +38,7 @@ function roundedPlane(w, h, r, seg = 8) {
 
 /* A stack of screenshot layers on one plane. Layer opacities are driven by
    the rig each frame (Scene.jsx), here we just build the meshes. */
-export function ScreenStack({ device, layers, screenRef, layerRefs, cornerRadius = 0 }) {
+export function ScreenStack({ device, layers, screenRef, layerRefs, cornerRadius = 0, flipRef }) {
   const { w, h } = SCREENS[device];
   const screenGeom = useMemo(
     () => (cornerRadius > 0 ? roundedPlane(w, h, cornerRadius) : null),
@@ -76,6 +76,20 @@ export function ScreenStack({ device, layers, screenRef, layerRefs, cornerRadius
           <meshBasicMaterial map={tex} transparent opacity={i === 0 ? 1 : 0} toneMapped={false} />
         </mesh>
       ))}
+      {/* mastery-recolour flipbook overlay (Scene.jsx swaps the map + opacity).
+          Fills the screen; the captured frames are 16:10 (exact on the mac, a tiny
+          imperceptible stretch on the iPad — better than dark letterbox bands). */}
+      {flipRef && (
+        <mesh
+          ref={flipRef}
+          position={[0, 0, 0.006 + layers.length * 0.0022 + 0.004]}
+          renderOrder={10 + layers.length + 5}
+          visible={false}
+        >
+          <planeGeometry args={[w, h]} />
+          <meshBasicMaterial transparent opacity={0} toneMapped={false} depthTest={false} />
+        </mesh>
+      )}
     </group>
   );
 }
@@ -84,7 +98,7 @@ export function ScreenStack({ device, layers, screenRef, layerRefs, cornerRadius
    CC-licensed, from the drei laptop demo). The `screenflip` node is the lid;
    Scene.jsx drives lidRef.rotation.x (PI/2 = closed, slight negative = open).
    Our ScreenStack rides on the lid, aligned to the model's display face. */
-export function MacBook({ groupRef, lidRef, screenRef, layerRefs, layers }) {
+export function MacBook({ groupRef, lidRef, screenRef, layerRefs, layers, flipRef }) {
   const { nodes, materials } = useGLTF(MAC_GLB, DRACO_PATH);
 
   const { lid, rest, stack, scale } = useMemo(() => {
@@ -159,6 +173,7 @@ export function MacBook({ groupRef, lidRef, screenRef, layerRefs, layers }) {
               layers={layers}
               screenRef={screenRef}
               layerRefs={layerRefs}
+              flipRef={flipRef}
             />
           </group>
         </primitive>
@@ -173,7 +188,7 @@ export function MacBook({ groupRef, lidRef, screenRef, layerRefs, layers }) {
 useGLTF.preload(MAC_GLB, DRACO_PATH);
 
 /* iPad: floating landscape slab */
-export function Pad({ groupRef, screenRef, layerRefs, layers }) {
+export function Pad({ groupRef, screenRef, layerRefs, layers, flipRef }) {
   const S = SCREENS.pad;
   const bw = S.w + 0.18, bh = S.h + 0.18;
   return (
@@ -183,7 +198,7 @@ export function Pad({ groupRef, screenRef, layerRefs, layers }) {
         <meshStandardMaterial color={"#1b1b1d"} roughness={0.48} metalness={0.6} />
       </RoundedBox>
       <group position={[0, 0, 0.042]}>
-        <ScreenStack device="pad" layers={layers} screenRef={screenRef} layerRefs={layerRefs} />
+        <ScreenStack device="pad" layers={layers} screenRef={screenRef} layerRefs={layerRefs} flipRef={flipRef} />
       </group>
       {/* Apple Pencil, magnetically stuck along the top edge */}
       <group position={[0, bh / 2 + 0.022, 0.004]} rotation={[0, 0, Math.PI / 2]}>

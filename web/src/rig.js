@@ -14,16 +14,14 @@ export const rig = {
   phoneX: 8, phoneY: 0, phoneRotY: 0,
 
   // screen layer opacities (mac order mirrors MAC_LAYERS in tour-data.js)
-  macDash: 1, macTorus: 0, macBar: 0,
-  macUnit: 0, macRing: 0, macQt: 0, macQuestion: 0,
-  macMcq: 0, macMcqSel: 0, macMcqCorrect: 0,
-  macQtAfter: 0, macQtDecayed: 0, macDashDecayed: 0,
-  // iPad now carries the whole post-drill sequence (practice → mastery → decay →
-  // exit ticket); layer order mirrors PAD_KEYS in Scene.jsx
-  padMcq: 0, padMcqSel: 0, padMcqCorrect: 0,
-  padQtAfter: 0, padQtDecayed: 0, padDashDecayed: 0,
-  padExit1: 0, padExit2: 0,
-  phoneCards: 1, phoneCardsBack: 0, phoneCheckin: 0,
+  macDash: 1,
+  // iPad layers (order mirrors PAD_KEYS in Scene.jsx): the decay-beat practice
+  // room (so the iPad isn't blank-black as it rotates in), then the exit-ticket
+  // answering screens
+  decayRoom: 0, padExit1: 0, padExit2: 0,
+  // the iPhone check-in is now a crisp DOM contribution graph (Tour.jsx), so only
+  // the flashcard deck screens live on the phone screen itself
+  phoneCards: 1, phoneCardsBack: 0,
 
   // rotational device handoffs: a rising colour divider hard-clips two stacked
   // devices (Scene.jsx). `divider` 1 = line at the bottom, 0 = line at the top;
@@ -37,9 +35,11 @@ export const rig = {
   // are the focus point in texture space (0..1; y is bottom→top due to flipY).
   zoom: 1, zoomX: 0.5, zoomY: 0.5,
 
-  // Practice Room recolour flipbook on the iPad screen. shapesOn fades it in;
-  // shapeFrame (0..SHAPE_FRAMES-1) scrubs through the captured recolour frames.
-  shapesOn: 0, shapeFrame: 0,
+  // Mastery recolour flipbook (arc/disc/cylinder side-by-side). It plays on the
+  // LAPTOP screen forward (mastery builds) and on the iPad screen backward
+  // (decay). shapeFrame (0..SHAPE_FRAMES-1) scrubs the captured frames; flipMac
+  // and flipPad fade the overlay in on each device for its beat.
+  flipMac: 0, flipPad: 0, shapeFrame: 0,
 
   // global fade of the 3d stage at the very end
   stageFade: 1,

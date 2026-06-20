@@ -2,17 +2,13 @@ import React from "react";
 import { CALLOUTS, SHOTS } from "./tour-data";
 import "./tour.css";
 
+// Static fallback stills, one per beat. The mastery/decay beats reuse a built-up
+// and a decayed frame from the recolour flipbook.
 const SHOT_FOR = {
   what: { src: SHOTS.macDash, kind: "mac" },
-  shapes: { src: SHOTS.macTorus, kind: "mac" },
-  unit: { src: SHOTS.macUnit, kind: "mac" },
-  ring: { src: SHOTS.macRing, kind: "mac" },
-  qt: { src: SHOTS.macQt, kind: "mac" },
-  question: { src: SHOTS.macQuestion, kind: "mac" },
-  mcq: { src: SHOTS.macMcqCorrect, kind: "mac" },
-  colour: { src: SHOTS.macQtAfter, kind: "mac" },
-  decay: { src: SHOTS.macQtDecayed, kind: "mac" },
-  exit: { src: SHOTS.padQ1, kind: "pad" },
+  mastery: { src: "/shots/practice/p20.png", kind: "mac" },
+  decay: { src: "/shots/practice/p06.png", kind: "mac" },
+  hand: { src: SHOTS.padQ1, kind: "pad" },
   cards: { src: SHOTS.phoneCards, kind: "phone" },
   log: { src: SHOTS.phoneCheckin, kind: "phone" },
 };

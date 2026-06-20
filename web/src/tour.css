@@ -197,6 +197,49 @@
 }
 .callout.left { left: 4vw; }
 .callout.right { right: 4vw; }
+
+/* ── shared slab ─────────────────────────────────────────────────────────
+   Every beat except decay is a slab: a justified-rectangle heading + subtext,
+   no card chrome, sitting straight on the coloured stage. It slides up into view
+   (timeline). The text tone follows the stage colour. */
+.callout.slab {
+  width: min(360px, 32vw);
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+.callout.slab .kicker { display: none; } /* the slab is heading + subtext only */
+.callout.on-orange { color: #fff; }
+.callout.on-orange p { color: rgba(255, 255, 255, 0.92); }
+.callout.on-light { color: var(--off); }
+.callout.on-light p { color: var(--muted); }
+.callout.slab p { margin-top: 10px; }
+
+/* mastery + decay + answering beats sit in a narrower column than the other
+   slabs. Desktop-only — mobile re-frames the columns in its own media query
+   (the .callout container is width:auto on mobile; the squeeze rides on .rect-ttl). */
+@media (min-width: 881px) {
+  #card-mastery { width: min(270px, 23vw); }
+  #card-decay { width: min(280px, 24vw); }
+  #card-hand { width: min(290px, 25vw); }
+}
+
+/* the justified-rectangle heading — RectTitle (Tour.jsx) wraps the words into
+   lines and scales each line in JS so its rendered width equals the column width,
+   so the block reads as a true flush rectangle. Used on desktop + mobile. */
+.rect-ttl {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--sans);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 0.84;
+  color: inherit;
+}
+.rect-ttl .rt-line { display: block; white-space: nowrap; }
+
 .callout .kicker {
   font-family: var(--sans);
   font-size: 11px;
@@ -270,6 +313,161 @@
   opacity: 0;
   box-shadow: 0 0 0 5px rgba(177, 68, 42, 0.1), inset 0 0 24px rgba(177, 68, 42, 0.08);
 }
+
+/* ── decay curve: large floating card to the RIGHT of the iPad (the decay text
+      sits on the left) ─────────────────────────────────────────────────────── */
+
+#decay-float {
+  position: absolute;
+  top: 50%;
+  right: 4vw;
+  transform: translateY(-50%);
+  width: min(440px, 34vw);
+  padding: 24px 28px 20px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: 0 28px 56px -28px rgba(26, 26, 26, 0.45);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  z-index: 4;
+}
+#decay-float .decay-curve { margin: 0; }
+
+/* ── decay beat on the laptop: the practice room blurs, the last-solved arc
+      separates out as a card that fills the screen and fades over 7 days ───── */
+#decay-stage {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+}
+#decay-room-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  will-change: filter;
+}
+#decay-arc {
+  position: absolute;
+  inset: 7% 7%;
+  display: grid;
+  place-items: center;
+  transform-origin: center;
+  will-change: transform;
+}
+#decay-arc img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 36px 70px -24px rgba(0, 0, 0, 0.7);
+  outline: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* one-week timer above the iPad (dark on the yellow decay stage) */
+#decay-timer {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: var(--off);
+  font-family: var(--sans);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  z-index: 4;
+}
+#decay-timer .dt-day {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--red-soft);
+}
+#decay-timer .dt-date {
+  display: block;
+  font-size: clamp(22px, 2.6vw, 36px);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin-top: 4px;
+}
+#decay-timer .dt-range {
+  display: block;
+  font-size: 12px;
+  opacity: 0.6;
+  margin-top: 7px;
+  letter-spacing: 0.02em;
+}
+
+/* ── iPhone contribution graph: crisp DOM grid projected onto the screen ───
+   Replaces the low-res check-in screenshot (and its cylinder). Fills the phone
+   screen rect (#ov-phone, projected each frame in Scene.jsx). */
+#phone-contrib {
+  position: absolute;
+  inset: 0;
+  box-sizing: border-box;
+  padding: 11% 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7%;
+  background: var(--bg);
+  border-radius: 9% / 4.2%;
+  overflow: hidden;
+  opacity: 0;
+}
+.pc-head { display: flex; align-items: baseline; justify-content: space-between; }
+.pc-title {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: clamp(9px, 1.15vw, 14px);
+  letter-spacing: -0.01em;
+  color: var(--off);
+}
+.pc-sub {
+  font-family: var(--sans);
+  font-size: clamp(7px, 0.85vw, 10.5px);
+  color: var(--muted2);
+}
+.pc-grid {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  gap: clamp(1px, 0.22vw, 3px);
+}
+.pc-grid .cell {
+  aspect-ratio: 1 / 1;
+  border-radius: 2px;
+  background: rgba(40, 33, 26, 0.1);
+}
+.pc-grid .cell[data-lvl="1"] { background: #f3d9a6; }
+.pc-grid .cell[data-lvl="2"] { background: #eab259; }
+.pc-grid .cell[data-lvl="3"] { background: #de8a2e; }
+.pc-grid .cell[data-lvl="4"] { background: #c2611c; }
+.pc-legend {
+  display: flex;
+  align-items: center;
+  gap: clamp(2px, 0.4vw, 5px);
+  font-family: var(--sans);
+  font-size: clamp(6px, 0.8vw, 10px);
+  color: var(--muted2);
+}
+.pc-legend i {
+  width: clamp(5px, 0.7vw, 10px);
+  aspect-ratio: 1 / 1;
+  border-radius: 2px;
+  background: rgba(40, 33, 26, 0.1);
+}
+.pc-legend i[data-lvl="1"] { background: #f3d9a6; }
+.pc-legend i[data-lvl="2"] { background: #eab259; }
+.pc-legend i[data-lvl="3"] { background: #de8a2e; }
+.pc-legend i[data-lvl="4"] { background: #c2611c; }
 
 /* ── end hint ──────────────────────────────────────────────────────────── */
 
@@ -351,34 +549,79 @@
    device. Pointer lines are dropped — there's nothing beside the screen to
    point from. */
 @media (max-width: 880px) {
-  /* Half the scroll distance of desktop so you get through the whole walkthrough
-     roughly twice as fast — the devices are the point on mobile, not a long pin. */
-  .tour { height: 900vh; }
+  /* Tall enough that each callout rests on screen long enough to read — the
+     earlier 900vh ran the beats past too fast. Still well short of desktop's
+     1800vh, and with scrub:true it stays responsive, not laggy. */
+  .tour { height: 1600vh; }
 
-  /* the 3D devices own most of the screen; the card is a slim strip beneath */
+  /* the 3D devices stay the hero up top; the card sits in the band beneath */
   .tour-canvas {
-    height: 74vh;
+    height: 64vh;
     bottom: auto;
   }
   .ptr-layer { display: none; }
 
+  /* no card chrome — the text sits straight on the coloured stage */
   .callout,
   .callout.left,
   .callout.right {
     top: auto;
-    bottom: 2vh;
-    left: 14px;
-    right: 14px;
+    bottom: 2.5vh;
+    left: 20px;
+    right: 20px;
     width: auto;
-    max-height: 22vh;
+    max-height: 32vh;
     overflow: hidden;
     transform: none;
-    padding: 12px 14px 12px;
-    border-radius: 12px;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
   }
-  .callout .kicker { margin-bottom: 5px; }
-  .callout .ttl { font-size: clamp(16px, 4.6vw, 20px); }
-  .callout p { font-size: 12.5px; line-height: 1.45; margin-top: 7px; }
-  /* the little decay plot is unreadable at phone size — the card text carries it */
-  .decay-curve { display: none; }
+  /* title + description only; the numbered kicker is dropped on mobile */
+  .callout .kicker { display: none; }
+  .callout p {
+    font-size: 11px;
+    line-height: 1.4;
+    margin-top: 8px;
+    max-width: 78vw;
+  }
+
+  /* the title is a flush rectangle — each line scaled in JS to the column width
+     (RectTitle in Tour.jsx). On mobile the column is kept NARROW (≈ half the screen)
+     so the heading stays small and compact beside the devices, not screen-filling. */
+  .rect-ttl {
+    display: flex;
+    flex-direction: column;
+    width: 52vw;
+    font-family: var(--sans);
+    font-weight: 800;
+    letter-spacing: -0.035em;
+    line-height: 0.9;
+  }
+  .rect-ttl .rt-line { display: block; white-space: nowrap; }
+
+  /* same relationship as desktop: the mastery/decay/answering beats ride in a
+     narrower column than the default 52vw, so their headings stay more compact */
+  #card-mastery .rect-ttl { width: 42vw; }
+  #card-decay .rect-ttl { width: 44vw; }
+  #card-hand .rect-ttl { width: 46vw; }
+
+  /* text colour follows the stage behind it: white on the orange beats, dark on
+     the yellow and off-white beats */
+  .callout.on-orange { color: #fff; }
+  .callout.on-orange p { color: rgba(255, 255, 255, 0.9); }
+  .callout.on-light { color: var(--off); }
+  .callout.on-light p { color: var(--muted); }
+
+  /* decay beat on mobile: the timer rides above the device (smaller), the arc card
+     still plays on the iPad screen, and the retention curve is dropped — there's no
+     room for it beside the device in portrait, and the timer + fading arc carry it. */
+  /* clear of the (taller, two-line) mobile nav, above the device */
+  #decay-timer { top: 13%; }
+  #decay-timer .dt-day { font-size: 10px; letter-spacing: 0.14em; }
+  #decay-timer .dt-date { font-size: 21px; margin-top: 2px; }
+  #decay-timer .dt-range { font-size: 10px; margin-top: 4px; }
+  #decay-float { display: none; }
 }

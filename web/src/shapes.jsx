@@ -1,5 +1,6 @@
 import React from "react";
 import * as THREE from "three";
+import { SHAPE_FRAMES } from "./tour-data";
 
 // mastery (0..1) → colour: low red → mid amber → high green
 const STOPS = [
@@ -13,24 +14,30 @@ function mColor(m) {
   return STOPS[i].clone().lerp(STOPS[i + 1], t - i);
 }
 
-export const SHAPE_FRAMES = 24;
-
-// roll-up schedule: each level's mastery vs overall progress p (0..1)
+// Roll-up schedule: a question's colour builds first, then its unit, then the
+// whole subject — so over the flipbook the three shapes light up left-to-right.
+// p is overall progress (0..1); played backward this same schedule reads as decay.
 function cascade(p) {
   const w = (s, e) => Math.min(1, Math.max(0, (p - s) / (e - s)));
   return {
-    arc: w(0.0, 0.34),     // question
-    bigArc: w(0.12, 0.5),  // question type
-    ring: w(0.26, 0.64),   // learning objective
-    disk: w(0.44, 0.8),    // unit
-    cyl: w(0.6, 1.0),      // subject
+    arc: w(0.0, 0.45),  // a question
+    disc: w(0.2, 0.75), // a unit
+    cyl: w(0.45, 1.0),  // the subject
   };
 }
 
-/* Static render of the five nested levels — arc (question), bigger arc (question
-   type), ring (learning objective), disk (unit), cylinder (subject) — at recolour
-   `frame` (0..SHAPE_FRAMES-1). Each frame is screenshotted (scripts/capture-shapes)
-   into a flipbook that plays on the iPad screen during the Practice Room. */
+// The three dashboard tiles, sitting in a row on the laptop's mastery panel.
+const TILES = [
+  { key: "arc", x: -2.05, label: "Question" },
+  { key: "disc", x: 0.0, label: "Unit" },
+  { key: "cyl", x: 2.05, label: "Subject" },
+];
+
+/* Renders the three constituent shapes — an arc (a question), a disc (a unit) and
+   a cylinder (the subject) — side by side as dashboard tiles, each recoloured by
+   the roll-up schedule at `frame` (0..SHAPE_FRAMES-1). Each frame is screenshotted
+   (cap-shapes.cjs via the /?cap=N route) into a flipbook that plays on the laptop
+   screen as mastery builds, and backward on the iPad as it decays. */
 export default function CaptureShapes({ frame = 0 }) {
   const m = cascade(frame / (SHAPE_FRAMES - 1));
   const mat = (mv) => {
@@ -38,22 +45,48 @@ export default function CaptureShapes({ frame = 0 }) {
     return (
       <meshStandardMaterial
         color={c}
-        emissive={c.clone().multiplyScalar(0.22)}
-        roughness={0.32}
+        emissive={c.clone().multiplyScalar(0.18)}
+        roughness={0.34}
         metalness={0.04}
         side={THREE.DoubleSide}
       />
     );
   };
+  const tileMat = (
+    <meshStandardMaterial color="#fbf8f1" roughness={0.95} metalness={0} />
+  );
   return (
-    <group rotation={[-0.58, 0.42, 0.1]} scale={1.05}>
-      <mesh><ringGeometry args={[0.08, 0.2, 48, 1, -0.55, 1.1]} />{mat(m.arc)}</mesh>
-      <mesh><ringGeometry args={[0.22, 0.35, 48, 1, -1.1, 2.2]} />{mat(m.bigArc)}</mesh>
-      <mesh><ringGeometry args={[0.37, 0.5, 64]} />{mat(m.ring)}</mesh>
-      <mesh><ringGeometry args={[0.52, 0.66, 64]} />{mat(m.disk)}</mesh>
-      <mesh rotation={[Math.PI / 2, 0, 0]}>
-        <cylinderGeometry args={[0.74, 0.74, 0.26, 64, 1, true]} />{mat(m.cyl)}
-      </mesh>
+    <group>
+      {TILES.map((t) => (
+        <group key={t.key} position={[t.x, 0.15, 0]}>
+          {/* dashboard tile card */}
+          <mesh position={[0, -0.05, -0.6]} rotation={[0, 0, 0]}>
+            <planeGeometry args={[1.74, 2.0]} />
+            {tileMat}
+          </mesh>
+          {/* the shape, gently tilted toward the camera */}
+          <group rotation={[-0.5, 0.5, 0.08]} scale={1.05}>
+            {t.key === "arc" && (
+              <mesh>
+                <torusGeometry args={[0.46, 0.12, 20, 48, Math.PI * 1.3]} />
+                {mat(m.arc)}
+              </mesh>
+            )}
+            {t.key === "disc" && (
+              <mesh rotation={[Math.PI / 2, 0, 0]}>
+                <cylinderGeometry args={[0.58, 0.58, 0.14, 64]} />
+                {mat(m.disc)}
+              </mesh>
+            )}
+            {t.key === "cyl" && (
+              <mesh rotation={[Math.PI / 2.4, 0, 0]}>
+                <cylinderGeometry args={[0.42, 0.42, 0.9, 48]} />
+                {mat(m.cyl)}
+              </mesh>
+            )}
+          </group>
+        </group>
+      ))}
     </group>
   );
 }

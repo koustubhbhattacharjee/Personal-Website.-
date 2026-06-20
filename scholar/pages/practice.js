@@ -40,6 +40,9 @@ const DASHBOARD_PALETTE_STORAGE_KEY = "scholar-dashboard-palette"
 export default function PracticePage() {
   const router = useRouter()
   const { status } = useSession()
+  // showcase/demo bypass (capture-only): mirror the dashboard so the practice room
+  // renders from the showcase cookie without a Google session
+  const demoMode = String(router.query.demo || "") === "1"
   const subjectId = String(router.query.subjectId || "")
   const asStudentId = String(router.query.as || "")
 
@@ -58,13 +61,16 @@ export default function PracticePage() {
   const practiceExcalidrawApiRef = useRef(null)
   const [practiceScratchHasContent, setPracticeScratchHasContent] = useState(false)
   const [questionLocks, setQuestionLocks] = useState({})
+  // showcase objectives come from the progress-graph response (the showcase state
+  // has no district taxonomy), mirroring the dashboard
+  const [showcaseTaxonomy, setShowcaseTaxonomy] = useState(null)
 
   useEffect(() => {
-    if (status === "unauthenticated") {
+    if (!demoMode && status === "unauthenticated") {
       const callbackUrl = typeof window !== "undefined" ? window.location.href : "/practice"
       signIn("google", { callbackUrl })
     }
-  }, [status])
+  }, [status, demoMode])
 
   useEffect(() => {
     if (typeof window === "undefined") return
@@ -93,15 +99,18 @@ export default function PracticePage() {
   }, [paletteOverride])
 
   useEffect(() => {
-    if (status !== "authenticated" || !subjectId) return
+    if ((!demoMode && status !== "authenticated") || !subjectId) return
     let cancelled = false
     setDataReady(false)
     setLoadError("")
     async function load() {
       try {
         const asParam = asStudentId ? `&as=${encodeURIComponent(asStudentId)}` : ""
-        const dashUrl = `/api/student/dashboard${asStudentId ? `?as=${encodeURIComponent(asStudentId)}` : ""}`
-        const graphUrl = `/api/student/progress-graph?subjectId=${encodeURIComponent(subjectId)}${asParam}&_=${Date.now()}`
+        // showcase APIs gate on ?demo=1 (+ the showcase cookie); forward it so the
+        // practice room loads showcase data without a Google session (capture-only)
+        const demoParam = demoMode ? "&demo=1&showcase=1" : ""
+        const dashUrl = `/api/student/dashboard?_dash=1${asStudentId ? `&as=${encodeURIComponent(asStudentId)}` : ""}${demoParam}`
+        const graphUrl = `/api/student/progress-graph?subjectId=${encodeURIComponent(subjectId)}${asParam}${demoParam}&_=${Date.now()}`
         const [dashRes, graphRes] = await Promise.all([
           fetch(dashUrl, { cache: "no-store" }),
           fetch(graphUrl, { cache: "no-store" }),
@@ -115,6 +124,7 @@ export default function PracticePage() {
         setSubject(sub)
         setStudent(dash?.student || null)
         setQuestionTypes(Array.isArray(graph?.questionTypes) ? graph.questionTypes : [])
+        setShowcaseTaxonomy(Array.isArray(graph?.taxonomy) && graph.taxonomy.length ? graph.taxonomy : null)
         setQuestionLocks(graph?.questionLocks && typeof graph.questionLocks === "object" ? graph.questionLocks : {})
         setDataReady(true)
       } catch (err) {
@@ -123,14 +133,34 @@ export default function PracticePage() {
     }
     load()
     return () => { cancelled = true }
-  }, [status, subjectId, asStudentId])
+  }, [status, subjectId, asStudentId, demoMode])
+
+  // close the scratchpad when not on a question (stageLevel !== 4 ⟺ no drilled
+  // question). Kept above the early returns so hook order is stable (React #310).
+  useEffect(() => {
+    if (drillQuestionIdx == null && scratchOpen) setScratchOpen(false)
+  }, [drillQuestionIdx, scratchOpen])
+
+  // capture-only: drive the drill from the URL (?du=&dl=&dq=&dn=) so a screenshot
+  // script can walk the curriculum node-by-node. Empty/absent param ⟹ that level
+  // collapses to its default.
+  useEffect(() => {
+    if (!demoMode) return
+    const q = router.query
+    if (q.du === undefined && q.dl === undefined && q.dq === undefined && q.dn === undefined) return
+    const num = (v) => { const n = Number(v); return v === "" || v == null || !Number.isFinite(n) ? null : n }
+    setDrillUnitIdx(num(q.du))
+    setDrillLoIdx(num(q.dl))
+    setDrillQtypeIdx(num(q.dq))
+    setDrillQuestionIdx(num(q.dn))
+  }, [demoMode, router.query.du, router.query.dl, router.query.dq, router.query.dn])
 
   const allObjectives = dataReady && subject
-    ? getAllObjectives(student?.state || "", subject.name || "")
+    ? (showcaseTaxonomy || getAllObjectives(student?.state || "", subject.name || ""))
     : []
   const cylinderUnits = dataReady ? buildCylinderData(allObjectives, questionTypes) : []
 
-  if (status === "loading") return <div className={styles.spinner}>Loading…</div>
+  if (!demoMode && status === "loading") return <div className={styles.spinner}>Loading…</div>
 
   if (!subjectId) {
     return (
@@ -175,6 +205,10 @@ export default function PracticePage() {
   const units = normalized.units
   const unitHeight = normalized.unitHeight
   const totalHeight = normalized.totalHeight
+  // capture-only: expose the drilled tree (units → rings → arcs → questions) so the
+  // screenshot script can build the curriculum walk. Plain render-time assignment
+  // (not a hook) to avoid disturbing hook order.
+  if (typeof window !== "undefined" && demoMode) window.__units = units
   const secondaryHeight = normalized.secondaryHeight
 
   const unitIdxOrNull = drillUnitIdx != null && units.length ? Math.min(drillUnitIdx, units.length - 1) : null
@@ -240,10 +274,6 @@ export default function PracticePage() {
     if (lvl <= 3) setDrillQuestionIdx(null)
   }
   const goBack = () => collapseToLevel(Math.max(0, stageLevel - 1))
-
-  useEffect(() => {
-    if (stageLevel !== 4 && scratchOpen) setScratchOpen(false)
-  }, [stageLevel, scratchOpen])
 
   const navNext = stageLevel === 4
     ? findNext(units, unitIdxOrNull ?? 0, loIdxOrNull ?? 0, arcIdxOrNull ?? 0, drillQuestionIdx ?? 0)

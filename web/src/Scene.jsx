@@ -4,7 +4,7 @@ import { useTexture, PerspectiveCamera } from "@react-three/drei";
 import * as THREE from "three";
 import { RoomEnvironment } from "three/examples/jsm/environments/RoomEnvironment.js";
 import { MacBook, Pad, Phone } from "./devices";
-import { SHAPE_FRAMES } from "./shapes";
+import { SHAPE_FRAMES } from "./tour-data";
 
 // Practice Room recolour flipbook frames (captured small; played on the iPad)
 const FRAME_PATHS = Array.from(
@@ -39,12 +39,8 @@ const tmp = new THREE.Vector3();
 const corner = new THREE.Vector3();
 
 // screen-layer opacity keys (kept module-level so useFrame allocates nothing)
-const PAD_KEYS = [
-  "padMcq", "padMcqSel", "padMcqCorrect",
-  "padQtAfter", "padQtDecayed", "padDashDecayed",
-  "padExit1", "padExit2",
-];
-const PHONE_KEYS = ["phoneCards", "phoneCardsBack", "phoneCheckin"];
+const PAD_KEYS = ["decayRoom", "padExit1", "padExit2"];
+const PHONE_KEYS = ["phoneCards", "phoneCardsBack"];
 function setOps(refs, keys) {
   for (let i = 0; i < keys.length; i++) {
     const m = refs.current[i];
@@ -76,7 +72,8 @@ export default function Scene() {
   const macLayers = useRef([]);
   const padLayers = useRef([]);
   const phoneLayers = useRef([]);
-  const flipRef = useRef();
+  const macFlipRef = useRef();
+  const padFlipRef = useRef();
   const camRef = useRef();
 
   // Hard-clip planes for the rotational handoff. A horizontal world plane (normal
@@ -135,11 +132,11 @@ export default function Scene() {
 
   const tex = useTexture({
     ...Object.fromEntries(MAC_LAYERS.map((k) => [k, SHOTS[k]])),
+    decayRoom: SHOTS.decayRoom,
     padQ1: SHOTS.padQ1,
     padQ2: SHOTS.padQ2,
     phoneCards: SHOTS.phoneCards,
     phoneCardsBack: SHOTS.phoneCardsBack,
-    phoneCheckin: SHOTS.phoneCheckin,
   });
   useEffect(() => {
     const maxAniso = gl.capabilities.getMaxAnisotropy();
@@ -159,23 +156,20 @@ export default function Scene() {
   const frameTex = useTexture(FRAME_PATHS);
   useEffect(() => {
     frameTex.forEach((t) => { t.colorSpace = THREE.SRGBColorSpace; t.needsUpdate = true; });
-    if (flipRef.current) {
-      flipRef.current.material.map = frameTex[0];
-      flipRef.current.material.needsUpdate = true;
-    }
+    [macFlipRef, padFlipRef].forEach((ref) => {
+      if (ref.current) {
+        ref.current.material.map = frameTex[0];
+        ref.current.material.needsUpdate = true;
+      }
+    });
   }, [frameTex]);
 
   // layer order must match the rig keys applied below
   const macLayerList = MAC_LAYERS.map((k) => tex[k]);
-  // the iPad replays the (laptop-aspect) practice/mastery/decay screens, then its
-  // own native exit-ticket shots — same texture objects, so no extra VRAM
-  const padLayerList = [
-    tex.macMcq, tex.macMcqSel, tex.macMcqCorrect,
-    tex.macQtAfter, tex.macQtDecayed, tex.macDashDecayed,
-    tex.padQ1, tex.padQ2,
-  ];
+  // the iPad carries only its two native exit-ticket (answering) screens
+  const padLayerList = [tex.decayRoom, tex.padQ1, tex.padQ2];
   const texList = Object.values(tex);
-  const phoneLayerList = [tex.phoneCards, tex.phoneCardsBack, tex.phoneCheckin];
+  const phoneLayerList = [tex.phoneCards, tex.phoneCardsBack];
 
   useEffect(() => {
     trackers.mac = macScreenRef.current;
@@ -257,17 +251,21 @@ export default function Scene() {
       texList[i].offset.set(ox, oy);
     }
 
-    // Practice Room flipbook: swap the iPad-screen frame to the scrubbed recolour
-    // step (played fast as the section scrolls), faded by shapesOn
-    if (flipRef.current) {
-      const on = rig.shapesOn;
-      flipRef.current.visible = on > 0.01;
-      if (on > 0.01) {
-        const idx = Math.max(0, Math.min(SHAPE_FRAMES - 1, Math.round(rig.shapeFrame)));
-        flipRef.current.material.map = frameTex[idx];
-        flipRef.current.material.opacity = on;
+    // Mastery-recolour flipbook: the same captured frames play on the laptop
+    // screen (forward, mastery builds) and the iPad screen (backward, decay).
+    // shapeFrame scrubs the frame; flipMac/flipPad fade the overlay on each device.
+    const idx = Math.max(0, Math.min(SHAPE_FRAMES - 1, Math.round(rig.shapeFrame)));
+    const setFlip = (ref, on) => {
+      const mesh = ref.current;
+      if (!mesh) return;
+      mesh.visible = on > 0.003;
+      if (on > 0.003) {
+        mesh.material.map = frameTex[idx];
+        mesh.material.opacity = on;
       }
-    }
+    };
+    setFlip(macFlipRef, rig.flipMac);
+    setFlip(padFlipRef, rig.flipPad);
 
     // ── project screens + anchors into the DOM layer ──────────────────────
     const size = state.size;
@@ -316,14 +314,10 @@ export default function Scene() {
         screenRef={macScreenRef}
         layerRefs={macLayers}
         layers={macLayerList}
+        flipRef={macFlipRef}
       />
-      <Pad groupRef={padRef} screenRef={padScreenRef} layerRefs={padLayers} layers={padLayerList} />
+      <Pad groupRef={padRef} screenRef={padScreenRef} layerRefs={padLayers} layers={padLayerList} flipRef={padFlipRef} />
       <Phone groupRef={phoneRef} screenRef={phoneScreenRef} layerRefs={phoneLayers} layers={phoneLayerList} />
-      {/* Practice Room recolour flipbook, playing on the iPad screen */}
-      <mesh ref={flipRef} position={[0, 0, 0.05]} visible={false} renderOrder={40}>
-        <planeGeometry args={[0.871, 0.608]} />
-        <meshBasicMaterial transparent opacity={0} toneMapped={false} depthTest={false} />
-      </mesh>
     </>
   );
 }
