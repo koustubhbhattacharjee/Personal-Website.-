@@ -155,7 +155,7 @@ function Hero() {
           B.Tech, ECE (NIT Silchar)
         </p>
         <p className="hero-desc">
-          I was the lead physics teacher at <b>KIPP DC College Prep</b> in Washington, DC, USA, and I tutor physics and math. Scroll to know more.
+          I was the lead physics teacher at <b>KIPP DC College Prep</b> in Washington, DC, USA, and I tutor physics and math, primarily at the school level but also introductory college courses. Scroll to know more.
         </p>
       </div>
       <div className="scroll-hint"><span className="label">scroll</span><span className="chev">⌄</span></div>
