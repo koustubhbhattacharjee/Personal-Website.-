@@ -27,7 +27,7 @@ const MOBILE = typeof window !== "undefined" && window.matchMedia("(max-width: 8
 // portrait width, but keep the devices large — they should own most of the
 // (taller) mobile canvas. 1.2 ≈ a slight body bleed off the sides, which reads
 // as immersive rather than cropped.
-const FIT = MOBILE ? 1.2 : 1;
+const FIT = MOBILE ? 1.0 : 1;
 
 // The MacBook's display centre is offset from the model-group origin (the
 // (0, 0.15, -0.6) note in devices.jsx). During the handoff the laptop must spin

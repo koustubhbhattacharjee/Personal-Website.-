@@ -6,6 +6,11 @@ import { SCREENS } from "./rig";
 const MAC_GLB = "/models/mac-draco.glb";
 const DRACO_PATH = "/draco/";
 
+// On phones the iPad is shown nearly full-bleed during the decay beat, with dead
+// space below it, so it gets an extra size bump on top of the global mobile zoom.
+const MOBILE = typeof window !== "undefined" && window.matchMedia("(max-width: 880px)").matches;
+const PAD_SCALE = MOBILE ? 0.48 : 0.36;
+
 const ALU_DARK = "#c8c4bd";
 const GLASS = "#14120f";
 
@@ -192,7 +197,7 @@ export function Pad({ groupRef, screenRef, layerRefs, layers, flipRef }) {
   const S = SCREENS.pad;
   const bw = S.w + 0.18, bh = S.h + 0.18;
   return (
-    <group ref={groupRef} scale={0.36}>
+    <group ref={groupRef} scale={PAD_SCALE}>
       {/* iPad Pro 12.9" — space black */}
       <RoundedBox args={[bw, bh, 0.075]} radius={0.05} smoothness={3}>
         <meshStandardMaterial color={"#1b1b1d"} roughness={0.48} metalness={0.6} />

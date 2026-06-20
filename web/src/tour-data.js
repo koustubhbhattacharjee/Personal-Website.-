@@ -68,7 +68,7 @@ export const CALLOUTS = [
     kicker: "06 · Session log",
     title: "Progress you can see being tracked.",
     body:
-      "Every attempt is logged. The daily check-in map — one square per day, GitHub-style — shows the streak at a glance. Parents see evidence, not promises.",
+      "Every attempt is logged. The daily check-in map (one square per day, GitHub-style) shows the streak at a glance. Parents see evidence, not promises.",
   },
 ];
 

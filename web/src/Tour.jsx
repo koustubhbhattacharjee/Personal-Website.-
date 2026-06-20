@@ -72,14 +72,16 @@ function DecayCurve() {
 // stage-curtain timing.
 const ON_ORANGE = new Set(["what", "mastery"]);
 
-/* Title set as a flush rectangle (mobile): words wrap into lines, then every
-   line — including the last — is scaled so its rendered width equals the column
-   width. The lines stack with tight leading, so the title fills a tight invisible
-   box with gently varying per-line sizes. Measured with canvas measureText so the
-   scaling matches the real Inter glyph metrics; re-runs on width change. */
-function RectTitle({ text }) {
+/* Title in the "rule divider" system (Option B of Decay Text Options): the words
+   stack one per line at a SINGLE uniform size — the size is chosen so the widest
+   word exactly fills the column, the shorter words sit left-aligned beneath it.
+   A horizontal rule (Card) then separates the heading from the body. Measured
+   with canvas measureText so the fit matches real Inter metrics; reruns on resize.
+   A `split` override (data) forces exact line breaks when wanted. */
+function RectTitle({ text, split }) {
   const ref = useRef(null);
-  const [lines, setLines] = useState([]);
+  const [words, setWords] = useState([]);
+  const [size, setSize] = useState(0);
   useLayoutEffect(() => {
     const el = ref.current;
     if (!el) return;
@@ -89,33 +91,24 @@ function RectTitle({ text }) {
       if (!w || dead) return;
       const cv = (RectTitle._cv ||= document.createElement("canvas"));
       const ctx = cv.getContext("2d");
-      const base = Math.max(20, w * 0.11);
+      const base = 100;
       ctx.font = `800 ${base}px Inter, sans-serif`;
-      const words = text.replace(/[.’]+$/, "").split(/\s+/);
-      const rows = [];
-      let cur = [];
-      for (const word of words) {
-        const test = cur.concat(word).join(" ");
-        if (cur.length && ctx.measureText(test).width > w) { rows.push(cur); cur = [word]; }
-        else cur.push(word);
-      }
-      if (cur.length) rows.push(cur);
-      setLines(rows.map((ws) => {
-        const t = ws.join(" ");
-        const nat = ctx.measureText(t).width || 1;
-        return { t, size: base * (w / nat) };
-      }));
+      const rows = split ? split : text.replace(/[.’]+$/, "").split(/\s+/);
+      // one uniform size for every line: scale so the widest word fills the column
+      const widest = Math.max(...rows.map((r) => ctx.measureText(r).width || 1));
+      setWords(rows);
+      setSize(base * (w / widest));
     };
     if (document.fonts && document.fonts.ready) document.fonts.ready.then(measure);
     measure();
     const ro = new ResizeObserver(measure);
     ro.observe(el);
     return () => { dead = true; ro.disconnect(); };
-  }, [text]);
+  }, [text, split]);
   return (
-    <div className="rect-ttl" ref={ref}>
-      {lines.map((l, i) => (
-        <span key={i} className="rt-line" style={{ fontSize: `${l.size}px` }}>{l.t}</span>
+    <div className="rect-ttl" ref={ref} style={{ fontSize: `${size}px` }}>
+      {words.map((wd, i) => (
+        <span key={i} className="rt-line">{wd}</span>
       ))}
     </div>
   );
@@ -129,7 +122,8 @@ function Card({ c }) {
   return (
     <div id={`card-${c.id}`} className={`callout slab ${c.side} ${tone}`} style={{ opacity: 0 }}>
       <div className="kicker">{c.kicker}</div>
-      <RectTitle text={c.title} />
+      <RectTitle text={c.title} split={c.titleSplit} />
+      <div className="ttl-rule" aria-hidden />
       <p>{c.body}</p>
     </div>
   );
@@ -199,7 +193,11 @@ function PhoneContrib() {
 
 function ScreenOverlays() {
   return (
-    <>
+    /* This layer must match the canvas geometry exactly: the screen projection in
+       Scene.jsx produces pixel coords relative to the canvas (state.size), and on
+       mobile the canvas is letterboxed (top:7vh) while .tour-dom is full-height —
+       so without this matching wrapper the overlays float above the real devices. */
+    <div className="ov-layer">
       <div id="ov-mac" className="screen-ov">
         {/* click pulse on the "Practice this question?" popup (still on the laptop) */}
         <div id="ripple" className="ripple" style={{ left: "36%", top: "64%" }} />
@@ -231,7 +229,7 @@ function ScreenOverlays() {
         </svg>
       </div>
       <div id="ov-phone" className="screen-ov"><PhoneContrib /></div>
-    </>
+    </div>
   );
 }
 
@@ -535,10 +533,10 @@ export default function Tour() {
           <div style={{ display: "none" }} aria-hidden>
             {DECAY_ARC_FRAMES.map((s) => <img key={s} src={s} alt="" />)}
           </div>
-          <div id="laptop-intro">I use my own product — Scholar — to track student progress.</div>
+          <div id="laptop-intro">I use my own product, Scholar, to track student progress.</div>
           <Hero />
           <div id="end-hint">
-            <span className="eyebrow">— and parents notice</span>
+            <span className="eyebrow">and parents notice</span>
             <div className="caslon big">Keep scrolling for their words.</div>
           </div>
         </div>

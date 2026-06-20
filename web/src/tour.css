@@ -199,11 +199,13 @@
 .callout.right { right: 4vw; }
 
 /* ── shared slab ─────────────────────────────────────────────────────────
-   Every beat except decay is a slab: a justified-rectangle heading + subtext,
-   no card chrome, sitting straight on the coloured stage. It slides up into view
-   (timeline). The text tone follows the stage colour. */
+   Every beat is a slab: a justified-rectangle heading + subtext, no card chrome,
+   sitting straight on the coloured stage. It slides up into view (timeline). The
+   text tone follows the stage colour. Every beat uses ONE column width so the
+   headings all read as the same compact, tall justified rectangle (the "Decay /
+   ing / mastery" treatment), in the same font + structure across the whole tour. */
 .callout.slab {
-  width: min(360px, 32vw);
+  width: min(280px, 24vw);
   padding: 0;
   background: none;
   border: none;
@@ -215,30 +217,31 @@
 .callout.on-orange p { color: rgba(255, 255, 255, 0.92); }
 .callout.on-light { color: var(--off); }
 .callout.on-light p { color: var(--muted); }
-.callout.slab p { margin-top: 10px; }
+.callout.slab p { margin-top: 0; }
 
-/* mastery + decay + answering beats sit in a narrower column than the other
-   slabs. Desktop-only — mobile re-frames the columns in its own media query
-   (the .callout container is width:auto on mobile; the squeeze rides on .rect-ttl). */
-@media (min-width: 881px) {
-  #card-mastery { width: min(270px, 23vw); }
-  #card-decay { width: min(280px, 24vw); }
-  #card-hand { width: min(290px, 25vw); }
-}
-
-/* the justified-rectangle heading — RectTitle (Tour.jsx) wraps the words into
-   lines and scales each line in JS so its rendered width equals the column width,
-   so the block reads as a true flush rectangle. Used on desktop + mobile. */
+/* the "rule divider" heading (Option B, Decay Text Options) — RectTitle (Tour.jsx)
+   stacks the words one per line at a single uniform size (the widest word fills the
+   column), then .ttl-rule lays a hairline rule between heading and body. One system,
+   used by every beat, desktop + mobile. */
 .rect-ttl {
   display: flex;
   flex-direction: column;
   font-family: var(--sans);
   font-weight: 800;
-  letter-spacing: -0.04em;
-  line-height: 0.84;
+  letter-spacing: -0.035em;
+  line-height: 0.9;
   color: inherit;
 }
 .rect-ttl .rt-line { display: block; white-space: nowrap; }
+/* the rule that names the system: a hairline divider under the heading. currentColor
+   + opacity so it tracks the stage tone (dark on yellow/off-white, light on orange). */
+.ttl-rule {
+  height: 1.5px;
+  border: 0;
+  background: currentColor;
+  opacity: 0.32;
+  margin: clamp(16px, 1.6vw, 26px) 0 clamp(13px, 1.2vw, 22px);
+}
 
 .callout .kicker {
   font-family: var(--sans);
@@ -268,10 +271,11 @@
 .callout .ttl .g1 { color: #ff9b6b; clip-path: inset(12% 0 55% 0); }
 .callout .ttl .g2 { color: #ff4d00; clip-path: inset(58% 0 8% 0); }
 .callout p {
-  font-size: 14px;
-  line-height: 1.55;
+  font-size: clamp(14px, 1.05vw, 16px);
+  line-height: 1.5;
+  letter-spacing: -0.005em;
   color: var(--muted);
-  margin: 12px 0 0;
+  margin: 0; /* the .ttl-rule above owns the heading→body gap */
 }
 .decay-curve {
   display: block;
@@ -281,6 +285,12 @@
 
 /* ── overlays projected onto device screens ────────────────────────────── */
 
+/* mirrors .tour-canvas so the canvas-relative screen projection (Scene.jsx) lands
+   on the real devices — on mobile the canvas is letterboxed, so this must be too */
+.ov-layer {
+  position: absolute;
+  inset: 0;
+}
 .screen-ov {
   position: absolute;
   top: 0;
@@ -475,6 +485,10 @@
   position: absolute;
   left: 50%;
   top: 50%;
+  /* an explicit width is required: without it the absolutely-positioned box
+     shrink-wraps to the space between the 50% origin and the right edge (~50vw),
+     so the text wraps into the right half and reads as shoved off-centre. */
+  width: min(90vw, 720px);
   transform: translate(-50%, -50%);
   text-align: center;
   opacity: 0;
@@ -554,8 +568,13 @@
      1800vh, and with scrub:true it stays responsive, not laggy. */
   .tour { height: 1600vh; }
 
-  /* the 3D devices stay the hero up top; the card sits in the band beneath */
-  .tour-canvas {
+  /* the 3D devices stay the hero up top; the card sits in the band beneath.
+     a top offset drops the whole canvas (and every device with it) lower so the
+     enlarged devices don't bleed off the top edge — moving the canvas keeps the
+     handoff clip-planes aligned (they're relative to the canvas, not the page). */
+  .tour-canvas,
+  .ov-layer {
+    top: 7vh;
     height: 64vh;
     bottom: auto;
   }
@@ -570,7 +589,7 @@
     left: 20px;
     right: 20px;
     width: auto;
-    max-height: 32vh;
+    max-height: 52vh;
     overflow: hidden;
     transform: none;
     padding: 0;
@@ -582,31 +601,27 @@
   /* title + description only; the numbered kicker is dropped on mobile */
   .callout .kicker { display: none; }
   .callout p {
-    font-size: 11px;
-    line-height: 1.4;
-    margin-top: 8px;
+    font-size: 12px;
+    line-height: 1.45;
+    letter-spacing: -0.005em;
+    margin: 0;
     max-width: 78vw;
   }
+  .ttl-rule { margin: 13px 0 11px; }
 
   /* the title is a flush rectangle — each line scaled in JS to the column width
-     (RectTitle in Tour.jsx). On mobile the column is kept NARROW (≈ half the screen)
-     so the heading stays small and compact beside the devices, not screen-filling. */
+     (RectTitle in Tour.jsx). Every beat uses ONE narrow column so the headings all
+     read as the same compact, tall justified rectangle, in the same font + structure. */
   .rect-ttl {
     display: flex;
     flex-direction: column;
-    width: 52vw;
+    width: 38vw;
     font-family: var(--sans);
     font-weight: 800;
     letter-spacing: -0.035em;
     line-height: 0.9;
   }
   .rect-ttl .rt-line { display: block; white-space: nowrap; }
-
-  /* same relationship as desktop: the mastery/decay/answering beats ride in a
-     narrower column than the default 52vw, so their headings stay more compact */
-  #card-mastery .rect-ttl { width: 42vw; }
-  #card-decay .rect-ttl { width: 44vw; }
-  #card-hand .rect-ttl { width: 46vw; }
 
   /* text colour follows the stage behind it: white on the orange beats, dark on
      the yellow and off-white beats */
@@ -618,10 +633,12 @@
   /* decay beat on mobile: the timer rides above the device (smaller), the arc card
      still plays on the iPad screen, and the retention curve is dropped — there's no
      room for it beside the device in portrait, and the timer + fading arc carry it. */
-  /* clear of the (taller, two-line) mobile nav, above the device */
-  #decay-timer { top: 13%; }
-  #decay-timer .dt-day { font-size: 10px; letter-spacing: 0.14em; }
-  #decay-timer .dt-date { font-size: 21px; margin-top: 2px; }
-  #decay-timer .dt-range { font-size: 10px; margin-top: 4px; }
+  /* the enlarged devices push the laptop up into the date timer, so hide it on phones */
+  #decay-timer { display: none; }
   #decay-float { display: none; }
+  /* the decay + log beats sit higher than the default bottom-anchored slabs so the
+     short headings clear the body and read up near the device, matching the taller
+     beats (both are bottom-anchored, so a larger `bottom` lifts the whole block). */
+  #card-decay { bottom: 9vh; }
+  #card-log { bottom: 6vh; }
 }
