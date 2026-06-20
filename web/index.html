@@ -78,6 +78,41 @@
   .btn.ghost:hover{background:var(--off);color:var(--bg);border-color:var(--off);}
   .navlinks .btn{padding:7px 7px 7px 18px;}
   @media(max-width:760px){.navlinks a:not(.btn){display:none;}}
+  /* header ink flips to white over the dark stage colours (toggled from Tour.jsx),
+     and the CTA inverts to a white pill so it stays legible on the dark stage */
+  .nav.nav--ink-light .brand,
+  .nav.nav--ink-light .brand .dot,
+  .nav.nav--ink-light .navlinks a{color:#fff;}
+  .nav.nav--ink-light .navlinks a.btn{background:#fff;color:#1a1a1a;border-color:#fff;}
+
+  /* ── page colour cycle (continues the scroll-tour palette; NO off-white) ──
+     hero/tour = colour 1, then sections continue: credentials=2, reviews=3,
+     subjects=4, contact=5, footer back to 1. */
+  body{background:#240115;}
+  /* past the walkthrough the sticky nav goes solid — dark, not off-white */
+  .nav--solid{background:#240115;}
+  .nav--solid .brand,.nav--solid .brand .dot,.nav--solid .navlinks a{color:#fff;}
+  .nav--solid .navlinks a.btn{background:#fff;color:#1a1a1a;border-color:#fff;}
+
+  #credentials{background:#de3c4b;}            /* colour 2 — Lead Teacher (the second section) */
+  #credentials .cred-feature h3,#credentials .cr h3{color:#fff;}
+  #credentials .cred-feature p,#credentials .cr p{color:rgba(255,255,255,.9);}
+  #credentials .cred-feature p b,#credentials .cr p b{color:#fff;}
+  #credentials .lab,#credentials .cr .lab{color:#fff;opacity:.82;}
+  #credentials .inner{border-top-color:rgba(255,255,255,.32);}
+
+  #reviews{background:#2f131e;}                 /* colour 3 — review cards stay white */
+  #reviews .sechead h2,#reviews .sechead .it{color:#fff;}
+  #reviews .sechead p{color:rgba(255,255,255,.82);}
+  #reviews .sechead .eyebrow{color:#fff;}
+
+  #subjects{background:#cec3c1;}                /* colour 4 — light, keeps dark ink */
+
+  #contact{background:#87f5fb;}                /* colour 5 — light, keeps dark ink */
+
+  footer{background:#240115;}                   /* colour 1 (repeat) */
+  footer .brand{color:#fff;}
+  footer .fm{color:rgba(255,255,255,.6);}
 
   /* ---------- section heading ---------- */
   .sec{padding:90px 0;}
@@ -164,34 +199,6 @@
 <!-- ============ HERO + SCROLL WALKTHROUGH (React mounts here) ============ -->
 <div id="tour-root"></div>
 
-<!-- ================= REVIEWS ================= -->
-<section class="sec" id="reviews">
-  <div class="wrap">
-    <div class="sechead reveal">
-      <span class="eyebrow">From AP parents</span>
-      <h2 class="caslon">Fear to <span class="it">love for physics.</span></h2>
-      <p>Real words from parents in Connecticut, Seattle and Atlanta.</p>
-    </div>
-    <div class="reviews">
-      <div class="rev big reveal">
-        <div class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <blockquote>&ldquo;I was a little hesitant when we first started classes for my son with Mr. Koustubh, as I wasn't sure how well it would align with his learning pace and style. My son is an independent learner who typically prefers to work through concepts on his own and rarely seeks help from others. However, as the subjects became more complex, Mr. K took the time to understand his strengths, support him through challenges, and provide guidance whenever it was needed. I truly appreciate all of Mr. K's efforts, dedication, and willingness to help. His guidance and support has created a positive impact on my son's studies.&rdquo;</blockquote>
-        <div class="by"><b>Lakshmi</b> · AP Physics C, AP Calc BC · Seattle, WA</div>
-      </div>
-      <div class="rev reveal">
-        <div class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <blockquote>&ldquo;Koustubh has been amazing, great with concepts, deep dives into the subject and nudges the kids in the right direction relentlessly. The remarkable difference I have seen is that she went from fear to love for physics, and that to me is a mark of a great teacher. He made her do tests from time to time and, most importantly, what I liked the most is he taught her what she needed to, way more than what we asked. I would recommend him any day for math and/or physics AP classes.&rdquo;</blockquote>
-        <div class="by"><b>Sree</b> · AP Physics 1 · Atlanta, GA</div>
-      </div>
-      <div class="rev reveal">
-        <div class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <blockquote>&ldquo;Thank you for being such an incredible physics tutor! My son actually looks forward to Koustubh's sessions. Highly recommended!&rdquo;</blockquote>
-        <div class="by"><b>Kamlesh</b> · AP Physics 1 · Connecticut</div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ================= CREDENTIALS ================= -->
 <section class="creds wrap" id="credentials">
   <div class="inner">
@@ -215,6 +222,34 @@
         <div class="lab">Education</div>
         <h3 class="caslon">B.Tech</h3>
         <p>Electronics &amp; Communication Engineering, National Institute of Technology (NIT) Silchar, India.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= REVIEWS ================= -->
+<section class="sec" id="reviews">
+  <div class="wrap">
+    <div class="sechead reveal">
+      <span class="eyebrow">From AP parents</span>
+      <h2 class="caslon">Fear to <span class="it">love for physics.</span></h2>
+      <p>Real words from parents in Connecticut, Seattle and Atlanta.</p>
+    </div>
+    <div class="reviews">
+      <div class="rev big reveal">
+        <div class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>&ldquo;I was a little hesitant when we first started classes for my son with Mr. Koustubh, as I wasn't sure how well it would align with his learning pace and style. My son is an independent learner who typically prefers to work through concepts on his own and rarely seeks help from others. However, as the subjects became more complex, Mr. K took the time to understand his strengths, support him through challenges, and provide guidance whenever it was needed. I truly appreciate all of Mr. K's efforts, dedication, and willingness to help. His guidance and support has created a positive impact on my son's studies.&rdquo;</blockquote>
+        <div class="by"><b>Lakshmi</b> · AP Physics C, AP Calc BC · Seattle, WA</div>
+      </div>
+      <div class="rev reveal">
+        <div class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>&ldquo;Koustubh has been amazing, great with concepts, deep dives into the subject and nudges the kids in the right direction relentlessly. The remarkable difference I have seen is that she went from fear to love for physics, and that to me is a mark of a great teacher. He made her do tests from time to time and, most importantly, what I liked the most is he taught her what she needed to, way more than what we asked. I would recommend him any day for math and/or physics AP classes.&rdquo;</blockquote>
+        <div class="by"><b>Sree</b> · AP Physics 1 · Atlanta, GA</div>
+      </div>
+      <div class="rev reveal">
+        <div class="star">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote>&ldquo;Thank you for being such an incredible physics tutor! My son actually looks forward to Koustubh's sessions. Highly recommended!&rdquo;</blockquote>
+        <div class="by"><b>Kamlesh</b> · AP Physics 1 · Connecticut</div>
       </div>
     </div>
   </div>

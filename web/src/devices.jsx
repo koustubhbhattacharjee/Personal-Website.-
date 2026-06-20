@@ -78,7 +78,9 @@ export function ScreenStack({ device, layers, screenRef, layerRefs, cornerRadius
           renderOrder={10 + i}
         >
           {screenGeom ? <primitive object={screenGeom} attach="geometry" /> : <planeGeometry args={[w, h]} />}
-          <meshBasicMaterial map={tex} transparent opacity={i === 0 ? 1 : 0} toneMapped={false} />
+          {/* double-sided so the screenshot stays on the screen as the device spins
+              through edge-on in a handoff, instead of flashing through to the stage */}
+          <meshBasicMaterial map={tex} transparent opacity={i === 0 ? 1 : 0} toneMapped={false} side={THREE.DoubleSide} />
         </mesh>
       ))}
       {/* mastery-recolour flipbook overlay (Scene.jsx swaps the map + opacity).
@@ -92,7 +94,7 @@ export function ScreenStack({ device, layers, screenRef, layerRefs, cornerRadius
           visible={false}
         >
           <planeGeometry args={[w, h]} />
-          <meshBasicMaterial transparent opacity={0} toneMapped={false} depthTest={false} />
+          <meshBasicMaterial transparent opacity={0} toneMapped={false} depthTest={false} side={THREE.DoubleSide} />
         </mesh>
       )}
     </group>

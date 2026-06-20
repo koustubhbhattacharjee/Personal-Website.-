@@ -3,7 +3,7 @@
 .tour {
   position: relative;
   height: 1800vh;
-  background: var(--bg);
+  background: #240115; /* palette colour 1 — the hero sits on it before the curtains rise */
 }
 .tour-stage {
   position: sticky;
@@ -91,7 +91,7 @@
   font-size: clamp(40px, 7vw, 92px);
   line-height: 1.02;
   letter-spacing: -0.03em;
-  color: var(--off);
+  color: #fff;
   margin: 0 0 22px;
   transform-origin: center bottom;
   animation: heroGreet 1.15s cubic-bezier(0.2, 0.75, 0.2, 1) both;
@@ -108,7 +108,7 @@
   font-weight: 600;
   letter-spacing: -0.005em;
   line-height: 1.5;
-  color: var(--off);
+  color: rgba(255, 255, 255, 0.92);
   text-align: center;
   max-width: 600px;
   margin: -4px 0 20px;
@@ -116,7 +116,7 @@
   animation: heroDesc 0.8s ease both 0.7s;
 }
 .hero-creds .sep {
-  color: var(--muted2);
+  color: rgba(255, 255, 255, 0.4);
   font-weight: 400;
   margin: 0 9px;
 }
@@ -125,12 +125,12 @@
   font-size: clamp(19px, 2.1vw, 27px);
   line-height: 1.4;
   letter-spacing: -0.01em;
-  color: var(--off);
+  color: rgba(255, 255, 255, 0.86);
   margin: 0;
   max-width: 620px;
   animation: heroDesc 0.9s ease both 0.95s;
 }
-.hero-desc b { font-weight: 600; }
+.hero-desc b { font-weight: 700; color: #fff; }
 @keyframes heroDesc {
   from { opacity: 0; transform: translateY(16px); }
   to   { opacity: 1; transform: none; }
@@ -163,12 +163,12 @@
   bottom: 30px;
   width: 64px;
   height: 64px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 50%;
   display: grid;
   place-items: center;
-  color: var(--off);
-  background: var(--bg);
+  color: rgba(255, 255, 255, 0.8);
+  background: transparent;
 }
 .scroll-hint .label { display: none; }
 .scroll-hint .chev {
@@ -277,6 +277,17 @@
   color: var(--muted);
   margin: 0; /* the .ttl-rule above owns the heading→body gap */
 }
+/* typewriter caret: a slim bar that blinks at the end of the typed body */
+.bd-caret {
+  display: inline-block;
+  width: 0.5em;
+  margin-left: 1px;
+  border-bottom: 0.14em solid currentColor;
+  transform: translateY(-0.04em);
+  animation: bd-blink 1.05s steps(1) infinite;
+}
+@keyframes bd-blink { 0%, 50% { opacity: 1; } 50.01%, 100% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .bd-caret { animation: none; } }
 .decay-curve {
   display: block;
   width: 100%;
@@ -386,7 +397,7 @@
   top: 10%;
   transform: translateX(-50%);
   text-align: center;
-  color: var(--off);
+  color: #fff; /* the decay stage is now a dark colour, so the timer reads light */
   font-family: var(--sans);
   opacity: 0;
   visibility: hidden;
@@ -491,8 +502,10 @@
   width: min(90vw, 720px);
   transform: translate(-50%, -50%);
   text-align: center;
+  color: #fff; /* the tour ends on a dark palette colour */
   opacity: 0;
 }
+#end-hint .eyebrow { color: #fff; }
 #end-hint .big {
   font-size: clamp(30px, 4.4vw, 54px);
   margin-top: 12px;

@@ -67,10 +67,23 @@ function DecayCurve() {
   );
 }
 
-// Slabs that ride on the orange stage (the two laptop beats) get white text;
-// everything past the first handoff (yellow, then off-white) reads dark. See the
-// stage-curtain timing.
-const ON_ORANGE = new Set(["what", "mastery"]);
+// Beat background palette (from web/whatever.png), with the sky blue moved to the
+// END as requested. The whole page cycles these five colours with NO off-white
+// anywhere — the hero is colour 1, each scroll beat takes the next, and the page
+// sections below continue the cycle (see index.html).
+//   hero/what · mastery · decay · handwriting · flashcards · session-log
+const STAGE_COLORS = [
+  { key: "c1", color: "#240115", dark: true  }, // 1 · hero + what   (near-black plum)
+  { key: "c2", color: "#de3c4b", dark: true  }, // 2 · mastery       (red)
+  { key: "c3", color: "#2f131e", dark: true  }, // 3 · decay         (dark maroon)
+  { key: "c4", color: "#cec3c1", dark: false }, // 4 · handwriting   (light taupe)
+  { key: "c5", color: "#87f5fb", dark: false }, // 5 · flashcards    (sky blue — at the end)
+  { key: "c6", color: "#240115", dark: true  }, // 6 · session log   (repeat colour 1)
+];
+
+// Beats whose stage colour is dark, so their slab text + connectors read white. The
+// class names (on-orange / on-light) are kept; on-orange == white ink.
+const ON_DARK = new Set(["what", "mastery", "decay", "log"]);
 
 /* Title in the "rule divider" system (Option B of Decay Text Options): the words
    stack one per line at a SINGLE uniform size — the size is chosen so the widest
@@ -118,13 +131,18 @@ function Card({ c }) {
   // Every beat — decay included — is a shared slab: a justified-rectangle heading
   // + subtext, no card chrome, text tone following the stage colour. (Decay still
   // gets the floating retention curve alongside it.)
-  const tone = ON_ORANGE.has(c.id) ? "on-orange" : "on-light";
+  const tone = ON_DARK.has(c.id) ? "on-orange" : "on-light";
   return (
     <div id={`card-${c.id}`} className={`callout slab ${c.side} ${tone}`} style={{ opacity: 0 }}>
       <div className="kicker">{c.kicker}</div>
       <RectTitle text={c.title} split={c.titleSplit} />
       <div className="ttl-rule" aria-hidden />
-      <p>{c.body}</p>
+      {/* body types in (typewriter, scrub-driven from the timeline); .bd-text starts
+          empty and is filled char-by-char, with a blinking caret pinned at the end */}
+      <p className="bd" aria-label={c.body}>
+        <span className="bd-text" aria-hidden></span>
+        <span className="bd-caret" aria-hidden></span>
+      </p>
     </div>
   );
 }
@@ -280,6 +298,31 @@ function buildTimeline(sectionEl) {
     tl.to(rig, { [to]: 1, duration: dur, ease: "power1.inOut" }, at);
   };
 
+  // Typewriter: the body of a beat fills in char-by-char (scrub-driven, so it types
+  // forward and un-types backward). The blinking caret is a CSS sibling pinned at the
+  // end. Every device beat uses this.
+  const bodyOf = Object.fromEntries(CALLOUTS.map((c) => [c.id, c.body]));
+  const typeBody = (id, at, dur) => {
+    const text = bodyOf[id] || "";
+    const proxy = { n: 0 };
+    tl.fromTo(proxy, { n: 0 }, {
+      n: text.length, duration: dur, ease: "none",
+      onUpdate: () => {
+        const el = document.querySelector(`#card-${id} .bd-text`);
+        if (el) el.textContent = text.slice(0, Math.round(proxy.n));
+      },
+    }, at);
+  };
+
+  // Gentle "live" rotation: a device turns slowly as you scroll through its beats
+  // (while the body types), then eases back to face-on BEFORE its fast handoff spin —
+  // returning to 0 matters so the handoff's screen-centre pivot has no position jump.
+  const SWAY = 0.3; // ≈ 17° — mild; the fast handoff spin is the dramatic one
+  const sway = (key, atIn, dIn, atOut, dOut) => {
+    tl.to(rig, { [key]: SWAY, duration: dIn, ease: "sine.inOut" }, atIn);
+    tl.to(rig, { [key]: 0, duration: dOut, ease: "sine.inOut" }, atOut);
+  };
+
   /* 0–6: hero hands off, MacBook rises */
   tl.to("#hero-block .hero-inner", { y: -120, autoAlpha: 0, duration: 3.2, ease: "power1.in" }, 0.8);
   tl.to(".scroll-hint", { autoAlpha: 0, duration: 1.5 }, 0.8);
@@ -290,44 +333,43 @@ function buildTimeline(sectionEl) {
   tl.fromTo("#laptop-intro", { autoAlpha: 0, y: 16 }, { autoAlpha: 1, y: 0, duration: 1.4, ease: "power2.out" }, 4.4);
   tl.to("#laptop-intro", { autoAlpha: 0, y: -18, duration: 1.2, ease: "power2.in" }, 6.6);
 
-  /* Stage colour curtains. Each wipes up from the bottom, driven by a numeric
-     proxy (robust under scrub, same pattern as `rig`) instead of a transform
-     fromTo, which mis-caches when the timeline is seeked. The nav bar's colour
-     is tweened in lockstep so the whole frame, header included, changes colour. */
-  const makeWipe = (id, extra) => {
-    const p = { y: 100 };
-    const paint = () => {
-      const el = document.getElementById(id);
-      if (el) el.style.transform = `translateY(${p.y}%)`;
-      if (extra) extra();
-    };
-    return { p, paint };
-  };
-  /* Duotone header: a white-text clone of the nav, clipped to the band where the
-     orange curtain is the visible colour, so the header text flips colour exactly
-     along the moving wipe line — a solid swap with no opacity fade. */
+  /* Stage colour curtains — one per beat colour (STAGE_COLORS). Each wipes up from
+     the bottom, driven by a numeric proxy (robust under scrub, same pattern as
+     `rig`) instead of a transform fromTo, which mis-caches when seeked. They stack
+     in DOM order, so each new colour rises over the previous. The nav ink flips in
+     lockstep so the header stays legible on every colour. */
+  const curtains = STAGE_COLORS.map((s) => ({ ...s, p: { y: 100 } }));
+  const C = Object.fromEntries(curtains.map((c) => [c.key, c]));
+  /* Header ink: find the topmost curtain that has risen past the nav band and set
+     the header to white on dark colours, dark on light ones (and dark before any
+     curtain reaches the nav, i.e. on the off-white hero). */
+  const navEl = () => document.getElementById("nav");
   const paintNav = () => {
-    const clone = document.getElementById("nav-orange");
-    if (!clone) return;
+    const nav = navEl();
+    if (!nav) return;
     const vh = window.innerHeight;
-    const navH = clone.offsetHeight || 68;
-    const clamp = (v) => Math.max(0, Math.min(v, navH));
-    const yO = clamp((cOrange.p.y / 100) * vh); // orange top edge
-    const yY = clamp((cYellow.p.y / 100) * vh); // yellow top edge (rises over orange)
-    const yW = clamp((cWhite.p.y / 100) * vh);  // off-white top edge (rises over yellow)
-    // the white-text clone shows only where orange is the *topmost* colour; once
-    // yellow or off-white rises over the header, the base dark nav shows instead
-    // (so the header reads dark on yellow, not white-on-yellow)
-    const top = yO;
-    const bottom = Math.max(top, Math.min(yY, yW));
-    clone.style.clipPath = `inset(${top}px 0 ${navH - bottom}px 0)`;
+    const navH = (nav.querySelector(".row")?.offsetHeight) || 68;
+    let dark = false;
+    for (let i = curtains.length - 1; i >= 0; i--) {
+      const topEdge = (curtains[i].p.y / 100) * vh; // px from top of the viewport
+      if (topEdge <= navH * 0.5) { dark = curtains[i].dark; break; } // this colour covers the nav
+    }
+    nav.classList.toggle("nav--ink-light", dark);
   };
-  const cOrange = makeWipe("stage-orange", paintNav);
-  const cWhite = makeWipe("stage-white", paintNav);
-  const cYellow = makeWipe("stage-yellow", paintNav);
+  const paintCurtains = () => {
+    for (const c of curtains) {
+      const el = document.getElementById(`stage-${c.key}`);
+      if (el) el.style.transform = `translateY(${c.p.y}%)`;
+    }
+    paintNav();
+  };
+  // wipe a curtain up (y 100 → 0) over a duration — a plain colour change with no
+  // device spin (used for the within-device-group beat transitions)
+  const wipeTo = (key, at, dur = 2.6) =>
+    tl.to(C[key].p, { y: 0, duration: dur, ease: "power2.inOut", onUpdate: paintCurtains }, at);
 
-  /* orange floods up as the MacBook rises/opens — full by lid-open (~10.5) */
-  tl.to(cOrange.p, { y: 0, duration: 9.3, ease: "power2.out", onUpdate: cOrange.paint }, 1.2);
+  /* beat 1 (what): colour 1 floods up as the MacBook rises/opens (~full by 10.5) */
+  tl.to(C.c1.p, { y: 0, duration: 9.3, ease: "power2.out", onUpdate: paintCurtains }, 1.2);
 
   /* 6–10.5: the lid twists open — camera settles to the ONE fixed framing
      (dead-centre, tgtY=camY=0) used for the whole device sequence, so nothing
@@ -339,7 +381,9 @@ function buildTimeline(sectionEl) {
      The laptop's rise + the camera settle above IS the single zoom-in; nothing
      dollies or zooms again for the rest of the tour.
      Beat 1: what Scholar is — slab beside the laptop. */
+  sway("macRotY", 13, 12, 25, 9); // laptop turns slowly through both its beats, back to 0 by ~34
   calloutIn("what", 13);
+  typeBody("what", 14, 5);
   calloutOut("what", 20.5);
 
   /* Beat 2: mastery — the colour-change lives on the laptop. The three
@@ -347,7 +391,10 @@ function buildTimeline(sectionEl) {
      the screen, climbing from red toward green as correct answers accumulate. */
   tl.fromTo(rig, { flipMac: 0 }, { flipMac: 1, duration: 2, ease: "power2.out" }, 21.5);
   tl.fromTo(rig, { shapeFrame: 0 }, { shapeFrame: SHAPE_FRAMES - 1, duration: 8.5, ease: "none" }, 22.5);
+  // beat 2 (mastery): colour 2 (red) wipes up behind the laptop — no device spin
+  wipeTo("c2", 21);
   calloutIn("mastery", 24);
+  typeBody("mastery", 25, 6.5);
   calloutOut("mastery", 32.5);
   tl.to(rig, { flipMac: 0, duration: 1.6, ease: "power2.inOut" }, 34);
 
@@ -365,7 +412,7 @@ function buildTimeline(sectionEl) {
       [`${inn}X`]: 0, [`${inn}Y`]: inParkY, [`${inn}RotY`]: -Math.PI,
       [`${out}ClipSide`]: 1, [`${inn}ClipSide`]: -1, clipActive: 1,
     }, at);
-    const paint = () => { rising.p.y = rig.divider * 100; rising.paint(); };
+    const paint = () => { rising.p.y = rig.divider * 100; paintCurtains(); };
     tl.to(rig, { divider: 0, duration: HOFF_DUR, ease: HOFF_EASE, onUpdate: paint }, at);
     tl.to(rig, { [`${out}RotY`]: Math.PI, duration: HOFF_DUR, ease: HOFF_EASE }, at);   // 0 → +90° → 180° (back)
     tl.to(rig, { [`${inn}RotY`]: 0, duration: HOFF_DUR, ease: HOFF_EASE }, at);          // −180° → −90° → 0° (front)
@@ -378,7 +425,7 @@ function buildTimeline(sectionEl) {
      already showing the decay practice room on its 3D screen, so it never flashes
      blank-black while it rotates in. */
   tl.set(rig, { decayRoom: 1 }, 35.6);
-  handoff({ at: 36, out: "mac", inn: "pad", rising: cYellow, inParkY: 0 });
+  handoff({ at: 36, out: "mac", inn: "pad", rising: C.c3, inParkY: 0 }); // colour 3 (decay) rises with the spin
 
   /* ── iPad — Beat 3: decay (no problem-solving) ─────────────────────────────
      The iPad shows the practice room with the last-solved arc fully coloured and a
@@ -387,7 +434,9 @@ function buildTimeline(sectionEl) {
      spaced-repetition retention — real data). */
   tl.fromTo("#decay-stage", { autoAlpha: 0 }, { autoAlpha: 1, duration: 1.6, ease: "power2.out" }, 42);
   tl.fromTo("#decay-timer", { autoAlpha: 0, y: -12 }, { autoAlpha: 1, y: 0, duration: 1.4, ease: "power2.out" }, 42.6);
+  sway("padRotY", 43, 11, 54, 9); // iPad turns slowly through decay + handwriting, back to 0 by ~63
   decayIn("decay", 43.6);
+  typeBody("decay", 45, 7.5);
   // room blurs; the arc grows out from its corner to fill the screen
   tl.fromTo("#decay-room-img", { filter: "blur(0px)" }, { filter: "blur(9px)", duration: 2.4, ease: "power2.inOut" }, 45.2);
   tl.fromTo("#decay-arc",
@@ -418,7 +467,10 @@ function buildTimeline(sectionEl) {
      blurred arc overlay clears, so there's no flash back to the sharp room */
   tl.to(rig, { decayRoom: 0, duration: 1.4, ease: "power1.inOut" }, 54.8);
   tl.to(rig, { padExit1: 1, duration: 1.4, ease: "power2.out" }, 54.8);
+  // beat 4 (handwriting): colour 4 (light taupe) wipes up behind the iPad — no spin
+  wipeTo("c4", 55);
   calloutIn("hand", 57.5);
+  typeBody("hand", 58.8, 5.5);
   gsap.utils.toArray("#pad-draw .stk").forEach((p, i) => {
     tl.fromTo(p, { attr: { "stroke-dashoffset": 1 } },
       { attr: { "stroke-dashoffset": 0 }, duration: 3, ease: "none" }, 59 + i * 0.4);
@@ -429,25 +481,31 @@ function buildTimeline(sectionEl) {
 
   /* HANDOFF 2 — iPad hands off to the iPhone; off-white floods up over the yellow. */
   tl.set(rig, { phoneCards: 1 }, 67.5); // iPhone arrives showing the flashcard deck
-  handoff({ at: 68, out: "pad", inn: "phone", rising: cWhite, inParkY: 0 });
+  handoff({ at: 68, out: "pad", inn: "phone", rising: C.c5, inParkY: 0 }); // colour 5 (sky blue) rises with the spin
 
   /* ── iPhone ───────────────────────────────────────────────────────────────
      Beat 5: flashcards (content unchanged; slab caption). */
+  sway("phoneRotY", 75, 6, 81, 5); // iPhone turns slowly through flashcards + log, back to 0 by ~86
   calloutIn("cards", 75);
+  typeBody("cards", 75.8, 3.6);
   tl.to(rig, { phoneCards: 0, phoneCardsBack: 1, duration: 1.2, ease: "power1.inOut" }, 77);
   calloutOut("cards", 80);
 
   /* Beat 6: session log — only the GitHub-style contribution graph (crisp DOM
      overlay, no cylinder). The opaque grid panel fades in over the deck and the
      cells stagger alight. */
+  // beat 6 (session log): colour 6 (repeat of colour 1) wipes up behind the iPhone
+  wipeTo("c6", 80);
   tl.fromTo("#phone-contrib", { autoAlpha: 0 }, { autoAlpha: 1, duration: 1.6, ease: "power2.out" }, 81);
   tl.fromTo("#phone-contrib .cell",
     { autoAlpha: 0.16 },
     { autoAlpha: 1, duration: 3, ease: "none", stagger: { each: 0.006, from: "start" } }, 82);
   calloutIn("log", 83.4);
+  typeBody("log", 84, 3.2);
   calloutOut("log", 87.6);
 
-  /* iPhone turns away in place as the stage fades to the off-white reviews. */
+  /* iPhone turns away in place; the tour ends on colour 6 (dark) and hands to the
+     colour-2 Lead Teacher section below — no off-white anywhere. */
   tl.to("#phone-contrib", { autoAlpha: 0, duration: 1.2, ease: "power2.in" }, 88.4);
   tl.to(rig, { phoneRotY: -Math.PI, duration: 2.0, ease: "power2.in" }, 89);
   tl.to(".tour-canvas", { autoAlpha: 0, duration: 2 }, 89.6);
@@ -491,11 +549,11 @@ export default function Tour() {
   return (
     <section className="tour" ref={sectionRef}>
       <div className="tour-stage">
-        {/* paint order (bottom→top) = orange, then yellow rises over it, then
-            off-white rises over the yellow — so the DOM order matches */}
-        <div id="stage-orange" className="stage-curtain" style={{ background: "#ff4d00" }} aria-hidden />
-        <div id="stage-yellow" className="stage-curtain" style={{ background: "#f4c300" }} aria-hidden />
-        <div id="stage-white" className="stage-curtain" style={{ background: "var(--bg)" }} aria-hidden />
+        {/* one colour curtain per beat (STAGE_COLORS), DOM order = wipe order so each
+            new colour rises over the previous one */}
+        {STAGE_COLORS.map((s) => (
+          <div key={s.key} id={`stage-${s.key}`} className="stage-curtain" style={{ background: s.color }} aria-hidden />
+        ))}
         <div className="tour-canvas">
           <Canvas frameloop={frameloop} dpr={MOBILE ? [1, 2] : [1, 1.5]} gl={{ antialias: true, alpha: true }} style={{ background: "transparent" }}>
             <Suspense fallback={null}>
@@ -511,7 +569,7 @@ export default function Tour() {
               // The connector reads against the stage behind it: light on the orange
               // beats, dark on the yellow/off-white ones (an ember line on orange or
               // yellow is invisible).
-              const ink = ON_ORANGE.has(c.id) ? "rgba(255,255,255,.85)" : "rgba(26,26,26,.55)";
+              const ink = ON_DARK.has(c.id) ? "rgba(255,255,255,.85)" : "rgba(26,26,26,.55)";
               return (
                 <g key={c.id}>
                   <path id={`ptr-${c.id}`} stroke={ink} strokeWidth="2" opacity="0" strokeDasharray="7 5" strokeLinecap="round" strokeLinejoin="round" fill="none" />
