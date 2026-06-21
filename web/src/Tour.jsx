@@ -156,25 +156,6 @@ function Loader() {
   );
 }
 
-function Hero() {
-  return (
-    <div id="hero-block">
-      <div className="hero-inner">
-        <h1 className="hero-greet caslon">Hi, I'm Koustubh.</h1>
-        <p className="hero-creds">
-          MS Physics (UT Dallas)<span className="sep">|</span>
-          MS Astronomy (IIST)<span className="sep">|</span>
-          B.Tech, ECE (NIT Silchar)
-        </p>
-        <p className="hero-desc">
-          I was the lead physics teacher at <b>KIPP DC College Prep</b> in Washington, DC, USA, and I tutor physics and math, primarily at the school level but also introductory college courses. Scroll to know more.
-        </p>
-      </div>
-      <div className="scroll-hint"><span className="label">scroll</span><span className="chev">⌄</span></div>
-    </div>
-  );
-}
-
 /* Daily check-in contribution graph — a crisp, resolution-independent DOM grid
    projected straight onto the iPhone screen (replaces the low-res screenshot and
    drops the cylinder). Cell intensities are a fixed pattern so it reads as a real
@@ -323,9 +304,8 @@ function buildTimeline(sectionEl) {
     tl.to(rig, { [key]: 0, duration: dOut, ease: "sine.inOut" }, atOut);
   };
 
-  /* 0–6: hero hands off, MacBook rises */
-  tl.to("#hero-block .hero-inner", { y: -120, autoAlpha: 0, duration: 3.2, ease: "power1.in" }, 0.8);
-  tl.to(".scroll-hint", { autoAlpha: 0, duration: 1.5 }, 0.8);
+  /* 0–6: the MacBook rises into the (now velvet) stage. The hero + Lead Teacher are
+     static sections above the tour now, so the walkthrough opens straight on the laptop. */
   tl.to(rig, { macY: -0.15, duration: 6.4, ease: "power2.out" }, 0.4); // rises to screen-centre (y≈0)
   tl.to(rig, { camZ: 4.6, duration: 6.4, ease: "power1.inOut" }, 0.4);
   // white line above the laptop as it rises (white on the orange); it must clear
@@ -598,7 +578,6 @@ export default function Tour() {
             {DECAY_ARC_FRAMES.map((s) => <img key={s} src={s} alt="" />)}
           </div>
           <div id="laptop-intro">I use my own product, Scholar, to track student progress.</div>
-          <Hero />
           <div id="end-hint">
             <span className="eyebrow">and parents notice</span>
             <div className="caslon big">Keep scrolling for their words.</div>

@@ -114,6 +114,30 @@
   footer .brand{color:#fff;}
   footer .fm{color:rgba(255,255,255,.6);}
 
+  /* ── static hero (intro), velvet — sits above the Lead Teacher section and the
+     3D walkthrough ── */
+  #hero{background:#240115;min-height:100vh;display:flex;flex-direction:column;
+    align-items:center;justify-content:center;text-align:center;padding:96px 28px 40px;position:relative;}
+  #hero .h-wrap{max-width:760px;width:100%;display:flex;flex-direction:column;align-items:center;}
+  #hero .h-greet{font-family:var(--sans);font-weight:800;letter-spacing:-.03em;line-height:1.02;
+    font-size:clamp(44px,8vw,104px);color:#fff;margin:0 0 22px;
+    animation:hGreet 1.1s cubic-bezier(.2,.75,.2,1) both;}
+  @keyframes hGreet{0%{opacity:0;transform:scale(.6);letter-spacing:.16em;filter:blur(6px);}
+    60%{opacity:1;transform:scale(1.03);filter:blur(0);}100%{opacity:1;transform:none;letter-spacing:-.03em;}}
+  #hero .h-creds{font-family:var(--sans);font-weight:600;letter-spacing:-.005em;line-height:1.5;
+    font-size:clamp(13px,1.5vw,16.5px);color:rgba(255,255,255,.92);max-width:600px;margin:-2px 0 22px;
+    animation:hRise .8s ease both .65s;}
+  #hero .h-creds .h-sep{color:rgba(255,255,255,.4);font-weight:400;margin:0 9px;}
+  #hero .h-desc{font-family:var(--serif);font-size:clamp(19px,2.1vw,27px);line-height:1.4;letter-spacing:-.01em;
+    color:rgba(255,255,255,.86);max-width:620px;margin:0;animation:hRise .9s ease both .9s;}
+  #hero .h-desc b{font-weight:700;color:#fff;}
+  @keyframes hRise{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:none;}}
+  #hero .h-scroll{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);
+    width:60px;height:60px;border:1px solid rgba(255,255,255,.3);border-radius:50%;display:grid;place-items:center;
+    color:rgba(255,255,255,.8);font-size:22px;animation:hChev 1.6s ease-in-out infinite;}
+  @keyframes hChev{0%,100%{transform:translate(-50%,0);opacity:.55;}50%{transform:translate(-50%,5px);opacity:1;}}
+  @media(prefers-reduced-motion:reduce){#hero .h-greet,#hero .h-creds,#hero .h-desc,#hero .h-scroll{animation:none;}}
+
   /* ---------- section heading ---------- */
   .sec{padding:90px 0;}
   .sec.alt{background:var(--bg2);}
@@ -196,10 +220,17 @@
   </div>
 </nav>
 
-<!-- ============ HERO + SCROLL WALKTHROUGH (React mounts here) ============ -->
-<div id="tour-root"></div>
+<!-- ================= HERO (intro) ================= -->
+<section id="hero">
+  <div class="h-wrap">
+    <h1 class="h-greet">Hi, I'm Koustubh.</h1>
+    <p class="h-creds">MS Physics (UT Dallas)<span class="h-sep">|</span>MS Astronomy (IIST)<span class="h-sep">|</span>B.Tech, ECE (NIT Silchar)</p>
+    <p class="h-desc">I was the lead physics teacher at <b>KIPP DC College Prep</b> in Washington, DC, USA, and I tutor physics and math, primarily at the school level but also introductory college courses. Scroll to know more.</p>
+  </div>
+  <div class="h-scroll" aria-hidden>&#8964;</div>
+</section>
 
-<!-- ================= CREDENTIALS ================= -->
+<!-- ================= CREDENTIALS (Lead Teacher) — right after the hero ================= -->
 <section class="creds wrap" id="credentials">
   <div class="inner">
     <div class="cred-feature reveal">
@@ -226,6 +257,9 @@
     </div>
   </div>
 </section>
+
+<!-- ============ SCROLL WALKTHROUGH — the laptop/iPad/iPhone tour (React mounts here) ============ -->
+<div id="tour-root"></div>
 
 <!-- ================= REVIEWS ================= -->
 <section class="sec" id="reviews">
@@ -305,12 +339,17 @@
   navClone.id='nav-orange';
   navClone.setAttribute('aria-hidden','true');
   nav.parentNode.insertBefore(navClone, nav.nextSibling);
-  // solid off-white header only past the walkthrough; transparent over the stage
+  // The header is solid velvet everywhere EXCEPT while the 3D walkthrough is pinned
+  // and in view — there it goes transparent and its ink is flipped per beat (Tour.jsx).
+  // So: solid over the hero + Lead Teacher (above the tour) and over the sections below.
   var tour=null;
   function onScroll(){
     if(!tour) tour=document.querySelector('.tour');
     var solid=true; // default solid (e.g. the mobile fallback has no .tour)
-    if(tour){ solid = window.scrollY > tour.offsetTop + tour.offsetHeight - window.innerHeight; }
+    if(tour){
+      var top=tour.offsetTop, bottom=top+tour.offsetHeight-window.innerHeight;
+      solid = window.scrollY < top || window.scrollY > bottom;
+    }
     nav.classList.toggle('nav--solid', solid);
   }
   window.addEventListener('scroll', onScroll, {passive:true});
