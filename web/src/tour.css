@@ -2,7 +2,7 @@
 
 .tour {
   position: relative;
-  height: 1800vh;
+  height: 2200vh; /* more scroll per beat so a completed beat lingers (time to read) */
   background: #240115; /* palette colour 1 — the hero sits on it before the curtains rise */
 }
 .tour-stage {

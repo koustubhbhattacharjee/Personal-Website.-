@@ -341,15 +341,16 @@ function buildTimeline(sectionEl) {
   const curtains = STAGE_COLORS.map((s) => ({ ...s, p: { y: 100 } }));
   const C = Object.fromEntries(curtains.map((c) => [c.key, c]));
   /* Header ink: find the topmost curtain that has risen past the nav band and set
-     the header to white on dark colours, dark on light ones (and dark before any
-     curtain reaches the nav, i.e. on the off-white hero). */
+     the header to white on dark colours, dark on light ones. The default is WHITE
+     because the tour base (the velvet hero) is dark colour 1 — so the header reads
+     white from the very start, before any curtain reaches the nav. */
   const navEl = () => document.getElementById("nav");
   const paintNav = () => {
     const nav = navEl();
     if (!nav) return;
     const vh = window.innerHeight;
     const navH = (nav.querySelector(".row")?.offsetHeight) || 68;
-    let dark = false;
+    let dark = true; // velvet base ⇒ white header until a light curtain covers the nav
     for (let i = curtains.length - 1; i >= 0; i--) {
       const topEdge = (curtains[i].p.y / 100) * vh; // px from top of the viewport
       if (topEdge <= navH * 0.5) { dark = curtains[i].dark; break; } // this colour covers the nav
@@ -367,6 +368,7 @@ function buildTimeline(sectionEl) {
   // device spin (used for the within-device-group beat transitions)
   const wipeTo = (key, at, dur = 2.6) =>
     tl.to(C[key].p, { y: 0, duration: dur, ease: "power2.inOut", onUpdate: paintCurtains }, at);
+  paintCurtains(); // set the header ink immediately (white over the velvet hero) before any scroll
 
   /* beat 1 (what): colour 1 floods up as the MacBook rises/opens (~full by 10.5) */
   tl.to(C.c1.p, { y: 0, duration: 9.3, ease: "power2.out", onUpdate: paintCurtains }, 1.2);
@@ -383,7 +385,7 @@ function buildTimeline(sectionEl) {
      Beat 1: what Scholar is — slab beside the laptop. */
   sway("macRotY", 13, 12, 25, 9); // laptop turns slowly through both its beats, back to 0 by ~34
   calloutIn("what", 13);
-  typeBody("what", 14, 5);
+  typeBody("what", 14, 3.2);
   calloutOut("what", 20.5);
 
   /* Beat 2: mastery — the colour-change lives on the laptop. The three
@@ -394,9 +396,11 @@ function buildTimeline(sectionEl) {
   // beat 2 (mastery): colour 2 (red) wipes up behind the laptop — no device spin
   wipeTo("c2", 21);
   calloutIn("mastery", 24);
-  typeBody("mastery", 25, 6.5);
+  typeBody("mastery", 25, 4);
   calloutOut("mastery", 32.5);
-  tl.to(rig, { flipMac: 0, duration: 1.6, ease: "power2.inOut" }, 34);
+  // keep the coloured mastery shapes on the laptop screen through the handoff so the
+  // light "Scholar" dashboard never flashes white as the laptop spins away
+  tl.to(rig, { flipMac: 0, duration: 0.6, ease: "power1.out" }, 41.4);
 
   /* Reusable rotational hard-clip handoff (clip math in Scene.jsx). A colour
      divider rises; the two devices are stacked (the OUT device raised into the
@@ -406,26 +410,28 @@ function buildTimeline(sectionEl) {
      turns its back and is squeezed out of the shrinking top band while the IN
      device turns to face the viewer and fills the growing bottom band. */
   const HOFF_DUR = 4.6, HOFF_EASE = "power2.inOut";
-  const handoff = ({ at, out, inn, rising, inParkY }) => {
+  // dir = +1 spins the OUT device to its right (IN enters from the left); dir = -1
+  // mirrors it (OUT spins the other way, IN comes from the other side).
+  const handoff = ({ at, out, inn, rising, inParkY, dir = 1 }) => {
     tl.set(rig, {
       divider: 1,
-      [`${inn}X`]: 0, [`${inn}Y`]: inParkY, [`${inn}RotY`]: -Math.PI,
+      [`${inn}X`]: 0, [`${inn}Y`]: inParkY, [`${inn}RotY`]: dir * Math.PI,
       [`${out}ClipSide`]: 1, [`${inn}ClipSide`]: -1, clipActive: 1,
     }, at);
     const paint = () => { rising.p.y = rig.divider * 100; paintCurtains(); };
     tl.to(rig, { divider: 0, duration: HOFF_DUR, ease: HOFF_EASE, onUpdate: paint }, at);
-    tl.to(rig, { [`${out}RotY`]: Math.PI, duration: HOFF_DUR, ease: HOFF_EASE }, at);   // 0 → +90° → 180° (back)
-    tl.to(rig, { [`${inn}RotY`]: 0, duration: HOFF_DUR, ease: HOFF_EASE }, at);          // −180° → −90° → 0° (front)
+    tl.to(rig, { [`${out}RotY`]: -dir * Math.PI, duration: HOFF_DUR, ease: HOFF_EASE }, at); // 0 → ∓180° (back)
+    tl.to(rig, { [`${inn}RotY`]: 0, duration: HOFF_DUR, ease: HOFF_EASE }, at);              // ±180° → 0° (front)
     // OUT gone + both clips released so the IN device renders whole
     tl.set(rig, { [`${out}X`]: -100, [`${out}ClipSide`]: 0, [`${inn}ClipSide`]: 0, clipActive: 0 }, at + HOFF_DUR + 0.05);
     return at + HOFF_DUR;
   };
 
-  /* HANDOFF 1 — laptop hands off to the iPad (yellow rises). The iPad arrives
-     already showing the decay practice room on its 3D screen, so it never flashes
-     blank-black while it rotates in. */
+  /* HANDOFF 1 — laptop hands off to the iPad. Spins the OTHER way (dir:-1): the
+     laptop turns the opposite direction and the iPad enters from the other side. The
+     iPad arrives already showing the decay practice room so it never flashes blank. */
   tl.set(rig, { decayRoom: 1 }, 35.6);
-  handoff({ at: 36, out: "mac", inn: "pad", rising: C.c3, inParkY: 0 }); // colour 3 (decay) rises with the spin
+  handoff({ at: 36, out: "mac", inn: "pad", rising: C.c3, inParkY: 0, dir: -1 }); // colour 3 (decay) rises with the spin
 
   /* ── iPad — Beat 3: decay (no problem-solving) ─────────────────────────────
      The iPad shows the practice room with the last-solved arc fully coloured and a
@@ -436,7 +442,7 @@ function buildTimeline(sectionEl) {
   tl.fromTo("#decay-timer", { autoAlpha: 0, y: -12 }, { autoAlpha: 1, y: 0, duration: 1.4, ease: "power2.out" }, 42.6);
   sway("padRotY", 43, 11, 54, 9); // iPad turns slowly through decay + handwriting, back to 0 by ~63
   decayIn("decay", 43.6);
-  typeBody("decay", 45, 7.5);
+  typeBody("decay", 45, 4.5);
   // room blurs; the arc grows out from its corner to fill the screen
   tl.fromTo("#decay-room-img", { filter: "blur(0px)" }, { filter: "blur(9px)", duration: 2.4, ease: "power2.inOut" }, 45.2);
   tl.fromTo("#decay-arc",
@@ -470,7 +476,7 @@ function buildTimeline(sectionEl) {
   // beat 4 (handwriting): colour 4 (light taupe) wipes up behind the iPad — no spin
   wipeTo("c4", 55);
   calloutIn("hand", 57.5);
-  typeBody("hand", 58.8, 5.5);
+  typeBody("hand", 58.8, 3.2);
   gsap.utils.toArray("#pad-draw .stk").forEach((p, i) => {
     tl.fromTo(p, { attr: { "stroke-dashoffset": 1 } },
       { attr: { "stroke-dashoffset": 0 }, duration: 3, ease: "none" }, 59 + i * 0.4);
@@ -487,7 +493,7 @@ function buildTimeline(sectionEl) {
      Beat 5: flashcards (content unchanged; slab caption). */
   sway("phoneRotY", 75, 6, 81, 5); // iPhone turns slowly through flashcards + log, back to 0 by ~86
   calloutIn("cards", 75);
-  typeBody("cards", 75.8, 3.6);
+  typeBody("cards", 75.8, 2.2);
   tl.to(rig, { phoneCards: 0, phoneCardsBack: 1, duration: 1.2, ease: "power1.inOut" }, 77);
   calloutOut("cards", 80);
 
@@ -501,7 +507,7 @@ function buildTimeline(sectionEl) {
     { autoAlpha: 0.16 },
     { autoAlpha: 1, duration: 3, ease: "none", stagger: { each: 0.006, from: "start" } }, 82);
   calloutIn("log", 83.4);
-  typeBody("log", 84, 3.2);
+  typeBody("log", 84, 2.2);
   calloutOut("log", 87.6);
 
   /* iPhone turns away in place; the tour ends on colour 6 (dark) and hands to the
